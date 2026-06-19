@@ -1,0 +1,62 @@
+{
+  "sampleWithOdds": 15,
+  "favorite": {
+    "bets": 15,
+    "wins": 10,
+    "winRate": 67,
+    "pnl": 0.56,
+    "yield": 3.7
+  },
+  "value": {
+    "bets": 19,
+    "wins": 8,
+    "winRate": 42,
+    "pnl": -3.55,
+    "yield": -18.7
+  },
+  "valueStrict": {
+    "bets": 12,
+    "wins": 6,
+    "winRate": 50,
+    "pnl": -2.5,
+    "yield": -20.8
+  },
+  "topValue": [
+    {
+      "home": "Norway",
+      "away": "France",
+      "date": "2026-06-26 15:00 UTC-4",
+      "label": "Victoire France",
+      "prob": 0.7707,
+      "odd": 1.87,
+      "implied": 0.5348,
+      "edge": 0.2359,
+      "ev": 0.441,
+      "provider": "DraftKings"
+    },
+    {
+      "home": "Paraguay",
+      "away": "Australia",
+      "date": "2026-06-25 19:00 UTC-7",
+      "label": "Victoire Australia",
+      "prob": 0.5062,
+      "odd": 3.55,
+      "implied": 0.2817,
+      "edge": 0.2245,
+      "ev": 0.797,
+      "provider": "DraftKings"
+    },
+    {
+      "home": "Argentina",
+      "away": "Austria",
+      "date": "2026-06-22 12:00 UTC-5",
+      "label": "Victoire Argentina",
+      "prob": 0.8089,
+      "odd": 1.625,
+      "implied": 0.6154,
+      "edge": 0.1935,
+      "ev": 0.314,
+      "provider": "DraftKings"
+    }
+  ]
+}

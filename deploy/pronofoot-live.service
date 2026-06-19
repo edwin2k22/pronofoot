@@ -1,0 +1,24 @@
+[Unit]
+# ProноFoot — scheduler LIVE intelligent (s'active à chaque coup d'envoi CDM 2026)
+Description=ProноFoot CDM 2026 — scheduler live intelligent
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+# Les champs User= et WorkingDirectory= sont renseignés par install.sh
+User=__USER__
+WorkingDirectory=__DIR__
+ExecStart=/usr/bin/env python3 -m collector.smart_live --live-poll 30
+# redémarrage automatique en cas de crash / coupure réseau
+Restart=always
+RestartSec=15
+# journalisation via journalctl
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=pronofoot-live
+# robustesse
+TimeoutStopSec=20
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,173 @@
+{
+ "England|Croatia": {
+  "refTeam": "England",
+  "games": [
+   {
+    "date": "2021-06-13",
+    "score": "1-0",
+    "competition": "2020 European Championship"
+   },
+   {
+    "date": "2018-11-18",
+    "score": "2-1",
+    "competition": "2018-19 UEFA Nations League"
+   },
+   {
+    "date": "2018-10-12",
+    "score": "0-0",
+    "competition": "2018-19 UEFA Nations League"
+   },
+   {
+    "date": "2018-07-11",
+    "score": "1-2",
+    "competition": "2018 FIFA World Cup"
+   },
+   {
+    "date": "2009-09-09",
+    "score": "5-1",
+    "competition": "2010 World Cup Qualifying - UEFA"
+   }
+  ],
+  "summary": {
+   "win": 3,
+   "draw": 1,
+   "loss": 1,
+   "total": 5
+  },
+  "home": "England",
+  "away": "Croatia"
+ },
+ "Switzerland|Bosnia & Herzegovina": {
+  "refTeam": "Switzerland",
+  "games": [
+   {
+    "date": "2016-03-29",
+    "score": "0-2",
+    "competition": "International Friendly"
+   }
+  ],
+  "summary": {
+   "win": 0,
+   "draw": 0,
+   "loss": 1,
+   "total": 1
+  },
+  "home": "Switzerland",
+  "away": "Bosnia & Herzegovina"
+ },
+ "Canada|Qatar": {
+  "refTeam": "Canada",
+  "games": [
+   {
+    "date": "2022-09-23",
+    "score": "2-0",
+    "competition": "2022 International Friendly"
+   }
+  ],
+  "summary": {
+   "win": 1,
+   "draw": 0,
+   "loss": 0,
+   "total": 1
+  },
+  "home": "Canada",
+  "away": "Qatar"
+ },
+ "Mexico|South Korea": {
+  "refTeam": "Mexico",
+  "games": [
+   {
+    "date": "2025-09-10",
+    "score": "2-2",
+    "competition": "2025 International Friendly"
+   },
+   {
+    "date": "2020-11-14",
+    "score": "3-2",
+    "competition": "2020 International Friendly"
+   },
+   {
+    "date": "2018-06-23",
+    "score": "2-1",
+    "competition": "2018 FIFA World Cup"
+   },
+   {
+    "date": "2014-01-30",
+    "score": "4-0",
+    "competition": "International Friendly"
+   },
+   {
+    "date": "2012-07-26",
+    "score": "0-0",
+    "competition": "2012 Olympic Men's Soccer"
+   }
+  ],
+  "summary": {
+   "win": 3,
+   "draw": 2,
+   "loss": 0,
+   "total": 5
+  },
+  "home": "Mexico",
+  "away": "South Korea"
+ },
+ "USA|Australia": {
+  "refTeam": "United States",
+  "games": [
+   {
+    "date": "2025-10-15",
+    "score": "2-1",
+    "competition": "2025 International Friendly"
+   },
+   {
+    "date": "2010-06-05",
+    "score": "3-1",
+    "competition": "International Friendly"
+   }
+  ],
+  "summary": {
+   "win": 2,
+   "draw": 0,
+   "loss": 0,
+   "total": 2
+  },
+  "home": "USA",
+  "away": "Australia"
+ },
+ "Scotland|Morocco": {
+  "refTeam": "Scotland",
+  "games": [
+   {
+    "date": "1998-06-23",
+    "score": "0-3",
+    "competition": "1998 FIFA World Cup"
+   }
+  ],
+  "summary": {
+   "win": 0,
+   "draw": 0,
+   "loss": 1,
+   "total": 1
+  },
+  "home": "Scotland",
+  "away": "Morocco"
+ },
+ "Brazil|Haiti": {
+  "refTeam": "Brazil",
+  "games": [
+   {
+    "date": "2016-06-08",
+    "score": "7-1",
+    "competition": "2016 Copa América"
+   }
+  ],
+  "summary": {
+   "win": 1,
+   "draw": 0,
+   "loss": 0,
+   "total": 1
+  },
+  "home": "Brazil",
+  "away": "Haiti"
+ }
+}

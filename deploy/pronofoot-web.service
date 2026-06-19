@@ -1,0 +1,20 @@
+[Unit]
+# ProноFoot — serveur web (sert index.html + scouting.html + les JSON)
+Description=ProноFoot CDM 2026 — serveur web
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=__USER__
+WorkingDirectory=__DIR__
+# port 8077 par défaut (modifiable ici)
+ExecStart=/usr/bin/env python3 -m http.server 8077
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=pronofoot-web
+
+[Install]
+WantedBy=multi-user.target

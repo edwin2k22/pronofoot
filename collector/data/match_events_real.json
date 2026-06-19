@@ -1,0 +1,820 @@
+{
+ "_comment": "Buteurs et déroulé des matchs CDM 2026 terminés, collectés sur le web (Sky, CBS, ESPN, FOX, SportingNews). Clé = 'home|away'. Injecté par collector.import_stats.",
+ "Mexico|South Africa": {
+  "goals": [
+   {
+    "minute": 9,
+    "team": "Mexico",
+    "player": "Julián Quiñones",
+    "note": "after a South Africa turnover"
+   },
+   {
+    "minute": 67,
+    "team": "Mexico",
+    "player": "Raúl Jiménez",
+    "assist": "Roberto Alvarado",
+    "note": "header"
+   }
+  ],
+  "cards": [
+   {
+    "minute": 23,
+    "team": "South Africa",
+    "player": "Teboho Mokoena",
+    "type": "Yellow"
+   },
+   {
+    "minute": 29,
+    "team": "Mexico",
+    "player": "Brian Gutiérrez",
+    "type": "Yellow"
+   },
+   {
+    "minute": 50,
+    "team": "South Africa",
+    "player": "Yaya Sithole",
+    "type": "Red",
+    "note": "denied clear chance"
+   },
+   {
+    "minute": 84,
+    "team": "South Africa",
+    "player": "Themba Zwane",
+    "type": "Red",
+    "note": "VAR review"
+   },
+   {
+    "minute": 88,
+    "team": "Mexico",
+    "player": "César Montes",
+    "type": "Red",
+    "note": "last-man tackle"
+   }
+  ],
+  "motm": "Julián Quiñones",
+  "note": "3 cartons rouges : record pour un match d'ouverture de Coupe du Monde."
+ },
+ "South Korea|Czech Republic": {
+  "goals": [
+   {
+    "minute": 59,
+    "team": "Czech Republic",
+    "player": "Ladislav Krejčí",
+    "assist": "Vladimír Coufal",
+    "note": "header off a throw-in"
+   },
+   {
+    "minute": 67,
+    "team": "South Korea",
+    "player": "Hwang In-Beom",
+    "assist": "Lee Kang-In"
+   },
+   {
+    "minute": 80,
+    "team": "South Korea",
+    "player": "Oh Hyeon-Gyu",
+    "assist": "Hwang In-Beom",
+    "note": "winner off the bench"
+   }
+  ],
+  "cards": [
+   {
+    "minute": 96,
+    "team": "South Korea",
+    "player": "Lee Gi-Hyuk",
+    "type": "Yellow",
+    "note": "bad foul"
+   }
+  ],
+  "motm": "Hwang In-Beom",
+  "note": "Remontada coréenne : menés 0-1, ils renversent le match en 2e mi-temps."
+ },
+ "Canada|Bosnia & Herzegovina": {
+  "goals": [
+   {
+    "minute": 21,
+    "team": "Bosnia & Herzegovina",
+    "player": "Jovo Lukić",
+    "assist": "Sead Kolašinac",
+    "note": "header on a corner, first int'l goal"
+   },
+   {
+    "minute": 78,
+    "team": "Canada",
+    "player": "Cyle Larin",
+    "assist": "Promise David",
+    "note": "late equalizer off the bench"
+   }
+  ],
+  "cards": [
+   {
+    "minute": 44,
+    "team": "Bosnia & Herzegovina",
+    "player": "Ermedin Demirović",
+    "type": "Yellow"
+   },
+   {
+    "minute": 45,
+    "team": "Bosnia & Herzegovina",
+    "player": "Jovo Lukić",
+    "type": "Yellow"
+   },
+   {
+    "minute": 53,
+    "team": "Canada",
+    "player": "Luc De Fougerolles",
+    "type": "Yellow"
+   },
+   {
+    "minute": 90,
+    "team": "Canada",
+    "player": "—",
+    "type": "Yellow"
+   },
+   {
+    "minute": 93,
+    "team": "Bosnia & Herzegovina",
+    "player": "Nikola Katić",
+    "type": "Yellow"
+   }
+  ],
+  "motm": "Cyle Larin",
+  "note": "Premier point du Canada de l'histoire en Coupe du Monde, arraché à la 78e."
+ },
+ "USA|Paraguay": {
+  "goals": [
+   {
+    "minute": 7,
+    "team": "USA",
+    "player": "Bobadilla (csc)",
+    "assist": "Weston McKennie",
+    "note": "but contre son camp"
+   },
+   {
+    "minute": 31,
+    "team": "USA",
+    "player": "Folarin Balogun",
+    "assist": "Christian Pulisic"
+   },
+   {
+    "minute": 45,
+    "team": "USA",
+    "player": "Folarin Balogun",
+    "note": "doublé, juste avant la pause"
+   },
+   {
+    "minute": 73,
+    "team": "Paraguay",
+    "player": "Maurício",
+    "assist": "Miguel Almirón",
+    "note": "but de l'espoir"
+   },
+   {
+    "minute": 90,
+    "team": "USA",
+    "player": "Gio Reyna",
+    "note": "trivela en fin de match"
+   }
+  ],
+  "cards": [
+   {
+    "minute": 59,
+    "team": "USA",
+    "player": "Tyler Adams",
+    "type": "Yellow"
+   },
+   {
+    "minute": 79,
+    "team": "Paraguay",
+    "player": "Diego Gómez",
+    "type": "Yellow"
+   },
+   {
+    "minute": 88,
+    "team": "Paraguay",
+    "player": "Alex Arce",
+    "type": "Yellow"
+   },
+   {
+    "minute": 90,
+    "team": "Paraguay",
+    "player": "Junior Alonso",
+    "type": "Yellow"
+   }
+  ],
+  "motm": "Folarin Balogun",
+  "note": "4 buts = record des USA en Coupe du Monde. Doublé de Balogun pour ses débuts, Reyna conclut d'une trivela."
+ },
+ "Brazil|Morocco": {
+  "goals": [
+   {
+    "minute": 21,
+    "team": "Morocco",
+    "player": "Ismael Saibari",
+    "assist": "Brahim Díaz",
+    "note": "chip over Alisson, first goal from outside the box of the tournament"
+   },
+   {
+    "minute": 32,
+    "team": "Brazil",
+    "player": "Vinícius Júnior",
+    "note": "curling strike into the top corner"
+   }
+  ],
+  "cards": [
+   {
+    "minute": 37,
+    "team": "Brazil",
+    "player": "Casemiro",
+    "type": "Yellow"
+   },
+   {
+    "minute": 41,
+    "team": "Brazil",
+    "player": "Roger Ibañez",
+    "type": "Yellow"
+   },
+   {
+    "minute": 60,
+    "team": "Morocco",
+    "player": "—",
+    "type": "Yellow"
+   }
+  ],
+  "motm": "Vinícius Júnior",
+  "note": "Le Maroc a longtemps dominé ; Alisson sauve un doublé en fin de match."
+ },
+ "Qatar|Switzerland": {
+  "goals": [
+   {
+    "minute": 17,
+    "team": "Switzerland",
+    "player": "Breel Embolo",
+    "note": "penalty (faute d'Abunada sur Freuler)"
+   },
+   {
+    "minute": 94,
+    "team": "Qatar",
+    "player": "Boualem Khoukhi",
+    "assist": "Homam Al-Amin",
+    "note": "header, 1er point de l'histoire du Qatar en CDM"
+   }
+  ],
+  "cards": [
+   {
+    "minute": 30,
+    "team": "Qatar",
+    "player": "Jassem Jaber",
+    "type": "Yellow"
+   },
+   {
+    "minute": 40,
+    "team": "Switzerland",
+    "player": "Denis Zakaria",
+    "type": "Yellow"
+   }
+  ],
+  "motm": "Boualem Khoukhi",
+  "note": "La Suisse a tiré 26 fois (xG 3.24) mais n'a marqué que sur penalty ; Qatar punit en fin de match."
+ },
+ "Haiti|Scotland": {
+  "goals": [
+   {
+    "minute": 28,
+    "team": "Scotland",
+    "player": "John McGinn",
+    "note": "penalty, 1er but écossais en CDM depuis 1998"
+   }
+  ],
+  "cards": [
+   {
+    "minute": 90,
+    "team": "Scotland",
+    "player": "Findlay Curtis",
+    "type": "Yellow"
+   }
+  ],
+  "motm": "John McGinn",
+  "note": "1re victoire de l'Écosse en CDM depuis 1990 ; Pierrot manque l'égalisation de peu en fin de match."
+ },
+ "Australia|Turkey": {
+  "goals": [
+   {
+    "minute": 27,
+    "team": "Australia",
+    "player": "Nestory Irankunda",
+    "note": "contre-attaque ; plus jeune buteur australien en CDM"
+   },
+   {
+    "minute": 75,
+    "team": "Australia",
+    "player": "Connor Metcalfe",
+    "note": "frappe basse de loin"
+   }
+  ],
+  "cards": [
+   {
+    "minute": 90,
+    "team": "Australia",
+    "player": "—",
+    "type": "Yellow"
+   }
+  ],
+  "motm": "Patrick Beach (8 arrêts)",
+  "note": "Surprise : l'Australie bat la Turquie 2-0 malgré 30 tirs turcs. Beach héroïque (8 arrêts), 55 dégagements australiens."
+ },
+ "Germany|Curaçao": {
+  "goals": [
+   {
+    "minute": 6,
+    "team": "Germany",
+    "player": "Lukas Nmecha"
+   },
+   {
+    "minute": 21,
+    "team": "Curaçao",
+    "player": "Livano Comenencia",
+    "note": "1er but de l'histoire de Curaçao en CDM"
+   },
+   {
+    "minute": 40,
+    "team": "Germany",
+    "player": "Nico Schlotterbeck",
+    "note": "tête sur corner"
+   },
+   {
+    "minute": 45,
+    "team": "Germany",
+    "player": "Kai Havertz",
+    "note": "penalty (45+)"
+   },
+   {
+    "minute": 47,
+    "team": "Germany",
+    "player": "Jamal Musiala",
+    "assist": "Joshua Kimmich"
+   },
+   {
+    "minute": 68,
+    "team": "Germany",
+    "player": "Nathaniel Brown"
+   },
+   {
+    "minute": 78,
+    "team": "Germany",
+    "player": "Deniz Undav",
+    "assist": "Joshua Kimmich"
+   },
+   {
+    "minute": 88,
+    "team": "Germany",
+    "player": "Kai Havertz",
+    "assist": "Deniz Undav",
+    "note": "chip, doublé"
+   }
+  ],
+  "cards": [],
+  "motm": "Kai Havertz",
+  "note": "Démonstration allemande 7-1 ; Curaçao marque son 1er but en CDM."
+ },
+ "Netherlands|Japan": {
+  "goals": [
+   {
+    "minute": 51,
+    "team": "Netherlands",
+    "player": "Virgil van Dijk",
+    "assist": "Ryan Gravenberch",
+    "note": "tête sur coup de pied arrêté"
+   },
+   {
+    "minute": 57,
+    "team": "Japan",
+    "player": "Keito Nakamura",
+    "assist": "Takefusa Kubo",
+    "note": "frappe du droit hors surface"
+   },
+   {
+    "minute": 64,
+    "team": "Netherlands",
+    "player": "Crysencio Summerville",
+    "assist": "Ryan Gravenberch",
+    "note": "frappe enroulée"
+   },
+   {
+    "minute": 89,
+    "team": "Japan",
+    "player": "Daichi Kamada",
+    "assist": "Koki Ogawa",
+    "note": "tête déviée sur corner, égalisation tardive"
+   }
+  ],
+  "cards": [
+   {
+    "minute": 61,
+    "team": "Netherlands",
+    "player": "Crysencio Summerville",
+    "type": "Yellow"
+   },
+   {
+    "minute": 83,
+    "team": "Netherlands",
+    "player": "Memphis Depay",
+    "type": "Yellow"
+   },
+   {
+    "minute": 90,
+    "team": "Netherlands",
+    "player": "Mickey van de Ven",
+    "type": "Yellow"
+   }
+  ],
+  "motm": "Daichi Kamada",
+  "note": "Match spectaculaire : le Japon revient deux fois, Kamada égalise à la 89e. 2-2."
+ },
+ "Ivory Coast|Ecuador": {
+  "goals": [
+   {
+    "minute": 90,
+    "team": "Ivory Coast",
+    "player": "Amad Diallo",
+    "assist": "Wilfried Singo",
+    "note": "entré en jeu, frappe du gauche en fin de match"
+   }
+  ],
+  "cards": [
+   {
+    "minute": 73,
+    "team": "Ecuador",
+    "player": "Jackson Porozo",
+    "type": "Yellow"
+   }
+  ],
+  "motm": "Amad Diallo",
+  "note": "1re victoire ivoirienne en CDM contre une équipe mieux classée ; les deux équipes touchent la barre."
+ },
+ "Spain|Cape Verde": {
+  "goals": [],
+  "cards": [
+   {
+    "minute": 50,
+    "team": "Spain",
+    "player": "—",
+    "type": "Yellow"
+   },
+   {
+    "minute": 70,
+    "team": "Cape Verde",
+    "player": "—",
+    "type": "Yellow"
+   }
+  ],
+  "motm": "—",
+  "note": "L'Espagne domine outrageusement (27 tirs, 11 corners) mais bute sur la défense capverdienne : 0-0 surprise."
+ },
+ "Belgium|Egypt": {
+  "goals": [
+   {
+    "minute": 19,
+    "team": "Egypt",
+    "player": "Emam Ashour",
+    "assist": "Mohamed Salah",
+    "note": "frappe du pied droit hors surface"
+   },
+   {
+    "minute": 66,
+    "team": "Belgium",
+    "player": "Mohamed Hany",
+    "note": "but contre son camp (provoqué par Romelu Lukaku 22s après son entrée)"
+   }
+  ],
+  "cards": [
+   {
+    "minute": 13,
+    "team": "Egypt",
+    "player": "Marwan Attia",
+    "type": "Yellow"
+   },
+   {
+    "minute": 14,
+    "team": "Belgium",
+    "player": "Timothy Castagne",
+    "type": "Yellow"
+   },
+   {
+    "minute": 34,
+    "team": "Egypt",
+    "player": "Ahmed Fatouh",
+    "type": "Yellow"
+   },
+   {
+    "minute": 75,
+    "team": "Belgium",
+    "player": "Maxim De Cuyper",
+    "type": "Yellow"
+   }
+  ],
+  "motm": "Emam Ashour",
+  "note": "Nul équilibré à Seattle (Lumen Field, 66 775 spectateurs). Ashour ouvre le score sur passe de Salah, égalisation sur CSC provoqué par Lukaku. Arbitre : Ramon Abatti (BRA)."
+ },
+ "Saudi Arabia|Uruguay": {
+  "goals": [
+   {
+    "minute": 41,
+    "team": "Saudi Arabia",
+    "player": "Abdulelah Al Amri",
+    "note": "sur corner, après parade de Muslera (rebond)"
+   },
+   {
+    "minute": 80,
+    "team": "Uruguay",
+    "player": "Maxi Araújo",
+    "note": "volée du pied gauche, six mètres"
+   }
+  ],
+  "cards": [
+   {
+    "minute": 44,
+    "team": "Saudi Arabia",
+    "player": "Abdulelah Al Amri",
+    "type": "Yellow"
+   }
+  ],
+  "motm": "Mohammed Al Owais",
+  "note": "Énorme domination uruguayenne (28 tirs, 67% possession) mais l'Arabie saoudite résiste grâce à son gardien Al Owais. Araújo égalise tard. Arbitre : Maurizio Mariani (ITA)."
+ },
+ "Iran|New Zealand": {
+  "goals": [
+   {
+    "minute": 7,
+    "team": "New Zealand",
+    "player": "Elijah Just",
+    "assist": "Chris Wood",
+    "note": "volée"
+   },
+   {
+    "minute": 31,
+    "team": "Iran",
+    "player": "Ramin Rezaeian"
+   },
+   {
+    "minute": 54,
+    "team": "New Zealand",
+    "player": "Elijah Just",
+    "assist": "Chris Wood",
+    "note": "doublé"
+   },
+   {
+    "minute": 64,
+    "team": "Iran",
+    "player": "Mohammad Mohebi",
+    "assist": "Ramin Rezaeian",
+    "note": "tête"
+   }
+  ],
+  "cards": [],
+  "motm": "Elijah Just",
+  "note": "Spectaculaire 2-2 à Inglewood (SoFi Stadium). NZ mène 2 fois (doublé de Just), Iran égalise 2 fois (Rezaeian buteur+passeur). 4e nul de la journée. Arbitre : César Ramos (MEX)."
+ },
+ "France|Senegal": {
+  "goals": [
+   {
+    "minute": 66,
+    "team": "France",
+    "player": "Kylian Mbappé",
+    "assist": "Michael Olise",
+    "note": "passe en profondeur"
+   },
+   {
+    "minute": 82,
+    "team": "France",
+    "player": "Bradley Barcola",
+    "assist": "Adrien Rabiot",
+    "note": "contre-attaque"
+   },
+   {
+    "minute": 90,
+    "team": "Senegal",
+    "player": "Ibrahim Mbaye",
+    "assist": "Iliman Ndiaye",
+    "note": "90'+5', frappe enroulée"
+   },
+   {
+    "minute": 90,
+    "team": "France",
+    "player": "Kylian Mbappé",
+    "note": "90'+6', frappe de loin (58e but, recordman France)"
+   }
+  ],
+  "cards": [],
+  "motm": "Kylian Mbappé",
+  "note": "France 3-1 mais Sénégal meilleur xG par moments (1ère mi-temps France xG 0.02 !). VAR refuse un penalty à la France (58'). Mbappé doublé décisif en 2e période. Conforme au modèle (France 72%) ET à l'intuition (Sénégal a marqué, BTTS Oui). Arbitre : Alireza Faghani (AUS/IRN)."
+ },
+ "Iraq|Norway": {
+  "goals": [
+   {
+    "minute": 29,
+    "team": "Norway",
+    "player": "Erling Haaland",
+    "assist": "David Møller Wolfe"
+   },
+   {
+    "minute": 39,
+    "team": "Iraq",
+    "player": "Aymen Hussein",
+    "assist": "Amir Al Ammari",
+    "note": "tête"
+   },
+   {
+    "minute": 43,
+    "team": "Norway",
+    "player": "Erling Haaland",
+    "note": "doublé"
+   },
+   {
+    "minute": 76,
+    "team": "Norway",
+    "player": "Leo Østigård",
+    "assist": "Martin Ødegaard",
+    "note": "tête sur corner"
+   },
+   {
+    "minute": 90,
+    "team": "Norway",
+    "player": "Aymen Hussein",
+    "note": "90'+6', csc"
+   }
+  ],
+  "cards": [],
+  "motm": "Erling Haaland",
+  "note": "Haaland marque ses 2 premiers buts en CDM pour le retour de la Norvège (1ère depuis 1998). Arbitre : Pierre Atcho."
+ },
+ "Argentina|Algeria": {
+  "goals": [
+   {
+    "minute": 17,
+    "team": "Argentina",
+    "player": "Lionel Messi",
+    "assist": "Rodrigo De Paul",
+    "note": "frappe hors surface"
+   },
+   {
+    "minute": 60,
+    "team": "Argentina",
+    "player": "Lionel Messi",
+    "note": "doublé"
+   },
+   {
+    "minute": 76,
+    "team": "Argentina",
+    "player": "Lionel Messi",
+    "assist": "Nico González",
+    "note": "triplé — 1er hat-trick de Messi en CDM"
+   }
+  ],
+  "cards": [],
+  "motm": "Lionel Messi",
+  "note": "PREMIER hat-trick de Messi en Coupe du Monde, pour sa 6e CDM (record) et son 200e match. Arbitre : Szymon Marciniak."
+ },
+ "Austria|Jordan": {
+  "goals": [
+   {
+    "minute": 21,
+    "team": "Austria",
+    "player": "Romano Schmid",
+    "assist": "Xaver Schlager",
+    "note": "hors surface"
+   },
+   {
+    "minute": 50,
+    "team": "Jordan",
+    "player": "Ali Olwan",
+    "assist": "Noor Al Rawabdeh",
+    "note": "contre"
+   },
+   {
+    "minute": 76,
+    "team": "Austria",
+    "player": "Yazan Al Arab",
+    "note": "csc (provoqué)"
+   },
+   {
+    "minute": 90,
+    "team": "Austria",
+    "player": "Marko Arnautović",
+    "note": "90'+12', penalty"
+   }
+  ],
+  "cards": [],
+  "motm": "Romano Schmid",
+  "note": "1er but autrichien en CDM depuis 1998. Score final 3-1. Arbitre via ESPN."
+ },
+ "Portugal|DR Congo": {
+  "goals": [
+   {
+    "minute": 6,
+    "team": "Portugal",
+    "player": "João Neves",
+    "assist": "Pedro Neto",
+    "note": "tête"
+   },
+   {
+    "minute": 45,
+    "team": "DR Congo",
+    "player": "Yoane Wissa",
+    "assist": "Arthur Masuaku",
+    "note": "45'+5', tête — 1er but de la RDC en CDM"
+   }
+  ],
+  "cards": [],
+  "motm": "João Neves",
+  "note": "HISTORIQUE : 1er point de la RDC en Coupe du Monde. Ronaldo (41 ans) muet, meilleur xG pour la RDC. Arbitre : Abdulrahman Al-Jassim."
+ },
+ "England|Croatia": {
+  "goals": [
+   {
+    "minute": 13,
+    "team": "England",
+    "player": "Harry Kane",
+    "note": "penalty (retiré)"
+   },
+   {
+    "minute": 36,
+    "team": "Croatia",
+    "player": "Martin Baturina",
+    "note": "frappe lointaine"
+   },
+   {
+    "minute": 42,
+    "team": "England",
+    "player": "Harry Kane",
+    "note": "tête sur corner"
+   },
+   {
+    "minute": 45,
+    "team": "Croatia",
+    "player": "Petar Musa",
+    "assist": "Ivan Perišić",
+    "note": "45'+5'"
+   },
+   {
+    "minute": 46,
+    "team": "England",
+    "player": "Jude Bellingham",
+    "assist": "Harry Kane"
+   },
+   {
+    "minute": 85,
+    "team": "England",
+    "player": "Marcus Rashford"
+   }
+  ],
+  "cards": [],
+  "motm": "Harry Kane",
+  "note": "Spectacle à Dallas. Kane doublé + passe déc. Revanche de la demie 2018. Arbitre : Clément Turpin."
+ },
+ "Ghana|Panama": {
+  "goals": [
+   {
+    "minute": 90,
+    "team": "Ghana",
+    "player": "Caleb Yirenkyi",
+    "assist": "Brandon Thomas-Asante",
+    "note": "90'+5', vainqueur tardif"
+   }
+  ],
+  "cards": [],
+  "motm": "Caleb Yirenkyi",
+  "note": "But victorieux à la 95e. Panama a dominé les tirs. Arbitre : Glenn Nyberg."
+ },
+ "Uzbekistan|Colombia": {
+  "goals": [
+   {
+    "minute": 40,
+    "team": "Colombia",
+    "player": "Daniel Muñoz",
+    "assist": "Luis Díaz"
+   },
+   {
+    "minute": 60,
+    "team": "Uzbekistan",
+    "player": "Abbosbek Fayzullaev",
+    "note": "1er but de l'Ouzbékistan en CDM"
+   },
+   {
+    "minute": 65,
+    "team": "Colombia",
+    "player": "Luis Díaz",
+    "note": "frappe puissante"
+   },
+   {
+    "minute": 90,
+    "team": "Colombia",
+    "player": "Jaminton Campaz",
+    "note": "90'+9', tête"
+   }
+  ],
+  "cards": [],
+  "motm": "Luis Díaz",
+  "note": "Luis Díaz : 1 but + 1 passe déc. Ouzbékistan marque son 1er but en CDM. Arbitre : Anthony Taylor."
+ }
+}
