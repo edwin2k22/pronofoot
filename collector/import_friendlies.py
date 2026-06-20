@@ -123,6 +123,20 @@ def main():
                 home_cards = get_stat("home", "cards")
                 away_cards = get_stat("away", "cards")
                 
+                # Ingestion du score mi-temps
+                ht = summ.get("halftime")
+                home_ht_goals = None
+                away_ht_goals = None
+                if ht and "-" in ht:
+                    try:
+                        parts = ht.split("-")
+                        h_ht = int(parts[0])
+                        a_ht = int(parts[1])
+                        home_ht_goals = h_ht if espn_home_is_base_home else a_ht
+                        away_ht_goals = a_ht if espn_home_is_base_home else h_ht
+                    except (ValueError, IndexError):
+                        pass
+
                 # Ingestion des stats d'équipe complexes sous forme de JSON
                 EXT = ["possession", "passes", "passes_ok", "pass_pct", "crosses", "crosses_ok",
                        "long_balls", "tackles", "tackles_won", "interceptions", "clearances",
@@ -140,10 +154,12 @@ def main():
                         home_xg=?, away_xg=?, home_shots=?, away_shots=?,
                         home_shots_on=?, away_shots_on=?,
                         home_corners=?, away_corners=?, home_cards=?, away_cards=?,
+                        home_ht_goals=?, away_ht_goals=?,
                         team_stats_json=?
                     WHERE id=?
                 """, (home_xg, away_xg, home_shots, away_shots, home_shots_on, away_shots_on,
-                      home_corners, away_corners, home_cards, away_cards, ts_json, match_id))
+                      home_corners, away_corners, home_cards, away_cards,
+                      home_ht_goals, away_ht_goals, ts_json, match_id))
                 stats_imported += 1
                 
     conn.commit()

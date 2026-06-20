@@ -40,6 +40,8 @@ CREATE TABLE IF NOT EXISTS matches (
     -- résultat réel (rempli après le match, point 4)
     home_goals    INTEGER,
     away_goals    INTEGER,
+    home_ht_goals INTEGER,
+    away_ht_goals INTEGER,
     home_xg       REAL,
     away_xg       REAL,
     home_shots    INTEGER,
@@ -132,6 +134,10 @@ def init_db(path: str = DB_PATH) -> sqlite3.Connection:
         conn.execute("ALTER TABLE matches ADD COLUMN away_shots_on INTEGER")
     if "team_stats_json" not in cols:
         conn.execute("ALTER TABLE matches ADD COLUMN team_stats_json TEXT")
+    if "home_ht_goals" not in cols:
+        conn.execute("ALTER TABLE matches ADD COLUMN home_ht_goals INTEGER")
+    if "away_ht_goals" not in cols:
+        conn.execute("ALTER TABLE matches ADD COLUMN away_ht_goals INTEGER")
     # moyennes évolutives de tirs / tirs cadrés par équipe (point : pronos tirs)
     tcols = {r["name"] for r in conn.execute("PRAGMA table_info(teams)").fetchall()}
     if "shots_avg" not in tcols:
@@ -190,7 +196,7 @@ def upsert_match(conn, competition, stage, utc_date, home, away, status="SCHEDUL
 
 def record_result(conn, match_id, **stats):
     """Enregistre le résultat réel + stats post-match (point 4)."""
-    cols = ["home_goals", "away_goals", "home_xg", "away_xg", "home_shots",
+    cols = ["home_goals", "away_goals", "home_ht_goals", "away_ht_goals", "home_xg", "away_xg", "home_shots",
             "away_shots", "home_corners", "away_corners", "home_cards", "away_cards"]
     sets = ", ".join(f"{c}=?" for c in cols if c in stats)
     vals = [stats[c] for c in cols if c in stats]

@@ -1788,6 +1788,10 @@ function halftimeBlock(m,p){
     </div>`;
   }
 
+  const note = (h.shareHome !== undefined && h.shareAway !== undefined)
+    ? `ℹ️ La mi-temps est estimée via les ratios de buts en 1ère MT propres à chaque équipe (priorisé à ~42% via Bayesian Shrinkage). Domicile (${m.home}) : <b>${Math.round(h.shareHome*100)}%</b> · Extérieur (${m.away}) : <b>${Math.round(h.shareAway*100)}%</b>.`
+    : `ℹ️ La mi-temps est dérivée du ratio structurel des buts en Coupe du Monde (~42 % marqués en 1ère période · sources : CDM 2018/2022 & 19 CDM 1930-2010). C'est une constante du football mondial, <b>pas</b> une statistique propre à ${m.home}/${m.away}.`;
+
   return `<div style="margin-top:14px"><h3>⏱️ Mi-temps probable</h3>
     <div class="grid2">
       <div>
@@ -1803,9 +1807,7 @@ function halftimeBlock(m,p){
         <div class="stat"><span>Over 1.5 en 1ère MT</span><span>${pct(h.ou15.over)}</span></div>
       </div>
     </div>
-    <div class="note">ℹ️ La mi-temps est dérivée du ratio structurel des buts en Coupe du Monde
-    (~42 % marqués en 1ère période · sources : CDM 2018/2022 & 19 CDM 1930-2010).
-    C'est une constante du football mondial, <b>pas</b> une statistique propre à ${m.home}/${m.away}.</div>
+    <div class="note">${note}</div>
   </div>`;
 }
 

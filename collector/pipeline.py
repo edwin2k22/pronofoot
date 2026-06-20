@@ -503,10 +503,52 @@ def _learn_ensemble(rows):
     return weights, meta
 
 
+def load_halftime_shares(conn) -> dict[str, float]:
+    """
+    Calcule pour chaque équipe la part empirique de buts marqués en 1ère mi-temps.
+    Utilise le Bayesian Shrinkage (crédibilité) pour éviter le surapprentissage.
+    Prior / baseline globale = 0.42. Force du prior (B) = 5.0 buts.
+    """
+    rows = conn.execute("""
+        SELECT home, away, home_goals, away_goals, home_ht_goals, away_ht_goals
+        FROM matches
+        WHERE status='FINISHED' AND home_ht_goals IS NOT NULL AND away_ht_goals IS NOT NULL
+    """).fetchall()
+
+    stats = {}
+    for r in rows:
+        h, a = r["home"], r["away"]
+        hg, ag = r["home_goals"], r["away_goals"]
+        hght, aght = r["home_ht_goals"], r["away_ht_goals"]
+
+        stats.setdefault(h, {"goals_total": 0, "goals_ht": 0})
+        stats[h]["goals_total"] += hg
+        stats[h]["goals_ht"] += hght
+
+        stats.setdefault(a, {"goals_total": 0, "goals_ht": 0})
+        stats[a]["goals_total"] += ag
+        stats[a]["goals_ht"] += aght
+
+    B = 5.0
+    PRIOR = 0.42
+    shares = {}
+    all_t = conn.execute("SELECT name FROM teams").fetchall()
+    for t in all_t:
+        name = t["name"]
+        if name in stats:
+            g_tot = stats[name]["goals_total"]
+            g_ht = stats[name]["goals_ht"]
+            shares[name] = (g_ht + B * PRIOR) / (g_tot + B)
+        else:
+            shares[name] = PRIOR
+    return shares
+
+
 def predict():
     conn = db.init_db()
     rows = conn.execute(
         "SELECT * FROM matches WHERE status IN ('SCHEDULED','LIVE','HT','FINISHED') ORDER BY utc_date").fetchall()
+    ht_shares = load_halftime_shares(conn)
 
     # journée de poule (1/2/3) par match : Nième match de chaque équipe dans son groupe
     played_count = {}
@@ -665,7 +707,9 @@ def predict():
         scenarios = sg.scenarios(grid)
         # Over/Under multi-lignes + score mi-temps (tout dérivé de la grille corrigée)
         ou_lines = sg.over_under_lines(grid)
-        ht = sg.halftime(lam_h, lam_a, rho=rho_cal, gamma=gamma)
+        share_h = ht_shares.get(mt["home"], 0.42)
+        share_a = ht_shares.get(mt["away"], 0.42)
+        ht = sg.halftime(lam_h, lam_a, rho=rho_cal, gamma=gamma, share_h=share_h, share_a=share_a)
         # bonus Over 2.5 lié à la profondeur de banc (fin de match)
         goals["over"] = round(min(0.98, goals["over"] + lineup_info["benchBonusOver25"]), 4)
         # correctifs empiriques (biais systématique mesuré sur les matchs joués) —

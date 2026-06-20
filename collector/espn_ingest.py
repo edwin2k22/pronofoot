@@ -166,7 +166,15 @@ def ingest_match(home, away, date_hint=None):
             # On conserve motm et note s'ils existent déjà
             cur_ev["goals"] = sev.get("goals") or cur_ev.get("goals") or []
             cur_ev["cards"] = sev.get("cards") or cur_ev.get("cards") or []
-            cur_ev["halftime"] = summ.get("halftime") or cur_ev.get("halftime")
+            raw_ht = summ.get("halftime")
+            if raw_ht and "-" in raw_ht:
+                if not espn_home_is_base_home:
+                    parts = raw_ht.split("-")
+                    cur_ev["halftime"] = f"{parts[1]}-{parts[0]}"
+                else:
+                    cur_ev["halftime"] = raw_ht
+            else:
+                cur_ev["halftime"] = cur_ev.get("halftime")
             if "motm" not in cur_ev or cur_ev["motm"] == "—":
                 cur_ev.setdefault("motm", "—")
             cur_ev.setdefault("note", "")

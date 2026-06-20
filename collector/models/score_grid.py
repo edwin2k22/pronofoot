@@ -249,13 +249,13 @@ def over_under_lines(grid, lines=(0.5, 1.5, 2.5, 3.5)) -> dict:
 HT_GOAL_SHARE = 0.42
 
 
-def halftime(lam_h, lam_a, rho=DEFAULT_RHO, gamma=0.0, share=HT_GOAL_SHARE) -> dict:
+def halftime(lam_h, lam_a, rho=DEFAULT_RHO, gamma=0.0, share_h=HT_GOAL_SHARE, share_a=HT_GOAL_SHARE) -> dict:
     """
     Score probable à la mi-temps + O/U mi-temps, en appliquant la même mécanique
-    Dixon-Coles aux lambdas de 1ère période (λ × part structurelle des buts en 1ère MT).
+    Dixon-Coles aux lambdas de 1ère période (λ × part de buts en 1ère MT).
     """
-    lh = max(lam_h * share, 1e-6)
-    la = max(lam_a * share, 1e-6)
+    lh = max(lam_h * share_h, 1e-6)
+    la = max(lam_a * share_a, 1e-6)
     g = score_grid(lh, la, rho=rho, gamma=gamma)
     o = outcomes(g)
     ou = over_under_lines(g, lines=(0.5, 1.5))
@@ -265,6 +265,7 @@ def halftime(lam_h, lam_a, rho=DEFAULT_RHO, gamma=0.0, share=HT_GOAL_SHARE) -> d
         "topScore": list(o["top_score"]),
         "p1": o["p1"], "pX": o["pX"], "p2": o["p2"],
         "ou05": ou["0.5"], "ou15": ou["1.5"],
-        "share": share,
-        "note": "1ère MT estimée via la part structurelle des buts en CDM (~42 %, sources : CDM 2018/2022/2022 & 19 CDM 1930-2010). Pas une stat par équipe.",
+        "shareHome": round(share_h, 3),
+        "shareAway": round(share_a, 3),
+        "note": f"1ère MT estimée via les ratios de buts en 1ère MT propres à chaque équipe (priorisé à ~42% via Bayesian Shrinkage). Domicile: {round(share_h*100)}%, Extérieur: {round(share_a*100)}%.",
     }
