@@ -85,7 +85,9 @@ CREATE TABLE IF NOT EXISTS players (
     tackles INTEGER DEFAULT 0, interceptions INTEGER DEFAULT 0,
     blocks INTEGER DEFAULT 0, clearances INTEGER DEFAULT 0,
     pressures INTEGER DEFAULT 0, recoveries INTEGER DEFAULT 0,
-    fouls INTEGER DEFAULT 0, offsides INTEGER DEFAULT 0,
+    fouls INTEGER DEFAULT 0, fouls_served INTEGER DEFAULT 0,
+    offsides INTEGER DEFAULT 0, own_goals INTEGER DEFAULT 0,
+    sub_ins INTEGER DEFAULT 0,
     cards TEXT DEFAULT '',
     UNIQUE(name, team)
 );
@@ -99,7 +101,8 @@ CREATE TABLE IF NOT EXISTS player_match_stats (
     passes INTEGER, prog_passes INTEGER, tackles INTEGER,
     interceptions INTEGER, blocks INTEGER, clearances INTEGER,
     pressures INTEGER, recoveries INTEGER, fouls INTEGER,
-    offsides INTEGER, cards TEXT,
+    fouls_served INTEGER, offsides INTEGER, own_goals INTEGER,
+    sub_ins INTEGER, cards TEXT,
     UNIQUE(player_name, team, match_ref)
 );
 """
@@ -153,6 +156,21 @@ def init_db(path: str = DB_PATH) -> sqlite3.Connection:
     # minute de jeu live réelle (ex "56'") fournie par ESPN pendant un match en cours
     if "live_clock" not in cols:
         conn.execute("ALTER TABLE matches ADD COLUMN live_clock TEXT")
+    # Migrations pour les nouvelles colonnes de joueurs et player_match_stats
+    pcols = {r["name"] for r in conn.execute("PRAGMA table_info(players)").fetchall()}
+    if "fouls_served" not in pcols:
+        conn.execute("ALTER TABLE players ADD COLUMN fouls_served INTEGER DEFAULT 0")
+    if "own_goals" not in pcols:
+        conn.execute("ALTER TABLE players ADD COLUMN own_goals INTEGER DEFAULT 0")
+    if "sub_ins" not in pcols:
+        conn.execute("ALTER TABLE players ADD COLUMN sub_ins INTEGER DEFAULT 0")
+    pmcols = {r["name"] for r in conn.execute("PRAGMA table_info(player_match_stats)").fetchall()}
+    if "fouls_served" not in pmcols:
+        conn.execute("ALTER TABLE player_match_stats ADD COLUMN fouls_served INTEGER")
+    if "own_goals" not in pmcols:
+        conn.execute("ALTER TABLE player_match_stats ADD COLUMN own_goals INTEGER")
+    if "sub_ins" not in pmcols:
+        conn.execute("ALTER TABLE player_match_stats ADD COLUMN sub_ins INTEGER")
     conn.commit()
     return conn
 
@@ -244,11 +262,11 @@ def add_player_match(conn, **st):
     cols = ["player_name", "team", "match_ref", "minutes", "goals", "assists",
             "shots", "shots_on", "xg", "xa", "passes", "prog_passes", "tackles",
             "interceptions", "blocks", "clearances", "pressures", "recoveries",
-            "fouls", "offsides", "cards"]
+            "fouls", "fouls_served", "offsides", "own_goals", "sub_ins", "cards"]
     vals = [st.get(c) for c in cols]
     try:
         conn.execute(f"""INSERT INTO player_match_stats({','.join(cols)})
-                         VALUES ({','.join('?'*len(cols))})""", vals)
+                         VALUES({','.join('?'*len(cols))})""", vals)
     except Exception:
         return False  # déjà ingéré (UNIQUE)
     # cumul sur players
@@ -260,7 +278,8 @@ def add_player_match(conn, **st):
           passes=passes+?, prog_passes=prog_passes+?, tackles=tackles+?,
           interceptions=interceptions+?, blocks=blocks+?, clearances=clearances+?,
           pressures=pressures+?, recoveries=recoveries+?, fouls=fouls+?,
-          offsides=offsides+?,
+          fouls_served=fouls_served+?, offsides=offsides+?,
+          own_goals=own_goals+?, sub_ins=sub_ins+?,
           cards = TRIM(cards || ' ' || ?)
         WHERE name=? AND team=?
     """, (st.get("minutes",0), st.get("goals",0), st.get("assists",0),
@@ -268,6 +287,8 @@ def add_player_match(conn, **st):
           st.get("passes",0), st.get("prog_passes",0), st.get("tackles",0),
           st.get("interceptions",0), st.get("blocks",0), st.get("clearances",0),
           st.get("pressures",0), st.get("recoveries",0), st.get("fouls",0),
-          st.get("offsides",0), st.get("cards","") or "",
+          st.get("fouls_served",0), st.get("offsides",0),
+          st.get("own_goals",0), st.get("sub_ins",0),
+          st.get("cards","") or "",
           st.get("player_name"), st.get("team")))
     return True

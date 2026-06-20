@@ -42,7 +42,9 @@ def _to_match_stat(p: dict, team: str, match_ref: str) -> dict:
         "tackles": i(p.get("tacles")), "interceptions": i(p.get("interceptions")),
         "blocks": i(p.get("blocks")), "clearances": i(p.get("degagements")),
         "pressures": i(p.get("pressions")), "recoveries": i(p.get("ballons_recuperes")),
-        "fouls": i(p.get("fautes_commises")), "offsides": i(p.get("hors_jeu")),
+        "fouls": i(p.get("fautes_commises")), "fouls_served": i(p.get("fautes_subies")),
+        "offsides": i(p.get("hors_jeu")), "own_goals": i(p.get("but_csc", 0)),
+        "sub_ins": 1 if p.get("statut") == "Remplaçant" and p.get("minutes", 0) > 0 else 0,
         "cards": "" if p.get("cartons") in ("—", None) else p.get("cartons"),
     }
 
@@ -117,7 +119,7 @@ def export_for_web():
                 "statut": (rs.get("statut", "—") if rs else "N/D"),
                 "minutes": val(r["minutes_2026"], "minutes"),
                 "buts": val(r["goals"], "buts"), "passes_dec": val(r["assists"], "passes_dec"),
-                "but_csc": (rs.get("but_csc", "—") if rs else "N/D"),
+                "but_csc": val(r["own_goals"], "but_csc"),
                 "tirs": val(r["shots"], "tirs"), "tirs_cadres": val(r["shots_on"], "tirs_cadres"),
                 "xg": val(round(r["xg"], 2), "xg"), "xa": val(round(r["xa"], 2), "xa"),
                 "passes_reussies": val(r["passes"], "passes_reussies"),
@@ -125,7 +127,10 @@ def export_for_web():
                 "tacles": val(r["tackles"], "tacles"), "interceptions": val(r["interceptions"], "interceptions"),
                 "blocks": val(r["blocks"], "blocks"), "degagements": val(r["clearances"], "degagements"),
                 "pressions": val(r["pressures"], "pressions"), "ballons_recuperes": val(r["recoveries"], "ballons_recuperes"),
-                "fautes_commises": val(r["fouls"], "fautes_commises"), "hors_jeu": val(r["offsides"], "hors_jeu"),
+                "fautes_commises": val(r["fouls"], "fautes_commises"),
+                "fautes_subies": val(r["fouls_served"], "fautes_subies"),
+                "hors_jeu": val(r["offsides"], "hors_jeu"),
+                "remplacements": val(r["sub_ins"], "sub_ins"),
                 "note": rs.get("note", "N/D") if rs else "N/D",
                 "cartons": (rs.get("cartons") if rs and rs.get("cartons") else
                             ("—" if rs else ((r["cards"].strip() or "—") if played else "N/D"))),

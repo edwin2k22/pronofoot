@@ -86,8 +86,8 @@ def _to_num(v):
 _PLAYER_STAT_MAP = {
     "totalGoals": "buts", "goalAssists": "passes_dec", "totalShots": "tirs",
     "shotsOnTarget": "tirs_cadres", "foulsCommitted": "fautes_commises",
-    "offsides": "hors_jeu", "saves": "saves", "shotsFaced": "shots_faced",
-    "goalsConceded": "goals_conceded",
+    "foulsDrawn": "fautes_subies", "offsides": "hors_jeu", "saves": "saves",
+    "shotsFaced": "shots_faced", "goalsConceded": "goals_conceded",
 }
 
 
