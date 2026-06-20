@@ -1,0 +1,31 @@
+:root{
+  color-scheme: dark;
+}
+
+body.theme-light{
+  color-scheme: light;
+  --bg:#f5f7fb;
+  --bg2:#eef3fb;
+  --card:#ffffff;
+  --card2:#f8fbff;
+  --line:#d9e2f2;
+  --txt:#111827;
+  --muted:#607089;
+  --glass:rgba(17,24,39,.04);
+  --glass-brd:rgba(17,24,39,.12);
+  --shadow:0 16px 38px rgba(15,23,42,.12);
+}
+
+body.theme-light .sidebar,
+body.theme-light .offcanvas{
+  background:linear-gradient(180deg,rgba(255,255,255,.94),rgba(238,243,251,.96));
+}
+
+body.theme-light .matchitem,
+body.theme-light .card,
+body.theme-light .hero-card,
+body.theme-light .group-card,
+body.theme-light .topvalue,
+body.theme-light .livefeed{
+  box-shadow:var(--shadow);
+}

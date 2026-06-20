@@ -1273,5 +1273,103 @@
   "motm": "—",
   "note": "",
   "halftime": "2-1"
+ },
+ "Germany|Ivory Coast": {
+  "goals": [
+   {
+    "minute": 30,
+    "team": "Ivory Coast",
+    "player": "Franck Kessié",
+    "assist": null,
+    "note": null
+   },
+   {
+    "minute": 68,
+    "team": "Germany",
+    "player": "Deniz Undav",
+    "assist": "Nadiem Amiri",
+    "note": null
+   },
+   {
+    "minute": 90,
+    "team": "Germany",
+    "player": "Deniz Undav",
+    "assist": "Felix Nmecha",
+    "note": null
+   }
+  ],
+  "cards": [],
+  "halftime": "0-1",
+  "motm": "—",
+  "note": ""
+ },
+ "Netherlands|Sweden": {
+  "goals": [
+   {
+    "minute": 5,
+    "team": "Netherlands",
+    "player": "Brian Brobbey",
+    "assist": "Cody Gakpo",
+    "note": null
+   },
+   {
+    "minute": 17,
+    "team": "Netherlands",
+    "player": "Brian Brobbey",
+    "assist": "Denzel Dumfries",
+    "note": null
+   },
+   {
+    "minute": 47,
+    "team": "Netherlands",
+    "player": "Cody Gakpo",
+    "assist": "Denzel Dumfries",
+    "note": null
+   },
+   {
+    "minute": 54,
+    "team": "Netherlands",
+    "player": "Cody Gakpo",
+    "assist": "Crysencio Summerville",
+    "note": null
+   },
+   {
+    "minute": 59,
+    "team": "Sweden",
+    "player": "Anthony Elanga",
+    "assist": "Alexander Isak",
+    "note": null
+   },
+   {
+    "minute": 89,
+    "team": "Netherlands",
+    "player": "Crysencio Summerville",
+    "assist": "Memphis Depay",
+    "note": null
+   }
+  ],
+  "cards": [
+   {
+    "minute": 53,
+    "team": "Sweden",
+    "player": "Gabriel Gudmundsson",
+    "type": "Yellow"
+   },
+   {
+    "minute": 75,
+    "team": "Sweden",
+    "player": "Yasin Ayari",
+    "type": "Yellow"
+   },
+   {
+    "minute": 80,
+    "team": "Sweden",
+    "player": "Lucas Bergvall",
+    "type": "Yellow"
+   }
+  ],
+  "halftime": "2-0",
+  "motm": "—",
+  "note": ""
  }
 }
