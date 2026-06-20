@@ -133,14 +133,15 @@ def _xg_estimate(shots, shots_on):
 
 def match_summary(event_id):
     """
-    Renvoie {team_stats, player_stats, lineups} d'un match ESPN, ou None.
+    Renvoie {team_stats, player_stats, lineups, events} d'un match ESPN, ou None.
       team_stats   : {home/away_xg?, _shots, _shots_on, _corners, _cards, _possession}
       player_stats : {equipe: {joueur: {poste, statut, buts, tirs, ...}}}
+      events       : {goals: [{minute, team, player, assist, note}], cards: [{minute, team, player, type}]}
     """
     d = _get(f"{BASE}/summary?event={event_id}")
     if not d:
         return None
-    out = {"team": {}, "players": {}, "lineups": {}, "referee": None}
+    out = {"team": {}, "players": {}, "lineups": {}, "referee": None, "events": {"goals": [], "cards": []}}
     # arbitre du match (gameInfo.officials)
     for off in (d.get("gameInfo", {}).get("officials") or []):
         pos = off.get("position", {})
@@ -226,6 +227,57 @@ def match_summary(event_id):
             (out["lineups"][team]["xi"] if p.get("starter")
              else out["lineups"][team]["bench"]).append(name)
         out["players"][team] = players
+
+    # ----- keyEvents (goals, cards) -----
+    goals_list = []
+    cards_list = []
+    for e in d.get("keyEvents", []):
+        etype = e.get("type", {}).get("type")
+        minute_str = e.get("clock", {}).get("displayValue", "")
+        minute = 0
+        if minute_str:
+            try:
+                minute = int(minute_str.replace("'", "").split("+")[0])
+            except ValueError:
+                pass
+        
+        team_name = _norm(e.get("team", {}).get("displayName", ""))
+        
+        if etype == "goal":
+            players = e.get("participants", [])
+            scorer = players[0].get("athlete", {}).get("displayName") if len(players) > 0 else "—"
+            assist = players[1].get("athlete", {}).get("displayName") if len(players) > 1 else None
+            note = None
+            text = e.get("text", "")
+            if "own goal" in text.lower():
+                scorer += " (csc)"
+                note = "but contre son camp"
+            elif "penalty" in text.lower():
+                note = "penalty"
+            
+            goals_list.append({
+                "minute": minute,
+                "team": team_name,
+                "player": scorer,
+                "assist": assist,
+                "note": note
+            })
+        elif etype in ("yellow-card", "red-card") or "red card" in e.get("type", {}).get("text", "").lower() or "red-card" in etype:
+            players = e.get("participants", [])
+            player = players[0].get("athlete", {}).get("displayName") if len(players) > 0 else "—"
+            card_type = "Red" if (etype == "red-card" or "red card" in e.get("type", {}).get("text", "").lower()) else "Yellow"
+            
+            cards_list.append({
+                "minute": minute,
+                "team": team_name,
+                "player": player,
+                "type": card_type
+            })
+            
+    out["events"] = {
+        "goals": goals_list,
+        "cards": cards_list
+    }
     return out
 
 

@@ -6,49 +6,46 @@
     "minute": 9,
     "team": "Mexico",
     "player": "Julián Quiñones",
-    "note": "after a South Africa turnover"
-   },
-   {
-    "minute": 67,
-    "team": "Mexico",
-    "player": "Raúl Jiménez",
-    "assist": "Roberto Alvarado",
-    "note": "header"
+    "assist": "Érik Lira",
+    "note": null
    }
   ],
   "cards": [
    {
-    "minute": 23,
+    "minute": 17,
     "team": "South Africa",
     "player": "Teboho Mokoena",
     "type": "Yellow"
    },
    {
-    "minute": 29,
+    "minute": 23,
     "team": "Mexico",
     "player": "Brian Gutiérrez",
     "type": "Yellow"
    },
    {
-    "minute": 50,
+    "minute": 49,
     "team": "South Africa",
-    "player": "Yaya Sithole",
-    "type": "Red",
-    "note": "denied clear chance"
+    "player": "Sphephelo Sithole",
+    "type": "Red"
+   },
+   {
+    "minute": 74,
+    "team": "South Africa",
+    "player": "Nkosinathi Sibisi",
+    "type": "Yellow"
    },
    {
     "minute": 84,
     "team": "South Africa",
     "player": "Themba Zwane",
-    "type": "Red",
-    "note": "VAR review"
+    "type": "Red"
    },
    {
-    "minute": 88,
+    "minute": 90,
     "team": "Mexico",
     "player": "César Montes",
-    "type": "Red",
-    "note": "last-man tackle"
+    "type": "Red"
    }
   ],
   "motm": "Julián Quiñones",
@@ -57,33 +54,26 @@
  "South Korea|Czech Republic": {
   "goals": [
    {
-    "minute": 59,
-    "team": "Czech Republic",
-    "player": "Ladislav Krejčí",
-    "assist": "Vladimír Coufal",
-    "note": "header off a throw-in"
-   },
-   {
     "minute": 67,
     "team": "South Korea",
     "player": "Hwang In-Beom",
-    "assist": "Lee Kang-In"
+    "assist": "Lee Kang-In",
+    "note": null
    },
    {
     "minute": 80,
     "team": "South Korea",
     "player": "Oh Hyeon-Gyu",
     "assist": "Hwang In-Beom",
-    "note": "winner off the bench"
+    "note": null
    }
   ],
   "cards": [
    {
-    "minute": 96,
+    "minute": 90,
     "team": "South Korea",
     "player": "Lee Gi-Hyuk",
-    "type": "Yellow",
-    "note": "bad foul"
+    "type": "Yellow"
    }
   ],
   "motm": "Hwang In-Beom",
@@ -92,49 +82,42 @@
  "Canada|Bosnia & Herzegovina": {
   "goals": [
    {
-    "minute": 21,
-    "team": "Bosnia & Herzegovina",
-    "player": "Jovo Lukić",
-    "assist": "Sead Kolašinac",
-    "note": "header on a corner, first int'l goal"
-   },
-   {
     "minute": 78,
     "team": "Canada",
     "player": "Cyle Larin",
     "assist": "Promise David",
-    "note": "late equalizer off the bench"
+    "note": null
    }
   ],
   "cards": [
    {
-    "minute": 44,
-    "team": "Bosnia & Herzegovina",
-    "player": "Ermedin Demirović",
+    "minute": 11,
+    "team": "Canada",
+    "player": "Alistair Johnston",
     "type": "Yellow"
    },
    {
     "minute": 45,
     "team": "Bosnia & Herzegovina",
-    "player": "Jovo Lukić",
+    "player": "Ermedin Demirovic",
+    "type": "Yellow"
+   },
+   {
+    "minute": 45,
+    "team": "Bosnia & Herzegovina",
+    "player": "Jovo Lukic",
     "type": "Yellow"
    },
    {
     "minute": 53,
     "team": "Canada",
-    "player": "Luc De Fougerolles",
+    "player": "Luc de Fougerolles",
     "type": "Yellow"
    },
    {
     "minute": 90,
-    "team": "Canada",
-    "player": "—",
-    "type": "Yellow"
-   },
-   {
-    "minute": 93,
     "team": "Bosnia & Herzegovina",
-    "player": "Nikola Katić",
+    "player": "Nikola Katic",
     "type": "Yellow"
    }
   ],
@@ -144,42 +127,56 @@
  "USA|Paraguay": {
   "goals": [
    {
-    "minute": 7,
-    "team": "USA",
-    "player": "Bobadilla (csc)",
-    "assist": "Weston McKennie",
-    "note": "but contre son camp"
-   },
-   {
     "minute": 31,
-    "team": "USA",
+    "team": "United States",
     "player": "Folarin Balogun",
-    "assist": "Christian Pulisic"
+    "assist": "Christian Pulisic",
+    "note": null
    },
    {
     "minute": 45,
-    "team": "USA",
+    "team": "United States",
     "player": "Folarin Balogun",
-    "note": "doublé, juste avant la pause"
+    "assist": "Malik Tillman",
+    "note": null
    },
    {
     "minute": 73,
     "team": "Paraguay",
     "player": "Maurício",
-    "assist": "Miguel Almirón",
-    "note": "but de l'espoir"
+    "assist": "Julio Enciso",
+    "note": null
    },
    {
     "minute": 90,
-    "team": "USA",
-    "player": "Gio Reyna",
-    "note": "trivela en fin de match"
+    "team": "United States",
+    "player": "Giovanni Reyna",
+    "assist": "Alex Freeman",
+    "note": null
    }
   ],
   "cards": [
    {
+    "minute": 10,
+    "team": "Paraguay",
+    "player": "Juan Jose Cáceres",
+    "type": "Yellow"
+   },
+   {
+    "minute": 52,
+    "team": "United States",
+    "player": "Tim Ream",
+    "type": "Yellow"
+   },
+   {
+    "minute": 53,
+    "team": "Paraguay",
+    "player": "Miguel Almirón",
+    "type": "Yellow"
+   },
+   {
     "minute": 59,
-    "team": "USA",
+    "team": "United States",
     "player": "Tyler Adams",
     "type": "Yellow"
    },
@@ -198,7 +195,7 @@
    {
     "minute": 90,
     "team": "Paraguay",
-    "player": "Junior Alonso",
+    "player": "Júnior Alonso",
     "type": "Yellow"
    }
   ],
@@ -212,13 +209,14 @@
     "team": "Morocco",
     "player": "Ismael Saibari",
     "assist": "Brahim Díaz",
-    "note": "chip over Alisson, first goal from outside the box of the tournament"
+    "note": null
    },
    {
     "minute": 32,
     "team": "Brazil",
     "player": "Vinícius Júnior",
-    "note": "curling strike into the top corner"
+    "assist": "Bruno Guimarães",
+    "note": null
    }
   ],
   "cards": [
@@ -229,15 +227,9 @@
     "type": "Yellow"
    },
    {
-    "minute": 41,
+    "minute": 43,
     "team": "Brazil",
     "player": "Roger Ibañez",
-    "type": "Yellow"
-   },
-   {
-    "minute": 60,
-    "team": "Morocco",
-    "player": "—",
     "type": "Yellow"
    }
   ],
@@ -262,13 +254,19 @@
   ],
   "cards": [
    {
-    "minute": 30,
+    "minute": 16,
     "team": "Qatar",
-    "player": "Jassem Jaber",
+    "player": "Mahmoud Abunada",
     "type": "Yellow"
    },
    {
-    "minute": 40,
+    "minute": 23,
+    "team": "Qatar",
+    "player": "Jassem Gaber",
+    "type": "Yellow"
+   },
+   {
+    "minute": 42,
     "team": "Switzerland",
     "player": "Denis Zakaria",
     "type": "Yellow"
@@ -283,14 +281,33 @@
     "minute": 28,
     "team": "Scotland",
     "player": "John McGinn",
-    "note": "penalty, 1er but écossais en CDM depuis 1998"
+    "assist": null,
+    "note": null
    }
   ],
   "cards": [
    {
+    "minute": 39,
+    "team": "Haiti",
+    "player": "Jean-Ricner Bellegarde",
+    "type": "Yellow"
+   },
+   {
+    "minute": 46,
+    "team": "Scotland",
+    "player": "Aaron Hickey",
+    "type": "Yellow"
+   },
+   {
     "minute": 90,
     "team": "Scotland",
     "player": "Findlay Curtis",
+    "type": "Yellow"
+   },
+   {
+    "minute": 90,
+    "team": "Scotland",
+    "player": "Kenny McLean",
     "type": "Yellow"
    }
   ],
@@ -303,20 +320,22 @@
     "minute": 27,
     "team": "Australia",
     "player": "Nestory Irankunda",
-    "note": "contre-attaque ; plus jeune buteur australien en CDM"
+    "assist": "Paul Okon-Engstler",
+    "note": null
    },
    {
     "minute": 75,
     "team": "Australia",
     "player": "Connor Metcalfe",
-    "note": "frappe basse de loin"
+    "assist": null,
+    "note": null
    }
   ],
   "cards": [
    {
-    "minute": 90,
-    "team": "Australia",
-    "player": "—",
+    "minute": 86,
+    "team": "Turkey",
+    "player": "Yunus Akgün",
     "type": "Yellow"
    }
   ],
@@ -328,49 +347,37 @@
    {
     "minute": 6,
     "team": "Germany",
-    "player": "Lukas Nmecha"
+    "player": "Felix Nmecha",
+    "assist": "Florian Wirtz",
+    "note": null
    },
    {
     "minute": 21,
     "team": "Curaçao",
     "player": "Livano Comenencia",
-    "note": "1er but de l'histoire de Curaçao en CDM"
-   },
-   {
-    "minute": 40,
-    "team": "Germany",
-    "player": "Nico Schlotterbeck",
-    "note": "tête sur corner"
-   },
-   {
-    "minute": 45,
-    "team": "Germany",
-    "player": "Kai Havertz",
-    "note": "penalty (45+)"
+    "assist": null,
+    "note": null
    },
    {
     "minute": 47,
     "team": "Germany",
     "player": "Jamal Musiala",
-    "assist": "Joshua Kimmich"
-   },
-   {
-    "minute": 68,
-    "team": "Germany",
-    "player": "Nathaniel Brown"
+    "assist": "Joshua Kimmich",
+    "note": null
    },
    {
     "minute": 78,
     "team": "Germany",
     "player": "Deniz Undav",
-    "assist": "Joshua Kimmich"
+    "assist": "Joshua Kimmich",
+    "note": null
    },
    {
     "minute": 88,
     "team": "Germany",
     "player": "Kai Havertz",
     "assist": "Deniz Undav",
-    "note": "chip, doublé"
+    "note": null
    }
   ],
   "cards": [],
@@ -380,32 +387,18 @@
  "Netherlands|Japan": {
   "goals": [
    {
-    "minute": 51,
-    "team": "Netherlands",
-    "player": "Virgil van Dijk",
-    "assist": "Ryan Gravenberch",
-    "note": "tête sur coup de pied arrêté"
-   },
-   {
     "minute": 57,
     "team": "Japan",
     "player": "Keito Nakamura",
     "assist": "Takefusa Kubo",
-    "note": "frappe du droit hors surface"
+    "note": null
    },
    {
     "minute": 64,
     "team": "Netherlands",
     "player": "Crysencio Summerville",
     "assist": "Ryan Gravenberch",
-    "note": "frappe enroulée"
-   },
-   {
-    "minute": 89,
-    "team": "Japan",
-    "player": "Daichi Kamada",
-    "assist": "Koki Ogawa",
-    "note": "tête déviée sur corner, égalisation tardive"
+    "note": null
    }
   ],
   "cards": [
@@ -424,7 +417,7 @@
    {
     "minute": 90,
     "team": "Netherlands",
-    "player": "Mickey van de Ven",
+    "player": "Micky van de Ven",
     "type": "Yellow"
    }
   ],
@@ -438,10 +431,28 @@
     "team": "Ivory Coast",
     "player": "Amad Diallo",
     "assist": "Wilfried Singo",
-    "note": "entré en jeu, frappe du gauche en fin de match"
+    "note": null
    }
   ],
   "cards": [
+   {
+    "minute": 28,
+    "team": "Ivory Coast",
+    "player": "Seko Fofana",
+    "type": "Yellow"
+   },
+   {
+    "minute": 38,
+    "team": "Ivory Coast",
+    "player": "Franck Kessié",
+    "type": "Yellow"
+   },
+   {
+    "minute": 40,
+    "team": "Ivory Coast",
+    "player": "Guela Doué",
+    "type": "Yellow"
+   },
    {
     "minute": 73,
     "team": "Ecuador",
@@ -456,15 +467,15 @@
   "goals": [],
   "cards": [
    {
-    "minute": 50,
-    "team": "Spain",
-    "player": "—",
+    "minute": 16,
+    "team": "Cape Verde",
+    "player": "Sidny Lopes Cabral",
     "type": "Yellow"
    },
    {
-    "minute": 70,
-    "team": "Cape Verde",
-    "player": "—",
+    "minute": 90,
+    "team": "Spain",
+    "player": "Pedri ",
     "type": "Yellow"
    }
   ],
@@ -474,24 +485,18 @@
  "Belgium|Egypt": {
   "goals": [
    {
-    "minute": 19,
+    "minute": 20,
     "team": "Egypt",
     "player": "Emam Ashour",
     "assist": "Mohamed Salah",
-    "note": "frappe du pied droit hors surface"
-   },
-   {
-    "minute": 66,
-    "team": "Belgium",
-    "player": "Mohamed Hany",
-    "note": "but contre son camp (provoqué par Romelu Lukaku 22s après son entrée)"
+    "note": null
    }
   ],
   "cards": [
    {
     "minute": 13,
     "team": "Egypt",
-    "player": "Marwan Attia",
+    "player": "Marawan Attia",
     "type": "Yellow"
    },
    {
@@ -521,21 +526,23 @@
    {
     "minute": 41,
     "team": "Saudi Arabia",
-    "player": "Abdulelah Al Amri",
-    "note": "sur corner, après parade de Muslera (rebond)"
+    "player": "Abdulelah Al-Amri",
+    "assist": null,
+    "note": null
    },
    {
     "minute": 80,
     "team": "Uruguay",
     "player": "Maxi Araújo",
-    "note": "volée du pied gauche, six mètres"
+    "assist": null,
+    "note": null
    }
   ],
   "cards": [
    {
     "minute": 44,
     "team": "Saudi Arabia",
-    "player": "Abdulelah Al Amri",
+    "player": "Abdulelah Al-Amri",
     "type": "Yellow"
    }
   ],
@@ -549,29 +556,31 @@
     "team": "New Zealand",
     "player": "Elijah Just",
     "assist": "Chris Wood",
-    "note": "volée"
+    "note": null
    },
    {
-    "minute": 31,
+    "minute": 32,
     "team": "Iran",
-    "player": "Ramin Rezaeian"
+    "player": "Ramin Rezaeian",
+    "assist": null,
+    "note": null
    },
    {
     "minute": 54,
     "team": "New Zealand",
     "player": "Elijah Just",
     "assist": "Chris Wood",
-    "note": "doublé"
-   },
-   {
-    "minute": 64,
-    "team": "Iran",
-    "player": "Mohammad Mohebi",
-    "assist": "Ramin Rezaeian",
-    "note": "tête"
+    "note": null
    }
   ],
-  "cards": [],
+  "cards": [
+   {
+    "minute": 89,
+    "team": "Iran",
+    "player": "Ehsan Hajsafi",
+    "type": "Yellow"
+   }
+  ],
   "motm": "Elijah Just",
   "note": "Spectaculaire 2-2 à Inglewood (SoFi Stadium). NZ mène 2 fois (doublé de Just), Iran égalise 2 fois (Rezaeian buteur+passeur). 4e nul de la journée. Arbitre : César Ramos (MEX)."
  },
@@ -582,27 +591,28 @@
     "team": "France",
     "player": "Kylian Mbappé",
     "assist": "Michael Olise",
-    "note": "passe en profondeur"
+    "note": null
    },
    {
     "minute": 82,
     "team": "France",
     "player": "Bradley Barcola",
     "assist": "Adrien Rabiot",
-    "note": "contre-attaque"
+    "note": null
    },
    {
     "minute": 90,
     "team": "Senegal",
     "player": "Ibrahim Mbaye",
     "assist": "Iliman Ndiaye",
-    "note": "90'+5', frappe enroulée"
+    "note": null
    },
    {
     "minute": 90,
     "team": "France",
     "player": "Kylian Mbappé",
-    "note": "90'+6', frappe de loin (58e but, recordman France)"
+    "assist": null,
+    "note": null
    }
   ],
   "cards": [],
@@ -615,36 +625,25 @@
     "minute": 29,
     "team": "Norway",
     "player": "Erling Haaland",
-    "assist": "David Møller Wolfe"
-   },
-   {
-    "minute": 39,
-    "team": "Iraq",
-    "player": "Aymen Hussein",
-    "assist": "Amir Al Ammari",
-    "note": "tête"
+    "assist": "David Møller Wolfe",
+    "note": null
    },
    {
     "minute": 43,
     "team": "Norway",
     "player": "Erling Haaland",
-    "note": "doublé"
-   },
-   {
-    "minute": 76,
-    "team": "Norway",
-    "player": "Leo Østigård",
-    "assist": "Martin Ødegaard",
-    "note": "tête sur corner"
-   },
-   {
-    "minute": 90,
-    "team": "Norway",
-    "player": "Aymen Hussein",
-    "note": "90'+6', csc"
+    "assist": null,
+    "note": null
    }
   ],
-  "cards": [],
+  "cards": [
+   {
+    "minute": 86,
+    "team": "Iraq",
+    "player": "Zaid Tahseen",
+    "type": "Yellow"
+   }
+  ],
   "motm": "Erling Haaland",
   "note": "Haaland marque ses 2 premiers buts en CDM pour le retour de la Norvège (1ère depuis 1998). Arbitre : Pierre Atcho."
  },
@@ -655,20 +654,21 @@
     "team": "Argentina",
     "player": "Lionel Messi",
     "assist": "Rodrigo De Paul",
-    "note": "frappe hors surface"
+    "note": null
    },
    {
     "minute": 60,
     "team": "Argentina",
     "player": "Lionel Messi",
-    "note": "doublé"
+    "assist": null,
+    "note": null
    },
    {
     "minute": 76,
     "team": "Argentina",
     "player": "Lionel Messi",
     "assist": "Nico González",
-    "note": "triplé — 1er hat-trick de Messi en CDM"
+    "note": null
    }
   ],
   "cards": [],
@@ -682,29 +682,24 @@
     "team": "Austria",
     "player": "Romano Schmid",
     "assist": "Xaver Schlager",
-    "note": "hors surface"
+    "note": null
    },
    {
     "minute": 50,
     "team": "Jordan",
     "player": "Ali Olwan",
-    "assist": "Noor Al Rawabdeh",
-    "note": "contre"
-   },
-   {
-    "minute": 76,
-    "team": "Austria",
-    "player": "Yazan Al Arab",
-    "note": "csc (provoqué)"
-   },
-   {
-    "minute": 90,
-    "team": "Austria",
-    "player": "Marko Arnautović",
-    "note": "90'+12', penalty"
+    "assist": "Noor Al-Rawabdeh",
+    "note": null
    }
   ],
-  "cards": [],
+  "cards": [
+   {
+    "minute": 77,
+    "team": "Austria",
+    "player": "Marcel Sabitzer",
+    "type": "Yellow"
+   }
+  ],
   "motm": "Romano Schmid",
   "note": "1er but autrichien en CDM depuis 1998. Score final 3-1. Arbitre via ESPN."
  },
@@ -725,47 +720,64 @@
     "note": "45'+5', tête — 1er but de la RDC en CDM"
    }
   ],
-  "cards": [],
+  "cards": [
+   {
+    "minute": 13,
+    "team": "Portugal",
+    "player": "Bernardo Silva",
+    "type": "Yellow"
+   },
+   {
+    "minute": 32,
+    "team": "Congo DR",
+    "player": "Chancel Mbemba",
+    "type": "Yellow"
+   },
+   {
+    "minute": 88,
+    "team": "Portugal",
+    "player": "Nélson Semedo",
+    "type": "Yellow"
+   },
+   {
+    "minute": 90,
+    "team": "Portugal",
+    "player": "Tomás Araújo",
+    "type": "Yellow"
+   }
+  ],
   "motm": "João Neves",
   "note": "HISTORIQUE : 1er point de la RDC en Coupe du Monde. Ronaldo (41 ans) muet, meilleur xG pour la RDC. Arbitre : Abdulrahman Al-Jassim."
  },
  "England|Croatia": {
   "goals": [
    {
-    "minute": 13,
-    "team": "England",
-    "player": "Harry Kane",
-    "note": "penalty (retiré)"
-   },
-   {
     "minute": 36,
     "team": "Croatia",
     "player": "Martin Baturina",
-    "note": "frappe lointaine"
-   },
-   {
-    "minute": 42,
-    "team": "England",
-    "player": "Harry Kane",
-    "note": "tête sur corner"
+    "assist": "Petar Sucic",
+    "note": null
    },
    {
     "minute": 45,
     "team": "Croatia",
     "player": "Petar Musa",
-    "assist": "Ivan Perišić",
-    "note": "45'+5'"
+    "assist": "Ivan Perisic",
+    "note": null
    },
    {
-    "minute": 46,
+    "minute": 47,
     "team": "England",
     "player": "Jude Bellingham",
-    "assist": "Harry Kane"
+    "assist": "Elliot Anderson",
+    "note": null
    },
    {
     "minute": 85,
     "team": "England",
-    "player": "Marcus Rashford"
+    "player": "Marcus Rashford",
+    "assist": "Bukayo Saka",
+    "note": null
    }
   ],
   "cards": [],
@@ -779,10 +791,29 @@
     "team": "Ghana",
     "player": "Caleb Yirenkyi",
     "assist": "Brandon Thomas-Asante",
-    "note": "90'+5', vainqueur tardif"
+    "note": null
    }
   ],
-  "cards": [],
+  "cards": [
+   {
+    "minute": 16,
+    "team": "Ghana",
+    "player": "Caleb Yirenkyi",
+    "type": "Yellow"
+   },
+   {
+    "minute": 72,
+    "team": "Panama",
+    "player": "César Blackman",
+    "type": "Yellow"
+   },
+   {
+    "minute": 90,
+    "team": "Panama",
+    "player": "Carlos Harvey",
+    "type": "Yellow"
+   }
+  ],
   "motm": "Caleb Yirenkyi",
   "note": "But victorieux à la 95e. Panama a dominé les tirs. Arbitre : Glenn Nyberg."
  },
@@ -792,29 +823,423 @@
     "minute": 40,
     "team": "Colombia",
     "player": "Daniel Muñoz",
-    "assist": "Luis Díaz"
-   },
-   {
-    "minute": 60,
-    "team": "Uzbekistan",
-    "player": "Abbosbek Fayzullaev",
-    "note": "1er but de l'Ouzbékistan en CDM"
+    "assist": "Luis Díaz",
+    "note": null
    },
    {
     "minute": 65,
     "team": "Colombia",
     "player": "Luis Díaz",
-    "note": "frappe puissante"
+    "assist": "Gustavo Puerta",
+    "note": null
+   }
+  ],
+  "cards": [
+   {
+    "minute": 7,
+    "team": "Colombia",
+    "player": "Johan Mojica",
+    "type": "Yellow"
+   },
+   {
+    "minute": 34,
+    "team": "Uzbekistan",
+    "player": "Abdukodir Khusanov",
+    "type": "Yellow"
+   }
+  ],
+  "motm": "Luis Díaz",
+  "note": "Luis Díaz : 1 but + 1 passe déc. Ouzbékistan marque son 1er but en CDM. Arbitre : Anthony Taylor."
+ },
+ "Czech Republic|South Africa": {
+  "goals": [
+   {
+    "minute": 6,
+    "team": "Czech Republic",
+    "player": "Michal Sadílek",
+    "assist": "Alexandr Sojka",
+    "note": null
+   }
+  ],
+  "cards": [
+   {
+    "minute": 33,
+    "team": "South Africa",
+    "player": "Teboho Mokoena",
+    "type": "Yellow"
+   },
+   {
+    "minute": 40,
+    "team": "South Africa",
+    "player": "Thalente Mbatha",
+    "type": "Yellow"
+   },
+   {
+    "minute": 75,
+    "team": "Czech Republic",
+    "player": "Ladislav Krejcí",
+    "type": "Yellow"
+   }
+  ],
+  "motm": "—",
+  "note": ""
+ },
+ "Mexico|South Korea": {
+  "goals": [
+   {
+    "minute": 50,
+    "team": "Mexico",
+    "player": "Luis Romo",
+    "assist": null,
+    "note": null
+   }
+  ],
+  "cards": [
+   {
+    "minute": 4,
+    "team": "South Korea",
+    "player": "Lee Kang-In",
+    "type": "Yellow"
+   },
+   {
+    "minute": 58,
+    "team": "South Korea",
+    "player": "Paik Seung-Ho",
+    "type": "Yellow"
+   }
+  ],
+  "motm": "—",
+  "note": ""
+ },
+ "Switzerland|Bosnia & Herzegovina": {
+  "goals": [
+   {
+    "minute": 74,
+    "team": "Switzerland",
+    "player": "Johan Manzambi",
+    "assist": null,
+    "note": null
+   },
+   {
+    "minute": 84,
+    "team": "Switzerland",
+    "player": "Rubén Vargas",
+    "assist": "Breel Embolo",
+    "note": null
    },
    {
     "minute": 90,
-    "team": "Colombia",
-    "player": "Jaminton Campaz",
-    "note": "90'+9', tête"
+    "team": "Switzerland",
+    "player": "Johan Manzambi",
+    "assist": "Rubén Vargas",
+    "note": null
+   },
+   {
+    "minute": 90,
+    "team": "Bosnia & Herzegovina",
+    "player": "Ermin Mahmic",
+    "assist": null,
+    "note": null
    }
   ],
-  "cards": [],
-  "motm": "Luis Díaz",
-  "note": "Luis Díaz : 1 but + 1 passe déc. Ouzbékistan marque son 1er but en CDM. Arbitre : Anthony Taylor."
+  "cards": [
+   {
+    "minute": 59,
+    "team": "Bosnia & Herzegovina",
+    "player": "Amar Dedic",
+    "type": "Yellow"
+   },
+   {
+    "minute": 61,
+    "team": "Bosnia & Herzegovina",
+    "player": "Edin Dzeko",
+    "type": "Yellow"
+   },
+   {
+    "minute": 65,
+    "team": "Switzerland",
+    "player": "Nico Elvedi",
+    "type": "Yellow"
+   },
+   {
+    "minute": 80,
+    "team": "Bosnia & Herzegovina",
+    "player": "Tarik Muharemovic",
+    "type": "Red"
+   }
+  ],
+  "motm": "—",
+  "note": ""
+ },
+ "Canada|Qatar": {
+  "goals": [
+   {
+    "minute": 16,
+    "team": "Canada",
+    "player": "Cyle Larin",
+    "assist": null,
+    "note": null
+   },
+   {
+    "minute": 29,
+    "team": "Canada",
+    "player": "Jonathan David",
+    "assist": null,
+    "note": null
+   },
+   {
+    "minute": 45,
+    "team": "Canada",
+    "player": "Jonathan David",
+    "assist": null,
+    "note": null
+   },
+   {
+    "minute": 90,
+    "team": "Canada",
+    "player": "Jonathan David",
+    "assist": "Nathan Saliba",
+    "note": null
+   }
+  ],
+  "cards": [
+   {
+    "minute": 9,
+    "team": "Canada",
+    "player": "Derek Cornelius",
+    "type": "Yellow"
+   },
+   {
+    "minute": 33,
+    "team": "Qatar",
+    "player": "Homam Ahmed",
+    "type": "Red"
+   },
+   {
+    "minute": 53,
+    "team": "Qatar",
+    "player": "Assim Madibo",
+    "type": "Red"
+   },
+   {
+    "minute": 62,
+    "team": "Qatar",
+    "player": "Ahmed Fathy",
+    "type": "Yellow"
+   }
+  ],
+  "motm": "—",
+  "note": ""
+ },
+ "Scotland|Morocco": {
+  "goals": [
+   {
+    "minute": 2,
+    "team": "Morocco",
+    "player": "Ismael Saibari",
+    "assist": "Brahim Díaz",
+    "note": null
+   }
+  ],
+  "cards": [
+   {
+    "minute": 23,
+    "team": "Morocco",
+    "player": "Issa Diop",
+    "type": "Yellow"
+   },
+   {
+    "minute": 65,
+    "team": "Scotland",
+    "player": "Andy Robertson",
+    "type": "Yellow"
+   }
+  ],
+  "motm": "—",
+  "note": ""
+ },
+ "Brazil|Haiti": {
+  "goals": [
+   {
+    "minute": 23,
+    "team": "Brazil",
+    "player": "Matheus Cunha",
+    "assist": null,
+    "note": null
+   },
+   {
+    "minute": 36,
+    "team": "Brazil",
+    "player": "Matheus Cunha",
+    "assist": "Vinícius Júnior",
+    "note": null
+   },
+   {
+    "minute": 45,
+    "team": "Brazil",
+    "player": "Vinícius Júnior",
+    "assist": "Lucas Paquetá",
+    "note": null
+   }
+  ],
+  "cards": [
+   {
+    "minute": 4,
+    "team": "Haiti",
+    "player": "Carlens Arcus",
+    "type": "Yellow"
+   },
+   {
+    "minute": 45,
+    "team": "Haiti",
+    "player": "Frantzdy Pierrot",
+    "type": "Yellow"
+   },
+   {
+    "minute": 65,
+    "team": "Brazil",
+    "player": "Douglas Santos",
+    "type": "Yellow"
+   },
+   {
+    "minute": 72,
+    "team": "Haiti",
+    "player": "Danley Jean Jacques",
+    "type": "Yellow"
+   }
+  ],
+  "motm": "—",
+  "note": ""
+ },
+ "USA|Australia": {
+  "goals": [],
+  "cards": [
+   {
+    "minute": 16,
+    "team": "Australia",
+    "player": "Jordan Bos",
+    "type": "Yellow"
+   },
+   {
+    "minute": 32,
+    "team": "Australia",
+    "player": "Alessandro Circati",
+    "type": "Yellow"
+   },
+   {
+    "minute": 56,
+    "team": "United States",
+    "player": "Antonee Robinson",
+    "type": "Yellow"
+   },
+   {
+    "minute": 88,
+    "team": "Australia",
+    "player": "Harry Souttar",
+    "type": "Yellow"
+   },
+   {
+    "minute": 89,
+    "team": "United States",
+    "player": "Folarin Balogun",
+    "type": "Yellow"
+   },
+   {
+    "minute": 89,
+    "team": "Australia",
+    "player": "Jacob Italiano",
+    "type": "Yellow"
+   },
+   {
+    "minute": 90,
+    "team": "United States",
+    "player": "Chris Richards",
+    "type": "Yellow"
+   }
+  ],
+  "motm": "—",
+  "note": ""
+ },
+ "Turkey|Paraguay": {
+  "goals": [
+   {
+    "minute": 2,
+    "team": "Paraguay",
+    "player": "Matías Galarza",
+    "assist": "Julio Enciso",
+    "note": null
+   }
+  ],
+  "cards": [
+   {
+    "minute": 4,
+    "team": "Paraguay",
+    "player": "Matías Galarza",
+    "type": "Yellow"
+   },
+   {
+    "minute": 45,
+    "team": "Paraguay",
+    "player": "Miguel Almirón",
+    "type": "Red"
+   },
+   {
+    "minute": 71,
+    "team": "Turkey",
+    "player": "Eren Elmali",
+    "type": "Yellow"
+   }
+  ],
+  "motm": "—",
+  "note": ""
+ },
+ "Sweden|Tunisia": {
+  "goals": [
+   {
+    "minute": 7,
+    "team": "Sweden",
+    "player": "Yasin Ayari",
+    "assist": null,
+    "note": null
+   },
+   {
+    "minute": 30,
+    "team": "Sweden",
+    "player": "Alexander Isak",
+    "assist": "Viktor Gyökeres",
+    "note": null
+   },
+   {
+    "minute": 59,
+    "team": "Sweden",
+    "player": "Viktor Gyökeres",
+    "assist": "Alexander Isak",
+    "note": null
+   },
+   {
+    "minute": 84,
+    "team": "Sweden",
+    "player": "Mattias Svanberg",
+    "assist": "Alexander Isak",
+    "note": null
+   },
+   {
+    "minute": 90,
+    "team": "Sweden",
+    "player": "Yasin Ayari",
+    "assist": "Lucas Bergvall",
+    "note": null
+   }
+  ],
+  "cards": [
+   {
+    "minute": 54,
+    "team": "Tunisia",
+    "player": "Rani Khedira",
+    "type": "Yellow"
+   }
+  ],
+  "motm": "—",
+  "note": ""
  }
 }

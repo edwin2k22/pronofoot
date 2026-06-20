@@ -18,6 +18,7 @@ DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 PLAYER_FILE = os.path.join(DATA, "player_stats_real.json")
 STATS_FILE = os.path.join(DATA, "match_stats_real.json")
 LINEUP_FILE = os.path.join(DATA, "match_lineups_real.json")
+EVENT_FILE = os.path.join(DATA, "match_events_real.json")
 
 
 def _load(path):
@@ -155,9 +156,29 @@ def ingest_match(home, away, date_hint=None):
     except Exception as e:
         print(f"     [warn] compos non extraites : {e}")
 
+    # 4) ÉVÉNEMENTS DU MATCH (buteurs, cartons) -> match_events_real.json
+    n_ev = 0
+    try:
+        if summ.get("events"):
+            events_real = _load(EVENT_FILE)
+            sev = summ["events"]
+            cur_ev = events_real.get(key, {})
+            # On conserve motm et note s'ils existent déjà
+            cur_ev["goals"] = sev.get("goals") or cur_ev.get("goals") or []
+            cur_ev["cards"] = sev.get("cards") or cur_ev.get("cards") or []
+            if "motm" not in cur_ev or cur_ev["motm"] == "—":
+                cur_ev.setdefault("motm", "—")
+            cur_ev.setdefault("note", "")
+            events_real[key] = cur_ev
+            _save(EVENT_FILE, events_real)
+            n_ev = len(cur_ev["goals"]) + len(cur_ev["cards"])
+    except Exception as e:
+        print(f"     [warn] événements non extraits : {e}")
+
     xitxt = f" + compos ({n_xi} titulaires)" if n_xi else ""
+    evtxt = f" + évènements ({n_ev})" if n_ev else ""
     print(f"  ✅ {home} {ev['home_goals']}-{ev['away_goals']} {away} "
-          f"| {n_players} joueurs (stats réelles ESPN){xitxt}")
+          f"| {n_players} joueurs (stats réelles ESPN){xitxt}{evtxt}")
     return True
 
 
