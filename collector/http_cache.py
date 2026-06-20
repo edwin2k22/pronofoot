@@ -12,17 +12,23 @@ Aucune dépendance externe : urllib uniquement.
 Fonctionnalités améliorées :
 - TTLs préconfigurés par type de données
 - Rate limiters préconfigurés par API
-- Gestion de la révalidation (stale-while-revalidate)
+- Gestion de la révalidation (stale-while-revalidate) asynchrone
 - Nettoyage du cache (suppression des entrées trop vieilles)
-- Logging structuré
+- Logging structuré sans conflits de configuration
 """
 from __future__ import annotations
 import json, os, time, hashlib, urllib.request, urllib.error, logging
+import threading
 from typing import Any, Optional
 
-# Configuration du logging
-logging.basicConfig(level=logging.INFO, format="%(levelname)s - %(message)s")
+# Configuration du logging (pas de basicConfig au niveau module pour éviter conflits)
 logger = logging.getLogger(__name__)
+if not logger.handlers:
+    # Ajoutez un handler par défaut seulement si aucun n'existe
+    handler = logging.StreamHandler()
+    handler.setFormatter(logging.Formatter("%(levelname)s - %(message)s"))
+    logger.addHandler(handler)
+    logger.setLevel(logging.INFO)
 
 CACHE_DIR = os.path.join(os.path.dirname(__file__), "cache")
 os.makedirs(CACHE_DIR, exist_ok=True)
@@ -37,14 +43,9 @@ TTL_CONFIG = {
     "default": 3600,    # Par défaut : 1 heure
 }
 
-# Rate limiters préconfigurés par API
-RATE_LIMITERS = {
-    "espn": None,  # Pas de limite stricte connue
-    "openfootball": None,
-    "fifa": None,
-    "worldcup26": None,
-    "default": None,
-}
+# Rate limiters préconfigurés par API (exemples - peuvent être personnalisés)
+# Exemple d'utilisation: _get_limiter_for_url(url)
+RATE_LIMITERS = {}
 
 
 class RateLimiter:
@@ -87,6 +88,18 @@ def _get_ttl_for_url(url: str) -> int:
     return TTL_CONFIG["default"]
 
 
+def _get_limiter_for_url(url: str) -> Optional[RateLimiter]:
+    """
+    Détermine le rate limiter approprié en fonction de l'URL.
+    Retourne None si pas de limite configurée.
+    """
+    url_lower = url.lower()
+    for api_name, limiter in RATE_LIMITERS.items():
+        if api_name in url_lower and limiter is not None:
+            return limiter
+    return RATE_LIMITERS.get("default")
+
+
 def clean_cache(max_age_days: int = 7) -> int:
     """
     Nettoie le cache en supprimant les fichiers plus vieux que max_age_days.
@@ -117,6 +130,23 @@ def clear_cache() -> None:
     logger.info(f"  [cache] vidé : {count} fichiers supprimés")
 
 
+def _fetch_and_cache(url: str, headers: dict, limiter: Optional[RateLimiter], path: str):
+    """
+    Fonction interne pour fetch et mettre à jour le cache en arrière-plan.
+    """
+    try:
+        if limiter:
+            limiter.wait()
+        req = urllib.request.Request(url, headers={"User-Agent": "PronoFoot/2.0 (Intelligent Cache)", **headers})
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False)
+        logger.info(f"  [network] fresh data pour {url[:60]}...")
+    except Exception as e:
+        logger.debug(f"  [background] échec revalidation {url[:60]}... -> {e}")
+
+
 def get_json(url: str, headers: dict | None = None,
              limiter: RateLimiter | None = None,
              ttl: Optional[int] = None,
@@ -131,7 +161,7 @@ def get_json(url: str, headers: dict | None = None,
         limiter: RateLimiter à utiliser (ou None pour pas de limite)
         ttl: TTL en secondes (si None, déduit automatiquement depuis l'URL)
         data_type: Type de données pour TTL préconfiguré
-        stale_while_revalidate: Si True, retourne le cache périmé immédiatement et revalide en arrière-plan (simulé ici)
+        stale_while_revalidate: Si True, retourne le cache périmé immédiatement et revalide en arrière-plan
     
     Returns:
         Le JSON parsé, ou None en cas d'échec (offline-friendly).
@@ -146,7 +176,7 @@ def get_json(url: str, headers: dict | None = None,
         else:
             ttl = _get_ttl_for_url(url)
 
-    # Vérifier le cache frais
+    # Vérifier le cache
     if os.path.exists(path):
         cache_age = time.time() - os.path.getmtime(path)
         if cache_age < ttl:
@@ -155,18 +185,24 @@ def get_json(url: str, headers: dict | None = None,
                 return json.load(f)
         elif stale_while_revalidate:
             logger.info(f"  [cache] hit périmé (age {cache_age:.0f}s), utilisé en attendant revalidation")
-            # On va retélécharger mais retourner d'abord le cache
+            # Charger le cache périmé
             try:
                 with open(path, encoding="utf-8") as f:
                     stale_data = json.load(f)
             except Exception:
                 stale_data = None
-        else:
-            stale_data = None
-    else:
-        stale_data = None
+            else:
+                # Lancer la revalidation en arrière-plan
+                thread = threading.Thread(
+                    target=_fetch_and_cache,
+                    args=(url, headers, limiter, path),
+                    daemon=True
+                )
+                thread.start()
+                # Retourner immédiatement le cache périmé
+                return stale_data
 
-    # Passer à la requête réseau
+    # Si pas de cache ou pas de stale-while-revalidate, faire la requête en premier plan
     if limiter:
         limiter.wait()
 
@@ -185,4 +221,4 @@ def get_json(url: str, headers: dict | None = None,
             logger.info("  [info] utilisation du cache périmé en secours")
             with open(path, encoding="utf-8") as f:
                 return json.load(f)
-        return stale_data if stale_data is not None else None
+        return None
