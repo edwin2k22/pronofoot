@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ProноFoot � Scouting Report joueur par joueur</title>
+<title>PronoFoot - Scouting Report joueur par joueur</title>
 <style>
   :root{
     --bg:#070b16;--bg2:#0e1626;--card:#121c30;--card2:#16223a;--line:#243352;
@@ -38,7 +38,7 @@
   .matchhead .tn{font-weight:700}
   .legend{font-size:11.5px;color:var(--muted);text-align:center;margin-bottom:10px}
   .legend b{color:var(--nd)}
-  .tabs{display:flex;gap:8px;margin:10px 0}
+  .tabs{display:flex;gap:8px;margin:10px 0;flex-wrap:wrap}
   .tab{padding:7px 14px;border-radius:999px;border:1px solid var(--line);background:var(--bg2);
     cursor:pointer;font-size:13px;font-weight:600;transition:all .2s}
   .tab:hover{border-color:var(--acc2)}
@@ -50,12 +50,12 @@
   thead th{position:sticky;top:0;background:#141c3c;color:var(--muted);font-size:10.5px;
     text-transform:uppercase;letter-spacing:.4px;cursor:pointer;user-select:none;z-index:10}
   thead th:hover{color:var(--txt);background:#1a254a}
-  tbody tr:hover{background:rgba(91,140,255,.07)}
+  tbody tr:hover{background:rgba(91,140,255,.12);transform:scale(1.002)}
   .pname{font-weight:700;color:var(--txt)}
   .pos{color:var(--muted);font-size:11px}
   .nd{color:var(--nd);font-style:italic}
-  tr.prow{cursor:pointer}
-  tr.prow:hover{background:rgba(255,255,255,.03)}
+  tr.prow{cursor:pointer;transition:all .2s ease}
+  tr.prow:hover{background:rgba(91,140,255,.12)}
   .biotag{font-size:9px;color:#33e0a0;border:1px solid rgba(51,224,160,.45);border-radius:4px;padding:0 4px;margin-left:6px;white-space:nowrap}
   .biobox{background:#10162e;border:1px solid var(--line,#27325e);border-radius:9px;padding:10px 12px;margin:2px 0}
   .biotop{font-size:12px;color:#cfe0ff;margin-bottom:7px;line-height:1.5}
@@ -81,43 +81,60 @@
   .key-stats{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:16px}
   .stat-card{flex:1;min-width:120px;background:var(--bg2);border:1px solid var(--line);
     border-radius:10px;padding:12px;text-align:center;transition:all .2s}
-  .stat-card:hover{border-color:var(--acc2);transform:translateY(-2px)}
+  .stat-card:hover{border-color:var(--acc2);transform:translateY(-2px);box-shadow:0 8px 20px rgba(91,140,255,.15)}
   .stat-value{font-size:24px;font-weight:800;color:var(--txt);margin:4px 0}
   .stat-label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+  /* Position filter buttons */
+  .pos-filters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+  .pos-btn{padding:5px 12px;border-radius:8px;border:1px solid var(--line);background:var(--bg2);
+    color:var(--muted);font-size:12px;font-weight:600;cursor:pointer;transition:all .2s}
+  .pos-btn:hover{border-color:var(--acc2);color:var(--txt)}
+  .pos-btn.active{background:linear-gradient(135deg,var(--purple),var(--acc2));border-color:transparent;color:var(--txt)}
 </style>
 </head>
-<body data-build="20/06 13:48">
+<body data-build="20/06 14:00">
 <div class="wrap">
   <header>
     <div class="ball">📋</div>
     <div>
-      <h1>Scouting Report � joueur par joueur</h1>
-      <p>Stats compl�tes par joueur � source StatsBomb Open Data � donn�es 2026 & Mondiaux</p>
+      <h1>Scouting Report - joueur par joueur</h1>
+      <p>Stats complètes par joueur - source StatsBomb Open Data - données 2026 & Mondiaux</p>
     </div>
     <a class="back" href="index.html">← Retour aux pronostics</a>
   </header>
 
   <div class="controls">
-    <select id="teamSel2026"><option>�</option></select>
-    <input id="search" placeholder="🔎 filtrer un joueur�" style="flex:1;min-width:160px">
-    <span class="pill" id="srcPill">�</span>
+    <select id="teamSel2026"><option>—</option></select>
+    <input id="search" placeholder="🔎 filtrer un joueur..." style="flex:1;min-width:160px">
+    <span class="pill" id="srcPill">—</span>
   </div>
+
+  <div class="pos-filters" id="posFilters">
+    <button class="pos-btn active" data-pos="all">Tous</button>
+    <button class="pos-btn" data-pos="GK">🧤 GK</button>
+    <button class="pos-btn" data-pos="DF">🛡️ DF</button>
+    <button class="pos-btn" data-pos="MF">⚙️ MF</button>
+    <button class="pos-btn" data-pos="FW">⚽ FW</button>
+  </div>
+
+  <div class="key-stats" id="keyStats"></div>
+
   <div id="banner2026" style="background:rgba(91,140,255,.1);border:1px solid rgba(91,140,255,.35);
     border-radius:10px;padding:10px 12px;margin-bottom:12px;font-size:12.5px;color:var(--muted)">
-    🏆 <b style="color:var(--txt)">Vrais joueurs s�lectionn�s pour la CDM 2026.</b>
+    🏆 <b style="color:var(--txt)">Vrais joueurs sélectionnés pour la CDM 2026.</b>
     Leurs stats s'affichent en <span class="nd">N/D</span> tant que leurs matchs 2026 ne sont pas
-    disponibles � elles se rempliront automatiquement au fil du tournoi
-    (<code>player_ingest</code>). La <b>Note</b> reste N/D (m�trique propri�taire).
+    disponibles ; elles se rempliront automatiquement au fil du tournoi
+    (<code>player_ingest</code>). La <b>Note</b> reste N/D (métrique propriétaire).
   </div>
 
   <div class="card">
     <div class="matchhead" id="matchHead"></div>
-    <div class="legend">Astuce : clique sur un en-t�te de colonne pour trier. <b>N/D</b> = donn�e non disponible publiquement (ex : la <b>Note</b> joueur, propri�taire FotMob/Sofascore).</div>
+    <div class="legend">Astuce : clique sur un en-tête de colonne pour trier. <b>N/D</b> = donnée non disponible publiquement (ex : la <b>Note</b> joueur, propriétaire FotMob/Sofascore).</div>
     <div class="tabs" id="teamTabs"></div>
     <div class="tablewrap">
       <table id="rep">
         <thead><tr id="thead"></tr></thead>
-        <tbody id="tbody"><tr><td class="msg" colspan="23">S�lectionne un match�</td></tr></tbody>
+        <tbody id="tbody"><tr><td class="msg" colspan="23">Sélectionne un match...</td></tr></tbody>
       </table>
     </div>
   </div>
