@@ -264,9 +264,10 @@ def add_player_match(conn, **st):
             "interceptions", "blocks", "clearances", "pressures", "recoveries",
             "fouls", "fouls_served", "offsides", "own_goals", "sub_ins", "cards"]
     vals = [st.get(c) for c in cols]
+    placeholders = ['?'] * len(cols)
     try:
         conn.execute(f"""INSERT INTO player_match_stats({','.join(cols)})
-                         VALUES({','.join('?'*len(cols))})""", vals)
+                         VALUES({','.join(placeholders)})""", vals)
     except Exception:
         return False  # déjà ingéré (UNIQUE)
     # cumul sur players
