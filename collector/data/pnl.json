@@ -4,15 +4,15 @@
     "bets": 19,
     "wins": 10,
     "winRate": 53,
-    "pnl": -1.63,
-    "yield": -8.6
+    "pnl": -1.81,
+    "yield": -9.5
   },
   "value": {
-    "bets": 36,
+    "bets": 37,
     "wins": 6,
-    "winRate": 17,
-    "pnl": -3.75,
-    "yield": -10.4
+    "winRate": 16,
+    "pnl": -4.75,
+    "yield": -12.8
   },
   "valueStrict": {
     "bets": 23,
@@ -27,23 +27,11 @@
       "away": "Croatia",
       "date": "2026-06-23 19:00 UTC-4",
       "label": "Victoire Panama",
-      "prob": 0.3947,
+      "prob": 0.4195,
       "odd": 7.0,
       "implied": 0.1429,
-      "edge": 0.2518,
-      "ev": 1.763,
-      "provider": "DraftKings"
-    },
-    {
-      "home": "Ecuador",
-      "away": "Curaçao",
-      "date": "2026-06-20 19:00 UTC-5",
-      "label": "Match nul",
-      "prob": 0.3144,
-      "odd": 11.0,
-      "implied": 0.0909,
-      "edge": 0.2235,
-      "ev": 2.458,
+      "edge": 0.2766,
+      "ev": 1.936,
       "provider": "DraftKings"
     },
     {
@@ -51,11 +39,23 @@
       "away": "USA",
       "date": "2026-06-25 19:00 UTC-7",
       "label": "Victoire Turkey",
-      "prob": 0.5735,
+      "prob": 0.6168,
       "odd": 2.75,
       "implied": 0.3636,
-      "edge": 0.2099,
-      "ev": 0.577,
+      "edge": 0.2532,
+      "ev": 0.696,
+      "provider": "DraftKings"
+    },
+    {
+      "home": "Panama",
+      "away": "England",
+      "date": "2026-06-27 17:00 UTC-4",
+      "label": "Match nul",
+      "prob": 0.3646,
+      "odd": 7.0,
+      "implied": 0.1429,
+      "edge": 0.2217,
+      "ev": 1.552,
       "provider": "DraftKings"
     }
   ]
