@@ -1285,8 +1285,13 @@ function vsTable(m){
 
   // 9) Score mi-temps (indicatif : on n'a pas toujours le score MT réel -> N/A)
   if(p.halftime){
-    add("Score mi-temps", `${p.halftime.topScore[0]}-${p.halftime.topScore[1]}`,
-        "non disponible", null);
+    const realHt = (a && a.events && a.events.halftime) ? a.events.halftime : "non disponible";
+    const predStr = `${p.halftime.topScore[0]}-${p.halftime.topScore[1]}`;
+    let isCorrect = null;
+    if (realHt !== "non disponible") {
+      isCorrect = (realHt === predStr);
+    }
+    add("Score mi-temps", predStr, realHt, isCorrect);
   }
 
   return `<div class="vs-box">
