@@ -169,5 +169,61 @@
   },
   "home": "Brazil",
   "away": "Haiti"
+ },
+ "Netherlands|Sweden": {
+  "refTeam": "Netherlands",
+  "games": [
+   {
+    "date": "2017-10-10",
+    "score": "2-0",
+    "competition": "2018 World Cup Qualifying - UEFA"
+   },
+   {
+    "date": "2016-09-06",
+    "score": "1-1",
+    "competition": "2018 World Cup Qualifying - UEFA"
+   },
+   {
+    "date": "2011-10-11",
+    "score": "2-3",
+    "competition": "2012 European Championship Qualifying"
+   },
+   {
+    "date": "2010-10-12",
+    "score": "4-1",
+    "competition": "Group Stage 2012"
+   },
+   {
+    "date": "2008-11-19",
+    "score": "3-1",
+    "competition": "International Friendly"
+   }
+  ],
+  "summary": {
+   "win": 3,
+   "draw": 1,
+   "loss": 1,
+   "total": 5
+  },
+  "home": "Netherlands",
+  "away": "Sweden"
+ },
+ "Germany|Ivory Coast": {
+  "refTeam": "Germany",
+  "games": [
+   {
+    "date": "2009-11-18",
+    "score": "2-2",
+    "competition": "International Friendly"
+   }
+  ],
+  "summary": {
+   "win": 0,
+   "draw": 1,
+   "loss": 0,
+   "total": 1
+  },
+  "home": "Germany",
+  "away": "Ivory Coast"
  }
 }
