@@ -8,18 +8,18 @@
     "yield": 5.4
   },
   "value": {
-    "bets": 22,
+    "bets": 23,
     "wins": 9,
-    "winRate": 41,
-    "pnl": -4.78,
-    "yield": -21.7
+    "winRate": 39,
+    "pnl": -9.24,
+    "yield": -40.2
   },
   "valueStrict": {
     "bets": 13,
-    "wins": 7,
-    "winRate": 54,
-    "pnl": -1.73,
-    "yield": -13.3
+    "wins": 6,
+    "winRate": 46,
+    "pnl": -3.45,
+    "yield": -26.5
   },
   "topValue": [
     {
@@ -27,23 +27,11 @@
       "away": "France",
       "date": "2026-06-26 15:00 UTC-4",
       "label": "Victoire France",
-      "prob": 0.7734,
+      "prob": 0.779,
       "odd": 1.87,
       "implied": 0.5348,
-      "edge": 0.2386,
-      "ev": 0.446,
-      "provider": "DraftKings"
-    },
-    {
-      "home": "Argentina",
-      "away": "Austria",
-      "date": "2026-06-22 12:00 UTC-5",
-      "label": "Victoire Argentina",
-      "prob": 0.8122,
-      "odd": 1.625,
-      "implied": 0.6154,
-      "edge": 0.1968,
-      "ev": 0.32,
+      "edge": 0.2442,
+      "ev": 0.457,
       "provider": "DraftKings"
     },
     {
@@ -51,11 +39,23 @@
       "away": "Senegal",
       "date": "2026-06-22 20:00 UTC-4",
       "label": "Victoire Senegal",
-      "prob": 0.4883,
+      "prob": 0.4946,
       "odd": 3.4,
       "implied": 0.2941,
-      "edge": 0.1942,
-      "ev": 0.66,
+      "edge": 0.2005,
+      "ev": 0.682,
+      "provider": "DraftKings"
+    },
+    {
+      "home": "Croatia",
+      "away": "Ghana",
+      "date": "2026-06-27 17:00 UTC-4",
+      "label": "Victoire Croatia",
+      "prob": 0.8006,
+      "odd": 1.625,
+      "implied": 0.6154,
+      "edge": 0.1852,
+      "ev": 0.301,
       "provider": "DraftKings"
     }
   ]

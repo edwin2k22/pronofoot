@@ -1,579 +1,4875 @@
 {
   "_comment": "Forme récente RÉELLE des sélections (10 derniers matchs avant CDM 2026), collectée sur le web (11v11, Goal, AiScore, SoccerPunter). Chaque match: [adversaire, lieu H/A, buts_pour, buts_contre, résultat W/D/L, compétition]. Le plus récent en premier.",
   "France": [
-    ["Northern Ireland", "H", 3, 1, "W", "Amical"],
-    ["Ivory Coast", "H", 1, 2, "L", "Amical"],
-    ["Colombia", "A", 3, 1, "W", "Amical"],
-    ["Brazil", "A", 2, 1, "W", "Amical"],
-    ["Azerbaijan", "A", 3, 1, "W", "Qualif"],
-    ["Ukraine", "H", 4, 0, "W", "Qualif"],
-    ["Iceland", "A", 2, 2, "D", "Qualif"],
-    ["Azerbaijan", "H", 3, 0, "W", "Qualif"],
-    ["Iceland", "H", 2, 1, "W", "Qualif"],
-    ["Ukraine", "A", 2, 0, "W", "Qualif"]
+    [
+      "Northern Ireland",
+      "H",
+      3,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Ivory Coast",
+      "H",
+      1,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Colombia",
+      "A",
+      3,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Brazil",
+      "A",
+      2,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Azerbaijan",
+      "A",
+      3,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Ukraine",
+      "H",
+      4,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Iceland",
+      "A",
+      2,
+      2,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Azerbaijan",
+      "H",
+      3,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Iceland",
+      "H",
+      2,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Ukraine",
+      "A",
+      2,
+      0,
+      "W",
+      "Qualif"
+    ]
   ],
   "Brazil": [
-    ["Egypt", "H", 2, 1, "W", "Amical"],
-    ["Panama", "H", 6, 2, "W", "Amical"],
-    ["Croatia", "H", 3, 1, "W", "Amical"],
-    ["France", "H", 1, 2, "L", "Amical"],
-    ["Bolivia", "A", 0, 1, "L", "Qualif"],
-    ["Chile", "H", 3, 0, "W", "Qualif"],
-    ["Paraguay", "H", 1, 0, "W", "Qualif"],
-    ["Ecuador", "A", 0, 0, "D", "Qualif"],
-    ["Argentina", "A", 1, 4, "L", "Qualif"],
-    ["Colombia", "H", 2, 1, "W", "Qualif"]
+    [
+      "Egypt",
+      "H",
+      2,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Panama",
+      "H",
+      6,
+      2,
+      "W",
+      "Amical"
+    ],
+    [
+      "Croatia",
+      "H",
+      3,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "France",
+      "H",
+      1,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Bolivia",
+      "A",
+      0,
+      1,
+      "L",
+      "Qualif"
+    ],
+    [
+      "Chile",
+      "H",
+      3,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Paraguay",
+      "H",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Ecuador",
+      "A",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Argentina",
+      "A",
+      1,
+      4,
+      "L",
+      "Qualif"
+    ],
+    [
+      "Colombia",
+      "H",
+      2,
+      1,
+      "W",
+      "Qualif"
+    ]
   ],
   "Argentina": [
-    ["Honduras", "H", 2, 1, "W", "Amical"],
-    ["Zambia", "H", 5, 0, "W", "Amical"],
-    ["Mauritania", "H", 2, 1, "W", "Amical"],
-    ["Angola", "A", 2, 0, "W", "Amical"],
-    ["Puerto Rico", "A", 6, 0, "W", "Amical"],
-    ["Venezuela", "H", 1, 0, "W", "Qualif"],
-    ["Ecuador", "A", 0, 1, "L", "Qualif"],
-    ["Venezuela", "H", 3, 0, "W", "Qualif"],
-    ["Colombia", "H", 1, 1, "D", "Qualif"],
-    ["Chile", "A", 1, 0, "W", "Qualif"]
+    [
+      "Honduras",
+      "H",
+      2,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Iceland",
+      "H",
+      3,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Honduras",
+      "H",
+      2,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Zambia",
+      "H",
+      5,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Mauritania",
+      "H",
+      2,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Angola",
+      "A",
+      2,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Puerto Rico",
+      "A",
+      6,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Venezuela",
+      "H",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Ecuador",
+      "A",
+      0,
+      1,
+      "L",
+      "Qualif"
+    ],
+    [
+      "Venezuela",
+      "H",
+      3,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Colombia",
+      "H",
+      1,
+      1,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Chile",
+      "A",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ]
   ],
   "Mexico": [
-    ["South Africa", "H", 2, 0, "W", "CDM 2026"],
-    ["Türkiye", "H", 1, 0, "W", "Amical"],
-    ["USA", "A", 1, 2, "L", "Gold Cup"],
-    ["Honduras", "H", 2, 0, "W", "Amical"],
-    ["Canada", "H", 2, 1, "W", "Amical"],
-    ["Switzerland", "A", 1, 1, "D", "Amical"],
-    ["Japan", "A", 0, 0, "D", "Amical"],
-    ["South Korea", "H", 2, 2, "D", "Amical"],
-    ["USA", "H", 2, 0, "W", "Nations League"],
-    ["Panama", "H", 1, 0, "W", "Amical"]
+    [
+      "Portugal",
+      "H",
+      0,
+      0,
+      "D",
+      "Amical"
+    ],
+    [
+      "Belgium",
+      "H",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "Serbia",
+      "H",
+      5,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "South Africa",
+      "H",
+      2,
+      0,
+      "W",
+      "CDM 2026"
+    ],
+    [
+      "Türkiye",
+      "H",
+      1,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "USA",
+      "A",
+      1,
+      2,
+      "L",
+      "Gold Cup"
+    ],
+    [
+      "Honduras",
+      "H",
+      2,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Canada",
+      "H",
+      2,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Switzerland",
+      "A",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "Japan",
+      "A",
+      0,
+      0,
+      "D",
+      "Amical"
+    ],
+    [
+      "South Korea",
+      "H",
+      2,
+      2,
+      "D",
+      "Amical"
+    ],
+    [
+      "USA",
+      "H",
+      2,
+      0,
+      "W",
+      "Nations League"
+    ],
+    [
+      "Panama",
+      "H",
+      1,
+      0,
+      "W",
+      "Amical"
+    ]
   ],
   "South Korea": [
-    ["Czech Republic", "H", 2, 1, "W", "CDM 2026"],
-    ["El Salvador", "H", 2, 0, "W", "Amical"],
-    ["Mexico", "A", 2, 2, "D", "Amical"],
-    ["Paraguay", "H", 0, 0, "D", "Amical"],
-    ["USA", "A", 1, 1, "D", "Amical"],
-    ["Japan", "H", 1, 1, "D", "Amical"],
-    ["Iraq", "H", 3, 2, "W", "Qualif"],
-    ["Jordan", "A", 0, 0, "D", "Qualif"],
-    ["Oman", "H", 3, 1, "W", "Qualif"],
-    ["Kuwait", "A", 4, 0, "W", "Qualif"]
+    [
+      "Ivory Coast",
+      "H",
+      0,
+      4,
+      "L",
+      "Amical"
+    ],
+    [
+      "Austria",
+      "A",
+      0,
+      1,
+      "L",
+      "Amical"
+    ],
+    [
+      "El Salvador",
+      "H",
+      1,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Czech Republic",
+      "H",
+      2,
+      1,
+      "W",
+      "CDM 2026"
+    ],
+    [
+      "El Salvador",
+      "H",
+      2,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Mexico",
+      "A",
+      2,
+      2,
+      "D",
+      "Amical"
+    ],
+    [
+      "Paraguay",
+      "H",
+      0,
+      0,
+      "D",
+      "Amical"
+    ],
+    [
+      "USA",
+      "A",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "Japan",
+      "H",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "Iraq",
+      "H",
+      3,
+      2,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Jordan",
+      "A",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Oman",
+      "H",
+      3,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Kuwait",
+      "A",
+      4,
+      0,
+      "W",
+      "Qualif"
+    ]
   ],
   "Czech Republic": [
-    ["South Korea", "A", 1, 2, "L", "CDM 2026"],
-    ["Guatemala", "H", 2, 0, "W", "Amical"],
-    ["Faroe Islands", "H", 2, 0, "W", "Qualif"],
-    ["Montenegro", "A", 0, 0, "D", "Qualif"],
-    ["Croatia", "H", 0, 0, "D", "Qualif"],
-    ["Gibraltar", "A", 4, 0, "W", "Qualif"],
-    ["Faroe Islands", "A", 2, 1, "W", "Qualif"],
-    ["Montenegro", "H", 2, 0, "W", "Qualif"],
-    ["Croatia", "A", 1, 1, "D", "Qualif"],
-    ["Gibraltar", "H", 7, 1, "W", "Qualif"]
+    [
+      "Guatemala",
+      "H",
+      3,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "South Korea",
+      "A",
+      1,
+      2,
+      "L",
+      "CDM 2026"
+    ],
+    [
+      "Guatemala",
+      "H",
+      2,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Faroe Islands",
+      "H",
+      2,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Montenegro",
+      "A",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Croatia",
+      "H",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Gibraltar",
+      "A",
+      4,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Faroe Islands",
+      "A",
+      2,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Montenegro",
+      "H",
+      2,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Croatia",
+      "A",
+      1,
+      1,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Gibraltar",
+      "H",
+      7,
+      1,
+      "W",
+      "Qualif"
+    ]
   ],
   "Canada": [
-    ["Bosnia & Herzegovina", "H", 1, 1, "D", "CDM 2026"],
-    ["Colombia", "A", 0, 0, "D", "Amical"],
-    ["Wales", "H", 2, 0, "W", "Amical"],
-    ["Côte d'Ivoire", "H", 1, 1, "D", "Amical"],
-    ["Ukraine", "A", 2, 1, "W", "Amical"],
-    ["USA", "A", 1, 2, "L", "Gold Cup"],
-    ["Mexico", "A", 1, 2, "L", "Amical"],
-    ["Honduras", "H", 2, 0, "W", "Nations League"],
-    ["Panama", "A", 0, 0, "D", "Amical"],
-    ["Curaçao", "H", 3, 0, "W", "Amical"]
+    [
+      "Iceland",
+      "H",
+      2,
+      2,
+      "D",
+      "Amical"
+    ],
+    [
+      "Tunisia",
+      "H",
+      0,
+      0,
+      "D",
+      "Amical"
+    ],
+    [
+      "Uzbekistan",
+      "H",
+      2,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Republic of Ireland",
+      "H",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "Bosnia & Herzegovina",
+      "H",
+      1,
+      1,
+      "D",
+      "CDM 2026"
+    ],
+    [
+      "Colombia",
+      "A",
+      0,
+      0,
+      "D",
+      "Amical"
+    ],
+    [
+      "Wales",
+      "H",
+      2,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Côte d'Ivoire",
+      "H",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "Ukraine",
+      "A",
+      2,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "USA",
+      "A",
+      1,
+      2,
+      "L",
+      "Gold Cup"
+    ],
+    [
+      "Mexico",
+      "A",
+      1,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Honduras",
+      "H",
+      2,
+      0,
+      "W",
+      "Nations League"
+    ],
+    [
+      "Panama",
+      "A",
+      0,
+      0,
+      "D",
+      "Amical"
+    ],
+    [
+      "Curaçao",
+      "H",
+      3,
+      0,
+      "W",
+      "Amical"
+    ]
   ],
   "Bosnia & Herzegovina": [
-    ["Canada", "A", 1, 1, "D", "CDM 2026"],
-    ["Austria", "H", 1, 2, "L", "Qualif"],
-    ["Romania", "A", 1, 0, "W", "Qualif"],
-    ["Cyprus", "H", 2, 0, "W", "Qualif"],
-    ["San Marino", "A", 6, 0, "W", "Qualif"],
-    ["Austria", "A", 1, 1, "D", "Qualif"],
-    ["Romania", "H", 0, 1, "L", "Qualif"],
-    ["Cyprus", "A", 2, 1, "W", "Qualif"],
-    ["San Marino", "H", 5, 0, "W", "Qualif"],
-    ["Greece", "H", 2, 1, "W", "Amical"]
+    [
+      "Panama",
+      "A",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "Canada",
+      "A",
+      1,
+      1,
+      "D",
+      "CDM 2026"
+    ],
+    [
+      "Austria",
+      "H",
+      1,
+      2,
+      "L",
+      "Qualif"
+    ],
+    [
+      "Romania",
+      "A",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Cyprus",
+      "H",
+      2,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "San Marino",
+      "A",
+      6,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Austria",
+      "A",
+      1,
+      1,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Romania",
+      "H",
+      0,
+      1,
+      "L",
+      "Qualif"
+    ],
+    [
+      "Cyprus",
+      "A",
+      2,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "San Marino",
+      "H",
+      5,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Greece",
+      "H",
+      2,
+      1,
+      "W",
+      "Amical"
+    ]
   ],
   "England": [
-    ["Serbia", "A", 5, 0, "W", "Qualif"],
-    ["Albania", "A", 2, 0, "W", "Qualif"],
-    ["Andorra", "H", 1, 0, "W", "Qualif"],
-    ["Serbia", "H", 5, 0, "W", "Qualif"],
-    ["Andorra", "A", 2, 0, "W", "Qualif"],
-    ["Latvia", "A", 3, 0, "W", "Qualif"],
-    ["Albania", "H", 2, 0, "W", "Qualif"],
-    ["Senegal", "H", 1, 3, "L", "Amical"],
-    ["Wales", "H", 3, 0, "W", "Amical"],
-    ["Latvia", "H", 4, 0, "W", "Qualif"]
+    [
+      "Uruguay",
+      "H",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "Japan",
+      "H",
+      0,
+      1,
+      "L",
+      "Amical"
+    ],
+    [
+      "New Zealand",
+      "H",
+      1,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Costa Rica",
+      "H",
+      3,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Serbia",
+      "A",
+      5,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Albania",
+      "A",
+      2,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Andorra",
+      "H",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Serbia",
+      "H",
+      5,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Andorra",
+      "A",
+      2,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Latvia",
+      "A",
+      3,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Albania",
+      "H",
+      2,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Senegal",
+      "H",
+      1,
+      3,
+      "L",
+      "Amical"
+    ],
+    [
+      "Wales",
+      "H",
+      3,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Latvia",
+      "H",
+      4,
+      0,
+      "W",
+      "Qualif"
+    ]
   ],
   "Spain": [
-    ["Türkiye", "H", 2, 2, "D", "Qualif"],
-    ["Bulgaria", "A", 3, 0, "W", "Qualif"],
-    ["Türkiye", "A", 6, 0, "W", "Qualif"],
-    ["Georgia", "H", 4, 0, "W", "Qualif"],
-    ["Bulgaria", "H", 3, 0, "W", "Qualif"],
-    ["Georgia", "A", 2, 0, "W", "Qualif"],
-    ["Switzerland", "H", 3, 2, "W", "Nations League"],
-    ["Netherlands", "A", 3, 3, "D", "Nations League"],
-    ["France", "H", 5, 4, "W", "Nations League"],
-    ["Portugal", "N", 2, 2, "D", "Nations League"]
+    [
+      "Serbia",
+      "H",
+      3,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Egypt",
+      "H",
+      0,
+      0,
+      "D",
+      "Amical"
+    ],
+    [
+      "Iraq",
+      "H",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "Peru",
+      "A",
+      3,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Türkiye",
+      "H",
+      2,
+      2,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Bulgaria",
+      "A",
+      3,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Türkiye",
+      "A",
+      6,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Georgia",
+      "H",
+      4,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Bulgaria",
+      "H",
+      3,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Georgia",
+      "A",
+      2,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Switzerland",
+      "H",
+      3,
+      2,
+      "W",
+      "Nations League"
+    ],
+    [
+      "Netherlands",
+      "A",
+      3,
+      3,
+      "D",
+      "Nations League"
+    ],
+    [
+      "France",
+      "H",
+      5,
+      4,
+      "W",
+      "Nations League"
+    ],
+    [
+      "Portugal",
+      "N",
+      2,
+      2,
+      "D",
+      "Nations League"
+    ]
   ],
   "Portugal": [
-    ["Armenia", "H", 9, 1, "W", "Qualif"],
-    ["Hungary", "A", 3, 2, "W", "Qualif"],
-    ["Republic of Ireland", "H", 3, 0, "W", "Qualif"],
-    ["Armenia", "A", 5, 0, "W", "Qualif"],
-    ["Hungary", "H", 3, 2, "W", "Qualif"],
-    ["Republic of Ireland", "A", 1, 1, "D", "Qualif"],
-    ["Spain", "N", 2, 2, "D", "Nations League"],
-    ["Germany", "A", 2, 1, "W", "Nations League"],
-    ["Denmark", "H", 5, 2, "W", "Nations League"],
-    ["Sweden", "H", 2, 0, "W", "Amical"]
+    [
+      "Mexico",
+      "A",
+      0,
+      0,
+      "D",
+      "Amical"
+    ],
+    [
+      "United States",
+      "A",
+      2,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Chile",
+      "H",
+      2,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Nigeria",
+      "H",
+      2,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Armenia",
+      "H",
+      9,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Hungary",
+      "A",
+      3,
+      2,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Republic of Ireland",
+      "H",
+      3,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Armenia",
+      "A",
+      5,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Hungary",
+      "H",
+      3,
+      2,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Republic of Ireland",
+      "A",
+      1,
+      1,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Spain",
+      "N",
+      2,
+      2,
+      "D",
+      "Nations League"
+    ],
+    [
+      "Germany",
+      "A",
+      2,
+      1,
+      "W",
+      "Nations League"
+    ],
+    [
+      "Denmark",
+      "H",
+      5,
+      2,
+      "W",
+      "Nations League"
+    ],
+    [
+      "Sweden",
+      "H",
+      2,
+      0,
+      "W",
+      "Amical"
+    ]
   ],
   "Germany": [
-    ["Slovakia", "H", 6, 0, "W", "Qualif"],
-    ["Northern Ireland", "A", 1, 0, "W", "Qualif"],
-    ["Luxembourg", "A", 4, 0, "W", "Qualif"],
-    ["Northern Ireland", "H", 3, 1, "W", "Qualif"],
-    ["Slovakia", "A", 0, 2, "L", "Qualif"],
-    ["Luxembourg", "H", 4, 0, "W", "Qualif"],
-    ["Italy", "A", 3, 3, "D", "Nations League"],
-    ["Portugal", "H", 1, 2, "L", "Nations League"],
-    ["France", "N", 2, 0, "W", "Nations League"],
-    ["Colombia", "H", 3, 1, "W", "Amical"]
+    [
+      "USA",
+      "A",
+      2,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Finland",
+      "H",
+      4,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Ghana",
+      "H",
+      2,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Switzerland",
+      "A",
+      4,
+      3,
+      "W",
+      "Amical"
+    ],
+    [
+      "Slovakia",
+      "H",
+      6,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Northern Ireland",
+      "A",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Luxembourg",
+      "A",
+      4,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Northern Ireland",
+      "H",
+      3,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Slovakia",
+      "A",
+      0,
+      2,
+      "L",
+      "Qualif"
+    ],
+    [
+      "Luxembourg",
+      "H",
+      4,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Italy",
+      "A",
+      3,
+      3,
+      "D",
+      "Nations League"
+    ],
+    [
+      "Portugal",
+      "H",
+      1,
+      2,
+      "L",
+      "Nations League"
+    ],
+    [
+      "France",
+      "N",
+      2,
+      0,
+      "W",
+      "Nations League"
+    ],
+    [
+      "Colombia",
+      "H",
+      3,
+      1,
+      "W",
+      "Amical"
+    ]
   ],
   "Netherlands": [
-    ["Malta", "A", 4, 0, "W", "Qualif"],
-    ["Finland", "A", 2, 0, "W", "Qualif"],
-    ["Lithuania", "H", 4, 0, "W", "Qualif"],
-    ["Malta", "H", 8, 0, "W", "Qualif"],
-    ["Poland", "H", 1, 1, "D", "Qualif"],
-    ["Lithuania", "A", 3, 2, "W", "Qualif"],
-    ["Poland", "A", 1, 1, "D", "Qualif"],
-    ["Finland", "H", 2, 0, "W", "Qualif"],
-    ["Ecuador", "H", 1, 1, "D", "Amical"],
-    ["Norway", "H", 2, 1, "W", "Amical"]
+    [
+      "Algeria",
+      "H",
+      0,
+      1,
+      "L",
+      "Amical"
+    ],
+    [
+      "Uzbekistan",
+      "H",
+      2,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Malta",
+      "A",
+      4,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Finland",
+      "A",
+      2,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Lithuania",
+      "H",
+      4,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Malta",
+      "H",
+      8,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Poland",
+      "H",
+      1,
+      1,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Lithuania",
+      "A",
+      3,
+      2,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Poland",
+      "A",
+      1,
+      1,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Finland",
+      "H",
+      2,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Ecuador",
+      "H",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "Norway",
+      "H",
+      2,
+      1,
+      "W",
+      "Amical"
+    ]
   ],
   "Belgium": [
-    ["Liechtenstein", "A", 6, 0, "W", "Qualif"],
-    ["Kazakhstan", "H", 6, 0, "W", "Qualif"],
-    ["North Macedonia", "A", 0, 0, "D", "Qualif"],
-    ["Wales", "H", 4, 3, "W", "Qualif"],
-    ["Liechtenstein", "H", 7, 0, "W", "Qualif"],
-    ["North Macedonia", "H", 0, 0, "D", "Qualif"],
-    ["Kazakhstan", "A", 1, 1, "D", "Qualif"],
-    ["Wales", "A", 4, 3, "W", "Qualif"],
-    ["Egypt", "H", 2, 1, "W", "Amical"],
-    ["Mexico", "A", 2, 2, "D", "Amical"]
+    [
+      "United States",
+      "A",
+      5,
+      2,
+      "W",
+      "Amical"
+    ],
+    [
+      "Mexico",
+      "A",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "Croatia",
+      "A",
+      2,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Tunisia",
+      "H",
+      5,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Liechtenstein",
+      "A",
+      6,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Kazakhstan",
+      "H",
+      6,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "North Macedonia",
+      "A",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Wales",
+      "H",
+      4,
+      3,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Liechtenstein",
+      "H",
+      7,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "North Macedonia",
+      "H",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Kazakhstan",
+      "A",
+      1,
+      1,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Wales",
+      "A",
+      4,
+      3,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Egypt",
+      "H",
+      2,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Mexico",
+      "A",
+      2,
+      2,
+      "D",
+      "Amical"
+    ]
   ],
   "Croatia": [
-    ["Montenegro", "A", 3, 2, "W", "Qualif"],
-    ["Faroe Islands", "H", 3, 1, "W", "Qualif"],
-    ["Czech Republic", "A", 5, 1, "W", "Qualif"],
-    ["Gibraltar", "H", 6, 0, "W", "Qualif"],
-    ["Montenegro", "H", 4, 0, "W", "Qualif"],
-    ["Czech Republic", "H", 0, 0, "D", "Qualif"],
-    ["Faroe Islands", "A", 1, 0, "W", "Qualif"],
-    ["Gibraltar", "A", 7, 0, "W", "Qualif"],
-    ["Brazil", "A", 1, 3, "L", "Amical"],
-    ["Morocco", "N", 1, 2, "L", "Amical"]
+    [
+      "Colombia",
+      "A",
+      2,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Belgium",
+      "H",
+      0,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Slovenia",
+      "H",
+      2,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Montenegro",
+      "A",
+      3,
+      2,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Faroe Islands",
+      "H",
+      3,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Czech Republic",
+      "A",
+      5,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Gibraltar",
+      "H",
+      6,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Montenegro",
+      "H",
+      4,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Czech Republic",
+      "H",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Faroe Islands",
+      "A",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Gibraltar",
+      "A",
+      7,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Brazil",
+      "A",
+      1,
+      3,
+      "L",
+      "Amical"
+    ],
+    [
+      "Morocco",
+      "N",
+      1,
+      2,
+      "L",
+      "Amical"
+    ]
   ],
   "Switzerland": [
-    ["Kosovo", "A", 1, 1, "D", "Qualif"],
-    ["Sweden", "A", 2, 0, "W", "Qualif"],
-    ["Slovenia", "H", 3, 0, "W", "Qualif"],
-    ["Kosovo", "H", 4, 0, "W", "Qualif"],
-    ["Sweden", "H", 2, 0, "W", "Qualif"],
-    ["Slovenia", "A", 0, 0, "D", "Qualif"],
-    ["Spain", "A", 2, 3, "L", "Nations League"],
-    ["Serbia", "H", 1, 1, "D", "Amical"],
-    ["USA", "A", 4, 0, "W", "Amical"],
-    ["Mexico", "H", 1, 1, "D", "Amical"]
+    [
+      "Germany",
+      "H",
+      3,
+      4,
+      "L",
+      "Amical"
+    ],
+    [
+      "Norway",
+      "A",
+      0,
+      0,
+      "D",
+      "Amical"
+    ],
+    [
+      "Australia",
+      "H",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "Kosovo",
+      "A",
+      1,
+      1,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Sweden",
+      "A",
+      2,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Slovenia",
+      "H",
+      3,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Kosovo",
+      "H",
+      4,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Sweden",
+      "H",
+      2,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Slovenia",
+      "A",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Spain",
+      "A",
+      2,
+      3,
+      "L",
+      "Nations League"
+    ],
+    [
+      "Serbia",
+      "H",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "USA",
+      "A",
+      4,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Mexico",
+      "H",
+      1,
+      1,
+      "D",
+      "Amical"
+    ]
   ],
   "Austria": [
-    ["Bosnia & Herzegovina", "A", 2, 1, "W", "Qualif"],
-    ["Cyprus", "H", 1, 0, "W", "Qualif"],
-    ["San Marino", "A", 10, 0, "W", "Qualif"],
-    ["Romania", "H", 2, 1, "W", "Qualif"],
-    ["Bosnia & Herzegovina", "H", 1, 1, "D", "Qualif"],
-    ["San Marino", "H", 4, 0, "W", "Qualif"],
-    ["Cyprus", "A", 2, 2, "D", "Qualif"],
-    ["Romania", "A", 1, 0, "W", "Qualif"],
-    ["Germany", "A", 1, 2, "L", "Amical"],
-    ["Serbia", "H", 2, 1, "W", "Amical"]
+    [
+      "Ghana",
+      "H",
+      5,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "South Korea",
+      "H",
+      1,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Tunisia",
+      "H",
+      1,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Bosnia & Herzegovina",
+      "A",
+      2,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Cyprus",
+      "H",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "San Marino",
+      "A",
+      10,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Romania",
+      "H",
+      2,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Bosnia & Herzegovina",
+      "H",
+      1,
+      1,
+      "D",
+      "Qualif"
+    ],
+    [
+      "San Marino",
+      "H",
+      4,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Cyprus",
+      "A",
+      2,
+      2,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Romania",
+      "A",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Germany",
+      "A",
+      1,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Serbia",
+      "H",
+      2,
+      1,
+      "W",
+      "Amical"
+    ]
   ],
   "Norway": [
-    ["Italy", "A", 4, 1, "W", "Qualif"],
-    ["Moldova", "A", 11, 1, "W", "Qualif"],
-    ["Estonia", "A", 1, 0, "W", "Qualif"],
-    ["Italy", "H", 1, 1, "D", "Qualif"],
-    ["Moldova", "H", 5, 0, "W", "Qualif"],
-    ["Estonia", "H", 1, 0, "W", "Qualif"],
-    ["Israel", "N", 5, 0, "W", "Qualif"],
-    ["Finland", "A", 2, 1, "W", "Amical"],
-    ["Netherlands", "A", 1, 2, "L", "Amical"],
-    ["Jamaica", "H", 3, 0, "W", "Amical"]
+    [
+      "Switzerland",
+      "H",
+      0,
+      0,
+      "D",
+      "Amical"
+    ],
+    [
+      "Sweden",
+      "H",
+      3,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Morocco",
+      "A",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "Italy",
+      "A",
+      4,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Moldova",
+      "A",
+      11,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Estonia",
+      "A",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Italy",
+      "H",
+      1,
+      1,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Moldova",
+      "H",
+      5,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Estonia",
+      "H",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Israel",
+      "N",
+      5,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Finland",
+      "A",
+      2,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Netherlands",
+      "A",
+      1,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Jamaica",
+      "H",
+      3,
+      0,
+      "W",
+      "Amical"
+    ]
   ],
   "Senegal": [
-    ["Saudi Arabia", "A", 0, 0, "D", "Amical"],
-    ["DR Congo", "H", 1, 1, "D", "Amical"],
-    ["Gambia", "H", 3, 1, "W", "Amical"],
-    ["Peru", "H", 2, 0, "W", "Amical"],
-    ["Morocco", "N", 0, 3, "L", "AFCON"],
-    ["Egypt", "N", 1, 0, "W", "AFCON"],
-    ["Mali", "N", 1, 0, "W", "AFCON"],
-    ["Sudan", "N", 3, 1, "W", "AFCON"],
-    ["Benin", "N", 3, 0, "W", "AFCON"],
-    ["DR Congo", "N", 1, 1, "D", "AFCON"]
+    [
+      "Saudi Arabia",
+      "A",
+      0,
+      0,
+      "D",
+      "Amical"
+    ],
+    [
+      "DR Congo",
+      "H",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "Gambia",
+      "H",
+      3,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Peru",
+      "H",
+      2,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Morocco",
+      "N",
+      0,
+      3,
+      "L",
+      "AFCON"
+    ],
+    [
+      "Egypt",
+      "N",
+      1,
+      0,
+      "W",
+      "AFCON"
+    ],
+    [
+      "Mali",
+      "N",
+      1,
+      0,
+      "W",
+      "AFCON"
+    ],
+    [
+      "Sudan",
+      "N",
+      3,
+      1,
+      "W",
+      "AFCON"
+    ],
+    [
+      "Benin",
+      "N",
+      3,
+      0,
+      "W",
+      "AFCON"
+    ],
+    [
+      "DR Congo",
+      "N",
+      1,
+      1,
+      "D",
+      "AFCON"
+    ]
   ],
   "Morocco": [
-    ["Norway", "N", 1, 1, "D", "Amical"],
-    ["Madagascar", "N", 4, 0, "W", "Amical"],
-    ["Paraguay", "N", 2, 1, "W", "Amical"],
-    ["Ecuador", "N", 1, 1, "D", "Amical"],
-    ["Senegal", "N", 3, 0, "W", "AFCON"],
-    ["Cameroon", "N", 2, 0, "W", "AFCON"],
-    ["Tanzania", "N", 1, 0, "W", "AFCON"],
-    ["DR Congo", "N", 3, 1, "W", "AFCON"],
-    ["Zambia", "N", 3, 1, "W", "AFCON"],
-    ["Kenya", "N", 0, 1, "L", "AFCON"]
+    [
+      "Norway",
+      "N",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "Madagascar",
+      "N",
+      4,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Paraguay",
+      "N",
+      2,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Ecuador",
+      "N",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "Senegal",
+      "N",
+      3,
+      0,
+      "W",
+      "AFCON"
+    ],
+    [
+      "Cameroon",
+      "N",
+      2,
+      0,
+      "W",
+      "AFCON"
+    ],
+    [
+      "Tanzania",
+      "N",
+      1,
+      0,
+      "W",
+      "AFCON"
+    ],
+    [
+      "DR Congo",
+      "N",
+      3,
+      1,
+      "W",
+      "AFCON"
+    ],
+    [
+      "Zambia",
+      "N",
+      3,
+      1,
+      "W",
+      "AFCON"
+    ],
+    [
+      "Kenya",
+      "N",
+      0,
+      1,
+      "L",
+      "AFCON"
+    ]
   ],
   "USA": [
-    ["Switzerland", "H", 0, 4, "L", "Amical"],
-    ["Türkiye", "H", 1, 2, "L", "Amical"],
-    ["Mexico", "N", 1, 2, "L", "Gold Cup"],
-    ["Guatemala", "N", 2, 1, "W", "Gold Cup"],
-    ["Costa Rica", "N", 2, 2, "W", "Gold Cup"],
-    ["Haiti", "N", 2, 1, "W", "Gold Cup"],
-    ["Saudi Arabia", "N", 1, 0, "W", "Gold Cup"],
-    ["Trinidad and Tobago", "H", 5, 0, "W", "Gold Cup"],
-    ["Uruguay", "H", 5, 1, "W", "Amical"],
-    ["Mexico", "A", 0, 3, "L", "Amical"]
+    [
+      "Belgium",
+      "H",
+      2,
+      5,
+      "L",
+      "Amical"
+    ],
+    [
+      "Portugal",
+      "H",
+      0,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Germany",
+      "H",
+      1,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Switzerland",
+      "H",
+      0,
+      4,
+      "L",
+      "Amical"
+    ],
+    [
+      "Türkiye",
+      "H",
+      1,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Mexico",
+      "N",
+      1,
+      2,
+      "L",
+      "Gold Cup"
+    ],
+    [
+      "Guatemala",
+      "N",
+      2,
+      1,
+      "W",
+      "Gold Cup"
+    ],
+    [
+      "Costa Rica",
+      "N",
+      2,
+      2,
+      "W",
+      "Gold Cup"
+    ],
+    [
+      "Haiti",
+      "N",
+      2,
+      1,
+      "W",
+      "Gold Cup"
+    ],
+    [
+      "Saudi Arabia",
+      "N",
+      1,
+      0,
+      "W",
+      "Gold Cup"
+    ],
+    [
+      "Trinidad and Tobago",
+      "H",
+      5,
+      0,
+      "W",
+      "Gold Cup"
+    ],
+    [
+      "Uruguay",
+      "H",
+      5,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Mexico",
+      "A",
+      0,
+      3,
+      "L",
+      "Amical"
+    ]
   ],
   "Uruguay": [
-    ["Algeria", "N", 0, 0, "D", "Amical"],
-    ["England", "A", 1, 1, "D", "Amical"],
-    ["USA", "A", 1, 5, "L", "Amical"],
-    ["Mexico", "A", 0, 0, "D", "Amical"],
-    ["Uzbekistan", "A", 2, 1, "W", "Amical"],
-    ["Dominican Republic", "H", 1, 0, "W", "Amical"],
-    ["Chile", "A", 0, 0, "D", "Qualif"],
-    ["Peru", "H", 3, 0, "W", "Qualif"],
-    ["Venezuela", "H", 2, 0, "W", "Qualif"],
-    ["Paraguay", "A", 0, 2, "L", "Qualif"]
+    [
+      "Algeria",
+      "N",
+      0,
+      0,
+      "D",
+      "Amical"
+    ],
+    [
+      "England",
+      "A",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "USA",
+      "A",
+      1,
+      5,
+      "L",
+      "Amical"
+    ],
+    [
+      "Mexico",
+      "A",
+      0,
+      0,
+      "D",
+      "Amical"
+    ],
+    [
+      "Uzbekistan",
+      "A",
+      2,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Dominican Republic",
+      "H",
+      1,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Chile",
+      "A",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Peru",
+      "H",
+      3,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Venezuela",
+      "H",
+      2,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Paraguay",
+      "A",
+      0,
+      2,
+      "L",
+      "Qualif"
+    ]
   ],
   "Japan": [
-    ["Iceland", "H", 1, 0, "W", "Amical"],
-    ["England", "A", 1, 0, "W", "Amical"],
-    ["Scotland", "A", 1, 0, "W", "Amical"],
-    ["Brazil", "H", 3, 2, "W", "Amical"],
-    ["Paraguay", "H", 2, 2, "D", "Amical"],
-    ["China", "A", 3, 1, "W", "Qualif"],
-    ["Indonesia", "A", 2, 0, "W", "Qualif"],
-    ["Bahrain", "A", 5, 0, "W", "Qualif"],
-    ["Indonesia", "H", 6, 0, "W", "Qualif"],
-    ["Australia", "A", 0, 1, "L", "Qualif"]
+    [
+      "Iceland",
+      "H",
+      1,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "England",
+      "A",
+      1,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Scotland",
+      "A",
+      1,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Brazil",
+      "H",
+      3,
+      2,
+      "W",
+      "Amical"
+    ],
+    [
+      "Paraguay",
+      "H",
+      2,
+      2,
+      "D",
+      "Amical"
+    ],
+    [
+      "China",
+      "A",
+      3,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Indonesia",
+      "A",
+      2,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Bahrain",
+      "A",
+      5,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Indonesia",
+      "H",
+      6,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Australia",
+      "A",
+      0,
+      1,
+      "L",
+      "Qualif"
+    ]
   ],
   "Colombia": [
-    ["France", "H", 1, 3, "L", "Amical"],
-    ["Croatia", "H", 1, 2, "L", "Amical"],
-    ["Venezuela", "A", 6, 3, "W", "Qualif"],
-    ["Bolivia", "H", 3, 0, "W", "Qualif"],
-    ["Argentina", "A", 1, 1, "D", "Qualif"],
-    ["Peru", "H", 0, 0, "D", "Qualif"],
-    ["Paraguay", "H", 2, 2, "D", "Qualif"],
-    ["Brazil", "A", 1, 2, "L", "Qualif"],
-    ["Chile", "A", 4, 0, "W", "Qualif"],
-    ["Bolivia", "A", 0, 0, "D", "Qualif"]
+    [
+      "Costa Rica",
+      "H",
+      3,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Jordan",
+      "H",
+      2,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "France",
+      "H",
+      1,
+      3,
+      "L",
+      "Amical"
+    ],
+    [
+      "Croatia",
+      "H",
+      1,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Venezuela",
+      "A",
+      6,
+      3,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Bolivia",
+      "H",
+      3,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Argentina",
+      "A",
+      1,
+      1,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Peru",
+      "H",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Paraguay",
+      "H",
+      2,
+      2,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Brazil",
+      "A",
+      1,
+      2,
+      "L",
+      "Qualif"
+    ],
+    [
+      "Chile",
+      "A",
+      4,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Bolivia",
+      "A",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ]
   ],
   "Ecuador": [
-    ["Netherlands", "A", 1, 1, "D", "Amical"],
-    ["Morocco", "N", 1, 1, "D", "Amical"],
-    ["New Zealand", "N", 2, 0, "W", "Amical"],
-    ["Argentina", "H", 1, 0, "W", "Qualif"],
-    ["Paraguay", "A", 0, 0, "D", "Qualif"],
-    ["Peru", "A", 0, 0, "D", "Qualif"],
-    ["Brazil", "H", 0, 0, "D", "Qualif"],
-    ["Chile", "A", 0, 0, "D", "Qualif"],
-    ["Venezuela", "H", 2, 1, "W", "Qualif"],
-    ["Colombia", "A", 1, 0, "W", "Qualif"]
+    [
+      "Guatemala",
+      "H",
+      3,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Netherlands",
+      "A",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "Morocco",
+      "N",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "New Zealand",
+      "N",
+      2,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Argentina",
+      "H",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Paraguay",
+      "A",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Peru",
+      "A",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Brazil",
+      "H",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Chile",
+      "A",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Venezuela",
+      "H",
+      2,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Colombia",
+      "A",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ]
   ],
   "Egypt": [
-    ["Senegal", "N", 0, 1, "L", "AFCON"],
-    ["Ivory Coast", "N", 3, 2, "W", "AFCON"],
-    ["Benin", "N", 3, 1, "W", "AFCON"],
-    ["Mali", "A", 0, 1, "L", "Amical"],
-    ["Senegal", "H", 0, 1, "L", "Amical"],
-    ["Burkina Faso", "H", 1, 0, "W", "Qualif"],
-    ["Ethiopia", "A", 2, 0, "W", "Qualif"],
-    ["Guinea-Bissau", "H", 1, 0, "W", "Qualif"],
-    ["Sierra Leone", "A", 2, 1, "W", "Qualif"],
-    ["Djibouti", "H", 3, 0, "W", "Qualif"]
+    [
+      "Saudi Arabia",
+      "A",
+      4,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Spain",
+      "A",
+      0,
+      0,
+      "D",
+      "Amical"
+    ],
+    [
+      "Brazil",
+      "A",
+      1,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Senegal",
+      "N",
+      0,
+      1,
+      "L",
+      "AFCON"
+    ],
+    [
+      "Ivory Coast",
+      "N",
+      3,
+      2,
+      "W",
+      "AFCON"
+    ],
+    [
+      "Benin",
+      "N",
+      3,
+      1,
+      "W",
+      "AFCON"
+    ],
+    [
+      "Mali",
+      "A",
+      0,
+      1,
+      "L",
+      "Amical"
+    ],
+    [
+      "Senegal",
+      "H",
+      0,
+      1,
+      "L",
+      "Amical"
+    ],
+    [
+      "Burkina Faso",
+      "H",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Ethiopia",
+      "A",
+      2,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Guinea-Bissau",
+      "H",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Sierra Leone",
+      "A",
+      2,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Djibouti",
+      "H",
+      3,
+      0,
+      "W",
+      "Qualif"
+    ]
   ],
   "Algeria": [
-    ["Nigeria", "N", 0, 2, "L", "AFCON"],
-    ["DR Congo", "N", 1, 0, "W", "AFCON"],
-    ["Burkina Faso", "N", 2, 1, "W", "AFCON"],
-    ["Equatorial Guinea", "N", 2, 0, "W", "AFCON"],
-    ["Uganda", "A", 2, 1, "W", "Qualif"],
-    ["Somalia", "H", 3, 0, "W", "Qualif"],
-    ["Guinea", "A", 2, 1, "W", "Qualif"],
-    ["Botswana", "H", 3, 1, "W", "Qualif"],
-    ["Mozambique", "A", 5, 1, "W", "Qualif"],
-    ["Sweden", "N", 1, 1, "D", "Amical"]
+    [
+      "Guatemala",
+      "H",
+      7,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Uruguay",
+      "H",
+      0,
+      0,
+      "D",
+      "Amical"
+    ],
+    [
+      "Netherlands",
+      "A",
+      1,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Bolivia",
+      "A",
+      4,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Nigeria",
+      "N",
+      0,
+      2,
+      "L",
+      "AFCON"
+    ],
+    [
+      "DR Congo",
+      "N",
+      1,
+      0,
+      "W",
+      "AFCON"
+    ],
+    [
+      "Burkina Faso",
+      "N",
+      2,
+      1,
+      "W",
+      "AFCON"
+    ],
+    [
+      "Equatorial Guinea",
+      "N",
+      2,
+      0,
+      "W",
+      "AFCON"
+    ],
+    [
+      "Uganda",
+      "A",
+      2,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Somalia",
+      "H",
+      3,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Guinea",
+      "A",
+      2,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Botswana",
+      "H",
+      3,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Mozambique",
+      "A",
+      5,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Sweden",
+      "N",
+      1,
+      1,
+      "D",
+      "Amical"
+    ]
   ],
   "Tunisia": [
-    ["Mali", "N", 1, 1, "L", "AFCON"],
-    ["Uganda", "N", 1, 0, "W", "AFCON"],
-    ["Tanzania", "N", 1, 1, "D", "AFCON"],
-    ["Nigeria", "N", 0, 1, "L", "AFCON"],
-    ["Namibia", "H", 3, 0, "W", "Qualif"],
-    ["Liberia", "A", 1, 0, "W", "Qualif"],
-    ["Equatorial Guinea", "H", 1, 0, "W", "Qualif"],
-    ["Malawi", "A", 1, 0, "W", "Qualif"],
-    ["Sao Tome", "H", 6, 0, "W", "Qualif"],
-    ["Brazil", "N", 1, 1, "D", "Amical"]
+    [
+      "Haiti",
+      "A",
+      1,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Canada",
+      "A",
+      0,
+      0,
+      "D",
+      "Amical"
+    ],
+    [
+      "Austria",
+      "A",
+      0,
+      1,
+      "L",
+      "Amical"
+    ],
+    [
+      "Belgium",
+      "A",
+      0,
+      5,
+      "L",
+      "Amical"
+    ],
+    [
+      "Mali",
+      "N",
+      1,
+      1,
+      "L",
+      "AFCON"
+    ],
+    [
+      "Uganda",
+      "N",
+      1,
+      0,
+      "W",
+      "AFCON"
+    ],
+    [
+      "Tanzania",
+      "N",
+      1,
+      1,
+      "D",
+      "AFCON"
+    ],
+    [
+      "Nigeria",
+      "N",
+      0,
+      1,
+      "L",
+      "AFCON"
+    ],
+    [
+      "Namibia",
+      "H",
+      3,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Liberia",
+      "A",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Equatorial Guinea",
+      "H",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Malawi",
+      "A",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Sao Tome",
+      "H",
+      6,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Brazil",
+      "N",
+      1,
+      1,
+      "D",
+      "Amical"
+    ]
   ],
   "Ivory Coast": [
-    ["Egypt", "N", 2, 3, "L", "AFCON"],
-    ["Burkina Faso", "N", 3, 0, "W", "AFCON"],
-    ["Cameroon", "N", 1, 1, "D", "AFCON"],
-    ["Mozambique", "N", 1, 0, "W", "AFCON"],
-    ["France", "H", 2, 1, "W", "Amical"],
-    ["Kenya", "A", 0, 0, "D", "Qualif"],
-    ["Gabon", "H", 1, 0, "W", "Qualif"],
-    ["Burundi", "A", 1, 1, "D", "Qualif"],
-    ["Seychelles", "H", 6, 0, "W", "Qualif"],
-    ["Gambia", "A", 1, 0, "W", "Qualif"]
+    [
+      "France",
+      "H",
+      2,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Scotland",
+      "N",
+      1,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "South Korea",
+      "N",
+      4,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Egypt",
+      "N",
+      2,
+      3,
+      "L",
+      "AFCON"
+    ],
+    [
+      "Burkina Faso",
+      "N",
+      3,
+      0,
+      "W",
+      "AFCON"
+    ],
+    [
+      "Cameroon",
+      "N",
+      1,
+      1,
+      "D",
+      "AFCON"
+    ],
+    [
+      "Mozambique",
+      "N",
+      1,
+      0,
+      "W",
+      "AFCON"
+    ],
+    [
+      "Kenya",
+      "A",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Gabon",
+      "H",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Burundi",
+      "A",
+      1,
+      1,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Seychelles",
+      "H",
+      6,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Gambia",
+      "A",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ]
   ],
   "Ghana": [
-    ["Madagascar", "H", 2, 0, "W", "Qualif"],
-    ["Mali", "A", 3, 1, "W", "Qualif"],
-    ["Chad", "H", 5, 0, "W", "Qualif"],
-    ["Central African Rep.", "A", 1, 0, "W", "Qualif"],
-    ["Comoros", "H", 1, 0, "W", "Qualif"],
-    ["Madagascar", "A", 0, 0, "D", "Qualif"],
-    ["Mali", "H", 2, 2, "D", "Qualif"],
-    ["Japan", "N", 0, 2, "L", "Amical"],
-    ["Mexico", "N", 2, 2, "D", "Amical"],
-    ["Nigeria", "N", 1, 1, "D", "Amical"]
+    [
+      "Austria",
+      "A",
+      1,
+      5,
+      "L",
+      "Amical"
+    ],
+    [
+      "Germany",
+      "A",
+      1,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Wales",
+      "A",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "Madagascar",
+      "H",
+      2,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Mali",
+      "A",
+      3,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Chad",
+      "H",
+      5,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Central African Rep.",
+      "A",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Comoros",
+      "H",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Madagascar",
+      "A",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Mali",
+      "H",
+      2,
+      2,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Japan",
+      "N",
+      0,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Mexico",
+      "N",
+      2,
+      2,
+      "D",
+      "Amical"
+    ],
+    [
+      "Nigeria",
+      "N",
+      1,
+      1,
+      "D",
+      "Amical"
+    ]
   ],
   "DR Congo": [
-    ["Algeria", "N", 0, 1, "L", "AFCON"],
-    ["Morocco", "N", 1, 3, "L", "AFCON"],
-    ["Benin", "N", 1, 0, "W", "AFCON"],
-    ["Senegal", "N", 1, 1, "D", "AFCON"],
-    ["Botswana", "N", 1, 0, "W", "AFCON"],
-    ["Nigeria", "N", 1, 1, "L", "Qualif"],
-    ["Cameroon", "A", 0, 0, "D", "Qualif"],
-    ["Senegal", "H", 3, 2, "W", "Amical"],
-    ["Sudan", "A", 1, 1, "D", "Qualif"],
-    ["Togo", "H", 3, 1, "W", "Qualif"]
+    [
+      "Bermuda",
+      "H",
+      2,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Denmark",
+      "H",
+      0,
+      0,
+      "D",
+      "Amical"
+    ],
+    [
+      "Chile",
+      "H",
+      1,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Algeria",
+      "N",
+      0,
+      1,
+      "L",
+      "AFCON"
+    ],
+    [
+      "Morocco",
+      "N",
+      1,
+      3,
+      "L",
+      "AFCON"
+    ],
+    [
+      "Benin",
+      "N",
+      1,
+      0,
+      "W",
+      "AFCON"
+    ],
+    [
+      "Senegal",
+      "N",
+      1,
+      1,
+      "D",
+      "AFCON"
+    ],
+    [
+      "Botswana",
+      "N",
+      1,
+      0,
+      "W",
+      "AFCON"
+    ],
+    [
+      "Nigeria",
+      "N",
+      1,
+      1,
+      "L",
+      "Qualif"
+    ],
+    [
+      "Cameroon",
+      "A",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Senegal",
+      "H",
+      3,
+      2,
+      "W",
+      "Amical"
+    ],
+    [
+      "Sudan",
+      "A",
+      1,
+      1,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Togo",
+      "H",
+      3,
+      1,
+      "W",
+      "Qualif"
+    ]
   ],
   "South Africa": [
-    ["Mexico", "A", 0, 2, "L", "CDM 2026"],
-    ["Cameroon", "N", 1, 2, "L", "AFCON"],
-    ["Egypt", "N", 0, 0, "D", "AFCON"],
-    ["Angola", "N", 2, 0, "W", "AFCON"],
-    ["Zimbabwe", "N", 0, 0, "D", "AFCON"],
-    ["Rwanda", "H", 3, 0, "W", "Qualif"],
-    ["Benin", "A", 0, 0, "D", "Qualif"],
-    ["Nigeria", "H", 1, 1, "D", "Qualif"],
-    ["Lesotho", "A", 3, 0, "W", "Qualif"],
-    ["Zimbabwe", "H", 2, 0, "W", "Qualif"]
+    [
+      "Panama",
+      "H",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "Panama",
+      "H",
+      1,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Jamaica",
+      "A",
+      1,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Mexico",
+      "A",
+      0,
+      2,
+      "L",
+      "CDM 2026"
+    ],
+    [
+      "Cameroon",
+      "N",
+      1,
+      2,
+      "L",
+      "AFCON"
+    ],
+    [
+      "Egypt",
+      "N",
+      0,
+      0,
+      "D",
+      "AFCON"
+    ],
+    [
+      "Angola",
+      "N",
+      2,
+      0,
+      "W",
+      "AFCON"
+    ],
+    [
+      "Zimbabwe",
+      "N",
+      0,
+      0,
+      "D",
+      "AFCON"
+    ],
+    [
+      "Rwanda",
+      "H",
+      3,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Benin",
+      "A",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Nigeria",
+      "H",
+      1,
+      1,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Lesotho",
+      "A",
+      3,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Zimbabwe",
+      "H",
+      2,
+      0,
+      "W",
+      "Qualif"
+    ]
   ],
   "Iran": [
-    ["North Korea", "A", 3, 0, "W", "Qualif"],
-    ["Kyrgyzstan", "A", 0, 0, "D", "Qualif"],
-    ["UAE", "H", 1, 0, "W", "Qualif"],
-    ["Qatar", "A", 0, 1, "L", "Qualif"],
-    ["Uzbekistan", "A", 2, 2, "D", "Qualif"],
-    ["North Korea", "H", 3, 0, "W", "Qualif"],
-    ["Russia", "A", 1, 2, "L", "Amical"],
-    ["Tanzania", "H", 1, 0, "W", "Amical"],
-    ["Algeria", "N", 1, 2, "L", "Amical"],
-    ["Cape Verde", "N", 1, 1, "D", "Amical"]
+    [
+      "Nigeria",
+      "H",
+      1,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Costa Rica",
+      "H",
+      5,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Mali",
+      "H",
+      2,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "North Korea",
+      "A",
+      3,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Kyrgyzstan",
+      "A",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "UAE",
+      "H",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Qatar",
+      "A",
+      0,
+      1,
+      "L",
+      "Qualif"
+    ],
+    [
+      "Uzbekistan",
+      "A",
+      2,
+      2,
+      "D",
+      "Qualif"
+    ],
+    [
+      "North Korea",
+      "H",
+      3,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Russia",
+      "A",
+      1,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Tanzania",
+      "H",
+      1,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Algeria",
+      "N",
+      1,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Cape Verde",
+      "N",
+      1,
+      1,
+      "D",
+      "Amical"
+    ]
   ],
   "Australia": [
-    ["Japan", "H", 0, 1, "L", "Qualif"],
-    ["Saudi Arabia", "A", 2, 1, "W", "Qualif"],
-    ["Indonesia", "H", 5, 0, "W", "Qualif"],
-    ["China", "A", 2, 0, "W", "Qualif"],
-    ["Bahrain", "H", 2, 2, "D", "Qualif"],
-    ["Saudi Arabia", "H", 0, 0, "D", "Qualif"],
-    ["USA", "A", 1, 2, "L", "Amical"],
-    ["Canada", "N", 1, 0, "W", "Amical"],
-    ["New Zealand", "H", 2, 0, "W", "Amical"],
-    ["Venezuela", "N", 1, 1, "D", "Amical"]
+    [
+      "Cameroon",
+      "H",
+      1,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Curaçao",
+      "H",
+      5,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Switzerland",
+      "A",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "Japan",
+      "H",
+      0,
+      1,
+      "L",
+      "Qualif"
+    ],
+    [
+      "Saudi Arabia",
+      "A",
+      2,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Indonesia",
+      "H",
+      5,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "China",
+      "A",
+      2,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Bahrain",
+      "H",
+      2,
+      2,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Saudi Arabia",
+      "H",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "USA",
+      "A",
+      1,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Canada",
+      "N",
+      1,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "New Zealand",
+      "H",
+      2,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Venezuela",
+      "N",
+      1,
+      1,
+      "D",
+      "Amical"
+    ]
   ],
   "Saudi Arabia": [
-    ["Senegal", "H", 0, 0, "D", "Amical"],
-    ["Iraq", "H", 0, 0, "D", "Qualif"],
-    ["Indonesia", "A", 2, 3, "W", "Qualif"],
-    ["Australia", "H", 0, 0, "D", "Qualif"],
-    ["China", "A", 1, 0, "W", "Qualif"],
-    ["Japan", "A", 0, 0, "D", "Qualif"],
-    ["Bahrain", "H", 2, 0, "W", "Qualif"],
-    ["Jamaica", "N", 1, 0, "W", "Amical"],
-    ["USA", "N", 0, 1, "L", "Amical"],
-    ["Colombia", "N", 1, 1, "D", "Amical"]
+    [
+      "Egypt",
+      "H",
+      0,
+      4,
+      "L",
+      "Amical"
+    ],
+    [
+      "Serbia",
+      "A",
+      1,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Puerto Rico",
+      "A",
+      3,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Senegal",
+      "H",
+      0,
+      0,
+      "D",
+      "Amical"
+    ],
+    [
+      "Iraq",
+      "H",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Indonesia",
+      "A",
+      2,
+      3,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Australia",
+      "H",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "China",
+      "A",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Japan",
+      "A",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Bahrain",
+      "H",
+      2,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Jamaica",
+      "N",
+      1,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "USA",
+      "N",
+      0,
+      1,
+      "L",
+      "Amical"
+    ],
+    [
+      "Colombia",
+      "N",
+      1,
+      1,
+      "D",
+      "Amical"
+    ]
   ],
   "Qatar": [
-    ["UAE", "H", 2, 1, "W", "Qualif"],
-    ["Oman", "A", 0, 0, "D", "Qualif"],
-    ["Iran", "H", 1, 0, "W", "Qualif"],
-    ["Kyrgyzstan", "A", 3, 1, "W", "Qualif"],
-    ["North Korea", "H", 5, 1, "W", "Qualif"],
-    ["Uzbekistan", "A", 0, 3, "L", "Qualif"],
-    ["Palestine", "H", 1, 1, "D", "Amical"],
-    ["Jordan", "N", 2, 1, "W", "Amical"],
-    ["Egypt", "N", 0, 1, "L", "Amical"],
-    ["Tunisia", "N", 1, 1, "D", "Amical"]
+    [
+      "El Salvador",
+      "H",
+      0,
+      0,
+      "D",
+      "Amical"
+    ],
+    [
+      "UAE",
+      "H",
+      2,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Oman",
+      "A",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Iran",
+      "H",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Kyrgyzstan",
+      "A",
+      3,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "North Korea",
+      "H",
+      5,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Uzbekistan",
+      "A",
+      0,
+      3,
+      "L",
+      "Qualif"
+    ],
+    [
+      "Palestine",
+      "H",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "Jordan",
+      "N",
+      2,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Egypt",
+      "N",
+      0,
+      1,
+      "L",
+      "Amical"
+    ],
+    [
+      "Tunisia",
+      "N",
+      1,
+      1,
+      "D",
+      "Amical"
+    ]
   ],
   "Uzbekistan": [
-    ["Iran", "H", 2, 2, "D", "Qualif"],
-    ["UAE", "A", 0, 0, "D", "Qualif"],
-    ["Kyrgyzstan", "A", 1, 0, "W", "Qualif"],
-    ["Qatar", "H", 3, 0, "W", "Qualif"],
-    ["North Korea", "A", 1, 0, "W", "Qualif"],
-    ["Uruguay", "H", 1, 2, "L", "Amical"],
-    ["UAE", "H", 0, 0, "D", "Amical"],
-    ["Russia", "A", 0, 1, "L", "Amical"],
-    ["New Zealand", "N", 1, 1, "D", "Amical"],
-    ["Cape Verde", "N", 2, 1, "W", "Amical"]
+    [
+      "Gabon",
+      "H",
+      3,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Venezuela",
+      "H",
+      0,
+      0,
+      "D",
+      "Amical"
+    ],
+    [
+      "Canada",
+      "A",
+      0,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Netherlands",
+      "A",
+      1,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Iran",
+      "H",
+      2,
+      2,
+      "D",
+      "Qualif"
+    ],
+    [
+      "UAE",
+      "A",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Kyrgyzstan",
+      "A",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Qatar",
+      "H",
+      3,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "North Korea",
+      "A",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Uruguay",
+      "H",
+      1,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "UAE",
+      "H",
+      0,
+      0,
+      "D",
+      "Amical"
+    ],
+    [
+      "Russia",
+      "A",
+      0,
+      1,
+      "L",
+      "Amical"
+    ],
+    [
+      "New Zealand",
+      "N",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "Cape Verde",
+      "N",
+      2,
+      1,
+      "W",
+      "Amical"
+    ]
   ],
   "Jordan": [
-    ["Iraq", "H", 0, 1, "L", "Qualif"],
-    ["Oman", "H", 3, 0, "W", "Qualif"],
-    ["South Korea", "A", 1, 1, "D", "Qualif"],
-    ["Palestine", "A", 3, 1, "W", "Qualif"],
-    ["Kuwait", "A", 1, 1, "D", "Qualif"],
-    ["Iraq", "A", 1, 0, "W", "Qualif"],
-    ["Oman", "A", 1, 0, "W", "Amical"],
-    ["Qatar", "N", 1, 2, "L", "Amical"],
-    ["Saudi Arabia", "N", 1, 1, "D", "Amical"],
-    ["Tunisia", "N", 0, 1, "L", "Amical"]
+    [
+      "Costa Rica",
+      "H",
+      2,
+      2,
+      "D",
+      "Amical"
+    ],
+    [
+      "Nigeria",
+      "H",
+      2,
+      2,
+      "D",
+      "Amical"
+    ],
+    [
+      "Colombia",
+      "A",
+      0,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Iraq",
+      "H",
+      0,
+      1,
+      "L",
+      "Qualif"
+    ],
+    [
+      "Oman",
+      "H",
+      3,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "South Korea",
+      "A",
+      1,
+      1,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Palestine",
+      "A",
+      3,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Kuwait",
+      "A",
+      1,
+      1,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Iraq",
+      "A",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Oman",
+      "A",
+      1,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Qatar",
+      "N",
+      1,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Saudi Arabia",
+      "N",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "Tunisia",
+      "N",
+      0,
+      1,
+      "L",
+      "Amical"
+    ]
   ],
   "Iraq": [
-    ["Saudi Arabia", "A", 0, 0, "D", "Qualif"],
-    ["Indonesia", "A", 1, 0, "W", "Qualif"],
-    ["UAE", "N", 2, 1, "W", "Playoff"],
-    ["Emirates", "N", 1, 1, "D", "Amical"],
-    ["Jordan", "A", 0, 1, "L", "Qualif"],
-    ["Palestine", "H", 2, 1, "W", "Qualif"],
-    ["South Korea", "A", 0, 2, "L", "Qualif"],
-    ["Kuwait", "H", 2, 2, "D", "Qualif"],
-    ["Oman", "H", 1, 0, "W", "Qualif"],
-    ["Bolivia", "N", 1, 1, "D", "Playoff"]
+    [
+      "Spain",
+      "A",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "Venezuela",
+      "H",
+      0,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Saudi Arabia",
+      "A",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Indonesia",
+      "A",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "UAE",
+      "N",
+      2,
+      1,
+      "W",
+      "Playoff"
+    ],
+    [
+      "Emirates",
+      "N",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "Jordan",
+      "A",
+      0,
+      1,
+      "L",
+      "Qualif"
+    ],
+    [
+      "Palestine",
+      "H",
+      2,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "South Korea",
+      "A",
+      0,
+      2,
+      "L",
+      "Qualif"
+    ],
+    [
+      "Kuwait",
+      "H",
+      2,
+      2,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Oman",
+      "H",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Bolivia",
+      "N",
+      1,
+      1,
+      "D",
+      "Playoff"
+    ]
   ],
   "Paraguay": [
-    ["Morocco", "N", 1, 2, "L", "Amical"],
-    ["Japan", "A", 2, 2, "D", "Amical"],
-    ["Ecuador", "H", 0, 0, "D", "Qualif"],
-    ["Argentina", "A", 0, 0, "D", "Qualif"],
-    ["Uruguay", "H", 2, 0, "W", "Qualif"],
-    ["Colombia", "A", 2, 2, "D", "Qualif"],
-    ["Chile", "H", 1, 0, "W", "Qualif"],
-    ["Brazil", "A", 0, 1, "L", "Qualif"],
-    ["Bolivia", "H", 2, 2, "D", "Qualif"],
-    ["Peru", "H", 1, 0, "W", "Qualif"]
+    [
+      "Greece",
+      "A",
+      1,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Nicaragua",
+      "H",
+      4,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Morocco",
+      "N",
+      1,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Japan",
+      "A",
+      2,
+      2,
+      "D",
+      "Amical"
+    ],
+    [
+      "Ecuador",
+      "H",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Argentina",
+      "A",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Uruguay",
+      "H",
+      2,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Colombia",
+      "A",
+      2,
+      2,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Chile",
+      "H",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Brazil",
+      "A",
+      0,
+      1,
+      "L",
+      "Qualif"
+    ],
+    [
+      "Bolivia",
+      "H",
+      2,
+      2,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Peru",
+      "H",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ]
   ],
   "Scotland": [
-    ["Denmark", "H", 4, 2, "W", "Qualif"],
-    ["Greece", "A", 3, 1, "W", "Qualif"],
-    ["Belarus", "H", 2, 1, "W", "Qualif"],
-    ["Greece", "H", 1, 3, "L", "Qualif"],
-    ["Belarus", "A", 2, 1, "W", "Qualif"],
-    ["Denmark", "A", 0, 0, "D", "Qualif"],
-    ["Liechtenstein", "H", 4, 0, "W", "Amical"],
-    ["Iceland", "H", 3, 1, "W", "Amical"],
-    ["Japan", "H", 0, 1, "L", "Amical"],
-    ["Portugal", "A", 1, 1, "D", "Amical"]
+    [
+      "Ivory Coast",
+      "A",
+      0,
+      1,
+      "L",
+      "Amical"
+    ],
+    [
+      "Bolivia",
+      "A",
+      4,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Denmark",
+      "H",
+      4,
+      2,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Greece",
+      "A",
+      3,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Belarus",
+      "H",
+      2,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Greece",
+      "H",
+      1,
+      3,
+      "L",
+      "Qualif"
+    ],
+    [
+      "Belarus",
+      "A",
+      2,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Denmark",
+      "A",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Liechtenstein",
+      "H",
+      4,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Iceland",
+      "H",
+      3,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Japan",
+      "H",
+      0,
+      1,
+      "L",
+      "Amical"
+    ],
+    [
+      "Portugal",
+      "A",
+      1,
+      1,
+      "D",
+      "Amical"
+    ]
   ],
   "Sweden": [
-    ["Poland", "H", 3, 2, "W", "Playoff"],
-    ["Ukraine", "A", 3, 1, "W", "Playoff"],
-    ["Kosovo", "H", 0, 1, "L", "Qualif"],
-    ["Switzerland", "A", 0, 2, "L", "Qualif"],
-    ["Slovenia", "H", 1, 1, "D", "Qualif"],
-    ["Kosovo", "A", 0, 2, "L", "Qualif"],
-    ["Switzerland", "H", 0, 2, "L", "Qualif"],
-    ["Slovenia", "A", 2, 2, "D", "Qualif"],
-    ["Algeria", "N", 1, 1, "D", "Amical"],
-    ["Northern Ireland", "A", 1, 1, "D", "Amical"]
+    [
+      "Norway",
+      "A",
+      1,
+      3,
+      "L",
+      "Amical"
+    ],
+    [
+      "Greece",
+      "H",
+      2,
+      2,
+      "D",
+      "Amical"
+    ],
+    [
+      "Poland",
+      "H",
+      3,
+      2,
+      "W",
+      "Playoff"
+    ],
+    [
+      "Ukraine",
+      "A",
+      3,
+      1,
+      "W",
+      "Playoff"
+    ],
+    [
+      "Kosovo",
+      "H",
+      0,
+      1,
+      "L",
+      "Qualif"
+    ],
+    [
+      "Switzerland",
+      "A",
+      0,
+      2,
+      "L",
+      "Qualif"
+    ],
+    [
+      "Slovenia",
+      "H",
+      1,
+      1,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Kosovo",
+      "A",
+      0,
+      2,
+      "L",
+      "Qualif"
+    ],
+    [
+      "Switzerland",
+      "H",
+      0,
+      2,
+      "L",
+      "Qualif"
+    ],
+    [
+      "Slovenia",
+      "A",
+      2,
+      2,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Algeria",
+      "N",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "Northern Ireland",
+      "A",
+      1,
+      1,
+      "D",
+      "Amical"
+    ]
   ],
   "Curaçao": [
-    ["Jamaica", "A", 0, 0, "D", "Qualif"],
-    ["Bermuda", "A", 7, 0, "W", "Qualif"],
-    ["Trinidad and Tobago", "H", 1, 1, "D", "Qualif"],
-    ["Jamaica", "H", 2, 0, "W", "Qualif"],
-    ["Bermuda", "H", 3, 2, "W", "Qualif"],
-    ["Trinidad and Tobago", "A", 0, 2, "L", "Qualif"],
-    ["China", "N", 0, 2, "L", "Amical"],
-    ["Bolivia", "N", 1, 1, "D", "Amical"],
-    ["Haiti", "A", 1, 1, "D", "Amical"],
-    ["India", "N", 3, 0, "W", "Amical"]
+    [
+      "Australia",
+      "A",
+      1,
+      5,
+      "L",
+      "Amical"
+    ],
+    [
+      "Aruba",
+      "H",
+      4,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Jamaica",
+      "A",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Bermuda",
+      "A",
+      7,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Trinidad and Tobago",
+      "H",
+      1,
+      1,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Jamaica",
+      "H",
+      2,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Bermuda",
+      "H",
+      3,
+      2,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Trinidad and Tobago",
+      "A",
+      0,
+      2,
+      "L",
+      "Qualif"
+    ],
+    [
+      "China",
+      "N",
+      0,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Bolivia",
+      "N",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "Haiti",
+      "A",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "India",
+      "N",
+      3,
+      0,
+      "W",
+      "Amical"
+    ]
   ],
   "New Zealand": [
-    ["Finland", "H", 0, 2, "L", "Amical"],
-    ["Norway", "A", 1, 3, "L", "Amical"],
-    ["Ecuador", "N", 0, 2, "L", "Amical"],
-    ["Colombia", "N", 1, 2, "L", "Amical"],
-    ["Australia", "A", 0, 2, "L", "Amical"],
-    ["New Caledonia", "H", 3, 0, "W", "Qualif"],
-    ["Fiji", "N", 7, 0, "W", "Qualif"],
-    ["Tahiti", "N", 3, 0, "W", "Qualif"],
-    ["Vanuatu", "N", 2, 0, "W", "Qualif"],
-    ["Malaysia", "A", 1, 0, "W", "Amical"]
+    [
+      "Chile",
+      "H",
+      4,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Haiti",
+      "A",
+      0,
+      4,
+      "L",
+      "Amical"
+    ],
+    [
+      "England",
+      "A",
+      0,
+      1,
+      "L",
+      "Amical"
+    ],
+    [
+      "Finland",
+      "H",
+      0,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Norway",
+      "A",
+      1,
+      3,
+      "L",
+      "Amical"
+    ],
+    [
+      "Ecuador",
+      "N",
+      0,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Colombia",
+      "N",
+      1,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Australia",
+      "A",
+      0,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "New Caledonia",
+      "H",
+      3,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Fiji",
+      "N",
+      7,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Tahiti",
+      "N",
+      3,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Vanuatu",
+      "N",
+      2,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Malaysia",
+      "A",
+      1,
+      0,
+      "W",
+      "Amical"
+    ]
   ],
   "Cape Verde": [
-    ["Chile", "N", 2, 4, "L", "Amical"],
-    ["Canada", "N", 0, 2, "L", "Amical"],
-    ["Cameroon", "H", 1, 0, "W", "Qualif"],
-    ["Libya", "A", 3, 3, "D", "Qualif"],
-    ["Angola", "H", 2, 0, "W", "Qualif"],
-    ["Mauritius", "A", 1, 0, "W", "Qualif"],
-    ["Cameroon", "A", 1, 4, "L", "Qualif"],
-    ["Libya", "H", 1, 0, "W", "Qualif"],
-    ["Eswatini", "A", 3, 1, "W", "Qualif"],
-    ["Angola", "A", 0, 2, "L", "Qualif"]
+    [
+      "Finland",
+      "H",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "Chile",
+      "N",
+      2,
+      4,
+      "L",
+      "Amical"
+    ],
+    [
+      "Canada",
+      "N",
+      0,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Cameroon",
+      "H",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Libya",
+      "A",
+      3,
+      3,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Angola",
+      "H",
+      2,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Mauritius",
+      "A",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Cameroon",
+      "A",
+      1,
+      4,
+      "L",
+      "Qualif"
+    ],
+    [
+      "Libya",
+      "H",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Eswatini",
+      "A",
+      3,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Angola",
+      "A",
+      0,
+      2,
+      "L",
+      "Qualif"
+    ]
   ],
   "Panama": [
-    ["El Salvador", "H", 3, 0, "W", "Qualif"],
-    ["Suriname", "A", 0, 0, "D", "Qualif"],
-    ["Guatemala", "H", 1, 1, "D", "Qualif"],
-    ["El Salvador", "A", 1, 0, "W", "Qualif"],
-    ["Suriname", "H", 0, 0, "D", "Qualif"],
-    ["Guatemala", "A", 1, 1, "D", "Qualif"],
-    ["Curaçao", "N", 0, 0, "D", "Amical"],
-    ["USA", "N", 0, 1, "L", "Gold Cup"],
-    ["Honduras", "N", 1, 1, "W", "Gold Cup"],
-    ["Jamaica", "N", 1, 0, "W", "Gold Cup"]
+    [
+      "South Africa",
+      "A",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "South Africa",
+      "A",
+      2,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Dominican Republic",
+      "H",
+      4,
+      2,
+      "W",
+      "Amical"
+    ],
+    [
+      "Bosnia-Herzegovina",
+      "H",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "El Salvador",
+      "H",
+      3,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Suriname",
+      "A",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Guatemala",
+      "H",
+      1,
+      1,
+      "D",
+      "Qualif"
+    ],
+    [
+      "El Salvador",
+      "A",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Suriname",
+      "H",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Guatemala",
+      "A",
+      1,
+      1,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Curaçao",
+      "N",
+      0,
+      0,
+      "D",
+      "Amical"
+    ],
+    [
+      "USA",
+      "N",
+      0,
+      1,
+      "L",
+      "Gold Cup"
+    ],
+    [
+      "Honduras",
+      "N",
+      1,
+      1,
+      "W",
+      "Gold Cup"
+    ],
+    [
+      "Jamaica",
+      "N",
+      1,
+      0,
+      "W",
+      "Gold Cup"
+    ]
   ],
   "Haiti": [
-    ["Nicaragua", "H", 2, 0, "W", "Qualif"],
-    ["Honduras", "A", 0, 0, "D", "Qualif"],
-    ["Costa Rica", "H", 1, 0, "W", "Qualif"],
-    ["Nicaragua", "A", 3, 0, "W", "Qualif"],
-    ["Honduras", "H", 0, 0, "D", "Qualif"],
-    ["Costa Rica", "A", 1, 3, "L", "Qualif"],
-    ["Curaçao", "H", 1, 1, "D", "Amical"],
-    ["Suriname", "N", 2, 1, "W", "Amical"],
-    ["Saint Kitts", "A", 2, 0, "W", "Amical"],
-    ["Jamaica", "N", 0, 1, "L", "Amical"]
+    [
+      "Tunisia",
+      "H",
+      0,
+      1,
+      "L",
+      "Amical"
+    ],
+    [
+      "Iceland",
+      "H",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "New Zealand",
+      "H",
+      4,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Peru",
+      "H",
+      1,
+      2,
+      "L",
+      "Amical"
+    ],
+    [
+      "Nicaragua",
+      "H",
+      2,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Honduras",
+      "A",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Costa Rica",
+      "H",
+      1,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Nicaragua",
+      "A",
+      3,
+      0,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Honduras",
+      "H",
+      0,
+      0,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Costa Rica",
+      "A",
+      1,
+      3,
+      "L",
+      "Qualif"
+    ],
+    [
+      "Curaçao",
+      "H",
+      1,
+      1,
+      "D",
+      "Amical"
+    ],
+    [
+      "Suriname",
+      "N",
+      2,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Saint Kitts",
+      "A",
+      2,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Jamaica",
+      "N",
+      0,
+      1,
+      "L",
+      "Amical"
+    ]
   ],
   "Turkey": [
-    ["Spain", "H", 2, 2, "D", "Qualif"],
-    ["Bulgaria", "A", 6, 1, "W", "Qualif"],
-    ["Georgia", "A", 3, 2, "W", "Qualif"],
-    ["Bulgaria", "H", 6, 1, "W", "Qualif"],
-    ["Spain", "A", 0, 6, "L", "Qualif"],
-    ["Georgia", "H", 3, 2, "W", "Qualif"],
-    ["USA", "N", 2, 1, "W", "Amical"],
-    ["Mexico", "N", 0, 1, "L", "Amical"],
-    ["Romania", "N", 1, 0, "W", "Playoff"],
-    ["Slovakia", "N", 1, 0, "W", "Playoff"]
+    [
+      "North Macedonia",
+      "H",
+      4,
+      0,
+      "W",
+      "Amical"
+    ],
+    [
+      "Venezuela",
+      "A",
+      2,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Spain",
+      "H",
+      2,
+      2,
+      "D",
+      "Qualif"
+    ],
+    [
+      "Bulgaria",
+      "A",
+      6,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Georgia",
+      "A",
+      3,
+      2,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Bulgaria",
+      "H",
+      6,
+      1,
+      "W",
+      "Qualif"
+    ],
+    [
+      "Spain",
+      "A",
+      0,
+      6,
+      "L",
+      "Qualif"
+    ],
+    [
+      "Georgia",
+      "H",
+      3,
+      2,
+      "W",
+      "Qualif"
+    ],
+    [
+      "USA",
+      "N",
+      2,
+      1,
+      "W",
+      "Amical"
+    ],
+    [
+      "Mexico",
+      "N",
+      0,
+      1,
+      "L",
+      "Amical"
+    ],
+    [
+      "Romania",
+      "N",
+      1,
+      0,
+      "W",
+      "Playoff"
+    ],
+    [
+      "Slovakia",
+      "N",
+      1,
+      0,
+      "W",
+      "Playoff"
+    ]
   ]
 }
