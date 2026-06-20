@@ -476,3 +476,4 @@
   .foot{text-align:center;color:var(--muted);font-size:11px;margin-top:24px;line-height:1.6}
 
   @media(max-width:760px){.grid2{grid-template-columns:1fr}}
+  .close-notif-btn{width:32px;height:32px;font-size:14px;}

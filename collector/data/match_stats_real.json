@@ -1542,5 +1542,805 @@
   "referee": "Michael Oliver",
   "home_xg": 0.88,
   "away_xg": 1.17
+ },
+ "Brazil|France": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Colombia|Croatia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Chile|Cape Verde": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "China|Curaçao": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "New Zealand|Finland": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Australia|Cameroon": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Iran|Nigeria": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Uzbekistan|Gabon": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Austria|Ghana": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "South Africa|Panama": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Jordan|Costa Rica": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Saudi Arabia|Egypt": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Greece|Paraguay": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Algeria|Guatemala": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "England|Uruguay": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Netherlands|Norway": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Switzerland|Germany": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Spain|Serbia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Morocco|Ecuador": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Argentina|Mauritania": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "South Korea|Ivory Coast": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Senegal|Peru": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Canada|Iceland": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Scotland|Japan": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "USA|Belgium": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Haiti|Tunisia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Mexico|Portugal": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Colombia|France": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Cape Verde|Finland": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "New Zealand|Chile": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Uzbekistan|Venezuela": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Germany|Ghana": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Australia|Curaçao": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Iran|Costa Rica": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Norway|Switzerland": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Serbia|Saudi Arabia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Jordan|Nigeria": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Haiti|Iceland": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Morocco|Paraguay": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Algeria|Uruguay": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Ivory Coast|Scotland": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Austria|South Korea": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "England|Japan": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Netherlands|Ecuador": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Senegal|Gambia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Spain|Egypt": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "USA|Portugal": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Argentina|Zambia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Brazil|Croatia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Canada|Tunisia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Mexico|Belgium": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Norway|Sweden": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Turkey|North Macedonia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Austria|Tunisia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Colombia|Costa Rica": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Canada|Uzbekistan": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Croatia|Belgium": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Morocco|Madagascar": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Wales|Ghana": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Haiti|New Zealand": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Netherlands|Algeria": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Panama|Dominican Republic": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "South Korea|El Salvador": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Iran|Mali": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Sweden|Greece": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Spain|Iraq": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "France|Ivory Coast": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Czech Republic|Guatemala": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Mexico|Serbia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Paraguay|Nicaragua": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Puerto Rico|Saudi Arabia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Canada|Republic of Ireland": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Haiti|Peru": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Belgium|Tunisia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Portugal|Chile": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "USA|Germany": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Panama|Bosnia & Herzegovina": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Switzerland|Australia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Bolivia|Scotland": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "England|New Zealand": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Qatar|El Salvador": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Jamaica|South Africa": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Brazil|Egypt": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Venezuela|Turkey": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Argentina|Honduras": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Curaçao|Aruba": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Croatia|Slovenia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Morocco|Norway": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Ecuador|Guatemala": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Colombia|Jordan": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Netherlands|Uzbekistan": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "France|Northern Ireland": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Peru|Spain": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Saudi Arabia|Senegal": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Argentina|Iceland": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Iraq|Venezuela": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Portugal|Nigeria": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "England|Costa Rica": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Bolivia|Algeria": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Bolivia|Trinidad and Tobago": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Puerto Rico|Guam": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Aruba|Macau": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Dominican Republic|El Salvador": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Venezuela|Trinidad and Tobago": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Russia|Nicaragua": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Zambia|Malawi": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Kyrgyz Republic|Madagascar": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Hungary|Slovenia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Puerto Rico|US Virgin Islands": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Aruba|Liechtenstein": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Martinique|El Salvador": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Dominican Republic|Cuba": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Trinidad and Tobago|Gabon": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Cameroon|China": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Montenegro|Slovenia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Zimbabwe|Zambia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Hungary|Greece": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Russia|Mali": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Peru|Honduras": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Republic of Ireland|North Macedonia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Wales|Northern Ireland": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Poland|Nigeria": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Northern Ireland|Guinea": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Slovenia|Cyprus": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Singapore|China": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Hungary|Finland": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Romania|Wales": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Greece|Italy": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "China|Thailand": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Congo DR|Chile": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Kyrgyz Republic|Equatorial Guinea": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "US Virgin Islands|American Samoa": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Congo DR|Bermuda": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Tanzania|Liechtenstein": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Cyprus|Belarus": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Martinique|Cuba": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Togo|Guinea": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Montenegro|Andorra": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "American Samoa|Guam": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Macau|Tanzania": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Cyprus|Moldova": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Guinea|Benin": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Slovakia|Romania": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Bulgaria|Montenegro": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Georgia|Romania": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Philippines|Guam": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Congo DR|Denmark": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Luxembourg|Italy": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Andorra|Liechtenstein": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Thailand|Kuwait": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Slovakia|Montenegro": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Russia|Burkina Faso": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Myanmar|Guam": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Ethiopia|Malawi": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Liechtenstein|Cyprus": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Kyrgyz Republic|Palestine": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Hungary|Kazakhstan": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Russia|Trinidad and Tobago": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Kazakhstan|Namibia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Moldova|Lithuania": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Georgia|Israel": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Solomon Islands|Bulgaria": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Benin|Liberia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Lithuania|Georgia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Armenia|Belarus": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Indonesia|Bulgaria": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Kazakhstan|Comoros": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Niger|Togo": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "San Marino|Andorra": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Slovakia|Malta": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Belarus|Syria": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Georgia|Bahrain": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Moldova|Bulgaria": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Armenia|Kazakhstan": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Albania|Luxembourg": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Denmark|Ukraine": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Kosovo|Andorra": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Philippines|Myanmar": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Armenia|Moldova": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Equatorial Guinea|Comoros": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Belarus|Burkina Faso": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Togo|Benin": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Indonesia|St. Kitts and Nevis": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Niger|Libya": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Namibia|Comoros": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "San Marino|Faroe Islands": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "St. Kitts and Nevis|Solomon Islands": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Liberia|Libya": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Ukraine|Albania": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Albania|Israel": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Indonesia|Oman": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "San Marino|Bangladesh": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Azerbaijan|Malta": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Indonesia|Mozambique": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Azerbaijan|San Marino": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Liberia|Sierra Leone": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Vietnam|Bangladesh": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Azerbaijan|St. Lucia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Azerbaijan|Sierra Leone": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Oman|Mozambique": {
+  "source_espn": "not_found",
+  "home_shots": null
  }
 }
