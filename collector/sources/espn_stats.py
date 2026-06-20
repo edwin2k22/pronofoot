@@ -149,6 +149,20 @@ def match_summary(event_id):
         if (pos or "").lower() == "referee" or not out["referee"]:
             out["referee"] = off.get("fullName")
 
+    out["halftime"] = None
+    try:
+        comps = d.get("header", {}).get("competitions", [{}])[0].get("competitors", [])
+        if len(comps) == 2:
+            home_c = comps[0] if comps[0].get("homeAway") == "home" else comps[1]
+            away_c = comps[1] if comps[0].get("homeAway") == "home" else comps[0]
+            if "linescores" in home_c and "linescores" in away_c:
+                if len(home_c["linescores"]) > 0 and len(away_c["linescores"]) > 0:
+                    h_ht = home_c["linescores"][0].get("displayValue", "0")
+                    a_ht = away_c["linescores"][0].get("displayValue", "0")
+                    out["halftime"] = f"{h_ht}-{a_ht}"
+    except Exception:
+        pass
+
     # ----- boxscore équipe -----
     for t in d.get("boxscore", {}).get("teams", []):
         side = t.get("homeAway")

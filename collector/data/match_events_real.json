@@ -49,7 +49,8 @@
    }
   ],
   "motm": "Julián Quiñones",
-  "note": "3 cartons rouges : record pour un match d'ouverture de Coupe du Monde."
+  "note": "3 cartons rouges : record pour un match d'ouverture de Coupe du Monde.",
+  "halftime": "1-0"
  },
  "South Korea|Czech Republic": {
   "goals": [
@@ -77,7 +78,8 @@
    }
   ],
   "motm": "Hwang In-Beom",
-  "note": "Remontada coréenne : menés 0-1, ils renversent le match en 2e mi-temps."
+  "note": "Remontada coréenne : menés 0-1, ils renversent le match en 2e mi-temps.",
+  "halftime": "0-0"
  },
  "Canada|Bosnia & Herzegovina": {
   "goals": [
@@ -122,7 +124,8 @@
    }
   ],
   "motm": "Cyle Larin",
-  "note": "Premier point du Canada de l'histoire en Coupe du Monde, arraché à la 78e."
+  "note": "Premier point du Canada de l'histoire en Coupe du Monde, arraché à la 78e.",
+  "halftime": "0-1"
  },
  "USA|Paraguay": {
   "goals": [
@@ -200,7 +203,8 @@
    }
   ],
   "motm": "Folarin Balogun",
-  "note": "4 buts = record des USA en Coupe du Monde. Doublé de Balogun pour ses débuts, Reyna conclut d'une trivela."
+  "note": "4 buts = record des USA en Coupe du Monde. Doublé de Balogun pour ses débuts, Reyna conclut d'une trivela.",
+  "halftime": "3-0"
  },
  "Brazil|Morocco": {
   "goals": [
@@ -234,7 +238,8 @@
    }
   ],
   "motm": "Vinícius Júnior",
-  "note": "Le Maroc a longtemps dominé ; Alisson sauve un doublé en fin de match."
+  "note": "Le Maroc a longtemps dominé ; Alisson sauve un doublé en fin de match.",
+  "halftime": "1-1"
  },
  "Qatar|Switzerland": {
   "goals": [
@@ -273,7 +278,8 @@
    }
   ],
   "motm": "Boualem Khoukhi",
-  "note": "La Suisse a tiré 26 fois (xG 3.24) mais n'a marqué que sur penalty ; Qatar punit en fin de match."
+  "note": "La Suisse a tiré 26 fois (xG 3.24) mais n'a marqué que sur penalty ; Qatar punit en fin de match.",
+  "halftime": "0-1"
  },
  "Haiti|Scotland": {
   "goals": [
@@ -312,7 +318,8 @@
    }
   ],
   "motm": "John McGinn",
-  "note": "1re victoire de l'Écosse en CDM depuis 1990 ; Pierrot manque l'égalisation de peu en fin de match."
+  "note": "1re victoire de l'Écosse en CDM depuis 1990 ; Pierrot manque l'égalisation de peu en fin de match.",
+  "halftime": "0-1"
  },
  "Australia|Turkey": {
   "goals": [
@@ -340,7 +347,8 @@
    }
   ],
   "motm": "Patrick Beach (8 arrêts)",
-  "note": "Surprise : l'Australie bat la Turquie 2-0 malgré 30 tirs turcs. Beach héroïque (8 arrêts), 55 dégagements australiens."
+  "note": "Surprise : l'Australie bat la Turquie 2-0 malgré 30 tirs turcs. Beach héroïque (8 arrêts), 55 dégagements australiens.",
+  "halftime": "1-0"
  },
  "Germany|Curaçao": {
   "goals": [
@@ -382,7 +390,8 @@
   ],
   "cards": [],
   "motm": "Kai Havertz",
-  "note": "Démonstration allemande 7-1 ; Curaçao marque son 1er but en CDM."
+  "note": "Démonstration allemande 7-1 ; Curaçao marque son 1er but en CDM.",
+  "halftime": "3-1"
  },
  "Netherlands|Japan": {
   "goals": [
@@ -422,7 +431,8 @@
    }
   ],
   "motm": "Daichi Kamada",
-  "note": "Match spectaculaire : le Japon revient deux fois, Kamada égalise à la 89e. 2-2."
+  "note": "Match spectaculaire : le Japon revient deux fois, Kamada égalise à la 89e. 2-2.",
+  "halftime": "0-0"
  },
  "Ivory Coast|Ecuador": {
   "goals": [
@@ -461,7 +471,8 @@
    }
   ],
   "motm": "Amad Diallo",
-  "note": "1re victoire ivoirienne en CDM contre une équipe mieux classée ; les deux équipes touchent la barre."
+  "note": "1re victoire ivoirienne en CDM contre une équipe mieux classée ; les deux équipes touchent la barre.",
+  "halftime": "0-0"
  },
  "Spain|Cape Verde": {
   "goals": [],
@@ -480,7 +491,8 @@
    }
   ],
   "motm": "—",
-  "note": "L'Espagne domine outrageusement (27 tirs, 11 corners) mais bute sur la défense capverdienne : 0-0 surprise."
+  "note": "L'Espagne domine outrageusement (27 tirs, 11 corners) mais bute sur la défense capverdienne : 0-0 surprise.",
+  "halftime": "0-0"
  },
  "Belgium|Egypt": {
   "goals": [
@@ -519,7 +531,8 @@
    }
   ],
   "motm": "Emam Ashour",
-  "note": "Nul équilibré à Seattle (Lumen Field, 66 775 spectateurs). Ashour ouvre le score sur passe de Salah, égalisation sur CSC provoqué par Lukaku. Arbitre : Ramon Abatti (BRA)."
+  "note": "Nul équilibré à Seattle (Lumen Field, 66 775 spectateurs). Ashour ouvre le score sur passe de Salah, égalisation sur CSC provoqué par Lukaku. Arbitre : Ramon Abatti (BRA).",
+  "halftime": "0-1"
  },
  "Saudi Arabia|Uruguay": {
   "goals": [
@@ -547,7 +560,8 @@
    }
   ],
   "motm": "Mohammed Al Owais",
-  "note": "Énorme domination uruguayenne (28 tirs, 67% possession) mais l'Arabie saoudite résiste grâce à son gardien Al Owais. Araújo égalise tard. Arbitre : Maurizio Mariani (ITA)."
+  "note": "Énorme domination uruguayenne (28 tirs, 67% possession) mais l'Arabie saoudite résiste grâce à son gardien Al Owais. Araújo égalise tard. Arbitre : Maurizio Mariani (ITA).",
+  "halftime": "1-0"
  },
  "Iran|New Zealand": {
   "goals": [
@@ -582,7 +596,8 @@
    }
   ],
   "motm": "Elijah Just",
-  "note": "Spectaculaire 2-2 à Inglewood (SoFi Stadium). NZ mène 2 fois (doublé de Just), Iran égalise 2 fois (Rezaeian buteur+passeur). 4e nul de la journée. Arbitre : César Ramos (MEX)."
+  "note": "Spectaculaire 2-2 à Inglewood (SoFi Stadium). NZ mène 2 fois (doublé de Just), Iran égalise 2 fois (Rezaeian buteur+passeur). 4e nul de la journée. Arbitre : César Ramos (MEX).",
+  "halftime": "1-1"
  },
  "France|Senegal": {
   "goals": [
@@ -617,7 +632,8 @@
   ],
   "cards": [],
   "motm": "Kylian Mbappé",
-  "note": "France 3-1 mais Sénégal meilleur xG par moments (1ère mi-temps France xG 0.02 !). VAR refuse un penalty à la France (58'). Mbappé doublé décisif en 2e période. Conforme au modèle (France 72%) ET à l'intuition (Sénégal a marqué, BTTS Oui). Arbitre : Alireza Faghani (AUS/IRN)."
+  "note": "France 3-1 mais Sénégal meilleur xG par moments (1ère mi-temps France xG 0.02 !). VAR refuse un penalty à la France (58'). Mbappé doublé décisif en 2e période. Conforme au modèle (France 72%) ET à l'intuition (Sénégal a marqué, BTTS Oui). Arbitre : Alireza Faghani (AUS/IRN).",
+  "halftime": "0-0"
  },
  "Iraq|Norway": {
   "goals": [
@@ -645,7 +661,8 @@
    }
   ],
   "motm": "Erling Haaland",
-  "note": "Haaland marque ses 2 premiers buts en CDM pour le retour de la Norvège (1ère depuis 1998). Arbitre : Pierre Atcho."
+  "note": "Haaland marque ses 2 premiers buts en CDM pour le retour de la Norvège (1ère depuis 1998). Arbitre : Pierre Atcho.",
+  "halftime": "1-2"
  },
  "Argentina|Algeria": {
   "goals": [
@@ -673,7 +690,8 @@
   ],
   "cards": [],
   "motm": "Lionel Messi",
-  "note": "PREMIER hat-trick de Messi en Coupe du Monde, pour sa 6e CDM (record) et son 200e match. Arbitre : Szymon Marciniak."
+  "note": "PREMIER hat-trick de Messi en Coupe du Monde, pour sa 6e CDM (record) et son 200e match. Arbitre : Szymon Marciniak.",
+  "halftime": "1-0"
  },
  "Austria|Jordan": {
   "goals": [
@@ -701,7 +719,8 @@
    }
   ],
   "motm": "Romano Schmid",
-  "note": "1er but autrichien en CDM depuis 1998. Score final 3-1. Arbitre via ESPN."
+  "note": "1er but autrichien en CDM depuis 1998. Score final 3-1. Arbitre via ESPN.",
+  "halftime": "1-0"
  },
  "Portugal|DR Congo": {
   "goals": [
@@ -747,7 +766,8 @@
    }
   ],
   "motm": "João Neves",
-  "note": "HISTORIQUE : 1er point de la RDC en Coupe du Monde. Ronaldo (41 ans) muet, meilleur xG pour la RDC. Arbitre : Abdulrahman Al-Jassim."
+  "note": "HISTORIQUE : 1er point de la RDC en Coupe du Monde. Ronaldo (41 ans) muet, meilleur xG pour la RDC. Arbitre : Abdulrahman Al-Jassim.",
+  "halftime": "1-1"
  },
  "England|Croatia": {
   "goals": [
@@ -782,7 +802,8 @@
   ],
   "cards": [],
   "motm": "Harry Kane",
-  "note": "Spectacle à Dallas. Kane doublé + passe déc. Revanche de la demie 2018. Arbitre : Clément Turpin."
+  "note": "Spectacle à Dallas. Kane doublé + passe déc. Revanche de la demie 2018. Arbitre : Clément Turpin.",
+  "halftime": "2-2"
  },
  "Ghana|Panama": {
   "goals": [
@@ -815,7 +836,8 @@
    }
   ],
   "motm": "Caleb Yirenkyi",
-  "note": "But victorieux à la 95e. Panama a dominé les tirs. Arbitre : Glenn Nyberg."
+  "note": "But victorieux à la 95e. Panama a dominé les tirs. Arbitre : Glenn Nyberg.",
+  "halftime": "0-0"
  },
  "Uzbekistan|Colombia": {
   "goals": [
@@ -849,7 +871,8 @@
    }
   ],
   "motm": "Luis Díaz",
-  "note": "Luis Díaz : 1 but + 1 passe déc. Ouzbékistan marque son 1er but en CDM. Arbitre : Anthony Taylor."
+  "note": "Luis Díaz : 1 but + 1 passe déc. Ouzbékistan marque son 1er but en CDM. Arbitre : Anthony Taylor.",
+  "halftime": "0-1"
  },
  "Czech Republic|South Africa": {
   "goals": [
@@ -882,7 +905,8 @@
    }
   ],
   "motm": "—",
-  "note": ""
+  "note": "",
+  "halftime": "1-0"
  },
  "Mexico|South Korea": {
   "goals": [
@@ -909,7 +933,8 @@
    }
   ],
   "motm": "—",
-  "note": ""
+  "note": "",
+  "halftime": "0-0"
  },
  "Switzerland|Bosnia & Herzegovina": {
   "goals": [
@@ -969,7 +994,8 @@
    }
   ],
   "motm": "—",
-  "note": ""
+  "note": "",
+  "halftime": "0-0"
  },
  "Canada|Qatar": {
   "goals": [
@@ -1029,7 +1055,8 @@
    }
   ],
   "motm": "—",
-  "note": ""
+  "note": "",
+  "halftime": "3-0"
  },
  "Scotland|Morocco": {
   "goals": [
@@ -1056,7 +1083,8 @@
    }
   ],
   "motm": "—",
-  "note": ""
+  "note": "",
+  "halftime": "0-1"
  },
  "Brazil|Haiti": {
   "goals": [
@@ -1109,7 +1137,8 @@
    }
   ],
   "motm": "—",
-  "note": ""
+  "note": "",
+  "halftime": "3-0"
  },
  "USA|Australia": {
   "goals": [],
@@ -1158,7 +1187,8 @@
    }
   ],
   "motm": "—",
-  "note": ""
+  "note": "",
+  "halftime": "2-0"
  },
  "Turkey|Paraguay": {
   "goals": [
@@ -1191,7 +1221,8 @@
    }
   ],
   "motm": "—",
-  "note": ""
+  "note": "",
+  "halftime": "0-1"
  },
  "Sweden|Tunisia": {
   "goals": [
@@ -1240,6 +1271,7 @@
    }
   ],
   "motm": "—",
-  "note": ""
+  "note": "",
+  "halftime": "2-1"
  }
 }

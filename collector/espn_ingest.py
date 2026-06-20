@@ -166,6 +166,7 @@ def ingest_match(home, away, date_hint=None):
             # On conserve motm et note s'ils existent déjà
             cur_ev["goals"] = sev.get("goals") or cur_ev.get("goals") or []
             cur_ev["cards"] = sev.get("cards") or cur_ev.get("cards") or []
+            cur_ev["halftime"] = summ.get("halftime") or cur_ev.get("halftime")
             if "motm" not in cur_ev or cur_ev["motm"] == "—":
                 cur_ev.setdefault("motm", "—")
             cur_ev.setdefault("note", "")
