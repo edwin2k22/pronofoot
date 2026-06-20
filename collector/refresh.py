@@ -37,7 +37,14 @@ def main():
     print(f"   {len(sq)} sélections, {sum(len(t.get('players', [])) for t in sq)} joueurs.")
 
     print("⚙️  3/5 — seed (calendrier + vrais ratings FIFA + joueurs)...")
+    db_path = os.path.join(os.path.dirname(__file__), "data", "app.db")
+    if os.path.exists(db_path):
+        os.remove(db_path)
     pipeline.seed()
+
+    print("🌐 Ingestion & statistiques des matchs amicaux de 2026...")
+    from collector import import_friendlies
+    import_friendlies.main()
 
     print("⚙️  4/5 — live temps réel + ingestion des résultats + mise à jour Elo...")
     try:

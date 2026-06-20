@@ -543,6 +543,8 @@ def predict():
 
     out = []
     for mt in rows:
+        if mt["competition"] != "CDM 2026":
+            continue
         h, a = db.get_team(conn, mt["home"]), db.get_team(conn, mt["away"])
         if not h or not a:
             continue
