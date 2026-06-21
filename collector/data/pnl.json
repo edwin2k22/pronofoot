@@ -2,48 +2,36 @@
   "sampleWithOdds": 23,
   "favorite": {
     "bets": 23,
-    "wins": 13,
-    "winRate": 57,
-    "pnl": -1.03,
-    "yield": -4.5
+    "wins": 14,
+    "winRate": 61,
+    "pnl": -1.99,
+    "yield": -8.7
   },
   "value": {
-    "bets": 43,
-    "wins": 7,
-    "winRate": 16,
-    "pnl": 0.25,
-    "yield": 0.6
+    "bets": 29,
+    "wins": 12,
+    "winRate": 41,
+    "pnl": 1.01,
+    "yield": 3.5
   },
   "valueStrict": {
-    "bets": 27,
-    "wins": 3,
-    "winRate": 11,
-    "pnl": 2.3,
-    "yield": 8.5
+    "bets": 18,
+    "wins": 8,
+    "winRate": 44,
+    "pnl": -5.24,
+    "yield": -29.1
   },
   "topValue": [
     {
-      "home": "Colombia",
-      "away": "DR Congo",
-      "date": "2026-06-23 20:00 UTC-6",
-      "label": "Victoire DR Congo",
-      "prob": 0.615,
-      "odd": 7.0,
-      "implied": 0.1429,
-      "edge": 0.4721,
-      "ev": 3.305,
-      "provider": "DraftKings"
-    },
-    {
-      "home": "DR Congo",
-      "away": "Uzbekistan",
-      "date": "2026-06-27 19:30 UTC-4",
-      "label": "Victoire DR Congo",
-      "prob": 0.8258,
-      "odd": 2.1,
-      "implied": 0.4762,
-      "edge": 0.3496,
-      "ev": 0.734,
+      "home": "Japan",
+      "away": "Sweden",
+      "date": "2026-06-25 18:00 UTC-5",
+      "label": "Victoire Japan",
+      "prob": 0.7721,
+      "odd": 2.05,
+      "implied": 0.4878,
+      "edge": 0.2843,
+      "ev": 0.583,
       "provider": "DraftKings"
     },
     {
@@ -51,11 +39,23 @@
       "away": "USA",
       "date": "2026-06-25 19:00 UTC-7",
       "label": "Victoire Turkey",
-      "prob": 0.6249,
+      "prob": 0.5443,
       "odd": 3.35,
       "implied": 0.2985,
-      "edge": 0.3264,
-      "ev": 1.093,
+      "edge": 0.2458,
+      "ev": 0.823,
+      "provider": "DraftKings"
+    },
+    {
+      "home": "Norway",
+      "away": "France",
+      "date": "2026-06-26 15:00 UTC-4",
+      "label": "Victoire France",
+      "prob": 0.7761,
+      "odd": 1.8,
+      "implied": 0.5556,
+      "edge": 0.2205,
+      "ev": 0.397,
       "provider": "DraftKings"
     }
   ]

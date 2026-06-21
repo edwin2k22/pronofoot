@@ -8,6 +8,7 @@ sys.path.append('.')
 from collector.db import database as db
 from collector.sources import espn_stats as espn
 from collector.sources.espn_stats import _alias
+from collector.sources.team_ratings import get_rating
 
 def get_friendlies_from_espn(start_date, end_date):
     url = f'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.friendly/scoreboard?dates={start_date}-{end_date}&limit=200'
@@ -86,9 +87,13 @@ def main():
         except ValueError:
             date_str = date_raw.replace('T', ' ').replace('Z', ' UTC')
             
-        # S'assurer que les équipes existent en base
+        # S'assurer que les équipes existent en base sans écraser leur Elo si elles existent déjà
         for team_name in (home, away):
-            db.upsert_team(conn, team_name, elo=1400, fifa_prior=1400)
+            r = get_rating(team_name)
+            
+            row = conn.execute("SELECT elo FROM teams WHERE name=?", (team_name,)).fetchone()
+            if not row:
+                db.upsert_team(conn, team_name, elo=r, fifa_prior=r)
             
         # Insérer le match dans matches
         cursor = conn.execute("""
