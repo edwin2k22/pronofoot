@@ -2904,8 +2904,43 @@
    },
    {
     "minute": 86,
-    "text": "Attempt saved. Maxim De Cuyper (Belgium) right footed shot from the centre of the box is saved.",
+    "text": "Attempt saved. Maxim De Cuyper (Belgium) right footed shot from the centre of the box is saved in the centre of the goal by Alireza Beiranvand (IR Iran). Assisted by Timothy Castagne with a cross.",
     "type": "Shot On Target"
+   },
+   {
+    "minute": 87,
+    "text": "Offside, IR Iran. Shahriyar Moghanloo is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 87,
+    "text": "Substitution, Belgium. Matias Fernandez-Pardo replaces Kevin De Bruyne.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 88,
+    "text": "Attempt blocked. Amirhossein Hosseinzadeh (IR Iran) right footed shot from the centre of the box is blocked. Assisted by Milad Mohammadi.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 88,
+    "text": "Offside, IR Iran. Milad Mohammadi is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 90,
+    "text": "Fourth official has announced 5 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 90,
+    "text": "Attempt missed. Brandon Mechele (Belgium) header from the centre of the box is high and wide to the left. Assisted by Timothy Castagne with a cross.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt missed. Matias Fernandez-Pardo (Belgium) right footed shot from outside the box.",
+    "type": "Shot Off Target"
    }
   ],
   "halftime": "0-0",
