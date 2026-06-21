@@ -33,6 +33,7 @@ ASSIGNMENTS = {
     ("Austria", "Jordan"):                 ("Dahane Beida", "Mauritanie"),
     ("Sweden", "Tunisia"):                 ("Yael Falcón", "Argentine"),
     ("Australia", "Turkey"):               ("Kevin Ortega", "Pérou"),
+    ("Uruguay", "Cape Verde"):             ("Espen Eskås", "Norvège"),
 }
 
 # Sévérité connue de quelques arbitres = cartons TOTAUX par match (jaunes + rouges)
