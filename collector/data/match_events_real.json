@@ -1371,5 +1371,49 @@
   "halftime": "2-0",
   "motm": "—",
   "note": ""
+ },
+ "Ecuador|Curaçao": {
+  "goals": [],
+  "cards": [
+   {
+    "minute": 38,
+    "team": "Ecuador",
+    "player": "Jordy Alcívar",
+    "type": "Yellow"
+   },
+   {
+    "minute": 39,
+    "team": "Curaçao",
+    "player": "Leandro Bacuna",
+    "type": "Yellow"
+   },
+   {
+    "minute": 53,
+    "team": "Curaçao",
+    "player": "Juninho Bacuna",
+    "type": "Yellow"
+   },
+   {
+    "minute": 56,
+    "team": "Curaçao",
+    "player": "Livano Comenencia",
+    "type": "Yellow"
+   },
+   {
+    "minute": 75,
+    "team": "Curaçao",
+    "player": "Juriën Gaari",
+    "type": "Yellow"
+   },
+   {
+    "minute": 90,
+    "team": "Curaçao",
+    "player": "Gervane Kastaneer",
+    "type": "Yellow"
+   }
+  ],
+  "halftime": "0-0",
+  "motm": "—",
+  "note": ""
  }
 }

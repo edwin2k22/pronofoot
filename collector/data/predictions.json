@@ -226,16 +226,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.5765,
-      "pX": 0.2609,
-      "p2": 0.1626,
+      "p1": 0.5772,
+      "pX": 0.2606,
+      "p2": 0.1622,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -990,16 +990,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.306,
-      "pX": 0.3712,
+      "p1": 0.3061,
+      "pX": 0.3711,
       "p2": 0.3228,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -1768,16 +1768,16 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.4185,
-      "pX": 0.3454,
-      "p2": 0.2361,
+      "p1": 0.4188,
+      "pX": 0.3453,
+      "p2": 0.2359,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -2526,15 +2526,15 @@
     "confidence": 0.85,
     "prediction": {
       "p1": 0.3075,
-      "pX": 0.3096,
-      "p2": 0.3829,
+      "pX": 0.3094,
+      "p2": 0.3831,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -3220,16 +3220,16 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.34,
+      "p1": 0.3401,
       "pX": 0.3251,
-      "p2": 0.3349,
+      "p2": 0.3348,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -4072,16 +4072,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.3423,
+      "p1": 0.3424,
       "pX": 0.3563,
       "p2": 0.3014,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -4931,16 +4931,16 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.2758,
-      "pX": 0.3281,
-      "p2": 0.3961,
+      "p1": 0.2757,
+      "pX": 0.328,
+      "p2": 0.3963,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -5737,15 +5737,15 @@
     "confidence": 1.0,
     "prediction": {
       "p1": 0.3321,
-      "pX": 0.3639,
-      "p2": 0.304,
+      "pX": 0.364,
+      "p2": 0.3039,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -6491,17 +6491,17 @@
     "home": "Germany",
     "away": "Curaçao",
     "homeGF": 3.4,
-    "awayGF": 1.5,
+    "awayGF": 1.2,
     "homeGA": 1.4,
-    "awayGA": 3.5,
-    "homeXG": 2.12,
-    "awayXG": 1.07,
+    "awayGA": 2.8,
+    "homeXG": 2.01,
+    "awayXG": 1.02,
     "homeForm": 8,
     "awayForm": 8,
     "homeElo": 1400.0,
-    "awayElo": 1400.0,
+    "awayElo": 1402.1,
     "homeForm5": "WWWWW",
-    "awayForm5": "LWLLL",
+    "awayForm5": "DLWLL",
     "homeFormDetail": {
       "pts10": 30,
       "played": 10,
@@ -6513,14 +6513,14 @@
       "source": "réelle (10 derniers · 5 de la CDM 2026)"
     },
     "awayFormDetail": {
-      "pts10": 14,
+      "pts10": 12,
       "played": 10,
-      "gf_avg": 2.1,
+      "gf_avg": 1.9,
       "ga_avg": 2.0,
-      "last5": "LWLLL",
-      "form_index": 0.467,
-      "cdmGames": 4,
-      "source": "réelle (10 derniers · 4 de la CDM 2026)"
+      "last5": "DLWLL",
+      "form_index": 0.4,
+      "cdmGames": 5,
+      "source": "réelle (10 derniers · 5 de la CDM 2026)"
     },
     "odd1": null,
     "oddX": null,
@@ -6535,74 +6535,74 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.6791,
-      "pX": 0.1885,
-      "p2": 0.1324,
+      "p1": 0.6827,
+      "pX": 0.1891,
+      "p2": 0.1282,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
-          0.409,
+          0.407,
           0.293,
-          0.298
+          0.3
         ],
         "grid": [
-          0.605,
-          0.221,
-          0.174
+          0.594,
+          0.23,
+          0.176
         ],
         "form": [
-          0.899,
-          0.017,
-          0.084
+          0.925,
+          0.009,
+          0.066
         ]
       },
-      "over25": 0.7447,
-      "btts": 0.621,
+      "over25": 0.7114,
+      "btts": 0.5982,
       "marketCalib": {
         "bttsShift": 0.0167,
         "overShift": 0.0829,
-        "bttsRaw": 0.6043,
+        "bttsRaw": 0.5815,
         "n": 236
       },
-      "lamHome": 2.12,
-      "lamAway": 1.07,
+      "lamHome": 2.01,
+      "lamAway": 1.02,
       "topScore": [
         1,
         1
       ],
       "doubleChance": {
-        "1X": 0.8259,
-        "12": 0.7791,
-        "X2": 0.395
+        "1X": 0.8238,
+        "12": 0.7698,
+        "X2": 0.4066
       },
       "drawNoBet": {
-        "home": 0.7765,
-        "away": 0.2235
+        "home": 0.771,
+        "away": 0.229
       },
       "topScores": [
         {
           "score": "1-1",
-          "p": 0.1002
+          "p": 0.1065
         },
         {
           "score": "2-1",
-          "p": 0.0985
+          "p": 0.0994
         },
         {
           "score": "2-0",
-          "p": 0.0887
+          "p": 0.0936
         }
       ],
       "scenarios": [
         {
           "id": "closed",
           "title": "Match fermé",
-          "p": 0.1566,
+          "p": 0.1773,
           "scores": [
             "1-0",
             "0-0"
@@ -6612,7 +6612,7 @@
         {
           "id": "tight",
           "title": "Match serré",
-          "p": 0.2116,
+          "p": 0.2242,
           "scores": [
             "1-1",
             "2-0"
@@ -6622,7 +6622,7 @@
         {
           "id": "open",
           "title": "Match ouvert / spectacle",
-          "p": 0.6318,
+          "p": 0.5985,
           "scores": [
             "2-1",
             "3-1"
@@ -6632,7 +6632,7 @@
         {
           "id": "blowout",
           "title": "Large écart",
-          "p": 0.3368,
+          "p": 0.3133,
           "scores": [
             "3-1",
             "3-0"
@@ -6643,45 +6643,45 @@
       ],
       "overUnder": {
         "0.5": {
-          "over": 0.9517,
-          "under": 0.0483
+          "over": 0.9443,
+          "under": 0.0557
         },
         "1.5": {
-          "over": 0.8434,
-          "under": 0.1566
+          "over": 0.8227,
+          "under": 0.1773
         },
         "2.5": {
-          "over": 0.6318,
-          "under": 0.3682
+          "over": 0.5985,
+          "under": 0.4015
         },
         "3.5": {
-          "over": 0.4129,
-          "under": 0.5871
+          "over": 0.3777,
+          "under": 0.6223
         }
       },
-      "totalXg": 3.19,
+      "totalXg": 3.03,
       "bttsConf": {
         "pick": "Oui",
-        "score": 0.62,
-        "label": "élevée"
+        "score": 0.6,
+        "label": "moyenne"
       },
       "halftime": {
-        "lamHome": 0.77,
-        "lamAway": 0.55,
+        "lamHome": 0.73,
+        "lamAway": 0.53,
         "topScore": [
           0,
           0
         ],
-        "p1": 0.36,
-        "pX": 0.414,
-        "p2": 0.2259,
+        "p1": 0.3509,
+        "pX": 0.4258,
+        "p2": 0.2232,
         "ou05": {
-          "over": 0.7347,
-          "under": 0.2653
+          "over": 0.7178,
+          "under": 0.2822
         },
         "ou15": {
-          "over": 0.4188,
-          "under": 0.5812
+          "over": 0.3961,
+          "under": 0.6039
         },
         "shareHome": 0.364,
         "shareAway": 0.517,
@@ -6693,58 +6693,58 @@
         "away": null
       },
       "corners": {
-        "exp_corners": 8.0,
-        "over": 0.5454,
-        "under": 0.4546,
+        "exp_corners": 7.9,
+        "over": 0.5324,
+        "under": 0.4676,
         "line": 7.5,
         "home": 4.3,
-        "away": 3.7,
+        "away": 3.6,
         "lines": {
           "5.5": {
-            "over": 0.8077,
-            "under": 0.1923
+            "over": 0.799,
+            "under": 0.201
           },
           "6.5": {
-            "over": 0.6852,
-            "under": 0.3148
+            "over": 0.6737,
+            "under": 0.3263
           },
           "7.5": {
-            "over": 0.5454,
-            "under": 0.4546
+            "over": 0.5324,
+            "under": 0.4676
           },
           "8.5": {
-            "over": 0.4059,
-            "under": 0.5941
+            "over": 0.3929,
+            "under": 0.6071
           },
           "9.5": {
-            "over": 0.282,
-            "under": 0.718
+            "over": 0.2705,
+            "under": 0.7295
           }
         },
         "src": "FootyStats ×0.58 (calibré 35 matchs)"
       },
       "cards": {
         "exp_cards": 1.9,
-        "over": 0.1193,
-        "under": 0.8807,
+        "over": 0.1235,
+        "under": 0.8765,
         "line": 3.5,
         "home": 1.0,
         "away": 0.9,
         "lines": {
           "2.5": {
-            "over": 0.2867,
-            "under": 0.7133
+            "over": 0.2934,
+            "under": 0.7066
           },
           "3.5": {
-            "over": 0.1193,
-            "under": 0.8807
+            "over": 0.1235,
+            "under": 0.8765
           },
           "4.5": {
-            "over": 0.0413,
-            "under": 0.9587
+            "over": 0.0432,
+            "under": 0.9568
           }
         },
-        "redProb": 0.093,
+        "redProb": 0.094,
         "src": "FootyStats + arbitre",
         "refSeverity": {
           "avg": 0.49,
@@ -6789,7 +6789,33 @@
           ]
         },
         "away": {
-          "real": [],
+          "real": [
+            {
+              "name": "Juriën Gaari",
+              "pos": "CD-R",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Gervane Kastaneer",
+              "pos": "SUB",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Leandro Bacuna",
+              "pos": "CM-L",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Juninho Bacuna",
+              "pos": "LM",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Livano Comenencia",
+              "pos": "CM-R",
+              "card": "🟨 jaune"
+            }
+          ],
           "profiles": [
             {
               "role": "Défenseur central",
@@ -6812,7 +6838,7 @@
             {
               "name": "Kai Havertz",
               "poste": "FW",
-              "p": 0.3501,
+              "p": 0.3354,
               "real_goals": 0.0,
               "why": "volume de tirs élevé (3)",
               "bio": {
@@ -6833,21 +6859,21 @@
             {
               "name": "Deniz Undav",
               "poste": "FW",
-              "p": 0.2858,
+              "p": 0.2732,
               "real_goals": 2.0,
               "why": "déjà 2 but(s) dans le tournoi · volume de tirs élevé (3)"
             },
             {
               "name": "Jamal Musiala",
               "poste": "MF",
-              "p": 0.1375,
+              "p": 0.1309,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Florian Wirtz",
               "poste": "MF",
-              "p": 0.1375,
+              "p": 0.1309,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste",
               "bio": {
@@ -6867,7 +6893,7 @@
             {
               "name": "Felix Nmecha",
               "poste": "MF",
-              "p": 0.1375,
+              "p": 0.1309,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             }
@@ -6876,21 +6902,21 @@
             {
               "name": "Felix Nmecha",
               "poste": "MF",
-              "p": 0.1966,
+              "p": 0.1874,
               "real_assists": 1.0,
               "why": "déjà 1 passe(s) déc."
             },
             {
               "name": "Jamal Musiala",
               "poste": "MF",
-              "p": 0.1279,
+              "p": 0.1217,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Florian Wirtz",
               "poste": "MF",
-              "p": 0.1279,
+              "p": 0.1217,
               "real_assists": 0.0,
               "why": "création selon le poste",
               "bio": {
@@ -6910,7 +6936,7 @@
             {
               "name": "Leroy Sané",
               "poste": "MF",
-              "p": 0.1279,
+              "p": 0.1217,
               "real_assists": 0.0,
               "why": "création selon le poste"
             }
@@ -6918,15 +6944,15 @@
           "creator": {
             "name": "Felix Nmecha",
             "poste": "MF",
-            "p": 0.1966,
+            "p": 0.1874,
             "real_assists": 1.0,
             "why": "déjà 1 passe(s) déc."
           },
           "keeper": {
             "name": "Manuel Neuer",
-            "expSotFaced": 3.3,
+            "expSotFaced": 3.2,
             "fromLineup": true,
-            "why": "Subit une pression offensive adverse de ~1.07 xG → environ 3.3 tirs cadrés à gérer."
+            "why": "Subit une pression offensive adverse de ~1.02 xG → environ 3.2 tirs cadrés à gérer."
           },
           "benchImpact": [
             {
@@ -6949,37 +6975,37 @@
         "away": {
           "scorers": [
             {
-              "name": "Sontje Hansen",
+              "name": "Jürgen Locadia",
               "poste": "FW",
-              "p": 0.1386,
+              "p": 0.1327,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
-              "name": "Jürgen Locadia",
+              "name": "Sontje Hansen",
               "poste": "FW",
-              "p": 0.1248,
+              "p": 0.1194,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
+            },
+            {
+              "name": "Juninho Bacuna",
+              "poste": "MF",
+              "p": 0.063,
+              "real_goals": 0.0,
+              "why": "volume de tirs élevé (3)"
             },
             {
               "name": "Livano Comenencia",
               "poste": "MF",
-              "p": 0.0836,
-              "real_goals": 1.0,
-              "why": "déjà 1 but(s) dans le tournoi"
-            },
-            {
-              "name": "Jearl Margaritha",
-              "poste": "FW",
-              "p": 0.065,
+              "p": 0.063,
               "real_goals": 0.0,
-              "why": "présence offensive selon le poste"
+              "why": "volume de tirs élevé (3)"
             },
             {
               "name": "Leandro Bacuna",
               "poste": "MF",
-              "p": 0.0603,
+              "p": 0.0576,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             }
@@ -6988,28 +7014,28 @@
             {
               "name": "Juninho Bacuna",
               "poste": "MF",
-              "p": 0.0653,
+              "p": 0.0607,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Livano Comenencia",
               "poste": "MF",
-              "p": 0.0653,
+              "p": 0.0607,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Leandro Bacuna",
               "poste": "MF",
-              "p": 0.0653,
+              "p": 0.0607,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Tahith Chong",
               "poste": "MF",
-              "p": 0.0653,
+              "p": 0.0607,
               "real_assists": 0.0,
               "why": "création selon le poste"
             }
@@ -7017,15 +7043,15 @@
           "creator": {
             "name": "Juninho Bacuna",
             "poste": "MF",
-            "p": 0.0653,
+            "p": 0.0607,
             "real_assists": 0.0,
             "why": "création selon le poste"
           },
           "keeper": {
             "name": "Eloy Room",
-            "expSotFaced": 6.6,
+            "expSotFaced": 6.3,
             "fromLineup": true,
-            "why": "Subit une pression offensive adverse de ~2.12 xG → environ 6.6 tirs cadrés à gérer."
+            "why": "Subit une pression offensive adverse de ~2.01 xG → environ 6.3 tirs cadrés à gérer."
           },
           "benchImpact": [],
           "note": "Probabilités MODÈLE (poste réel + production réelle des matchs joués), pas des certitudes. Se précisent à mesure que les équipes jouent."
@@ -7044,11 +7070,11 @@
         "away": "4-3-1-2"
       },
       "mwi": {
-        "home": 0.3,
+        "home": 0.2,
         "away": 0.3,
         "stageStake": 0.3,
         "groupMatchday": 1,
-        "statusHome": "alive",
+        "statusHome": "qualified",
         "statusAway": "alive"
       },
       "meta": {
@@ -7328,16 +7354,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.3518,
+      "p1": 0.352,
       "pX": 0.3296,
       "p2": 0.3185,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -8088,22 +8114,22 @@
           "source": "ESPN (compos réelles)"
         }
       },
-      "summary": "Le modèle donnait <b>Ivory Coast</b> favori (47%). ✅ Issue correctement anticipée. Score le plus probable prévu : 1-1 → réel 1-0. Total buts 1 (Under 2.5), BTTS non."
+      "summary": "Le modèle donnait <b>Ivory Coast</b> favori (48%). ✅ Issue correctement anticipée. Score le plus probable prévu : 1-1 → réel 1-0. Total buts 1 (Under 2.5), BTTS non."
     },
     "home": "Ivory Coast",
     "away": "Ecuador",
     "homeGF": 1.8,
-    "awayGF": 1.25,
+    "awayGF": 1.0,
     "homeGA": 0.6,
-    "awayGA": 0.75,
-    "homeXG": 1.16,
-    "awayXG": 1.01,
+    "awayGA": 0.6,
+    "homeXG": 1.13,
+    "awayXG": 0.9,
     "homeForm": 8,
     "awayForm": 8,
     "homeElo": 1400.0,
-    "awayElo": 1400.0,
+    "awayElo": 1397.9,
     "homeForm5": "LWWWW",
-    "awayForm5": "LWDDW",
+    "awayForm5": "DLWDD",
     "homeFormDetail": {
       "pts10": 24,
       "played": 10,
@@ -8119,10 +8145,10 @@
       "played": 10,
       "gf_avg": 1.3,
       "ga_avg": 0.5,
-      "last5": "LWDDW",
+      "last5": "DLWDD",
       "form_index": 0.567,
-      "cdmGames": 4,
-      "source": "réelle (10 derniers · 4 de la CDM 2026)"
+      "cdmGames": 5,
+      "source": "réelle (10 derniers · 5 de la CDM 2026)"
     },
     "odd1": null,
     "oddX": null,
@@ -8137,25 +8163,25 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.4688,
-      "pX": 0.3022,
-      "p2": 0.229,
+      "p1": 0.4787,
+      "pX": 0.3051,
+      "p2": 0.2162,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
-          0.409,
-          0.293,
-          0.298
+          0.412,
+          0.292,
+          0.296
         ],
         "grid": [
-          0.379,
-          0.318,
-          0.303
+          0.395,
+          0.329,
+          0.276
         ],
         "form": [
           0.656,
@@ -8163,48 +8189,48 @@
           0.203
         ]
       },
-      "over25": 0.5033,
-      "btts": 0.4892,
+      "over25": 0.4664,
+      "btts": 0.456,
       "marketCalib": {
         "bttsShift": 0.0167,
         "overShift": 0.0829,
-        "bttsRaw": 0.4725,
+        "bttsRaw": 0.4393,
         "n": 236
       },
-      "lamHome": 1.16,
-      "lamAway": 1.01,
+      "lamHome": 1.13,
+      "lamAway": 0.9,
       "topScore": [
         1,
         1
       ],
       "doubleChance": {
-        "1X": 0.6971,
-        "12": 0.6818,
-        "X2": 0.6213
+        "1X": 0.724,
+        "12": 0.6714,
+        "X2": 0.6046
       },
       "drawNoBet": {
-        "home": 0.5556,
-        "away": 0.4444
+        "home": 0.5889,
+        "away": 0.4111
       },
       "topScores": [
         {
           "score": "1-1",
-          "p": 0.1459
+          "p": 0.1465
         },
         {
           "score": "0-0",
-          "p": 0.1221
+          "p": 0.1385
         },
         {
           "score": "1-0",
-          "p": 0.1143
+          "p": 0.1296
         }
       ],
       "scenarios": [
         {
           "id": "closed",
           "title": "Match fermé",
-          "p": 0.3342,
+          "p": 0.3687,
           "scores": [
             "0-0",
             "1-0"
@@ -8214,7 +8240,7 @@
         {
           "id": "tight",
           "title": "Match serré",
-          "p": 0.2754,
+          "p": 0.2778,
           "scores": [
             "1-1",
             "2-0"
@@ -8224,7 +8250,7 @@
         {
           "id": "open",
           "title": "Match ouvert / spectacle",
-          "p": 0.3904,
+          "p": 0.3535,
           "scores": [
             "2-1",
             "1-2"
@@ -8234,7 +8260,7 @@
         {
           "id": "blowout",
           "title": "Large écart",
-          "p": 0.1536,
+          "p": 0.1384,
           "scores": [
             "3-1",
             "3-0"
@@ -8245,45 +8271,45 @@
       ],
       "overUnder": {
         "0.5": {
-          "over": 0.8779,
-          "under": 0.1221
+          "over": 0.8615,
+          "under": 0.1385
         },
         "1.5": {
-          "over": 0.6658,
-          "under": 0.3342
+          "over": 0.6313,
+          "under": 0.3687
         },
         "2.5": {
-          "over": 0.3904,
-          "under": 0.6096
+          "over": 0.3535,
+          "under": 0.6465
         },
         "3.5": {
-          "over": 0.1941,
-          "under": 0.8059
+          "over": 0.1672,
+          "under": 0.8328
         }
       },
-      "totalXg": 2.17,
+      "totalXg": 2.03,
       "bttsConf": {
         "pick": "indécis",
-        "score": 0.51,
+        "score": 0.54,
         "label": "faible"
       },
       "halftime": {
-        "lamHome": 0.51,
-        "lamAway": 0.42,
+        "lamHome": 0.5,
+        "lamAway": 0.38,
         "topScore": [
           0,
           0
         ],
-        "p1": 0.2815,
-        "pX": 0.4984,
-        "p2": 0.2201,
+        "p1": 0.286,
+        "pX": 0.5135,
+        "p2": 0.2005,
         "ou05": {
-          "over": 0.6172,
-          "under": 0.3828
+          "over": 0.5949,
+          "under": 0.4051
         },
         "ou15": {
-          "over": 0.2818,
-          "under": 0.7182
+          "over": 0.2604,
+          "under": 0.7396
         },
         "shareHome": 0.443,
         "shareAway": 0.42,
@@ -8295,55 +8321,55 @@
         "away": null
       },
       "corners": {
-        "exp_corners": 7.7,
-        "over": 0.5104,
-        "under": 0.4896,
+        "exp_corners": 7.6,
+        "over": 0.4961,
+        "under": 0.5039,
         "line": 7.5,
         "home": 4.0,
-        "away": 3.8,
+        "away": 3.7,
         "lines": {
           "5.5": {
-            "over": 0.7839,
-            "under": 0.2161
+            "over": 0.7737,
+            "under": 0.2263
           },
           "6.5": {
-            "over": 0.654,
-            "under": 0.346
+            "over": 0.641,
+            "under": 0.359
           },
           "7.5": {
-            "over": 0.5104,
-            "under": 0.4896
+            "over": 0.4961,
+            "under": 0.5039
           },
           "8.5": {
-            "over": 0.3714,
-            "under": 0.6286
+            "over": 0.3576,
+            "under": 0.6424
           },
           "9.5": {
-            "over": 0.2519,
-            "under": 0.7481
+            "over": 0.2401,
+            "under": 0.7599
           }
         },
         "src": "FootyStats ×0.58 (calibré 35 matchs)"
       },
       "cards": {
         "exp_cards": 3.8,
-        "over": 0.521,
-        "under": 0.479,
+        "over": 0.5205,
+        "under": 0.4795,
         "line": 3.5,
         "home": 1.6,
         "away": 2.2,
         "lines": {
           "2.5": {
-            "over": 0.7268,
-            "under": 0.2732
+            "over": 0.7263,
+            "under": 0.2737
           },
           "3.5": {
-            "over": 0.521,
-            "under": 0.479
+            "over": 0.5205,
+            "under": 0.4795
           },
           "4.5": {
-            "over": 0.327,
-            "under": 0.673
+            "over": 0.3264,
+            "under": 0.6736
           }
         },
         "redProb": 0.189,
@@ -8411,7 +8437,12 @@
           "real": [
             {
               "name": "Jackson Porozo",
-              "pos": "SUB",
+              "pos": null,
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Jordy Alcívar",
+              "pos": "SW",
               "card": "🟨 jaune"
             }
           ],
@@ -8437,35 +8468,35 @@
             {
               "name": "Ange-Yoan Bonny",
               "poste": "FW",
-              "p": 0.1142,
+              "p": 0.1114,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Yan Diomande",
               "poste": "FW",
-              "p": 0.1142,
+              "p": 0.1114,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Amad Diallo",
               "poste": "FW",
-              "p": 0.1142,
+              "p": 0.1114,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Elye Wahi",
               "poste": "FW",
-              "p": 0.1026,
+              "p": 0.1001,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Nicolas Pépé",
               "poste": "FW",
-              "p": 0.1026,
+              "p": 0.1001,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             }
@@ -8474,28 +8505,28 @@
             {
               "name": "Seko Fofana",
               "poste": "MF",
-              "p": 0.0601,
+              "p": 0.0586,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Franck Kessié",
               "poste": "MF",
-              "p": 0.0601,
+              "p": 0.0586,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Ibrahim Sangaré",
               "poste": "MF",
-              "p": 0.0601,
+              "p": 0.0586,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Christ Inao Oulaï",
               "poste": "MF",
-              "p": 0.0601,
+              "p": 0.0586,
               "real_assists": 0.0,
               "why": "création selon le poste"
             }
@@ -8503,15 +8534,15 @@
           "creator": {
             "name": "Seko Fofana",
             "poste": "MF",
-            "p": 0.0601,
+            "p": 0.0586,
             "real_assists": 0.0,
             "why": "création selon le poste"
           },
           "keeper": {
             "name": "Yahia Fofana",
-            "expSotFaced": 3.2,
+            "expSotFaced": 2.8,
             "fromLineup": true,
-            "why": "Subit une pression offensive adverse de ~1.01 xG → environ 3.2 tirs cadrés à gérer."
+            "why": "Subit une pression offensive adverse de ~0.9 xG → environ 2.8 tirs cadrés à gérer."
           },
           "benchImpact": [],
           "note": "Probabilités MODÈLE (poste réel + production réelle des matchs joués), pas des certitudes. Se précisent à mesure que les équipes jouent."
@@ -8519,83 +8550,83 @@
         "away": {
           "scorers": [
             {
-              "name": "John Yeboah",
-              "poste": "FW",
-              "p": 0.139,
-              "real_goals": 0.0,
-              "why": "volume de tirs élevé (3)"
-            },
-            {
               "name": "Enner Valencia",
               "poste": "FW",
-              "p": 0.1159,
+              "p": 0.1393,
               "real_goals": 0.0,
-              "why": "présence offensive selon le poste"
+              "why": "volume de tirs élevé (7)"
             },
             {
               "name": "Gonzalo Plata",
               "poste": "FW",
-              "p": 0.1159,
+              "p": 0.1308,
               "real_goals": 0.0,
-              "why": "présence offensive selon le poste"
+              "why": "volume de tirs élevé (6)"
+            },
+            {
+              "name": "John Yeboah",
+              "poste": "FW",
+              "p": 0.1049,
+              "real_goals": 0.0,
+              "why": "volume de tirs élevé (3)"
             },
             {
               "name": "Jordy Caicedo",
               "poste": "FW",
-              "p": 0.1042,
+              "p": 0.0783,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
-              "name": "Alan Minda",
-              "poste": "MF",
-              "p": 0.0501,
+              "name": "Kevin Rodríguez",
+              "poste": "FW",
+              "p": 0.0528,
               "real_goals": 0.0,
-              "why": "présence offensive selon le poste"
+              "why": "volume de tirs élevé (4)"
             }
           ],
           "assisters": [
             {
+              "name": "Jordy Alcívar",
+              "poste": "MF",
+              "p": 0.0466,
+              "real_assists": 0.0,
+              "why": "création selon le poste"
+            },
+            {
               "name": "Anthony Valencia",
               "poste": "MF",
-              "p": 0.055,
+              "p": 0.0466,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Alan Minda",
               "poste": "MF",
-              "p": 0.055,
+              "p": 0.0466,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Pedro Vite",
               "poste": "MF",
-              "p": 0.055,
-              "real_assists": 0.0,
-              "why": "création selon le poste"
-            },
-            {
-              "name": "Alan Franco",
-              "poste": "MF",
-              "p": 0.055,
+              "p": 0.0466,
               "real_assists": 0.0,
               "why": "création selon le poste"
             }
           ],
           "creator": {
-            "name": "Anthony Valencia",
+            "name": "Jordy Alcívar",
             "poste": "MF",
-            "p": 0.055,
+            "p": 0.0466,
             "real_assists": 0.0,
             "why": "création selon le poste"
           },
           "keeper": {
             "name": "Hernán Galíndez",
-            "expSotFaced": 3.6,
+            "expSotFaced": 3.5,
             "fromLineup": true,
-            "why": "Subit une pression offensive adverse de ~1.16 xG → environ 3.6 tirs cadrés à gérer."
+            "why": "Subit une pression offensive adverse de ~1.13 xG → environ 3.5 tirs cadrés à gérer."
           },
           "benchImpact": [],
           "note": "Probabilités MODÈLE (poste réel + production réelle des matchs joués), pas des certitudes. Se précisent à mesure que les équipes jouent."
@@ -8629,9 +8660,9 @@
         ]
       },
       "upsetIndex": {
-        "index": 66,
+        "index": 65,
         "label": "élevé",
-        "dampener": 0.962,
+        "dampener": 0.964,
         "favOverperf": true,
         "dogLowBlock": true
       },
@@ -8905,16 +8936,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.471,
-      "pX": 0.3183,
-      "p2": 0.2108,
+      "p1": 0.4714,
+      "pX": 0.3181,
+      "p2": 0.2104,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -9708,16 +9739,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.4981,
-      "pX": 0.2959,
-      "p2": 0.206,
+      "p1": 0.4985,
+      "pX": 0.2958,
+      "p2": 0.2058,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -9864,7 +9895,7 @@
         "home": {
           "odd": 1.062,
           "implied": 0.942,
-          "edge": -0.444,
+          "edge": -0.443,
           "value": false
         },
         "draw": {
@@ -10289,12 +10320,12 @@
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.2417,
+          "rawKelly": 0.2416,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.1795,
+          "rawKelly": 0.1793,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -10530,16 +10561,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.5229,
-      "pX": 0.2729,
-      "p2": 0.2043,
+      "p1": 0.5234,
+      "pX": 0.2727,
+      "p2": 0.204,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -10686,7 +10717,7 @@
         "home": {
           "odd": 1.571,
           "implied": 0.637,
-          "edge": -0.114,
+          "edge": -0.113,
           "value": false
         },
         "draw": {
@@ -11071,13 +11102,13 @@
           "note": "pas de value (EV ≤ 0)"
         },
         "draw": {
-          "kelly": 0.026,
-          "rawKelly": 0.0305,
+          "kelly": 0.0257,
+          "rawKelly": 0.0303,
           "note": "miser ~2.6% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
-          "kelly": 0.0313,
-          "rawKelly": 0.0368,
+          "kelly": 0.031,
+          "rawKelly": 0.0364,
           "note": "miser ~3.1% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -11306,11 +11337,11 @@
       "p2": 0.3075,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -12066,16 +12097,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.572,
-      "pX": 0.2498,
-      "p2": 0.1782,
+      "p1": 0.5739,
+      "pX": 0.2483,
+      "p2": 0.1778,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -12222,13 +12253,13 @@
         "home": {
           "odd": 1.8,
           "implied": 0.556,
-          "edge": 0.016,
+          "edge": 0.018,
           "value": false
         },
         "draw": {
           "odd": 3.5,
           "implied": 0.286,
-          "edge": -0.036,
+          "edge": -0.037,
           "value": false
         },
         "away": {
@@ -12556,9 +12587,9 @@
         ]
       },
       "upsetIndex": {
-        "index": 57,
+        "index": 56,
         "label": "élevé",
-        "dampener": 0.978,
+        "dampener": 0.98,
         "favOverperf": true,
         "dogLowBlock": true
       },
@@ -12588,9 +12619,9 @@
       },
       "kelly": {
         "home": {
-          "kelly": 0.0314,
-          "rawKelly": 0.037,
-          "note": "miser ~3.1% de la bankroll (Kelly×confiance, plafonné 5%)"
+          "kelly": 0.0351,
+          "rawKelly": 0.0413,
+          "note": "miser ~3.5% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
           "kelly": 0.0,
@@ -12830,16 +12861,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.4712,
-      "pX": 0.2927,
-      "p2": 0.2362,
+      "p1": 0.4715,
+      "pX": 0.2925,
+      "p2": 0.2359,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -13492,12 +13523,12 @@
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.0847,
+          "rawKelly": 0.0844,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.1089,
+          "rawKelly": 0.1085,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -13723,16 +13754,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.2549,
-      "pX": 0.3078,
-      "p2": 0.4373,
+      "p1": 0.2547,
+      "pX": 0.3077,
+      "p2": 0.4376,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -14288,12 +14319,12 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.2017,
+          "rawKelly": 0.2015,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.1924,
+          "rawKelly": 0.1923,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
@@ -14523,16 +14554,16 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.5226,
-      "pX": 0.2646,
-      "p2": 0.2129,
+      "p1": 0.5231,
+      "pX": 0.2643,
+      "p2": 0.2125,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -14679,7 +14710,7 @@
         "home": {
           "odd": 1.392,
           "implied": 0.718,
-          "edge": -0.196,
+          "edge": -0.195,
           "value": false
         },
         "draw": {
@@ -14691,7 +14722,7 @@
         "away": {
           "odd": 9.5,
           "implied": 0.105,
-          "edge": 0.108,
+          "edge": 0.107,
           "value": true
         }
       },
@@ -15076,12 +15107,12 @@
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.0603,
+          "rawKelly": 0.0599,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.1203,
+          "rawKelly": 0.1199,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -15307,16 +15338,16 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.6489,
-      "pX": 0.2179,
-      "p2": 0.1332,
+      "p1": 0.651,
+      "pX": 0.2162,
+      "p2": 0.1328,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -15463,13 +15494,13 @@
         "home": {
           "odd": 1.345,
           "implied": 0.743,
-          "edge": -0.095,
+          "edge": -0.092,
           "value": false
         },
         "draw": {
           "odd": 5.25,
           "implied": 0.19,
-          "edge": 0.027,
+          "edge": 0.026,
           "value": true
         },
         "away": {
@@ -15796,9 +15827,9 @@
         ]
       },
       "upsetIndex": {
-        "index": 50,
+        "index": 49,
         "label": "modéré",
-        "dampener": 0.991,
+        "dampener": 0.993,
         "favOverperf": true,
         "dogLowBlock": true
       },
@@ -15832,14 +15863,14 @@
           "note": "pas de value (EV ≤ 0)"
         },
         "draw": {
-          "kelly": 0.0339,
-          "rawKelly": 0.0339,
-          "note": "miser ~3.4% de la bankroll (Kelly×confiance, plafonné 5%)"
+          "kelly": 0.0318,
+          "rawKelly": 0.0318,
+          "note": "miser ~3.2% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
-          "kelly": 0.0249,
-          "rawKelly": 0.0249,
-          "note": "miser ~2.5% de la bankroll (Kelly×confiance, plafonné 5%)"
+          "kelly": 0.0244,
+          "rawKelly": 0.0244,
+          "note": "miser ~2.4% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
       "lineMovement": {
@@ -16081,16 +16112,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.3019,
-      "pX": 0.1237,
-      "p2": 0.5744,
+      "p1": 0.3017,
+      "pX": 0.1233,
+      "p2": 0.575,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.168,
           0.195,
@@ -16874,16 +16905,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.4438,
-      "pX": 0.3233,
-      "p2": 0.2329,
+      "p1": 0.4441,
+      "pX": 0.3232,
+      "p2": 0.2326,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -17030,7 +17061,7 @@
         "home": {
           "odd": 1.714,
           "implied": 0.583,
-          "edge": -0.14,
+          "edge": -0.139,
           "value": false
         },
         "draw": {
@@ -17469,13 +17500,13 @@
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.0816,
+          "rawKelly": 0.0815,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
-          "kelly": 0.0308,
-          "rawKelly": 0.0362,
-          "note": "miser ~3.1% de la bankroll (Kelly×confiance, plafonné 5%)"
+          "kelly": 0.0305,
+          "rawKelly": 0.0358,
+          "note": "miser ~3.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
       "lineMovement": {
@@ -17654,7 +17685,7 @@
           "source": "ESPN (compos réelles)"
         }
       },
-      "summary": "Le modèle donnait <b>Panama</b> favori (35%). ❌ Surprise : c'est <b>Ghana</b> qui l'emporte Score le plus probable prévu : 1-1 → réel 1-0. Total buts 1 (Under 2.5), BTTS non."
+      "summary": "Le modèle donnait <b>Panama</b> favori (36%). ❌ Surprise : c'est <b>Ghana</b> qui l'emporte Score le plus probable prévu : 1-1 → réel 1-0. Total buts 1 (Under 2.5), BTTS non."
     },
     "home": "Ghana",
     "away": "Panama",
@@ -17705,15 +17736,15 @@
     "confidence": 0.85,
     "prediction": {
       "p1": 0.3,
-      "pX": 0.3451,
-      "p2": 0.3549,
+      "pX": 0.345,
+      "p2": 0.355,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -18252,12 +18283,12 @@
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.0778,
+          "rawKelly": 0.0777,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.0861,
+          "rawKelly": 0.0862,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -18489,16 +18520,16 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.2633,
+      "p1": 0.2632,
       "pX": 0.3092,
-      "p2": 0.4275,
+      "p2": 0.4277,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -19028,7 +19059,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.1712,
+          "rawKelly": 0.1711,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -19265,16 +19296,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.511,
-      "pX": 0.2791,
-      "p2": 0.2099,
+      "p1": 0.5115,
+      "pX": 0.2789,
+      "p2": 0.2096,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -19819,13 +19850,13 @@
           "note": "pas de value (EV ≤ 0)"
         },
         "draw": {
-          "kelly": 0.0144,
-          "rawKelly": 0.017,
+          "kelly": 0.0142,
+          "rawKelly": 0.0167,
           "note": "miser ~1.4% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
-          "kelly": 0.0062,
-          "rawKelly": 0.0073,
+          "kelly": 0.0059,
+          "rawKelly": 0.0069,
           "note": "miser ~0.6% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -20082,16 +20113,16 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.3508,
+      "p1": 0.3509,
       "pX": 0.3586,
-      "p2": 0.2906,
+      "p2": 0.2905,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -20684,7 +20715,7 @@
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.1487,
+          "rawKelly": 0.1486,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -20941,16 +20972,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.4222,
-      "pX": 0.339,
-      "p2": 0.2389,
+      "p1": 0.4224,
+      "pX": 0.3389,
+      "p2": 0.2387,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -21519,12 +21550,12 @@
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.1998,
+          "rawKelly": 0.1997,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.1628,
+          "rawKelly": 0.1626,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -21698,7 +21729,7 @@
           "source": "ESPN (compos réelles)"
         }
       },
-      "summary": "Le modèle donnait <b>Mexico</b> favori (52%). ✅ Issue correctement anticipée. Score le plus probable prévu : 1-0 → réel 1-0 (exact !) Total buts 1 (Under 2.5), BTTS non."
+      "summary": "Le modèle donnait <b>Mexico</b> favori (53%). ✅ Issue correctement anticipée. Score le plus probable prévu : 1-0 → réel 1-0 (exact !) Total buts 1 (Under 2.5), BTTS non."
     },
     "home": "Mexico",
     "away": "South Korea",
@@ -21748,16 +21779,16 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.525,
-      "pX": 0.2962,
-      "p2": 0.1789,
+      "p1": 0.5255,
+      "pX": 0.296,
+      "p2": 0.1785,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -21910,13 +21941,13 @@
         "draw": {
           "odd": 3.35,
           "implied": 0.299,
-          "edge": -0.002,
+          "edge": -0.003,
           "value": false
         },
         "away": {
           "odd": 4.2,
           "implied": 0.238,
-          "edge": -0.059,
+          "edge": -0.06,
           "value": false
         }
       },
@@ -22307,7 +22338,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.05,
+          "rawKelly": 0.051,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -22531,16 +22562,16 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.2449,
-      "pX": 0.2757,
-      "p2": 0.4794,
+      "p1": 0.2448,
+      "pX": 0.2755,
+      "p2": 0.4797,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -22693,7 +22724,7 @@
         "draw": {
           "odd": 4.2,
           "implied": 0.238,
-          "edge": 0.038,
+          "edge": 0.037,
           "value": true
         },
         "away": {
@@ -22991,13 +23022,13 @@
           "note": "pas de value (EV ≤ 0)"
         },
         "draw": {
-          "kelly": 0.0494,
-          "rawKelly": 0.0494,
+          "kelly": 0.0491,
+          "rawKelly": 0.0491,
           "note": "miser ~4.9% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.3637,
+          "rawKelly": 0.3641,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -23222,16 +23253,16 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.3186,
+      "p1": 0.3187,
       "pX": 0.371,
-      "p2": 0.3104,
+      "p2": 0.3102,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -23864,7 +23895,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.1482,
+          "rawKelly": 0.1484,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -24104,16 +24135,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.4413,
-      "pX": 0.3158,
-      "p2": 0.2429,
+      "p1": 0.4416,
+      "pX": 0.3157,
+      "p2": 0.2426,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -24708,13 +24739,13 @@
           "note": "pas de value (EV ≤ 0)"
         },
         "draw": {
-          "kelly": 0.0261,
-          "rawKelly": 0.0307,
+          "kelly": 0.026,
+          "rawKelly": 0.0306,
           "note": "miser ~2.6% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
-          "kelly": 0.0054,
-          "rawKelly": 0.0063,
+          "kelly": 0.005,
+          "rawKelly": 0.0059,
           "note": "miser ~0.5% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -24964,16 +24995,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.5627,
-      "pX": 0.2558,
-      "p2": 0.1814,
+      "p1": 0.5633,
+      "pX": 0.2556,
+      "p2": 0.181,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -25569,12 +25600,12 @@
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.1814,
+          "rawKelly": 0.1812,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.1442,
+          "rawKelly": 0.1438,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -25839,16 +25870,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.5332,
-      "pX": 0.2562,
-      "p2": 0.2106,
+      "p1": 0.5338,
+      "pX": 0.2559,
+      "p2": 0.2103,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -26516,13 +26547,13 @@
           "note": "pas de value (EV ≤ 0)"
         },
         "draw": {
-          "kelly": 0.0138,
-          "rawKelly": 0.0163,
-          "note": "miser ~1.4% de la bankroll (Kelly×confiance, plafonné 5%)"
+          "kelly": 0.0135,
+          "rawKelly": 0.0159,
+          "note": "miser ~1.3% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
-          "kelly": 0.0024,
-          "rawKelly": 0.0029,
+          "kelly": 0.0021,
+          "rawKelly": 0.0025,
           "note": "miser ~0.2% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -26698,7 +26729,7 @@
           "source": "ESPN (compos réelles)"
         }
       },
-      "summary": "Le modèle donnait <b>Germany</b> favori (49%). ✅ Issue correctement anticipée. Score le plus probable prévu : 1-1 → réel 2-1. Total buts 3 (Over 2.5), BTTS oui."
+      "summary": "Le modèle donnait <b>Germany</b> favori (48%). ✅ Issue correctement anticipée. Score le plus probable prévu : 1-1 → réel 2-1. Total buts 3 (Over 2.5), BTTS oui."
     },
     "home": "Germany",
     "away": "Ivory Coast",
@@ -26706,8 +26737,8 @@
     "awayGF": 1.8,
     "homeGA": 1.4,
     "awayGA": 0.6,
-    "homeXG": 1.6,
-    "awayXG": 1.22,
+    "homeXG": 1.54,
+    "awayXG": 1.26,
     "homeForm": 8,
     "awayForm": 8,
     "homeElo": 1400.0,
@@ -26748,25 +26779,25 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.4897,
-      "pX": 0.2865,
-      "p2": 0.2238,
+      "p1": 0.4788,
+      "pX": 0.2887,
+      "p2": 0.2325,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
           0.298
         ],
         "grid": [
-          0.451,
-          0.269,
-          0.28
+          0.427,
+          0.273,
+          0.3
         ],
         "form": [
           0.618,
@@ -26774,48 +26805,48 @@
           0.219
         ]
       },
-      "over25": 0.6648,
-      "btts": 0.6083,
+      "over25": 0.6602,
+      "btts": 0.6087,
       "marketCalib": {
         "bttsShift": 0.0167,
         "overShift": 0.0829,
-        "bttsRaw": 0.5916,
+        "bttsRaw": 0.592,
         "n": 236
       },
-      "lamHome": 1.6,
-      "lamAway": 1.22,
+      "lamHome": 1.54,
+      "lamAway": 1.26,
       "topScore": [
         1,
         1
       ],
       "doubleChance": {
-        "1X": 0.7198,
-        "12": 0.7311,
-        "X2": 0.5491
+        "1X": 0.6995,
+        "12": 0.7275,
+        "X2": 0.573
       },
       "drawNoBet": {
-        "home": 0.6167,
-        "away": 0.3833
+        "home": 0.5869,
+        "away": 0.4131
       },
       "topScores": [
         {
           "score": "1-1",
-          "p": 0.1252
+          "p": 0.127
         },
         {
           "score": "2-1",
-          "p": 0.0931
+          "p": 0.0909
         },
         {
           "score": "1-0",
-          "p": 0.0804
+          "p": 0.0786
         }
       ],
       "scenarios": [
         {
           "id": "closed",
           "title": "Match fermé",
-          "p": 0.2073,
+          "p": 0.2104,
           "scores": [
             "1-0",
             "0-0"
@@ -26825,7 +26856,7 @@
         {
           "id": "tight",
           "title": "Match serré",
-          "p": 0.2409,
+          "p": 0.2424,
           "scores": [
             "1-1",
             "2-0"
@@ -26835,7 +26866,7 @@
         {
           "id": "open",
           "title": "Match ouvert / spectacle",
-          "p": 0.5519,
+          "p": 0.5473,
           "scores": [
             "2-1",
             "1-2"
@@ -26845,7 +26876,7 @@
         {
           "id": "blowout",
           "title": "Large écart",
-          "p": 0.2424,
+          "p": 0.2361,
           "scores": [
             "3-1",
             "3-0"
@@ -26856,45 +26887,45 @@
       ],
       "overUnder": {
         "0.5": {
-          "over": 0.9318,
-          "under": 0.0682
+          "over": 0.9305,
+          "under": 0.0695
         },
         "1.5": {
-          "over": 0.7927,
-          "under": 0.2073
+          "over": 0.7896,
+          "under": 0.2104
         },
         "2.5": {
-          "over": 0.5519,
-          "under": 0.4481
+          "over": 0.5473,
+          "under": 0.4527
         },
         "3.5": {
-          "over": 0.3315,
-          "under": 0.6685
+          "over": 0.3271,
+          "under": 0.6729
         }
       },
-      "totalXg": 2.82,
+      "totalXg": 2.8,
       "bttsConf": {
         "pick": "Oui",
         "score": 0.61,
         "label": "élevée"
       },
       "halftime": {
-        "lamHome": 0.58,
-        "lamAway": 0.54,
+        "lamHome": 0.56,
+        "lamAway": 0.56,
         "topScore": [
           0,
           0
         ],
-        "p1": 0.2857,
-        "pX": 0.4561,
-        "p2": 0.2581,
+        "p1": 0.2724,
+        "pX": 0.4572,
+        "p2": 0.2704,
         "ou05": {
-          "over": 0.6788,
-          "under": 0.3212
+          "over": 0.6776,
+          "under": 0.3224
         },
         "ou15": {
-          "over": 0.3484,
-          "under": 0.6516
+          "over": 0.3469,
+          "under": 0.6531
         },
         "shareHome": 0.364,
         "shareAway": 0.443,
@@ -26904,19 +26935,19 @@
         "home": {
           "odd": 1.541,
           "implied": 0.649,
-          "edge": -0.159,
+          "edge": -0.17,
           "value": false
         },
         "draw": {
           "odd": 4.6,
           "implied": 0.217,
-          "edge": 0.069,
+          "edge": 0.071,
           "value": true
         },
         "away": {
           "odd": 5.75,
           "implied": 0.174,
-          "edge": 0.05,
+          "edge": 0.059,
           "value": true
         }
       },
@@ -27058,7 +27089,7 @@
             {
               "name": "Kai Havertz",
               "poste": "FW",
-              "p": 0.2777,
+              "p": 0.2688,
               "real_goals": 0.0,
               "why": "volume de tirs élevé (3)",
               "bio": {
@@ -27079,21 +27110,21 @@
             {
               "name": "Deniz Undav",
               "poste": "FW",
-              "p": 0.2243,
+              "p": 0.2169,
               "real_goals": 2.0,
               "why": "déjà 2 but(s) dans le tournoi · volume de tirs élevé (3)"
             },
             {
               "name": "Jamal Musiala",
               "poste": "MF",
-              "p": 0.1056,
+              "p": 0.1019,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Florian Wirtz",
               "poste": "MF",
-              "p": 0.1056,
+              "p": 0.1019,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste",
               "bio": {
@@ -27113,7 +27144,7 @@
             {
               "name": "Felix Nmecha",
               "poste": "MF",
-              "p": 0.1056,
+              "p": 0.1019,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             }
@@ -27122,21 +27153,21 @@
             {
               "name": "Felix Nmecha",
               "poste": "MF",
-              "p": 0.1523,
+              "p": 0.147,
               "real_assists": 1.0,
               "why": "déjà 1 passe(s) déc."
             },
             {
               "name": "Jamal Musiala",
               "poste": "MF",
-              "p": 0.0981,
+              "p": 0.0946,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Florian Wirtz",
               "poste": "MF",
-              "p": 0.0981,
+              "p": 0.0946,
               "real_assists": 0.0,
               "why": "création selon le poste",
               "bio": {
@@ -27156,7 +27187,7 @@
             {
               "name": "Leroy Sané",
               "poste": "MF",
-              "p": 0.0981,
+              "p": 0.0946,
               "real_assists": 0.0,
               "why": "création selon le poste"
             }
@@ -27164,15 +27195,15 @@
           "creator": {
             "name": "Felix Nmecha",
             "poste": "MF",
-            "p": 0.1523,
+            "p": 0.147,
             "real_assists": 1.0,
             "why": "déjà 1 passe(s) déc."
           },
           "keeper": {
             "name": "Manuel Neuer",
-            "expSotFaced": 3.8,
+            "expSotFaced": 3.9,
             "fromLineup": true,
-            "why": "Subit une pression offensive adverse de ~1.22 xG → environ 3.8 tirs cadrés à gérer."
+            "why": "Subit une pression offensive adverse de ~1.26 xG → environ 3.9 tirs cadrés à gérer."
           },
           "benchImpact": [
             {
@@ -27197,35 +27228,35 @@
             {
               "name": "Ange-Yoan Bonny",
               "poste": "FW",
-              "p": 0.1417,
+              "p": 0.146,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Yan Diomande",
               "poste": "FW",
-              "p": 0.1417,
+              "p": 0.146,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Amad Diallo",
               "poste": "FW",
-              "p": 0.1417,
+              "p": 0.146,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Franck Kessié",
               "poste": "MF",
-              "p": 0.0855,
+              "p": 0.0882,
               "real_goals": 1.0,
               "why": "déjà 1 but(s) dans le tournoi"
             },
             {
               "name": "Simon Adingra",
               "poste": "FW",
-              "p": 0.0595,
+              "p": 0.0614,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             }
@@ -27234,28 +27265,28 @@
             {
               "name": "Seko Fofana",
               "poste": "MF",
-              "p": 0.0722,
+              "p": 0.0745,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Franck Kessié",
               "poste": "MF",
-              "p": 0.0722,
+              "p": 0.0745,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Ibrahim Sangaré",
               "poste": "MF",
-              "p": 0.0722,
+              "p": 0.0745,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Christ Inao Oulaï",
               "poste": "MF",
-              "p": 0.0722,
+              "p": 0.0745,
               "real_assists": 0.0,
               "why": "création selon le poste"
             }
@@ -27263,15 +27294,15 @@
           "creator": {
             "name": "Seko Fofana",
             "poste": "MF",
-            "p": 0.0722,
+            "p": 0.0745,
             "real_assists": 0.0,
             "why": "création selon le poste"
           },
           "keeper": {
             "name": "Yahia Fofana",
-            "expSotFaced": 5.0,
+            "expSotFaced": 4.8,
             "fromLineup": true,
-            "why": "Subit une pression offensive adverse de ~1.6 xG → environ 5.0 tirs cadrés à gérer."
+            "why": "Subit une pression offensive adverse de ~1.54 xG → environ 4.8 tirs cadrés à gérer."
           },
           "benchImpact": [],
           "note": "Probabilités MODÈLE (poste réel + production réelle des matchs joués), pas des certitudes. Se précisent à mesure que les équipes jouent."
@@ -27290,11 +27321,11 @@
         "away": "4-1-4-1"
       },
       "mwi": {
-        "home": 0.5,
+        "home": 0.2,
         "away": 0.5,
         "stageStake": 0.5,
         "groupMatchday": 2,
-        "statusHome": "alive",
+        "statusHome": "qualified",
         "statusAway": "alive"
       },
       "meta": {
@@ -27305,9 +27336,9 @@
         ]
       },
       "upsetIndex": {
-        "index": 64,
+        "index": 65,
         "label": "élevé",
-        "dampener": 0.965,
+        "dampener": 0.964,
         "favOverperf": true,
         "dogLowBlock": true
       },
@@ -27344,12 +27375,12 @@
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.0883,
+          "rawKelly": 0.0911,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.0604,
+          "rawKelly": 0.0709,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -27375,44 +27406,206 @@
   {
     "league": "CDM 2026 · Group E",
     "date": "2026-06-20 19:00 UTC-5",
-    "status": "LIVE",
-    "liveScore": "0-0",
-    "liveClock": "20'",
-    "realScore": null,
-    "analysis": null,
+    "status": "FINISHED",
+    "liveScore": null,
+    "liveClock": null,
+    "realScore": "0-0",
+    "analysis": {
+      "realScore": "0-0",
+      "outcome": "X",
+      "winner": null,
+      "predictedOutcome": "1",
+      "predictionCorrect": false,
+      "exactScore": false,
+      "over25Real": false,
+      "bttsReal": false,
+      "totalGoals": 0,
+      "homeXgReal": 2.12,
+      "awayXgReal": 0.58,
+      "homeShots": 28,
+      "awayShots": 10,
+      "homeShotsOn": 15,
+      "awayShotsOn": 3,
+      "teamStats": {
+        "home_possession": 74.8,
+        "home_passes": 641,
+        "home_passes_ok": 577,
+        "home_pass_pct": 0.9,
+        "home_crosses": 32,
+        "home_crosses_ok": 13,
+        "home_long_balls": 32,
+        "home_tackles": 19,
+        "home_tackles_won": 11,
+        "home_interceptions": 7,
+        "home_clearances": 17,
+        "home_blocked_shots": 3,
+        "home_fouls": 7,
+        "home_offsides": 1,
+        "home_saves": 3,
+        "away_possession": 25.2,
+        "away_passes": 223,
+        "away_passes_ok": 154,
+        "away_pass_pct": 0.7,
+        "away_crosses": 1,
+        "away_crosses_ok": 1,
+        "away_long_balls": 50,
+        "away_tackles": 17,
+        "away_tackles_won": 7,
+        "away_interceptions": 8,
+        "away_clearances": 31,
+        "away_blocked_shots": 3,
+        "away_fouls": 10,
+        "away_offsides": 2,
+        "away_saves": 15
+      },
+      "homeCorners": 9,
+      "awayCorners": 0,
+      "homeCards": 1,
+      "awayCards": 5,
+      "events": {
+        "goals": [],
+        "cards": [
+          {
+            "minute": 38,
+            "team": "Ecuador",
+            "player": "Jordy Alcívar",
+            "type": "Yellow"
+          },
+          {
+            "minute": 39,
+            "team": "Curaçao",
+            "player": "Leandro Bacuna",
+            "type": "Yellow"
+          },
+          {
+            "minute": 53,
+            "team": "Curaçao",
+            "player": "Juninho Bacuna",
+            "type": "Yellow"
+          },
+          {
+            "minute": 56,
+            "team": "Curaçao",
+            "player": "Livano Comenencia",
+            "type": "Yellow"
+          },
+          {
+            "minute": 75,
+            "team": "Curaçao",
+            "player": "Juriën Gaari",
+            "type": "Yellow"
+          },
+          {
+            "minute": 90,
+            "team": "Curaçao",
+            "player": "Gervane Kastaneer",
+            "type": "Yellow"
+          }
+        ],
+        "halftime": "0-0",
+        "motm": "—",
+        "note": "",
+        "lineups": {
+          "home_formation": "3-1-4-2",
+          "home_xi": [
+            "Hernán Galíndez",
+            "Willian Pacho",
+            "Piero Hincapié",
+            "Alan Franco",
+            "Jordy Alcívar",
+            "Moisés Caicedo",
+            "Pedro Vite",
+            "Pervis Estupiñán",
+            "John Yeboah",
+            "Enner Valencia",
+            "Gonzalo Plata"
+          ],
+          "home_bench": [
+            "Jeremy Arévalo",
+            "Anthony Valencia",
+            "Jackson Porozo",
+            "Kevin Rodríguez",
+            "Yaimar Medina",
+            "Jordy Caicedo",
+            "Alan Minda",
+            "Félix Torres",
+            "Joel Ordóñez",
+            "Nilson Angulo",
+            "Gonzalo Valle",
+            "Ángelo Preciado",
+            "Denil Castillo",
+            "Moisés Ramírez",
+            "Kendry Páez"
+          ],
+          "away_formation": "5-4-1",
+          "away_xi": [
+            "Eloy Room",
+            "Armando Obispo",
+            "Sherel Floranus",
+            "Juriën Gaari",
+            "Deveron Fonville",
+            "Joshua Brenet",
+            "Leandro Bacuna",
+            "Livano Comenencia",
+            "Juninho Bacuna",
+            "Tahith Chong",
+            "Jürgen Locadia"
+          ],
+          "away_bench": [
+            "Trevor Doornbusch",
+            "Shurandy Sambo",
+            "Kenji Gorré",
+            "Riechedly Bazoer",
+            "Jeremy Antonisse",
+            "Ar'jany Martha",
+            "Jearl Margaritha",
+            "Kevin Felida",
+            "Tyrese Noslin",
+            "Brandley Kuwas",
+            "Godfried Roemeratoe",
+            "Roshon van Eijma",
+            "Gervane Kastaneer",
+            "Tyrick Bodak",
+            "Sontje Hansen"
+          ],
+          "source": "ESPN (compos réelles)"
+        }
+      },
+      "summary": "Le modèle donnait <b>Ecuador</b> favori (47%). ❌ Surprise : match nul, non anticipé. Score le plus probable prévu : 1-1 → réel 0-0. Total buts 0 (Under 2.5), BTTS non."
+    },
     "home": "Ecuador",
     "away": "Curaçao",
-    "homeGF": 1.25,
-    "awayGF": 1.5,
-    "homeGA": 0.75,
-    "awayGA": 3.5,
-    "homeXG": 1.64,
-    "awayXG": 0.97,
+    "homeGF": 1.0,
+    "awayGF": 1.2,
+    "homeGA": 0.6,
+    "awayGA": 2.8,
+    "homeXG": 1.31,
+    "awayXG": 0.93,
     "homeForm": 8,
     "awayForm": 8,
-    "homeElo": 1400.0,
-    "awayElo": 1400.0,
-    "homeForm5": "LWDDW",
-    "awayForm5": "LWLLL",
+    "homeElo": 1397.9,
+    "awayElo": 1402.1,
+    "homeForm5": "DLWDD",
+    "awayForm5": "DLWLL",
     "homeFormDetail": {
       "pts10": 17,
       "played": 10,
       "gf_avg": 1.3,
       "ga_avg": 0.5,
-      "last5": "LWDDW",
+      "last5": "DLWDD",
       "form_index": 0.567,
-      "cdmGames": 4,
-      "source": "réelle (10 derniers · 4 de la CDM 2026)"
+      "cdmGames": 5,
+      "source": "réelle (10 derniers · 5 de la CDM 2026)"
     },
     "awayFormDetail": {
-      "pts10": 14,
+      "pts10": 12,
       "played": 10,
-      "gf_avg": 2.1,
+      "gf_avg": 1.9,
       "ga_avg": 2.0,
-      "last5": "LWLLL",
-      "form_index": 0.467,
-      "cdmGames": 4,
-      "source": "réelle (10 derniers · 4 de la CDM 2026)"
+      "last5": "DLWLL",
+      "form_index": 0.4,
+      "cdmGames": 5,
+      "source": "réelle (10 derniers · 5 de la CDM 2026)"
     },
     "odd1": 1.1,
     "oddX": 11.0,
@@ -27428,74 +27621,74 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.4853,
-      "pX": 0.3029,
-      "p2": 0.2118,
+      "p1": 0.4744,
+      "pX": 0.3062,
+      "p2": 0.2194,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
-          0.409,
-          0.293,
-          0.298
+          0.404,
+          0.294,
+          0.302
         ],
         "grid": [
-          0.519,
-          0.269,
-          0.212
+          0.441,
+          0.306,
+          0.253
         ],
         "form": [
-          0.505,
-          0.228,
-          0.266
+          0.58,
+          0.185,
+          0.234
         ]
       },
-      "over25": 0.5851,
-      "btts": 0.5489,
+      "over25": 0.5216,
+      "btts": 0.4942,
       "marketCalib": {
         "bttsShift": 0.0167,
         "overShift": 0.0829,
-        "bttsRaw": 0.5322,
+        "bttsRaw": 0.4775,
         "n": 236
       },
-      "lamHome": 1.64,
-      "lamAway": 0.97,
+      "lamHome": 1.31,
+      "lamAway": 0.93,
       "topScore": [
         1,
         1
       ],
       "doubleChance": {
-        "1X": 0.7879,
-        "12": 0.7315,
-        "X2": 0.4806
+        "1X": 0.7474,
+        "12": 0.6937,
+        "X2": 0.5589
       },
       "drawNoBet": {
-        "home": 0.71,
-        "away": 0.29
+        "home": 0.6359,
+        "away": 0.3641
       },
       "topScores": [
         {
           "score": "1-1",
-          "p": 0.1265
+          "p": 0.1413
         },
         {
           "score": "1-0",
-          "p": 0.1045
+          "p": 0.1214
         },
         {
-          "score": "2-1",
-          "p": 0.0968
+          "score": "0-0",
+          "p": 0.1143
         }
       ],
       "scenarios": [
         {
           "id": "closed",
           "title": "Match fermé",
-          "p": 0.2434,
+          "p": 0.3183,
           "scores": [
             "1-0",
             "0-0"
@@ -27505,7 +27698,7 @@
         {
           "id": "tight",
           "title": "Match serré",
-          "p": 0.2544,
+          "p": 0.273,
           "scores": [
             "1-1",
             "2-0"
@@ -27515,7 +27708,7 @@
         {
           "id": "open",
           "title": "Match ouvert / spectacle",
-          "p": 0.5022,
+          "p": 0.4087,
           "scores": [
             "2-1",
             "1-2"
@@ -27525,7 +27718,7 @@
         {
           "id": "blowout",
           "title": "Large écart",
-          "p": 0.2349,
+          "p": 0.1703,
           "scores": [
             "3-1",
             "3-0"
@@ -27536,45 +27729,45 @@
       ],
       "overUnder": {
         "0.5": {
-          "over": 0.9184,
-          "under": 0.0816
+          "over": 0.8857,
+          "under": 0.1143
         },
         "1.5": {
-          "over": 0.7566,
-          "under": 0.2434
+          "over": 0.6817,
+          "under": 0.3183
         },
         "2.5": {
-          "over": 0.5022,
-          "under": 0.4978
+          "over": 0.4087,
+          "under": 0.5913
         },
         "3.5": {
-          "over": 0.2855,
-          "under": 0.7145
+          "over": 0.208,
+          "under": 0.792
         }
       },
-      "totalXg": 2.61,
+      "totalXg": 2.24,
       "bttsConf": {
         "pick": "indécis",
-        "score": 0.47,
+        "score": 0.43,
         "label": "faible"
       },
       "halftime": {
-        "lamHome": 0.69,
-        "lamAway": 0.5,
+        "lamHome": 0.55,
+        "lamAway": 0.48,
         "topScore": [
           0,
           0
         ],
-        "p1": 0.3399,
-        "pX": 0.4392,
-        "p2": 0.2208,
+        "p1": 0.2852,
+        "pX": 0.4761,
+        "p2": 0.2387,
         "ou05": {
-          "over": 0.6987,
-          "under": 0.3013
+          "over": 0.6495,
+          "under": 0.3505
         },
         "ou15": {
-          "over": 0.3718,
-          "under": 0.6282
+          "over": 0.3152,
+          "under": 0.6848
         },
         "shareHome": 0.42,
         "shareAway": 0.517,
@@ -27584,155 +27777,113 @@
         "home": {
           "odd": 1.1,
           "implied": 0.909,
-          "edge": -0.424,
+          "edge": -0.435,
           "value": false
         },
         "draw": {
           "odd": 11.0,
           "implied": 0.091,
-          "edge": 0.212,
+          "edge": 0.215,
           "value": true
         },
         "away": {
           "odd": 26.0,
           "implied": 0.038,
-          "edge": 0.173,
+          "edge": 0.181,
           "value": true
         }
       },
       "corners": {
-        "exp_corners": 7.5,
-        "over": 0.4751,
-        "under": 0.5249,
+        "exp_corners": 7.3,
+        "over": 0.4468,
+        "under": 0.5532,
         "line": 7.5,
-        "home": 3.8,
-        "away": 3.7,
+        "home": 3.7,
+        "away": 3.6,
         "lines": {
           "5.5": {
-            "over": 0.7584,
-            "under": 0.2416
+            "over": 0.7367,
+            "under": 0.2633
           },
           "6.5": {
-            "over": 0.6216,
-            "under": 0.3784
+            "over": 0.5948,
+            "under": 0.4052
           },
           "7.5": {
-            "over": 0.4751,
-            "under": 0.5249
+            "over": 0.4468,
+            "under": 0.5532
           },
           "8.5": {
-            "over": 0.3378,
-            "under": 0.6622
+            "over": 0.3116,
+            "under": 0.6884
           },
           "9.5": {
-            "over": 0.2234,
-            "under": 0.7766
+            "over": 0.2018,
+            "under": 0.7982
           }
         },
         "src": "FootyStats ×0.58 (calibré 35 matchs)"
       },
       "cards": {
-        "exp_cards": 3.6,
-        "over": 0.4848,
-        "under": 0.5152,
+        "exp_cards": 3.9,
+        "over": 0.5552,
+        "under": 0.4448,
         "line": 3.5,
-        "home": 2.0,
-        "away": 1.6,
+        "home": 2.2,
+        "away": 1.7,
         "lines": {
           "2.5": {
-            "over": 0.6973,
-            "under": 0.3027
+            "over": 0.7533,
+            "under": 0.2467
           },
           "3.5": {
-            "over": 0.4848,
-            "under": 0.5152
+            "over": 0.5552,
+            "under": 0.4448
           },
           "4.5": {
-            "over": 0.2936,
-            "under": 0.7064
+            "over": 0.3599,
+            "under": 0.6401
           }
         },
-        "redProb": 0.18,
-        "src": "FootyStats (réel)"
-      },
-      "shots": {
-        "expShots": 25.1,
-        "expShotsOn": 7.5,
-        "home": 15.2,
-        "away": 9.9,
-        "homeOn": 4.3,
-        "awayOn": 3.2,
-        "homeAcc": 28,
-        "awayAcc": 32,
-        "line": 25.5,
-        "lineOn": 7.5,
-        "lines": {
-          "21.5": {
-            "over": 0.7613,
-            "under": 0.2387
-          },
-          "23.5": {
-            "over": 0.6168,
-            "under": 0.3832
-          },
-          "25.5": {
-            "over": 0.4582,
-            "under": 0.5418
-          },
-          "27.5": {
-            "over": 0.3098,
-            "under": 0.6902
-          },
-          "29.5": {
-            "over": 0.1898,
-            "under": 0.8102
-          }
-        },
-        "linesOn": {
-          "5.5": {
-            "over": 0.7559,
-            "under": 0.2441
-          },
-          "6.5": {
-            "over": 0.6185,
-            "under": 0.3815
-          },
-          "7.5": {
-            "over": 0.4717,
-            "under": 0.5283
-          },
-          "8.5": {
-            "over": 0.3346,
-            "under": 0.6654
-          },
-          "9.5": {
-            "over": 0.2208,
-            "under": 0.7792
-          }
-        },
-        "real": false,
-        "basis": {
-          "dominance": [
-            1.13,
-            0.87
-          ],
-          "possession": [
-            52,
-            48
-          ],
-          "accuracy": [
-            28,
-            32
-          ]
+        "redProb": 0.197,
+        "src": "FootyStats + arbitre",
+        "refSeverity": {
+          "avg": 4.24,
+          "n": 1,
+          "prior": 3.8,
+          "obsMean": 6.0,
+          "source": "prior + 1 match(s) CDM 2026"
         }
       },
-      "referee": null,
+      "shots": {
+        "home": 28,
+        "away": 10,
+        "homeOn": 15,
+        "awayOn": 3,
+        "homeAcc": 54,
+        "awayAcc": 30,
+        "real": true
+      },
+      "referee": {
+        "name": "Ma Ning",
+        "nation": null,
+        "cardsAvg": null,
+        "source": "ESPN (réel)",
+        "severity": 4.24,
+        "severityN": 1,
+        "severitySrc": "prior + 1 match(s) CDM 2026"
+      },
       "riskPlayers": {
         "home": {
           "real": [
             {
               "name": "Jackson Porozo",
-              "pos": "SUB",
+              "pos": null,
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Jordy Alcívar",
+              "pos": "SW",
               "card": "🟨 jaune"
             }
           ],
@@ -27752,7 +27903,33 @@
           ]
         },
         "away": {
-          "real": [],
+          "real": [
+            {
+              "name": "Juriën Gaari",
+              "pos": "CD-R",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Gervane Kastaneer",
+              "pos": "SUB",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Leandro Bacuna",
+              "pos": "CM-L",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Juninho Bacuna",
+              "pos": "LM",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Livano Comenencia",
+              "pos": "CM-R",
+              "card": "🟨 jaune"
+            }
+          ],
           "profiles": [
             {
               "role": "Défenseur central",
@@ -27773,83 +27950,83 @@
         "home": {
           "scorers": [
             {
-              "name": "John Yeboah",
-              "poste": "FW",
-              "p": 0.2326,
-              "real_goals": 0.0,
-              "why": "volume de tirs élevé (3)"
-            },
-            {
               "name": "Enner Valencia",
               "poste": "FW",
-              "p": 0.1959,
+              "p": 0.2005,
               "real_goals": 0.0,
-              "why": "présence offensive selon le poste"
+              "why": "volume de tirs élevé (7)"
             },
             {
               "name": "Gonzalo Plata",
               "poste": "FW",
-              "p": 0.1959,
+              "p": 0.1888,
               "real_goals": 0.0,
-              "why": "présence offensive selon le poste"
+              "why": "volume de tirs élevé (6)"
             },
             {
-              "name": "Alan Minda",
-              "poste": "MF",
-              "p": 0.0869,
+              "name": "John Yeboah",
+              "poste": "FW",
+              "p": 0.1524,
+              "real_goals": 0.0,
+              "why": "volume de tirs élevé (3)"
+            },
+            {
+              "name": "Jordy Caicedo",
+              "poste": "FW",
+              "p": 0.1145,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Kevin Rodríguez",
               "poste": "FW",
-              "p": 0.0839,
+              "p": 0.0778,
               "real_goals": 0.0,
-              "why": "présence offensive selon le poste"
+              "why": "volume de tirs élevé (4)"
             }
           ],
           "assisters": [
             {
-              "name": "Alan Minda",
+              "name": "Jordy Alcívar",
               "poste": "MF",
-              "p": 0.0953,
+              "p": 0.0708,
+              "real_assists": 0.0,
+              "why": "création selon le poste"
+            },
+            {
+              "name": "Anthony Valencia",
+              "poste": "MF",
+              "p": 0.0708,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Pedro Vite",
               "poste": "MF",
-              "p": 0.0953,
+              "p": 0.0708,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Alan Franco",
               "poste": "MF",
-              "p": 0.0953,
-              "real_assists": 0.0,
-              "why": "création selon le poste"
-            },
-            {
-              "name": "Moisés Caicedo",
-              "poste": "MF",
-              "p": 0.0953,
+              "p": 0.0708,
               "real_assists": 0.0,
               "why": "création selon le poste"
             }
           ],
           "creator": {
-            "name": "Alan Minda",
+            "name": "Jordy Alcívar",
             "poste": "MF",
-            "p": 0.0953,
+            "p": 0.0708,
             "real_assists": 0.0,
             "why": "création selon le poste"
           },
           "keeper": {
             "name": "Hernán Galíndez",
-            "expSotFaced": 3.0,
-            "fromLineup": false,
-            "why": "Subit une pression offensive adverse de ~0.97 xG → environ 3.0 tirs cadrés à gérer."
+            "expSotFaced": 2.9,
+            "fromLineup": true,
+            "why": "Subit une pression offensive adverse de ~0.93 xG → environ 2.9 tirs cadrés à gérer."
           },
           "benchImpact": [],
           "note": "Probabilités MODÈLE (poste réel + production réelle des matchs joués), pas des certitudes. Se précisent à mesure que les équipes jouent."
@@ -27857,37 +28034,37 @@
         "away": {
           "scorers": [
             {
-              "name": "Sontje Hansen",
+              "name": "Jürgen Locadia",
               "poste": "FW",
-              "p": 0.1265,
+              "p": 0.1312,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
-              "name": "Jürgen Locadia",
-              "poste": "FW",
-              "p": 0.1138,
+              "name": "Juninho Bacuna",
+              "poste": "MF",
+              "p": 0.0623,
               "real_goals": 0.0,
-              "why": "présence offensive selon le poste"
+              "why": "volume de tirs élevé (3)"
             },
             {
               "name": "Livano Comenencia",
               "poste": "MF",
-              "p": 0.0761,
-              "real_goals": 1.0,
-              "why": "déjà 1 but(s) dans le tournoi"
-            },
-            {
-              "name": "Jearl Margaritha",
-              "poste": "FW",
-              "p": 0.0591,
+              "p": 0.0623,
               "real_goals": 0.0,
-              "why": "présence offensive selon le poste"
+              "why": "volume de tirs élevé (3)"
             },
             {
               "name": "Leandro Bacuna",
               "poste": "MF",
-              "p": 0.0548,
+              "p": 0.0569,
+              "real_goals": 0.0,
+              "why": "présence offensive selon le poste"
+            },
+            {
+              "name": "Jeremy Antonisse",
+              "poste": "FW",
+              "p": 0.0549,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             }
@@ -27896,28 +28073,28 @@
             {
               "name": "Juninho Bacuna",
               "poste": "MF",
-              "p": 0.0594,
+              "p": 0.0586,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Livano Comenencia",
               "poste": "MF",
-              "p": 0.0594,
+              "p": 0.0586,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Leandro Bacuna",
               "poste": "MF",
-              "p": 0.0594,
+              "p": 0.0586,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Tahith Chong",
               "poste": "MF",
-              "p": 0.0594,
+              "p": 0.0586,
               "real_assists": 0.0,
               "why": "création selon le poste"
             }
@@ -27925,31 +28102,31 @@
           "creator": {
             "name": "Juninho Bacuna",
             "poste": "MF",
-            "p": 0.0594,
+            "p": 0.0586,
             "real_assists": 0.0,
             "why": "création selon le poste"
           },
           "keeper": {
             "name": "Eloy Room",
-            "expSotFaced": 5.1,
-            "fromLineup": false,
-            "why": "Subit une pression offensive adverse de ~1.64 xG → environ 5.1 tirs cadrés à gérer."
+            "expSotFaced": 4.1,
+            "fromLineup": true,
+            "why": "Subit une pression offensive adverse de ~1.31 xG → environ 4.1 tirs cadrés à gérer."
           },
           "benchImpact": [],
           "note": "Probabilités MODÈLE (poste réel + production réelle des matchs joués), pas des certitudes. Se précisent à mesure que les équipes jouent."
         }
       },
       "lineupImpact": {
-        "rotationDeltaHome": 0.136,
+        "rotationDeltaHome": 0.171,
         "rotationDeltaAway": 0.2,
-        "tacticalMod": 1.04,
-        "benchHome": 0.0,
-        "benchAway": 0.0,
-        "benchBonusOver25": 0.0
+        "tacticalMod": 1.0,
+        "benchHome": 0.5,
+        "benchAway": 0.5,
+        "benchBonusOver25": 0.03
       },
       "formations": {
-        "home": "4-3-3",
-        "away": "4-4-2"
+        "home": "3-1-4-2",
+        "away": "5-4-1"
       },
       "mwi": {
         "home": 0.5,
@@ -27967,9 +28144,9 @@
         ]
       },
       "upsetIndex": {
-        "index": 57,
+        "index": 58,
         "label": "élevé",
-        "dampener": 0.978,
+        "dampener": 0.976,
         "favOverperf": true,
         "dogLowBlock": false
       },
@@ -28004,12 +28181,12 @@
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.2332,
+          "rawKelly": 0.2368,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.1803,
+          "rawKelly": 0.1882,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -28088,16 +28265,16 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.2085,
-      "pX": 0.2555,
-      "p2": 0.536,
+      "p1": 0.2082,
+      "pX": 0.2552,
+      "p2": 0.5366,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -28244,13 +28421,13 @@
         "home": {
           "odd": 7.0,
           "implied": 0.143,
-          "edge": 0.066,
+          "edge": 0.065,
           "value": true
         },
         "draw": {
           "odd": 4.1,
           "implied": 0.244,
-          "edge": 0.012,
+          "edge": 0.011,
           "value": false
         },
         "away": {
@@ -28660,12 +28837,12 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.0766,
+          "rawKelly": 0.0762,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
-          "kelly": 0.0153,
-          "rawKelly": 0.0153,
+          "kelly": 0.0149,
+          "rawKelly": 0.0149,
           "note": "miser ~1.5% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
@@ -28748,16 +28925,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.5429,
-      "pX": 0.2747,
-      "p2": 0.1824,
+      "p1": 0.5434,
+      "pX": 0.2745,
+      "p2": 0.182,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -29379,12 +29556,12 @@
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.2022,
+          "rawKelly": 0.2019,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.1452,
+          "rawKelly": 0.1448,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -29463,16 +29640,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.4537,
-      "pX": 0.3135,
-      "p2": 0.2328,
+      "p1": 0.4541,
+      "pX": 0.3133,
+      "p2": 0.2326,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -29619,7 +29796,7 @@
         "home": {
           "odd": 1.392,
           "implied": 0.718,
-          "edge": -0.265,
+          "edge": -0.264,
           "value": false
         },
         "draw": {
@@ -30050,12 +30227,12 @@
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.1375,
+          "rawKelly": 0.1372,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.1305,
+          "rawKelly": 0.1303,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -30134,16 +30311,16 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.3707,
+      "p1": 0.3708,
       "pX": 0.358,
-      "p2": 0.2713,
+      "p2": 0.2712,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -30715,7 +30892,7 @@
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.1592,
+          "rawKelly": 0.1591,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -30794,16 +30971,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.3041,
-      "pX": 0.3321,
-      "p2": 0.3638,
+      "p1": 0.304,
+      "pX": 0.332,
+      "p2": 0.364,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -31371,12 +31548,12 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.1108,
+          "rawKelly": 0.1107,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.1018,
+          "rawKelly": 0.1017,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
@@ -31459,16 +31636,16 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.4117,
-      "pX": 0.3366,
-      "p2": 0.2517,
+      "p1": 0.412,
+      "pX": 0.3365,
+      "p2": 0.2515,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -31615,7 +31792,7 @@
         "home": {
           "odd": 1.625,
           "implied": 0.615,
-          "edge": -0.204,
+          "edge": -0.203,
           "value": false
         },
         "draw": {
@@ -32065,12 +32242,12 @@
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.1078,
+          "rawKelly": 0.1077,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.0942,
+          "rawKelly": 0.0939,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -32149,16 +32326,16 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.6576,
-      "pX": 0.2063,
-      "p2": 0.1361,
+      "p1": 0.6583,
+      "pX": 0.2059,
+      "p2": 0.1357,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -32317,7 +32494,7 @@
         "away": {
           "odd": 26.0,
           "implied": 0.038,
-          "edge": 0.098,
+          "edge": 0.097,
           "value": true
         }
       },
@@ -32805,12 +32982,12 @@
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.1129,
+          "rawKelly": 0.1125,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.1015,
+          "rawKelly": 0.1011,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -32889,16 +33066,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.3866,
-      "pX": 0.3449,
-      "p2": 0.2685,
+      "p1": 0.3868,
+      "pX": 0.345,
+      "p2": 0.2683,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -33045,7 +33222,7 @@
         "home": {
           "odd": 2.15,
           "implied": 0.465,
-          "edge": -0.079,
+          "edge": -0.078,
           "value": false
         },
         "draw": {
@@ -33575,7 +33752,7 @@
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.0929,
+          "rawKelly": 0.0931,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
@@ -33658,16 +33835,16 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.2538,
-      "pX": 0.2876,
-      "p2": 0.4586,
+      "p1": 0.2537,
+      "pX": 0.2874,
+      "p2": 0.4589,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -34224,12 +34401,12 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.1294,
+          "rawKelly": 0.1293,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.0781,
+          "rawKelly": 0.0778,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
@@ -34312,16 +34489,16 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.6191,
-      "pX": 0.2319,
-      "p2": 0.149,
+      "p1": 0.6199,
+      "pX": 0.2316,
+      "p2": 0.1485,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -34468,7 +34645,7 @@
         "home": {
           "odd": 1.235,
           "implied": 0.81,
-          "edge": -0.191,
+          "edge": -0.19,
           "value": false
         },
         "draw": {
@@ -34480,7 +34657,7 @@
         "away": {
           "odd": 12.0,
           "implied": 0.083,
-          "edge": 0.066,
+          "edge": 0.065,
           "value": true
         }
       },
@@ -34948,12 +35125,12 @@
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.0922,
+          "rawKelly": 0.0919,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.0716,
+          "rawKelly": 0.0711,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -35032,16 +35209,16 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.5268,
-      "pX": 0.2852,
-      "p2": 0.188,
+      "p1": 0.5273,
+      "pX": 0.285,
+      "p2": 0.1878,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -35688,12 +35865,12 @@
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.1264,
+          "rawKelly": 0.1261,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.0925,
+          "rawKelly": 0.0922,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -35772,16 +35949,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.4224,
+      "p1": 0.4226,
       "pX": 0.3326,
-      "p2": 0.245,
+      "p2": 0.2448,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -36349,7 +36526,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.3261,
+          "rawKelly": 0.3264,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -36436,16 +36613,16 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.2329,
-      "pX": 0.1521,
-      "p2": 0.615,
+      "p1": 0.2326,
+      "pX": 0.1504,
+      "p2": 0.617,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.168,
           0.195,
@@ -36968,9 +37145,9 @@
         ]
       },
       "upsetIndex": {
-        "index": 53,
+        "index": 52,
         "label": "modéré",
-        "dampener": 0.985,
+        "dampener": 0.987,
         "favOverperf": true,
         "dogLowBlock": true
       },
@@ -37082,11 +37259,11 @@
       "p2": 0.3272,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -37871,16 +38048,16 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.4073,
+      "p1": 0.4076,
       "pX": 0.3389,
-      "p2": 0.2537,
+      "p2": 0.2535,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -38435,7 +38612,7 @@
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.1044,
+          "rawKelly": 0.1042,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -38516,14 +38693,14 @@
     "prediction": {
       "p1": 0.3261,
       "pX": 0.3584,
-      "p2": 0.3155,
+      "p2": 0.3154,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -39289,16 +39466,16 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.6174,
-      "pX": 0.2355,
-      "p2": 0.1472,
+      "p1": 0.6181,
+      "pX": 0.2351,
+      "p2": 0.1468,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -39451,7 +39628,7 @@
         "draw": {
           "odd": 5.75,
           "implied": 0.174,
-          "edge": 0.062,
+          "edge": 0.061,
           "value": true
         },
         "away": {
@@ -39943,12 +40120,12 @@
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.0746,
+          "rawKelly": 0.0741,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.0574,
+          "rawKelly": 0.057,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -40032,11 +40209,11 @@
       "p2": 0.3262,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -40699,15 +40876,15 @@
     "confidence": 0.85,
     "prediction": {
       "p1": 0.3243,
-      "pX": 0.3665,
-      "p2": 0.3092,
+      "pX": 0.3666,
+      "p2": 0.3091,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -40866,7 +41043,7 @@
         "away": {
           "odd": 1.606,
           "implied": 0.623,
-          "edge": -0.313,
+          "edge": -0.314,
           "value": false
         }
       },
@@ -41324,7 +41501,7 @@
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.1621,
+          "rawKelly": 0.1623,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
@@ -41361,27 +41538,27 @@
     "analysis": null,
     "home": "Curaçao",
     "away": "Ivory Coast",
-    "homeGF": 1.5,
+    "homeGF": 1.2,
     "awayGF": 1.8,
-    "homeGA": 3.5,
+    "homeGA": 2.8,
     "awayGA": 0.6,
-    "homeXG": 1.13,
-    "awayXG": 1.56,
+    "homeXG": 1.07,
+    "awayXG": 1.49,
     "homeForm": 8,
     "awayForm": 8,
-    "homeElo": 1400.0,
+    "homeElo": 1402.1,
     "awayElo": 1400.0,
-    "homeForm5": "LWLLL",
+    "homeForm5": "DLWLL",
     "awayForm5": "LWWWW",
     "homeFormDetail": {
-      "pts10": 14,
+      "pts10": 12,
       "played": 10,
-      "gf_avg": 2.1,
+      "gf_avg": 1.9,
       "ga_avg": 2.0,
-      "last5": "LWLLL",
-      "form_index": 0.467,
-      "cdmGames": 4,
-      "source": "réelle (10 derniers · 4 de la CDM 2026)"
+      "last5": "DLWLL",
+      "form_index": 0.4,
+      "cdmGames": 5,
+      "source": "réelle (10 derniers · 5 de la CDM 2026)"
     },
     "awayFormDetail": {
       "pts10": 24,
@@ -41407,74 +41584,74 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.2628,
-      "pX": 0.2825,
-      "p2": 0.4547,
+      "p1": 0.25,
+      "pX": 0.2685,
+      "p2": 0.4816,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
-          0.409,
-          0.293,
-          0.298
+          0.412,
+          0.292,
+          0.296
         ],
         "grid": [
-          0.265,
-          0.274,
-          0.462
+          0.261,
+          0.282,
+          0.457
         ],
         "form": [
-          0.212,
-          0.154,
-          0.633
+          0.182,
+          0.111,
+          0.707
         ]
       },
-      "over25": 0.6244,
-      "btts": 0.6033,
+      "over25": 0.594,
+      "btts": 0.5802,
       "marketCalib": {
         "bttsShift": 0.0167,
         "overShift": 0.0829,
-        "bttsRaw": 0.5866,
+        "bttsRaw": 0.5635,
         "n": 236
       },
-      "lamHome": 1.13,
-      "lamAway": 1.56,
+      "lamHome": 1.07,
+      "lamAway": 1.49,
       "topScore": [
         1,
         1
       ],
       "doubleChance": {
-        "1X": 0.5385,
-        "12": 0.7262,
-        "X2": 0.7353
+        "1X": 0.5428,
+        "12": 0.7181,
+        "X2": 0.7393
       },
       "drawNoBet": {
-        "home": 0.3645,
-        "away": 0.6355
+        "home": 0.3632,
+        "away": 0.6368
       },
       "topScores": [
         {
           "score": "1-1",
-          "p": 0.1261
-        },
-        {
-          "score": "1-2",
-          "p": 0.094
+          "p": 0.1306
         },
         {
           "score": "0-1",
-          "p": 0.0858
+          "p": 0.0939
+        },
+        {
+          "score": "1-2",
+          "p": 0.0934
         }
       ],
       "scenarios": [
         {
           "id": "closed",
           "title": "Match fermé",
-          "p": 0.2176,
+          "p": 0.2398,
           "scores": [
             "0-1",
             "0-0"
@@ -41484,7 +41661,7 @@
         {
           "id": "tight",
           "title": "Match serré",
-          "p": 0.2409,
+          "p": 0.2491,
           "scores": [
             "1-1",
             "0-2"
@@ -41494,7 +41671,7 @@
         {
           "id": "open",
           "title": "Match ouvert / spectacle",
-          "p": 0.5415,
+          "p": 0.5111,
           "scores": [
             "1-2",
             "2-1"
@@ -41504,7 +41681,7 @@
         {
           "id": "blowout",
           "title": "Large écart",
-          "p": 0.2347,
+          "p": 0.2183,
           "scores": [
             "1-3",
             "0-3"
@@ -41515,45 +41692,45 @@
       ],
       "overUnder": {
         "0.5": {
-          "over": 0.9273,
-          "under": 0.0727
+          "over": 0.9184,
+          "under": 0.0816
         },
         "1.5": {
-          "over": 0.7824,
-          "under": 0.2176
+          "over": 0.7602,
+          "under": 0.2398
         },
         "2.5": {
-          "over": 0.5415,
-          "under": 0.4585
+          "over": 0.5111,
+          "under": 0.4889
         },
         "3.5": {
-          "over": 0.3254,
-          "under": 0.6746
+          "over": 0.2975,
+          "under": 0.7025
         }
       },
-      "totalXg": 2.69,
+      "totalXg": 2.56,
       "bttsConf": {
         "pick": "Oui",
-        "score": 0.6,
-        "label": "élevée"
+        "score": 0.58,
+        "label": "moyenne"
       },
       "halftime": {
-        "lamHome": 0.58,
-        "lamAway": 0.69,
+        "lamHome": 0.55,
+        "lamAway": 0.66,
         "topScore": [
           0,
           0
         ],
-        "p1": 0.2539,
-        "pX": 0.4258,
-        "p2": 0.3203,
+        "p1": 0.2477,
+        "pX": 0.4371,
+        "p2": 0.3152,
         "ou05": {
-          "over": 0.7355,
-          "under": 0.2645
+          "over": 0.7197,
+          "under": 0.2803
         },
         "ou15": {
-          "over": 0.4315,
-          "under": 0.5685
+          "over": 0.411,
+          "under": 0.589
         },
         "shareHome": 0.517,
         "shareAway": 0.443,
@@ -41563,81 +41740,81 @@
         "home": {
           "odd": 17.0,
           "implied": 0.059,
-          "edge": 0.204,
+          "edge": 0.191,
           "value": true
         },
         "draw": {
           "odd": 8.5,
           "implied": 0.118,
-          "edge": 0.165,
+          "edge": 0.151,
           "value": true
         },
         "away": {
           "odd": 1.154,
           "implied": 0.867,
-          "edge": -0.412,
+          "edge": -0.385,
           "value": false
         }
       },
       "corners": {
-        "exp_corners": 7.7,
-        "over": 0.5017,
-        "under": 0.4983,
+        "exp_corners": 7.6,
+        "over": 0.4882,
+        "under": 0.5118,
         "line": 7.5,
-        "home": 3.7,
+        "home": 3.6,
         "away": 4.0,
         "lines": {
           "5.5": {
-            "over": 0.7777,
-            "under": 0.2223
+            "over": 0.7681,
+            "under": 0.2319
           },
           "6.5": {
-            "over": 0.6461,
-            "under": 0.3539
+            "over": 0.6338,
+            "under": 0.3662
           },
           "7.5": {
-            "over": 0.5017,
-            "under": 0.4983
+            "over": 0.4882,
+            "under": 0.5118
           },
           "8.5": {
-            "over": 0.363,
-            "under": 0.637
+            "over": 0.3502,
+            "under": 0.6498
           },
           "9.5": {
-            "over": 0.2446,
-            "under": 0.7554
+            "over": 0.2338,
+            "under": 0.7662
           }
         },
         "src": "FootyStats ×0.58 (calibré 35 matchs)"
       },
       "cards": {
-        "exp_cards": 3.0,
-        "over": 0.3565,
-        "under": 0.6435,
+        "exp_cards": 3.1,
+        "over": 0.3677,
+        "under": 0.6323,
         "line": 3.5,
         "home": 1.6,
         "away": 1.5,
         "lines": {
           "2.5": {
-            "over": 0.5805,
-            "under": 0.4195
+            "over": 0.5916,
+            "under": 0.4084
           },
           "3.5": {
-            "over": 0.3565,
-            "under": 0.6435
+            "over": 0.3677,
+            "under": 0.6323
           },
           "4.5": {
-            "over": 0.1875,
-            "under": 0.8125
+            "over": 0.1961,
+            "under": 0.8039
           }
         },
-        "redProb": 0.151,
+        "redProb": 0.153,
         "src": "FootyStats (réel)"
       },
       "shots": {
-        "expShots": 25.8,
-        "expShotsOn": 8.9,
-        "home": 11.6,
+        "expShots": 25.7,
+        "expShotsOn": 8.8,
+        "home": 11.4,
         "away": 14.2,
         "homeOn": 3.7,
         "awayOn": 5.2,
@@ -41647,46 +41824,46 @@
         "lineOn": 8.5,
         "lines": {
           "21.5": {
-            "over": 0.7971,
-            "under": 0.2029
+            "over": 0.792,
+            "under": 0.208
           },
           "23.5": {
-            "over": 0.6626,
-            "under": 0.3374
+            "over": 0.6559,
+            "under": 0.3441
           },
           "25.5": {
-            "over": 0.5078,
-            "under": 0.4922
+            "over": 0.5004,
+            "under": 0.4996
           },
           "27.5": {
-            "over": 0.3555,
-            "under": 0.6445
+            "over": 0.3485,
+            "under": 0.6515
           },
           "29.5": {
-            "over": 0.2263,
-            "under": 0.7737
+            "over": 0.2206,
+            "under": 0.7794
           }
         },
         "linesOn": {
           "6.5": {
-            "over": 0.7832,
-            "under": 0.2168
+            "over": 0.7784,
+            "under": 0.2216
           },
           "7.5": {
-            "over": 0.6633,
-            "under": 0.3367
+            "over": 0.6572,
+            "under": 0.3428
           },
           "8.5": {
-            "over": 0.5301,
-            "under": 0.4699
+            "over": 0.5233,
+            "under": 0.4767
           },
           "9.5": {
-            "over": 0.3984,
-            "under": 0.6016
+            "over": 0.3917,
+            "under": 0.6083
           },
           "10.5": {
-            "over": 0.2813,
-            "under": 0.7187
+            "over": 0.2754,
+            "under": 0.7246
           }
         },
         "real": false,
@@ -41708,7 +41885,33 @@
       "referee": null,
       "riskPlayers": {
         "home": {
-          "real": [],
+          "real": [
+            {
+              "name": "Juriën Gaari",
+              "pos": "CD-R",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Gervane Kastaneer",
+              "pos": "SUB",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Leandro Bacuna",
+              "pos": "CM-L",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Juninho Bacuna",
+              "pos": "LM",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Livano Comenencia",
+              "pos": "CM-R",
+              "card": "🟨 jaune"
+            }
+          ],
           "profiles": [
             {
               "role": "Défenseur central",
@@ -41762,37 +41965,37 @@
         "home": {
           "scorers": [
             {
-              "name": "Sontje Hansen",
+              "name": "Jürgen Locadia",
               "poste": "FW",
-              "p": 0.1458,
+              "p": 0.1494,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
-              "name": "Jürgen Locadia",
-              "poste": "FW",
-              "p": 0.1313,
+              "name": "Juninho Bacuna",
+              "poste": "MF",
+              "p": 0.0713,
               "real_goals": 0.0,
-              "why": "présence offensive selon le poste"
+              "why": "volume de tirs élevé (3)"
             },
             {
               "name": "Livano Comenencia",
               "poste": "MF",
-              "p": 0.0881,
-              "real_goals": 1.0,
-              "why": "déjà 1 but(s) dans le tournoi"
-            },
-            {
-              "name": "Jearl Margaritha",
-              "poste": "FW",
-              "p": 0.0685,
+              "p": 0.0713,
               "real_goals": 0.0,
-              "why": "présence offensive selon le poste"
+              "why": "volume de tirs élevé (3)"
             },
             {
               "name": "Leandro Bacuna",
               "poste": "MF",
-              "p": 0.0636,
+              "p": 0.0652,
+              "real_goals": 0.0,
+              "why": "présence offensive selon le poste"
+            },
+            {
+              "name": "Jeremy Antonisse",
+              "poste": "FW",
+              "p": 0.0629,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             }
@@ -41801,28 +42004,28 @@
             {
               "name": "Juninho Bacuna",
               "poste": "MF",
-              "p": 0.0688,
+              "p": 0.0671,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Livano Comenencia",
               "poste": "MF",
-              "p": 0.0688,
+              "p": 0.0671,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Leandro Bacuna",
               "poste": "MF",
-              "p": 0.0688,
+              "p": 0.0671,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Tahith Chong",
               "poste": "MF",
-              "p": 0.0688,
+              "p": 0.0671,
               "real_assists": 0.0,
               "why": "création selon le poste"
             }
@@ -41830,15 +42033,15 @@
           "creator": {
             "name": "Juninho Bacuna",
             "poste": "MF",
-            "p": 0.0688,
+            "p": 0.0671,
             "real_assists": 0.0,
             "why": "création selon le poste"
           },
           "keeper": {
             "name": "Eloy Room",
-            "expSotFaced": 4.9,
+            "expSotFaced": 4.7,
             "fromLineup": false,
-            "why": "Subit une pression offensive adverse de ~1.56 xG → environ 4.9 tirs cadrés à gérer."
+            "why": "Subit une pression offensive adverse de ~1.49 xG → environ 4.7 tirs cadrés à gérer."
           },
           "benchImpact": [],
           "note": "Probabilités MODÈLE (poste réel + production réelle des matchs joués), pas des certitudes. Se précisent à mesure que les équipes jouent."
@@ -41848,35 +42051,35 @@
             {
               "name": "Ange-Yoan Bonny",
               "poste": "FW",
-              "p": 0.183,
+              "p": 0.1755,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Yan Diomande",
               "poste": "FW",
-              "p": 0.183,
+              "p": 0.1755,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Amad Diallo",
               "poste": "FW",
-              "p": 0.183,
+              "p": 0.1755,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Franck Kessié",
               "poste": "MF",
-              "p": 0.1115,
+              "p": 0.1067,
               "real_goals": 1.0,
               "why": "déjà 1 but(s) dans le tournoi"
             },
             {
               "name": "Simon Adingra",
               "poste": "FW",
-              "p": 0.078,
+              "p": 0.0746,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             }
@@ -41885,28 +42088,28 @@
             {
               "name": "Franck Kessié",
               "poste": "MF",
-              "p": 0.0971,
+              "p": 0.093,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Ibrahim Sangaré",
               "poste": "MF",
-              "p": 0.0971,
+              "p": 0.093,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Christ Inao Oulaï",
               "poste": "MF",
-              "p": 0.0971,
+              "p": 0.093,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Ange-Yoan Bonny",
               "poste": "FW",
-              "p": 0.0838,
+              "p": 0.0802,
               "real_assists": 0.0,
               "why": "création selon le poste"
             }
@@ -41914,15 +42117,15 @@
           "creator": {
             "name": "Franck Kessié",
             "poste": "MF",
-            "p": 0.0971,
+            "p": 0.093,
             "real_assists": 0.0,
             "why": "création selon le poste"
           },
           "keeper": {
             "name": "Yahia Fofana",
-            "expSotFaced": 3.5,
+            "expSotFaced": 3.3,
             "fromLineup": false,
-            "why": "Subit une pression offensive adverse de ~1.13 xG → environ 3.5 tirs cadrés à gérer."
+            "why": "Subit une pression offensive adverse de ~1.07 xG → environ 3.3 tirs cadrés à gérer."
           },
           "benchImpact": [],
           "note": "Probabilités MODÈLE (poste réel + production réelle des matchs joués), pas des certitudes. Se précisent à mesure que les équipes jouent."
@@ -41956,9 +42159,9 @@
         ]
       },
       "upsetIndex": {
-        "index": 60,
+        "index": 58,
         "label": "élevé",
-        "dampener": 0.973,
+        "dampener": 0.976,
         "favOverperf": true,
         "dogLowBlock": false
       },
@@ -41989,12 +42192,12 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.2167,
+          "rawKelly": 0.2031,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.1868,
+          "rawKelly": 0.171,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
@@ -42031,27 +42234,27 @@
     "analysis": null,
     "home": "Ecuador",
     "away": "Germany",
-    "homeGF": 1.25,
+    "homeGF": 1.0,
     "awayGF": 3.4,
-    "homeGA": 0.75,
+    "homeGA": 0.6,
     "awayGA": 1.4,
-    "homeXG": 1.21,
-    "awayXG": 1.55,
+    "homeXG": 1.2,
+    "awayXG": 1.37,
     "homeForm": 8,
     "awayForm": 8,
-    "homeElo": 1400.0,
+    "homeElo": 1397.9,
     "awayElo": 1400.0,
-    "homeForm5": "LWDDW",
+    "homeForm5": "DLWDD",
     "awayForm5": "WWWWW",
     "homeFormDetail": {
       "pts10": 17,
       "played": 10,
       "gf_avg": 1.3,
       "ga_avg": 0.5,
-      "last5": "LWDDW",
+      "last5": "DLWDD",
       "form_index": 0.567,
-      "cdmGames": 4,
-      "source": "réelle (10 derniers · 4 de la CDM 2026)"
+      "cdmGames": 5,
+      "source": "réelle (10 derniers · 5 de la CDM 2026)"
     },
     "awayFormDetail": {
       "pts10": 30,
@@ -42077,25 +42280,25 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.2548,
-      "pX": 0.2641,
-      "p2": 0.481,
+      "p1": 0.2675,
+      "pX": 0.2728,
+      "p2": 0.4596,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
-          0.409,
+          0.407,
           0.293,
-          0.298
+          0.3
         ],
         "grid": [
-          0.287,
-          0.273,
-          0.441
+          0.316,
+          0.288,
+          0.396
         ],
         "form": [
           0.167,
@@ -42103,48 +42306,48 @@
           0.741
         ]
       },
-      "over25": 0.6403,
-      "btts": 0.6197,
+      "over25": 0.5964,
+      "btts": 0.5916,
       "marketCalib": {
         "bttsShift": 0.0167,
         "overShift": 0.0829,
-        "bttsRaw": 0.603,
+        "bttsRaw": 0.5749,
         "n": 236
       },
-      "lamHome": 1.21,
-      "lamAway": 1.55,
+      "lamHome": 1.2,
+      "lamAway": 1.37,
       "topScore": [
         1,
         1
       ],
       "doubleChance": {
-        "1X": 0.5591,
-        "12": 0.7275,
-        "X2": 0.7134
+        "1X": 0.6039,
+        "12": 0.7123,
+        "X2": 0.6838
       },
       "drawNoBet": {
-        "home": 0.394,
-        "away": 0.606
+        "home": 0.4439,
+        "away": 0.5561
       },
       "topScores": [
         {
           "score": "1-1",
-          "p": 0.1247
+          "p": 0.1331
         },
         {
           "score": "1-2",
-          "p": 0.0921
+          "p": 0.0874
         },
         {
           "score": "0-1",
-          "p": 0.0788
+          "p": 0.0843
         }
       ],
       "scenarios": [
         {
           "id": "closed",
           "title": "Match fermé",
-          "p": 0.2063,
+          "p": 0.2377,
           "scores": [
             "0-1",
             "0-0"
@@ -42154,7 +42357,7 @@
         {
           "id": "tight",
           "title": "Match serré",
-          "p": 0.2363,
+          "p": 0.2488,
           "scores": [
             "1-1",
             "0-2"
@@ -42164,7 +42367,7 @@
         {
           "id": "open",
           "title": "Match ouvert / spectacle",
-          "p": 0.5574,
+          "p": 0.5135,
           "scores": [
             "1-2",
             "2-1"
@@ -42174,10 +42377,10 @@
         {
           "id": "blowout",
           "title": "Large écart",
-          "p": 0.239,
+          "p": 0.2102,
           "scores": [
             "1-3",
-            "0-3"
+            "3-1"
           ],
           "note": "Domination nette d'une équipe (écart ≥ 2 buts) · ANGLE, inclus dans « spectacle »",
           "angle": true
@@ -42185,45 +42388,45 @@
       ],
       "overUnder": {
         "0.5": {
-          "over": 0.9316,
-          "under": 0.0684
+          "over": 0.9189,
+          "under": 0.0811
         },
         "1.5": {
-          "over": 0.7937,
-          "under": 0.2063
+          "over": 0.7623,
+          "under": 0.2377
         },
         "2.5": {
-          "over": 0.5574,
-          "under": 0.4426
+          "over": 0.5135,
+          "under": 0.4865
         },
         "3.5": {
-          "over": 0.3406,
-          "under": 0.6594
+          "over": 0.2996,
+          "under": 0.7004
         }
       },
-      "totalXg": 2.76,
+      "totalXg": 2.57,
       "bttsConf": {
         "pick": "Oui",
-        "score": 0.62,
-        "label": "élevée"
+        "score": 0.59,
+        "label": "moyenne"
       },
       "halftime": {
-        "lamHome": 0.51,
-        "lamAway": 0.56,
+        "lamHome": 0.5,
+        "lamAway": 0.5,
         "topScore": [
           0,
           0
         ],
-        "p1": 0.2481,
-        "pX": 0.4666,
-        "p2": 0.2852,
+        "p1": 0.2601,
+        "pX": 0.4831,
+        "p2": 0.2568,
         "ou05": {
-          "over": 0.6801,
-          "under": 0.3199
+          "over": 0.6582,
+          "under": 0.3418
         },
         "ou15": {
-          "over": 0.364,
-          "under": 0.636
+          "over": 0.3402,
+          "under": 0.6598
         },
         "shareHome": 0.42,
         "shareAway": 0.364,
@@ -42233,144 +42436,144 @@
         "home": {
           "odd": 4.8,
           "implied": 0.208,
-          "edge": 0.046,
+          "edge": 0.059,
           "value": true
         },
         "draw": {
           "odd": 3.85,
           "implied": 0.26,
-          "edge": 0.004,
+          "edge": 0.013,
           "value": false
         },
         "away": {
           "odd": 1.741,
           "implied": 0.574,
-          "edge": -0.093,
+          "edge": -0.115,
           "value": false
         }
       },
       "corners": {
-        "exp_corners": 8.0,
-        "over": 0.4143,
-        "under": 0.5857,
-        "line": 8.5,
-        "home": 3.8,
+        "exp_corners": 7.9,
+        "over": 0.54,
+        "under": 0.46,
+        "line": 7.5,
+        "home": 3.7,
         "away": 4.3,
         "lines": {
+          "5.5": {
+            "over": 0.8041,
+            "under": 0.1959
+          },
           "6.5": {
-            "over": 0.6926,
-            "under": 0.3074
+            "over": 0.6805,
+            "under": 0.3195
           },
           "7.5": {
-            "over": 0.5539,
-            "under": 0.4461
+            "over": 0.54,
+            "under": 0.46
           },
           "8.5": {
-            "over": 0.4143,
-            "under": 0.5857
+            "over": 0.4004,
+            "under": 0.5996
           },
           "9.5": {
-            "over": 0.2895,
-            "under": 0.7105
-          },
-          "10.5": {
-            "over": 0.189,
-            "under": 0.811
+            "over": 0.2772,
+            "under": 0.7228
           }
         },
         "src": "FootyStats ×0.58 (calibré 35 matchs)"
       },
       "cards": {
         "exp_cards": 3.7,
-        "over": 0.5139,
-        "under": 0.4861,
+        "over": 0.5128,
+        "under": 0.4872,
         "line": 3.5,
         "home": 2.0,
         "away": 1.7,
         "lines": {
           "2.5": {
-            "over": 0.7211,
-            "under": 0.2789
+            "over": 0.7202,
+            "under": 0.2798
           },
           "3.5": {
-            "over": 0.5139,
-            "under": 0.4861
+            "over": 0.5128,
+            "under": 0.4872
           },
           "4.5": {
-            "over": 0.3203,
-            "under": 0.6797
+            "over": 0.3192,
+            "under": 0.6808
           }
         },
         "redProb": 0.187,
         "src": "FootyStats (réel)"
       },
       "shots": {
-        "expShots": 26.6,
-        "expShotsOn": 8.5,
-        "home": 11.7,
-        "away": 14.9,
+        "expShots": 26.4,
+        "expShotsOn": 8.3,
+        "home": 11.9,
+        "away": 14.6,
         "homeOn": 3.3,
-        "awayOn": 5.2,
-        "homeAcc": 28,
+        "awayOn": 5.1,
+        "homeAcc": 27,
         "awayAcc": 35,
         "line": 26.5,
         "lineOn": 8.5,
         "lines": {
           "22.5": {
-            "over": 0.785,
-            "under": 0.215
+            "over": 0.7742,
+            "under": 0.2258
           },
           "24.5": {
-            "over": 0.6501,
-            "under": 0.3499
+            "over": 0.6364,
+            "under": 0.3636
           },
           "26.5": {
-            "over": 0.4972,
-            "under": 0.5028
+            "over": 0.4822,
+            "under": 0.5178
           },
           "28.5": {
-            "over": 0.3482,
-            "under": 0.6518
+            "over": 0.3343,
+            "under": 0.6657
           },
           "30.5": {
-            "over": 0.2223,
-            "under": 0.7777
+            "over": 0.2111,
+            "under": 0.7889
           }
         },
         "linesOn": {
           "6.5": {
-            "over": 0.744,
-            "under": 0.256
+            "over": 0.727,
+            "under": 0.273
           },
           "7.5": {
-            "over": 0.6146,
-            "under": 0.3854
+            "over": 0.5941,
+            "under": 0.4059
           },
           "8.5": {
-            "over": 0.4771,
-            "under": 0.5229
+            "over": 0.4556,
+            "under": 0.5444
           },
           "9.5": {
-            "over": 0.3472,
-            "under": 0.6528
+            "over": 0.3271,
+            "under": 0.6729
           },
           "10.5": {
-            "over": 0.2368,
-            "under": 0.7632
+            "over": 0.2198,
+            "under": 0.7802
           }
         },
         "real": false,
         "basis": {
           "dominance": [
-            0.94,
-            1.06
+            0.96,
+            1.04
           ],
           "possession": [
-            49,
-            51
+            50,
+            50
           ],
           "accuracy": [
-            28,
+            27,
             35
           ]
         }
@@ -42381,7 +42584,12 @@
           "real": [
             {
               "name": "Jackson Porozo",
-              "pos": "SUB",
+              "pos": null,
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Jordy Alcívar",
+              "pos": "SW",
               "card": "🟨 jaune"
             }
           ],
@@ -42422,83 +42630,83 @@
         "home": {
           "scorers": [
             {
-              "name": "John Yeboah",
-              "poste": "FW",
-              "p": 0.1774,
-              "real_goals": 0.0,
-              "why": "volume de tirs élevé (3)"
-            },
-            {
               "name": "Enner Valencia",
               "poste": "FW",
-              "p": 0.1486,
+              "p": 0.1979,
               "real_goals": 0.0,
-              "why": "présence offensive selon le poste"
+              "why": "volume de tirs élevé (7)"
             },
             {
               "name": "Gonzalo Plata",
               "poste": "FW",
-              "p": 0.1486,
+              "p": 0.1863,
               "real_goals": 0.0,
-              "why": "présence offensive selon le poste"
+              "why": "volume de tirs élevé (6)"
             },
             {
-              "name": "Alan Minda",
-              "poste": "MF",
-              "p": 0.0649,
+              "name": "John Yeboah",
+              "poste": "FW",
+              "p": 0.1504,
               "real_goals": 0.0,
-              "why": "présence offensive selon le poste"
+              "why": "volume de tirs élevé (3)"
             },
             {
               "name": "Kevin Rodríguez",
               "poste": "FW",
-              "p": 0.0626,
+              "p": 0.0767,
+              "real_goals": 0.0,
+              "why": "volume de tirs élevé (4)"
+            },
+            {
+              "name": "Nilson Angulo",
+              "poste": "FW",
+              "p": 0.0586,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             }
           ],
           "assisters": [
             {
-              "name": "Alan Minda",
+              "name": "Jordy Alcívar",
               "poste": "MF",
-              "p": 0.0712,
+              "p": 0.0706,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Pedro Vite",
               "poste": "MF",
-              "p": 0.0712,
+              "p": 0.0706,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Alan Franco",
               "poste": "MF",
-              "p": 0.0712,
+              "p": 0.0706,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Moisés Caicedo",
               "poste": "MF",
-              "p": 0.0712,
+              "p": 0.0706,
               "real_assists": 0.0,
               "why": "création selon le poste"
             }
           ],
           "creator": {
-            "name": "Alan Minda",
+            "name": "Jordy Alcívar",
             "poste": "MF",
-            "p": 0.0712,
+            "p": 0.0706,
             "real_assists": 0.0,
             "why": "création selon le poste"
           },
           "keeper": {
             "name": "Hernán Galíndez",
-            "expSotFaced": 4.8,
+            "expSotFaced": 4.3,
             "fromLineup": false,
-            "why": "Subit une pression offensive adverse de ~1.55 xG → environ 4.8 tirs cadrés à gérer."
+            "why": "Subit une pression offensive adverse de ~1.37 xG → environ 4.3 tirs cadrés à gérer."
           },
           "benchImpact": [],
           "note": "Probabilités MODÈLE (poste réel + production réelle des matchs joués), pas des certitudes. Se précisent à mesure que les équipes jouent."
@@ -42508,7 +42716,7 @@
             {
               "name": "Kai Havertz",
               "poste": "FW",
-              "p": 0.2703,
+              "p": 0.2431,
               "real_goals": 0.0,
               "why": "volume de tirs élevé (3)",
               "bio": {
@@ -42529,21 +42737,21 @@
             {
               "name": "Deniz Undav",
               "poste": "FW",
-              "p": 0.2181,
+              "p": 0.1955,
               "real_goals": 2.0,
               "why": "déjà 2 but(s) dans le tournoi · volume de tirs élevé (3)"
             },
             {
               "name": "Jamal Musiala",
               "poste": "MF",
-              "p": 0.1025,
+              "p": 0.0912,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Florian Wirtz",
               "poste": "MF",
-              "p": 0.1025,
+              "p": 0.0912,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste",
               "bio": {
@@ -42563,7 +42771,7 @@
             {
               "name": "Felix Nmecha",
               "poste": "MF",
-              "p": 0.1025,
+              "p": 0.0912,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             }
@@ -42572,21 +42780,21 @@
             {
               "name": "Felix Nmecha",
               "poste": "MF",
-              "p": 0.1479,
+              "p": 0.1319,
               "real_assists": 1.0,
               "why": "déjà 1 passe(s) déc."
             },
             {
               "name": "Jamal Musiala",
               "poste": "MF",
-              "p": 0.0952,
+              "p": 0.0846,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Florian Wirtz",
               "poste": "MF",
-              "p": 0.0952,
+              "p": 0.0846,
               "real_assists": 0.0,
               "why": "création selon le poste",
               "bio": {
@@ -42606,7 +42814,7 @@
             {
               "name": "Leroy Sané",
               "poste": "MF",
-              "p": 0.0952,
+              "p": 0.0846,
               "real_assists": 0.0,
               "why": "création selon le poste"
             }
@@ -42614,7 +42822,7 @@
           "creator": {
             "name": "Felix Nmecha",
             "poste": "MF",
-            "p": 0.1479,
+            "p": 0.1319,
             "real_assists": 1.0,
             "why": "déjà 1 passe(s) déc."
           },
@@ -42622,7 +42830,7 @@
             "name": "Manuel Neuer",
             "expSotFaced": 3.8,
             "fromLineup": false,
-            "why": "Subit une pression offensive adverse de ~1.21 xG → environ 3.8 tirs cadrés à gérer."
+            "why": "Subit une pression offensive adverse de ~1.2 xG → environ 3.8 tirs cadrés à gérer."
           },
           "benchImpact": [
             {
@@ -42657,11 +42865,11 @@
       },
       "mwi": {
         "home": 1.0,
-        "away": 1.0,
+        "away": 0.2,
         "stageStake": 0.9,
         "groupMatchday": 3,
         "statusHome": "alive",
-        "statusAway": "alive"
+        "statusAway": "qualified"
       },
       "meta": {
         "confidence": 1.0,
@@ -42671,9 +42879,9 @@
         ]
       },
       "upsetIndex": {
-        "index": 65,
+        "index": 67,
         "label": "élevé",
-        "dampener": 0.964,
+        "dampener": 0.96,
         "favOverperf": true,
         "dogLowBlock": true
       },
@@ -42706,13 +42914,13 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.0587,
+          "rawKelly": 0.0747,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
-          "kelly": 0.0059,
-          "rawKelly": 0.0059,
-          "note": "miser ~0.6% de la bankroll (Kelly×confiance, plafonné 5%)"
+          "kelly": 0.0176,
+          "rawKelly": 0.0176,
+          "note": "miser ~1.8% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
           "kelly": 0.0,
@@ -42794,16 +43002,16 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.5789,
-      "pX": 0.2317,
-      "p2": 0.1894,
+      "p1": 0.5796,
+      "pX": 0.2314,
+      "p2": 0.189,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -42962,7 +43170,7 @@
         "away": {
           "odd": 3.55,
           "implied": 0.282,
-          "edge": -0.092,
+          "edge": -0.093,
           "value": false
         }
       },
@@ -43442,7 +43650,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.1961,
+          "rawKelly": 0.1974,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -43529,16 +43737,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.219,
-      "pX": 0.2753,
-      "p2": 0.5056,
+      "p1": 0.2189,
+      "pX": 0.2751,
+      "p2": 0.506,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -43697,7 +43905,7 @@
         "away": {
           "odd": 1.345,
           "implied": 0.743,
-          "edge": -0.238,
+          "edge": -0.237,
           "value": false
         }
       },
@@ -44174,12 +44382,12 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.1214,
+          "rawKelly": 0.1213,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.1048,
+          "rawKelly": 0.1045,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
@@ -44262,16 +44470,16 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.6217,
-      "pX": 0.2237,
-      "p2": 0.1546,
+      "p1": 0.6224,
+      "pX": 0.2234,
+      "p2": 0.1542,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -44418,7 +44626,7 @@
         "home": {
           "odd": 2.75,
           "implied": 0.364,
-          "edge": 0.258,
+          "edge": 0.259,
           "value": true
         },
         "draw": {
@@ -44786,7 +44994,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.4055,
+          "rawKelly": 0.4066,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -44873,16 +45081,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.3311,
+      "p1": 0.3312,
       "pX": 0.3588,
-      "p2": 0.3101,
+      "p2": 0.31,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -45509,8 +45717,8 @@
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
-          "kelly": 0.0336,
-          "rawKelly": 0.0396,
+          "kelly": 0.0335,
+          "rawKelly": 0.0394,
           "note": "miser ~3.4% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -45589,16 +45797,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.3365,
-      "pX": 0.3378,
+      "p1": 0.3366,
+      "pX": 0.3377,
       "p2": 0.3257,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -45745,7 +45953,7 @@
         "home": {
           "odd": 4.2,
           "implied": 0.238,
-          "edge": 0.098,
+          "edge": 0.099,
           "value": true
         },
         "draw": {
@@ -46277,12 +46485,12 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.1292,
+          "rawKelly": 0.1293,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.097,
+          "rawKelly": 0.0969,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
@@ -46365,16 +46573,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.5628,
-      "pX": 0.261,
-      "p2": 0.1762,
+      "p1": 0.5634,
+      "pX": 0.2607,
+      "p2": 0.1759,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -46521,7 +46729,7 @@
         "home": {
           "odd": 1.392,
           "implied": 0.718,
-          "edge": -0.156,
+          "edge": -0.155,
           "value": false
         },
         "draw": {
@@ -46533,7 +46741,7 @@
         "away": {
           "odd": 8.5,
           "implied": 0.118,
-          "edge": 0.059,
+          "edge": 0.058,
           "value": true
         }
       },
@@ -47015,12 +47223,12 @@
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.0715,
+          "rawKelly": 0.0711,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.0664,
+          "rawKelly": 0.066,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -47100,15 +47308,15 @@
     "confidence": 1.0,
     "prediction": {
       "p1": 0.2942,
-      "pX": 0.364,
-      "p2": 0.3418,
+      "pX": 0.3639,
+      "p2": 0.3419,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -47725,7 +47933,7 @@
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.152,
+          "rawKelly": 0.1519,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
@@ -47808,16 +48016,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.41,
-      "pX": 0.3351,
-      "p2": 0.2549,
+      "p1": 0.4103,
+      "pX": 0.335,
+      "p2": 0.2547,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -47976,7 +48184,7 @@
         "away": {
           "odd": 2.65,
           "implied": 0.377,
-          "edge": -0.122,
+          "edge": -0.123,
           "value": false
         }
       },
@@ -48385,13 +48593,13 @@
       },
       "kelly": {
         "home": {
-          "kelly": 0.0142,
-          "rawKelly": 0.0167,
-          "note": "miser ~1.4% de la bankroll (Kelly×confiance, plafonné 5%)"
+          "kelly": 0.0146,
+          "rawKelly": 0.0172,
+          "note": "miser ~1.5% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.0933,
+          "rawKelly": 0.0932,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
@@ -48474,16 +48682,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.3336,
+      "p1": 0.3337,
       "pX": 0.352,
-      "p2": 0.3145,
+      "p2": 0.3143,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -48642,7 +48850,7 @@
         "away": {
           "odd": 3.65,
           "implied": 0.274,
-          "edge": 0.041,
+          "edge": 0.04,
           "value": true
         }
       },
@@ -49065,8 +49273,8 @@
           "note": "miser ~3.7% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
-          "kelly": 0.0474,
-          "rawKelly": 0.0558,
+          "kelly": 0.0472,
+          "rawKelly": 0.0555,
           "note": "miser ~4.7% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -49145,16 +49353,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.2273,
-      "pX": 0.247,
-      "p2": 0.5257,
+      "p1": 0.2271,
+      "pX": 0.2467,
+      "p2": 0.5262,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -49722,12 +49930,12 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.1414,
+          "rawKelly": 0.1412,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.0885,
+          "rawKelly": 0.0881,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
@@ -49810,16 +50018,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.3273,
+      "p1": 0.3274,
       "pX": 0.3624,
-      "p2": 0.3103,
+      "p2": 0.3102,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -50459,7 +50667,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.2432,
+          "rawKelly": 0.2433,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -50547,16 +50755,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.4379,
-      "pX": 0.3171,
-      "p2": 0.245,
+      "p1": 0.4382,
+      "pX": 0.317,
+      "p2": 0.2448,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -51131,12 +51339,12 @@
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.0856,
+          "rawKelly": 0.0855,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.0861,
+          "rawKelly": 0.0858,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -51216,15 +51424,15 @@
     "confidence": 1.0,
     "prediction": {
       "p1": 0.3363,
-      "pX": 0.3413,
+      "pX": 0.3412,
       "p2": 0.3225,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -51860,7 +52068,7 @@
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.0724,
+          "rawKelly": 0.0723,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
@@ -51942,16 +52150,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.8247,
-      "pX": 0.0999,
-      "p2": 0.0754,
+      "p1": 0.8256,
+      "pX": 0.0994,
+      "p2": 0.075,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.774,
           0.118,
@@ -52466,7 +52674,7 @@
         ]
       },
       "upsetIndex": {
-        "index": 33,
+        "index": 32,
         "label": "faible",
         "dampener": 1.0,
         "favOverperf": true,
@@ -52575,16 +52783,16 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.3091,
-      "pX": 0.3083,
-      "p2": 0.3825,
+      "p1": 0.3092,
+      "pX": 0.3082,
+      "p2": 0.3826,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -53147,7 +53355,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.0623,
+          "rawKelly": 0.0625,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -53234,16 +53442,16 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.1802,
-      "pX": 0.2224,
-      "p2": 0.5974,
+      "p1": 0.1799,
+      "pX": 0.2221,
+      "p2": 0.598,
       "ensemble": {
         "weights": {
-          "elo": 0.34842327474060353,
-          "grid": 0.3611347374253885,
-          "form": 0.290441987834008
+          "elo": 0.3487727809717456,
+          "grid": 0.3608215060341567,
+          "form": 0.2904057129940978
         },
-        "T": 0.722,
+        "T": 0.72,
         "elo": [
           0.409,
           0.293,
@@ -53390,7 +53598,7 @@
         "home": {
           "odd": 15.0,
           "implied": 0.067,
-          "edge": 0.114,
+          "edge": 0.113,
           "value": true
         },
         "draw": {
@@ -53402,7 +53610,7 @@
         "away": {
           "odd": 1.182,
           "implied": 0.846,
-          "edge": -0.249,
+          "edge": -0.248,
           "value": false
         }
       },
@@ -53830,12 +54038,12 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.1216,
+          "rawKelly": 0.1213,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.1028,
+          "rawKelly": 0.1024,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {

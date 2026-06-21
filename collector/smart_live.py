@@ -32,8 +32,11 @@ def _fmt(dt):
     return dt.strftime("%H:%M UTC") if dt else "—"
 
 
+last_stats_pull = 0
+
 def do_live_cycle():
     """Un cycle live : score+minute ESPN temps réel, met à jour Elo si match fini, predict."""
+    global last_stats_pull
     try:
         from collector import espn_live
         espn_live.poll_once(verbose=False)   # SOURCE PRINCIPALE : ESPN (score + minute live)
@@ -46,6 +49,30 @@ def do_live_cycle():
     pipeline.ingest(); pipeline.update()
     pipeline.predict()
     player_ingest.export_for_web()
+    
+    # Auto-pull detailed stats every 10 min if a finished match is missing them
+    if time.time() - last_stats_pull > 600:
+        try:
+            from collector.db import database as db
+            conn = db.init_db()
+            missing = conn.execute("SELECT id FROM matches WHERE status='FINISHED' AND home_xg IS NULL AND datetime(utc_date) > datetime('now', '-24 hours')").fetchone()
+            if missing:
+                print("   [smart_live] Match terminé sans stats détaillées détecté. Lancement de l'import Opta...")
+                from collector import espn_ingest, import_stats
+                espn_ingest.main()
+                import_stats.main()
+                pipeline.predict() # Refresh predictions with new stats
+        except Exception as e:
+            print(f"   [warn] échec import_stats : {e}")
+        finally:
+            last_stats_pull = time.time()
+            
+    # Always embed data into index.html so static files stay fresh
+    try:
+        from collector import embed
+        embed.main()
+    except Exception:
+        pass
 
 
 def status_once():

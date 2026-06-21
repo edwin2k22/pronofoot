@@ -2160,5 +2160,70 @@
    "Daniel Svensson"
   ],
   "source": "ESPN (compos réelles)"
+ },
+ "Ecuador|Curaçao": {
+  "home_formation": "3-1-4-2",
+  "home_xi": [
+   "Hernán Galíndez",
+   "Willian Pacho",
+   "Piero Hincapié",
+   "Alan Franco",
+   "Jordy Alcívar",
+   "Moisés Caicedo",
+   "Pedro Vite",
+   "Pervis Estupiñán",
+   "John Yeboah",
+   "Enner Valencia",
+   "Gonzalo Plata"
+  ],
+  "home_bench": [
+   "Jeremy Arévalo",
+   "Anthony Valencia",
+   "Jackson Porozo",
+   "Kevin Rodríguez",
+   "Yaimar Medina",
+   "Jordy Caicedo",
+   "Alan Minda",
+   "Félix Torres",
+   "Joel Ordóñez",
+   "Nilson Angulo",
+   "Gonzalo Valle",
+   "Ángelo Preciado",
+   "Denil Castillo",
+   "Moisés Ramírez",
+   "Kendry Páez"
+  ],
+  "away_formation": "5-4-1",
+  "away_xi": [
+   "Eloy Room",
+   "Armando Obispo",
+   "Sherel Floranus",
+   "Juriën Gaari",
+   "Deveron Fonville",
+   "Joshua Brenet",
+   "Leandro Bacuna",
+   "Livano Comenencia",
+   "Juninho Bacuna",
+   "Tahith Chong",
+   "Jürgen Locadia"
+  ],
+  "away_bench": [
+   "Trevor Doornbusch",
+   "Shurandy Sambo",
+   "Kenji Gorré",
+   "Riechedly Bazoer",
+   "Jeremy Antonisse",
+   "Ar'jany Martha",
+   "Jearl Margaritha",
+   "Kevin Felida",
+   "Tyrese Noslin",
+   "Brandley Kuwas",
+   "Godfried Roemeratoe",
+   "Roshon van Eijma",
+   "Gervane Kastaneer",
+   "Tyrick Bodak",
+   "Sontje Hansen"
+  ],
+  "source": "ESPN (compos réelles)"
  }
 }

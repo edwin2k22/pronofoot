@@ -2,26 +2,26 @@
   "reliability": {
     "byTier": {
       "lock": {
-        "won": 50,
-        "total": 59,
-        "pct": 85
+        "won": 49,
+        "total": 58,
+        "pct": 84
       },
       "strong": {
-        "won": 34,
-        "total": 47,
-        "pct": 72
+        "won": 38,
+        "total": 51,
+        "pct": 75
       },
       "value": {
-        "won": 11,
-        "total": 13,
-        "pct": 85
+        "won": 10,
+        "total": 12,
+        "pct": 83
       }
     },
     "byMarket": {
       "DC": {
-        "won": 26,
-        "total": 34,
-        "pct": 76
+        "won": 27,
+        "total": 35,
+        "pct": 77
       },
       "DNB": {
         "won": 20,
@@ -30,36 +30,36 @@
       },
       "1N2": {
         "won": 18,
-        "total": 34,
-        "pct": 53
+        "total": 35,
+        "pct": 51
       },
       "OU": {
-        "won": 21,
-        "total": 34,
-        "pct": 62
+        "won": 22,
+        "total": 35,
+        "pct": 63
       },
       "BTTS": {
-        "won": 23,
-        "total": 34,
-        "pct": 68
+        "won": 24,
+        "total": 35,
+        "pct": 69
       },
       "CORNERS": {
-        "won": 23,
-        "total": 34,
-        "pct": 68
+        "won": 24,
+        "total": 35,
+        "pct": 69
       },
       "CARTONS": {
-        "won": 30,
-        "total": 34,
-        "pct": 88
+        "won": 31,
+        "total": 35,
+        "pct": 89
       }
     },
     "overall": {
-      "won": 95,
-      "total": 119,
+      "won": 97,
+      "total": 121,
       "pct": 80
     },
-    "sampleMatches": 34
+    "sampleMatches": 35
   },
   "tiers": {
     "lock": 0.85,
@@ -67,30 +67,6 @@
     "value": 0.66
   },
   "picks": [
-    {
-      "home": "Ecuador",
-      "away": "Curaçao",
-      "date": "2026-06-20 19:00 UTC-5",
-      "id": null,
-      "market": "TIRS",
-      "label": "Moins de 29.5 tirs",
-      "prob": 0.8102,
-      "why": "",
-      "tier": "lock",
-      "tierReliability": 85
-    },
-    {
-      "home": "Ecuador",
-      "away": "Curaçao",
-      "date": "2026-06-20 19:00 UTC-5",
-      "id": null,
-      "market": "DNB",
-      "label": "Sans match nul : Ecuador",
-      "prob": 0.71,
-      "why": "remboursé si nul",
-      "tier": "lock",
-      "tierReliability": 85
-    },
     {
       "home": "Tunisia",
       "away": "Japan",
@@ -101,7 +77,7 @@
       "prob": 0.8027,
       "why": "",
       "tier": "lock",
-      "tierReliability": 85
+      "tierReliability": 84
     },
     {
       "home": "Tunisia",
@@ -113,7 +89,7 @@
       "prob": 0.7233,
       "why": "",
       "tier": "lock",
-      "tierReliability": 85
+      "tierReliability": 84
     },
     {
       "home": "Spain",
@@ -125,7 +101,7 @@
       "prob": 0.7963,
       "why": "",
       "tier": "lock",
-      "tierReliability": 85
+      "tierReliability": 84
     },
     {
       "home": "Spain",
@@ -137,7 +113,7 @@
       "prob": 0.6993,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 85
+      "tierReliability": 84
     },
     {
       "home": "Belgium",
@@ -149,7 +125,7 @@
       "prob": 0.8153,
       "why": "",
       "tier": "lock",
-      "tierReliability": 85
+      "tierReliability": 84
     },
     {
       "home": "Belgium",
@@ -161,7 +137,7 @@
       "prob": 0.815,
       "why": "",
       "tier": "lock",
-      "tierReliability": 85
+      "tierReliability": 84
     },
     {
       "home": "Uruguay",
@@ -173,7 +149,7 @@
       "prob": 0.717,
       "why": "",
       "tier": "lock",
-      "tierReliability": 85
+      "tierReliability": 84
     },
     {
       "home": "Uruguay",
@@ -185,7 +161,7 @@
       "prob": 0.7905,
       "why": "",
       "tier": "strong",
-      "tierReliability": 72
+      "tierReliability": 75
     },
     {
       "home": "New Zealand",
@@ -197,7 +173,7 @@
       "prob": 0.805,
       "why": "",
       "tier": "lock",
-      "tierReliability": 85
+      "tierReliability": 84
     },
     {
       "home": "New Zealand",
@@ -209,7 +185,7 @@
       "prob": 0.7338,
       "why": "",
       "tier": "lock",
-      "tierReliability": 85
+      "tierReliability": 84
     },
     {
       "home": "Argentina",
@@ -221,7 +197,7 @@
       "prob": 0.8181,
       "why": "",
       "tier": "lock",
-      "tierReliability": 85
+      "tierReliability": 84
     },
     {
       "home": "Argentina",
@@ -233,7 +209,7 @@
       "prob": 0.8161,
       "why": "",
       "tier": "lock",
-      "tierReliability": 85
+      "tierReliability": 84
     },
     {
       "home": "France",
@@ -245,7 +221,7 @@
       "prob": 0.8347,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 85
+      "tierReliability": 84
     },
     {
       "home": "France",
@@ -257,7 +233,7 @@
       "prob": 0.8073,
       "why": "",
       "tier": "lock",
-      "tierReliability": 85
+      "tierReliability": 84
     },
     {
       "home": "Norway",
@@ -269,7 +245,7 @@
       "prob": 0.821,
       "why": "",
       "tier": "lock",
-      "tierReliability": 85
+      "tierReliability": 84
     },
     {
       "home": "Norway",
@@ -281,7 +257,7 @@
       "prob": 0.8068,
       "why": "",
       "tier": "lock",
-      "tierReliability": 85
+      "tierReliability": 84
     },
     {
       "home": "Jordan",
@@ -293,7 +269,7 @@
       "prob": 0.8332,
       "why": "",
       "tier": "lock",
-      "tierReliability": 85
+      "tierReliability": 84
     },
     {
       "home": "Jordan",
@@ -305,8 +281,32 @@
       "prob": 0.7338,
       "why": "",
       "tier": "lock",
-      "tierReliability": 85
+      "tierReliability": 84
+    },
+    {
+      "home": "Portugal",
+      "away": "Uzbekistan",
+      "date": "2026-06-23 12:00 UTC-5",
+      "id": null,
+      "market": "TIRS",
+      "label": "Plus de 19.5 tirs",
+      "prob": 0.8144,
+      "why": "",
+      "tier": "lock",
+      "tierReliability": 84
+    },
+    {
+      "home": "Portugal",
+      "away": "Uzbekistan",
+      "date": "2026-06-23 12:00 UTC-5",
+      "id": null,
+      "market": "CARTONS",
+      "label": "Moins de 4.5 cartons",
+      "prob": 0.7727,
+      "why": "",
+      "tier": "lock",
+      "tierReliability": 84
     }
   ],
-  "lockCount": 94
+  "lockCount": 91
 }

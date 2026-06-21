@@ -241,26 +241,26 @@
       {
         "rank": 3,
         "team": "Ecuador",
-        "played": 1,
+        "played": 2,
         "win": 0,
-        "draw": 0,
+        "draw": 1,
         "loss": 1,
         "gf": 0,
         "ga": 1,
         "gd": -1,
-        "pts": 0
+        "pts": 1
       },
       {
         "rank": 4,
         "team": "Curaçao",
-        "played": 1,
+        "played": 2,
         "win": 0,
-        "draw": 0,
+        "draw": 1,
         "loss": 1,
         "gf": 1,
         "ga": 7,
         "gd": -6,
-        "pts": 0
+        "pts": 1
       }
     ]
   },
