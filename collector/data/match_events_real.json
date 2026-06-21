@@ -1911,5 +1911,620 @@
     "type": ""
    }
   ]
+ },
+ "Spain|Saudi Arabia": {
+  "goals": [
+   {
+    "minute": 10,
+    "team": "Spain",
+    "player": "Lamine Yamal",
+    "assist": "Mikel Oyarzabal",
+    "note": null
+   },
+   {
+    "minute": 21,
+    "team": "Spain",
+    "player": "Mikel Oyarzabal",
+    "assist": "Aymeric Laporte",
+    "note": null
+   },
+   {
+    "minute": 24,
+    "team": "Spain",
+    "player": "Mikel Oyarzabal",
+    "assist": "Dani Olmo",
+    "note": null
+   }
+  ],
+  "cards": [
+   {
+    "minute": 30,
+    "team": "Saudi Arabia",
+    "player": "Salem Al-Dawsari",
+    "type": "Yellow"
+   },
+   {
+    "minute": 60,
+    "team": "Saudi Arabia",
+    "player": "Mohamed Kanno",
+    "type": "Yellow"
+   }
+  ],
+  "commentary": [
+   {
+    "minute": 0,
+    "text": "Lineups are announced and players are warming up.",
+    "type": ""
+   },
+   {
+    "minute": 0,
+    "text": "First Half begins.",
+    "type": ""
+   },
+   {
+    "minute": 2,
+    "text": "Attempt blocked. Álex Baena (Spain) right footed shot from the left side of the box is blocked. Assisted by Pedro Porro.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 2,
+    "text": "Corner, Spain. Conceded by Saud Abdulhamid.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 4,
+    "text": "Attempt missed. Lamine Yamal (Spain) left footed shot from outside the box is high and wide to the left. Assisted by Pau Cubarsí.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 8,
+    "text": "Corner, Spain. Conceded by Abdullah Al Khaibari.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 8,
+    "text": "Attempt missed. Dani Olmo (Spain) right footed shot from outside the box is high and wide to the right. Assisted by Álex Baena following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 9,
+    "text": "Handball by Feras Al Brikan (Saudi Arabia).",
+    "type": "Handball"
+   },
+   {
+    "minute": 10,
+    "text": "Attempt missed. Pedro Porro (Spain) right footed shot from outside the box is too high. Assisted by Lamine Yamal.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 10,
+    "text": "Goal! Spain 1, Saudi Arabia 0. Lamine Yamal (Spain) right footed shot from the right side of the six yard box to the bottom right corner. Assisted by Mikel Oyarzabal with a cross following a fast break.",
+    "type": "Goal"
+   },
+   {
+    "minute": 13,
+    "text": "Attempt missed. Pedri (Spain) left footed shot from the left side of the box is too high.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 15,
+    "text": "Attempt missed. Álex Baena (Spain) right footed shot from outside the box is high and wide to the right. Assisted by Aymeric Laporte.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 16,
+    "text": "Musab Al Juwayr (Saudi Arabia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 16,
+    "text": "Foul by Álex Baena (Spain).",
+    "type": "Foul"
+   },
+   {
+    "minute": 17,
+    "text": "Attempt saved. Mikel Oyarzabal (Spain) right footed shot from outside the box is saved in the bottom left corner by Mohammed Al Owais (Saudi Arabia).",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 20,
+    "text": "Corner, Spain. Conceded by Ali Lajami.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 21,
+    "text": "Attempt missed. Dani Olmo (Spain) right footed shot from the right side of the box misses to the left following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 21,
+    "text": "Goal! Spain 2, Saudi Arabia 0. Mikel Oyarzabal (Spain) left footed shot from the left side of the six yard box to the bottom right corner. Assisted by Aymeric Laporte with a headed pass following a corner.",
+    "type": "Goal"
+   },
+   {
+    "minute": 24,
+    "text": "Goal! Spain 3, Saudi Arabia 0. Mikel Oyarzabal (Spain) left footed shot from very close range to the top right corner. Assisted by Dani Olmo with a headed pass.",
+    "type": "Goal"
+   },
+   {
+    "minute": 25,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 28,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 30,
+    "text": "Attempt missed. Lamine Yamal (Spain) left footed shot from outside the box is high and wide to the left. Assisted by Pedro Porro.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 30,
+    "text": "Salem Al Dawsari (Saudi Arabia) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 35,
+    "text": "Attempt missed. Abdulelah Al Amri (Saudi Arabia) right footed shot from more than 35 yards misses to the left. Assisted by Musab Al Juwayr following a fast break.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 36,
+    "text": "Mikel Oyarzabal (Spain) hits the bar with a left footed shot from a difficult angle and long range on the left.",
+    "type": "Shot Hit Woodwork"
+   },
+   {
+    "minute": 36,
+    "text": "Attempt saved. Lamine Yamal (Spain) left footed shot from outside the box is saved in the bottom left corner by Mohammed Al Owais (Saudi Arabia). Assisted by Rodri.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 37,
+    "text": "Attempt missed. Lamine Yamal (Spain) left footed shot from the right side of the box is high and wide to the left. Assisted by Pedro Porro.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 37,
+    "text": "Offside, Saudi Arabia. Musab Al Juwayr is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 41,
+    "text": "Nasser Al Dawsari (Saudi Arabia) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 41,
+    "text": "Foul by Dani Olmo (Spain).",
+    "type": "Foul"
+   },
+   {
+    "minute": 42,
+    "text": "Attempt missed. Mikel Oyarzabal (Spain) left footed shot from the left side of the box misses to the right.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 44,
+    "text": "Corner, Saudi Arabia. Conceded by Pau Cubarsí.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 46,
+    "text": "Fourth official has announced 5 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 45,
+    "text": "Attempt missed. Rodri (Spain) left footed shot from outside the box is high and wide to the left. Assisted by Álex Baena.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 45,
+    "text": "Corner, Spain. Conceded by Saud Abdulhamid.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 45,
+    "text": "Attempt blocked. Salem Al Dawsari (Saudi Arabia) right footed shot from outside the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 45,
+    "text": "Offside, Saudi Arabia. Musab Al Juwayr is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 45,
+    "text": "Salem Al Dawsari (Saudi Arabia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Foul by Mikel Oyarzabal (Spain).",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "First Half ends, Spain 3, Saudi Arabia 0.",
+    "type": "Halftime"
+   },
+   {
+    "minute": 45,
+    "text": "Substitution, Saudi Arabia. Mohamed Kanno replaces Abdullah Al Khaibari.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 45,
+    "text": "Substitution, Saudi Arabia. Abdullah Al Hamddan replaces Musab Al Juwayr.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 45,
+    "text": "Second Half begins Spain 3, Saudi Arabia 0.",
+    "type": ""
+   },
+   {
+    "minute": 45,
+    "text": "Substitution, Spain. Yéremy Pino replaces Lamine Yamal.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 45,
+    "text": "Substitution, Spain. Ferran Torres replaces Mikel Oyarzabal.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 46,
+    "text": "Offside, Saudi Arabia. Salem Al Dawsari is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 48,
+    "text": "Corner, Spain. Conceded by Saud Abdulhamid.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 49,
+    "text": "Attempt saved. Marc Cucurella (Spain) left footed shot from the right side of the six yard box is saved in the centre of the goal by Mohammed Al Owais (Saudi Arabia).",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 49,
+    "text": "Own Goal by Hassan Al Tambakti, Saudi Arabia. Spain 4, Saudi Arabia 0.",
+    "type": "Own Goal"
+   },
+   {
+    "minute": 53,
+    "text": "Attempt saved. Pedro Porro (Spain) right footed shot from the right side of the box is saved in the centre of the goal by Mohammed Al Owais (Saudi Arabia). Assisted by Pau Cubarsí with a through ball.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 53,
+    "text": "Attempt saved. Ferran Torres (Spain) header from the centre of the box is saved in the bottom left corner by Mohammed Al Owais (Saudi Arabia).",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 53,
+    "text": "Feras Al Brikan (Saudi Arabia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 53,
+    "text": "Foul by Marc Cucurella (Spain).",
+    "type": "Foul"
+   },
+   {
+    "minute": 54,
+    "text": "Salem Al Dawsari (Saudi Arabia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 54,
+    "text": "Foul by Pedro Porro (Spain).",
+    "type": "Foul"
+   },
+   {
+    "minute": 60,
+    "text": "Foul by Mohamed Kanno (Saudi Arabia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 60,
+    "text": "Rodri (Spain) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 60,
+    "text": "Mohamed Kanno (Saudi Arabia) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 60,
+    "text": "Delay in match because of an injury Rodri (Spain).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 60,
+    "text": "Substitution, Saudi Arabia. Mohammed Abu Al Shamat replaces Feras Al Brikan.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 60,
+    "text": "Substitution, Saudi Arabia. Alaa Al Hejji replaces Abdulelah Al Amri.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 61,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 61,
+    "text": "Substitution, Spain. Mikel Merino replaces Dani Olmo.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 61,
+    "text": "Substitution, Spain. Nico Williams replaces Álex Baena.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 62,
+    "text": "Moteb Al Harbi (Saudi Arabia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 62,
+    "text": "Foul by Yéremy Pino (Spain).",
+    "type": "Foul"
+   },
+   {
+    "minute": 62,
+    "text": "Ali Lajami (Saudi Arabia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 62,
+    "text": "Foul by Ferran Torres (Spain).",
+    "type": "Foul"
+   },
+   {
+    "minute": 65,
+    "text": "Attempt missed. Ferran Torres (Spain) right footed shot from the left side of the box is close, but misses to the right. Assisted by Mikel Merino with a through ball.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 67,
+    "text": "Corner, Spain. Conceded by Ali Lajami.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 68,
+    "text": "Offside, Spain. Rodri is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 68,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 70,
+    "text": "Substitution, Spain. Fabián Ruiz replaces Pedri.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 70,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 81,
+    "text": "Attempt saved. Abdullah Al Hamddan (Saudi Arabia) left footed shot from outside the box is saved in the bottom right corner by Unai Simón (Spain).",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 82,
+    "text": "Hassan Al Tambakti (Saudi Arabia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 82,
+    "text": "Foul by Yéremy Pino (Spain).",
+    "type": "Foul"
+   },
+   {
+    "minute": 83,
+    "text": "Mohammed Abu Al Shamat (Saudi Arabia) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 83,
+    "text": "Foul by Marc Cucurella (Spain).",
+    "type": "Foul"
+   },
+   {
+    "minute": 84,
+    "text": "Salem Al Dawsari (Saudi Arabia) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 84,
+    "text": "Foul by Aymeric Laporte (Spain).",
+    "type": "Foul"
+   },
+   {
+    "minute": 87,
+    "text": "Delay in match because of an injury Mohamed Kanno (Saudi Arabia).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 89,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 90,
+    "text": "Substitution, Saudi Arabia. Khalid Al Ghannam replaces Nasser Al Dawsari.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 91,
+    "text": "Fourth official has announced 6 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 90,
+    "text": "Offside, Spain. Ferran Torres is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 90,
+    "text": "GOAL OVERTURNED BY VAR: Ferran Torres (Spain) scores but the goal is ruled out after a VAR review.",
+    "type": "Deleted After Review"
+   },
+   {
+    "minute": 90,
+    "text": "VAR Decision: No Goal Spain 4-0 Saudi Arabia.",
+    "type": "VAR - Referee decision cancelled"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt blocked. Mikel Merino (Spain) left footed shot from the right side of the box is blocked. Assisted by Fabián Ruiz.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 90,
+    "text": "Second Half ends, Spain 4, Saudi Arabia 0.",
+    "type": "End Regular Time"
+   },
+   {
+    "minute": 0,
+    "text": "Match ends, Spain 4, Saudi Arabia 0.",
+    "type": ""
+   }
+  ],
+  "halftime": "3-0",
+  "motm": "—",
+  "note": ""
+ },
+ "Belgium|Iran": {
+  "goals": [],
+  "cards": [
+   {
+    "minute": 3,
+    "team": "Belgium",
+    "player": "Romelu Lukaku",
+    "type": "Yellow"
+   }
+  ],
+  "commentary": [
+   {
+    "minute": 0,
+    "text": "Lineups are announced and players are warming up.",
+    "type": ""
+   },
+   {
+    "minute": 0,
+    "text": "First Half begins.",
+    "type": ""
+   },
+   {
+    "minute": 2,
+    "text": "Corner, Belgium. Conceded by Ali Nemati.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 3,
+    "text": "Alireza Beiranvand (IR Iran) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 3,
+    "text": "Foul by Romelu Lukaku (Belgium).",
+    "type": "Foul"
+   },
+   {
+    "minute": 3,
+    "text": "Romelu Lukaku (Belgium) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 4,
+    "text": "Delay in match because of an injury Alireza Beiranvand (IR Iran).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 6,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 8,
+    "text": "Attempt missed. Kevin De Bruyne (Belgium) right footed shot from the left side of the box is high and wide to the right. Assisted by Leandro Trossard.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 9,
+    "text": "Attempt blocked. Kevin De Bruyne (Belgium) right footed shot from the centre of the box is blocked. Assisted by Leandro Trossard.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 9,
+    "text": "Attempt saved. Maxim De Cuyper (Belgium) right footed shot from the centre of the box is saved in the centre of the goal by Alireza Beiranvand (IR Iran).",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 10,
+    "text": "Attempt blocked. Romelu Lukaku (Belgium) left footed shot from the left side of the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 11,
+    "text": "Saleh Hardani (IR Iran) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 11,
+    "text": "Foul by Brandon Mechele (Belgium).",
+    "type": "Aerial"
+   },
+   {
+    "minute": 13,
+    "text": "Mehdi Taremi (IR Iran) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 13,
+    "text": "Foul by Nathan Ngoy (Belgium).",
+    "type": "Foul"
+   },
+   {
+    "minute": 14,
+    "text": "Attempt saved. Hossein Kanani (IR Iran) right footed shot from the centre of the box is saved in the bottom left corner by Thibaut Courtois (Belgium). Assisted by Mehdi Taremi with a headed pass.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 14,
+    "text": "Corner, IR Iran. Conceded by Thibaut Courtois.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 15,
+    "text": "Attempt missed. Saeid Ezatolahi (IR Iran) header from the right side of the six yard box is close, but misses to the right. Assisted by Ramin Rezaeian with a cross following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 15,
+    "text": "Offside, IR Iran. Mehdi Taremi is caught offside.",
+    "type": "Offside"
+   }
+  ],
+  "halftime": "0-0",
+  "motm": "—",
+  "note": ""
  }
 }
