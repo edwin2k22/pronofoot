@@ -27375,9 +27375,9 @@
   {
     "league": "CDM 2026 · Group E",
     "date": "2026-06-20 19:00 UTC-5",
-    "status": "SCHEDULED",
-    "liveScore": null,
-    "liveClock": null,
+    "status": "LIVE",
+    "liveScore": "0-0",
+    "liveClock": "1'",
     "realScore": null,
     "analysis": null,
     "home": "Ecuador",
