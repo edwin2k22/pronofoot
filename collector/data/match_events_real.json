@@ -2433,6 +2433,12 @@
     "team": "Iran",
     "player": "Saeid Ezatolahi",
     "type": "Yellow"
+   },
+   {
+    "minute": 66,
+    "team": "Belgium",
+    "player": "Nathan Ngoy",
+    "type": "Red"
    }
   ],
   "commentary": [
@@ -2695,6 +2701,211 @@
     "minute": 45,
     "text": "First Half ends, Belgium 0, IR Iran 0.",
     "type": "Halftime"
+   },
+   {
+    "minute": 45,
+    "text": "Substitution, IR Iran. Alireza Jahanbakhsh replaces Saleh Hardani.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 45,
+    "text": "Second Half begins Belgium 0, IR Iran 0.",
+    "type": "Start 2nd Half"
+   },
+   {
+    "minute": 46,
+    "text": "Attempt missed. Alireza Jahanbakhsh (IR Iran) left footed shot from the right side of the box misses to the right. Assisted by Mehdi Taremi with a headed pass.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 46,
+    "text": "Attempt blocked. Kevin De Bruyne (Belgium) left footed shot from the left side of the box is blocked. Assisted by Leandro Trossard.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 47,
+    "text": "Foul by Alireza Jahanbakhsh (IR Iran).",
+    "type": "Foul"
+   },
+   {
+    "minute": 47,
+    "text": "Leandro Trossard (Belgium) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 49,
+    "text": "Corner, Belgium. Conceded by Ali Nemati.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 50,
+    "text": "Corner, Belgium. Conceded by Mehdi Taremi.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 50,
+    "text": "Attempt missed. Alexis Saelemaekers (Belgium) right footed shot from a difficult angle on the right is close, but misses to the right. Assisted by Kevin De Bruyne with a cross following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 51,
+    "text": "Attempt blocked. Maxim De Cuyper (Belgium) left footed shot from outside the box is blocked. Assisted by Youri Tielemans.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 51,
+    "text": "Offside, Belgium. Leandro Trossard is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 53,
+    "text": "Attempt saved. Mehdi Taremi (IR Iran) right footed shot from the centre of the box is saved in the bottom right corner by Thibaut Courtois (Belgium). Assisted by Hossein Kanani.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 53,
+    "text": "Handball by Leandro Trossard (Belgium).",
+    "type": "Handball"
+   },
+   {
+    "minute": 58,
+    "text": "Substitution, Belgium. Timothy Castagne replaces Thomas Meunier.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 58,
+    "text": "Substitution, Belgium. Hans Vanaken replaces Nicolas Raskin.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 58,
+    "text": "Substitution, Belgium. Dodi Lukébakio replaces Alexis Saelemaekers.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 59,
+    "text": "Attempt saved. Maxim De Cuyper (Belgium) right footed shot from very close range is saved in the centre of the goal by Alireza Beiranvand (IR Iran).",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 62,
+    "text": "Attempt saved. Dodi Lukébakio (Belgium) left footed shot from the right side of the box is saved in the centre of the goal by Alireza Beiranvand (IR Iran). Assisted by Leandro Trossard.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 62,
+    "text": "Attempt missed. Hans Vanaken (Belgium) left footed shot from the centre of the box is too high.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 64,
+    "text": "Foul by Saman Ghoddos (IR Iran).",
+    "type": "Foul"
+   },
+   {
+    "minute": 64,
+    "text": "Kevin De Bruyne (Belgium) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 65,
+    "text": "Corner, IR Iran. Conceded by Nathan Ngoy.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 65,
+    "text": "Attempt missed. Shoja Khalilzadeh (IR Iran) header from the right side of the six yard box is close, but misses the top right corner. Assisted by Ramin Rezaeian with a cross following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 66,
+    "text": "Substitution, IR Iran. Mehdi Torabi replaces Mohammad Mohebbi.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 66,
+    "text": "Substitution, IR Iran. Milad Mohammadi replaces Ehsan Hajisafi.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 66,
+    "text": "Mehdi Taremi (IR Iran) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 66,
+    "text": "Foul by Nathan Ngoy (Belgium).",
+    "type": "Foul"
+   },
+   {
+    "minute": 66,
+    "text": "Nathan Ngoy (Belgium) is shown the red card.",
+    "type": "Red Card"
+   },
+   {
+    "minute": 70,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 73,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 73,
+    "text": "Substitution, Belgium. Arthur Theate replaces Romelu Lukaku.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 79,
+    "text": "Substitution, IR Iran. Shahriyar Moghanloo replaces Saman Ghoddos.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 80,
+    "text": "Foul by Alireza Jahanbakhsh (IR Iran).",
+    "type": "Foul"
+   },
+   {
+    "minute": 80,
+    "text": "Maxim De Cuyper (Belgium) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 81,
+    "text": "Attempt saved. Saeid Ezatolahi (IR Iran) right footed shot from outside the box is saved in the bottom left corner by Thibaut Courtois (Belgium).",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 83,
+    "text": "Foul by Shoja Khalilzadeh (IR Iran).",
+    "type": "Foul"
+   },
+   {
+    "minute": 83,
+    "text": "Dodi Lukébakio (Belgium) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 84,
+    "text": "Attempt missed. Youri Tielemans (Belgium) left footed shot from the left side of the box misses to the left following a set piece situation.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 84,
+    "text": "Attempt missed. Hans Vanaken (Belgium) left footed shot from the centre of the box misses to the left. Assisted by Youri Tielemans with a cross.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 85,
+    "text": "Substitution, IR Iran. Amirhossein Hosseinzadeh replaces Saeid Ezatolahi.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 86,
+    "text": "Attempt saved. Maxim De Cuyper (Belgium) right footed shot from the centre of the box is saved.",
+    "type": "Shot On Target"
    }
   ],
   "halftime": "0-0",
