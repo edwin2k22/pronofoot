@@ -2427,6 +2427,12 @@
     "team": "Belgium",
     "player": "Romelu Lukaku",
     "type": "Yellow"
+   },
+   {
+    "minute": 33,
+    "team": "Iran",
+    "player": "Saeid Ezatolahi",
+    "type": "Yellow"
    }
   ],
   "commentary": [
@@ -2478,7 +2484,7 @@
    {
     "minute": 9,
     "text": "Attempt missed. Kevin De Bruyne (Belgium) right footed shot from the centre of the box misses to the right. Assisted by Leandro Trossard.",
-    "type": "Shot Blocked"
+    "type": "Shot Off Target"
    },
    {
     "minute": 9,
@@ -2574,6 +2580,121 @@
     "minute": 30,
     "text": "Delay in match for a drinks break.",
     "type": "Start Delay"
+   },
+   {
+    "minute": 33,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 33,
+    "text": "Foul by Saeid Ezatolahi (IR Iran).",
+    "type": "Foul"
+   },
+   {
+    "minute": 33,
+    "text": "Youri Tielemans (Belgium) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 33,
+    "text": "Saeid Ezatolahi (IR Iran) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 34,
+    "text": "Delay in match (Belgium).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 35,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 36,
+    "text": "Offside, Belgium. Youri Tielemans is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 37,
+    "text": "Foul by Mehdi Taremi (IR Iran).",
+    "type": "Foul"
+   },
+   {
+    "minute": 37,
+    "text": "Kevin De Bruyne (Belgium) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 38,
+    "text": "Foul by Ehsan Hajisafi (IR Iran).",
+    "type": "Foul"
+   },
+   {
+    "minute": 38,
+    "text": "Kevin De Bruyne (Belgium) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 42,
+    "text": "Attempt saved. Kevin De Bruyne (Belgium) right footed shot from the centre of the box is saved in the centre of the goal by Alireza Beiranvand (IR Iran). Assisted by Leandro Trossard with a through ball.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 43,
+    "text": "Handball by Mehdi Taremi (IR Iran).",
+    "type": "Handball"
+   },
+   {
+    "minute": 44,
+    "text": "Attempt saved. Maxim De Cuyper (Belgium) left footed shot from the left side of the box is saved in the bottom left corner by Alireza Beiranvand (IR Iran). Assisted by Youri Tielemans with a through ball.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 44,
+    "text": "Attempt blocked. Alexis Saelemaekers (Belgium) left footed shot from the centre of the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 45,
+    "text": "Fourth official has announced 8 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 45,
+    "text": "Attempt blocked. Kevin De Bruyne (Belgium) right footed shot from the left side of the box is blocked. Assisted by Leandro Trossard.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 45,
+    "text": "Foul by Saeid Ezatolahi (IR Iran).",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Youri Tielemans (Belgium) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Offside, Belgium. Alexis Saelemaekers is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 45,
+    "text": "Mohammad Mohebbi (IR Iran) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Foul by Thomas Meunier (Belgium).",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "First Half ends, Belgium 0, IR Iran 0.",
+    "type": "Halftime"
    }
   ],
   "halftime": "0-0",
