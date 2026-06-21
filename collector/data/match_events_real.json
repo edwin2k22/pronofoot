@@ -2412,7 +2412,15 @@
   "note": ""
  },
  "Belgium|Iran": {
-  "goals": [],
+  "goals": [
+   {
+    "minute": 25,
+    "team": "Iran",
+    "player": "Mehdi Taremi",
+    "assist": "Ehsan Hajsafi",
+    "note": null
+   }
+  ],
   "cards": [
    {
     "minute": 3,
@@ -2469,7 +2477,7 @@
    },
    {
     "minute": 9,
-    "text": "Attempt blocked. Kevin De Bruyne (Belgium) right footed shot from the centre of the box is blocked. Assisted by Leandro Trossard.",
+    "text": "Attempt missed. Kevin De Bruyne (Belgium) right footed shot from the centre of the box misses to the right. Assisted by Leandro Trossard.",
     "type": "Shot Blocked"
    },
    {
@@ -2521,6 +2529,51 @@
     "minute": 15,
     "text": "Offside, IR Iran. Mehdi Taremi is caught offside.",
     "type": "Offside"
+   },
+   {
+    "minute": 19,
+    "text": "Attempt blocked. Leandro Trossard (Belgium) left footed shot from the left side of the box is blocked. Assisted by Kevin De Bruyne.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 22,
+    "text": "Attempt saved. Youri Tielemans (Belgium) right footed shot from the right side of the box is saved in the bottom right corner by Alireza Beiranvand (IR Iran). Assisted by Kevin De Bruyne.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 22,
+    "text": "Corner, Belgium. Conceded by Alireza Beiranvand.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 23,
+    "text": "Attempt missed. Nathan Ngoy (Belgium) right footed shot from the centre of the box is high and wide to the right following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 24,
+    "text": "Handball by Nicolas Raskin (Belgium).",
+    "type": "Handball"
+   },
+   {
+    "minute": 25,
+    "text": "Offside, IR Iran. Mehdi Taremi is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 25,
+    "text": "GOAL OVERTURNED BY VAR: Mehdi Taremi (IR Iran) scores but the goal is ruled out after a VAR review.",
+    "type": "Deleted After Review"
+   },
+   {
+    "minute": 27,
+    "text": "VAR Decision: No Goal Belgium 0-0 IR Iran.",
+    "type": "VAR - Referee decision cancelled"
+   },
+   {
+    "minute": 30,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
    }
   ],
   "halftime": "0-0",

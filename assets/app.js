@@ -363,11 +363,20 @@ function renderTopValue(){
   box.classList.remove("u-hidden");
   const cards=tv.map(b=>{
     const edge=Math.round(b.edge*100);
+    let trend = "";
+    if (b.lineMovement && b.lineMovement !== 0) {
+       const isDrop = b.lineMovement < 0;
+       const col = isDrop ? "var(--acc)" : "var(--danger)";
+       const arr = isDrop ? "↘" : "↗";
+       trend = `<span style="color:${col}; font-size:11px; margin-left:6px;" title="Évolution de la cote depuis l'ouverture">
+                  ${arr} ${Math.abs(b.lineMovement).toFixed(2)}
+                </span>`;
+    }
     return `<div class="tv-card" onclick="openMatchByTeams('${(b.home||'').replace(/'/g,"\\'")}','${(b.away||'').replace(/'/g,"\\'")}')">
       <div class="tv-match">${b.home} <span style="opacity:.5">vs</span> ${b.away}</div>
       <div class="tv-pick">${b.label}</div>
       <div class="tv-nums">
-        <span>Modèle <b style="color:var(--acc)">${Math.round(b.prob*100)}%</b> · cote <span class="tv-odd">${b.odd}</span></span>
+        <span>Modèle <b style="color:var(--acc)">${Math.round(b.prob*100)}%</b> · cote <span class="tv-odd">${b.odd}</span>${trend}</span>
         <span class="tv-edge">+${edge}% value</span>
       </div>
     </div>`;

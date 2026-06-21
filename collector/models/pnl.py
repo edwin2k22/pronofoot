@@ -178,7 +178,8 @@ def top_value_bets(matches, top=3, edge_min=0.03):
                         "implied": round(implied, 4), "edge": round(edge, 4),
                         "ev": round(pm * odd - 1, 3),   # espérance par unité misée
                         "provider": m.get("oddsProvider"),
-                        "market": "1N2"
+                        "market": "1N2",
+                        "lineMovement": p.get("lineMovement", {}).get({"1": "home", "X": "draw", "2": "away"}[k])
                     })
                     
         # Over/Under
