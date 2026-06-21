@@ -11036,35 +11036,35 @@
             {
               "name": "Romelu Lukaku",
               "poste": "FW",
-              "p": 0.2787,
+              "p": 0.2773,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Leandro Trossard",
               "poste": "FW",
-              "p": 0.2787,
+              "p": 0.2773,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Jérémy Doku",
               "poste": "FW",
-              "p": 0.2787,
+              "p": 0.2773,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Charles De Ketelaere",
               "poste": "FW",
-              "p": 0.253,
+              "p": 0.2517,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Kevin De Bruyne",
               "poste": "MF",
-              "p": 0.1611,
+              "p": 0.1602,
               "real_goals": 0.0,
               "why": "volume de tirs élevé (5)"
             }
@@ -31437,33 +31437,33 @@
       },
       "cards": {
         "exp_cards": 2.6,
-        "over": 0.2604,
-        "under": 0.7396,
+        "over": 0.2615,
+        "under": 0.7385,
         "line": 3.5,
         "home": 1.4,
         "away": 1.2,
         "lines": {
           "2.5": {
-            "over": 0.4774,
-            "under": 0.5226
+            "over": 0.4786,
+            "under": 0.5214
           },
           "3.5": {
-            "over": 0.2604,
-            "under": 0.7396
+            "over": 0.2615,
+            "under": 0.7385
           },
           "4.5": {
-            "over": 0.1202,
-            "under": 0.8798
+            "over": 0.1209,
+            "under": 0.8791
           }
         },
         "redProb": 0.129,
         "src": "FootyStats + arbitre",
         "refSeverity": {
-          "avg": 2.06,
-          "n": 107,
+          "avg": 2.07,
+          "n": 109,
           "prior": 3.8,
-          "obsMean": 1.99,
-          "source": "prior + 107 match(s) CDM 2026"
+          "obsMean": 2.01,
+          "source": "prior + 109 match(s) CDM 2026"
         }
       },
       "shots": {
@@ -31542,9 +31542,9 @@
         "nation": null,
         "cardsAvg": null,
         "source": "ESPN (réel)",
-        "severity": 2.06,
-        "severityN": 107,
-        "severitySrc": "prior + 107 match(s) CDM 2026"
+        "severity": 2.07,
+        "severityN": 109,
+        "severitySrc": "prior + 109 match(s) CDM 2026"
       },
       "riskPlayers": {
         "home": {
@@ -31620,35 +31620,35 @@
             {
               "name": "Romelu Lukaku",
               "poste": "FW",
-              "p": 0.2527,
+              "p": 0.2512,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Leandro Trossard",
               "poste": "FW",
-              "p": 0.2527,
+              "p": 0.2512,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Jérémy Doku",
               "poste": "FW",
-              "p": 0.2527,
+              "p": 0.2512,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Kevin De Bruyne",
               "poste": "MF",
-              "p": 0.145,
+              "p": 0.1441,
               "real_goals": 0.0,
               "why": "volume de tirs élevé (5)"
             },
             {
               "name": "Dodi Lukébakio",
               "poste": "FW",
-              "p": 0.1228,
+              "p": 0.1342,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             }
@@ -51752,35 +51752,35 @@
             {
               "name": "Romelu Lukaku",
               "poste": "FW",
-              "p": 0.3644,
+              "p": 0.3625,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Leandro Trossard",
               "poste": "FW",
-              "p": 0.3644,
+              "p": 0.3625,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Jérémy Doku",
               "poste": "FW",
-              "p": 0.3644,
+              "p": 0.3625,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Kevin De Bruyne",
               "poste": "MF",
-              "p": 0.2163,
+              "p": 0.215,
               "real_goals": 0.0,
               "why": "volume de tirs élevé (5)"
             },
             {
               "name": "Dodi Lukébakio",
               "poste": "FW",
-              "p": 0.1845,
+              "p": 0.2009,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             }

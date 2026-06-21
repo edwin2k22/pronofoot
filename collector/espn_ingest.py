@@ -10,6 +10,8 @@ Après : relancer  python3 -m collector.refresh  pour réembarquer.
 """
 from __future__ import annotations
 import sys, os, json, re, datetime
+if sys.stdout and hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding='utf-8')
 from collector.sources import espn_stats as espn
 from collector.sources import referee_form as refform
 from collector.db import database as db

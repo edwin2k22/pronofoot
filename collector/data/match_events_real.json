@@ -2939,8 +2939,23 @@
    },
    {
     "minute": 90,
-    "text": "Attempt missed. Matias Fernandez-Pardo (Belgium) right footed shot from outside the box.",
+    "text": "Attempt missed. Matias Fernandez-Pardo (Belgium) right footed shot from outside the box is high and wide to the right. Assisted by Arthur Theate.",
     "type": "Shot Off Target"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt missed. Dodi Lukébakio (Belgium) left footed shot from outside the box is close, but misses to the left. Assisted by Timothy Castagne.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 90,
+    "text": "Second Half ends, Belgium 0, IR Iran 0.",
+    "type": "End Regular Time"
+   },
+   {
+    "minute": 0,
+    "text": "Match ends, Belgium 0, IR Iran 0.",
+    "type": ""
    }
   ],
   "halftime": "0-0",
