@@ -114,6 +114,17 @@ class Handler(BaseHTTPRequestHandler):
         path = self.path.split("?")[0]
         if path == "/api/status":
             return self._send(200, _status())
+        if path == "/api/timeline":
+            from urllib.parse import urlparse, parse_qs
+            qs = parse_qs(urlparse(self.path).query)
+            home = qs.get("home", [""])[0]
+            away = qs.get("away", [""])[0]
+            from collector.sources import espn_stats
+            ev = espn_stats.find_event(home, away)
+            if not ev:
+                return self._send(404, {"error": "Match non trouvé sur ESPN", "home": home, "away": away})
+            return self._send(200, espn_stats.get_timeline(ev["id"]))
+            
         if path in ("/", ""):
             path = "/index.html"
         # fichier statique

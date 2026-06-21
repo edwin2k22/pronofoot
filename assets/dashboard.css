@@ -477,3 +477,73 @@
 
   @media(max-width:760px){.grid2{grid-template-columns:1fr}}
   .close-notif-btn{width:32px;height:32px;font-size:14px;}
+
+/* Bracket Phase Finale */
+.bracket-container {
+  display: flex;
+  overflow-x: auto;
+  padding: 20px;
+  gap: 40px;
+  align-items: center;
+  min-height: 500px;
+}
+.bracket-round {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+  min-width: 200px;
+}
+.bracket-match {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+}
+.bracket-match:hover {
+  background: var(--surface-hover);
+  border-color: var(--acc);
+}
+.bracket-team {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 600;
+}
+.bracket-team img, .bracket-team .mi-badge {
+  width: 20px;
+  height: 20px;
+  font-size: 9px;
+  line-height: 20px;
+  margin-right: 6px;
+}
+.bracket-team.winner {
+  color: var(--acc);
+}
+.bracket-team.loser {
+  color: var(--muted);
+}
+.bracket-score {
+  font-weight: 800;
+}
+/* Notifications et Favoris */
+.fav-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0 4px;
+  color: var(--muted);
+  transition: color 0.2s, transform 0.2s;
+}
+.fav-btn.active {
+  color: #ffd34e;
+  transform: scale(1.1);
+}

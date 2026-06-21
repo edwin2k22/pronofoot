@@ -2,6 +2,81 @@ const $ = id => document.getElementById(id);
 const pct = x => Math.round((x||0)*100) + "%";
 let MATCHES = [], TAB = "SCHEDULED", GROUP = "Tous", SELECTED = null, TOPPICKS = null, LIVEFEED = [], PNL = null, STANDINGS = [], H2H = {};
 
+/* ===== FAVORIS & NOTIFICATIONS ===== */
+let FAV_TEAMS = [];
+try { FAV_TEAMS = JSON.parse(localStorage.getItem("prono_favs")) || []; } catch(e){}
+
+function toggleFav(team) {
+  if(FAV_TEAMS.includes(team)) FAV_TEAMS = FAV_TEAMS.filter(t=>t!==team);
+  else FAV_TEAMS.push(team);
+  localStorage.setItem("prono_favs", JSON.stringify(FAV_TEAMS));
+  render();
+  updateFavoritesPanel();
+  if(Notification.permission === "default") {
+    Notification.requestPermission();
+  }
+}
+
+function favBtn(team) {
+  const isFav = FAV_TEAMS.includes(team);
+  return `<button class="fav-btn ${isFav?'active':''}" onclick="event.stopPropagation(); toggleFav('${(team||'').replace(/'/g,"\\'")}')" title="Favori">⭐</button>`;
+}
+
+function updateFavoritesPanel() {
+  const panel = $("favoritesList");
+  if(!panel) return;
+  if(FAV_TEAMS.length === 0) {
+    panel.innerHTML = `<div style="padding:16px;color:var(--muted)">Aucun favori. Cliquez sur l'étoile à côté d'une équipe pour l'ajouter.</div>`;
+    return;
+  }
+  panel.innerHTML = FAV_TEAMS.map(t => `<div style="padding:8px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;">
+    <span>${t}</span>
+    <button class="icon-btn" style="color:var(--danger)" onclick="toggleFav('${t}')">✕</button>
+  </div>`).join("");
+}
+
+const favTog = $("favoritesToggle");
+if(favTog) {
+  favTog.onclick = () => {
+    const p = $("favoritesPanel");
+    if(p) {
+      p.classList.toggle("open");
+      if(p.classList.contains("open")) updateFavoritesPanel();
+    }
+  };
+}
+
+function checkNotifications(newData) {
+  if(Notification.permission !== "granted") return;
+  if(!MATCHES || !MATCHES.length) return;
+  
+  newData.forEach(newM => {
+    if(!FAV_TEAMS.includes(newM.home) && !FAV_TEAMS.includes(newM.away)) return;
+    
+    const oldM = MATCHES.find(m => m.home === newM.home && m.away === newM.away);
+    if(!oldM) return;
+    
+    const newSt = effectiveStatus(newM);
+    const oldSt = effectiveStatus(oldM);
+    
+    // Status change to LIVE
+    if(oldSt !== "LIVE" && oldSt !== "HT" && (newSt === "LIVE" || newSt === "HT")) {
+      new Notification(`⚽ Coup d'envoi !`, { body: `${newM.home} vs ${newM.away} a commencé.` });
+    }
+    
+    // Status change to FINISHED
+    if(oldSt !== "FINISHED" && newSt === "FINISHED" && newM.analysis) {
+      new Notification(`🏁 Match terminé`, { body: `${newM.home} ${newM.analysis.realScore} ${newM.away}` });
+    }
+    
+    // Score change during LIVE
+    if((newSt === "LIVE" || newSt === "HT") && newM.liveScore && newM.liveScore !== oldM.liveScore) {
+      new Notification(`⚽ But !`, { body: `${newM.home} ${newM.liveScore} ${newM.away}` });
+    }
+  });
+}
+
+
 /* ---------- chargement ---------- */
 function applyData(data, srcLabel){
   if(!Array.isArray(data)||!data.length) return false;
@@ -41,6 +116,7 @@ async function load(){
     const res = await fetch("collector/data/predictions.json?_=" + Date.now(), {cache:"no-store"});
     if(res.ok){
       const data = await res.json();
+      checkNotifications(data);
       const sources = [...new Set(data.flatMap(m=>m.sources||[]))].slice(0,3).join(", ");
       applyData(data, sources || "live");
       // si on regardait un match, on rouvre sa version à jour
@@ -367,9 +443,55 @@ function renderStandings(){
   <div class="note" style="margin-top:12px">🟢 1er-2e qualifiés · 🟡 3e éventuellement repêché. Classement calculé sur les résultats réels (pts > différence > buts marqués).</div>`;
 }
 
+function renderBracket(){
+  // On filtre et trie les matchs par ordre chronologique pour chaque round
+  const sortedMatches = [...MATCHES].sort((a,b)=>parseKickoff(a.date)-parseKickoff(b.date));
+  const rounds = [
+    { id: "LAST_16", label: "Huitièmes de finale" },
+    { id: "QUARTER_FINAL", label: "Quarts de finale" },
+    { id: "SEMI_FINAL", label: "Demi-finales" },
+    { id: "FINAL", label: "Finale" }
+  ];
+  
+  let html = `<div class="bracket-container">`;
+  rounds.forEach(r => {
+    const matches = sortedMatches.filter(m => String(m.league).includes(r.id));
+    if(!matches.length) return;
+    html += `<div class="bracket-round"><h4 style="text-align:center;color:var(--muted)">${r.label}</h4>`;
+    matches.forEach(m => {
+      let scoreHtml = "vs";
+      if(m.status === "FINISHED" && (m.analysis||{}).realScore) scoreHtml = m.analysis.realScore;
+      else if((m.status === "LIVE"||m.status === "HT") && m.liveScore) scoreHtml = m.liveScore;
+      
+      html += `<div class="bracket-match" onclick="openMatchByTeams('${(m.home||'').replace(/'/g,"\\'")}','${(m.away||'').replace(/'/g,"\\'")}')">
+        <div class="bracket-team">${teamBadge(m.home)} <span style="flex-grow:1;margin-left:8px">${m.home}</span>${favBtn(m.home)}</div>
+        <div style="text-align:center; font-weight:800; color:var(--acc); font-size:14px; margin:2px 0">${scoreHtml}</div>
+        <div class="bracket-team">${teamBadge(m.away)} <span style="flex-grow:1;margin-left:8px">${m.away}</span>${favBtn(m.away)}</div>
+      </div>`;
+    });
+    html += `</div>`;
+  });
+  html += `</div>`;
+  const box=$("bracketView");
+  if(box){
+    box.innerHTML = html;
+    box.classList.remove("u-hidden");
+  }
+}
+
 function render(){
   if(TAB==="BEST"){ renderBestPicks(); return; }
   if(TAB==="GROUPS"){ renderStandings(); return; }
+  if(TAB==="BRACKET"){
+    const ml = $("matchList"); if(ml) ml.classList.add("u-hidden");
+    const hero = document.querySelector(".hero"); if(hero) hero.classList.add("u-hidden");
+    renderBracket(); 
+    return; 
+  } else {
+    const box=$("bracketView"); if(box) box.classList.add("u-hidden");
+    const ml = $("matchList"); if(ml) ml.classList.remove("u-hidden");
+    const hero = document.querySelector(".hero"); if(hero) hero.classList.remove("u-hidden");
+  }
   const q = $("search").value.toLowerCase();
   let list = MATCHES.filter(matchInTab);
   if(GROUP!=="Tous") list = list.filter(m=>m.league===GROUP);
@@ -431,7 +553,7 @@ function render(){
       tags = m.analysis.predictionCorrect?'<span class="tag ok">✅ prono réussi</span>':'<span class="tag ko">❌ prono manqué</span>';
       tags += vsSummaryInline(m);
     } else {
-      const hasVal=["home","draw","away"].some(k=>(p.value||{})[k]&&p.value[k].value);
+      const hasVal=["home","draw","away","over","under"].some(k=>(p.value||{})[k]&&p.value[k].value);
       if(hasVal) tags+=`<span class="tag val">💎 value détectée</span>`;
       const ui=p.upsetIndex;
       if(ui && ui.index>=45){
@@ -449,9 +571,9 @@ function render(){
       <div class="mi-body">
         <div class="mi-lg"><span>📍 ${m.league}</span><span>${when}</span>${badge}</div>
         <div class="mi-vs">
-          <div class="mi-team">${teamBadge(m.home)}<span class="mi-tname">${m.home}</span></div>
+          <div class="mi-team">${teamBadge(m.home)}<span class="mi-tname">${m.home}</span>${favBtn(m.home)}</div>
           <div class="mi-center">${scoreHtml}</div>
-          <div class="mi-team away">${teamBadge(m.away)}<span class="mi-tname">${m.away}</span></div>
+          <div class="mi-team away">${favBtn(m.away)}${teamBadge(m.away)}<span class="mi-tname">${m.away}</span></div>
         </div>
         ${probBar}
         <div class="mi-meta"><div class="mi-tags">${tags}</div><div class="mi-go">${cta}</div></div>
@@ -482,14 +604,46 @@ function showDetail(m){
   const st = effectiveStatus(m);
   if(st==="FINISHED" && m.analysis) d.innerHTML = renderFinished(m);
   else if(st==="LIVE"||st==="HT") d.innerHTML = renderLive(m);
-  else if(st==="KICKOFF") d.innerHTML = renderUpcoming(m, "kickoff"); // coup d'envoi atteint, pas de live encore
-  else if(st==="AWAITING") d.innerHTML = renderUpcoming(m, "awaiting"); // résultat pas encore intégré
+  else if(st==="KICKOFF") d.innerHTML = renderUpcoming(m, "kickoff");
+  else if(st==="AWAITING") d.innerHTML = renderUpcoming(m, "awaiting");
   else d.innerHTML = renderUpcoming(m);
-  // ouvre le panneau latéral glissant
+  
   $("offcanvas").classList.add("open");
   $("ocBackdrop").classList.add("open");
   $("offcanvas").scrollTop = 0;
   document.body.style.overflow = "hidden";
+  
+  // Fetch live timeline for ESPN commentary
+  if(st==="FINISHED" || st==="LIVE" || st==="HT" || st==="KICKOFF") {
+    fetch(`/api/timeline?home=${encodeURIComponent(m.home)}&away=${encodeURIComponent(m.away)}`)
+      .then(r => r.json())
+      .then(data => {
+         const container = document.getElementById("live-timeline-container");
+         if(!container) return;
+         if(!data || !data.commentary || data.commentary.length === 0) return;
+         
+         const comments = data.commentary.map(c => 
+           `<div class="tl-row" style="margin-top:4px">
+              <div class="tl-min" style="color:var(--muted)">${c.time?.displayValue || ''}</div>
+              <div class="tl-ev" style="width:100%">
+                <div style="font-size:12px;color:var(--muted);background:var(--glass);padding:6px;border-radius:4px;border-left:2px solid var(--line);">
+                  🎙️ ${c.text}
+                </div>
+              </div>
+            </div>`
+         ).join("");
+         
+         // On ajoute ou remplace la section "Déroulé du match" existante
+         // S'il y a déjà des events statiques (buts, cartons), on les affiche AVANT les commentaires
+         let staticEvents = "";
+         if(m.analysis && m.analysis.events) {
+           staticEvents = timeline(m, m.analysis);
+         }
+         
+         container.innerHTML = staticEvents + comments;
+      })
+      .catch(e => console.log("Timeline fetch error", e));
+  }
 }
 function closeDetail(){
   $("offcanvas").classList.remove("open");
@@ -502,7 +656,7 @@ window.showDetail = showDetail;
 function srcTags(m){ return `<div class="src">${(m.sources||[]).map(s=>`<span>${s}</span>`).join("")}</div>`; }
 
 /* match TERMINÉ : score + analyse + stats complètes + prono d'avant */
-/* déroulé du match : buteurs, cartons, MOTM */
+/* déroulé du match : buteurs, cartons, MOTM, commentary */
 function timeline(m, a){
   const e = a.events;
   if(!e) return "";
@@ -512,13 +666,22 @@ function timeline(m, a){
     html:`⚽ <b>${g.player}</b> ${g.assist?`<span style="color:var(--muted)">(passe ${g.assist})</span>`:""} <span style="color:var(--muted)">${g.team}</span>`}));
   (e.cards||[]).forEach(c=> items.push({min:c.minute, side:c.team===m.home?"h":"a",
     html:`${icon(c.type)} ${c.player} <span style="color:var(--muted)">${c.team}${c.note?" · "+c.note:""}</span>`}));
+  (e.commentary||[]).forEach(c=> items.push({min:c.minute, side:"c",
+    html:`<div style="font-size:12px;color:var(--muted);background:var(--glass);padding:6px;border-radius:4px;border-left:2px solid var(--line);">🎙️ ${c.text}</div>`}));
+  
   items.sort((x,y)=>x.min-y.min);
   if(items.length === 0 && !e.motm && !e.note) return "";
-  const rows = items.map(it=>`<div class="tl-row tl-${it.side}">
-      <div class="tl-min">${it.min}'</div><div class="tl-ev">${it.html}</div></div>`).join("");
+  
+  const rows = items.map(it=>{
+    if(it.side === "c") {
+        return `<div class="tl-row" style="margin-top:4px"><div class="tl-min">${it.min}'</div><div class="tl-ev" style="width:100%">${it.html}</div></div>`;
+    }
+    return `<div class="tl-row tl-${it.side}"><div class="tl-min">${it.min}'</div><div class="tl-ev">${it.html}</div></div>`;
+  }).join("");
+  
   const motm = e.motm?`<div class="tl-motm">⭐ Homme du match : <b>${e.motm}</b></div>`:"";
   const note = e.note?`<div class="note" style="margin-top:8px">${e.note}</div>`:"";
-  return `<div style="margin-top:14px"><h3>⏱️ Déroulé du match</h3>${rows}${motm}${note}</div>`;
+  return `<div style="margin-top:14px"><h3>⏱️ Déroulé du match</h3><div style="max-height: 350px; overflow-y: auto; padding-right: 8px;">${rows}</div>${motm}${note}</div>`;
 }
 
 /* ANGLE 3 — mini-terrain CSS : compo cartographiée + pastilles de forme */
@@ -705,7 +868,7 @@ function renderFinished(m){
     ${vsTable(m)}
     <div class="verdict done"><b>${a.predictionCorrect?"✅":"❌"} Verdict du modèle :</b> ${a.summary}</div>
     ${formRow(m)}
-    ${timeline(m, a)}
+    <div id="live-timeline-container">${timeline(m, a)}</div>
     ${lineupsBlock(m, a)}
     <div class="grid2" style="margin-top:16px">
       <div>
@@ -788,6 +951,7 @@ function renderLive(m){
     </div>
     ${probBlock(m,p)}
     <div class="verdict">Pronostic d'avant-match (repère). Élo ${m.homeElo} vs ${m.awayElo}.</div>
+    <div id="live-timeline-container"></div>
     ${srcTags(m)}
   </div>`;
 }

@@ -12,9 +12,9 @@
         "pct": 74
       },
       "value": {
-        "won": 11,
-        "total": 13,
-        "pct": 85
+        "won": 10,
+        "total": 12,
+        "pct": 83
       }
     },
     "byMarket": {
@@ -55,9 +55,9 @@
       }
     },
     "overall": {
-      "won": 102,
-      "total": 125,
-      "pct": 82
+      "won": 101,
+      "total": 124,
+      "pct": 81
     },
     "sampleMatches": 36
   },
@@ -308,5 +308,5 @@
       "tierReliability": 86
     }
   ],
-  "lockCount": 89
+  "lockCount": 88
 }

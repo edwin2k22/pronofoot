@@ -1443,6 +1443,473 @@
   "cards": [],
   "halftime": "0-2",
   "motm": "—",
-  "note": ""
+  "note": "",
+  "commentary": [
+   {
+    "minute": 0,
+    "text": "Lineups are announced and players are warming up.",
+    "type": ""
+   },
+   {
+    "minute": 0,
+    "text": "First Half begins.",
+    "type": "Kickoff"
+   },
+   {
+    "minute": 1,
+    "text": "Ayase Ueda (Japan) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 1,
+    "text": "Foul by Montassar Talbi (Tunisia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 3,
+    "text": "Attempt missed. Hannibal Mejbri (Tunisia) right footed shot from long range on the left is close, but misses the top right corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 4,
+    "text": "Goal! Tunisia 0, Japan 1. Daichi Kamada (Japan) left footed shot from very close range to the centre of the goal. Assisted by Keito Nakamura.",
+    "type": "Goal"
+   },
+   {
+    "minute": 6,
+    "text": "Attempt missed. Ayase Ueda (Japan) left footed shot from the centre of the box is high and wide to the left. Assisted by Ko Itakura.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 8,
+    "text": "Hannibal Mejbri (Tunisia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 8,
+    "text": "Foul by Takehiro Tomiyasu (Japan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 9,
+    "text": "Corner, Japan. Conceded by Dylan Bronn.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 10,
+    "text": "Attempt saved. Ayase Ueda (Japan) right footed shot from the right side of the box is saved in the bottom right corner by Aymen Dahmen (Tunisia).",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 10,
+    "text": "Attempt missed. Takehiro Tomiyasu (Japan) right footed shot from the right side of the six yard box is close, but misses to the right following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 10,
+    "text": "Corner, Japan. Conceded by Aymen Dahmen.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 12,
+    "text": "Foul by Elias Saad (Tunisia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 12,
+    "text": "Ritsu Doan (Japan) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 14,
+    "text": "Montassar Talbi (Tunisia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 14,
+    "text": "Foul by Ayase Ueda (Japan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 15,
+    "text": "Corner, Tunisia. Conceded by Ko Itakura.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 18,
+    "text": "Hannibal Mejbri (Tunisia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 18,
+    "text": "Foul by Takehiro Tomiyasu (Japan).",
+    "type": "Pass"
+   },
+   {
+    "minute": 20,
+    "text": "Aymen Dahmen (Tunisia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 20,
+    "text": "Foul by Junya Ito (Japan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 22,
+    "text": "Hannibal Mejbri (Tunisia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 22,
+    "text": "Foul by Takehiro Tomiyasu (Japan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 24,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 27,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 31,
+    "text": "Goal! Tunisia 0, Japan 2. Ayase Ueda (Japan) right footed shot from the right side of the box to the bottom left corner. Assisted by Ko Itakura following a fast break.",
+    "type": "Goal"
+   },
+   {
+    "minute": 35,
+    "text": "Foul by Hannibal Mejbri (Tunisia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 35,
+    "text": "Junya Ito (Japan) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 36,
+    "text": "Hannibal Mejbri (Tunisia) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 36,
+    "text": "Foul by Kaishu Sano (Japan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 40,
+    "text": "Ali Abdi (Tunisia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 40,
+    "text": "Foul by Junya Ito (Japan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 43,
+    "text": "Foul by Dylan Bronn (Tunisia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 43,
+    "text": "Daichi Kamada (Japan) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Fourth official has announced 4 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 45,
+    "text": "Foul by Hannibal Mejbri (Tunisia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Zion Suzuki (Japan) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Elias Saad (Tunisia) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Foul by Ko Itakura (Japan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 50,
+    "text": "First Half ends, Tunisia 0, Japan 2.",
+    "type": ""
+   },
+   {
+    "minute": 45,
+    "text": "Substitution, Tunisia. Ismaël Gharbi replaces Elias Saad.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 45,
+    "text": "Substitution, Tunisia. Mohamed Amine Ben Hmida replaces Dylan Bronn.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 45,
+    "text": "Second Half begins Tunisia 0, Japan 2.",
+    "type": "Start 2nd Half"
+   },
+   {
+    "minute": 48,
+    "text": "Attempt missed. Ao Tanaka (Japan) right footed shot from outside the box is close, but misses to the left. Assisted by Ayase Ueda.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 49,
+    "text": "Ismaël Gharbi (Tunisia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 49,
+    "text": "Foul by Hiroki Ito (Japan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 55,
+    "text": "Ismaël Gharbi (Tunisia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 55,
+    "text": "Foul by Hiroki Ito (Japan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 57,
+    "text": "Corner, Japan. Conceded by Mohamed Amine Ben Hmida.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 58,
+    "text": "Foul by Ali Abdi (Tunisia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 58,
+    "text": "Ritsu Doan (Japan) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 62,
+    "text": "Foul by Hannibal Mejbri (Tunisia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 62,
+    "text": "Kaishu Sano (Japan) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 63,
+    "text": "Attempt blocked. Ayase Ueda (Japan) right footed shot from outside the box is blocked. Assisted by Hiroki Ito.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 63,
+    "text": "Corner, Japan. Conceded by Montassar Talbi.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 64,
+    "text": "Substitution, Tunisia. Firas Chaouat replaces Sebastian Tounekti.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 66,
+    "text": "Attempt blocked. Keito Nakamura (Japan) right footed shot from outside the box is blocked. Assisted by Daichi Kamada.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 66,
+    "text": "Firas Chaouat (Tunisia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 66,
+    "text": "Foul by Keito Nakamura (Japan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 69,
+    "text": "Goal! Tunisia 0, Japan 3. Junya Ito (Japan) right footed shot from the centre of the box to the bottom right corner. Assisted by Ayase Ueda with a through ball.",
+    "type": "Goal"
+   },
+   {
+    "minute": 70,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 73,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 73,
+    "text": "Substitution, Japan. Junnosuke Suzuki replaces Daichi Kamada.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 74,
+    "text": "Substitution, Japan. Yukinari Sugawara replaces Ritsu Doan.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 75,
+    "text": "Corner, Tunisia. Conceded by Junnosuke Suzuki.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 75,
+    "text": "Corner, Tunisia. Conceded by Junya Ito.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 75,
+    "text": "Attempt blocked. Ismaël Gharbi (Tunisia) left footed shot from the left side of the box is blocked. Assisted by Omar Rekik.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 76,
+    "text": "Offside, Tunisia. Omar Rekik is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 76,
+    "text": "Offside, Japan. Keito Nakamura is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 77,
+    "text": "Corner, Japan. Conceded by Mohamed Amine Ben Hmida.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 79,
+    "text": "Substitution, Japan. Yuito Suzuki replaces Keito Nakamura.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 79,
+    "text": "Substitution, Japan. Ayumu Seko replaces Takehiro Tomiyasu.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 79,
+    "text": "Hannibal Mejbri (Tunisia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 79,
+    "text": "Foul by Ao Tanaka (Japan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 80,
+    "text": "Hannibal Mejbri (Tunisia) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 80,
+    "text": "Foul by Hiroki Ito (Japan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 83,
+    "text": "Goal! Tunisia 0, Japan 4. Ayase Ueda (Japan) header from the centre of the box to the bottom right corner. Assisted by Kaishu Sano with a cross.",
+    "type": "Goal - Header"
+   },
+   {
+    "minute": 84,
+    "text": "Substitution, Japan. Keisuke Goto replaces Ayase Ueda.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 85,
+    "text": "Attempt blocked. Junya Ito (Japan) right footed shot from the left side of the box is blocked. Assisted by Ayumu Seko.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 85,
+    "text": "Delay in match because of an injury Omar Rekik (Tunisia).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 87,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 90,
+    "text": "Fourth official has announced 6 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 90,
+    "text": "Substitution, Tunisia. Rani Khedira replaces Ellyes Skhiri.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 90,
+    "text": "Substitution, Tunisia. Elias Achouri replaces Ali Abdi.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 90,
+    "text": "Firas Chaouat (Tunisia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Ayumu Seko (Japan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Hannibal Mejbri (Tunisia) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Kaishu Sano (Japan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Yan Valery (Tunisia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Keisuke Goto (Japan) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 96,
+    "text": "Second Half ends, Tunisia 0, Japan 4.",
+    "type": ""
+   },
+   {
+    "minute": 0,
+    "text": "Match ends, Tunisia 0, Japan 4.",
+    "type": ""
+   }
+  ]
  }
 }

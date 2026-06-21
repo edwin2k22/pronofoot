@@ -857,21 +857,55 @@ def predict():
         # ----- COTES réelles -> value, Kelly, line movement -----
         od = odds_store.get(f"{mt['home']}|{mt['away']}") or {}
         odd1, oddX, odd2 = od.get("odd1"), od.get("oddX"), od.get("odd2")
-        # value = proba modèle vs proba implicite du bookmaker (1/cote)
+        
         def _value(p, o):
-            if not o or o <= 1:
-                return None
-            implied = 1.0 / o
+            if not p or not o or o <= 1: return None
+            implied = 1 / o
             edge = p - implied
             return {"odd": o, "implied": round(implied, 3), "edge": round(edge, 3),
-                    "value": edge > 0.02}   # value si le modèle voit >2 pts de mieux
+                    "is_value": edge > 0.02}
+
         value = {"home": _value(res["p1"], odd1), "draw": _value(res["pX"], oddX),
                  "away": _value(res["p2"], odd2)}
+                 
+        ou_line = od.get("ou_line")
+        odd_over = od.get("over")
+        odd_under = od.get("under")
+        if ou_line is not None and odd_over and odd_under:
+            ou_str = str(ou_line)
+            if "ou_lines" in res and ou_str in res["ou_lines"]:
+                value["over"] = _value(res["ou_lines"][ou_str]["over"], odd_over)
+                value["under"] = _value(res["ou_lines"][ou_str]["under"], odd_under)
+                
+        # Smarkets odds extraction
+        oddBTTS_Yes = od.get("oddBTTS_Yes")
+        oddBTTS_No = od.get("oddBTTS_No")
+        if oddBTTS_Yes and res.get("btts"):
+            value["btts_yes"] = _value(res["btts"], oddBTTS_Yes)
+        if oddBTTS_No and res.get("btts"):
+            value["btts_no"] = _value(1 - res["btts"], oddBTTS_No)
+            
+        oddCorners_line = od.get("oddCorners_line")
+        oddCorners_Over = od.get("oddCorners_Over")
+        oddCorners_Under = od.get("oddCorners_Under")
+        if oddCorners_line and oddCorners_Over and res.get("corners", {}).get("total_mean"):
+            # Very simplistic edge calculation for corners: use Poisson CDF to estimate proba
+            import math
+            def poisson_cdf(mu, k):
+                return sum(math.exp(-mu) * (mu**i) / math.factorial(i) for i in range(int(k)+1))
+            
+            p_under = poisson_cdf(res["corners"]["total_mean"], math.floor(oddCorners_line))
+            p_over = 1 - p_under
+            value["corners_over"] = _value(p_over, oddCorners_Over)
+            if oddCorners_Under:
+                value["corners_under"] = _value(p_under, oddCorners_Under)
+
         kelly = {"home": ctx.kelly_fraction(res["p1"], odd1, conf),
                  "draw": ctx.kelly_fraction(res["pX"], oddX, conf),
                  "away": ctx.kelly_fraction(res["p2"], odd2, conf)}
-        line_move = None
+
         op = od.get("opening")
+        line_move = None
         if op and odd1 and op.get("odd1"):
             line_move = {"home": round(odd1 - op["odd1"], 3),
                          "draw": round((oddX or 0) - (op.get("oddX") or 0), 3),
@@ -899,8 +933,13 @@ def predict():
             "homeElo": h["elo"], "awayElo": a["elo"],
             "homeForm5": (fh or {}).get("last5"), "awayForm5": (fa or {}).get("last5"),
             "homeFormDetail": fh, "awayFormDetail": fa,
-            "odd1": odd1, "oddX": oddX, "odd2": odd2, "oddsProvider": od.get("provider"),
-            "sources": ["openfootball", "SQLite", "Elo", "shrinkage", "FIFA-ratings"] + (["ESPN-odds"] if odd1 else []),
+            "odd1": odd1, "oddX": oddX, "odd2": odd2, 
+            "oddOU_line": ou_line, "oddOver": odd_over, "oddUnder": odd_under,
+            "oddBTTS_Yes": oddBTTS_Yes, "oddBTTS_No": oddBTTS_No,
+            "oddCorners_line": oddCorners_line, "oddCorners_Over": oddCorners_Over, "oddCorners_Under": oddCorners_Under,
+            "oddCards_line": od.get("oddCards_line"), "oddCards_Over": od.get("oddCards_Over"), "oddCards_Under": od.get("oddCards_Under"),
+            "oddsProvider": od.get("provider"),
+            "sources": ["openfootball", "SQLite", "Elo", "shrinkage", "FIFA-ratings"] + (["ESPN-odds"] if odd1 else []) + (["Smarkets"] if oddBTTS_Yes else []),
             "confidence": round(conf, 2),
             "prediction": {
                 "p1": res["p1"], "pX": res["pX"], "p2": res["p2"],

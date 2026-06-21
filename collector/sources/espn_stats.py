@@ -290,8 +290,34 @@ def match_summary(event_id):
             
     out["events"] = {
         "goals": goals_list,
-        "cards": cards_list
+        "cards": cards_list,
+        "commentary": []
     }
+    
+    # ----- commentary -----
+    commentary_list = []
+    for c in d.get("commentary", []):
+        minute_str = c.get("time", {}).get("displayValue", "")
+        minute = 0
+        if minute_str:
+            try:
+                minute = int(minute_str.replace("'", "").split("+")[0])
+            except ValueError:
+                pass
+        text = c.get("text", "")
+        play_type = c.get("play", {}).get("type", {}).get("text", "")
+        
+        # Avoid duplicate consecutive texts which sometimes happens in ESPN
+        if commentary_list and commentary_list[-1]["text"] == text:
+            continue
+            
+        commentary_list.append({
+            "minute": minute,
+            "text": text,
+            "type": play_type
+        })
+    out["events"]["commentary"] = commentary_list
+    
     return out
 
 
@@ -403,3 +429,15 @@ def find_event(home, away, date: datetime.date | None = None):
             if (th & mh and ta & ma) or (th & ma and ta & mh):
                 return m
     return None
+
+
+def get_timeline(event_id):
+    """Récupère la timeline chronologique (commentaires et key events) d'un match."""
+    d = _get(f"{BASE}/summary?event={event_id}")
+    if not d:
+        return {"commentary": [], "keyEvents": []}
+        
+    return {
+        "commentary": d.get("commentary", []),
+        "keyEvents": d.get("keyEvents", [])
+    }

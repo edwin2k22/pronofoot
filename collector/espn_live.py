@@ -77,6 +77,13 @@ def poll_once(verbose=True):
                 "UPDATE matches SET status='LIVE', home_goals=?, away_goals=?, live_clock=? WHERE id=?",
                 (ev["home_goals"], ev["away_goals"], ev.get("clock"), row["id"]))
             live_n += 1
+            # Ingest commentary and live events (stats) periodically
+            try:
+                from collector import espn_ingest
+                espn_ingest.ingest_match(row["home"], row["away"], force=True)
+            except Exception as e:
+                pass
+                
             if verbose:
                 print(f"  🔴 {row['home']} {ev['home_goals']}-{ev['away_goals']} {row['away']}  ({ev.get('clock') or '?'})")
         elif state in FINISHED or ev.get("completed"):
