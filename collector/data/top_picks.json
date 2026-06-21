@@ -2,9 +2,9 @@
   "reliability": {
     "byTier": {
       "lock": {
-        "won": 100,
-        "total": 113,
-        "pct": 88
+        "won": 101,
+        "total": 114,
+        "pct": 89
       },
       "strong": {
         "won": 28,
@@ -12,16 +12,16 @@
         "pct": 68
       },
       "value": {
-        "won": 15,
-        "total": 20,
-        "pct": 75
+        "won": 14,
+        "total": 19,
+        "pct": 74
       }
     },
     "byMarket": {
       "DC": {
-        "won": 32,
-        "total": 37,
-        "pct": 86
+        "won": 33,
+        "total": 38,
+        "pct": 87
       },
       "DNB": {
         "won": 22,
@@ -30,18 +30,18 @@
       },
       "1N2": {
         "won": 22,
-        "total": 37,
-        "pct": 59
+        "total": 38,
+        "pct": 58
       },
       "OU": {
         "won": 26,
-        "total": 37,
-        "pct": 70
+        "total": 38,
+        "pct": 68
       },
       "BTTS": {
         "won": 17,
-        "total": 37,
-        "pct": 46
+        "total": 38,
+        "pct": 45
       },
       "CORNERS": {
         "won": 27,
@@ -59,7 +59,7 @@
       "total": 174,
       "pct": 82
     },
-    "sampleMatches": 37
+    "sampleMatches": 38
   },
   "tiers": {
     "lock": 0.85,
@@ -67,30 +67,6 @@
     "value": 0.66
   },
   "picks": [
-    {
-      "home": "Belgium",
-      "away": "Iran",
-      "date": "2026-06-21 12:00 UTC-7",
-      "id": null,
-      "market": "CARTONS",
-      "label": "Moins de 4.5 cartons",
-      "prob": 0.8871,
-      "why": "",
-      "tier": "lock",
-      "tierReliability": 88
-    },
-    {
-      "home": "Belgium",
-      "away": "Iran",
-      "date": "2026-06-21 12:00 UTC-7",
-      "id": null,
-      "market": "DC",
-      "label": "Double chance : Belgium ou nul",
-      "prob": 0.8848,
-      "why": "exclut l'issue la moins probable",
-      "tier": "lock",
-      "tierReliability": 88
-    },
     {
       "home": "Uruguay",
       "away": "Cape Verde",
@@ -101,7 +77,7 @@
       "prob": 0.9694,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 88
+      "tierReliability": 89
     },
     {
       "home": "Uruguay",
@@ -113,7 +89,7 @@
       "prob": 0.9649,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 88
+      "tierReliability": 89
     },
     {
       "home": "New Zealand",
@@ -125,7 +101,7 @@
       "prob": 0.8028,
       "why": "",
       "tier": "lock",
-      "tierReliability": 88
+      "tierReliability": 89
     },
     {
       "home": "New Zealand",
@@ -137,7 +113,7 @@
       "prob": 0.7338,
       "why": "",
       "tier": "lock",
-      "tierReliability": 88
+      "tierReliability": 89
     },
     {
       "home": "Argentina",
@@ -149,7 +125,7 @@
       "prob": 0.9829,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 88
+      "tierReliability": 89
     },
     {
       "home": "Argentina",
@@ -161,7 +137,7 @@
       "prob": 0.9818,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 88
+      "tierReliability": 89
     },
     {
       "home": "France",
@@ -173,7 +149,7 @@
       "prob": 0.9991,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 88
+      "tierReliability": 89
     },
     {
       "home": "France",
@@ -185,7 +161,7 @@
       "prob": 0.9897,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 88
+      "tierReliability": 89
     },
     {
       "home": "Norway",
@@ -197,7 +173,7 @@
       "prob": 0.8828,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 88
+      "tierReliability": 89
     },
     {
       "home": "Norway",
@@ -209,7 +185,7 @@
       "prob": 0.8516,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 88
+      "tierReliability": 89
     },
     {
       "home": "Jordan",
@@ -221,7 +197,7 @@
       "prob": 0.8866,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 88
+      "tierReliability": 89
     },
     {
       "home": "Jordan",
@@ -233,7 +209,7 @@
       "prob": 0.8552,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 88
+      "tierReliability": 89
     },
     {
       "home": "Portugal",
@@ -245,7 +221,7 @@
       "prob": 0.9925,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 88
+      "tierReliability": 89
     },
     {
       "home": "Portugal",
@@ -257,7 +233,7 @@
       "prob": 0.9546,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 88
+      "tierReliability": 89
     },
     {
       "home": "England",
@@ -269,7 +245,7 @@
       "prob": 0.997,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 88
+      "tierReliability": 89
     },
     {
       "home": "England",
@@ -281,7 +257,7 @@
       "prob": 0.9771,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 88
+      "tierReliability": 89
     },
     {
       "home": "Panama",
@@ -293,7 +269,7 @@
       "prob": 0.9083,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 88
+      "tierReliability": 89
     },
     {
       "home": "Panama",
@@ -305,8 +281,32 @@
       "prob": 0.8263,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 88
+      "tierReliability": 89
+    },
+    {
+      "home": "Colombia",
+      "away": "DR Congo",
+      "date": "2026-06-23 20:00 UTC-6",
+      "id": null,
+      "market": "DC",
+      "label": "Double chance : Colombia ou nul",
+      "prob": 0.9484,
+      "why": "exclut l'issue la moins probable",
+      "tier": "lock",
+      "tierReliability": 89
+    },
+    {
+      "home": "Colombia",
+      "away": "DR Congo",
+      "date": "2026-06-23 20:00 UTC-6",
+      "id": null,
+      "market": "DNB",
+      "label": "Sans match nul : Colombia",
+      "prob": 0.9396,
+      "why": "remboursé si nul",
+      "tier": "lock",
+      "tierReliability": 89
     }
   ],
-  "lockCount": 141
+  "lockCount": 139
 }

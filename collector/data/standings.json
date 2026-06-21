@@ -323,17 +323,29 @@
       {
         "rank": 1,
         "team": "Iran",
-        "played": 1,
+        "played": 2,
         "win": 0,
-        "draw": 1,
+        "draw": 2,
         "loss": 0,
         "gf": 2,
         "ga": 2,
         "gd": 0,
-        "pts": 1
+        "pts": 2
       },
       {
         "rank": 2,
+        "team": "Belgium",
+        "played": 2,
+        "win": 0,
+        "draw": 2,
+        "loss": 0,
+        "gf": 1,
+        "ga": 1,
+        "gd": 0,
+        "pts": 2
+      },
+      {
+        "rank": 3,
         "team": "New Zealand",
         "played": 1,
         "win": 0,
@@ -341,18 +353,6 @@
         "loss": 0,
         "gf": 2,
         "ga": 2,
-        "gd": 0,
-        "pts": 1
-      },
-      {
-        "rank": 3,
-        "team": "Belgium",
-        "played": 1,
-        "win": 0,
-        "draw": 1,
-        "loss": 0,
-        "gf": 1,
-        "ga": 1,
         "gd": 0,
         "pts": 1
       },

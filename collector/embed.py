@@ -14,7 +14,9 @@ remplace automatiquement par la version à jour.
     python3 -m collector.embed
 """
 from __future__ import annotations
-import os, json, re, datetime
+import os, json, re, sys, datetime
+if sys.stdout and hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding='utf-8')
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
