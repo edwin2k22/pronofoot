@@ -679,9 +679,21 @@ def predict():
             lam_a = round(max(0.2, lam_a * ava["factor"]), 2)
 
         # ----- grille de scores CORRIGÉE (Dixon-Coles + effet de choc bivarié) -----
-        # γ = base calibrée + bonus contextuel (enjeu/serré) ; ρ = calibré
-        gamma = round(min(0.18, gamma_base + sg.shock_gamma(h["elo"] - a["elo"], mwi["stageStake"])), 3)
-        grid = sg.score_grid(lam_h, lam_a, rho=rho_cal, gamma=gamma)
+        # Dynamically adjust rho based on combined defensive strength
+        h_xga = h["xga_avg"] if "xga_avg" in h.keys() else 1.2
+        a_xga = a["xga_avg"] if "xga_avg" in a.keys() else 1.2
+        xga_avg_comb = (h_xga + a_xga) / 2.0
+        dyn_rho = max(-0.15, min(-0.02, -0.15 + (xga_avg_comb - 0.8) * (0.13 / 0.7))) if rho_cal == sg.DEFAULT_RHO else rho_cal
+        
+        # Dynamically adjust gamma based on match openness
+        h_xg = h["xg_avg"] if "xg_avg" in h.keys() else 1.2
+        a_xg = a["xg_avg"] if "xg_avg" in a.keys() else 1.2
+        xg_avg_comb = (h_xg + a_xg) / 2.0
+        openness = (xg_avg_comb + xga_avg_comb) / 2.0
+        gamma_bonus = max(0.0, min(0.10, (openness - 1.2) * 0.15))
+        
+        gamma = round(min(0.25, gamma_base + gamma_bonus + sg.shock_gamma(h["elo"] - a["elo"], mwi["stageStake"])), 3)
+        grid = sg.score_grid(lam_h, lam_a, rho=dyn_rho, gamma=gamma)
 
         res = markets.result_model(h["elo"], a["elo"], lam_h, lam_a, grid=grid)
 
@@ -719,10 +731,18 @@ def predict():
         btts_raw = goals["btts"]
         goals["btts"] = round(max(0.02, min(0.98, goals["btts"] + btts_shift)), 4)
         goals["over"] = round(max(0.02, min(0.98, goals["over"] + over_shift)), 4)
+        # facteurs de domination calculés plus tôt pour les corners et tirs
+        lam_tot = max(lam_h + lam_a, 0.5)
+        dom_h = 0.5 + (lam_h / lam_tot)
+        dom_a = 0.5 + (lam_a / lam_tot)
+        elo_f = 10 ** ((h["elo"] - a["elo"]) / 1600.0)
+        dom_h = max(0.82, min(1.22, dom_h * elo_f))
+        dom_a = max(0.82, min(1.22, dom_a / elo_f))
+
         # corners : prior FootyStats × facteur correctif empirique (source surestime ~×1.67)
         ch = shr.shrink(h["corners_avg"], h["matches_played"], setp.get_corners(mt["home"]) or PRIOR["corners"]) * corn_factor
         ca = shr.shrink(a["corners_avg"], a["matches_played"], setp.get_corners(mt["away"]) or PRIOR["corners"]) * corn_factor
-        corn = markets.corners_model(ch, ca)
+        corn = markets.corners_model(ch, ca, dom_h=dom_h, dom_a=dom_a)
         card_h = shr.shrink(h["cards_avg"], h["matches_played"], setp.get_cards(mt["home"]) or PRIOR["cards"])
         card_a = shr.shrink(a["cards_avg"], a["matches_played"], setp.get_cards(mt["away"]) or PRIOR["cards"])
         # ----- STYLE D'ARBITRAGE : module les cartons selon la sévérité de l'arbitre -----
@@ -793,13 +813,7 @@ def predict():
                       + shr.shrink(a["shots_against_avg"], na, PRIOR["shots"])) / 2
             base_a = (shr.shrink(a["shots_avg"], na, PRIOR["shots"])
                       + shr.shrink(h["shots_against_avg"], nh, PRIOR["shots"])) / 2
-            # 2) facteur domination = mélange λ relatif + écart Elo, borné [0.82, 1.22]
-            lam_tot = max(lam_h + lam_a, 0.5)
-            dom_h = 0.5 + (lam_h / lam_tot)                       # ~1.0 si équilibré
-            dom_a = 0.5 + (lam_a / lam_tot)
-            elo_f = 10 ** ((h["elo"] - a["elo"]) / 1600.0)        # léger ajustement Elo
-            dom_h = max(0.82, min(1.22, dom_h * elo_f))
-            dom_a = max(0.82, min(1.22, dom_a / elo_f))
+            # 2) facteur domination = calculé plus haut
             # 3) facteur possession (centré sur 50%), borné [0.85, 1.18]
             ph = shr.shrink(h["possession_avg"] if "possession_avg" in h.keys() else 50.0, nh, PRIOR["possession"])
             pa = shr.shrink(a["possession_avg"] if "possession_avg" in a.keys() else 50.0, na, PRIOR["possession"])

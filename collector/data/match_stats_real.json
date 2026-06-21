@@ -2518,5 +2518,10 @@
   "referee": "Dario Herrera",
   "home_xg": 0.22,
   "away_xg": 0.0
+ },
+ "Uruguay|Cape Verde": {
+  "home_cards": 0,
+  "away_cards": 0,
+  "source_espn": "ESPN (Opta) — stats joueur + équipe complètes"
  }
 }

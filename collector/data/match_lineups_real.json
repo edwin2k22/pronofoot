@@ -2416,5 +2416,68 @@
    "Amirmohammad Razzaghinia"
   ],
   "source": "ESPN (compos réelles)"
+ },
+ "Uruguay|Cape Verde": {
+  "home_formation": "4-2-3-1",
+  "home_xi": [
+   "Fernando Muslera",
+   "Mathías Olivera",
+   "Juan Manuel Sanabria",
+   "Sebastián Cáceres",
+   "Guillermo Varela",
+   "Manuel Ugarte",
+   "Federico Valverde",
+   "Maxi Araújo",
+   "Rodrigo Bentancur",
+   "Agustín Cano",
+   "Federico Viñas"
+  ],
+  "home_bench": [
+   "Rodrigo Zalazar",
+   "Nicolás de la Cruz",
+   "Rodrigo Aguirre",
+   "José María Giménez",
+   "Brian Rodríguez",
+   "Facundo Pellistri",
+   "Matías Viña",
+   "Joaquín Piquerez",
+   "Emiliano Martínez",
+   "Santiago Bueno",
+   "Santiago Mele",
+   "Darwin Núñez",
+   "Sergio Rochet"
+  ],
+  "away_formation": "4-1-4-1",
+  "away_xi": [
+   "Vozinha",
+   "Sidny Lopes Cabral",
+   "Steven Moreira",
+   "Diney Borges",
+   "Pico Lopes",
+   "Jamiro Monteiro",
+   "Garry Rodrigues",
+   "Ryan Mendes",
+   "Kevin Pina",
+   "Telmo Arcanjo",
+   "Gilson Benchimol"
+  ],
+  "away_bench": [
+   "João Paulo",
+   "Willy Semedo",
+   "Jovane Cabral",
+   "Deroy Duarte",
+   "Yannick Semedo",
+   "Kelvin Pires",
+   "Márcio Rosa",
+   "Nuno da Costa",
+   "Laros Duarte",
+   "Dailon Livramento",
+   "Logan Costa",
+   "CJ dos Santos",
+   "Stopira",
+   "Wagner Pina",
+   "Hélio Varela"
+  ],
+  "source": "ESPN (compos réelles)"
  }
 }

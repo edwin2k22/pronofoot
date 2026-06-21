@@ -8458,7 +8458,7 @@
    "goals_conceded": 0
   },
   "Diney Borges": {
-   "poste": "CD-L",
+   "poste": "D",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
@@ -8470,7 +8470,7 @@
    "goals_conceded": 0
   },
   "Pico Lopes": {
-   "poste": "CD-R",
+   "poste": "D",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
@@ -8482,7 +8482,7 @@
    "goals_conceded": 0
   },
   "Kevin Pina": {
-   "poste": "DM",
+   "poste": "M",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
@@ -8494,7 +8494,7 @@
    "goals_conceded": 0
   },
   "Sidny Lopes Cabral": {
-   "poste": "LB",
+   "poste": "D",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
@@ -8507,7 +8507,7 @@
    "cartons": "Yellow"
   },
   "Steven Moreira": {
-   "poste": "RB",
+   "poste": "D",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
@@ -8519,7 +8519,7 @@
    "goals_conceded": 0
   },
   "Jamiro Monteiro": {
-   "poste": "CM-L",
+   "poste": "M",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
@@ -8531,8 +8531,8 @@
    "goals_conceded": 0
   },
   "Laros Duarte": {
-   "poste": "CM-R",
-   "statut": "Titulaire",
+   "poste": "SUB",
+   "statut": "Remplaçant",
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -8543,8 +8543,8 @@
    "goals_conceded": 0
   },
   "Jovane Cabral": {
-   "poste": "LM",
-   "statut": "Titulaire",
+   "poste": "SUB",
+   "statut": "Remplaçant",
    "buts": 0,
    "passes_dec": 0,
    "tirs": 1,
@@ -8555,7 +8555,7 @@
    "goals_conceded": 0
   },
   "Ryan Mendes": {
-   "poste": "RM",
+   "poste": "M",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
@@ -8567,8 +8567,8 @@
    "goals_conceded": 0
   },
   "Dailon Livramento": {
-   "poste": "F",
-   "statut": "Titulaire",
+   "poste": "SUB",
+   "statut": "Remplaçant",
    "buts": 0,
    "passes_dec": 0,
    "tirs": 1,
@@ -8627,8 +8627,8 @@
    "goals_conceded": 0
   },
   "Gilson Benchimol": {
-   "poste": "SUB",
-   "statut": "Remplaçant",
+   "poste": "F",
+   "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -8639,8 +8639,8 @@
    "goals_conceded": 0
   },
   "Garry Rodrigues": {
-   "poste": "SUB",
-   "statut": "Remplaçant",
+   "poste": "M",
+   "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -8651,8 +8651,8 @@
    "goals_conceded": 0
   },
   "Telmo Arcanjo": {
-   "poste": "SUB",
-   "statut": "Remplaçant",
+   "poste": "M",
+   "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -9712,7 +9712,7 @@
    "goals_conceded": 1
   },
   "Mathías Olivera": {
-   "poste": "CD-L",
+   "poste": "D",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
@@ -9724,7 +9724,7 @@
    "goals_conceded": 1
   },
   "Sebastián Cáceres": {
-   "poste": "CD-R",
+   "poste": "D",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
@@ -9736,8 +9736,8 @@
    "goals_conceded": 1
   },
   "Matías Viña": {
-   "poste": "LB",
-   "statut": "Titulaire",
+   "poste": "SUB",
+   "statut": "Remplaçant",
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -9748,7 +9748,7 @@
    "goals_conceded": 1
   },
   "Guillermo Varela": {
-   "poste": "RB",
+   "poste": "D",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
@@ -9760,7 +9760,7 @@
    "goals_conceded": 1
   },
   "Federico Viñas": {
-   "poste": "AM",
+   "poste": "F",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
@@ -9772,7 +9772,7 @@
    "goals_conceded": 1
   },
   "Rodrigo Bentancur": {
-   "poste": "LM",
+   "poste": "M",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
@@ -9784,7 +9784,7 @@
    "goals_conceded": 1
   },
   "Manuel Ugarte": {
-   "poste": "RM",
+   "poste": "M",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
@@ -9796,8 +9796,8 @@
    "goals_conceded": 1
   },
   "Darwin Núñez": {
-   "poste": "F",
-   "statut": "Titulaire",
+   "poste": "SUB",
+   "statut": "Remplaçant",
    "buts": 0,
    "passes_dec": 0,
    "tirs": 1,
@@ -9808,7 +9808,7 @@
    "goals_conceded": 1
   },
   "Maxi Araújo": {
-   "poste": "AM-L",
+   "poste": "M",
    "statut": "Titulaire",
    "buts": 1,
    "passes_dec": 0,
@@ -9820,7 +9820,7 @@
    "goals_conceded": 1
   },
   "Federico Valverde": {
-   "poste": "AM-R",
+   "poste": "M",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
@@ -9880,8 +9880,8 @@
    "goals_conceded": 0
   },
   "Juan Manuel Sanabria": {
-   "poste": "SUB",
-   "statut": "Remplaçant",
+   "poste": "D",
+   "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
    "tirs": 3,
@@ -9988,8 +9988,8 @@
    "goals_conceded": 0
   },
   "Agustín Cano": {
-   "poste": "SUB",
-   "statut": "Remplaçant",
+   "poste": "M",
+   "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
    "tirs": 1,

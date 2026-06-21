@@ -57,10 +57,12 @@ def goals_model(lam_h, lam_a, line=2.5, rho=sg.DEFAULT_RHO, gamma=0.0, grid=None
 
 
 # ---------- 3) CORNERS ----------
-def corners_model(corners_h, corners_a, line=None):
+def corners_model(corners_h, corners_a, line=None, dom_h=1.0, dom_a=1.0):
     """Total de corners ~ Poisson(λ = corners attendus des 2 équipes).
     Les lignes O/U sont DYNAMIQUES : centrées sur le total attendu du match
     (sinon, avec ~17 corners attendus, toutes les lignes basses seraient à ~99%)."""
+    corners_h *= dom_h
+    corners_a *= dom_a
     lam = max(corners_h + corners_a, 1.0)
     # ligne principale = total attendu arrondi au .5 inférieur (ex. 17.3 -> 16.5)
     center = round(lam - 0.5) + 0.5
