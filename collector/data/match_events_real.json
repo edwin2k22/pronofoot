@@ -1415,5 +1415,34 @@
   "halftime": "0-0",
   "motm": "—",
   "note": ""
+ },
+ "Tunisia|Japan": {
+  "goals": [
+   {
+    "minute": 4,
+    "team": "Japan",
+    "player": "Daichi Kamada",
+    "assist": "Keito Nakamura",
+    "note": null
+   },
+   {
+    "minute": 31,
+    "team": "Japan",
+    "player": "Ayase Ueda",
+    "assist": "Kou Itakura",
+    "note": null
+   },
+   {
+    "minute": 69,
+    "team": "Japan",
+    "player": "Junya Ito",
+    "assist": "Ayase Ueda",
+    "note": null
+   }
+  ],
+  "cards": [],
+  "halftime": "0-2",
+  "motm": "—",
+  "note": ""
  }
 }

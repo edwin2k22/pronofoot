@@ -225,5 +225,56 @@
   },
   "home": "Germany",
   "away": "Ivory Coast"
+ },
+ "Spain|Saudi Arabia": {
+  "refTeam": "Spain",
+  "games": [
+   {
+    "date": "2012-09-07",
+    "score": "5-0",
+    "competition": "International Friendly"
+   },
+   {
+    "date": "2010-05-29",
+    "score": "3-2",
+    "competition": "International Friendly"
+   },
+   {
+    "date": "2006-06-23",
+    "score": "1-0",
+    "competition": "2006 FIFA World Cup"
+   }
+  ],
+  "summary": {
+   "win": 3,
+   "draw": 0,
+   "loss": 0,
+   "total": 3
+  },
+  "home": "Spain",
+  "away": "Saudi Arabia"
+ },
+ "New Zealand|Egypt": {
+  "refTeam": "New Zealand",
+  "games": [
+   {
+    "date": "2024-03-22",
+    "score": "0-1",
+    "competition": "2024 International Friendly"
+   },
+   {
+    "date": "2012-07-29",
+    "score": "1-1",
+    "competition": "2012 Olympic Men's Soccer"
+   }
+  ],
+  "summary": {
+   "win": 0,
+   "draw": 1,
+   "loss": 1,
+   "total": 2
+  },
+  "home": "New Zealand",
+  "away": "Egypt"
  }
 }

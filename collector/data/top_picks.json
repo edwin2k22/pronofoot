@@ -2,64 +2,64 @@
   "reliability": {
     "byTier": {
       "lock": {
-        "won": 49,
-        "total": 58,
-        "pct": 84
+        "won": 56,
+        "total": 65,
+        "pct": 86
       },
       "strong": {
-        "won": 38,
-        "total": 51,
-        "pct": 75
+        "won": 35,
+        "total": 47,
+        "pct": 74
       },
       "value": {
-        "won": 10,
-        "total": 12,
-        "pct": 83
+        "won": 11,
+        "total": 13,
+        "pct": 85
       }
     },
     "byMarket": {
       "DC": {
-        "won": 27,
-        "total": 35,
-        "pct": 77
+        "won": 28,
+        "total": 36,
+        "pct": 78
       },
       "DNB": {
-        "won": 20,
-        "total": 24,
-        "pct": 83
+        "won": 21,
+        "total": 25,
+        "pct": 84
       },
       "1N2": {
-        "won": 18,
-        "total": 35,
-        "pct": 51
+        "won": 19,
+        "total": 36,
+        "pct": 53
       },
       "OU": {
-        "won": 22,
-        "total": 35,
-        "pct": 63
+        "won": 23,
+        "total": 36,
+        "pct": 64
       },
       "BTTS": {
-        "won": 24,
-        "total": 35,
-        "pct": 69
+        "won": 23,
+        "total": 36,
+        "pct": 64
       },
       "CORNERS": {
-        "won": 24,
-        "total": 35,
-        "pct": 69
+        "won": 26,
+        "total": 36,
+        "pct": 72
       },
       "CARTONS": {
-        "won": 31,
-        "total": 35,
+        "won": 32,
+        "total": 36,
         "pct": 89
       }
     },
     "overall": {
-      "won": 97,
-      "total": 121,
-      "pct": 80
+      "won": 102,
+      "total": 125,
+      "pct": 82
     },
-    "sampleMatches": 35
+    "sampleMatches": 36
   },
   "tiers": {
     "lock": 0.85,
@@ -67,30 +67,6 @@
     "value": 0.66
   },
   "picks": [
-    {
-      "home": "Tunisia",
-      "away": "Japan",
-      "date": "2026-06-20 22:00 UTC-6",
-      "id": null,
-      "market": "CORNERS",
-      "label": "Plus de 5.5 corners",
-      "prob": 0.8027,
-      "why": "",
-      "tier": "lock",
-      "tierReliability": 84
-    },
-    {
-      "home": "Tunisia",
-      "away": "Japan",
-      "date": "2026-06-20 22:00 UTC-6",
-      "id": null,
-      "market": "CARTONS",
-      "label": "Moins de 4.5 cartons",
-      "prob": 0.7233,
-      "why": "",
-      "tier": "lock",
-      "tierReliability": 84
-    },
     {
       "home": "Spain",
       "away": "Saudi Arabia",
@@ -101,7 +77,7 @@
       "prob": 0.7963,
       "why": "",
       "tier": "lock",
-      "tierReliability": 84
+      "tierReliability": 86
     },
     {
       "home": "Spain",
@@ -113,7 +89,7 @@
       "prob": 0.6993,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 84
+      "tierReliability": 86
     },
     {
       "home": "Belgium",
@@ -125,7 +101,7 @@
       "prob": 0.8153,
       "why": "",
       "tier": "lock",
-      "tierReliability": 84
+      "tierReliability": 86
     },
     {
       "home": "Belgium",
@@ -137,7 +113,7 @@
       "prob": 0.815,
       "why": "",
       "tier": "lock",
-      "tierReliability": 84
+      "tierReliability": 86
     },
     {
       "home": "Uruguay",
@@ -149,7 +125,7 @@
       "prob": 0.717,
       "why": "",
       "tier": "lock",
-      "tierReliability": 84
+      "tierReliability": 86
     },
     {
       "home": "Uruguay",
@@ -161,7 +137,7 @@
       "prob": 0.7905,
       "why": "",
       "tier": "strong",
-      "tierReliability": 75
+      "tierReliability": 74
     },
     {
       "home": "New Zealand",
@@ -170,10 +146,10 @@
       "id": null,
       "market": "CORNERS",
       "label": "Plus de 5.5 corners",
-      "prob": 0.805,
+      "prob": 0.8011,
       "why": "",
       "tier": "lock",
-      "tierReliability": 84
+      "tierReliability": 86
     },
     {
       "home": "New Zealand",
@@ -185,7 +161,19 @@
       "prob": 0.7338,
       "why": "",
       "tier": "lock",
-      "tierReliability": 84
+      "tierReliability": 86
+    },
+    {
+      "home": "Argentina",
+      "away": "Austria",
+      "date": "2026-06-22 12:00 UTC-5",
+      "id": null,
+      "market": "CORNERS",
+      "label": "Moins de 9.5 corners",
+      "prob": 0.82,
+      "why": "",
+      "tier": "lock",
+      "tierReliability": 86
     },
     {
       "home": "Argentina",
@@ -197,19 +185,7 @@
       "prob": 0.8181,
       "why": "",
       "tier": "lock",
-      "tierReliability": 84
-    },
-    {
-      "home": "Argentina",
-      "away": "Austria",
-      "date": "2026-06-22 12:00 UTC-5",
-      "id": null,
-      "market": "CORNERS",
-      "label": "Moins de 9.5 corners",
-      "prob": 0.8161,
-      "why": "",
-      "tier": "lock",
-      "tierReliability": 84
+      "tierReliability": 86
     },
     {
       "home": "France",
@@ -221,7 +197,7 @@
       "prob": 0.8347,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 84
+      "tierReliability": 86
     },
     {
       "home": "France",
@@ -230,10 +206,10 @@
       "id": null,
       "market": "CORNERS",
       "label": "Moins de 10.5 corners",
-      "prob": 0.8073,
+      "prob": 0.8116,
       "why": "",
       "tier": "lock",
-      "tierReliability": 84
+      "tierReliability": 86
     },
     {
       "home": "Norway",
@@ -245,7 +221,7 @@
       "prob": 0.821,
       "why": "",
       "tier": "lock",
-      "tierReliability": 84
+      "tierReliability": 86
     },
     {
       "home": "Norway",
@@ -254,10 +230,10 @@
       "id": null,
       "market": "CORNERS",
       "label": "Moins de 10.5 corners",
-      "prob": 0.8068,
+      "prob": 0.811,
       "why": "",
       "tier": "lock",
-      "tierReliability": 84
+      "tierReliability": 86
     },
     {
       "home": "Jordan",
@@ -269,7 +245,7 @@
       "prob": 0.8332,
       "why": "",
       "tier": "lock",
-      "tierReliability": 84
+      "tierReliability": 86
     },
     {
       "home": "Jordan",
@@ -281,7 +257,7 @@
       "prob": 0.7338,
       "why": "",
       "tier": "lock",
-      "tierReliability": 84
+      "tierReliability": 86
     },
     {
       "home": "Portugal",
@@ -293,7 +269,7 @@
       "prob": 0.8144,
       "why": "",
       "tier": "lock",
-      "tierReliability": 84
+      "tierReliability": 86
     },
     {
       "home": "Portugal",
@@ -305,8 +281,32 @@
       "prob": 0.7727,
       "why": "",
       "tier": "lock",
-      "tierReliability": 84
+      "tierReliability": 86
+    },
+    {
+      "home": "England",
+      "away": "Ghana",
+      "date": "2026-06-23 16:00 UTC-4",
+      "id": null,
+      "market": "CORNERS",
+      "label": "Moins de 10.5 corners",
+      "prob": 0.8133,
+      "why": "",
+      "tier": "lock",
+      "tierReliability": 86
+    },
+    {
+      "home": "England",
+      "away": "Ghana",
+      "date": "2026-06-23 16:00 UTC-4",
+      "id": null,
+      "market": "DC",
+      "label": "Double chance : England ou nul",
+      "prob": 0.8031,
+      "why": "exclut l'issue la moins probable",
+      "tier": "lock",
+      "tierReliability": 86
     }
   ],
-  "lockCount": 91
+  "lockCount": 89
 }

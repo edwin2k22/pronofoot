@@ -2225,5 +2225,68 @@
    "Sontje Hansen"
   ],
   "source": "ESPN (compos réelles)"
+ },
+ "Tunisia|Japan": {
+  "home_formation": "3-4-2-1",
+  "home_xi": [
+   "Aymen Dahmen",
+   "Montassar Talbi",
+   "Omar Rekik",
+   "Dylan Bronn",
+   "Ellyes Skhiri",
+   "Anis Slimane",
+   "Ali Abdi",
+   "Yan Valery",
+   "Sebastian Tounekti",
+   "Hannibal Mejbri",
+   "Elias Saad"
+  ],
+  "home_bench": [
+   "Adem Arous",
+   "Ismaël Gharbi",
+   "Firas Chaouat",
+   "Raed Chikhaoui",
+   "Rayan Elloumi",
+   "Sabri Ben Hessen",
+   "Rani Khedira",
+   "Khalil Ayari",
+   "Moutaz Neffati",
+   "Elias Achouri",
+   "Hazem Mastouri",
+   "Mohamed Amine Ben Hamida",
+   "Mouhib Chamakh",
+   "Mohamed Hadj Mahmoud",
+   "Mortadha Ben Ouanes"
+  ],
+  "away_formation": "3-4-2-1",
+  "away_xi": [
+   "Zion Suzuki",
+   "Kou Itakura",
+   "Hiroki Ito",
+   "Takehiro Tomiyasu",
+   "Ao Tanaka",
+   "Kaishu Sano",
+   "Keito Nakamura",
+   "Ritsu Doan",
+   "Ayase Ueda",
+   "Daichi Kamada",
+   "Junya Ito"
+  ],
+  "away_bench": [
+   "Ayumu Seko",
+   "Yuito Suzuki",
+   "Junnosuke Suzuki",
+   "Tsuyoshi Watanabe",
+   "Yuto Nagatomo",
+   "Keisuke Osako",
+   "Koki Ogawa",
+   "Shogo Taniguchi",
+   "Keisuke Goto",
+   "Tomoki Hayakawa",
+   "Daizen Maeda",
+   "Yukinari Sugawara",
+   "Kento Shiogai"
+  ],
+  "source": "ESPN (compos réelles)"
  }
 }
