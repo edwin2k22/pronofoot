@@ -8453,24 +8453,24 @@
    "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 0,
-   "saves": 7,
+   "saves": 0,
    "shots_faced": 0,
    "goals_conceded": 0
   },
   "Diney Borges": {
-   "poste": "D",
+   "poste": "CD-L",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 1,
-   "tirs_cadres": 1,
+   "tirs": 0,
+   "tirs_cadres": 0,
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 0
   },
   "Pico Lopes": {
-   "poste": "D",
+   "poste": "CD-R",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
@@ -8482,11 +8482,11 @@
    "goals_conceded": 0
   },
   "Kevin Pina": {
-   "poste": "M",
+   "poste": "DM",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 1,
+   "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 0,
    "hors_jeu": 0,
@@ -8494,7 +8494,7 @@
    "goals_conceded": 0
   },
   "Sidny Lopes Cabral": {
-   "poste": "D",
+   "poste": "LB",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
@@ -8507,11 +8507,11 @@
    "cartons": "Yellow"
   },
   "Steven Moreira": {
-   "poste": "D",
+   "poste": "RB",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 1,
+   "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 0,
    "hors_jeu": 0,
@@ -8519,7 +8519,7 @@
    "goals_conceded": 0
   },
   "Jamiro Monteiro": {
-   "poste": "M",
+   "poste": "CM-L",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
@@ -8547,7 +8547,7 @@
    "statut": "Remplaçant",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 1,
+   "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 0,
    "hors_jeu": 0,
@@ -8555,14 +8555,14 @@
    "goals_conceded": 0
   },
   "Ryan Mendes": {
-   "poste": "M",
+   "poste": "RM",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 1,
+   "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 0,
-   "hors_jeu": 2,
+   "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 0
   },
@@ -8571,10 +8571,10 @@
    "statut": "Remplaçant",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 1,
+   "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 0,
-   "hors_jeu": 1,
+   "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 0
   },
@@ -8639,7 +8639,7 @@
    "goals_conceded": 0
   },
   "Garry Rodrigues": {
-   "poste": "M",
+   "poste": "LM",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
@@ -8651,7 +8651,7 @@
    "goals_conceded": 0
   },
   "Telmo Arcanjo": {
-   "poste": "M",
+   "poste": "CM-R",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
@@ -9074,7 +9074,7 @@
    "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 0,
-   "saves": 3,
+   "saves": 4,
    "shots_faced": 0,
    "goals_conceded": 1
   },
@@ -9085,7 +9085,7 @@
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 2,
+   "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 1
@@ -9107,9 +9107,9 @@
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 0,
-   "tirs_cadres": 0,
-   "fautes_commises": 2,
+   "tirs": 1,
+   "tirs_cadres": 1,
+   "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 1,
@@ -9119,10 +9119,10 @@
    "poste": "RB",
    "statut": "Titulaire",
    "buts": 0,
-   "passes_dec": 0,
-   "tirs": 2,
+   "passes_dec": 1,
+   "tirs": 1,
    "tirs_cadres": 0,
-   "fautes_commises": 1,
+   "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 1
@@ -9130,11 +9130,11 @@
   "Mohamed Salah": {
    "poste": "AM",
    "statut": "Titulaire",
-   "buts": 0,
+   "buts": 1,
    "passes_dec": 1,
-   "tirs": 1,
-   "tirs_cadres": 1,
-   "fautes_commises": 2,
+   "tirs": 5,
+   "tirs_cadres": 2,
+   "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 1
@@ -9146,19 +9146,20 @@
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 2,
+   "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 1,
+   "cartons": "Yellow"
   },
   "Marawan Attia": {
    "poste": "RM",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 1,
+   "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 3,
+   "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 1,
@@ -9169,9 +9170,9 @@
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 5,
-   "tirs_cadres": 0,
-   "fautes_commises": 2,
+   "tirs": 3,
+   "tirs_cadres": 1,
+   "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 1
@@ -9179,11 +9180,11 @@
   "Emam Ashour": {
    "poste": "AM-L",
    "statut": "Titulaire",
-   "buts": 1,
+   "buts": 0,
    "passes_dec": 0,
-   "tirs": 2,
-   "tirs_cadres": 1,
-   "fautes_commises": 0,
+   "tirs": 3,
+   "tirs_cadres": 0,
+   "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 1
@@ -9191,12 +9192,12 @@
   "Mostafa Zico": {
    "poste": "AM-R",
    "statut": "Titulaire",
-   "buts": 0,
-   "passes_dec": 0,
-   "tirs": 2,
+   "buts": 1,
+   "passes_dec": 1,
+   "tirs": 4,
    "tirs_cadres": 1,
-   "fautes_commises": 0,
-   "hors_jeu": 1,
+   "fautes_commises": 2,
+   "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 1
   },
@@ -9207,7 +9208,7 @@
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 0,
+   "fautes_commises": 2,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 0
@@ -9219,7 +9220,7 @@
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 0,
+   "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 0
@@ -9242,8 +9243,8 @@
    "buts": 0,
    "passes_dec": 0,
    "tirs": 1,
-   "tirs_cadres": 0,
-   "fautes_commises": 1,
+   "tirs_cadres": 1,
+   "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 0
@@ -9359,11 +9360,11 @@
   "Trézéguet": {
    "poste": "SUB",
    "statut": "Remplaçant",
-   "buts": 0,
+   "buts": 1,
    "passes_dec": 0,
-   "tirs": 0,
-   "tirs_cadres": 0,
-   "fautes_commises": 0,
+   "tirs": 1,
+   "tirs_cadres": 1,
+   "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 0
@@ -9707,33 +9708,33 @@
    "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 0,
-   "saves": 2,
+   "saves": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
   },
   "Mathías Olivera": {
-   "poste": "D",
+   "poste": "CD-L",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 1,
+   "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
   },
   "Sebastián Cáceres": {
-   "poste": "D",
+   "poste": "CD-R",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 2,
+   "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 1,
+   "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
   },
   "Matías Viña": {
    "poste": "SUB",
@@ -9743,101 +9744,101 @@
    "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 0,
-   "hors_jeu": 1,
+   "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
   },
   "Guillermo Varela": {
-   "poste": "D",
+   "poste": "RB",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 2,
+   "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 1,
+   "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
   },
   "Federico Viñas": {
    "poste": "F",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 5,
-   "tirs_cadres": 3,
+   "tirs": 0,
+   "tirs_cadres": 0,
    "fautes_commises": 0,
-   "hors_jeu": 2,
+   "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
   },
   "Rodrigo Bentancur": {
-   "poste": "M",
+   "poste": "RM",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 1,
+   "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
   },
   "Manuel Ugarte": {
-   "poste": "M",
+   "poste": "LM",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 2,
-   "tirs_cadres": 1,
+   "tirs": 0,
+   "tirs_cadres": 0,
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
   },
   "Darwin Núñez": {
    "poste": "SUB",
    "statut": "Remplaçant",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 1,
+   "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 1,
+   "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
   },
   "Maxi Araújo": {
-   "poste": "M",
-   "statut": "Titulaire",
-   "buts": 1,
-   "passes_dec": 0,
-   "tirs": 2,
-   "tirs_cadres": 2,
-   "fautes_commises": 1,
-   "hors_jeu": 2,
-   "shots_faced": 0,
-   "goals_conceded": 1
-  },
-  "Federico Valverde": {
-   "poste": "M",
+   "poste": "AM-L",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 3,
-   "tirs_cadres": 2,
-   "fautes_commises": 1,
+   "tirs": 0,
+   "tirs_cadres": 0,
+   "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
+  },
+  "Federico Valverde": {
+   "poste": "AM",
+   "statut": "Titulaire",
+   "buts": 0,
+   "passes_dec": 0,
+   "tirs": 0,
+   "tirs_cadres": 0,
+   "fautes_commises": 0,
+   "hors_jeu": 0,
+   "shots_faced": 0,
+   "goals_conceded": 0
   },
   "Nicolás de la Cruz": {
    "poste": "SUB",
    "statut": "Remplaçant",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 2,
-   "tirs_cadres": 1,
+   "tirs": 0,
+   "tirs_cadres": 0,
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
@@ -9880,14 +9881,14 @@
    "goals_conceded": 0
   },
   "Juan Manuel Sanabria": {
-   "poste": "D",
+   "poste": "LB",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 3,
+   "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 0,
-   "hors_jeu": 1,
+   "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 0
   },
@@ -9956,8 +9957,8 @@
    "statut": "Remplaçant",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 2,
-   "tirs_cadres": 1,
+   "tirs": 0,
+   "tirs_cadres": 0,
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
@@ -9988,13 +9989,13 @@
    "goals_conceded": 0
   },
   "Agustín Cano": {
-   "poste": "M",
+   "poste": "AM-R",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 1,
+   "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 0,
+   "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 0
@@ -10325,9 +10326,9 @@
    "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 0,
-   "saves": 2,
+   "saves": 4,
    "shots_faced": 0,
-   "goals_conceded": 2
+   "goals_conceded": 3
   },
   "Michael Boxall": {
    "poste": "CD-L",
@@ -10336,31 +10337,31 @@
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 0,
+   "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 2
+   "goals_conceded": 3
   },
   "Finn Surman": {
    "poste": "CD-R",
    "statut": "Titulaire",
-   "buts": 0,
+   "buts": 1,
    "passes_dec": 0,
    "tirs": 1,
-   "tirs_cadres": 0,
-   "fautes_commises": 0,
+   "tirs_cadres": 1,
+   "fautes_commises": 3,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 2
+   "goals_conceded": 3
   },
   "Liberato Cacace": {
    "poste": "LB",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 1,
-   "tirs_cadres": 1,
-   "fautes_commises": 0,
+   "tirs": 0,
+   "tirs_cadres": 0,
+   "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 2
@@ -10369,28 +10370,41 @@
    "poste": "RB",
    "statut": "Titulaire",
    "buts": 0,
-   "passes_dec": 0,
+   "passes_dec": 1,
    "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 2
+   "goals_conceded": 3
   },
   "Sarpreet Singh": {
    "poste": "AM",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 3,
-   "tirs_cadres": 2,
+   "tirs": 1,
+   "tirs_cadres": 0,
    "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 2
+   "goals_conceded": 2,
+   "cartons": "Yellow"
   },
   "Marko Stamenic": {
    "poste": "LM",
+   "statut": "Titulaire",
+   "buts": 0,
+   "passes_dec": 0,
+   "tirs": 2,
+   "tirs_cadres": 0,
+   "fautes_commises": 0,
+   "hors_jeu": 0,
+   "shots_faced": 0,
+   "goals_conceded": 3
+  },
+  "Joe Bell": {
+   "poste": "RM",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
@@ -10399,43 +10413,31 @@
    "fautes_commises": 2,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 2
-  },
-  "Joe Bell": {
-   "poste": "RM",
-   "statut": "Titulaire",
-   "buts": 0,
-   "passes_dec": 0,
-   "tirs": 0,
-   "tirs_cadres": 0,
-   "fautes_commises": 1,
-   "hors_jeu": 0,
-   "shots_faced": 0,
-   "goals_conceded": 2
+   "goals_conceded": 3
   },
   "Chris Wood": {
    "poste": "F",
    "statut": "Titulaire",
    "buts": 0,
-   "passes_dec": 2,
-   "tirs": 4,
-   "tirs_cadres": 2,
-   "fautes_commises": 0,
-   "hors_jeu": 0,
+   "passes_dec": 0,
+   "tirs": 1,
+   "tirs_cadres": 0,
+   "fautes_commises": 1,
+   "hors_jeu": 3,
    "shots_faced": 0,
-   "goals_conceded": 2
+   "goals_conceded": 3
   },
   "Elijah Just": {
    "poste": "AM-L",
    "statut": "Titulaire",
-   "buts": 2,
+   "buts": 0,
    "passes_dec": 0,
    "tirs": 2,
-   "tirs_cadres": 2,
+   "tirs_cadres": 1,
    "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 2
+   "goals_conceded": 3
   },
   "Callum McCowatt": {
    "poste": "AM-R",
@@ -10443,11 +10445,12 @@
    "buts": 0,
    "passes_dec": 0,
    "tirs": 2,
-   "tirs_cadres": 1,
-   "fautes_commises": 0,
+   "tirs_cadres": 2,
+   "fautes_commises": 2,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 2
+   "goals_conceded": 1,
+   "cartons": "Yellow"
   },
   "Alex Paulsen": {
    "poste": "SUB",
@@ -10471,7 +10474,7 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 0
+   "goals_conceded": 2
   },
   "Jesse Randall": {
    "poste": "SUB",
@@ -10483,7 +10486,7 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 0
+   "goals_conceded": 1
   },
   "Callan Elliot": {
    "poste": "SUB",
@@ -10538,9 +10541,9 @@
    "statut": "Remplaçant",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 0,
-   "tirs_cadres": 0,
-   "fautes_commises": 0,
+   "tirs": 1,
+   "tirs_cadres": 1,
+   "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 0
@@ -10600,12 +10603,24 @@
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 2,
+   "fautes_commises": 0,
+   "hors_jeu": 0,
+   "shots_faced": 0,
+   "goals_conceded": 1
+  },
+  "Alex Rufer": {
+   "poste": "SUB",
+   "statut": "Remplaçant",
+   "buts": 0,
+   "passes_dec": 0,
+   "tirs": 0,
+   "tirs_cadres": 0,
+   "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 0
   },
-  "Alex Rufer": {
+  "Logan Rogerson": {
    "poste": "SUB",
    "statut": "Remplaçant",
    "buts": 0,

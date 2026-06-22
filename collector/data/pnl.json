@@ -1,25 +1,25 @@
 {
-  "sampleWithOdds": 25,
+  "sampleWithOdds": 27,
   "favorite": {
-    "bets": 25,
-    "wins": 15,
-    "winRate": 60,
-    "pnl": -2.89,
-    "yield": -11.6
+    "bets": 27,
+    "wins": 16,
+    "winRate": 59,
+    "pnl": -3.3,
+    "yield": -12.2
   },
   "value": {
-    "bets": 52,
-    "wins": 27,
-    "winRate": 52,
-    "pnl": 9.06,
-    "yield": 17.4
+    "bets": 55,
+    "wins": 25,
+    "winRate": 45,
+    "pnl": 0.08,
+    "yield": 0.1
   },
   "valueStrict": {
-    "bets": 33,
-    "wins": 18,
-    "winRate": 55,
-    "pnl": -0.61,
-    "yield": -1.9
+    "bets": 36,
+    "wins": 19,
+    "winRate": 53,
+    "pnl": -1.32,
+    "yield": -3.7
   },
   "topValue": [
     {
@@ -27,11 +27,11 @@
       "away": "Austria",
       "date": "2026-06-22 12:00 UTC-5",
       "label": "Plus de 2.5 buts",
-      "prob": 0.8236,
+      "prob": 0.7959,
       "odd": 1.952,
       "implied": 0.5123,
-      "edge": 0.3113,
-      "ev": 0.608,
+      "edge": 0.2836,
+      "ev": 0.554,
       "provider": "DraftKings",
       "market": "O/U"
     },
@@ -40,26 +40,27 @@
       "away": "Iraq",
       "date": "2026-06-22 17:00 UTC-4",
       "label": "Plus de 3.5 buts",
-      "prob": 0.8062,
+      "prob": 0.8052,
       "odd": 1.909,
       "implied": 0.5238,
-      "edge": 0.2824,
-      "ev": 0.539,
+      "edge": 0.2814,
+      "ev": 0.537,
       "provider": "DraftKings",
       "market": "O/U"
     },
     {
-      "home": "Uruguay",
-      "away": "Cape Verde",
-      "date": "2026-06-21 18:00 UTC-4",
-      "label": "Plus de 2.5 buts",
-      "prob": 0.579,
-      "odd": 2.3,
-      "implied": 0.4348,
-      "edge": 0.1442,
-      "ev": 0.332,
+      "home": "Norway",
+      "away": "Senegal",
+      "date": "2026-06-22 20:00 UTC-4",
+      "label": "Victoire Senegal",
+      "prob": 0.4568,
+      "odd": 3.1,
+      "implied": 0.3226,
+      "edge": 0.1342,
+      "ev": 0.416,
       "provider": "DraftKings",
-      "market": "O/U"
+      "market": "1N2",
+      "lineMovement": -0.5
     }
   ]
 }

@@ -26,6 +26,12 @@ CREATE TABLE IF NOT EXISTS teams (
     xga_avg       REAL DEFAULT 1.35,
     corners_avg   REAL DEFAULT 5.0,
     cards_avg     REAL DEFAULT 2.0,
+    shots_avg     REAL,
+    shots_against_avg REAL,
+    shots_on_avg  REAL,
+    shots_on_against_avg REAL,
+    possession_avg REAL,
+    fouls_avg     REAL,
     updated_at    TEXT
 );
 

@@ -147,7 +147,11 @@ def update():
         # TIRS / TIRS CADRÉS : moyennes évolutives marqués + concédés (running mean).
         # _rm(col, valeur) ne met à jour QUE si la stat réelle existe (sinon garde l'ancienne).
         def _rm(team, col, val):
-            return shr.update_running_mean(team[col], team["matches_played"], val)[0] if val is not None else team[col]
+            if val is None:
+                return team[col]
+            if team[col] is None:
+                return float(val)
+            return shr.update_running_mean(team[col], team["matches_played"], val)[0]
         hs, as_ = mt["home_shots"], mt["away_shots"]
         hso, aso = mt["home_shots_on"], mt["away_shots_on"]
         h_shots = _rm(h, "shots_avg", hs)
@@ -166,19 +170,21 @@ def update():
             _ts = {}
         h_poss = _rm(h, "possession_avg", _ts.get("home_possession"))
         a_poss = _rm(a, "possession_avg", _ts.get("away_possession"))
+        h_fouls = _rm(h, "fouls_avg", _ts.get("home_fouls"))
+        a_fouls = _rm(a, "fouls_avg", _ts.get("away_fouls"))
 
         conn.execute("""UPDATE teams SET elo=?, gf_avg=?, ga_avg=?, xg_avg=?, xga_avg=?,
                         shots_avg=?, shots_against_avg=?, shots_on_avg=?, shots_on_against_avg=?,
-                        possession_avg=?,
+                        possession_avg=?, fouls_avg=?,
                         matches_played=matches_played+1, updated_at=? WHERE name=?""",
                      (new_h, hm_gf, hm_ga, hm_xg, hm_xga,
-                      h_shots, h_shots_ag, h_son, h_son_ag, h_poss, db.now(), h["name"]))
+                      h_shots, h_shots_ag, h_son, h_son_ag, h_poss, h_fouls, db.now(), h["name"]))
         conn.execute("""UPDATE teams SET elo=?, gf_avg=?, ga_avg=?, xg_avg=?, xga_avg=?,
                         shots_avg=?, shots_against_avg=?, shots_on_avg=?, shots_on_against_avg=?,
-                        possession_avg=?,
+                        possession_avg=?, fouls_avg=?,
                         matches_played=matches_played+1, updated_at=? WHERE name=?""",
                      (new_a, am_gf, am_ga, am_xg, am_xga,
-                      a_shots, a_shots_ag, a_son, a_son_ag, a_poss, db.now(), a["name"]))
+                      a_shots, a_shots_ag, a_son, a_son_ag, a_poss, a_fouls, db.now(), a["name"]))
         db.mark_processed(conn, mt["id"])
     conn.commit()
     print(f"✅ update : {len(todo)} matchs intégrés aux ratings (Elo + moyennes).")
@@ -762,6 +768,12 @@ def predict():
             scale = blended / max(team_cards, 0.5)
             card_h *= scale; card_a *= scale
         cards = markets.cards_model(card_h, card_a)
+        
+        if "fouls_avg" in h.keys() and h["fouls_avg"] is not None:
+            cards["foulsHome"] = round(h["fouls_avg"], 1)
+        if "fouls_avg" in a.keys() and a["fouls_avg"] is not None:
+            cards["foulsAway"] = round(a["fouls_avg"], 1)
+
         # source du prior corners/cartons (réel FootyStats vs générique)
         _real_sp = setp.get_corners(mt["home"]) is not None and setp.get_corners(mt["away"]) is not None
         corn["src"] = ("FootyStats ×%.2f (calibré %d matchs)" % (corn_factor, corn_n)) if (_real_sp and corn_n) else \
@@ -835,6 +847,10 @@ def predict():
             sm["basis"] = {"dominance": [round(dom_h, 2), round(dom_a, 2)],
                            "possession": [round(ph), round(pa)],
                            "accuracy": [round(acc_h * 100), round(acc_a * 100)]}
+            if "shots_avg" in h.keys() and h["shots_avg"] is not None:
+                sm["shotsAvgHome"] = round(h["shots_avg"], 1)
+            if "shots_avg" in a.keys() and a["shots_avg"] is not None:
+                sm["shotsAvgAway"] = round(a["shots_avg"], 1)
             shots = sm
 
         # ANGLE 2 — métacognition : le modèle s'auto-évalue (confiance + raisons)

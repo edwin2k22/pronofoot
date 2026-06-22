@@ -1,6 +1,7 @@
 import sqlite3
+import json
 
-conn = sqlite3.connect('collector/data/zcode.db')
+conn = sqlite3.connect('collector/db/pronofoot.db')
 c = conn.cursor()
-c.execute("SELECT name FROM sqlite_master WHERE type='table'")
+c.execute("SELECT fouls_avg, matches_played FROM teams WHERE name='Uruguay' OR name='Cape Verde'")
 print(c.fetchall())

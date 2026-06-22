@@ -2964,9 +2964,688 @@
  },
  "Uruguay|Cape Verde": {
   "goals": [],
-  "cards": [],
-  "commentary": [],
-  "halftime": null,
+  "cards": [
+   {
+    "minute": 5,
+    "team": "Cape Verde",
+    "player": "Sidny Lopes Cabral",
+    "type": "Yellow"
+   }
+  ],
+  "commentary": [
+   {
+    "minute": 0,
+    "text": "Lineups are announced and players are warming up.",
+    "type": ""
+   },
+   {
+    "minute": 0,
+    "text": "First Half begins.",
+    "type": ""
+   },
+   {
+    "minute": 2,
+    "text": "Sidny Cabral (Cabo Verde) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 2,
+    "text": "Foul by Agustín Canobbio (Uruguay).",
+    "type": "Foul"
+   },
+   {
+    "minute": 3,
+    "text": "Sidny Cabral (Cabo Verde) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 3,
+    "text": "Foul by Rodrigo Bentancur (Uruguay).",
+    "type": "Foul"
+   },
+   {
+    "minute": 5,
+    "text": "Foul by Sidny Cabral (Cabo Verde).",
+    "type": "Foul"
+   },
+   {
+    "minute": 5,
+    "text": "Rodrigo Bentancur (Uruguay) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 5,
+    "text": "Sidny Cabral (Cabo Verde) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 6,
+    "text": "Corner, Uruguay. Conceded by Pico Lopes.",
+    "type": "Corner Awarded"
+   }
+  ],
+  "halftime": "0-0",
+  "motm": "—",
+  "note": ""
+ },
+ "New Zealand|Egypt": {
+  "goals": [
+   {
+    "minute": 67,
+    "team": "Egypt",
+    "player": "Mohamed Salah",
+    "assist": "Mostafa Zico",
+    "note": null
+   }
+  ],
+  "cards": [
+   {
+    "minute": 17,
+    "team": "Egypt",
+    "player": "Mohanad Lashin",
+    "type": "Yellow"
+   },
+   {
+    "minute": 20,
+    "team": "New Zealand",
+    "player": "Sarpreet Singh",
+    "type": "Yellow"
+   },
+   {
+    "minute": 34,
+    "team": "New Zealand",
+    "player": "Callum McCowatt",
+    "type": "Yellow"
+   }
+  ],
+  "commentary": [
+   {
+    "minute": 0,
+    "text": "Lineups are announced and players are warming up.",
+    "type": ""
+   },
+   {
+    "minute": 0,
+    "text": "First Half begins.",
+    "type": "Kickoff"
+   },
+   {
+    "minute": 2,
+    "text": "Omar Marmoush (Egypt) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 2,
+    "text": "Foul by Finn Surman (New Zealand).",
+    "type": "Foul"
+   },
+   {
+    "minute": 3,
+    "text": "Foul by Joe Bell (New Zealand).",
+    "type": "Foul"
+   },
+   {
+    "minute": 3,
+    "text": "Emam Ashour (Egypt) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 6,
+    "text": "Attempt blocked. Mohamed Salah (Egypt) left footed shot from outside the box is blocked. Assisted by Mohanad Lasheen.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 7,
+    "text": "Attempt missed. Sarpreet Singh (New Zealand) left footed shot from outside the box misses to the right. Assisted by Liberato Cacace.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 8,
+    "text": "Delay in match (New Zealand).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 8,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 12,
+    "text": "Handball by Elijah Just (New Zealand).",
+    "type": "Handball"
+   },
+   {
+    "minute": 14,
+    "text": "Liberato Cacace (New Zealand) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 14,
+    "text": "Foul by Mostafa Zico (Egypt).",
+    "type": "Foul"
+   },
+   {
+    "minute": 14,
+    "text": "Attempt saved. Elijah Just (New Zealand) left footed shot from the left side of the box is saved in the bottom left corner by Mostafa Shobeir (Egypt). Assisted by Marko Stamenic.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 14,
+    "text": "Corner, New Zealand. Conceded by Mostafa Shobeir.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 15,
+    "text": "Goal! New Zealand 1, Egypt 0. Finn Surman (New Zealand) header from the centre of the box to the top left corner. Assisted by Tim Payne with a cross following a corner.",
+    "type": "Goal - Header"
+   },
+   {
+    "minute": 17,
+    "text": "Sarpreet Singh (New Zealand) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 17,
+    "text": "Foul by Mohanad Lasheen (Egypt).",
+    "type": "Foul"
+   },
+   {
+    "minute": 17,
+    "text": "Mohanad Lasheen (Egypt) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 19,
+    "text": "Attempt blocked. Elijah Just (New Zealand) left footed shot from outside the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 19,
+    "text": "Attempt saved. Callum McCowatt (New Zealand) left footed shot from a difficult angle on the left is saved in the bottom left corner by Mostafa Shobeir (Egypt).",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 20,
+    "text": "Mostafa Zico (Egypt) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 20,
+    "text": "Foul by Sarpreet Singh (New Zealand).",
+    "type": "Foul"
+   },
+   {
+    "minute": 20,
+    "text": "Sarpreet Singh (New Zealand) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 20,
+    "text": "Attempt blocked. Mohamed Hany (Egypt) right footed shot from the right side of the box is blocked. Assisted by Mohamed Salah.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 20,
+    "text": "Corner, Egypt. Conceded by Marko Stamenic.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 21,
+    "text": "Attempt missed. Mostafa Zico (Egypt) header from the centre of the box misses to the left. Assisted by Marwan Attia with a cross following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 21,
+    "text": "VAR Decision: Other Decision Cancelled.",
+    "type": "VAR - Referee decision cancelled"
+   },
+   {
+    "minute": 22,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 25,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 26,
+    "text": "Attempt blocked. Joe Bell (New Zealand) right footed shot from outside the box is blocked. Assisted by Chris Wood.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 27,
+    "text": "Attempt saved. Omar Marmoush (Egypt) right footed shot from outside the box is saved in the bottom right corner by Max Crocombe (New Zealand). Assisted by Emam Ashour.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 27,
+    "text": "Attempt missed. Chris Wood (New Zealand) header from the centre of the box misses to the right. Assisted by Liberato Cacace with a cross.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 30,
+    "text": "Mohamed Salah (Egypt) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 30,
+    "text": "Foul by Michael Boxall (New Zealand).",
+    "type": "Foul"
+   },
+   {
+    "minute": 34,
+    "text": "Foul by Callum McCowatt (New Zealand).",
+    "type": "Foul"
+   },
+   {
+    "minute": 34,
+    "text": "Emam Ashour (Egypt) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 34,
+    "text": "Callum McCowatt (New Zealand) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 35,
+    "text": "Attempt missed. Mohamed Salah (Egypt) left footed shot from outside the box is close, but misses to the left. Assisted by Omar Marmoush from a direct free kick.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 38,
+    "text": "Offside, New Zealand. Chris Wood is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 40,
+    "text": "Delay in match because of an injury Hamdi Fathy (Egypt).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 41,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 41,
+    "text": "Substitution, Egypt. Ramy Rabia replaces Hamdi Fathy because of an injury.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 42,
+    "text": "Offside, New Zealand. Chris Wood is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 43,
+    "text": "Foul by Tim Payne (New Zealand).",
+    "type": "Foul"
+   },
+   {
+    "minute": 43,
+    "text": "Ahmed Fatouh (Egypt) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 44,
+    "text": "Foul by Joe Bell (New Zealand).",
+    "type": "Foul"
+   },
+   {
+    "minute": 44,
+    "text": "Omar Marmoush (Egypt) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Attempt missed. Emam Ashour (Egypt) left footed shot from the centre of the box misses to the left. Assisted by Mostafa Zico with a cross.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 47,
+    "text": "Fourth official has announced 4 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 45,
+    "text": "Foul by Finn Surman (New Zealand).",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Omar Marmoush (Egypt) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 50,
+    "text": "First Half ends, New Zealand 1, Egypt 0.",
+    "type": ""
+   },
+   {
+    "minute": 45,
+    "text": "Second Half begins New Zealand 1, Egypt 0.",
+    "type": ""
+   },
+   {
+    "minute": 46,
+    "text": "Attempt saved. Mohamed Salah (Egypt) right footed shot from the centre of the box is saved in the bottom right corner by Max Crocombe (New Zealand). Assisted by Mohamed Hany with a cross.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 47,
+    "text": "Foul by Callum McCowatt (New Zealand).",
+    "type": "Foul"
+   },
+   {
+    "minute": 47,
+    "text": "Omar Marmoush (Egypt) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 47,
+    "text": "Attempt missed. Omar Marmoush (Egypt) right footed shot from outside the box is close, but misses to the left. Assisted by Mohamed Salah following a set piece situation.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 49,
+    "text": "Liberato Cacace (New Zealand) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 49,
+    "text": "Foul by Mostafa Zico (Egypt).",
+    "type": "Foul"
+   },
+   {
+    "minute": 49,
+    "text": "Attempt blocked. Mostafa Zico (Egypt) right footed shot from outside the box is blocked. Assisted by Mohamed Salah.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 50,
+    "text": "Attempt missed. Emam Ashour (Egypt) left footed shot from outside the box misses to the right. Assisted by Marwan Attia.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 50,
+    "text": "Attempt blocked. Omar Marmoush (Egypt) right footed shot from outside the box is blocked. Assisted by Mohamed Salah.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 52,
+    "text": "Attempt saved. Callum McCowatt (New Zealand) header from the centre of the box is saved in the top centre of the goal by Mostafa Shobeir (Egypt). Assisted by Marko Stamenic.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 52,
+    "text": "Corner, New Zealand. Conceded by Mostafa Shobeir.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 53,
+    "text": "Foul by Finn Surman (New Zealand).",
+    "type": "Foul"
+   },
+   {
+    "minute": 53,
+    "text": "Mostafa Shobeir (Egypt) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 55,
+    "text": "Attempt blocked. Mostafa Zico (Egypt) left footed shot from the centre of the box is blocked. Assisted by Ahmed Fatouh with a cross.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 55,
+    "text": "Attempt missed. Emam Ashour (Egypt) right footed shot from the centre of the box misses to the right.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 57,
+    "text": "Corner, Egypt. Conceded by Liberato Cacace.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 58,
+    "text": "Goal! New Zealand 1, Egypt 1. Mostafa Zico (Egypt) header from the centre of the box to the high centre of the goal. Assisted by Mohamed Hany with a cross.",
+    "type": "Goal - Header"
+   },
+   {
+    "minute": 61,
+    "text": "Foul by Liberato Cacace (New Zealand).",
+    "type": "Foul"
+   },
+   {
+    "minute": 61,
+    "text": "Emam Ashour (Egypt) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 62,
+    "text": "Liberato Cacace (New Zealand) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 62,
+    "text": "Foul by Ramy Rabia (Egypt).",
+    "type": "Foul"
+   },
+   {
+    "minute": 65,
+    "text": "Attempt blocked. Marko Stamenic (New Zealand) right footed shot from outside the box is blocked. Assisted by Joe Bell.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 65,
+    "text": "Sarpreet Singh (New Zealand) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 65,
+    "text": "Foul by Ramy Rabia (Egypt).",
+    "type": "Foul"
+   },
+   {
+    "minute": 66,
+    "text": "Substitution, New Zealand. Ben Old replaces Callum McCowatt.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 67,
+    "text": "Goal! New Zealand 1, Egypt 2. Mohamed Salah (Egypt) left footed shot from the centre of the box to the bottom left corner. Assisted by Mostafa Zico.",
+    "type": "Goal"
+   },
+   {
+    "minute": 72,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 75,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 76,
+    "text": "Substitution, New Zealand. Jesse Randall replaces Liberato Cacace.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 76,
+    "text": "Substitution, New Zealand. Ryan Thomas replaces Sarpreet Singh.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 76,
+    "text": "Substitution, Egypt. Trezeguet replaces Omar Marmoush.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 76,
+    "text": "Substitution, Egypt. Hamza Abdelkarim replaces Mostafa Zico.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 78,
+    "text": "Ben Old (New Zealand) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 78,
+    "text": "Foul by Emam Ashour (Egypt).",
+    "type": "Foul"
+   },
+   {
+    "minute": 79,
+    "text": "Ryan Thomas (New Zealand) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 79,
+    "text": "Foul by Trezeguet (Egypt).",
+    "type": "Foul"
+   },
+   {
+    "minute": 79,
+    "text": "Foul by Chris Wood (New Zealand).",
+    "type": "Aerial"
+   },
+   {
+    "minute": 79,
+    "text": "Yasser Ibrahim (Egypt) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 80,
+    "text": "Attempt saved. Ahmed Fatouh (Egypt) right footed shot from the left side of the box is saved in the centre of the goal by Max Crocombe (New Zealand).",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 81,
+    "text": "Attempt blocked. Mohamed Salah (Egypt) left footed shot from the right side of the box is blocked. Assisted by Emam Ashour.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 81,
+    "text": "Corner, Egypt. Conceded by Joe Bell.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 82,
+    "text": "Goal! New Zealand 1, Egypt 3. Trezeguet (Egypt) header from the centre of the box to the bottom left corner. Assisted by Mohamed Salah with a cross following a corner.",
+    "type": "Goal - Header"
+   },
+   {
+    "minute": 84,
+    "text": "Michael Boxall (New Zealand) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 84,
+    "text": "Foul by Hamza Abdelkarim (Egypt).",
+    "type": "Foul"
+   },
+   {
+    "minute": 85,
+    "text": "Substitution, Egypt. Zizo replaces Emam Ashour.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 85,
+    "text": "Substitution, Egypt. Hossam Abdelmaguid replaces Mohamed Salah.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 85,
+    "text": "Substitution, New Zealand. Tyler Bindon replaces Tim Payne.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 85,
+    "text": "Substitution, New Zealand. Francis de Vries replaces Elijah Just.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 88,
+    "text": "Corner, New Zealand. Conceded by Mohanad Lasheen.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 89,
+    "text": "Offside, New Zealand. Chris Wood is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 90,
+    "text": "Fourth official has announced 7 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Tyler Bindon (New Zealand).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Mostafa Shobeir (Egypt) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt saved. Zizo (Egypt) right footed shot from the left side of the six yard box is saved in the centre of the goal by Max Crocombe (New Zealand).",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 90,
+    "text": "Corner, New Zealand. Conceded by Ramy Rabia.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 90,
+    "text": "Delay in match because of an injury Hossam Abdelmaguid (Egypt).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 90,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt missed. Marko Stamenic (New Zealand) right footed shot from outside the box misses to the left.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt saved. Tyler Bindon (New Zealand) left footed shot from very close range is saved in the centre of the goal by Mostafa Shobeir (Egypt). Assisted by Marko Stamenic.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 90,
+    "text": "Substitution, Egypt. Mohamed Abdelmonem replaces Hossam Abdelmaguid because of an injury.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 90,
+    "text": "Corner, Egypt. Conceded by Michael Boxall.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 101,
+    "text": "Second Half ends, New Zealand 1, Egypt 3.",
+    "type": ""
+   },
+   {
+    "minute": 0,
+    "text": "Match ends, New Zealand 1, Egypt 3.",
+    "type": ""
+   }
+  ],
+  "halftime": "1-0",
   "motm": "—",
   "note": ""
  }

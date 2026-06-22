@@ -276,5 +276,23 @@
   },
   "home": "New Zealand",
   "away": "Egypt"
+ },
+ "Norway|Senegal": {
+  "refTeam": "Norway",
+  "games": [
+   {
+    "date": "2006-03-01",
+    "score": "1-2",
+    "competition": "International Friendly"
+   }
+  ],
+  "summary": {
+   "win": 0,
+   "draw": 0,
+   "loss": 1,
+   "total": 1
+  },
+  "home": "Norway",
+  "away": "Senegal"
  }
 }

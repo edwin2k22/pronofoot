@@ -2422,15 +2422,15 @@
   "home_xi": [
    "Fernando Muslera",
    "Mathías Olivera",
-   "Juan Manuel Sanabria",
    "Sebastián Cáceres",
+   "Juan Manuel Sanabria",
    "Guillermo Varela",
-   "Manuel Ugarte",
    "Federico Valverde",
-   "Maxi Araújo",
+   "Manuel Ugarte",
    "Rodrigo Bentancur",
-   "Agustín Cano",
-   "Federico Viñas"
+   "Federico Viñas",
+   "Maxi Araújo",
+   "Agustín Cano"
   ],
   "home_bench": [
    "Rodrigo Zalazar",
@@ -2450,15 +2450,15 @@
   "away_formation": "4-1-4-1",
   "away_xi": [
    "Vozinha",
-   "Sidny Lopes Cabral",
-   "Steven Moreira",
    "Diney Borges",
    "Pico Lopes",
+   "Kevin Pina",
+   "Sidny Lopes Cabral",
+   "Steven Moreira",
    "Jamiro Monteiro",
+   "Telmo Arcanjo",
    "Garry Rodrigues",
    "Ryan Mendes",
-   "Kevin Pina",
-   "Telmo Arcanjo",
    "Gilson Benchimol"
   ],
   "away_bench": [
@@ -2477,6 +2477,71 @@
    "Stopira",
    "Wagner Pina",
    "Hélio Varela"
+  ],
+  "source": "ESPN (compos réelles)"
+ },
+ "New Zealand|Egypt": {
+  "home_formation": "4-2-3-1",
+  "home_xi": [
+   "Max Crocombe",
+   "Michael Boxall",
+   "Finn Surman",
+   "Liberato Cacace",
+   "Tim Payne",
+   "Sarpreet Singh",
+   "Marko Stamenic",
+   "Joe Bell",
+   "Chris Wood",
+   "Elijah Just",
+   "Callum McCowatt"
+  ],
+  "home_bench": [
+   "Francis de Vries",
+   "Ryan Thomas",
+   "Alex Paulsen",
+   "Lachlan Bayliss",
+   "Ben Old",
+   "Ben Waine",
+   "Tyler Bindon",
+   "Callan Elliot",
+   "Logan Rogerson",
+   "Alex Rufer",
+   "Tommy Smith",
+   "Nando Pijnaker",
+   "Michael Woud",
+   "Kosta Barbarouses",
+   "Jesse Randall"
+  ],
+  "away_formation": "4-2-3-1",
+  "away_xi": [
+   "Mostafa Shoubir",
+   "Hamdy Fathy",
+   "Yasser Ibrahim",
+   "Ahmed Fatouh",
+   "Mohamed Hany",
+   "Mohamed Salah",
+   "Mohanad Lashin",
+   "Marawan Attia",
+   "Omar Marmoush",
+   "Emam Ashour",
+   "Mostafa Zico"
+  ],
+  "away_bench": [
+   "Mohamed Alaa",
+   "Mohamed Abdelmoneim",
+   "Haissem Hassan",
+   "Tarek Alaa",
+   "Hossam Abdelmaguid",
+   "Mohamed El Shenawy",
+   "Ibrahim Adel",
+   "Zizo",
+   "Ramy Rabia",
+   "Nabil Donga",
+   "Trézéguet",
+   "Mahdy Soliman",
+   "Hamza Abdelkarim",
+   "Mahmoud Saber",
+   "Karim Hafez"
   ],
   "source": "ESPN (compos réelles)"
  }

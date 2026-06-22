@@ -37,9 +37,11 @@ def main():
     print(f"   {len(sq)} sélections, {sum(len(t.get('players', [])) for t in sq)} joueurs.")
 
     print("⚙️  3/5 — seed (calendrier + vrais ratings FIFA + joueurs)...")
-    db_path = os.path.join(os.path.dirname(__file__), "data", "app.db")
-    if os.path.exists(db_path):
-        os.remove(db_path)
+    db_path = os.path.join(os.path.dirname(__file__), "db", "pronofoot.db")
+    for ext in ["", "-wal", "-shm"]:
+        p = db_path + ext
+        if os.path.exists(p):
+            os.remove(p)
     pipeline.seed()
 
     print("🌐 Ingestion & statistiques des matchs amicaux de 2026...")
@@ -52,13 +54,15 @@ def main():
     except Exception as e:
         print(f"   [warn] live API indisponible ({e}), fallback openfootball.")
     live.sync_openfootball()           # filet de sécurité : scores finaux openfootball
-    pipeline.ingest(); pipeline.update()
+    pipeline.ingest()
     try:
         from collector import espn_ingest
         espn_ingest.main()
         import_stats.main()            # vraies stats (xG/tirs/corners/cartons) des matchs finis
     except Exception as e:
         print(f"   [warn] import stats échoué : {e}")
+    
+    pipeline.update()                  # maj des moyennes (inclut possession, xG, fautes)
 
     # compos officielles des matchs à venir (XI réel ESPN, ~1 h avant le coup d'envoi)
     # -> active la pondération des absences (availability.py). Zéro invention.

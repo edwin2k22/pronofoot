@@ -1540,6 +1540,7 @@ function shotsBlock(m,p){
       <div class="ou-lines">${rows}</div>
       <div class="mod-big" style="margin-top:10px"><b>${s.expShotsOn}</b><small>tirs cadrés projetés (total)</small></div>
       <div class="ou-lines">${rowsOn}</div>
+      ${(s.shotsAvgHome!=null||s.shotsAvgAway!=null)?`<div class="stat"><span>Tirs moy. (réel)</span><span>${s.shotsAvgHome??"N/D"} — ${s.shotsAvgAway??"N/D"}</span></div>`:""}
       <div class="stat"><span>Précision attendue ${m.home}</span><span>${accBadge(s.homeAcc)}</span></div>
       <div class="stat"><span>Précision attendue ${m.away}</span><span>${accBadge(s.awayAcc)}</span></div>
       ${s.basis?`<div class="note" style="margin-top:8px">📐 Calculé sur : <b>attaque/défense</b> (tirs produits vs concédés) × <b>domination</b> (${s.basis.dominance?.[0]}/${s.basis.dominance?.[1]}, via buts attendus + Elo) × <b>possession</b> (${s.basis.possession?.[0]}%/${s.basis.possession?.[1]}%). Cadrés = tirs × précision réelle de chaque équipe (${s.basis.accuracy?.[0]}%/${s.basis.accuracy?.[1]}%).</div>`:`<div class="note" style="margin-top:8px">Projection dérivée des tirs réellement produits/concédés par chaque sélection au Mondial 2026.</div>`}
