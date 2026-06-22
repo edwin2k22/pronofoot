@@ -34,8 +34,14 @@ ASSIGNMENTS = {
     ("Sweden", "Tunisia"):                 ("Yael Falcón", "Argentine"),
     ("Australia", "Turkey"):               ("Kevin Ortega", "Pérou"),
     ("Uruguay", "Cape Verde"):             ("Espen Eskås", "Norvège"),
+    # --- Ajout manuel pour la 2ème journée ---
+    ("France", "Iraq"):                    ("Wilton Sampaio", "Brésil"),
+    ("Argentina", "Austria"):              ("François Letexier", "France"),
+    ("Norway", "Senegal"):                 ("Danny Makkelie", "Pays-Bas"),
+    ("Jordan", "Algeria"):                 ("Saíd Martínez", "Honduras"),
+    ("Portugal", "Uzbekistan"):            ("Glenn Nyberg", "Suède"),
+    ("England", "Ghana"):                  ("César Arturo Ramos", "Mexique"),
 }
-
 # Sévérité connue de quelques arbitres = cartons TOTAUX par match (jaunes + rouges)
 # sur leur saison/carrière récente. Sources : statshub, soccerbase, worldfootball (2025-26).
 # Sert de PRIOR ; affiné ensuite par les vrais cartons sifflés en CDM 2026 (cf. referee_form).

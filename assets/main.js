@@ -283,7 +283,7 @@ function renderBestPicks(){
   if(combo.length>=2){
     const comboProb = combo.reduce((a,p)=>a*p.prob,1);
     const legs = combo.map(p=>`<div class="combo-leg"><span>${p.home} v ${p.away}</span><b>${p.label}</b><span style="color:#33e0a0">${Math.round(p.prob*100)}%</span></div>`).join("");
-    comboHtml = `<div class="combo-box">
+    comboHtml = `<div class="combo-box" style="margin-top:0; height:100%;">
       <div class="combo-head">🧩 Combiné du jour <span class="mod-hint">${combo.length} sélections verrouillées</span></div>
       ${legs}
       <div class="combo-total">Probabilité combinée du modèle : <b>${Math.round(comboProb*100)}%</b>
@@ -291,16 +291,46 @@ function renderBestPicks(){
       <div class="note" style="margin-top:6px">Un combiné multiplie les risques : il suffit d'1 raté pour tout perdre. À jouer avec prudence.</div>
     </div>`;
   }
+
+  // groups par niveau (reconstruit avec grille interne)
+  let groupsHtml = "";
+  for(const t of order){
+    const picks=TOPPICKS.picks.filter(p=>p.tier===t);
+    if(!picks.length) continue;
+    const meta=TIER_META[t];
+    groupsHtml += `<h3 style="margin:24px 0 12px;color:${meta.col};grid-column:1/-1;">${meta.icon} ${meta.name} <span class="mod-hint">${meta.desc} · fiabilité mesurée ${(tiers[t]||{}).pct??"—"}%</span></h3>`;
+    groupsHtml += `<div style="grid-column:1/-1; display:grid; grid-template-columns:repeat(auto-fill, minmax(330px, 1fr)); gap:12px;">`;
+    groupsHtml += picks.map(p=>{
+      const conf=Math.round(p.prob*100);
+      return `<div class="pick-row" style="margin-bottom:0;" onclick="openMatchByTeams('${(p.home||'').replace(/'/g,"\\'")}','${(p.away||'').replace(/'/g,"\\'")}')">
+        <div class="pick-conf" style="color:${meta.col}">${conf}%</div>
+        <div class="pick-body">
+          <div class="pick-label">${p.label}</div>
+          <div class="pick-match">${p.home} <span style="opacity:.5">vs</span> ${p.away} <span class="pick-mk">${MARKET_NAME[p.market]||p.market}</span></div>
+          ${p.why?`<div class="pick-why">${p.why}</div>`:""}
+        </div>
+        <div class="pick-arrow">›</div>
+      </div>`;
+    }).join("");
+    groupsHtml += `</div>`;
+  }
+
   box.innerHTML = `
-    <div class="best-intro">
-      <div class="best-title">🎯 Les meilleurs choix de l'app</div>
-      <div class="best-sub">Sélection automatique des paris les plus sûrs parmi <b>tout</b> ce que le modèle prédit.
-        Le taux de réussite affiché est <b>réellement mesuré</b> sur les ${sample} matchs déjà joués — pas une promesse.</div>
-      <div class="rel-grid">${relCard("lock",lock)}${relCard("strong",strong)}${relCard("value",val)}</div>
-      ${comboHtml}
+    <div style="grid-column: 1 / -1;">
+      <div class="best-intro" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(400px, 1fr)); gap:24px; align-items:stretch;">
+        <div>
+          <div class="best-title">🎯 Les meilleurs choix de l'app</div>
+          <div class="best-sub">Sélection automatique des paris les plus sûrs parmi <b>tout</b> ce que le modèle prédit.
+            Le taux de réussite affiché est <b>réellement mesuré</b> sur les ${sample} matchs déjà joués — pas une promesse.</div>
+          <div class="rel-grid">${relCard("lock",lock)}${relCard("strong",strong)}${relCard("value",val)}</div>
+        </div>
+        <div>
+          ${comboHtml}
+        </div>
+      </div>
+      ${groupsHtml || '<div class="empty" style="margin-top:24px;">Aucun pick assez fiable pour l\'instant.</div>'}
+      <div class="note" style="margin-top:24px;">⚠️ Paris sportifs = risque réel. Même à 90%+, 1 pari sur 10 perd. Joue de façon responsable. Aucune donnée inventée : tout dérive des matchs réels.</div>
     </div>
-    ${groups || '<div class="empty">Aucun pick assez fiable pour l\'instant.</div>'}
-    <div class="note" style="margin-top:14px">⚠️ Paris sportifs = risque réel. Même à 90%+, 1 pari sur 10 perd. Joue de façon responsable. Aucune donnée inventée : tout dérive des matchs réels.</div>
   `;
 }
 

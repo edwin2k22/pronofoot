@@ -2544,5 +2544,70 @@
    "Karim Hafez"
   ],
   "source": "ESPN (compos réelles)"
+ },
+ "Argentina|Austria": {
+  "home_formation": "4-4-2",
+  "home_xi": [
+   "Emiliano Martínez",
+   "Lisandro Martínez",
+   "Cristian Romero",
+   "Facundo Medina",
+   "Nahuel Molina",
+   "Enzo Fernández",
+   "Alexis Mac Allister",
+   "Thiago Almada",
+   "Rodrigo De Paul",
+   "Lautaro Martínez",
+   "Lionel Messi"
+  ],
+  "home_bench": [
+   "Gerónimo Rulli",
+   "Valentín Barco",
+   "Nico Paz",
+   "Julián Álvarez",
+   "Marcos Senesi",
+   "Gonzalo Montiel",
+   "Leandro Paredes",
+   "Giuliano Simeone",
+   "Nico González",
+   "Nicolás Otamendi",
+   "Nicolás Tagliafico",
+   "Exequiel Palacios",
+   "José Manuel López",
+   "Giovani Lo Celso",
+   "Juan Musso"
+  ],
+  "away_formation": "4-2-3-1",
+  "away_xi": [
+   "Alexander Schlager",
+   "David Alaba",
+   "Kevin Danso",
+   "Konrad Laimer",
+   "Stefan Posch",
+   "Paul Wanner",
+   "Xaver Schlager",
+   "Nicolas Seiwald",
+   "Michael Gregoritsch",
+   "Marcel Sabitzer",
+   "Romano Schmid"
+  ],
+  "away_bench": [
+   "Carney Chukwuemeka",
+   "Michael Svoboda",
+   "Marco Friedl",
+   "Florian Wiegele",
+   "Phillipp Mwene",
+   "Alessandro Schöpf",
+   "David Affengruber",
+   "Dejan Ljubicic",
+   "Patrick Pentz",
+   "Philipp Lienhart",
+   "Florian Grillitsch",
+   "Alexander Prass",
+   "Patrick Wimmer",
+   "Sasa Kalajdzic",
+   "Marko Arnautovic"
+  ],
+  "source": "ESPN (compos réelles)"
  }
 }
