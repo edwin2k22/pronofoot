@@ -8,43 +8,43 @@
     "yield": -12.2
   },
   "value": {
-    "bets": 54,
-    "wins": 22,
-    "winRate": 41,
-    "pnl": -2.52,
-    "yield": -4.7
+    "bets": 55,
+    "wins": 25,
+    "winRate": 45,
+    "pnl": 0.08,
+    "yield": 0.1
   },
   "valueStrict": {
-    "bets": 37,
-    "wins": 18,
-    "winRate": 49,
-    "pnl": -3.79,
-    "yield": -10.2
+    "bets": 36,
+    "wins": 19,
+    "winRate": 53,
+    "pnl": -1.32,
+    "yield": -3.7
   },
   "topValue": [
-    {
-      "home": "France",
-      "away": "Iraq",
-      "date": "2026-06-22 17:00 UTC-4",
-      "label": "Plus de 3.5 buts",
-      "prob": 0.8089,
-      "odd": 1.909,
-      "implied": 0.5238,
-      "edge": 0.2851,
-      "ev": 0.544,
-      "provider": "DraftKings",
-      "market": "O/U"
-    },
     {
       "home": "Argentina",
       "away": "Austria",
       "date": "2026-06-22 12:00 UTC-5",
       "label": "Plus de 2.5 buts",
-      "prob": 0.7882,
+      "prob": 0.7959,
       "odd": 1.952,
       "implied": 0.5123,
-      "edge": 0.2759,
-      "ev": 0.539,
+      "edge": 0.2836,
+      "ev": 0.554,
+      "provider": "DraftKings",
+      "market": "O/U"
+    },
+    {
+      "home": "France",
+      "away": "Iraq",
+      "date": "2026-06-22 17:00 UTC-4",
+      "label": "Plus de 3.5 buts",
+      "prob": 0.8052,
+      "odd": 1.909,
+      "implied": 0.5238,
+      "edge": 0.2814,
+      "ev": 0.537,
       "provider": "DraftKings",
       "market": "O/U"
     },
@@ -53,11 +53,11 @@
       "away": "Senegal",
       "date": "2026-06-22 20:00 UTC-4",
       "label": "Victoire Senegal",
-      "prob": 0.4432,
+      "prob": 0.4568,
       "odd": 3.1,
       "implied": 0.3226,
-      "edge": 0.1206,
-      "ev": 0.374,
+      "edge": 0.1342,
+      "ev": 0.416,
       "provider": "DraftKings",
       "market": "1N2",
       "lineMovement": -0.5

@@ -1,13 +1,36 @@
-const $ = id => document.getElementById(id);
-const pct = x => Math.round((x||0)*100) + "%";
-let MATCHES = [], TAB = "SCHEDULED", GROUP = "Tous", SELECTED = null, TOPPICKS = null, LIVEFEED = [], PNL = null, STANDINGS = [], H2H = {};
+import { MATCHES, TAB, GROUP, SELECTED, TOPPICKS, LIVEFEED, PNL, STANDINGS, H2H, FAV_TEAMS, setMatches, setTab, setGroup, setSelected, setTopPicks, setLiveFeed, setPnl, setStandings, setH2h, setFavTeams } from './core/state.js';
+import { $, pct, parseKickoff, effectiveStatus, clockMinute, fmtCountdown, countdown, teamBadge, clean, dot, ouLineRow, bioHtml } from './core/utils.js';
+import { h2hBlock } from './components/h2h.js';
+import { oddsBlock } from './components/odds.js';
+import { attackQualityBlock, availabilityBlock, upsetBlock, contextBlock } from './components/context.js';
+import { marketsBlock, ouBlock, bttsBlock } from './components/markets.js';
+import { scenariosBlock } from './components/scenarios.js';
+import { shotsBlock } from './components/shots.js';
+import { cornersBlock } from './components/corners.js';
+import { cardsBlock } from './components/cards.js';
+import { renderStandings, renderBracket } from './components/standings.js';
+import { ppTeam, scorersVsBlock, playerPropsBlock } from './components/playerProps.js';
+import { halftimeBlock } from './components/halftime.js';
+import { renderPerf, drawSpark } from './components/performance.js';
+
+// Attach needed functions to window so inline HTML onclick handlers still work
+window.openMatchByTeams = openMatchByTeams;
+window.favBtn = favBtn;
+window.toggleFav = toggleFav;
+window.openSidebar = openSidebar;
+window.closeSidebar = closeSidebar;
+window.adminAction = adminAction;
+
+
+
+
 
 /* ===== FAVORIS & NOTIFICATIONS ===== */
-let FAV_TEAMS = [];
-try { FAV_TEAMS = JSON.parse(localStorage.getItem("prono_favs")) || []; } catch(e){}
+
+try { setFavTeams(JSON.parse(localStorage.getItem("prono_favs")) || []); } catch(e){}
 
 function toggleFav(team) {
-  if(FAV_TEAMS.includes(team)) FAV_TEAMS = FAV_TEAMS.filter(t=>t!==team);
+  if(FAV_TEAMS.includes(team)) setFavTeams(FAV_TEAMS.filter(t=>t!==team));
   else FAV_TEAMS.push(team);
   localStorage.setItem("prono_favs", JSON.stringify(FAV_TEAMS));
   render();
@@ -80,7 +103,7 @@ function checkNotifications(newData) {
 /* ---------- chargement ---------- */
 function applyData(data, srcLabel){
   if(!Array.isArray(data)||!data.length) return false;
-  MATCHES = data;
+  setMatches(data);
   window.__PRONOFOOT_MATCHES = MATCHES;
   $("srcPill").innerHTML = `<b>${data.length}</b> matchs · ${srcLabel}`;
   const nLive = data.filter(m=>{const s=effectiveStatus(m);return s==="LIVE"||s==="HT";}).length;
@@ -101,11 +124,11 @@ async function load(){
   // 1) données embarquées (marche toujours, même hors-ligne / dans l'aperçu)
   let embedded = [];
   try{ embedded = JSON.parse($("embedded-data").textContent) || []; }catch(_){}
-  try{ const tpEl=$("embedded-toppicks"); if(tpEl) TOPPICKS = JSON.parse(tpEl.textContent) || null; }catch(_){}
-  try{ const fEl=$("embedded-feed"); if(fEl) LIVEFEED = JSON.parse(fEl.textContent) || []; }catch(_){}
-  try{ const pEl=$("embedded-pnl"); if(pEl) PNL = JSON.parse(pEl.textContent) || null; }catch(_){}
-  try{ const stEl=$("embedded-standings"); if(stEl) STANDINGS = JSON.parse(stEl.textContent) || []; }catch(_){}
-  try{ const hEl=$("embedded-h2h"); if(hEl) H2H = JSON.parse(hEl.textContent) || {}; }catch(_){}
+  try{ const tpEl=$("embedded-toppicks"); if(tpEl) setTopPicks(JSON.parse(tpEl.textContent) || null); }catch(_){}
+  try{ const fEl=$("embedded-feed"); if(fEl) setLiveFeed(JSON.parse(fEl.textContent) || []); }catch(_){}
+  try{ const pEl=$("embedded-pnl"); if(pEl) setPnl(JSON.parse(pEl.textContent) || null); }catch(_){}
+  try{ const stEl=$("embedded-standings"); if(stEl) setStandings(JSON.parse(stEl.textContent) || []); }catch(_){}
+  try{ const hEl=$("embedded-h2h"); if(hEl) setH2h(JSON.parse(hEl.textContent) || {}); }catch(_){}
   if(embedded.length) applyData(embedded, "intégré");
   renderLiveFeed();
   renderTopValue();
@@ -179,21 +202,7 @@ function matchInTab(m){
      marquée ⏱️ ; le score affiché reste celui des vraies données (ou « score à venir »).
    ============================================================================= */
 const MATCH_MINUTES = 90, HT_BREAK = 15, STOPPAGE = 8; // durée plausible d'un match
-function parseKickoff(dateStr){
-  // formats : "2026-06-13 12:00 UTC-7", "2026-06-13 20:00 UTC+1", "UTC+5:30", ou sans UTC
-  if(!dateStr) return null;
-  const m = dateStr.match(/(\d{4})-(\d{2})-(\d{2})[ T](\d{2}):(\d{2})(?:\s*UTC([+-]\d{1,2})(?::?(\d{2}))?)?/);
-  if(!m) return null;
-  const [,Y,Mo,D,H,Mi,tzH,tzMin] = m;
-  // construit l'instant en UTC puis applique le décalage du fuseau du stade
-  let t = Date.UTC(+Y, +Mo-1, +D, +H, +Mi);
-  if(tzH!==undefined){
-    const sign = tzH[0]==="-" ? -1 : 1;
-    const offMin = (Math.abs(+tzH))*60 + (tzMin?+tzMin:0);
-    t -= sign*offMin*60*1000;   // UTC-7 => +7h pour revenir à l'UTC
-  }
-  return t;
-}
+
 /* effectiveStatus : statut RÉEL d'un match, en RESPECTANT TOUJOURS les données.
    États possibles :
      FINISHED  → vrai résultat confirmé (donnée) OU live périmé devenu fini.
@@ -204,55 +213,10 @@ function parseKickoff(dateStr){
                  ingéré (on n'invente NI score NI "terminé").
      SCHEDULED → avant le coup d'envoi (compte à rebours).
    L'horloge ne FABRIQUE jamais un LIVE ou un FINISHED « vide ». */
-function effectiveStatus(m){
-  // 1) priorité absolue au vrai résultat confirmé
-  if(m.status==="FINISHED") return "FINISHED";
-  const ko = parseKickoff(m.date);
-  const FULL = MATCH_MINUTES + HT_BREAK + STOPPAGE;       // ~113 min de jeu plausible
-  const GRACE = FULL + 75;                                // marge avant de considérer "fini" (prolong./retards)
 
-  // 2) donnée LIVE/HT réelle : crédible tant que l'horloge le confirme
-  if(m.status==="LIVE"||m.status==="HT"){
-    if(ko==null) return m.status;                         // pas de date : on garde la donnée live réelle
-    const el=(Date.now()-ko)/60000;
-    if(el<0) return "SCHEDULED";                          // coup d'envoi pas encore là
-    if(el<=GRACE) return m.status;                        // toujours dans la fenêtre plausible
-    return "FINISHED";                                    // live réel mais périmé -> terminé
-  }
 
-  // 3) match programmé sans donnée live : on N'INVENTE PAS de LIVE/score
-  if(ko==null) return m.status||"SCHEDULED";
-  const elapsed = (Date.now() - ko)/60000;
-  if(elapsed < 0) return "SCHEDULED";                     // avant le coup d'envoi
-  if(elapsed <= FULL) return "KICKOFF";                   // démarré (horloge) mais pas de donnée -> on attend
-  return "AWAITING";                                      // fini côté horloge mais résultat pas encore ingéré
-}
-function clockMinute(m){
-  // minute de jeu estimée — UNIQUEMENT pour un match dont la donnée live est réelle.
-  // (on ne fabrique pas de minute pour un simple "coup d'envoi atteint")
-  if(!(m.status==="LIVE"||m.status==="HT")) return null;
-  const ko = parseKickoff(m.date); if(ko==null) return null;
-  let e = Math.floor((Date.now()-ko)/60000);
-  if(e<0) return null;
-  if(e<=45) return {label:`${Math.max(1,e)}'`, phase:"1ère MT"};
-  if(e<=45+HT_BREAK) return {label:"Mi-temps", phase:"pause"};
-  e -= HT_BREAK;
-  if(e<=90) return {label:`${e}'`, phase:"2ème MT"};
-  return {label:"90'+", phase:"temps additionnel"};
-}
-function fmtCountdown(ms){
-  if(ms<=0) return "maintenant";
-  const s=Math.floor(ms/1000), d=Math.floor(s/86400), h=Math.floor(s%86400/3600),
-        mn=Math.floor(s%3600/60), sec=s%60;
-  if(d>0) return `dans ${d}j ${h}h`;
-  if(h>0) return `dans ${h}h ${mn}min`;
-  if(mn>0) return `dans ${mn}min ${sec}s`;
-  return `dans ${sec}s`;
-}
-function countdown(m){
-  const ko=parseKickoff(m.date); if(ko==null) return "";
-  return fmtCountdown(ko - Date.now());
-}
+
+
 
 
 /* ---------- liste ---------- */
@@ -386,107 +350,16 @@ function renderTopValue(){
 }
 
 /* PERFORMANCE : ROI dans le hero + sparkline d'évolution de la réussite */
-function renderPerf(){
-  const roiEl=$("heroRoi"), subEl=$("heroRoiSub");
-  if(roiEl && PNL && PNL.value){
-    const v=PNL.value, y=v.yield, n=v.bets, small=(n||0)<25;
-    if(y==null){ roiEl.textContent="N/D"; roiEl.style.color="var(--muted)"; subEl.textContent="cotes insuffisantes"; }
-    else{
-      roiEl.textContent=(y>0?"+":"")+y+"%";
-      roiEl.style.color = small ? "var(--muted)" : (y>0?"var(--acc)":(y<0?"var(--danger)":"var(--muted)"));
-      // honnête : on signale que l'échantillon est trop petit pour conclure
-      subEl.innerHTML = small
-        ? `${v.pnl>0?"+":""}${v.pnl}u · <span style="color:var(--warn)">échantillon ${n} (peu fiable)</span>`
-        : `${v.pnl>0?"+":""}${v.pnl}u sur ${n} value bets`;
-    }
-    const card=$("heroPerfCard");
-    if(card) card.title=`ROI value: ${y}% (${n} paris) · favori 1N2: ${PNL.favorite?PNL.favorite.yield:"—"}% · échantillon ${PNL.sampleWithOdds} matchs avec cotes`;
-  } else if(roiEl){ roiEl.textContent="—"; subEl.textContent="en attente de cotes"; }
-  drawSpark();
-}
+
 
 /* sparkline : précision cumulée du modèle (1N2) au fil des matchs joués */
-function drawSpark(){
-  const svg=$("perfSpark"); if(!svg) return;
-  const played=MATCHES.filter(m=>m.status==="FINISHED"&&m.analysis)
-    .sort((a,b)=>(a.date||"").localeCompare(b.date||""));
-  if(played.length<2){ svg.innerHTML=""; return; }
-  let ok=0; const pts=[];
-  played.forEach((m,i)=>{ if(m.analysis.predictionCorrect)ok++; pts.push(ok/(i+1)); });
-  const W=120,H=28,n=pts.length;
-  const x=i=>i/(n-1)*W;
-  const y=v=>H-2-v*(H-4);            // 0..1 -> bas..haut
-  const d=pts.map((v,i)=>`${i?"L":"M"}${x(i).toFixed(1)},${y(v).toFixed(1)}`).join(" ");
-  const last=pts[pts.length-1];
-  const col=last>=0.5?"#4ee1a0":"#ffcf5c";
-  svg.innerHTML=`<polyline points="${pts.map((v,i)=>x(i).toFixed(1)+","+y(v).toFixed(1)).join(" ")}"
-      fill="none" stroke="${col}" stroke-width="1.6"/>
-      <line x1="0" y1="${y(0.5)}" x2="${W}" y2="${y(0.5)}" stroke="#ffffff22" stroke-dasharray="2 2"/>`;
-}
+
 
 /* 🏆 CLASSEMENT DES GROUPES */
-function teamFlag(name){ return teamBadge(name); }
-function renderStandings(){
-  const box=$("matchList");
-  if(!STANDINGS || !STANDINGS.length){
-    box.innerHTML=`<div class="empty">Classements indisponibles.</div>`; return;
-  }
-  box.innerHTML = `<div class="groups-grid">` + STANDINGS.map(g=>{
-    const rows=g.rows.map(r=>{
-      const qual = r.rank<=2 ? "q1" : (r.rank===3 ? "q3" : "");  // 1-2 qualifiés, 3e repêchable
-      return `<tr class="${qual}">
-        <td class="gt-rk">${r.rank}</td>
-        <td class="gt-tm">${teamBadge(r.team)}<span>${r.team}</span></td>
-        <td>${r.played}</td><td class="gt-hide">${r.win}</td><td class="gt-hide">${r.draw}</td><td class="gt-hide">${r.loss}</td>
-        <td class="gt-hide">${r.gf}:${r.ga}</td><td>${r.gd>0?"+":""}${r.gd}</td>
-        <td class="gt-pts">${r.pts}</td></tr>`;
-    }).join("");
-    return `<div class="group-card">
-      <div class="group-title">${g.group.replace("Group","Groupe")}</div>
-      <table class="grp-table">
-        <thead><tr><th></th><th>Équipe</th><th>J</th><th class="gt-hide">G</th><th class="gt-hide">N</th><th class="gt-hide">P</th><th class="gt-hide">Buts</th><th>Diff</th><th>Pts</th></tr></thead>
-        <tbody>${rows}</tbody>
-      </table>
-    </div>`;
-  }).join("") + `</div>
-  <div class="note" style="margin-top:12px">🟢 1er-2e qualifiés · 🟡 3e éventuellement repêché. Classement calculé sur les résultats réels (pts > différence > buts marqués).</div>`;
-}
 
-function renderBracket(){
-  // On filtre et trie les matchs par ordre chronologique pour chaque round
-  const sortedMatches = [...MATCHES].sort((a,b)=>parseKickoff(a.date)-parseKickoff(b.date));
-  const rounds = [
-    { id: "LAST_16", label: "Huitièmes de finale" },
-    { id: "QUARTER_FINAL", label: "Quarts de finale" },
-    { id: "SEMI_FINAL", label: "Demi-finales" },
-    { id: "FINAL", label: "Finale" }
-  ];
-  
-  let html = `<div class="bracket-container">`;
-  rounds.forEach(r => {
-    const matches = sortedMatches.filter(m => String(m.league).includes(r.id));
-    if(!matches.length) return;
-    html += `<div class="bracket-round"><h4 style="text-align:center;color:var(--muted)">${r.label}</h4>`;
-    matches.forEach(m => {
-      let scoreHtml = "vs";
-      if(m.status === "FINISHED" && (m.analysis||{}).realScore) scoreHtml = m.analysis.realScore;
-      else if((m.status === "LIVE"||m.status === "HT") && m.liveScore) scoreHtml = m.liveScore;
-      
-      html += `<div class="bracket-match" onclick="openMatchByTeams('${(m.home||'').replace(/'/g,"\\'")}','${(m.away||'').replace(/'/g,"\\'")}')">
-        <div class="bracket-team">${teamBadge(m.home)} <span style="flex-grow:1;margin-left:8px">${m.home}</span>${favBtn(m.home)}</div>
-        <div style="text-align:center; font-weight:800; color:var(--acc); font-size:14px; margin:2px 0">${scoreHtml}</div>
-        <div class="bracket-team">${teamBadge(m.away)} <span style="flex-grow:1;margin-left:8px">${m.away}</span>${favBtn(m.away)}</div>
-      </div>`;
-    });
-    html += `</div>`;
-  });
-  html += `</div>`;
-  const box=$("bracketView");
-  if(box){
-    box.innerHTML = html;
-    box.classList.remove("u-hidden");
-  }
-}
+
+
+
 
 function render(){
   if(TAB==="BEST"){ renderBestPicks(); return; }
@@ -587,18 +460,13 @@ function render(){
         ${probBar}
         <div class="mi-meta"><div class="mi-tags">${tags}</div><div class="mi-go">${cta}</div></div>
       </div>`;
-    d.onclick=()=>{ SELECTED=m.home+"|"+m.away; showDetail(m); };
+    d.onclick=()=>{ setSelected(m.home+"|"+m.away); showDetail(m); };
     $("matchList").appendChild(d);
   });
 }
 
 /* pastille équipe : initiales + couleur dérivée du nom (déterministe) */
-function teamBadge(name){
-  const init=(name||"?").replace(/[^A-Za-zÀ-ÿ ]/g,"").split(/\s+/).map(w=>w[0]).join("").slice(0,3).toUpperCase();
-  let h=0; for(const c of (name||"")) h=(h*31+c.charCodeAt(0))%360;
-  const bg=`hsl(${h},62%,58%)`;
-  return `<span class="mi-badge" style="background:${bg}">${init}</span>`;
-}
+
 /* résumé X/4 inline pour les cartes terminées */
 function vsSummaryInline(m){
   const a=m.analysis,p=m.prediction; if(!a||!p) return "";
@@ -658,7 +526,7 @@ function closeDetail(){
   $("offcanvas").classList.remove("open");
   $("ocBackdrop").classList.remove("open");
   document.body.style.overflow = "";
-  SELECTED = null;
+  setSelected(null);
 }
 window.showDetail = showDetail;
 
@@ -715,14 +583,9 @@ function pitchFor(team, form, coach, xi, side){
       <div class="pitch-grass">${rows.join("")}</div>
     </div>`;
 }
-function clean(n){ return (n||"").replace(/\s*\(GK\)|\s*\(C\)/g,""); }
+
 /* pastille de forme : vert/jaune/rouge — placeholder déterministe tant que xG joueur = N/D */
-function dot(name){
-  const s = (name||"").length % 3;            // pseudo-forme stable (à remplacer par xG réel)
-  const c = s===0?"#33e0a0":s===1?"#ffd34e":"#ff6b7d";
-  const susp = /\(C\)/.test(name)?"":""; // place pour 🟨 suspension future
-  return `<span class="form-dot" style="background:${c}"></span>${susp}`;
-}
+
 
 /* compositions : mini-terrain + impact tactique sur le modèle */
 function lineupsBlock(m, a){
@@ -1021,158 +884,12 @@ function formRow(m){
 
 /* intelligence contextuelle : enjeu (MWI), confiance (métacognition), Kelly, trap */
 /* indice de surprise — facteurs au-delà des maths */
-function attackQualityBlock(m,p){
-  const aq=p.attackQuality; if(!aq) return "";
-  const h=aq.home||{}, a=aq.away||{};
-  if(!(h.stars||a.stars)) return "";
-  const side=(t,x)=>`<div style="flex:1">
-      <div style="font-size:11px;color:var(--muted)">${t}</div>
-      <div style="font-size:15px;font-weight:700">${"⭐".repeat(Math.min(x.stars||0,5))||"—"} <span style="font-size:11px;color:var(--acc)">×${x.boost}</span></div>
-      <div style="font-size:10px;color:var(--muted)">${(x.names||[]).join(", ")||"N/D"}</div>
-    </div>`;
-  return `<div class="module"><h3 style="color:#ffcf5c">⚡ Qualité offensive <span class="mod-hint">profils d'élite reconnus</span></h3>
-    <div style="display:flex;gap:14px">${side(m.home,h)}${side(m.away,a)}</div>
-    <div class="note" style="margin-top:8px">Le modèle rehausse le potentiel offensif des équipes au front d'élite (corrige la sous-estimation des équipes dangereuses sans match joué).</div>
-  </div>`;
-}
-function availabilityBlock(m,p){
-  const av=p.availability; if(!av) return "";
-  const h=av.home||{}, a=av.away||{};
-  // n'affiche que si une compo réelle a été utilisée ET qu'il y a un impact
-  const hHit=(h.applied && h.factor<1), aHit=(a.applied && a.factor<1);
-  if(!hHit && !aHit) return "";
-  const side=(t,x)=>{
-    if(!(x.applied && x.factor<1)) return "";
-    const pct=Math.round((1-x.factor)*100);
-    const who=(x.missing||[]).map(z=>z.name).join(", ");
-    return `<div style="flex:1">
-      <div style="font-size:11px;color:var(--muted)">${t}</div>
-      <div style="font-size:15px;font-weight:700;color:var(--danger)">−${pct}% <span style="font-size:11px;color:var(--muted)">buts attendus</span></div>
-      <div style="font-size:10px;color:var(--muted)">absent(s) : ${who||"—"}</div>
-    </div>`;
-  };
-  return `<div class="module"><h3 style="color:#ff7a7a">🩹 Absences clés <span class="mod-hint">compo officielle ESPN</span></h3>
-    <div style="display:flex;gap:14px">${side(m.home,h)}${side(m.away,a)}</div>
-    <div class="note" style="margin-top:8px">Quand un joueur majeur manque dans le XI officiel, le modèle réduit dynamiquement les buts attendus (λ) <b>avant</b> le calcul des probabilités. Aucun ajustement tant que la compo réelle n'est pas publiée.</div>
-  </div>`;
-}
-function upsetBlock(m,p){
-  const ui=p.upsetIndex; if(!ui) return availabilityBlock(m,p)+attackQualityBlock(m,p);
-  const _aq=availabilityBlock(m,p)+attackQualityBlock(m,p);
-  const col = ui.index>=55?"var(--danger)":ui.index>=35?"var(--warn)":"var(--acc)";
-  const facts=[];
-  if(ui.dogLowBlock) facts.push("🛡️ l'outsider défend bas (peu d'xG encaissé)");
-  if(ui.favOverperf) facts.push("🎯 le favori surperformait sa finition → régression probable");
-  if(ui.dampener<1) facts.push("⚖️ domination du favori atténuée par le modèle");
-  const fav = p.p1>=p.p2 ? m.home : m.away;
-  return _aq + `<div class="module"><h3 style="color:${col}">⚠️ Indice de surprise <span class="mod-hint">au-delà des maths</span></h3>
-    <div style="display:flex;align-items:center;gap:12px;margin:6px 0 8px">
-      <div style="font-size:30px;font-weight:800;color:${col}">${ui.index}<span style="font-size:14px;color:var(--muted)">/100</span></div>
-      <div style="flex:1">
-        <div style="height:8px;background:#0b1020;border-radius:6px;overflow:hidden"><div style="height:100%;width:${ui.index}%;background:${col};border-radius:6px"></div></div>
-        <div style="font-size:11px;color:var(--muted);margin-top:4px">risque que <b>${fav}</b> (favori) ne gagne pas — niveau <b style="color:${col}">${ui.label}</b></div>
-      </div>
-    </div>
-    ${facts.length?`<div class="note">${facts.join("<br>")}</div>`:`<div class="note">Aucun signal d'alerte majeur : le favori part en confiance.</div>`}
-  </div>`;
-}
 
-function contextBlock(m,p){
-  const mwi=p.mwi, meta=p.meta;
-  if(!mwi && !meta) return upsetBlock(m,p);
-  return upsetBlock(m,p) + _contextInner(m,p);
-}
-function _contextInner(m,p){
-  const mwi=p.mwi, meta=p.meta;
-  const confColor = meta ? (meta.confidence>=0.8?"#33e0a0":meta.confidence>=0.55?"#ffd34e":"#ff6b7d") : "#94a0c8";
-  const stake = mwi ? Math.round(mwi.stageStake*100) : null;
-  const stakeLabel = mwi && mwi.groupMatchday ? `Journée ${mwi.groupMatchday} de poule` : "Phase finale";
-  let html = `<div style="margin-top:14px"><h3>🧠 Contexte & confiance</h3>`;
-  if(meta){
-    html += `<div class="stat"><span>Confiance du modèle</span>
-      <span style="color:${confColor}">${Math.round(meta.confidence*100)}% (${meta.label})</span></div>
-      <div class="note" style="margin-top:4px">${meta.reasons.join(" · ")}</div>`;
-  }
-  if(mwi){
-    html += `<div class="stat" style="margin-top:8px"><span>Enjeu du match (Must-Win)</span>
-      <span>${stake}% — ${stakeLabel}</span></div>`;
-    // statut de qualification réel (si calculé)
-    const badge=(s)=> s==="qualified"?'<span class="tag" style="background:rgba(51,224,160,.15);color:#33e0a0">✅ qualifié</span>'
-      : s==="eliminated"?'<span class="tag" style="background:rgba(255,107,125,.15);color:#ff6b7d">❌ éliminé</span>'
-      : s==="alive"?'<span class="tag" style="background:rgba(91,140,255,.12);color:#5b8cff">⚪ en lice</span>':"";
-    if(mwi.statusHome||mwi.statusAway){
-      html += `<div class="stat"><span>Statut ${m.home}</span><span>${badge(mwi.statusHome)}</span></div>
-        <div class="stat"><span>Statut ${m.away}</span><span>${badge(mwi.statusAway)}</span></div>`;
-    }
-    if((mwi.statusHome==="qualified"||mwi.statusAway==="qualified") && mwi.groupMatchday===3)
-      html += `<div class="note" style="margin-top:4px">⚡ Une équipe déjà qualifiée joue ce match : rotation/baisse d'intensité probable (variance accrue).</div>`;
-    else if(stake>=80) html += `<div class="note" style="margin-top:4px">⚡ Enjeu élevé : 3e journée décisive.</div>`;
-  }
-  // Kelly (si cotes dispo)
-  const k=p.kelly;
-  if(k){
-    const lines=[["home",m.home],["draw","Nul"],["away",m.away]]
-      .map(([key,lbl])=> k[key]&&k[key].kelly>0 ? `<div class="stat"><span>💰 Mise conseillée (${lbl})</span><span>${(k[key].kelly*100).toFixed(1)}% bankroll</span></div>`:"")
-      .join("");
-    if(lines) html += lines;
-    else html += `<div class="note" style="margin-top:6px">💰 Kelly : aucune mise (pas de cotes saisies ou pas de value).</div>`;
-  }
-  // Line movement / trap — affiche ouverture → cote actuelle (et le drift)
-  const lm=p.lineMovement;
-  if(lm && lm.opening){
-    const op=lm.opening;
-    const cur={odd1:m.odd1, oddX:m.oddX, odd2:m.odd2};
-    // drift par issue (négatif = la cote a baissé = équipe soutenue par le marché)
-    const drift={"1":lm.home, "X":lm.draw, "2":lm.away};
-    const row=(key,oKey,label)=>{
-      const o=op[oKey], c=cur[oKey];
-      if(o==null) return "";
-      const d=drift[key];
-      const arrow = (c!=null && c<o) ? "↘" : (c!=null && c>o) ? "↗" : "→";
-      const col = (c!=null && c<o) ? "var(--acc)" : (c!=null && c>o) ? "var(--danger)" : "var(--muted)";
-      const cTxt = (c!=null) ? c : "—";
-      const dTxt = (d!=null && Math.abs(d)>=0.1) ? ` <span style="color:${col}">(${d>0?"+":""}${d}%)</span>` : "";
-      return `<div class="stat"><span>${label}</span><span>${o} <span style="color:${col}">${arrow}</span> ${cTxt}${dTxt}</span></div>`;
-    };
-    // a-t-on un VRAI mouvement (ouverture ≠ actuelle) ?
-    const moved = (cur.odd1!=null && (cur.odd1!==op.odd1 || cur.oddX!==op.oddX || cur.odd2!==op.odd2));
-    if(moved){
-      html += `<div class="stat" style="margin-top:8px"><span>📉 Mouvement de cote</span>
-          <span style="color:var(--muted);font-size:11px">ouverture → actuelle · ${lm.provider||""}</span></div>`;
-      html += row("1","odd1",m.home) + row("X","oddX","Nul") + row("2","odd2",m.away);
-      const favKey = (m.odd1!=null && m.odd2!=null) ? (m.odd1<=m.odd2?"1":"2") : null;
-      const favDrift = favKey ? drift[favKey] : null;
-      if(favDrift!=null && favDrift<=-5)
-        html += `<div class="note" style="margin-top:4px">📊 Le marché soutient fortement ${favKey==="1"?m.home:m.away} (cote en forte baisse).</div>`;
-    } else {
-      // pas de second relevé : on montre les cotes d'ouverture, sans fausse flèche
-      html += `<div class="stat" style="margin-top:8px"><span>🎰 Cotes (ouverture)</span>
-          <span>${op.odd1}/${op.oddX}/${op.odd2} <span style="color:var(--muted);font-size:11px">· ${lm.provider||""} · stables</span></span></div>`;
-    }
-  }
-  html += `</div>`;
 
-  // marché "qui se qualifie ?" (phase à élimination directe)
-  const ko=p.knockout;
-  if(ko){
-    html += `<div style="margin-top:14px"><h3>🏆 Qualification (90' + prolong. + TAB)</h3>
-      <div class="probbar"><div class="lbl"><span>${m.home} se qualifie</span><b>${pct(ko.qualifyHome)}</b></div><div class="track"><div class="b1" style="width:${ko.qualifyHome*100}%"></div></div></div>
-      <div class="probbar"><div class="lbl"><span>${m.away} se qualifie</span><b>${pct(ko.qualifyAway)}</b></div><div class="track"><div class="b2" style="width:${ko.qualifyAway*100}%"></div></div></div>
-      <div class="note" style="margin-top:4px">Si tirs au but : ${m.home} ${pct(ko.shootoutHome)} (Elo + sang-froid). ${ko.note}</div>
-    </div>`;
-  }
-  // signature modèle
-  if(p.ensemble && p.ensemble.weights){
-    const w=p.ensemble.weights;
-    const pc=v=>Math.round(v*100);
-    html += `<div class="note" style="margin-top:8px">🧠 Modèle d'ensemble (poids appris sur les résultats) :
-      Elo ${pc(w.elo)}% · Buts/xG ${pc(w.grid)}% · Forme ${pc(w.form)}%${p.ensemble.T&&Math.abs(p.ensemble.T-1)>0.02?` · calibration T=${p.ensemble.T}`:""}</div>`;
-  }
-  if(p.dixonColes){
-    html += `<div class="note" style="margin-top:8px">📐 Modèle : Dixon-Coles (ρ=${p.dixonColes.rho})${p.dixonColes.gamma>0?` + effet de choc (γ=${p.dixonColes.gamma})`:""}</div>`;
-  }
-  return html;
-}
+
+
+
+
 
 function probBlock(m,p){
   const cm=p.corners, cd=p.cards;
@@ -1192,108 +909,17 @@ function probBlock(m,p){
 }
 
 /* ===== HEAD-TO-HEAD (confrontations directes réelles ESPN) ===== */
-function h2hBlock(m){
-  const h = H2H[m.home+"|"+m.away] || H2H[m.away+"|"+m.home];
-  if(!h || !h.games || !h.games.length) return "";
-  const s=h.summary||{};
-  // si la clé inversée a servi, on réoriente l'affichage vers m.home
-  const flip = !H2H[m.home+"|"+m.away];
-  const win = flip ? s.loss : s.win, loss = flip ? s.win : s.loss, draw=s.draw;
-  const rows=h.games.slice(0,6).map(g=>{
-    let sc=g.score;
-    if(flip) sc = sc.split("-").reverse().join("-");
-    const [a,b]=sc.split("-").map(Number);
-    const col = a>b?"var(--acc)":(a<b?"var(--danger)":"var(--muted)");
-    return `<div class="h2h-row"><span class="h2h-d">${g.date||""}</span>
-      <span class="h2h-sc" style="color:${col}">${sc}</span>
-      <span class="h2h-c">${g.competition||""}</span></div>`;
-  }).join("");
-  return `<div class="module"><h3>🤝 Confrontations directes <span class="mod-hint">historique réel ESPN</span></h3>
-    <div class="h2h-sum">
-      <div><b style="color:var(--acc)">${win}</b><small>${m.home}</small></div>
-      <div><b>${draw}</b><small>nuls</small></div>
-      <div><b style="color:var(--danger)">${loss}</b><small>${m.away}</small></div>
-    </div>
-    <div class="h2h-list">${rows}</div>
-    <div class="note" style="margin-top:6px">Scores du point de vue de <b>${m.home}</b> · ${s.total} match(s) recensés.</div>
-  </div>`;
-}
+
 
 /* ===== COTES réelles + VALUE + KELLY (données ESPN/DraftKings) ===== */
-function oddsBlock(m,p){
-  if(m.odd1==null) return "";   // pas de cotes pour ce match
-  const v=p.value||{}, k=p.kelly||{};
-  const lm=p.lineMovement;
-  const cell=(lbl,odd,val,kel)=>{
-    const isVal = val&&val.value;
-    const kpct = (kel&&kel.kelly)?` · 💰 ${Math.round(kel.kelly*100)}%`:"";
-    return `<div class="odd-cell ${isVal?'val':''}">
-      <div class="odd-lbl">${lbl}</div>
-      <div class="odd-val">${odd!=null?odd.toFixed(2):"—"}</div>
-      <div class="odd-edge">${val?(val.edge>0?'+':'')+Math.round(val.edge*100)+' pts':''}${isVal?' ✅':''}${kpct}</div>
-    </div>`;
-  };
-  let mv="";
-  if(lm && lm.opening){
-    const arrow=x=> (x!=null&&x<-0.05)?'📉':(x!=null&&x>0.05?'📈':'➡️');
-    const op=lm.opening;
-    mv=`<div class="odd-mv">Mouvement cote : ${m.home} ${arrow(lm.home)} · ${m.away} ${arrow(lm.away)} <span style="color:var(--muted)">(ouverture ${op.odd1}/${op.oddX}/${op.odd2})</span></div>`;
-  }
-  return `<div class="module mod-odds"><h3>🎰 Cotes & value <span class="mod-hint">${m.oddsProvider||"bookmaker"} · réelles</span></h3>
-    <div class="odd-grid">
-      ${cell(m.home, m.odd1, v.home, k.home)}
-      ${cell("Nul", m.oddX, v.draw, k.draw)}
-      ${cell(m.away, m.odd2, v.away, k.away)}
-    </div>
-    ${mv}
-    <div class="odd-note">✅ value = le modèle estime une probabilité supérieure à celle du bookmaker (+2 pts mini). 💰 = mise Kelly conseillée (% bankroll, plafonné 5%). <b>Information, pas un conseil de pari.</b></div>
-  </div>`;
-}
+
 
 /* Buts : total xG projeté + Over/Under multi-lignes (1.5 / 2.5 / 3.5).
    Tout dérivé de la grille Dixon-Coles réelle. */
-function ouBlock(m,p){
-  const ou=p.overUnder;
-  const xg = p.totalXg!=null
-    ? `<div class="stat"><span>🎯 Total xG projeté</span><span><b>${p.totalXg}</b> (${p.lamHome} + ${p.lamAway})</span></div>`
-    : `<div class="stat"><span>Buts attendus</span><span>${p.lamHome} — ${p.lamAway}</span></div>`;
-  if(!ou) return xg + `<div class="stat"><span>Over 2.5 buts</span><span>${pct(p.over25)}</span></div>`;
-  const row=(ln)=>{
-    const o=ou[ln]; if(!o) return "";
-    const over=o.over, under=o.under, overLead=over>=under;
-    const uPct=Math.round(under*100), oPct=100-uPct;
-    return `<div class="ou-row">
-      <span class="ou-ln">${ln} but${parseFloat(ln)>=2?"s":""}</span>
-      <span class="ou-bar" title="Under ${pct(under)} · Over ${pct(over)}">
-        <span class="ou-u${overLead?"":" win"}" style="width:${uPct}%">${uPct>=18?`U ${pct(under)}`:""}</span>
-        <span class="ou-o${overLead?" win":""}" style="width:${oPct}%">${oPct>=18?`O ${pct(over)}`:""}</span>
-        <span class="ou-mid"></span>
-      </span>
-    </div>`;
-  };
-  return xg + `<div class="ou-wrap">
-    <div class="ou-legend"><span><i class="dot u"></i>Under (moins de)</span><span>50%</span><span><i class="dot o"></i>Over (plus de)</span></div>
-    ${row("1.5")}${row("2.5")}${row("3.5")}
-  </div>`;
-}
+
 
 /* BTTS (les deux marquent) Oui/Non + niveau de confiance (métacognition + netteté du marché) */
-function bttsBlock(p){
-  const c=p.bttsConf;
-  const yes=p.btts, no=1-yes;
-  const confTxt = c ? ` · confiance <b class="conf-${c.label}">${c.label}</b>` : "";
-  const pick = c ? c.pick : (yes>=0.5?"Oui":"Non");
-  // transparence : si on a appliqué une correction empirique, on l'indique
-  const mc=p.marketCalib;
-  let calNote="";
-  if(mc && mc.n>0 && Math.abs(mc.bttsShift)>=0.01){
-    const sign=mc.bttsShift>0?"+":"";
-    calNote=`<div class="cal-note">⚙️ ajusté ${sign}${Math.round(mc.bttsShift*100)} pts d'après ${mc.n} matchs joués (brut ${pct(mc.bttsRaw)})</div>`;
-  }
-  return `<div class="stat"><span>BTTS — les deux marquent</span>
-    <span>Oui ${pct(yes)} / Non ${pct(no)}</span></div>
-    <div class="btts-pick">Pronostic : <b>${pick}</b>${confTxt}</div>${calNote}`;
-}
+
 
 /* libellé du score : sa vraie probabilité (souvent ~12-15%, pas une certitude !) */
 function scoreNote(p){
@@ -1322,321 +948,46 @@ function coherenceHint(m,p){
 }
 
 /* Score à la mi-temps probable (ratio structurel CDM ~42%, sourcé & étiqueté) */
-function halftimeBlock(m,p){
-  const h=p.halftime;
-  if(!h) return "";
-  
-  const realHt = (m.analysis && m.analysis.events && m.analysis.events.halftime) ? m.analysis.events.halftime : null;
-  const isStarted = m.status === 'IN_PROGRESS' || m.status === 'FINISHED';
-  
-  if (isStarted && realHt) {
-    return `<div style="margin-top:14px"><h3>⏱️ Score à la mi-temps (Réel)</h3>
-      <div class="scoreline" style="margin:4px 0">
-        <div class="tn" style="font-size:13px">${m.home}</div>
-        <div class="sc" style="font-size:26px">${realHt.replace("-", " – ")}<small>score à la pause</small></div>
-        <div class="tn" style="font-size:13px">${m.away}</div>
-      </div>
-    </div>`;
-  }
 
-  const note = (h.shareHome !== undefined && h.shareAway !== undefined)
-    ? `ℹ️ La mi-temps est estimée via les ratios de buts en 1ère MT propres à chaque équipe (priorisé à ~42% via Bayesian Shrinkage). Domicile (${m.home}) : <b>${Math.round(h.shareHome*100)}%</b> · Extérieur (${m.away}) : <b>${Math.round(h.shareAway*100)}%</b>.`
-    : `ℹ️ La mi-temps est dérivée du ratio structurel des buts en Coupe du Monde (~42 % marqués en 1ère période · sources : CDM 2018/2022 & 19 CDM 1930-2010). C'est une constante du football mondial, <b>pas</b> une statistique propre à ${m.home}/${m.away}.`;
-
-  return `<div style="margin-top:14px"><h3>⏱️ Mi-temps probable</h3>
-    <div class="grid2">
-      <div>
-        <div class="scoreline" style="margin:4px 0">
-          <div class="tn" style="font-size:13px">${m.home}</div>
-          <div class="sc" style="font-size:26px">${h.topScore[0]} – ${h.topScore[1]}<small>score à la pause</small></div>
-          <div class="tn" style="font-size:13px">${m.away}</div>
-        </div>
-      </div>
-      <div>
-        <div class="stat"><span>Score final probable</span><span><b>${p.topScore[0]} – ${p.topScore[1]}</b></span></div>
-        <div class="stat"><span>Au moins 1 but en 1ère MT</span><span>${pct(h.ou05.over)}</span></div>
-        <div class="stat"><span>Over 1.5 en 1ère MT</span><span>${pct(h.ou15.over)}</span></div>
-      </div>
-    </div>
-    <div class="note">${note}</div>
-  </div>`;
-}
 
 /* Marchés dérivés : Double Chance, Draw No Bet, top-3 scores exacts.
    100% calculés sur la grille Dixon-Coles (aucune cote, aucune donnée externe). */
-function marketsBlock(m,p){
-  const dc=p.doubleChance, dnb=p.drawNoBet, ts=p.topScores;
-  if(!dc && !dnb && !ts) return "";
-  let out = `<div style="margin-top:14px"><h3>🎯 Marchés dérivés</h3>`;
-  if(dc) out += `<div style="font-size:11.5px;color:var(--muted);margin:2px 0 3px">Double chance</div>
-    <div class="mk-chips">
-      <div class="mk-chip"><span class="k">${m.home} ou nul (1X)</span><span class="v">${pct(dc["1X"])}</span></div>
-      <div class="mk-chip"><span class="k">pas de nul (12)</span><span class="v">${pct(dc["12"])}</span></div>
-      <div class="mk-chip"><span class="k">nul ou ${m.away} (X2)</span><span class="v">${pct(dc["X2"])}</span></div>
-    </div>`;
-  if(dnb) out += `<div style="font-size:11.5px;color:var(--muted);margin:9px 0 3px">Draw No Bet (nul = remboursé)</div>
-    <div class="mk-chips">
-      <div class="mk-chip"><span class="k">${m.home}</span><span class="v">${pct(dnb.home)}</span></div>
-      <div class="mk-chip"><span class="k">${m.away}</span><span class="v">${pct(dnb.away)}</span></div>
-    </div>`;
-  if(ts && ts.length) out += `<div style="font-size:11.5px;color:var(--muted);margin:9px 0 3px">Scores probables (top 3)</div>
-    <div class="mk-chips">
-      ${ts.map(s=>`<div class="mk-chip"><span class="k">score</span><span class="v">${s.score} · ${pct(s.p)}</span></div>`).join("")}
-    </div>`;
-  return out + `</div>`;
-}
+
 
 /* Scénarios narratifs : 4 catégories dérivées de la grille de scores réelle.
    Aucun timing/historique inventé — chaque % vient de la somme des cases de la grille. */
-function scenariosBlock(m,p){
-  const sc=p.scenarios;
-  if(!sc || !sc.length) return "";
-  const col=id=> id==="closed"?"#5b8cff": id==="tight"?"#ffd34e": id==="open"?"#33e0a0":"#ff8a5b";
-  const main = sc.filter(s=>!s.angle);
-  const angle = sc.filter(s=>s.angle);
-  const card = s=>`<div class="scn ${s.angle?"angle":""}">
-      <div class="scn-bar" style="background:${col(s.id)}"></div>
-      <div class="scn-top"><div class="scn-title">${s.title}</div><div class="scn-p">${pct(s.p)}</div></div>
-      <div class="scn-track"><div class="scn-fill" style="width:${Math.round(s.p*100)}%;background:${col(s.id)}"></div></div>
-      <div class="scn-scores">${(s.scores||[]).map(x=>`<b>${x}</b>`).join("")}</div>
-      <div class="scn-note">${s.note||""}</div>
-    </div>`;
-  return `<div style="margin-top:14px"><h3>🎬 Scénarios du match</h3>
-    <div style="font-size:11.5px;color:var(--muted);margin:2px 0 4px">
-      Probabilités dérivées de la grille de scores réelle (les 3 premiers totalisent 100 %).
-      « Large écart » est un angle inclus dans « spectacle ».</div>
-    <div class="scn-grid">${main.map(card).join("")}</div>
-    ${angle.length?`<div class="scn-grid" style="grid-template-columns:1fr">${angle.map(card).join("")}</div>`:""}
-  </div>`;
-}
+
 
 /* helper : barre Over/Under générique (réutilisée par corners & cartons) */
-function ouLineRow(label, o){
-  const over=o.over, under=o.under, overLead=over>=under;
-  const uPct=Math.round(under*100), oPct=100-uPct;
-  return `<div class="ou-row"><span class="ou-ln">${label}</span>
-    <span class="ou-bar" title="Under ${pct(under)} · Over ${pct(over)}">
-      <span class="ou-u${overLead?"":" win"}" style="width:${uPct}%">${uPct>=18?`U ${pct(under)}`:""}</span>
-      <span class="ou-o${overLead?" win":""}" style="width:${oPct}%">${oPct>=18?`O ${pct(over)}`:""}</span>
-      <span class="ou-mid"></span></span></div>`;
-}
+
 
 /* bloc bio (forces/faiblesses) — données réelles sourcées, sinon rien */
-function bioHtml(b){
-  if(!b) return "";
-  const f=(b.forces||[]).map(x=>`<li>${x}</li>`).join("");
-  const w=(b.faiblesses||[]).map(x=>`<li>${x}</li>`).join("");
-  return `<div class="bio-card">
-    <div class="bio-top">${b.bio||""}${b.club?` <span class="bio-club">${b.club}</span>`:""}</div>
-    <div class="bio-fw">
-      <div class="bio-col bio-pro"><div class="bio-h">✅ Forces</div><ul>${f||"<li>N/D</li>"}</ul></div>
-      <div class="bio-col bio-con"><div class="bio-h">⚠️ Faiblesses</div><ul>${w||"<li>N/D</li>"}</ul></div>
-    </div>
-    ${b.source?`<div class="bio-src">source : ${b.source}</div>`:""}
-  </div>`;
-}
+
 
 /* ===== MODULE PRONOS JOUEURS (6 rôles, en probabilités) ===== */
-function ppTeam(teamName, pp){
-  if(!pp) return `<div class="risk-nd">Effectif indisponible — <b>N/D</b>.</div>`;
-  const bar=(p)=>`<span class="pp-bar"><span class="pp-fill" style="width:${Math.round(p*100)}%"></span></span>`;
-  // buteurs
-  const scorers=(pp.scorers||[]).map((s,i)=>`<div class="pp-row">
-      <span class="pp-rk">${i+1}</span>
-      <span class="pp-nm">${s.name}<span class="pp-pos">${s.poste||""}</span>${s.bio?'<span class="pp-bio-tag">bio ✓</span>':''}</span>
-      ${bar(s.p)}<b class="pp-pct">${pct(s.p)}</b>
-      <div class="pp-why">${s.why||""}</div>
-      ${bioHtml(s.bio)}
-    </div>`).join("");
-  // passeur principal / créateur
-  const cr=pp.creator;
-  const creator = cr?`<div class="pp-line"><span class="pp-k">🎨 Créateur principal</span>
-    <span><b>${cr.name}</b> <span class="pp-pos">${cr.poste||""}</span> · ${pct(cr.p)} <span class="pp-why-inline">${cr.why||""}</span></span></div>`:"";
-  // passeurs probables (top 3 hors créateur déjà cité)
-  const assisters=(pp.assisters||[]).slice(0,3).map(a=>`<div class="pp-line"><span class="pp-k">🅰️ Passeur</span>
-    <span><b>${a.name}</b> <span class="pp-pos">${a.poste||""}</span> · ${pct(a.p)}</span></div>`).join("");
-  // gardien
-  const gk=pp.keeper;
-  const keeper = gk?`<div class="pp-line"><span class="pp-k">🧤 Gardien sollicité</span>
-    <span><b>${gk.name}</b>${gk.expSotFaced!=null?` · ~${gk.expSotFaced} tirs cadrés à gérer`:" · N/D"}
-    <span class="pp-why-inline">${gk.why||""}</span></span></div>${gk.bio?bioHtml(gk.bio):""}`:"";
-  // remplaçant impact
-  const bench=(pp.benchImpact||[]);
-  const benchHtml = bench.length
-    ? bench.map(b=>`<div class="pp-line"><span class="pp-k">🔄 Impact banc</span>
-        <span><b>${b.name}</b> <span class="pp-pos">${b.poste||""}</span> · <span class="pp-why-inline">${b.why||""}</span></span></div>`).join("")
-    : `<div class="pp-line"><span class="pp-k">🔄 Impact banc</span><span style="color:var(--muted)">N/D tant qu'aucun remplaçant n'a été décisif</span></div>`;
-  return `<div class="pp-team"><div class="pp-team-h">${teamName}</div>
-    <div class="pp-sub">⚽ Buteurs probables</div>${scorers||'<div class="risk-nd">N/D</div>'}
-    ${creator}${assisters}${keeper}${benchHtml}</div>`;
-}
-/* ===== BUTEURS : pronostiqués (modèle) vs réels (match joué) ===== */
-function scorersVsBlock(m){
-  const a=m.analysis, p=m.prediction; if(!a||!p) return "";
-  const ev=a.events||{}; const goals=(ev.goals||[]).filter(g=>g.player && g.player!=="N/D");
-  const pp=p.playerProps; if(!pp) return "";
-  // noms réellement buteurs (normalisés sur le nom de famille)
-  const norm=s=>(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().trim();
-  const last=s=>{const n=norm(s).split(" ");return n[n.length-1]||"";};
-  const realScorers=goals.map(g=>g.player);
-  const realLast=new Set(realScorers.map(last));
-  // top buteurs pronostiqués par le modèle (rôle "scorer")
-  const picks=[];
-  for(const side of ["home","away"]){
-    const t=pp[side]||{}; const sc=t.scorers||[];
-    (Array.isArray(sc)?sc:[]).slice(0,3).forEach(x=>picks.push({team:m[side],name:x.name,prob:x.p}));
-  }
-  const goalRows=goals.map(g=>{
-    const pred=picks.some(x=>last(x.name)===last(g.player));
-    return `<div class="stat"><span>${g.minute}' ${g.player} <small style="color:var(--muted)">(${g.team})</small></span>
-      <span>${pred?'<span class="vs-chip win">✅ prédit</span>':'<span class="vs-chip lose">—</span>'}</span></div>`;
-  }).join("");
-  const pickRows=picks.map(x=>{
-    const nm=x.name; const hit=realLast.has(last(nm));
-    const prob=x.prob!=null?` <small>${Math.round(x.prob*100)}%</small>`:"";
-    return `<div class="stat"><span>${nm} <small style="color:var(--muted)">(${x.team})</small>${prob}</span>
-      <span>${hit?'<span class="vs-chip win">✅ a marqué</span>':'<span class="vs-chip lose">❌</span>'}</span></div>`;
-  }).join("");
-  return `<div class="module mod-players"><h3>🎯 Buteurs : prono vs réel</h3>
-    <div class="grid2">
-      <div><h4 style="margin:4px 0;font-size:13px">⚽ Buts réels du match</h4>${goalRows||'<div class="note">Aucun but.</div>'}</div>
-      <div><h4 style="margin:4px 0;font-size:13px">🔮 Buteurs pronostiqués (top 3/équipe)</h4>${pickRows||'<div class="note">N/D</div>'}</div>
-    </div>
-    <div class="note" style="margin-top:6px">Le modèle donne des <b>probabilités</b>, pas des certitudes : un buteur non prédit reste un résultat normal.</div>
-  </div>`;
-}
 
-function playerPropsBlock(m,p){
-  const pp=p.playerProps; if(!pp) return "";
-  return `<div class="module mod-players"><h3>👤 Pronos joueurs <span class="mod-hint">probabilités, pas des certitudes</span></h3>
-    <div class="pp-note">Probabilités <b>modèle</b> : effectif réel (poste) + production réelle des matchs joués.
-    Se précisent à mesure que les équipes jouent. Aucun chiffre inventé.</div>
-    <div class="pp-grid">${ppTeam(m.home,pp.home)}${ppTeam(m.away,pp.away)}</div>
-  </div>`;
-}
+/* ===== BUTEURS : pronostiqués (modèle) vs réels (match joué) ===== */
+
+
+
 
 function showLog(log){ const e=$("adminLog"); if(!e) return; if(log){e.classList.remove("u-hidden");e.textContent=log.slice(-4000);} else e.classList.add("u-hidden"); }
 
 /* ===== MODULE TIRS (vue équipe) — données réelles, N/D si match à venir ===== */
-function shotsBlock(m,p){
-  const s=p.shots; if(!s) return "";
-  // ----- MATCH À VENIR : PRONO de tirs/cadrés (moyennes évolutives réelles) -----
-  if(!s.real || s.home==null){
-    if(s.expShots==null) return "";   // aucun prono possible
-    const ln=s.lines||{}, lnOn=s.linesOn||{};
-    const keys=Object.keys(ln).sort((a,b)=>parseFloat(a)-parseFloat(b));
-    const keysOn=Object.keys(lnOn).sort((a,b)=>parseFloat(a)-parseFloat(b));
-    const rows=keys.map(k=>ouLineRow(`${k} tirs`,ln[k])).join("");
-    const rowsOn=keysOn.map(k=>ouLineRow(`${k} cadrés`,lnOn[k])).join("");
-    const accBadge=(a)=> a==null?`<span style="color:var(--muted)">N/D</span>`:`${a}%`;
-    return `<div class="module mod-shots"><h3>🎯 Tirs & tirs cadrés <span class="mod-hint">📊 prono (moyennes réelles CDM 2026)</span></h3>
-      <div class="mod-top">
-        <div class="mod-big"><b>${s.expShots}</b><small>tirs projetés</small></div>
-        <div class="mod-split">
-          <div class="stat"><span>${m.home}</span><span><b>${s.home}</b> tirs · ${s.homeOn} cadrés</span></div>
-          <div class="stat"><span>${m.away}</span><span><b>${s.away}</b> tirs · ${s.awayOn} cadrés</span></div>
-        </div>
-      </div>
-      <div class="ou-lines">${rows}</div>
-      <div class="mod-big" style="margin-top:10px"><b>${s.expShotsOn}</b><small>tirs cadrés projetés (total)</small></div>
-      <div class="ou-lines">${rowsOn}</div>
-      ${(s.shotsAvgHome!=null||s.shotsAvgAway!=null)?`<div class="stat"><span>Tirs moy. (réel)</span><span>${s.shotsAvgHome??"N/D"} — ${s.shotsAvgAway??"N/D"}</span></div>`:""}
-      <div class="stat"><span>Précision attendue ${m.home}</span><span>${accBadge(s.homeAcc)}</span></div>
-      <div class="stat"><span>Précision attendue ${m.away}</span><span>${accBadge(s.awayAcc)}</span></div>
-      ${s.basis?`<div class="note" style="margin-top:8px">📐 Calculé sur : <b>attaque/défense</b> (tirs produits vs concédés) × <b>domination</b> (${s.basis.dominance?.[0]}/${s.basis.dominance?.[1]}, via buts attendus + Elo) × <b>possession</b> (${s.basis.possession?.[0]}%/${s.basis.possession?.[1]}%). Cadrés = tirs × précision réelle de chaque équipe (${s.basis.accuracy?.[0]}%/${s.basis.accuracy?.[1]}%).</div>`:`<div class="note" style="margin-top:8px">Projection dérivée des tirs réellement produits/concédés par chaque sélection au Mondial 2026.</div>`}
-      <div class="note" style="margin-top:4px;opacity:.75">⚠️ Les tirs d'un match sont très variables : ce prono indique une tendance, pas une certitude.</div>
-    </div>`;
-  }
-  // barre comparative tirs (domicile vs extérieur)
-  const tot=Math.max((s.home||0)+(s.away||0),1);
-  const hW=Math.round((s.home||0)/tot*100);
-  const totOn=Math.max((s.homeOn||0)+(s.awayOn||0),1);
-  const hOnW=Math.round((s.homeOn||0)/totOn*100);
-  const accBadge=(a)=> a==null?`<span style="color:var(--muted)">N/D</span>`:`${a}%`;
-  return `<div class="module mod-shots"><h3>🎯 Tirs & tirs cadrés <span class="mod-hint">données réelles du match</span></h3>
-    <div class="cmp">
-      <div class="cmp-lbl"><b>${s.home}</b><span>Tirs</span><b>${s.away}</b></div>
-      <div class="cmp-bar"><span class="cmp-h" style="width:${hW}%"></span><span class="cmp-a" style="width:${100-hW}%"></span></div>
-    </div>
-    <div class="cmp">
-      <div class="cmp-lbl"><b>${s.homeOn??"N/D"}</b><span>Tirs cadrés</span><b>${s.awayOn??"N/D"}</b></div>
-      <div class="cmp-bar"><span class="cmp-h on" style="width:${hOnW}%"></span><span class="cmp-a on" style="width:${100-hOnW}%"></span></div>
-    </div>
-    <div class="stat"><span>Précision ${m.home}</span><span>${accBadge(s.homeAcc)}</span></div>
-    <div class="stat"><span>Précision ${m.away}</span><span>${accBadge(s.awayAcc)}</span></div>
-  </div>`;
-}
+
 
 /* ===== MODULE CORNERS (autonome) ===== */
-function cornersBlock(m,p){
-  const c=p.corners; if(!c) return "";
-  const ln=c.lines||{};
-  // lignes dynamiques (centrées sur le total attendu) -> on prend les clés du modèle, triées
-  const keys=Object.keys(ln).sort((a,b)=>parseFloat(a)-parseFloat(b));
-  const rows=keys.map(k=>ouLineRow(`${k} corners`,ln[k])).join("");
-  return `<div class="module mod-corners"><h3>⛳ Corners ${c.src?`<span class="mod-hint">📊 ${c.src}</span>`:""}</h3>
-    <div class="mod-top">
-      <div class="mod-big"><b>${c.exp_corners}</b><small>total projeté</small></div>
-      <div class="mod-split">
-        <div class="stat"><span>${m.home}</span><span><b>${c.home}</b></span></div>
-        <div class="stat"><span>${m.away}</span><span><b>${c.away}</b></span></div>
-      </div>
-    </div>
-    <div class="ou-wrap">
-      <div class="ou-legend"><span><i class="dot u"></i>Under</span><span>50%</span><span><i class="dot o"></i>Over</span></div>
-      ${rows}
-    </div></div>`;
-}
+
 
 /* ===== MODULE CARTONS (autonome — séparé des corners) ===== */
-function cardsBlock(m,p){
-  const c=p.cards; if(!c) return "";
-  const ln=c.lines||{};
-  const rows=["2.5","3.5","4.5"].filter(k=>ln[k]).map(k=>ouLineRow(`${k} cartons`,ln[k])).join("");
-  const ref=p.referee;
-  const refLine = ref
-    ? `<div class="stat"><span>🧑‍⚖️ Arbitre</span><span><b>${ref.name}</b> <span style="color:var(--muted)">(${ref.nation})</span></span></div>`
-      + (ref.severity?`<div class="stat"><span>⚖️ Style d'arbitrage</span><span><b>${ref.severity}</b> cartons/match <span style="color:var(--muted);font-size:10px">(${ref.severitySrc})</span></span></div>`:"")
-    : `<div class="stat"><span>🧑‍⚖️ Arbitre</span><span style="color:var(--muted)">N/D — non désigné publiquement</span></div>`;
-  const red = c.redProb!=null
-    ? `<div class="stat"><span>🟥 Au moins 1 rouge</span><span>${pct(c.redProb)} <span style="color:var(--muted);font-size:10px">(approx. structurelle)</span></span></div>`
-    : "";
-  // joueurs à risque
-  const rp=p.riskPlayers||{};
-  const realList=[...((rp.home&&rp.home.real)||[]).map(x=>({...x,team:m.home})),
-                 ...((rp.away&&rp.away.real)||[]).map(x=>({...x,team:m.away}))];
-  const realHtml = realList.length
-    ? `<div class="risk-real">${realList.map(x=>`<div class="risk-r"><span class="risk-card">${x.card}</span> <b>${x.name}</b> <span class="risk-pos">${x.pos||""} · ${x.team}</span></div>`).join("")}</div>`
-    : `<div class="risk-nd">Aucun joueur déjà averti (équipes pas encore en lice ou match propre). <b>N/D</b> tant qu'aucun match joué.</div>`;
-  const profiles=((rp.home&&rp.home.profiles)||[]);
-  const profHtml = profiles.length
-    ? `<div class="risk-prof"><div class="risk-prof-head">🧭 Profils tactiques exposés <span>éclairage générique, pas un joueur nommé</span></div>
-        ${profiles.map(x=>`<div class="risk-p">• <b>${x.role}</b> — ${x.why}</div>`).join("")}</div>`
-    : "";
-  return `<div class="module mod-cards"><h3>🟨 Cartons <span class="mod-hint">${c.src?`📊 ${c.src} · `:""}un match physique ne donne pas toujours beaucoup de cartons</span></h3>
-    <div class="mod-top">
-      <div class="mod-big"><b>${c.exp_cards}</b><small>total projeté</small></div>
-      <div class="mod-split">
-        <div class="stat"><span>${m.home}</span><span><b>${c.home}</b></span></div>
-        <div class="stat"><span>${m.away}</span><span><b>${c.away}</b></span></div>
-      </div>
-    </div>
-    <div class="ou-wrap">
-      <div class="ou-legend"><span><i class="dot u"></i>Under</span><span>50%</span><span><i class="dot o"></i>Over</span></div>
-      ${rows}
-    </div>
-    ${refLine}${red}
-    ${(c.foulsHome!=null||c.foulsAway!=null)?`<div class="stat"><span>Fautes moy.</span><span>${c.foulsHome??"N/D"} — ${c.foulsAway??"N/D"}</span></div>`:`<div class="stat"><span>Fautes moy. / équipe</span><span style="color:var(--muted)">N/D (non agrégé gratuitement)</span></div>`}
-    <div class="risk-wrap"><div class="risk-head">⚠️ Joueurs à risque</div>${realHtml}${profHtml}</div>
-    </div>`;
-}
+
 
 /* ---------- interactions ---------- */
 $("tabs").querySelectorAll(".tab").forEach(tab=>{
   tab.onclick=()=>{
     $("tabs").querySelectorAll(".tab").forEach(t=>t.classList.remove("active"));
     tab.classList.add("active");
-    TAB=tab.dataset.t; GROUP="Tous"; closeDetail();
+    setTab(tab.dataset.t); setGroup("Tous"); closeDetail();
     // le filtre par groupe n'a pas de sens dans "Meilleurs choix" / "Groupes"
     const gf=$("groupFilter"); if(gf) gf.style.display = (TAB==="BEST"||TAB==="GROUPS")?"none":"";
     buildGroupFilter(); render();
