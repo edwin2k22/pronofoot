@@ -2609,5 +2609,70 @@
    "Marko Arnautovic"
   ],
   "source": "ESPN (compos réelles)"
+ },
+ "France|Iraq": {
+  "home_formation": "4-2-3-1",
+  "home_xi": [
+   "Mike Maignan",
+   "William Saliba",
+   "Dayot Upamecano",
+   "Lucas Digne",
+   "Jules Koundé",
+   "Michael Olise",
+   "Adrien Rabiot",
+   "Manu Koné",
+   "Kylian Mbappé",
+   "Bradley Barcola",
+   "Ousmane Dembélé"
+  ],
+  "home_bench": [
+   "Warren Zaïre-Emery",
+   "Malo Gusto",
+   "Maxence Lacroix",
+   "Rayan Cherki",
+   "Désiré Doué",
+   "Ibrahima Konaté",
+   "Jean-Philippe Mateta",
+   "Brice Samba",
+   "N'Golo Kanté",
+   "Aurélien Tchouaméni",
+   "Lucas Hernández",
+   "Robin Risser",
+   "Marcus Thuram",
+   "Maghnes Akliouche",
+   "Theo Hernández"
+  ],
+  "away_formation": "4-1-4-1",
+  "away_xi": [
+   "Ahmed Basil",
+   "Akam Hashim",
+   "Zaid Tahseen",
+   "Amir Al-Ammari",
+   "Merchas Doski",
+   "Hussein Ali",
+   "Zidane Iqbal",
+   "Zaid Ismael",
+   "Ibrahim Bayesh",
+   "Ahmed Qasim",
+   "Aymen Hussein"
+  ],
+  "away_bench": [
+   "Kevin Yakob",
+   "Ali Al-Hamadi",
+   "Marko Farji",
+   "Munaf Younus",
+   "Ali Yousif",
+   "Jalal Hassan",
+   "Rebin Sulaka",
+   "Ahmed Maknazi",
+   "Youssef Amyn",
+   "Aimar Sher",
+   "Mustafa Saadoon",
+   "Ali Jasim",
+   "Mohanad Ali",
+   "Frans Putros",
+   "Fahad Talib"
+  ],
+  "source": "ESPN (compos réelles)"
  }
 }

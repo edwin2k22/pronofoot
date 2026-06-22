@@ -6,9 +6,8 @@ r = requests.get(url)
 data = r.json()
 for event in data.get('events', []):
     name = event['name']
-    competitions = event.get('competitions', [{}])
-    ref = None
-    for off in competitions[0].get('officials', []):
-        if (off.get('position', {}).get('name', '').lower() == 'referee'):
-            ref = off.get('fullName')
-    print(f"ESPN Scoreboard {name}: Referee = {ref}")
+    if 'Argentina' in name or 'Austria' in name:
+        status = event.get('status', {}).get('type', {}).get('name')
+        competitors = event.get('competitions', [{}])[0].get('competitors', [])
+        score = " - ".join([f"{c['team']['name']} {c.get('score', '?')}" for c in competitors])
+        print(f"Match: {name} | Status: {status} | Score: {score}")

@@ -1,37 +1,37 @@
 {
-  "sampleWithOdds": 27,
+  "sampleWithOdds": 28,
   "favorite": {
-    "bets": 27,
-    "wins": 16,
-    "winRate": 59,
-    "pnl": -3.3,
-    "yield": -12.2
+    "bets": 28,
+    "wins": 17,
+    "winRate": 61,
+    "pnl": -2.73,
+    "yield": -9.8
   },
   "value": {
-    "bets": 55,
-    "wins": 25,
-    "winRate": 45,
-    "pnl": 0.08,
-    "yield": 0.1
+    "bets": 57,
+    "wins": 26,
+    "winRate": 46,
+    "pnl": -0.35,
+    "yield": -0.6
   },
   "valueStrict": {
-    "bets": 36,
-    "wins": 19,
+    "bets": 38,
+    "wins": 20,
     "winRate": 53,
-    "pnl": -1.32,
-    "yield": -3.7
+    "pnl": -1.74,
+    "yield": -4.6
   },
   "topValue": [
     {
-      "home": "France",
-      "away": "Iraq",
-      "date": "2026-06-22 17:00 UTC-4",
-      "label": "Plus de 3.5 buts",
-      "prob": 0.8052,
-      "odd": 1.909,
-      "implied": 0.5238,
-      "edge": 0.2814,
-      "ev": 0.537,
+      "home": "England",
+      "away": "Ghana",
+      "date": "2026-06-23 16:00 UTC-4",
+      "label": "Plus de 2.5 buts",
+      "prob": 0.8641,
+      "odd": 1.645,
+      "implied": 0.6079,
+      "edge": 0.2562,
+      "ev": 0.421,
       "provider": "DraftKings",
       "market": "O/U"
     },
@@ -53,11 +53,11 @@
       "away": "Senegal",
       "date": "2026-06-22 20:00 UTC-4",
       "label": "Victoire Senegal",
-      "prob": 0.4549,
+      "prob": 0.4557,
       "odd": 3.1,
       "implied": 0.3226,
-      "edge": 0.1323,
-      "ev": 0.41,
+      "edge": 0.1331,
+      "ev": 0.413,
       "provider": "DraftKings",
       "market": "1N2",
       "lineMovement": -0.5

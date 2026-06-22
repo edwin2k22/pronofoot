@@ -10642,9 +10642,9 @@
    "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 0,
-   "saves": 2,
+   "saves": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
   },
   "William Saliba": {
    "poste": "CD-L",
@@ -10656,7 +10656,7 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
   },
   "Dayot Upamecano": {
    "poste": "CD-R",
@@ -10665,22 +10665,22 @@
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 1,
+   "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
   },
   "Theo Hernández": {
-   "poste": "LB",
-   "statut": "Titulaire",
+   "poste": "SUB",
+   "statut": "Remplaçant",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 1,
+   "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
   },
   "Jules Koundé": {
    "poste": "RB",
@@ -10689,17 +10689,17 @@
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 1,
-   "hors_jeu": 1,
+   "fautes_commises": 0,
+   "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
   },
   "Ousmane Dembélé": {
-   "poste": "AM",
+   "poste": "AM-R",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 1,
+   "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 0,
    "hors_jeu": 0,
@@ -10710,17 +10710,17 @@
    "poste": "LM",
    "statut": "Titulaire",
    "buts": 0,
-   "passes_dec": 1,
+   "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
   },
   "Aurélien Tchouaméni": {
-   "poste": "RM",
-   "statut": "Titulaire",
+   "poste": "SUB",
+   "statut": "Remplaçant",
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -10728,24 +10728,12 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
   },
   "Kylian Mbappé": {
    "poste": "F",
    "statut": "Titulaire",
-   "buts": 2,
-   "passes_dec": 0,
-   "tirs": 4,
-   "tirs_cadres": 4,
-   "fautes_commises": 2,
-   "hors_jeu": 0,
-   "shots_faced": 0,
-   "goals_conceded": 1
-  },
-  "Désiré Doué": {
-   "poste": "AM-L",
-   "statut": "Titulaire",
-   "buts": 0,
+   "buts": 1,
    "passes_dec": 0,
    "tirs": 2,
    "tirs_cadres": 1,
@@ -10754,17 +10742,29 @@
    "shots_faced": 0,
    "goals_conceded": 0
   },
+  "Désiré Doué": {
+   "poste": "SUB",
+   "statut": "Remplaçant",
+   "buts": 0,
+   "passes_dec": 0,
+   "tirs": 0,
+   "tirs_cadres": 0,
+   "fautes_commises": 0,
+   "hors_jeu": 0,
+   "shots_faced": 0,
+   "goals_conceded": 0
+  },
   "Michael Olise": {
-   "poste": "AM-R",
+   "poste": "AM",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 1,
    "tirs": 2,
-   "tirs_cadres": 2,
+   "tirs_cadres": 0,
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
   },
   "N'Golo Kanté": {
    "poste": "SUB",
@@ -10791,8 +10791,8 @@
    "goals_conceded": 0
   },
   "Lucas Digne": {
-   "poste": "SUB",
-   "statut": "Remplaçant",
+   "poste": "LB",
+   "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -10839,13 +10839,13 @@
    "goals_conceded": 0
   },
   "Manu Koné": {
-   "poste": "SUB",
-   "statut": "Remplaçant",
+   "poste": "RM",
+   "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 0,
+   "tirs": 1,
    "tirs_cadres": 0,
-   "fautes_commises": 0,
+   "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 0
@@ -10884,7 +10884,7 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
   },
   "Maxence Lacroix": {
    "poste": "SUB",
@@ -10899,16 +10899,16 @@
    "goals_conceded": 0
   },
   "Bradley Barcola": {
-   "poste": "SUB",
-   "statut": "Remplaçant",
-   "buts": 1,
+   "poste": "AM-L",
+   "statut": "Titulaire",
+   "buts": 0,
    "passes_dec": 0,
-   "tirs": 1,
-   "tirs_cadres": 1,
+   "tirs": 0,
+   "tirs_cadres": 0,
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
   },
   "Ibrahima Konaté": {
    "poste": "SUB",
@@ -11263,40 +11263,40 @@
  },
  "Iraq": {
   "Jalal Hassan": {
-   "poste": "G",
-   "statut": "Titulaire",
+   "poste": "SUB",
+   "statut": "Remplaçant",
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 0,
-   "saves": 2,
+   "saves": 0,
    "shots_faced": 0,
-   "goals_conceded": 4
+   "goals_conceded": 0
   },
   "Akam Hashim": {
    "poste": "CD-L",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 1,
+   "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 4
+   "goals_conceded": 1
   },
   "Zaid Tahseen": {
    "poste": "CD-R",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 2,
+   "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 3,
+   "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 4,
+   "goals_conceded": 1,
    "cartons": "Yellow"
   },
   "Merchas Doski": {
@@ -11309,31 +11309,32 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 4
+   "goals_conceded": 1
   },
   "Hussein Ali": {
    "poste": "RB",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 1,
+   "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 1,
-   "hors_jeu": 1,
+   "fautes_commises": 0,
+   "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 2
+   "goals_conceded": 1
   },
   "Amir Al-Ammari": {
-   "poste": "CM-L",
+   "poste": "DM",
    "statut": "Titulaire",
    "buts": 0,
-   "passes_dec": 1,
+   "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 4
+   "goals_conceded": 1,
+   "cartons": "Yellow"
   },
   "Zaid Ismael": {
    "poste": "CM-R",
@@ -11342,12 +11343,24 @@
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 2,
+   "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 2
+   "goals_conceded": 1
   },
   "Ali Jasim": {
+   "poste": "SUB",
+   "statut": "Remplaçant",
+   "buts": 0,
+   "passes_dec": 0,
+   "tirs": 0,
+   "tirs_cadres": 0,
+   "fautes_commises": 0,
+   "hors_jeu": 0,
+   "shots_faced": 0,
+   "goals_conceded": 0
+  },
+  "Ibrahim Bayesh": {
    "poste": "LM",
    "statut": "Titulaire",
    "buts": 0,
@@ -11357,43 +11370,31 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 2
+   "goals_conceded": 1
   },
-  "Ibrahim Bayesh": {
-   "poste": "RM",
-   "statut": "Titulaire",
+  "Ali Al-Hamadi": {
+   "poste": "SUB",
+   "statut": "Remplaçant",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 1,
+   "tirs": 2,
    "tirs_cadres": 0,
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 3
+   "goals_conceded": 0
   },
-  "Ali Al-Hamadi": {
-   "poste": "CF-L",
+  "Aymen Hussein": {
+   "poste": "F",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 3,
+   "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 1,
+   "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 2
-  },
-  "Aymen Hussein": {
-   "poste": "CF-R",
-   "statut": "Titulaire",
-   "buts": 1,
-   "passes_dec": 0,
-   "tirs": 3,
-   "tirs_cadres": 1,
-   "fautes_commises": 2,
-   "hors_jeu": 0,
-   "shots_faced": 0,
-   "goals_conceded": 4
+   "goals_conceded": 1
   },
   "Frans Putros": {
    "poste": "SUB",
@@ -11414,10 +11415,10 @@
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 2,
+   "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 2
+   "goals_conceded": 0
   },
   "Munaf Younus": {
    "poste": "SUB",
@@ -11432,8 +11433,8 @@
    "goals_conceded": 0
   },
   "Ahmed Basil": {
-   "poste": "SUB",
-   "statut": "Remplaçant",
+   "poste": "G",
+   "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -11441,7 +11442,7 @@
    "fautes_commises": 0,
    "saves": 0,
    "shots_faced": 0,
-   "goals_conceded": 0
+   "goals_conceded": 1
   },
   "Rebin Sulaka": {
    "poste": "SUB",
@@ -11456,8 +11457,8 @@
    "goals_conceded": 0
   },
   "Ahmed Qasim": {
-   "poste": "SUB",
-   "statut": "Remplaçant",
+   "poste": "RM",
+   "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -11465,7 +11466,7 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 2
+   "goals_conceded": 1
   },
   "Youssef Amyn": {
    "poste": "SUB",
@@ -11537,7 +11538,7 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 2
+   "goals_conceded": 0
   },
   "Aimar Sher": {
    "poste": "SUB",
@@ -11561,11 +11562,11 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
   },
   "Zidane Iqbal": {
-   "poste": "SUB",
-   "statut": "Remplaçant",
+   "poste": "CM-L",
+   "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -11573,7 +11574,7 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 2
+   "goals_conceded": 1
   }
  },
  "Norway": {

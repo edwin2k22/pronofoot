@@ -4202,5 +4202,144 @@
   "halftime": "1-0",
   "motm": "—",
   "note": ""
+ },
+ "France|Iraq": {
+  "goals": [
+   {
+    "minute": 14,
+    "team": "France",
+    "player": "Kylian Mbappé",
+    "assist": "Michael Olise",
+    "note": null
+   }
+  ],
+  "cards": [
+   {
+    "minute": 6,
+    "team": "Iraq",
+    "player": "Amir Al-Ammari",
+    "type": "Yellow"
+   }
+  ],
+  "commentary": [
+   {
+    "minute": 0,
+    "text": "Lineups are announced and players are warming up.",
+    "type": ""
+   },
+   {
+    "minute": 0,
+    "text": "First Half begins.",
+    "type": ""
+   },
+   {
+    "minute": 1,
+    "text": "Attempt missed. Manu Koné (France) left footed shot from outside the box misses to the right.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 3,
+    "text": "Merchas Doski (Iraq) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 3,
+    "text": "Foul by Manu Koné (France).",
+    "type": "Foul"
+   },
+   {
+    "minute": 6,
+    "text": "Foul by Amir Al Ammari (Iraq).",
+    "type": "Foul"
+   },
+   {
+    "minute": 6,
+    "text": "Kylian Mbappé (France) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 6,
+    "text": "Amir Al Ammari (Iraq) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 7,
+    "text": "Corner, France. Conceded by Zaid Tahseen.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 8,
+    "text": "Attempt blocked. Michael Olise (France) left footed shot from outside the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 8,
+    "text": "Attempt missed. Kylian Mbappé (France) right footed shot from the right side of the box misses to the right.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 14,
+    "text": "Attempt blocked. Michael Olise (France) left footed shot from outside the box is blocked. Assisted by Kylian Mbappé.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 14,
+    "text": "Goal! France 1, Iraq 0. Kylian Mbappé (France) left footed shot from outside the box to the top left corner. Assisted by Michael Olise.",
+    "type": "Goal"
+   },
+   {
+    "minute": 18,
+    "text": "Merchas Doski (Iraq) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 18,
+    "text": "Foul by Adrien Rabiot (France).",
+    "type": "Foul"
+   },
+   {
+    "minute": 23,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 25,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 26,
+    "text": "Substitution, Iraq. Ali Al Hamadi replaces Aymen Hussein because of an injury.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 27,
+    "text": "Attempt blocked. Ali Al Hamadi (Iraq) left footed shot from outside the box is blocked. Assisted by Ahmed Qasem.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 27,
+    "text": "Attempt missed. Ali Al Hamadi (Iraq) header from the right side of the six yard box misses to the right. Assisted by Merchas Doski with a cross.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 28,
+    "text": "VAR Decision: Other Decision Cancelled.",
+    "type": "VAR - Referee decision cancelled"
+   },
+   {
+    "minute": 30,
+    "text": "Corner, Iraq. Conceded by Lucas Digne.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 32,
+    "text": "Attempt blocked. Kylian Mbappé (France) right footed shot from outside the box is blocked. Assisted by Ousmane Dembélé.",
+    "type": "Shot Blocked"
+   }
+  ],
+  "halftime": "1-0",
+  "motm": "—",
+  "note": ""
  }
 }
