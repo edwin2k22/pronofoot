@@ -26,20 +26,43 @@ def _is_off(poste):
 def attack_rating(roster):
     """
     Renvoie {stars, boost, names} pour une équipe.
-    stars  = nb d'attaquants/créateurs avec une bio réelle (= qualité reconnue)
-    boost  = multiplicateur de λ offensif, borné [1.0, 1.18]
-             (+~4% par star offensive, max +18%)
+    Évalue la qualité offensive en comptant les traits EA FC / Statistiques des attaquants.
     """
     if not roster:
         return {"stars": 0, "boost": 1.0, "names": []}
+        
     names = []
+    points = 0.0
+    
     for pl in roster:
-        nm = pl.get("joueur") or pl.get("name")
-        if not nm:
+        if not _is_off(pl.get("poste")):
             continue
-        b = bios.get_bio(nm)
-        if b and _is_off(pl.get("poste") or b.get("role")):
+            
+        nm = pl.get("joueur") or pl.get("name")
+        bio = pl.get("bio") or {}
+        forces = bio.get("forces", [])
+        if isinstance(forces, str):
+            forces = [forces]
+            
+        score = 0.0
+        for f in forces:
+            f = str(f).lower()
+            if "tir > 80" in f or "finition" in f or "finesse shot" in f:
+                score += 1.0
+            if "vitesse > 80" in f or "rapide" in f or "speed" in f:
+                score += 0.5
+            if "passe > 80" in f or "créateur" in f or "playmaker" in f:
+                score += 0.5
+            if "dribble" in f or "percussion" in f:
+                score += 0.5
+            if "xg élevé" in f or "occasions dangereuses" in f:
+                score += 1.0
+                
+        if score >= 1.0:
             names.append(nm)
-    stars = len(names)
-    boost = round(min(1.18, 1.0 + 0.04 * stars), 3)
-    return {"stars": stars, "boost": boost, "names": names[:5]}
+            points += score
+            
+    # Chaque 1.0 point = ~1 "Star" offensive.
+    # On borne le bonus à +18% max
+    boost = round(min(1.18, 1.0 + 0.03 * points), 3)
+    return {"stars": round(points, 1), "boost": boost, "names": names[:5]}

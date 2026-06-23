@@ -31,6 +31,7 @@ from collector.models import score_grid as sg
 from collector.models import knockout as ko
 from collector.models import upset as upset_mod
 from collector.models import attack_quality as atkq
+from collector.models import defense_quality as defq
 from collector.models import availability as avail
 from collector.models import ensemble as ens
 from collector.models import calibrate as calib
@@ -658,14 +659,17 @@ def predict():
         lam_h = round(max(0.2, lam_h * fin_h), 2)
         lam_a = round(max(0.2, lam_a * fin_a), 2)
 
-        # ----- QUALITÉ OFFENSIVE INDIVIDUELLE (front d'élite) -----
-        # corrige la sous-estimation des équipes dangereuses sans match CDM joué
-        # (ex. Sénégal : Mané/Jackson/Sarr). Bonus borné, prudent.
+        # ----- QUALITÉ OFFENSIVE ET DÉFENSIVE INDIVIDUELLE (EA FC) -----
+        # corrige la sous-estimation des équipes sans match CDM joué en s'appuyant sur les traits EA FC.
         _sq = _load_squads()
         atk_h = atkq.attack_rating(_sq.get(mt["home"]))
         atk_a = atkq.attack_rating(_sq.get(mt["away"]))
-        lam_h = round(lam_h * atk_h["boost"], 2)
-        lam_a = round(lam_a * atk_a["boost"], 2)
+        def_h = defq.defense_rating(_sq.get(mt["home"]))
+        def_a = defq.defense_rating(_sq.get(mt["away"]))
+        
+        # Le lambda (xG) est boosté par sa propre attaque, et réduit par la défense adverse.
+        lam_h = round(lam_h * atk_h["boost"] * def_a["shield"], 2)
+        lam_a = round(lam_a * atk_a["boost"] * def_h["shield"], 2)
 
         # ----- DISPONIBILITÉ DE L'EFFECTIF (absences = λ réduit) -----
         # N'agit QUE si l'on dispose du XI RÉEL (officiel/probable ESPN), sinon 1.0.
@@ -1002,6 +1006,7 @@ def predict():
                 "meta": meta,
                 "upsetIndex": ui,
                 "attackQuality": {"home": atk_h, "away": atk_a},
+                "defenseQuality": {"home": def_h, "away": def_a},
                 "availability": {"home": avh, "away": ava},
                 "kelly": kelly,         # calculé avec les vraies cotes ESPN
                 "lineMovement": line_move,
