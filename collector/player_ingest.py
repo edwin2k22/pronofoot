@@ -159,7 +159,7 @@ def export_for_web():
                 adv = engine.estimate_advanced_stats(r["name"], rs, r["pos"], minutes_played)
                 
                 # Assign estimates to rs if not present
-                for k in ["xg", "xa", "passes_reussies", "tacles", "interceptions", "blocks", "degagements"]:
+                for k in ["xg", "xa", "passes_reussies", "tacles", "interceptions", "blocks", "degagements", "pressions", "ballons_recuperes"]:
                     if rs.get(k) in (None, "N/D", 0, 0.0):
                         rs[k] = adv[k]
                 

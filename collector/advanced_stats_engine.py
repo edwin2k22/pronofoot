@@ -69,9 +69,28 @@ def estimate_advanced_stats(player_name, stats, position, minutes_played):
         
     degagements = int((base_degagements_90 * (minutes_played / 90.0)) * random.uniform(0.5, 1.5))
     
+    # 4e. Pressions
+    base_pressions_90 = 10.0
+    if 'M' in position or 'DM' in position:
+        base_pressions_90 = 20.0
+    elif 'F' in position:
+        base_pressions_90 = 15.0
+        
+    pressions = int((base_pressions_90 * (minutes_played / 90.0)) * random.uniform(0.7, 1.3))
+    
+    # 4f. Ballons récupérés
+    base_recuperes_90 = 2.0
+    if 'M' in position or 'DM' in position or 'D' in position:
+        base_recuperes_90 = 5.0
+        
+    ballons_recuperes = int((base_recuperes_90 * (minutes_played / 90.0)) * random.uniform(0.7, 1.3))
+    
     # 5. Note (Rating 1-10)
     # Base rating 6.0
-    note = 6.0 + (buts * 1.0) + (passes_dec * 0.5) + (tirs * 0.1)
+    note = 6.0 + (buts * 1.0) + (passes_dec * 0.8) + (tirs * 0.1)
+    note += (interceptions * 0.15) + (blocks * 0.15) + (degagements * 0.05) + (tacles * 0.1)
+    note += (ballons_recuperes * 0.05) + (pressions * 0.01)
+    
     if 'G' in position and stats.get('goals_conceded', 0) == 0 and minutes_played > 60:
         note += 1.0 # Clean sheet bonus for GK
     if stats.get('goals_conceded', 0) > 0 and ('D' in position or 'G' in position):
@@ -88,6 +107,8 @@ def estimate_advanced_stats(player_name, stats, position, minutes_played):
         'interceptions': interceptions,
         'blocks': blocks,
         'degagements': degagements,
+        'pressions': pressions,
+        'ballons_recuperes': ballons_recuperes,
         'note': round(note, 1)
     }
 
