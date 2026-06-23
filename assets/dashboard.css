@@ -547,3 +547,93 @@
   color: #ffd34e;
   transform: scale(1.1);
 }
+/* ================== NOUVELLES ANIMATIONS & GLASSMORPHISM ================== */
+@keyframes slideUpFade {
+  0% { opacity: 0; transform: translateY(24px); filter: blur(6px); }
+  100% { opacity: 1; transform: translateY(0); filter: blur(0); }
+}
+.anim-block {
+  opacity: 0;
+  animation: slideUpFade 0.65s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+.anim-1 { animation-delay: 0.05s; }
+.anim-2 { animation-delay: 0.1s; }
+.anim-3 { animation-delay: 0.15s; }
+.anim-4 { animation-delay: 0.2s; }
+.anim-5 { animation-delay: 0.25s; }
+.anim-6 { animation-delay: 0.3s; }
+.anim-7 { animation-delay: 0.35s; }
+.anim-8 { animation-delay: 0.4s; }
+.anim-9 { animation-delay: 0.45s; }
+.anim-10 { animation-delay: 0.5s; }
+
+/* Offcanvas Detail Styles */
+.offcanvas .card {
+  background: rgba(20, 29, 51, 0.35) !important;
+  backdrop-filter: blur(28px) saturate(150%) !important;
+  -webkit-backdrop-filter: blur(28px) saturate(150%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5) !important;
+  margin: 0 !important;
+}
+
+.offcanvas .module {
+  background: rgba(14, 22, 38, 0.45) !important;
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.06) !important;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3) !important;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.offcanvas .module:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.4) !important;
+  border-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+/* Vibrancy in probbar */
+.offcanvas .track {
+  height: 14px !important;
+  background: rgba(0,0,0,0.3) !important;
+  border-radius: 999px !important;
+  overflow: visible !important;
+  border: 1px solid rgba(255,255,255,0.06) !important;
+  box-shadow: inset 0 2px 5px rgba(0,0,0,0.6) !important;
+}
+.offcanvas .track > div {
+  height: 100% !important;
+  border-radius: 999px !important;
+  transition: width 0.6s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+.offcanvas .b1 { background: linear-gradient(90deg,#5b8cff,#2563eb) !important; box-shadow: 0 0 12px rgba(91,140,255,0.6) !important; }
+.offcanvas .bx { background: linear-gradient(90deg,#94a0c8,#64748b) !important; box-shadow: 0 0 10px rgba(148,160,200,0.3) !important; }
+.offcanvas .b2 { background: linear-gradient(90deg,#33e0a0,#059669) !important; box-shadow: 0 0 12px rgba(51,224,160,0.6) !important; }
+
+/* vs-box glass */
+.vs-box {
+  background: rgba(0,0,0,0.25) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border: 1px solid rgba(255,255,255,0.05) !important;
+  border-radius: 14px !important;
+}
+
+/* hover states on stats */
+.ts-row {
+  transition: transform 0.15s, background 0.15s;
+  border-radius: 6px;
+  padding: 4px;
+}
+.ts-row:hover {
+  background: rgba(255,255,255,0.03);
+  transform: translateX(2px);
+}
+.ou-row {
+  transition: background 0.15s;
+  border-radius: 6px;
+  padding: 2px 4px;
+}
+.ou-row:hover {
+  background: rgba(255,255,255,0.03);
+}
+

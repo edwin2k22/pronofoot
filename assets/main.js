@@ -737,7 +737,7 @@ function vsTable(m){
     add("Score mi-temps", predStr, realHt, isCorrect);
   }
 
-  return `<div class="vs-box">
+  return `<div class="vs-box anim-block anim-3">
     <div class="vs-head">⚖️ Prédictions du modèle <span>vs</span> Résultat réel
       <span class="vs-score">${hits}/${total} marchés réussis</span></div>
     <div class="vs-cols"><span>marché</span><span>prévu (proba)</span><span></span><span>réel</span><span></span></div>
@@ -762,13 +762,13 @@ function renderFinished(m){
   const st=(label,h,v)=>`<div class="stat"><span>${label}</span><span>${h??"N/D"} — ${v??"N/D"}</span></div>`;
   return `<div class="card">
     <div class="banner done">🏁 Match TERMINÉ — résultat & analyse (pas un pronostic).</div>
-    <div class="scoreline">
+    <div class="scoreline anim-block anim-1">
       <div class="tn">${m.home}</div>
       <div class="sc gold">${a.realScore.replace("-"," – ")}<small>score final</small></div>
       <div class="tn">${m.away}</div>
     </div>
     ${vsTable(m)}
-    <div class="verdict done"><b>${a.predictionCorrect?"✅":"❌"} Verdict du modèle :</b> ${a.summary}</div>
+    <div class="verdict done anim-block anim-4"><b>${a.predictionCorrect?"✅":"❌"} Verdict du modèle :</b> ${a.summary}</div>
     ${formRow(m)}
     <div id="live-timeline-container">${timeline(m, a)}</div>
     ${lineupsBlock(m, a)}
@@ -846,13 +846,13 @@ function renderLive(m){
   const clk = realMin?` · ⏱️ <b>${realMin}</b> <span style="opacity:.8">(${src})</span>`:"";
   return `<div class="card">
     <div class="banner live">🔴 Match EN COURS ${m.liveScore?("— score actuel <b>"+m.liveScore+"</b>"):""}${clk} — suivi en direct.</div>
-    <div class="scoreline">
+    <div class="scoreline anim-block anim-1">
       <div class="tn">${m.home}</div>
       <div class="sc live-c">${(m.liveScore||"–").replace("-"," – ")}<small>${realMin?realMin+" ("+src+")":"en direct"}</small></div>
       <div class="tn">${m.away}</div>
     </div>
     ${probBlock(m,p)}
-    <div class="verdict">Pronostic d'avant-match (repère). Élo ${m.homeElo} vs ${m.awayElo}.</div>
+    <div class="verdict anim-block anim-5">Pronostic d'avant-match (repère). Élo ${m.homeElo} vs ${m.awayElo}.</div>
     <div id="live-timeline-container"></div>
     ${srcTags(m)}
   </div>`;
@@ -875,14 +875,14 @@ function renderUpcoming(m, mode){
     banner = `<div class="banner soon">⏳ Match À VENIR — coup d'envoi ${countdown(m)} ${m.date?("("+m.date.slice(0,16)+")"):""}. Pronostic du modèle :</div>`;
   return `<div class="card">
     ${banner}
-    <div class="scoreline">
+    <div class="scoreline anim-block anim-1">
       <div class="tn">${m.home}</div>
       <div class="sc">${p.topScore[0]} – ${p.topScore[1]}<small>${scoreNote(p)}</small></div>
       <div class="tn">${m.away}</div>
     </div>
     ${coherenceHint(m,p)}
     ${probBlock(m,p)}
-    <div class="verdict">Le modèle favorise <b>${bl}</b> (${pct(bp)}).
+    <div class="verdict anim-block anim-5">Le modèle favorise <b>${bl}</b> (${pct(bp)}).
       Tendance ${p.over25>0.5?"<b>Over 2.5</b>":"<b>Under 2.5</b>"} (${pct(p.over25)}),
       BTTS ${p.btts>0.5?"probable":"peu probable"} (${pct(p.btts)}).</div>
     ${srcTags(m)}
@@ -923,19 +923,20 @@ function formRow(m){
 
 function probBlock(m,p){
   const cm=p.corners, cd=p.cards;
-  return `${formRow(m)}<div class="grid2">
+  const wrap = (html, delay) => html ? `<div class="anim-block anim-${delay}">${html}</div>` : '';
+  return `${formRow(m)}<div class="grid2 anim-block anim-1">
     <div>
       <h3>Issue du match</h3>
-      <div class="probbar"><div class="lbl"><span>Victoire <b>${m.home}</b></span><b>${pct(p.p1)}</b></div><div class="track"><div class="b1" style="width:${p.p1*100}%"></div></div></div>
-      <div class="probbar"><div class="lbl"><span>Match nul</span><b>${pct(p.pX)}</b></div><div class="track"><div class="bx" style="width:${p.pX*100}%"></div></div></div>
-      <div class="probbar"><div class="lbl"><span>Victoire <b>${m.away}</b></span><b>${pct(p.p2)}</b></div><div class="track"><div class="b2" style="width:${p.p2*100}%"></div></div></div>
+      <div class="probbar anim-block anim-2"><div class="lbl"><span>Victoire <b>${m.home}</b></span><b>${pct(p.p1)}</b></div><div class="track"><div class="b1" style="width:${p.p1*100}%"></div></div></div>
+      <div class="probbar anim-block anim-3"><div class="lbl"><span>Match nul</span><b>${pct(p.pX)}</b></div><div class="track"><div class="bx" style="width:${p.pX*100}%"></div></div></div>
+      <div class="probbar anim-block anim-4"><div class="lbl"><span>Victoire <b>${m.away}</b></span><b>${pct(p.p2)}</b></div><div class="track"><div class="b2" style="width:${p.p2*100}%"></div></div></div>
     </div>
-    <div>
+    <div class="anim-block anim-5">
       <h3>Marchés</h3>
       ${ouBlock(m,p)}
       ${bttsBlock(p)}
     </div>
-  </div>${h2hBlock(m)}${oddsBlock(m,p)}${halftimeBlock(m,p)}${marketsBlock(m,p)}${scenariosBlock(m,p)}${playerPropsBlock(m,p)}${shotsBlock(m,p)}${cornersBlock(m,p)}${cardsBlock(m,p)}${contextBlock(m,p)}`;
+  </div>${wrap(h2hBlock(m), 6)}${wrap(oddsBlock(m,p), 7)}${wrap(halftimeBlock(m,p), 8)}${wrap(marketsBlock(m,p), 9)}${wrap(scenariosBlock(m,p), 10)}${wrap(playerPropsBlock(m,p), 2)}${wrap(shotsBlock(m,p), 3)}${wrap(cornersBlock(m,p), 4)}${wrap(cardsBlock(m,p), 5)}${wrap(contextBlock(m,p), 6)}`;
 }
 
 /* ===== HEAD-TO-HEAD (confrontations directes réelles ESPN) ===== */
