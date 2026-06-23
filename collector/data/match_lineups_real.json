@@ -2803,5 +2803,70 @@
    "Melvin Mastil"
   ],
   "source": "ESPN (compos réelles)"
+ },
+ "Portugal|Uzbekistan": {
+  "home_formation": "4-2-3-1",
+  "home_xi": [
+   "Diogo Costa",
+   "Renato Veiga",
+   "Rúben Dias",
+   "Nuno Mendes",
+   "João Cancelo",
+   "Bruno Fernandes",
+   "Vitinha ",
+   "João Neves",
+   "Cristiano Ronaldo",
+   "João Félix",
+   "Pedro Neto"
+  ],
+  "home_bench": [
+   "José Sá",
+   "Nélson Semedo",
+   "Bernardo Silva",
+   "Francisco Trincão",
+   "Rúben Neves",
+   "Gonçalo Inácio",
+   "Rafael Leão",
+   "Rui Silva",
+   "Samú Costa",
+   "Diogo Dalot",
+   "Matheus Nunes",
+   "Gonçalo Ramos",
+   "Gonçalo Guedes",
+   "Francisco Conceição",
+   "Tomás Araújo"
+  ],
+  "away_formation": "3-4-2-1",
+  "away_xi": [
+   "Abduvohid Nematov",
+   "Abdulla Abdullaev",
+   "Rustam Ashurmatov",
+   "Abdukodir Khusanov",
+   "Otabek Shukurov",
+   "Odiljon Xamrobekov",
+   "Sherzod Nasrullaev",
+   "Behruzjon Karimov",
+   "Eldor Shomurodov",
+   "Abbosbek Fayzullaev",
+   "Azizjon Ganiev"
+  ],
+  "away_bench": [
+   "Oston Urunov",
+   "Khojiakbar Alijonov",
+   "Azizbek Amonov",
+   "Igor Sergeev",
+   "Botirali Ergashev",
+   "Ruslanbek Jiyanov",
+   "Dostonbek Khamdamov",
+   "Avazbek Ulmasaliyev",
+   "Akmal Mozgovoy",
+   "Umar Eshmurodov",
+   "Jamshid Iskanderov",
+   "Jakhongir Urozov",
+   "Utkir Yusupov",
+   "Farrukh Sayfiev",
+   "Sherzod Esanov"
+  ],
+  "source": "ESPN (compos réelles)"
  }
 }

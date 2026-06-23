@@ -16665,23 +16665,23 @@
   "Diogo Costa": {
    "poste": "G",
    "statut": "Titulaire",
-   "minutes": 90,
+   "minutes": 1260,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 0,
-   "saves": 1,
+   "saves": 6,
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Renato Veiga": {
    "poste": "CD-L",
    "statut": "Titulaire",
-   "minutes": 90,
+   "minutes": 1260,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -16691,12 +16691,12 @@
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Tomás Araújo": {
-   "poste": "CD-R",
-   "statut": "Titulaire",
+   "poste": "SUB",
+   "statut": "Remplaçant",
    "minutes": 90,
    "buts": 0,
    "passes_dec": 0,
@@ -16707,45 +16707,61 @@
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "Yellow"
   },
   "Nuno Mendes": {
    "poste": "LB",
    "statut": "Titulaire",
-   "minutes": 72,
-   "buts": 0,
+   "minutes": 1242,
+   "buts": 7,
    "passes_dec": 0,
-   "tirs": 0,
-   "tirs_cadres": 0,
-   "fautes_commises": 0,
+   "tirs": 7,
+   "tirs_cadres": 7,
+   "fautes_commises": 2,
    "hors_jeu": 1,
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "João Cancelo": {
    "poste": "RB",
    "statut": "Titulaire",
-   "minutes": 90,
+   "minutes": 1260,
    "buts": 0,
-   "passes_dec": 0,
-   "tirs": 0,
+   "passes_dec": 13,
+   "tirs": 13,
    "tirs_cadres": 0,
    "fautes_commises": 2,
    "hors_jeu": 1,
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Bruno Fernandes": {
    "poste": "AM",
    "statut": "Titulaire",
-   "minutes": 90,
+   "minutes": 1260,
+   "buts": 0,
+   "passes_dec": 0,
+   "tirs": 15,
+   "tirs_cadres": 0,
+   "fautes_commises": 1,
+   "hors_jeu": 0,
+   "shots_faced": 0,
+   "goals_conceded": 1,
+   "note": 0,
+   "matchs_2026": 14,
+   "cartons": "—"
+  },
+  "Vitinha ": {
+   "poste": "LM",
+   "statut": "Titulaire",
+   "minutes": 1253,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 2,
@@ -16755,29 +16771,13 @@
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 1,
-   "cartons": "—"
-  },
-  "Vitinha ": {
-   "poste": "LM",
-   "statut": "Titulaire",
-   "minutes": 83,
-   "buts": 0,
-   "passes_dec": 0,
-   "tirs": 0,
-   "tirs_cadres": 0,
-   "fautes_commises": 1,
-   "hors_jeu": 0,
-   "shots_faced": 0,
-   "goals_conceded": 1,
-   "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "João Neves": {
    "poste": "RM",
    "statut": "Titulaire",
-   "minutes": 90,
+   "minutes": 1260,
    "buts": 1,
    "passes_dec": 0,
    "tirs": 1,
@@ -16787,29 +16787,29 @@
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Cristiano Ronaldo": {
    "poste": "F",
    "statut": "Titulaire",
-   "minutes": 90,
-   "buts": 0,
+   "minutes": 1260,
+   "buts": 13,
    "passes_dec": 0,
-   "tirs": 3,
-   "tirs_cadres": 0,
+   "tirs": 29,
+   "tirs_cadres": 13,
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Pedro Neto": {
-   "poste": "AM-L",
+   "poste": "AM-R",
    "statut": "Titulaire",
-   "minutes": 71,
+   "minutes": 1241,
    "buts": 0,
    "passes_dec": 1,
    "tirs": 0,
@@ -16819,12 +16819,12 @@
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Bernardo Silva": {
-   "poste": "AM-R",
-   "statut": "Titulaire",
+   "poste": "SUB",
+   "statut": "Remplaçant",
    "minutes": 45,
    "buts": 0,
    "passes_dec": 0,
@@ -16835,7 +16835,7 @@
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "Yellow"
   },
   "Gonçalo Inácio": {
@@ -16851,7 +16851,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Samú Costa": {
@@ -16867,13 +16867,13 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Rúben Dias": {
-   "poste": "SUB",
-   "statut": "Remplaçant",
-   "minutes": 0,
+   "poste": "CD-R",
+   "statut": "Titulaire",
+   "minutes": 1170,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -16883,13 +16883,13 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "João Félix": {
-   "poste": "SUB",
-   "statut": "Remplaçant",
-   "minutes": 0,
+   "poste": "AM-L",
+   "statut": "Titulaire",
+   "minutes": 1170,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -16899,7 +16899,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "José Sá": {
@@ -16915,7 +16915,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Matheus Nunes": {
@@ -16931,7 +16931,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Francisco Trincão": {
@@ -16947,7 +16947,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Rúben Neves": {
@@ -16963,7 +16963,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Francisco Conceição": {
@@ -16979,7 +16979,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Nélson Semedo": {
@@ -16995,7 +16995,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "Yellow"
   },
   "Gonçalo Ramos": {
@@ -17011,7 +17011,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Rui Silva": {
@@ -17027,7 +17027,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Rafael Leão": {
@@ -17043,7 +17043,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Diogo Dalot": {
@@ -17059,7 +17059,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Gonçalo Guedes": {
@@ -17075,7 +17075,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   }
  },
@@ -17499,8 +17499,8 @@
  },
  "Uzbekistan": {
   "Utkir Yusupov": {
-   "poste": "G",
-   "statut": "Titulaire",
+   "poste": "SUB",
+   "statut": "Remplaçant",
    "minutes": 90,
    "buts": 0,
    "passes_dec": 0,
@@ -17511,13 +17511,13 @@
    "shots_faced": 0,
    "goals_conceded": 3,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Abdulla Abdullaev": {
    "poste": "CD",
    "statut": "Titulaire",
-   "minutes": 90,
+   "minutes": 1260,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -17525,15 +17525,15 @@
    "fautes_commises": 3,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 3,
+   "goals_conceded": 23,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Rustam Ashurmatov": {
    "poste": "CD-L",
    "statut": "Titulaire",
-   "minutes": 77,
+   "minutes": 1247,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -17541,15 +17541,15 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 2,
+   "goals_conceded": 22,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Abdukodir Khusanov": {
    "poste": "CD-R",
    "statut": "Titulaire",
-   "minutes": 90,
+   "minutes": 1260,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -17557,15 +17557,15 @@
    "fautes_commises": 3,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 3,
+   "goals_conceded": 23,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "Yellow"
   },
   "Otabek Shukurov": {
    "poste": "CM-L",
    "statut": "Titulaire",
-   "minutes": 90,
+   "minutes": 1260,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -17573,14 +17573,14 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 3,
+   "goals_conceded": 23,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Akmal Mozgovoy": {
-   "poste": "CM-R",
-   "statut": "Titulaire",
+   "poste": "SUB",
+   "statut": "Remplaçant",
    "minutes": 90,
    "buts": 0,
    "passes_dec": 0,
@@ -17591,60 +17591,60 @@
    "shots_faced": 0,
    "goals_conceded": 3,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Sherzod Nasrullaev": {
    "poste": "LM",
    "statut": "Titulaire",
-   "minutes": 45,
+   "minutes": 1215,
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 0,
-   "tirs_cadres": 0,
+   "tirs": 5,
+   "tirs_cadres": 5,
    "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1,
+   "goals_conceded": 21,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Behruzjon Karimov": {
    "poste": "RM",
    "statut": "Titulaire",
-   "minutes": 90,
+   "minutes": 1260,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 2,
    "tirs_cadres": 0,
-   "fautes_commises": 3,
+   "fautes_commises": 20,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 3,
+   "goals_conceded": 23,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Eldor Shomurodov": {
    "poste": "F",
    "statut": "Titulaire",
-   "minutes": 90,
+   "minutes": 1260,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 1,
    "tirs_cadres": 1,
-   "fautes_commises": 3,
+   "fautes_commises": 16,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 2,
+   "goals_conceded": 22,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Oston Urunov": {
-   "poste": "CF-L",
-   "statut": "Titulaire",
+   "poste": "SUB",
+   "statut": "Remplaçant",
    "minutes": 45,
    "buts": 0,
    "passes_dec": 0,
@@ -17655,13 +17655,13 @@
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Abbosbek Fayzullaev": {
-   "poste": "CF-R",
+   "poste": "CF-L",
    "statut": "Titulaire",
-   "minutes": 77,
+   "minutes": 1247,
    "buts": 1,
    "passes_dec": 0,
    "tirs": 1,
@@ -17669,9 +17669,9 @@
    "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 2,
+   "goals_conceded": 22,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Avazbek Ulmasaliyev": {
@@ -17687,7 +17687,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Botirali Ergashev": {
@@ -17703,7 +17703,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Farrukh Sayfiev": {
@@ -17719,7 +17719,7 @@
    "shots_faced": 0,
    "goals_conceded": 2,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Azizbek Amonov": {
@@ -17735,7 +17735,7 @@
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Jakhongir Urozov": {
@@ -17751,7 +17751,7 @@
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Khojiakbar Alijonov": {
@@ -17767,7 +17767,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Umar Eshmurodov": {
@@ -17783,13 +17783,13 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Azizjon Ganiev": {
-   "poste": "SUB",
-   "statut": "Remplaçant",
-   "minutes": 0,
+   "poste": "CF-R",
+   "statut": "Titulaire",
+   "minutes": 1170,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -17797,9 +17797,9 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 0,
+   "goals_conceded": 20,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Dostonbek Khamdamov": {
@@ -17815,24 +17815,24 @@
    "shots_faced": 0,
    "goals_conceded": 2,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Odiljon Xamrobekov": {
-   "poste": "SUB",
-   "statut": "Remplaçant",
-   "minutes": 0,
+   "poste": "CM-R",
+   "statut": "Titulaire",
+   "minutes": 1170,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 0,
+   "fautes_commises": 11,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 0,
+   "goals_conceded": 20,
    "note": 0,
-   "matchs_2026": 1,
-   "cartons": "—"
+   "matchs_2026": 14,
+   "cartons": "Yellow"
   },
   "Igor Sergeev": {
    "poste": "SUB",
@@ -17847,7 +17847,7 @@
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Jamshid Iskanderov": {
@@ -17863,7 +17863,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Sherzod Esanov": {
@@ -17879,7 +17879,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Ruslanbek Jiyanov": {
@@ -17895,13 +17895,13 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   },
   "Abduvohid Nematov": {
-   "poste": "SUB",
-   "statut": "Remplaçant",
-   "minutes": 0,
+   "poste": "G",
+   "statut": "Titulaire",
+   "minutes": 1170,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -17909,9 +17909,9 @@
    "fautes_commises": 0,
    "saves": 0,
    "shots_faced": 0,
-   "goals_conceded": 0,
+   "goals_conceded": 20,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 14,
    "cartons": "—"
   }
  },

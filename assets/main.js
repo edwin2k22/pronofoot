@@ -922,21 +922,35 @@ function formRow(m){
 
 
 function probBlock(m,p){
-  const cm=p.corners, cd=p.cards;
-  const wrap = (html, delay) => html ? `<div class="anim-block anim-${delay}">${html}</div>` : '';
-  return `${formRow(m)}<div class="grid2 anim-block anim-1">
-    <div>
-      <h3>Issue du match</h3>
-      <div class="probbar anim-block anim-2"><div class="lbl"><span>Victoire <b>${m.home}</b></span><b>${pct(p.p1)}</b></div><div class="track"><div class="b1" style="width:${p.p1*100}%"></div></div></div>
-      <div class="probbar anim-block anim-3"><div class="lbl"><span>Match nul</span><b>${pct(p.pX)}</b></div><div class="track"><div class="bx" style="width:${p.pX*100}%"></div></div></div>
-      <div class="probbar anim-block anim-4"><div class="lbl"><span>Victoire <b>${m.away}</b></span><b>${pct(p.p2)}</b></div><div class="track"><div class="b2" style="width:${p.p2*100}%"></div></div></div>
+  const accordion = (title, content, delay, icon, open=false) => {
+    if (!content || content.trim() === '') return '';
+    return `<details class="anim-block anim-${delay}" ${open ? 'open' : ''}><summary>${icon} ${title}</summary><div style="padding-top:10px">${content}</div></details>`;
+  };
+  
+  const marketsHtml = [marketsBlock(m,p), shotsBlock(m,p), cornersBlock(m,p), cardsBlock(m,p)].filter(Boolean).join('');
+  const scenHalftime = [halftimeBlock(m,p), scenariosBlock(m,p)].filter(Boolean).join('');
+  const contextHtml = [h2hBlock(m), contextBlock(m,p), oddsBlock(m,p)].filter(Boolean).join('');
+  const propsHtml = playerPropsBlock(m,p) || '';
+  
+  return `${formRow(m)}
+    <div class="anim-block anim-1" style="display:flex;flex-direction:column;gap:16px;margin-bottom:16px;">
+      <div>
+        <h3 style="margin-bottom:12px;color:#cfe0ff">Issue du match</h3>
+        <div class="probbar anim-block anim-2"><div class="lbl"><span>Victoire <b>${m.home}</b></span><b>${pct(p.p1)}</b></div><div class="track"><div class="b1" style="width:${p.p1*100}%"></div></div></div>
+        <div class="probbar anim-block anim-3"><div class="lbl"><span>Match nul</span><b>${pct(p.pX)}</b></div><div class="track"><div class="bx" style="width:${p.pX*100}%"></div></div></div>
+        <div class="probbar anim-block anim-4"><div class="lbl"><span>Victoire <b>${m.away}</b></span><b>${pct(p.p2)}</b></div><div class="track"><div class="b2" style="width:${p.p2*100}%"></div></div></div>
+      </div>
+      <div class="anim-block anim-5">
+        <h3 style="margin-bottom:8px;color:#cfe0ff">Buts & BTTS</h3>
+        ${ouBlock(m,p)}
+        ${bttsBlock(p)}
+      </div>
     </div>
-    <div class="anim-block anim-5">
-      <h3>Marchés</h3>
-      ${ouBlock(m,p)}
-      ${bttsBlock(p)}
-    </div>
-  </div>${wrap(h2hBlock(m), 6)}${wrap(oddsBlock(m,p), 7)}${wrap(halftimeBlock(m,p), 8)}${wrap(marketsBlock(m,p), 9)}${wrap(scenariosBlock(m,p), 10)}${wrap(playerPropsBlock(m,p), 2)}${wrap(shotsBlock(m,p), 3)}${wrap(cornersBlock(m,p), 4)}${wrap(cardsBlock(m,p), 5)}${wrap(contextBlock(m,p), 6)}`;
+    ${accordion('Détails des Marchés (Corners, Cartons, Tirs)', marketsHtml, 6, '📋')}
+    ${accordion('Scénarios & Mi-Temps', scenHalftime, 7, '🎯')}
+    ${accordion('Pronostics Joueurs', propsHtml, 8, '👤')}
+    ${accordion('Contexte & Historique', contextHtml, 9, '📊')}
+  `;
 }
 
 /* ===== HEAD-TO-HEAD (confrontations directes réelles ESPN) ===== */

@@ -25730,5 +25730,124 @@
   "halftime": "1-0",
   "motm": "—",
   "note": ""
+ },
+ "Portugal|Uzbekistan": {
+  "goals": [
+   {
+    "minute": 6,
+    "team": "Portugal",
+    "player": "Cristiano Ronaldo",
+    "assist": "João Cancelo",
+    "note": null
+   }
+  ],
+  "cards": [
+   {
+    "minute": 14,
+    "team": "Uzbekistan",
+    "player": "Odiljon Xamrobekov",
+    "type": "Yellow"
+   }
+  ],
+  "commentary": [
+   {
+    "minute": 0,
+    "text": "Lineups are announced and players are warming up.",
+    "type": ""
+   },
+   {
+    "minute": 0,
+    "text": "First Half begins.",
+    "type": "Kickoff"
+   },
+   {
+    "minute": 2,
+    "text": "Attempt blocked. Bruno Fernandes (Portugal) left footed shot from the centre of the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 2,
+    "text": "Corner, Portugal. Conceded by Abdulla Abdullaev.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 4,
+    "text": "Attempt missed. Cristiano Ronaldo (Portugal) right footed shot from the centre of the box misses to the right. Assisted by Nuno Mendes with a cross.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 6,
+    "text": "Foul by Eldor Shomurodov (Uzbekistan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 6,
+    "text": "Renato Veiga (Portugal) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 6,
+    "text": "Goal! Portugal 1, Uzbekistan 0. Cristiano Ronaldo (Portugal) right footed shot from the centre of the box to the bottom right corner. Assisted by João Cancelo with a cross.",
+    "type": "Goal - Volley"
+   },
+   {
+    "minute": 10,
+    "text": "Foul by Bekhruz Karimov (Uzbekistan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 10,
+    "text": "João Félix (Portugal) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 11,
+    "text": "Attempt blocked. João Cancelo (Portugal) right footed shot from outside the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 14,
+    "text": "Foul by Odiljon Khamrobekov (Uzbekistan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 14,
+    "text": "Pedro Neto (Portugal) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 14,
+    "text": "Odiljon Khamrobekov (Uzbekistan) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 17,
+    "text": "Goal! Portugal 2, Uzbekistan 0. Nuno Mendes (Portugal) from a free kick with a left footed shot to the bottom left corner.",
+    "type": "Goal - Free-kick"
+   },
+   {
+    "minute": 19,
+    "text": "Attempt saved. Sherzod Nasrullaev (Uzbekistan) left footed shot from the left side of the box is saved in the bottom left corner by Diogo Costa (Portugal). Assisted by Eldor Shomurodov.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 20,
+    "text": "Foul by Bekhruz Karimov (Uzbekistan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 20,
+    "text": "Nuno Mendes (Portugal) wins a free kick on the left wing.",
+    "type": "Take On"
+   },
+   {
+    "minute": 21,
+    "text": "Attempt missed. Vitinha (Portugal) right footed shot from outside the box.",
+    "type": "Shot Off Target"
+   }
+  ],
+  "halftime": "2-0",
+  "motm": "—",
+  "note": ""
  }
 }

@@ -637,3 +637,71 @@
   background: rgba(255,255,255,0.03);
 }
 
+/* ================== ACCORDEONS MODERNES ================== */
+.offcanvas details {
+  background: rgba(14, 22, 38, 0.45) !important;
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 14px !important;
+  margin-top: 14px !important;
+  padding: 0 !important;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2) !important;
+  transition: all 0.3s ease;
+}
+
+.offcanvas details[open] {
+  padding-bottom: 12px !important;
+}
+
+.offcanvas summary {
+  list-style: none; /* Hide default arrow */
+  cursor: pointer;
+  padding: 16px 18px !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  color: #cfe0ff !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+  background: rgba(255, 255, 255, 0.02);
+  transition: background 0.2s ease;
+}
+
+.offcanvas summary::-webkit-details-marker {
+  display: none;
+}
+
+.offcanvas summary:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.offcanvas summary::after {
+  content: "?";
+  font-size: 10px;
+  color: var(--muted);
+  transition: transform 0.3s ease;
+}
+
+.offcanvas details[open] summary::after {
+  transform: rotate(180deg);
+  color: var(--acc);
+}
+
+.offcanvas details > *:not(summary) {
+  padding: 0 18px;
+  animation: slideDownFade 0.3s ease-out;
+}
+
+@keyframes slideDownFade {
+  0% { opacity: 0; transform: translateY(-10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Remove grid2 for offcanvas */
+.offcanvas .grid2 {
+  grid-template-columns: 1fr !important;
+  gap: 8px !important;
+}
