@@ -155,6 +155,7 @@ def export_for_web():
                 # If advanced stats are missing in rs, estimate them
                 raw_min = rs.get("minutes")
                 minutes_played = int(raw_min) if str(raw_min).isdigit() and int(raw_min) > 0 else 90
+                rs["minutes"] = minutes_played # Assure that minutes are exported
                 adv = engine.estimate_advanced_stats(r["name"], rs, r["pos"], minutes_played)
                 
                 # Assign estimates to rs if not present

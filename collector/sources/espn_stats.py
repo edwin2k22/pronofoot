@@ -226,6 +226,41 @@ def match_summary(event_id):
             stmap = {s["name"]: s.get("displayValue") for s in p.get("stats", [])}
             rec = {"poste": p.get("position", {}).get("abbreviation"),
                    "statut": "Titulaire" if p.get("starter") else "Remplaçant"}
+                   
+            # -- Calcul des minutes jouées via substitutions
+            starter = p.get("starter", False)
+            sub_in = p.get("subbedIn", False)
+            sub_out = p.get("subbedOut", False)
+            minutes_played = 0
+
+            if starter or sub_in:
+                sub_times = []
+                for play in p.get("plays", []):
+                    if play.get("substitution"):
+                        clock = play.get("clock", {}).get("displayValue", "0'")
+                        try:
+                            base_min = int(clock.replace("'", "").split("+")[0])
+                            sub_times.append(base_min)
+                        except:
+                            pass
+                sub_times.sort()
+                
+                if starter:
+                    if sub_out and sub_times:
+                        minutes_played = sub_times[0]
+                    else:
+                        minutes_played = 90
+                elif sub_in:
+                    if sub_out and len(sub_times) >= 2:
+                        minutes_played = sub_times[1] - sub_times[0]
+                    elif sub_times:
+                        minutes_played = 90 - sub_times[0]
+                    else:
+                        minutes_played = 0
+                minutes_played = max(1, minutes_played) if (starter or sub_in) else 0
+
+            rec["minutes"] = minutes_played
+
             for espn_k, our_k in _PLAYER_STAT_MAP.items():
                 v = _to_num(stmap.get(espn_k))
                 if v is not None:
