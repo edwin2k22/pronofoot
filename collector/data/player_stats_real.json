@@ -12218,19 +12218,19 @@
    "fautes_commises": 0,
    "saves": 3,
    "shots_faced": 0,
-   "goals_conceded": 3
+   "goals_conceded": 1
   },
   "Ramy Bensebaini": {
    "poste": "CD-L",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 0,
+   "tirs": 1,
    "tirs_cadres": 0,
-   "fautes_commises": 0,
+   "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 3
+   "goals_conceded": 1
   },
   "Aïssa Mandi": {
    "poste": "CD-R",
@@ -12242,47 +12242,35 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 3
+   "goals_conceded": 1
   },
   "Rayan Aït-Nouri": {
    "poste": "LB",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 0,
+   "tirs": 1,
    "tirs_cadres": 0,
-   "fautes_commises": 1,
+   "fautes_commises": 2,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 3
+   "goals_conceded": 1
   },
   "Rafik Belghali": {
    "poste": "RB",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 0,
+   "tirs": 1,
    "tirs_cadres": 0,
-   "fautes_commises": 2,
+   "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 3
+   "goals_conceded": 1
   },
   "Nabil Bentaleb": {
-   "poste": "CM",
-   "statut": "Titulaire",
-   "buts": 0,
-   "passes_dec": 0,
-   "tirs": 0,
-   "tirs_cadres": 0,
-   "fautes_commises": 0,
-   "hors_jeu": 0,
-   "shots_faced": 0,
-   "goals_conceded": 3
-  },
-  "Ibrahim Maza": {
-   "poste": "LM",
-   "statut": "Titulaire",
+   "poste": "SUB",
+   "statut": "Remplaçant",
    "buts": 0,
    "passes_dec": 0,
    "tirs": 1,
@@ -12290,7 +12278,19 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 3
+   "goals_conceded": 0
+  },
+  "Ibrahim Maza": {
+   "poste": "AM",
+   "statut": "Titulaire",
+   "buts": 0,
+   "passes_dec": 0,
+   "tirs": 4,
+   "tirs_cadres": 2,
+   "fautes_commises": 0,
+   "hors_jeu": 0,
+   "shots_faced": 0,
+   "goals_conceded": 1
   },
   "Hicham Boudaoui": {
    "poste": "RM",
@@ -12299,38 +12299,38 @@
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 2,
+   "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 2
+   "goals_conceded": 1
   },
   "Amine Gouiri": {
    "poste": "F",
    "statut": "Titulaire",
-   "buts": 0,
-   "passes_dec": 0,
-   "tirs": 0,
-   "tirs_cadres": 0,
-   "fautes_commises": 1,
-   "hors_jeu": 0,
-   "shots_faced": 0,
-   "goals_conceded": 2
-  },
-  "Farès Chaïbi": {
-   "poste": "LF",
-   "statut": "Titulaire",
-   "buts": 0,
+   "buts": 1,
    "passes_dec": 0,
    "tirs": 3,
-   "tirs_cadres": 0,
-   "fautes_commises": 1,
-   "hors_jeu": 1,
+   "tirs_cadres": 2,
+   "fautes_commises": 0,
+   "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 3
+   "goals_conceded": 1
+  },
+  "Farès Chaïbi": {
+   "poste": "AM-L",
+   "statut": "Titulaire",
+   "buts": 0,
+   "passes_dec": 0,
+   "tirs": 2,
+   "tirs_cadres": 1,
+   "fautes_commises": 0,
+   "hors_jeu": 0,
+   "shots_faced": 0,
+   "goals_conceded": 1
   },
   "Anis Hadj Moussa": {
-   "poste": "RF",
-   "statut": "Titulaire",
+   "poste": "SUB",
+   "statut": "Remplaçant",
    "buts": 0,
    "passes_dec": 0,
    "tirs": 1,
@@ -12338,15 +12338,15 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 2
+   "goals_conceded": 0
   },
   "Riyad Mahrez": {
-   "poste": "SUB",
-   "statut": "Remplaçant",
+   "poste": "AM-R",
+   "statut": "Titulaire",
    "buts": 0,
-   "passes_dec": 0,
+   "passes_dec": 1,
    "tirs": 1,
-   "tirs_cadres": 0,
+   "tirs_cadres": 1,
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
@@ -12355,10 +12355,10 @@
   "Nadhir Benbouali": {
    "poste": "SUB",
    "statut": "Remplaçant",
-   "buts": 0,
+   "buts": 1,
    "passes_dec": 0,
-   "tirs": 0,
-   "tirs_cadres": 0,
+   "tirs": 2,
+   "tirs_cadres": 2,
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
@@ -12429,12 +12429,12 @@
    "statut": "Remplaçant",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 1,
+   "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
   },
   "Yassine Titraoui": {
    "poste": "SUB",
@@ -12509,16 +12509,17 @@
    "goals_conceded": 0
   },
   "Ramiz Zerrouki": {
-   "poste": "SUB",
-   "statut": "Remplaçant",
+   "poste": "LM",
+   "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 0,
+   "fautes_commises": 2,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 0
+   "goals_conceded": 1,
+   "cartons": "Yellow"
   }
  },
  "Austria": {
@@ -12847,9 +12848,9 @@
    "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 0,
-   "saves": 1,
+   "saves": 6,
    "shots_faced": 0,
-   "goals_conceded": 3
+   "goals_conceded": 2
   },
   "Yazan Al-Arab": {
    "poste": "CD",
@@ -12858,14 +12859,14 @@
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 0,
+   "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 3
+   "goals_conceded": 2
   },
   "Mohammad Abualnadi": {
-   "poste": "CD-L",
-   "statut": "Titulaire",
+   "poste": "SUB",
+   "statut": "Remplaçant",
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -12873,7 +12874,7 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
   },
   "Abdallah Nasib": {
    "poste": "CD-R",
@@ -12882,7 +12883,7 @@
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 1,
+   "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 2
@@ -12891,25 +12892,25 @@
    "poste": "CM-L",
    "statut": "Titulaire",
    "buts": 0,
-   "passes_dec": 1,
-   "tirs": 0,
+   "passes_dec": 0,
+   "tirs": 1,
    "tirs_cadres": 0,
-   "fautes_commises": 0,
+   "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 3
+   "goals_conceded": 2
   },
   "Nizar Al-Rashdan": {
    "poste": "CM-R",
    "statut": "Titulaire",
-   "buts": 0,
+   "buts": 1,
    "passes_dec": 0,
-   "tirs": 0,
-   "tirs_cadres": 0,
-   "fautes_commises": 3,
+   "tirs": 2,
+   "tirs_cadres": 1,
+   "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 3
+   "goals_conceded": 2
   },
   "Mohannad Abu Taha": {
    "poste": "LM",
@@ -12918,19 +12919,19 @@
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 1,
+   "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 3
+   "goals_conceded": 2
   },
   "Ehsan Haddad": {
    "poste": "RM",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 1,
+   "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 0,
+   "fautes_commises": 2,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 2
@@ -12939,37 +12940,37 @@
    "poste": "F",
    "statut": "Titulaire",
    "buts": 0,
-   "passes_dec": 0,
-   "tirs": 4,
+   "passes_dec": 1,
+   "tirs": 2,
    "tirs_cadres": 1,
    "fautes_commises": 1,
-   "hors_jeu": 1,
+   "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 2
   },
   "Ali Olwan": {
-   "poste": "CF-L",
-   "statut": "Titulaire",
-   "buts": 1,
-   "passes_dec": 0,
-   "tirs": 4,
-   "tirs_cadres": 2,
-   "fautes_commises": 0,
-   "hors_jeu": 0,
-   "shots_faced": 0,
-   "goals_conceded": 3
-  },
-  "Odeh Fakhoury": {
    "poste": "CF-R",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 1,
+   "tirs": 2,
    "tirs_cadres": 1,
    "fautes_commises": 0,
-   "hors_jeu": 0,
+   "hors_jeu": 1,
    "shots_faced": 0,
    "goals_conceded": 2
+  },
+  "Odeh Fakhoury": {
+   "poste": "SUB",
+   "statut": "Remplaçant",
+   "buts": 0,
+   "passes_dec": 0,
+   "tirs": 0,
+   "tirs_cadres": 0,
+   "fautes_commises": 1,
+   "hors_jeu": 0,
+   "shots_faced": 0,
+   "goals_conceded": 1
   },
   "Saleem Obaid": {
    "poste": "SUB",
@@ -12978,19 +12979,19 @@
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 1,
+   "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 2
+   "goals_conceded": 0
   },
   "Mahmoud Al-Mardi": {
-   "poste": "SUB",
-   "statut": "Remplaçant",
+   "poste": "CF-L",
+   "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 0,
-   "tirs_cadres": 0,
-   "fautes_commises": 0,
+   "tirs": 1,
+   "tirs_cadres": 1,
+   "fautes_commises": 2,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 1
@@ -13053,7 +13054,7 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
   },
   "Amer Jamous": {
    "poste": "SUB",
@@ -13089,19 +13090,20 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
   },
   "Husam Abu Dahab": {
-   "poste": "SUB",
-   "statut": "Remplaçant",
+   "poste": "CD-L",
+   "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 0,
+   "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 0
+   "goals_conceded": 2,
+   "cartons": "Yellow"
   },
   "Rajaei Ayed": {
    "poste": "SUB",
@@ -13144,12 +13146,12 @@
    "statut": "Remplaçant",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 1,
+   "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 0,
+   "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
   }
  },
  "England": {

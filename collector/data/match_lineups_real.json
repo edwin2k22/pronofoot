@@ -2739,5 +2739,69 @@
    "Cherif Ndiaye"
   ],
   "source": "ESPN (compos réelles)"
+ },
+ "Jordan|Algeria": {
+  "home_formation": "3-4-2-1",
+  "home_xi": [
+   "Yazeed Abulaila",
+   "Yazan Al-Arab",
+   "Husam Abu Dahab",
+   "Abdallah Nasib",
+   "Noor Al-Rawabdeh",
+   "Nizar Al-Rashdan",
+   "Mohannad Abu Taha",
+   "Ehsan Haddad",
+   "Mousa Al-Tamari",
+   "Mahmoud Al-Mardi",
+   "Ali Olwan"
+  ],
+  "home_bench": [
+   "Mohammad Abu Hasheesh",
+   "Mohammad Abughoush",
+   "Saed Al-Rosan",
+   "Saleem Obaid",
+   "Ibrahim Sadeh",
+   "Abdallah Al-Fakhouri",
+   "Rajaei Ayed",
+   "Mohammed Abu Zraiq",
+   "Mohammad Abualnadi",
+   "Ali Azaizeh",
+   "Odeh Fakhoury",
+   "Amer Jamous",
+   "Mohammad Al-Daoud",
+   "Anas Badawi",
+   "Nour Bani Ateyah"
+  ],
+  "away_formation": "4-2-3-1",
+  "away_xi": [
+   "Luca Zidane",
+   "Ramy Bensebaini",
+   "Aïssa Mandi",
+   "Rayan Aït-Nouri",
+   "Rafik Belghali",
+   "Ibrahim Maza",
+   "Ramiz Zerrouki",
+   "Hicham Boudaoui",
+   "Amine Gouiri",
+   "Farès Chaïbi",
+   "Riyad Mahrez"
+  ],
+  "away_bench": [
+   "Mohamed Amine Tougai",
+   "Zineddine Belaïd",
+   "Farès Ghedjemis",
+   "Anis Hadj Moussa",
+   "Oussama Benbot",
+   "Achraf Abada",
+   "Adil Boulbina",
+   "Houssem Aouar",
+   "Yassine Titraoui",
+   "Jaouen Hadjam",
+   "Nabil Bentaleb",
+   "Nadhir Benbouali",
+   "Samir Chergui",
+   "Melvin Mastil"
+  ],
+  "source": "ESPN (compos réelles)"
  }
 }

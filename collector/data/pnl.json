@@ -1,25 +1,25 @@
 {
-  "sampleWithOdds": 29,
+  "sampleWithOdds": 31,
   "favorite": {
-    "bets": 29,
-    "wins": 18,
-    "winRate": 62,
-    "pnl": -2.66,
-    "yield": -9.2
+    "bets": 31,
+    "wins": 20,
+    "winRate": 65,
+    "pnl": -1.49,
+    "yield": -4.8
   },
   "value": {
-    "bets": 56,
-    "wins": 27,
-    "winRate": 48,
-    "pnl": 1.72,
-    "yield": 3.1
+    "bets": 61,
+    "wins": 28,
+    "winRate": 46,
+    "pnl": -0.38,
+    "yield": -0.6
   },
   "valueStrict": {
-    "bets": 39,
-    "wins": 20,
-    "winRate": 51,
-    "pnl": -2.74,
-    "yield": -7.0
+    "bets": 43,
+    "wins": 23,
+    "winRate": 53,
+    "pnl": -1.36,
+    "yield": -3.2
   },
   "topValue": [
     {
@@ -27,11 +27,11 @@
       "away": "Ghana",
       "date": "2026-06-23 16:00 UTC-4",
       "label": "Plus de 2.5 buts",
-      "prob": 0.8641,
+      "prob": 0.877,
       "odd": 1.645,
       "implied": 0.6079,
-      "edge": 0.2562,
-      "ev": 0.421,
+      "edge": 0.2691,
+      "ev": 0.443,
       "provider": "DraftKings",
       "market": "O/U"
     },
@@ -40,27 +40,26 @@
       "away": "Uzbekistan",
       "date": "2026-06-23 12:00 UTC-5",
       "label": "Plus de 2.5 buts",
-      "prob": 0.7999,
+      "prob": 0.8083,
       "odd": 1.588,
       "implied": 0.6297,
-      "edge": 0.1702,
-      "ev": 0.27,
+      "edge": 0.1786,
+      "ev": 0.284,
       "provider": "DraftKings",
       "market": "O/U"
     },
     {
-      "home": "Portugal",
-      "away": "Uzbekistan",
-      "date": "2026-06-23 12:00 UTC-5",
-      "label": "Victoire Portugal",
-      "prob": 0.9335,
-      "odd": 1.211,
-      "implied": 0.8258,
-      "edge": 0.1077,
-      "ev": 0.13,
+      "home": "Colombia",
+      "away": "DR Congo",
+      "date": "2026-06-23 20:00 UTC-6",
+      "label": "Plus de 2.5 buts",
+      "prob": 0.5526,
+      "odd": 2.25,
+      "implied": 0.4444,
+      "edge": 0.1082,
+      "ev": 0.243,
       "provider": "DraftKings",
-      "market": "1N2",
-      "lineMovement": -0.024
+      "market": "O/U"
     }
   ]
 }

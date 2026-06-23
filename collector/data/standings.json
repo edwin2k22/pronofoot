@@ -441,25 +441,25 @@
       {
         "rank": 2,
         "team": "Norway",
-        "played": 1,
-        "win": 1,
+        "played": 2,
+        "win": 2,
         "draw": 0,
         "loss": 0,
-        "gf": 4,
-        "ga": 1,
-        "gd": 3,
-        "pts": 3
+        "gf": 7,
+        "ga": 3,
+        "gd": 4,
+        "pts": 6
       },
       {
         "rank": 3,
         "team": "Senegal",
-        "played": 1,
+        "played": 2,
         "win": 0,
         "draw": 0,
-        "loss": 1,
-        "gf": 1,
-        "ga": 3,
-        "gd": -2,
+        "loss": 2,
+        "gf": 3,
+        "ga": 6,
+        "gd": -3,
         "pts": 0
       },
       {
@@ -505,25 +505,25 @@
       },
       {
         "rank": 3,
-        "team": "Jordan",
-        "played": 1,
-        "win": 0,
+        "team": "Algeria",
+        "played": 2,
+        "win": 1,
         "draw": 0,
         "loss": 1,
-        "gf": 1,
-        "ga": 3,
+        "gf": 2,
+        "ga": 4,
         "gd": -2,
-        "pts": 0
+        "pts": 3
       },
       {
         "rank": 4,
-        "team": "Algeria",
-        "played": 1,
+        "team": "Jordan",
+        "played": 2,
         "win": 0,
         "draw": 0,
-        "loss": 1,
-        "gf": 0,
-        "ga": 3,
+        "loss": 2,
+        "gf": 2,
+        "ga": 5,
         "gd": -3,
         "pts": 0
       }
