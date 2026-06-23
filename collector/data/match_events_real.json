@@ -24377,7 +24377,7 @@
    {
     "minute": 27,
     "text": "Attempt missed. Ali Al Hamadi (Iraq) header from the right side of the six yard box misses to the right. Assisted by Merchas Doski with a cross.",
-    "type": "Shot Blocked"
+    "type": "Shot Off Target"
    },
    {
     "minute": 28,
@@ -24542,7 +24542,7 @@
    {
     "minute": 66,
     "text": "Attempt missed. William Saliba (France) header from the centre of the box is close, but misses to the right. Assisted by Lucas Digne with a cross following a corner.",
-    "type": "Shot Blocked"
+    "type": "Shot Off Target"
    },
    {
     "minute": 66,
@@ -24685,6 +24685,13 @@
     "team": "Senegal",
     "player": "Ismaïla Sarr",
     "assist": "Sadio Mané",
+    "note": null
+   },
+   {
+    "minute": 58,
+    "team": "Norway",
+    "player": "Erling Haaland",
+    "assist": "Patrick Berg",
     "note": null
    },
    {
@@ -24970,7 +24977,7 @@
    {
     "minute": 58,
     "text": "Goal! Norway 3, Senegal 1. Erling Haaland (Norway) right footed shot from the centre of the box to the high centre of the goal. Assisted by Patrick Berg.",
-    "type": "Goal - Volley"
+    "type": "Goal"
    },
    {
     "minute": 59,
@@ -25135,7 +25142,7 @@
    {
     "minute": 90,
     "text": "Attempt missed. Pape Matar Sarr (Senegal) right footed shot from outside the box is close, but misses to the right.",
-    "type": "Shot Blocked"
+    "type": "Shot Off Target"
    },
    {
     "minute": 90,
@@ -25224,6 +25231,13 @@
     "team": "Jordan",
     "player": "Nizar Al-Rashdan",
     "assist": "Mousa Al-Tamari",
+    "note": null
+   },
+   {
+    "minute": 82,
+    "team": "Algeria",
+    "player": "Amine Gouiri",
+    "assist": null,
     "note": null
    }
   ],
@@ -25620,7 +25634,7 @@
    {
     "minute": 82,
     "text": "Goal! Jordan 1, Algeria 2. Amine Gouiri (Algeria) right footed shot from very close range to the centre of the goal following a corner.",
-    "type": "Goal - Volley"
+    "type": "Goal"
    },
    {
     "minute": 84,
