@@ -52,7 +52,6 @@ def qualification_status(group_teams: list[str], table: dict[str, dict],
     """
     status = {t: "alive" for t in group_teams}
     played_total = sum(v["played"] for v in table.values()) // 2  # matchs joués du groupe
-    games_left_total = total_group_games - played_total
     if played_total == 0:
         return status
 
@@ -68,8 +67,7 @@ def qualification_status(group_teams: list[str], table: dict[str, dict],
     # une équipe est QUALIFIÉE (top2) si au moins 2 équipes ne peuvent PAS la dépasser...
     # version prudente : on déclare qualifié seulement le leader avec une avance verrouillée.
     if len(ranked) >= 2 and played_total >= 4:   # après ~2 journées
-        leader, lpts = ranked[0][0], ranked[0][1]["pts"]
-        second, spts = ranked[1][0], ranked[1][1]["pts"]
+        spts = ranked[1][1]["pts"]
         # combien d'équipes peuvent encore atteindre/dépasser la 2e place ?
         for t in group_teams:
             cur = table.get(t)

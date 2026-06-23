@@ -1,7 +1,4 @@
 from __future__ import annotations
-import json
-import os
-import random
 from collector.sources import openfootball_wc
 
 def extract_goals() -> dict:

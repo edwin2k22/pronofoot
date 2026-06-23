@@ -1,3 +1,9 @@
+"""Réinitialise les ratings Elo et moyennes d'équipes (et l'historique).
+
+Utilitaire de maintenance : à lancer depuis la RACINE du projet, pas depuis scripts/ :
+
+    python3 scripts/reset_elo.py
+"""
 import sqlite3
 from collector.sources.team_ratings import get_rating
 from collector.pipeline import PRIOR

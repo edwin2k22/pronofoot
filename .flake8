@@ -1,0 +1,19 @@
+[flake8]
+# Configuration flake8 — pragmatique : on signale les ERREURS réelles (pyflakes F)
+# qui indiquent du code cassé (imports inutilisés, variables non définies...).
+# On ignore les warnings de style cosmétiques (E/W) hérités du legacy pour ne pas
+# bloquer la CI, mais ils pourront être nettoyés progressivement.
+#
+# Pour un audit complet du style :  flake8 collector/ tests/  (sans cette config)
+select = F
+
+# Exceptions tolérées (code idiomatique courant)
+extend-ignore = E203, W503
+
+max-line-length = 120
+exclude =
+    .git,
+    __pycache__,
+    .pytest_cache,
+    collector/cache,
+    deploy

@@ -1,13 +1,8 @@
-# PronoFoot - Requirements
-# Note: This project is designed to have minimal external dependencies
-# All core functionality uses Python standard library only
-
-# Optional: For running the test suite
-pytest>=8.0.0
-pytest-cov>=5.0.0
-
-# Optional: For linting and type checking
-flake8>=7.0.0
-mypy>=1.10.0
-black>=24.0.0
-isort>=5.13.0
+# PronoFoot - Runtime dependencies
+#
+# Le cœur du projet n'utilise QUE la bibliothèque standard Python (json, sqlite3,
+# math, urllib...). Aucune dépendance tierce n'est requise pour faire tourner le
+# pipeline, l'ingestion et le moteur de pronostic.
+#
+# Les dépendances externes (requests, pandas...) utilisées par quelques scripts
+# d'ingestion optionnels sont listées au cas par cas dans ces scripts.

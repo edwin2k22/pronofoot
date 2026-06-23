@@ -1,0 +1,15 @@
+# PronoFoot - Development dependencies
+# Installer avec :  pip install -r requirements-dev.txt
+# (inclut aussi les dépendances de runtime, actuellement vides)
+
+-r requirements.txt
+
+# Test suite
+pytest>=8.0.0
+pytest-cov>=5.0.0
+
+# Linting / formatting / type checking (utilisés par la CI)
+flake8>=7.0.0
+mypy>=1.10.0
+black>=24.0.0
+isort>=5.13.0

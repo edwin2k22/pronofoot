@@ -83,7 +83,7 @@ def poll_once(verbose=True):
             try:
                 from collector import espn_ingest
                 espn_ingest.ingest_match(row["home"], row["away"], force=True)
-            except Exception as e:
+            except Exception:
                 pass
                 
             if verbose:

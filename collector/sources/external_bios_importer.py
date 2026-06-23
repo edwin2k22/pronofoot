@@ -1,5 +1,4 @@
 import os
-import json
 import csv
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")

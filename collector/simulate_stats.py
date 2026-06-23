@@ -1,6 +1,5 @@
 import json
 import os
-import random
 from collector.sources.openfootball_stats import extract_goals
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")

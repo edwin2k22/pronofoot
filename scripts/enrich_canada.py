@@ -1,9 +1,17 @@
+"""Génère un CSV FIFA-like pour les joueurs du Canada (sous-ensemble des effectifs).
+
+À lancer depuis la RACINE du projet :
+
+    python3 scripts/enrich_canada.py
+"""
 import json
 import csv
 import os
 import random
 
-DATA_DIR = os.path.join(os.path.dirname(__file__), "collector", "data")
+# scripts/ -> remonte à la racine du projet
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(ROOT, "collector", "data")
 SQUADS_PATH = os.path.join(DATA_DIR, "squads_2026.json")
 CSV_PATH = os.path.join(DATA_DIR, "players_fifa24.csv")
 

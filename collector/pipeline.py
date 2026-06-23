@@ -43,7 +43,7 @@ from collector.sources import recent_form as rform
 from collector.sources import referees_2026 as refs
 from collector.sources import referee_form as refform
 from collector.sources import team_setpieces as setp
-from collector.sources.team_ratings import get_rating, LEAGUE_AVG_GOALS
+from collector.sources.team_ratings import get_rating
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 os.makedirs(DATA_DIR, exist_ok=True)

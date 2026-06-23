@@ -19,7 +19,7 @@ Usage :
     python3 -m collector.smart_live --status        # diagnostic instantané
 """
 from __future__ import annotations
-import sys, os, time, argparse, datetime
+import sys, os, time, argparse
 if sys.stdout and hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding='utf-8')
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))

@@ -180,7 +180,7 @@ def compute(team, roster, lam_team, lam_opp, stats_team=None, lineup_xi=None):
                 bench_impact.append({
                     "name": p["name"], "poste": p["poste"],
                     "goals": g, "assists": a,
-                    "why": f"Entré en jeu et décisif : "
+                    "why": "Entré en jeu et décisif : "
                            + ", ".join(filter(None, [
                                f"{int(g)} but(s)" if g else "",
                                f"{int(a)} passe(s) déc." if a else ""])) + "."})

@@ -33,12 +33,19 @@ Tout est en JSON domaine public, **sans clé API**.
 
 ```bash
 cd prono-app
+pip install -r requirements-dev.txt        # dépendances dev (pytest, flake8...) — optionnel pour juste lancer
 python3 -m collector.refresh                # tout-en-un : web → seed → ingest → predict → embed
 python3 -m collector.selftest               # test de santé (modules, données, cohérence)
 python3 -m http.server 8077                 # ouvre http://localhost:8077/index.html
 ```
 
 Ou étape par étape : `pipeline seed` → `pipeline run` → `player_ingest --export` → `embed`.
+
+> ⚠️ `index.html` et `scouting.html` **ne sont pas dans le dépôt git** : ce sont des
+> artefacts de build (données embarquées via `embed.py`). Le premier `refresh` (ou
+> `python3 -m collector.embed`) les régénère localement. Sans serveur, ils s'ouvrent
+> aussi en `file://` (données embarquées). Idem pour la base `pronofoot.db`,
+> créée par `pipeline seed`.
 
 - `index.html` → pronostics des 102 matchs à venir (filtre par groupe, marchés 1X2/buts/corners/cartons)
 - `scouting.html` → effectifs réels 2026 par équipe (stats N/D en attendant les matchs)
@@ -268,18 +275,46 @@ Fautes commises, Fautes subies, Hors-jeu, Cartons (avec motif).
 
 ```
 prono-app/
-├── index.html                    # app web : pronostics 2026 (4 marchés)
-├── scouting.html                 # effectifs joueurs 2026
+├── index.html                    # app web : pronostics 2026 (régénéré par embed.py)
+├── scouting.html                 # effectifs joueurs 2026 (régénéré par embed.py)
+├── requirements.txt              # runtime (stdlib uniquement)
+├── requirements-dev.txt          # pytest, flake8, mypy, black, isort
+├── .github/workflows/ci.yml      # CI : pytest + flake8 à chaque push
+├── scripts/                      # utilitaires de maintenance (reset_elo, enrich_*)
+├── tests/                        # suite de tests du cœur statistique
 └── collector/
     ├── pipeline.py               # orchestrateur (seed / ingest / update / predict)
+    ├── refresh.py                # tout-en-un + embarquement HTML
+    ├── embed.py                  # injecte predictions.json/squads dans les HTML
     ├── player_ingest.py          # ingestion stats joueur 2026 + export effectifs
     ├── db/database.py            # base locale SQLite
-    ├── models/                   # elo.py, shrinkage.py, markets.py (4 modèles)
-    └── sources/
-        ├── openfootball_wc.py    # calendrier réel CDM 2026
-        ├── squads_2026.py        # effectifs réels CDM 2026
-        └── team_ratings.py       # ratings FIFA/Elo (prior de force)
+    ├── models/                   # cœur statistique
+    │   ├── elo.py                # prior de force + update (K décroissant, xG-blend)
+    │   ├── shrinkage.py          # anti-overreaction Bayésien
+    │   ├── score_grid.py         # Dixon-Coles + Poisson bivarié (effet de choc)
+    │   ├── markets.py            # 1X2 / buts / corners / cartons / tirs
+    │   ├── calibrate.py          # recalage ρ/γ par max. de vraisemblance
+    │   ├── context.py            # enjeu (MWI), confiance, mouvement de cote
+    │   ├── standings.py          # classements live + qualifié/éliminé
+    │   ├── lineup_impact.py      # impact compo (VORP + duels tactiques)
+    │   └── ensemble.py           # pondération des modèles
+    └── sources/                  # ingestion (openfootball, ESPN, cotes, arbitres...)
 ```
+
+## 🧪 Tests & CI
+
+Le cœur statistique est couvert par des tests d'invariants mathématiques (normalisation
+des grilles, partition 1X2, conservation de l'Elo, bornes des probabilités) :
+
+```bash
+pip install -r requirements-dev.txt
+pytest tests/                    # 77 tests (~0.3 s)
+flake8 collector/ tests/         # erreurs F (imports cassés, vars non définies)
+```
+
+La CI GitHub Actions (`.github/workflows/ci.yml`) lance ces deux vérifications sur
+Python 3.11 et 3.12 à chaque push/PR — empêche les régressions silencieuses sur le
+moteur de pronostic.
 
 ## Le moteur de pronostic
 1. **Prior** — rating Elo par sélection (basé classement FIFA).

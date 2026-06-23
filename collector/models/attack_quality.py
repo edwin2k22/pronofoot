@@ -12,7 +12,6 @@ borné pour rester prudent (on ne transforme pas un outsider en favori).
 100% basé sur des données réelles (effectif + bios sourcées). Aucune invention.
 """
 from __future__ import annotations
-from collector.sources import player_bios as bios
 
 # postes considérés comme offensifs
 _OFF = ("FW", "AC", "BU", "ATT", "AG", "AD", "AILIER", "MO", "AM")

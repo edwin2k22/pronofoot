@@ -17,7 +17,6 @@ from __future__ import annotations
 import os, json, math
 
 from . import score_grid as sg
-from .elo import HOME_ADV_ELO
 
 DATA = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
 OUT = os.path.join(DATA, "calibration.json")

@@ -38,3 +38,11 @@ deploy/*
 !deploy/install.sh
 !deploy/uninstall.sh
 !deploy/pronofoot-*.service
+
+# Built HTML dashboards — régénérés par `python3 -m collector.embed`
+# (données embarquées via embed.py, appelé par refresh). Ne pas committer.
+index.html
+scouting.html
+
+# Logs serveur locaux
+.server-*.log

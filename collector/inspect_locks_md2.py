@@ -48,7 +48,7 @@ def main():
             status_str = "✅ GAGNÉ" if won else "❌ PERDU"
             print(f"  • [🔒 LOCK] {pk['label']} (prob: {pk['prob']:.2f}) -> {status_str}")
             
-    print(f"\n--- BILAN DE LA JOURNÉE 2 ---")
+    print("\n--- BILAN DE LA JOURNÉE 2 ---")
     if total_proposed > 0:
         print(f"Total des Locks proposés : {total_proposed}")
         print(f"Locks gagnés : {total_won} / {total_proposed} ({total_won/total_proposed*100:.1f}%)")

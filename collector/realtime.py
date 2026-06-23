@@ -21,11 +21,10 @@ Lancement (dans le sandbox / serveur qui a accès au réseau) :
     python3 -m collector.realtime --status      # diagnostic instantané
 """
 from __future__ import annotations
-import sys, os, time, json, argparse, datetime
+import os, time, json, argparse, datetime
 
 from collector import schedule_clock as clock
 from collector import espn_live, lineup_ingest, odds_ingest, pipeline, embed
-from collector.db import database as db
 
 DATA = os.path.join(os.path.dirname(__file__), "data")
 PRED = os.path.join(DATA, "predictions.json")

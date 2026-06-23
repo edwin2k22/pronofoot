@@ -140,7 +140,6 @@ def formation_positions(formation: str) -> list[str]:
     if not parts:
         return ["GK"] + ["DF"]*4 + ["MF"]*3 + ["FW"]*3
     lines = ["GK"]
-    labels = ["DF", "MF", "MF", "FW"]   # 2 lignes médianes possibles
     # 1ère ligne = DF, dernière = FW, intermédiaires = MF
     for i, n in enumerate(parts):
         if i == 0:

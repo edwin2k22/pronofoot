@@ -2,7 +2,7 @@
 """Tests unitaires pour la couche de cache intelligent http_cache.py"""
 from __future__ import annotations
 import sys, os, json, time, tempfile, unittest
-from unittest.mock import patch, MagicMock
+from unittest.mock import patch
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from collector import http_cache

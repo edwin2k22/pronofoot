@@ -19,7 +19,7 @@ Fonctionnalités améliorées :
 from __future__ import annotations
 import json, os, time, hashlib, urllib.request, urllib.error, logging
 import threading
-from typing import Any, Optional
+from typing import Optional
 
 # Configuration du logging (pas de basicConfig au niveau module pour éviter conflits)
 logger = logging.getLogger(__name__)
