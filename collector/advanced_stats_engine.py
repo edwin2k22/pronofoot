@@ -42,6 +42,33 @@ def estimate_advanced_stats(player_name, stats, position, minutes_played):
         
     tacles = int((base_tackles_90 * (minutes_played / 90.0)) * random.uniform(0.5, 1.5))
     
+    # 4b. Interceptions
+    base_interceptions_90 = 0.5
+    if 'D' in position or 'DM' in position:
+        base_interceptions_90 = 2.0
+    elif 'M' in position:
+        base_interceptions_90 = 1.2
+        
+    interceptions = int((base_interceptions_90 * (minutes_played / 90.0)) * random.uniform(0.5, 1.5))
+    
+    # 4c. Blocks
+    base_blocks_90 = 0.2
+    if 'D' in position:
+        base_blocks_90 = 1.5
+    elif 'DM' in position or 'M' in position:
+        base_blocks_90 = 0.8
+        
+    blocks = int((base_blocks_90 * (minutes_played / 90.0)) * random.uniform(0.5, 1.5))
+    
+    # 4d. Dégagements (Clearances)
+    base_degagements_90 = 0.5
+    if 'G' in position or 'CB' in position or 'D' in position:
+        base_degagements_90 = 3.5
+    elif 'DM' in position:
+        base_degagements_90 = 1.5
+        
+    degagements = int((base_degagements_90 * (minutes_played / 90.0)) * random.uniform(0.5, 1.5))
+    
     # 5. Note (Rating 1-10)
     # Base rating 6.0
     note = 6.0 + (buts * 1.0) + (passes_dec * 0.5) + (tirs * 0.1)
@@ -58,6 +85,9 @@ def estimate_advanced_stats(player_name, stats, position, minutes_played):
         'xa': round(xa, 2),
         'passes_reussies': passes_reussies,
         'tacles': tacles,
+        'interceptions': interceptions,
+        'blocks': blocks,
+        'degagements': degagements,
         'note': round(note, 1)
     }
 
