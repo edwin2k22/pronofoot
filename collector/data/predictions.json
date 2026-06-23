@@ -427,35 +427,35 @@
       },
       "cards": {
         "exp_cards": 2.9,
-        "over": 0.3274,
-        "under": 0.6726,
+        "over": 0.3196,
+        "under": 0.6804,
         "line": 3.5,
         "home": 1.4,
-        "away": 1.5,
+        "away": 1.4,
         "lines": {
           "2.5": {
-            "over": 0.5509,
-            "under": 0.4491
+            "over": 0.5428,
+            "under": 0.4572
           },
           "3.5": {
-            "over": 0.3274,
-            "under": 0.6726
+            "over": 0.3196,
+            "under": 0.6804
           },
           "4.5": {
-            "over": 0.1661,
-            "under": 0.8339
+            "over": 0.1605,
+            "under": 0.8395
           }
         },
-        "redProb": 0.144,
+        "redProb": 0.143,
         "foulsHome": 11.4,
         "foulsAway": 10.8,
         "src": "FootyStats + arbitre",
         "refSeverity": {
-          "avg": 1.64,
-          "n": 106,
+          "avg": 1.57,
+          "n": 111,
           "prior": 4.5,
-          "obsMean": 1.53,
-          "source": "prior + 106 match(s) CDM 2026"
+          "obsMean": 1.46,
+          "source": "prior + 111 match(s) CDM 2026"
         }
       },
       "shots": {
@@ -471,9 +471,9 @@
         "name": "Wilton Sampaio",
         "nation": "Brésil",
         "cardsAvg": 4.5,
-        "severity": 1.64,
-        "severityN": 106,
-        "severitySrc": "prior + 106 match(s) CDM 2026"
+        "severity": 1.57,
+        "severityN": 111,
+        "severitySrc": "prior + 111 match(s) CDM 2026"
       },
       "riskPlayers": {
         "home": {
@@ -37290,7 +37290,7 @@
     "date": "2026-06-22 20:00 UTC-4",
     "status": "LIVE",
     "liveScore": "3-1",
-    "liveClock": "89'",
+    "liveClock": "90'+3'",
     "realScore": null,
     "analysis": null,
     "home": "Norway",

@@ -4633,6 +4633,13 @@
     "player": "Ismaïla Sarr",
     "assist": "Sadio Mané",
     "note": null
+   },
+   {
+    "minute": 90,
+    "team": "Senegal",
+    "player": "Ismaïla Sarr",
+    "assist": null,
+    "note": null
    }
   ],
   "cards": [],
@@ -4859,12 +4866,12 @@
    },
    {
     "minute": 46,
-    "text": "Ismaïla Sarr (Senegal) wins a free kick on the right wing.",
+    "text": "Foul by David Møller Wolfe (Norway).",
     "type": "Foul"
    },
    {
     "minute": 46,
-    "text": "Foul by David Møller Wolfe (Norway).",
+    "text": "Ismaïla Sarr (Senegal) wins a free kick on the right wing.",
     "type": "Foul"
    },
    {
@@ -5045,6 +5052,31 @@
    {
     "minute": 88,
     "text": "Idrissa Gueye (Senegal) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt blocked. Oscar Bobb (Norway) left footed shot from the centre of the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 90,
+    "text": "Corner, Norway. Conceded by Pathé Ciss.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 90,
+    "text": "Fourth official has announced 9 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Sander Berge (Norway).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Mory Diaw (Senegal) wins a free kick in the defensive half.",
     "type": "Foul"
    }
   ],
