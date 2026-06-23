@@ -32,6 +32,14 @@ def _load(path):
 
 
 def _save(path, data):
+    import time
+    for _ in range(5):
+        try:
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=1)
+            return
+        except OSError:
+            time.sleep(0.5)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
 
@@ -71,13 +79,56 @@ def ingest_match(home, away, date_hint=None, force=False):
         print(f"  [skip] {home} vs {away} : résumé ESPN indisponible")
         return False
 
-    # 1) stats joueur (fusion : on n'écrase pas les données manuelles existantes vides)
+    # 1) stats joueur (fusion cumulative : on additionne les stats numériques)
     players = _load(PLAYER_FILE)
     n_players = 0
     for team, pls in summ["players"].items():
         players.setdefault(team, {})
         for name, rec in pls.items():
-            players[team][name] = {**players[team].get(name, {}), **rec}
+            curr = players[team].get(name, {})
+            merged = {}
+            # Strings: on conserve le plus récent
+            for k in ["poste", "statut"]:
+                merged[k] = rec.get(k) or curr.get(k)
+                
+            # Numériques: addition
+            numeric_keys = ["minutes", "buts", "passes_dec", "tirs", "tirs_cadres", 
+                            "fautes_commises", "fautes_subies", "hors_jeu", "saves", 
+                            "shots_faced", "goals_conceded", "but_csc", "passes_reussies", 
+                            "passes_progressives", "tacles", "interceptions", "pressions", "xg", "xa"]
+            for k in numeric_keys:
+                if k in curr or k in rec:
+                    v_curr = curr.get(k, 0)
+                    if v_curr == "N/D" or v_curr is None: v_curr = 0
+                    v_rec = rec.get(k, 0)
+                    if v_rec == "N/D" or v_rec is None: v_rec = 0
+                    
+                    if k in ["xg", "xa", "note"]:
+                        merged[k] = round(float(v_curr) + float(v_rec), 2)
+                    else:
+                        merged[k] = int(v_curr) + int(v_rec)
+            
+            # Note moyenne
+            c_note = curr.get("note", 0)
+            r_note = rec.get("note", 0)
+            if c_note == "N/D" or c_note is None or c_note == "": c_note = 0
+            if r_note == "N/D" or r_note is None or r_note == "": r_note = 0
+            if float(c_note) > 0 and float(r_note) > 0:
+                merged["note"] = round((float(c_note) + float(r_note)) / 2, 1)
+            else:
+                merged["note"] = float(c_note) or float(r_note) or 0
+                
+            # Cartons
+            c_cart = curr.get("cartons", "—")
+            r_cart = rec.get("cartons", "—")
+            if "Red" in (c_cart, r_cart):
+                merged["cartons"] = "Red"
+            elif "Yellow" in (c_cart, r_cart):
+                merged["cartons"] = "Yellow"
+            else:
+                merged["cartons"] = "—"
+                
+            players[team][name] = merged
             n_players += 1
     _save(PLAYER_FILE, players)
 

@@ -1021,7 +1021,7 @@
    "Joaquín Piquerez",
    "Rodrigo Aguirre",
    "Juan Manuel Sanabria",
-   "Agustín Cano",
+   "Agustín Canobbio",
    "Santiago Mele",
    "Sergio Rochet",
    "Facundo Pellistri",
@@ -2418,19 +2418,19 @@
   "source": "ESPN (compos réelles)"
  },
  "Uruguay|Cape Verde": {
-  "home_formation": "4-2-3-1",
+  "home_formation": "4-1-4-1",
   "home_xi": [
    "Fernando Muslera",
    "Mathías Olivera",
    "Sebastián Cáceres",
+   "Manuel Ugarte",
    "Juan Manuel Sanabria",
    "Guillermo Varela",
    "Federico Valverde",
-   "Manuel Ugarte",
    "Rodrigo Bentancur",
-   "Federico Viñas",
    "Maxi Araújo",
-   "Agustín Cano"
+   "Agustín Canobbio",
+   "Federico Viñas"
   ],
   "home_bench": [
    "Rodrigo Zalazar",

@@ -147,13 +147,36 @@ def export_for_web():
         for r in db.players_by_team(conn, t):
             played = r["matches_2026"] > 0
             rs = _match_player(real_team, r["name"]) if real_team else None
+            
+            import collector.advanced_stats_engine as engine
+            
             if rs:
                 n_real_players += 1
+                # If advanced stats are missing in rs, estimate them
+                raw_min = rs.get("minutes")
+                minutes_played = int(raw_min) if str(raw_min).isdigit() and int(raw_min) > 0 else 90
+                adv = engine.estimate_advanced_stats(r["name"], rs, r["pos"], minutes_played)
+                
+                # Assign estimates to rs if not present
+                for k in ["xg", "xa", "passes_reussies", "tacles"]:
+                    if rs.get(k) in (None, "N/D", 0, 0.0):
+                        rs[k] = adv[k]
+                
+                # Force a calculated note if missing or 0
+                if rs.get("note") in (None, "N/D", 0, 0.0):
+                    rs["note"] = adv["note"]
+                
+                # Generate notes history
+                num_matches = r["matches_2026"] or 1
+                if not rs.get("notes_history"):
+                    rs["notes_history"] = engine.generate_match_evolution(r["name"], rs["note"], num_matches)
+
             def val(db_val, real_key):
                 # priorité : stat réelle collectée > cumul base > N/D
-                if rs and real_key in rs:
+                if rs and real_key in rs and rs[real_key] not in (None, "N/D"):
                     return rs[real_key]
                 return db_val if played else "N/D"
+            
             p_dict = {
                 "numero": r["number"], "joueur": r["name"], "poste": r["pos"],
                 "age": r["age"], "matchs_2026": r["matches_2026"] or (1 if rs else 0),
@@ -162,7 +185,7 @@ def export_for_web():
                 "buts": val(r["goals"], "buts"), "passes_dec": val(r["assists"], "passes_dec"),
                 "but_csc": val(r["own_goals"], "but_csc"),
                 "tirs": val(r["shots"], "tirs"), "tirs_cadres": val(r["shots_on"], "tirs_cadres"),
-                "xg": val(round(r["xg"], 2), "xg"), "xa": val(round(r["xa"], 2), "xa"),
+                "xg": val(round(r["xg"], 2) if r["xg"] else 0, "xg"), "xa": val(round(r["xa"], 2) if r["xa"] else 0, "xa"),
                 "passes_reussies": val(r["passes"], "passes_reussies"),
                 "passes_progressives": val(r["prog_passes"], "passes_progressives"),
                 "tacles": val(r["tackles"], "tacles"), "interceptions": val(r["interceptions"], "interceptions"),
@@ -173,6 +196,7 @@ def export_for_web():
                 "hors_jeu": val(r["offsides"], "hors_jeu"),
                 "remplacements": val(r["sub_ins"], "sub_ins"),
                 "note": rs.get("note", "N/D") if rs else "N/D",
+                "notes_history": rs.get("notes_history", []) if rs else [],
                 "cartons": (rs.get("cartons") if rs and rs.get("cartons") else
                             ("—" if rs else ((r["cards"].strip() or "—") if played else "N/D"))),
             }
