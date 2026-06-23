@@ -93,8 +93,49 @@ def _match_player(real_team: dict, name: str):
     return None
 
 
+def generate_auto_bio(p):
+    forces = []
+    faiblesses = []
+    
+    def num(v):
+        try: return float(v)
+        except: return 0.0
+        
+    tirs = num(p.get("tirs"))
+    xg = num(p.get("xg"))
+    passes = num(p.get("passes_reussies"))
+    tacles = num(p.get("tacles"))
+    interceptions = num(p.get("interceptions"))
+    fautes = num(p.get("fautes_commises"))
+    minutes = num(p.get("minutes"))
+    poste = str(p.get("poste"))
+    
+    if minutes == 0:
+        return None # Pas de datas
+        
+    if tirs >= 2: forces.append("N'hésite pas à prendre sa chance aux tirs")
+    if xg >= 0.4: forces.append("Se procure des occasions dangereuses (xG élevé)")
+    if passes >= 40: forces.append("Plaque tournante, gros volume de passes")
+    if tacles >= 3 or interceptions >= 3: forces.append("Fort à la récupération (tacles/interceptions)")
+    
+    if fautes >= 3: faiblesses.append("Concède beaucoup de fautes")
+    if tirs >= 3 and xg < 0.2: faiblesses.append("Choix de tirs parfois lointains ou difficiles")
+    if passes < 15 and poste == "MF" and minutes > 45: faiblesses.append("Peu d'influence dans le jeu de passes")
+    
+    if not forces and not faiblesses:
+        return {"bio": "Données statistiques insuffisantes pour dégager un profil net.", "forces": ["Volume de jeu standard"], "faiblesses": ["N/D"], "source": "Auto-généré (Stats 2026)"}
+        
+    return {
+        "bio": "Profil généré automatiquement d'après les statistiques du tournoi.",
+        "forces": forces if forces else ["N/D"],
+        "faiblesses": faiblesses if faiblesses else ["N/D"],
+        "source": "Auto-généré (Stats 2026)"
+    }
+
+
 def export_for_web():
     """Exporte les effectifs 2026 + stats (réelles si dispo, sinon N/D) pour l'app."""
+    import collector.sources.external_bios_importer as ext_bios
     conn = db.init_db()
     teams = db.all_player_teams(conn)
     real = _load_real_player_stats()
@@ -113,7 +154,7 @@ def export_for_web():
                 if rs and real_key in rs:
                     return rs[real_key]
                 return db_val if played else "N/D"
-            players.append({
+            p_dict = {
                 "numero": r["number"], "joueur": r["name"], "poste": r["pos"],
                 "age": r["age"], "matchs_2026": r["matches_2026"] or (1 if rs else 0),
                 "statut": (rs.get("statut", "—") if rs else "N/D"),
@@ -134,8 +175,15 @@ def export_for_web():
                 "note": rs.get("note", "N/D") if rs else "N/D",
                 "cartons": (rs.get("cartons") if rs and rs.get("cartons") else
                             ("—" if rs else ((r["cards"].strip() or "—") if played else "N/D"))),
-                "bio": _bios.get_bio(r["name"]),   # profil réel sourcé ou None (=> N/D)
-            })
+            }
+            bio = _bios.get_bio(r["name"])
+            if not bio:
+                bio = generate_auto_bio(p_dict)
+            if not bio:
+                bio = ext_bios.get_external_bio(r["name"])
+                
+            p_dict["bio"] = bio
+            players.append(p_dict)
         out.append({"equipe": t, "joueurs": players})
     conn.close()
     path = os.path.join(DATA_DIR, "squads_2026.json")
