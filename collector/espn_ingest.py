@@ -54,10 +54,6 @@ def _match_date(date_str):
 
 def ingest_match(home, away, date_hint=None, force=False):
     key = f"{home}|{away}"
-    if not force:
-        stats_cache = _load(STATS_FILE)
-        if key in stats_cache and (stats_cache[key].get("home_shots") is not None or stats_cache[key].get("source_espn") == "not_found"):
-            return True
 
     # cherche la date du match (±1 jour pour gérer les fuseaux/nuit) si fournie
     ev = None

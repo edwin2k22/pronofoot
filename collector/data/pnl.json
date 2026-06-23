@@ -8,18 +8,18 @@
     "yield": -10.0
   },
   "value": {
-    "bets": 56,
-    "wins": 29,
-    "winRate": 52,
-    "pnl": 3.5,
-    "yield": 6.2
+    "bets": 65,
+    "wins": 28,
+    "winRate": 43,
+    "pnl": -5.68,
+    "yield": -8.7
   },
   "valueStrict": {
-    "bets": 40,
-    "wins": 21,
-    "winRate": 52,
-    "pnl": -2.41,
-    "yield": -6.0
+    "bets": 36,
+    "wins": 15,
+    "winRate": 42,
+    "pnl": -9.29,
+    "yield": -25.8
   },
   "topValue": [
     {
@@ -27,11 +27,11 @@
       "away": "Ghana",
       "date": "2026-06-23 16:00 UTC-4",
       "label": "Plus de 2.5 buts",
-      "prob": 0.8336,
+      "prob": 0.8643,
       "odd": 1.645,
       "implied": 0.6079,
-      "edge": 0.2257,
-      "ev": 0.371,
+      "edge": 0.2564,
+      "ev": 0.422,
       "provider": "DraftKings",
       "market": "O/U"
     },
@@ -39,25 +39,26 @@
       "home": "Portugal",
       "away": "Uzbekistan",
       "date": "2026-06-23 12:00 UTC-5",
-      "label": "Plus de 2.5 buts",
-      "prob": 0.7823,
-      "odd": 1.588,
-      "implied": 0.6297,
-      "edge": 0.1526,
-      "ev": 0.242,
+      "label": "Victoire Portugal",
+      "prob": 0.906,
+      "odd": 1.211,
+      "implied": 0.8258,
+      "edge": 0.0802,
+      "ev": 0.097,
       "provider": "DraftKings",
-      "market": "O/U"
+      "market": "1N2",
+      "lineMovement": -0.024
     },
     {
-      "home": "Colombia",
-      "away": "DR Congo",
-      "date": "2026-06-23 20:00 UTC-6",
+      "home": "Portugal",
+      "away": "Uzbekistan",
+      "date": "2026-06-23 12:00 UTC-5",
       "label": "Plus de 2.5 buts",
-      "prob": 0.5686,
-      "odd": 2.25,
-      "implied": 0.4444,
-      "edge": 0.1242,
-      "ev": 0.279,
+      "prob": 0.7078,
+      "odd": 1.588,
+      "implied": 0.6297,
+      "edge": 0.0781,
+      "ev": 0.124,
       "provider": "DraftKings",
       "market": "O/U"
     }

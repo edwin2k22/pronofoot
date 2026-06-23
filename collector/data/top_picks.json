@@ -2,51 +2,51 @@
   "reliability": {
     "byTier": {
       "lock": {
-        "won": 114,
-        "total": 131,
-        "pct": 87
+        "won": 109,
+        "total": 130,
+        "pct": 84
       },
       "strong": {
-        "won": 32,
-        "total": 46,
-        "pct": 70
+        "won": 37,
+        "total": 45,
+        "pct": 82
       },
       "value": {
-        "won": 13,
+        "won": 12,
         "total": 20,
-        "pct": 65
+        "pct": 60
       }
     },
     "byMarket": {
       "DC": {
-        "won": 39,
+        "won": 36,
         "total": 44,
-        "pct": 89
+        "pct": 82
       },
       "DNB": {
-        "won": 26,
+        "won": 25,
         "total": 31,
-        "pct": 84
+        "pct": 81
       },
       "1N2": {
-        "won": 26,
+        "won": 27,
         "total": 44,
-        "pct": 59
+        "pct": 61
       },
       "OU": {
-        "won": 25,
+        "won": 27,
         "total": 44,
-        "pct": 57
+        "pct": 61
       },
       "BTTS": {
-        "won": 21,
+        "won": 24,
         "total": 44,
-        "pct": 48
+        "pct": 55
       },
       "CORNERS": {
-        "won": 33,
+        "won": 36,
         "total": 44,
-        "pct": 75
+        "pct": 82
       },
       "CARTONS": {
         "won": 37,
@@ -55,8 +55,8 @@
       }
     },
     "overall": {
-      "won": 159,
-      "total": 197,
+      "won": 158,
+      "total": 195,
       "pct": 81
     },
     "sampleMatches": 44
@@ -74,10 +74,10 @@
       "id": null,
       "market": "DNB",
       "label": "Sans match nul : Portugal",
-      "prob": 0.9929,
+      "prob": 0.9908,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 84
     },
     {
       "home": "Portugal",
@@ -86,10 +86,10 @@
       "id": null,
       "market": "DC",
       "label": "Double chance : Portugal ou Uzbekistan",
-      "prob": 0.9561,
+      "prob": 0.9406,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 84
     },
     {
       "home": "England",
@@ -98,10 +98,10 @@
       "id": null,
       "market": "DNB",
       "label": "Sans match nul : England",
-      "prob": 0.9955,
+      "prob": 0.9971,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 84
     },
     {
       "home": "England",
@@ -110,10 +110,10 @@
       "id": null,
       "market": "DC",
       "label": "Double chance : England ou Ghana",
-      "prob": 0.9693,
+      "prob": 0.978,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 84
     },
     {
       "home": "Panama",
@@ -122,10 +122,10 @@
       "id": null,
       "market": "DC",
       "label": "Double chance : nul ou Croatia",
-      "prob": 0.8896,
+      "prob": 0.9164,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 84
     },
     {
       "home": "Panama",
@@ -134,22 +134,10 @@
       "id": null,
       "market": "DNB",
       "label": "Sans match nul : Croatia",
-      "prob": 0.8601,
+      "prob": 0.8961,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 87
-    },
-    {
-      "home": "Colombia",
-      "away": "DR Congo",
-      "date": "2026-06-23 20:00 UTC-6",
-      "id": null,
-      "market": "DC",
-      "label": "Double chance : Colombia ou nul",
-      "prob": 0.9277,
-      "why": "exclut l'issue la moins probable",
-      "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 84
     },
     {
       "home": "Colombia",
@@ -161,19 +149,31 @@
       "prob": 0.916,
       "why": "",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 84
     },
     {
-      "home": "Switzerland",
-      "away": "Canada",
+      "home": "Colombia",
+      "away": "DR Congo",
+      "date": "2026-06-23 20:00 UTC-6",
+      "id": null,
+      "market": "DC",
+      "label": "Double chance : Colombia ou nul",
+      "prob": 0.9045,
+      "why": "exclut l'issue la moins probable",
+      "tier": "lock",
+      "tierReliability": 84
+    },
+    {
+      "home": "Bosnia & Herzegovina",
+      "away": "Qatar",
       "date": "2026-06-24 12:00 UTC-7",
       "id": null,
       "market": "DC",
-      "label": "Double chance : Switzerland ou nul",
-      "prob": 0.8225,
+      "label": "Double chance : Bosnia & Herzegovina ou nul",
+      "prob": 0.8247,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 84
     },
     {
       "home": "Switzerland",
@@ -185,7 +185,7 @@
       "prob": 0.8076,
       "why": "",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 84
     },
     {
       "home": "Bosnia & Herzegovina",
@@ -197,19 +197,19 @@
       "prob": 0.7534,
       "why": "",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 84
     },
     {
-      "home": "Bosnia & Herzegovina",
-      "away": "Qatar",
+      "home": "Switzerland",
+      "away": "Canada",
       "date": "2026-06-24 12:00 UTC-7",
       "id": null,
-      "market": "DNB",
-      "label": "Sans match nul : Bosnia & Herzegovina",
-      "prob": 0.6807,
-      "why": "remboursé si nul",
+      "market": "CARTONS",
+      "label": "Plus de 2.5 cartons",
+      "prob": 0.7275,
+      "why": "",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 84
     },
     {
       "home": "Morocco",
@@ -221,7 +221,7 @@
       "prob": 0.9987,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 84
     },
     {
       "home": "Morocco",
@@ -230,22 +230,10 @@
       "id": null,
       "market": "DC",
       "label": "Double chance : Morocco ou Haiti",
-      "prob": 0.9864,
+      "prob": 0.9859,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 87
-    },
-    {
-      "home": "Scotland",
-      "away": "Brazil",
-      "date": "2026-06-24 18:00 UTC-4",
-      "id": null,
-      "market": "DC",
-      "label": "Double chance : nul ou Brazil",
-      "prob": 0.9564,
-      "why": "exclut l'issue la moins probable",
-      "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 84
     },
     {
       "home": "Scotland",
@@ -254,10 +242,22 @@
       "id": null,
       "market": "DNB",
       "label": "Sans match nul : Brazil",
-      "prob": 0.9491,
+      "prob": 0.949,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 84
+    },
+    {
+      "home": "Scotland",
+      "away": "Brazil",
+      "date": "2026-06-24 18:00 UTC-4",
+      "id": null,
+      "market": "DC",
+      "label": "Double chance : Scotland ou Brazil",
+      "prob": 0.8454,
+      "why": "exclut l'issue la moins probable",
+      "tier": "lock",
+      "tierReliability": 84
     },
     {
       "home": "Czech Republic",
@@ -266,10 +266,10 @@
       "id": null,
       "market": "DC",
       "label": "Double chance : nul ou Mexico",
-      "prob": 0.9082,
+      "prob": 0.8792,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 84
     },
     {
       "home": "Czech Republic",
@@ -278,10 +278,10 @@
       "id": null,
       "market": "DNB",
       "label": "Sans match nul : Mexico",
-      "prob": 0.8873,
+      "prob": 0.8438,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 84
     },
     {
       "home": "South Africa",
@@ -289,11 +289,11 @@
       "date": "2026-06-24 19:00 UTC-6",
       "id": null,
       "market": "CORNERS",
-      "label": "Plus de 4.5 corners",
-      "prob": 0.8155,
+      "label": "Moins de 9.5 corners",
+      "prob": 0.8201,
       "why": "",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 84
     },
     {
       "home": "South Africa",
@@ -302,11 +302,11 @@
       "id": null,
       "market": "OU",
       "label": "Moins de 2,5 buts",
-      "prob": 0.7925,
+      "prob": 0.7932,
       "why": "",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 84
     }
   ],
-  "lockCount": 124
+  "lockCount": 113
 }

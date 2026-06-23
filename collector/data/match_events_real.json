@@ -23727,7 +23727,7 @@
     "type": "Start Delay"
    },
    {
-    "minute": 7,
+    "minute": 6,
     "text": "Delay over. They are ready to continue.",
     "type": "End Delay"
    },
@@ -23795,11 +23795,6 @@
     "minute": 21,
     "text": "Foul by Lautaro Martínez (Argentina).",
     "type": "Foul"
-   },
-   {
-    "minute": 21,
-    "text": "Delay in match (Austria).",
-    "type": "Start Delay"
    },
    {
     "minute": 21,
