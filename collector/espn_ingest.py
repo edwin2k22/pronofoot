@@ -114,6 +114,9 @@ def ingest_match(home, away, date_hint=None, force=False):
             else:
                 merged["note"] = float(c_note) or float(r_note) or 0
                 
+            # Match count
+            merged["matchs_2026"] = curr.get("matchs_2026", 0) + 1
+                
             # Cartons
             c_cart = curr.get("cartons", "—")
             r_cart = rec.get("cartons", "—")
@@ -257,6 +260,10 @@ def main():
     conn = db.init_db()
     rows = conn.execute("SELECT home, away, utc_date FROM matches WHERE status='FINISHED'").fetchall()
     conn.close()
+    
+    # Wipe the player stats file before a full rebuild to avoid double counting
+    _save(PLAYER_FILE, {})
+    
     print(f"⚙️  Ingestion ESPN des stats joueur ({len(rows)} matchs terminés)…")
     ok = 0
     for r in rows:

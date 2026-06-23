@@ -180,7 +180,7 @@ def export_for_web():
             
             p_dict = {
                 "numero": r["number"], "joueur": r["name"], "poste": r["pos"],
-                "age": r["age"], "matchs_2026": r["matches_2026"] or (1 if rs else 0),
+                "age": r["age"], "matchs_2026": r["matches_2026"] or (rs.get("matchs_2026", 1) if rs else 0),
                 "statut": (rs.get("statut", "—") if rs else "N/D"),
                 "minutes": val(r["minutes_2026"], "minutes"),
                 "buts": val(r["goals"], "buts"), "passes_dec": val(r["assists"], "passes_dec"),
