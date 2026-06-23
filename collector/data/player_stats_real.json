@@ -10651,7 +10651,7 @@
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 0,
+   "tirs": 1,
    "tirs_cadres": 0,
    "fautes_commises": 0,
    "hors_jeu": 0,
@@ -10665,7 +10665,7 @@
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 0,
+   "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 0
@@ -10697,10 +10697,10 @@
   "Ousmane Dembélé": {
    "poste": "AM-R",
    "statut": "Titulaire",
-   "buts": 0,
-   "passes_dec": 0,
-   "tirs": 0,
-   "tirs_cadres": 0,
+   "buts": 1,
+   "passes_dec": 1,
+   "tirs": 4,
+   "tirs_cadres": 2,
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
@@ -10711,9 +10711,9 @@
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 0,
+   "tirs": 1,
    "tirs_cadres": 0,
-   "fautes_commises": 1,
+   "fautes_commises": 2,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 0
@@ -10733,12 +10733,12 @@
   "Kylian Mbappé": {
    "poste": "F",
    "statut": "Titulaire",
-   "buts": 1,
+   "buts": 2,
    "passes_dec": 0,
-   "tirs": 3,
-   "tirs_cadres": 1,
-   "fautes_commises": 0,
-   "hors_jeu": 0,
+   "tirs": 8,
+   "tirs_cadres": 3,
+   "fautes_commises": 1,
+   "hors_jeu": 1,
    "shots_faced": 0,
    "goals_conceded": 0
   },
@@ -10758,8 +10758,8 @@
    "poste": "AM",
    "statut": "Titulaire",
    "buts": 0,
-   "passes_dec": 1,
-   "tirs": 2,
+   "passes_dec": 2,
+   "tirs": 3,
    "tirs_cadres": 0,
    "fautes_commises": 0,
    "hors_jeu": 0,
@@ -10797,7 +10797,7 @@
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 0,
+   "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 0
@@ -10845,7 +10845,7 @@
    "passes_dec": 0,
    "tirs": 1,
    "tirs_cadres": 0,
-   "fautes_commises": 1,
+   "fautes_commises": 2,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 0
@@ -10903,7 +10903,7 @@
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 0,
+   "tirs": 1,
    "tirs_cadres": 0,
    "fautes_commises": 0,
    "hors_jeu": 0,
@@ -10941,7 +10941,7 @@
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 0,
+   "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 0
@@ -10956,7 +10956,7 @@
    "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 0,
-   "saves": 5,
+   "saves": 3,
    "shots_faced": 0,
    "goals_conceded": 3
   },
@@ -10994,7 +10994,7 @@
    "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 3
+   "goals_conceded": 2
   },
   "Krépin Diatta": {
    "poste": "RB",
@@ -11013,12 +11013,12 @@
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 0,
+   "tirs": 2,
    "tirs_cadres": 0,
-   "fautes_commises": 2,
+   "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 3
   },
   "Pape Gueye": {
    "poste": "LM",
@@ -11027,7 +11027,7 @@
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 1,
+   "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 2
@@ -11037,48 +11037,48 @@
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 0,
+   "tirs": 2,
    "tirs_cadres": 0,
-   "fautes_commises": 1,
+   "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 2
+   "goals_conceded": 3
   },
   "Nicolas Jackson": {
    "poste": "F",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 1,
-   "tirs_cadres": 0,
-   "fautes_commises": 2,
-   "hors_jeu": 3,
+   "tirs": 3,
+   "tirs_cadres": 1,
+   "fautes_commises": 0,
+   "hors_jeu": 2,
    "shots_faced": 0,
-   "goals_conceded": 2
+   "goals_conceded": 3
   },
   "Sadio Mané": {
    "poste": "AM-L",
    "statut": "Titulaire",
    "buts": 0,
-   "passes_dec": 0,
-   "tirs": 1,
-   "tirs_cadres": 1,
-   "fautes_commises": 0,
-   "hors_jeu": 0,
+   "passes_dec": 1,
+   "tirs": 0,
+   "tirs_cadres": 0,
+   "fautes_commises": 2,
+   "hors_jeu": 1,
    "shots_faced": 0,
    "goals_conceded": 3
   },
   "Ismaïla Sarr": {
    "poste": "AM-R",
    "statut": "Titulaire",
-   "buts": 0,
+   "buts": 1,
    "passes_dec": 0,
-   "tirs": 3,
-   "tirs_cadres": 0,
+   "tirs": 4,
+   "tirs_cadres": 2,
    "fautes_commises": 0,
-   "hors_jeu": 0,
+   "hors_jeu": 1,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 3
   },
   "Cherif Ndiaye": {
    "poste": "SUB",
@@ -11111,10 +11111,10 @@
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 2,
+   "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 2
+   "goals_conceded": 0
   },
   "Ismail Jakobs": {
    "poste": "SUB",
@@ -11126,7 +11126,7 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 0
+   "goals_conceded": 1
   },
   "Pathé Ciss": {
    "poste": "SUB",
@@ -11138,7 +11138,7 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
   },
   "Antoine Mendy": {
    "poste": "SUB",
@@ -11186,7 +11186,7 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
   },
   "Abdoulaye Seck": {
    "poste": "SUB",
@@ -11203,23 +11203,23 @@
   "Ibrahim Mbaye": {
    "poste": "SUB",
    "statut": "Remplaçant",
-   "buts": 1,
+   "buts": 0,
    "passes_dec": 0,
-   "tirs": 1,
-   "tirs_cadres": 1,
+   "tirs": 0,
+   "tirs_cadres": 0,
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 2
+   "goals_conceded": 1
   },
   "Pape Matar Sarr": {
    "poste": "SUB",
    "statut": "Remplaçant",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 0,
+   "tirs": 1,
    "tirs_cadres": 0,
-   "fautes_commises": 0,
+   "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 0
@@ -11252,13 +11252,13 @@
    "poste": "SUB",
    "statut": "Remplaçant",
    "buts": 0,
-   "passes_dec": 1,
+   "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
   }
  },
  "Iraq": {
@@ -11284,7 +11284,7 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 3
   },
   "Zaid Tahseen": {
    "poste": "CD-R",
@@ -11296,7 +11296,7 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1,
+   "goals_conceded": 2,
    "cartons": "Yellow"
   },
   "Merchas Doski": {
@@ -11306,10 +11306,10 @@
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 0,
+   "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 3
   },
   "Hussein Ali": {
    "poste": "RB",
@@ -11321,7 +11321,7 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 3
   },
   "Amir Al-Ammari": {
    "poste": "DM",
@@ -11333,7 +11333,7 @@
    "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1,
+   "goals_conceded": 3,
    "cartons": "Yellow"
   },
   "Zaid Ismael": {
@@ -11346,7 +11346,7 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 2
   },
   "Ali Jasim": {
    "poste": "SUB",
@@ -11367,22 +11367,22 @@
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 0,
+   "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 3
   },
   "Ali Al-Hamadi": {
    "poste": "SUB",
    "statut": "Remplaçant",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 2,
+   "tirs": 3,
    "tirs_cadres": 0,
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 0
+   "goals_conceded": 2
   },
   "Aymen Hussein": {
    "poste": "F",
@@ -11440,21 +11440,21 @@
    "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 0,
-   "saves": 0,
+   "saves": 2,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 3
   },
   "Rebin Sulaka": {
    "poste": "SUB",
    "statut": "Remplaçant",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 0,
+   "tirs": 1,
    "tirs_cadres": 0,
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 0
+   "goals_conceded": 1
   },
   "Ahmed Qasim": {
    "poste": "RM",
@@ -11466,7 +11466,7 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 3
   },
   "Youssef Amyn": {
    "poste": "SUB",
@@ -11478,7 +11478,7 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 0
+   "goals_conceded": 1
   },
   "Ali Yousif": {
    "poste": "SUB",
@@ -11571,10 +11571,10 @@
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 0,
+   "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 3
   }
  },
  "Norway": {
@@ -11586,7 +11586,7 @@
    "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 0,
-   "saves": 0,
+   "saves": 2,
    "shots_faced": 0,
    "goals_conceded": 1
   },
@@ -11597,7 +11597,7 @@
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 1,
+   "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 1
@@ -11607,8 +11607,8 @@
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 0,
-   "tirs_cadres": 0,
+   "tirs": 1,
+   "tirs_cadres": 1,
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
@@ -11618,10 +11618,10 @@
    "poste": "LB",
    "statut": "Titulaire",
    "buts": 0,
-   "passes_dec": 1,
+   "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 3,
+   "fautes_commises": 2,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 1
@@ -11633,13 +11633,25 @@
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 2,
+   "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 1
+   "goals_conceded": 0
   },
   "Fredrik Aursnes": {
-   "poste": "CM-L",
+   "poste": "LM",
+   "statut": "Titulaire",
+   "buts": 0,
+   "passes_dec": 0,
+   "tirs": 0,
+   "tirs_cadres": 0,
+   "fautes_commises": 4,
+   "hors_jeu": 0,
+   "shots_faced": 0,
+   "goals_conceded": 0
+  },
+  "Sander Berge": {
+   "poste": "CM",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
@@ -11650,24 +11662,12 @@
    "shots_faced": 0,
    "goals_conceded": 1
   },
-  "Sander Berge": {
-   "poste": "CM-R",
-   "statut": "Titulaire",
-   "buts": 0,
-   "passes_dec": 0,
-   "tirs": 0,
-   "tirs_cadres": 0,
-   "fautes_commises": 1,
-   "hors_jeu": 0,
-   "shots_faced": 0,
-   "goals_conceded": 1
-  },
   "Antonio Nusa": {
-   "poste": "LM",
+   "poste": "LF",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 0,
+   "tirs": 2,
    "tirs_cadres": 0,
    "fautes_commises": 0,
    "hors_jeu": 0,
@@ -11679,33 +11679,33 @@
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 1,
-   "tirs": 1,
-   "tirs_cadres": 0,
-   "fautes_commises": 1,
+   "tirs": 3,
+   "tirs_cadres": 1,
+   "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 1
   },
   "Erling Haaland": {
-   "poste": "CF-L",
+   "poste": "F",
    "statut": "Titulaire",
    "buts": 2,
    "passes_dec": 0,
    "tirs": 5,
-   "tirs_cadres": 4,
-   "fautes_commises": 2,
+   "tirs_cadres": 3,
+   "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 1
   },
   "Alexander Sørloth": {
-   "poste": "CF-R",
+   "poste": "RF",
    "statut": "Titulaire",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 2,
+   "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 3,
+   "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 1
@@ -11763,7 +11763,7 @@
    "statut": "Remplaçant",
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 2,
+   "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 0,
    "hors_jeu": 0,
@@ -11773,10 +11773,10 @@
   "Leo Østigard": {
    "poste": "SUB",
    "statut": "Remplaçant",
-   "buts": 1,
+   "buts": 0,
    "passes_dec": 0,
-   "tirs": 2,
-   "tirs_cadres": 1,
+   "tirs": 0,
+   "tirs_cadres": 0,
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
@@ -11798,13 +11798,13 @@
    "poste": "SUB",
    "statut": "Remplaçant",
    "buts": 0,
-   "passes_dec": 0,
+   "passes_dec": 1,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 0,
+   "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 0
+   "goals_conceded": 1
   },
   "Thelo Aasgaard": {
    "poste": "SUB",
@@ -11869,14 +11869,14 @@
   "Marcus Holmgren Pedersen": {
    "poste": "SUB",
    "statut": "Remplaçant",
-   "buts": 0,
+   "buts": 1,
    "passes_dec": 0,
-   "tirs": 0,
-   "tirs_cadres": 0,
-   "fautes_commises": 0,
+   "tirs": 1,
+   "tirs_cadres": 1,
+   "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 0
+   "goals_conceded": 1
   },
   "Fredrik André Bjørkan": {
    "poste": "SUB",

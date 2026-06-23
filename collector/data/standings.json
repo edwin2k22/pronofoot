@@ -428,6 +428,18 @@
     "rows": [
       {
         "rank": 1,
+        "team": "France",
+        "played": 2,
+        "win": 2,
+        "draw": 0,
+        "loss": 0,
+        "gf": 6,
+        "ga": 1,
+        "gd": 5,
+        "pts": 6
+      },
+      {
+        "rank": 2,
         "team": "Norway",
         "played": 1,
         "win": 1,
@@ -436,18 +448,6 @@
         "gf": 4,
         "ga": 1,
         "gd": 3,
-        "pts": 3
-      },
-      {
-        "rank": 2,
-        "team": "France",
-        "played": 1,
-        "win": 1,
-        "draw": 0,
-        "loss": 0,
-        "gf": 3,
-        "ga": 1,
-        "gd": 2,
         "pts": 3
       },
       {
@@ -465,13 +465,13 @@
       {
         "rank": 4,
         "team": "Iraq",
-        "played": 1,
+        "played": 2,
         "win": 0,
         "draw": 0,
-        "loss": 1,
+        "loss": 2,
         "gf": 1,
-        "ga": 4,
-        "gd": -3,
+        "ga": 7,
+        "gd": -6,
         "pts": 0
       }
     ]

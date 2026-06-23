@@ -2674,5 +2674,70 @@
    "Fahad Talib"
   ],
   "source": "ESPN (compos réelles)"
+ },
+ "Norway|Senegal": {
+  "home_formation": "4-3-3",
+  "home_xi": [
+   "Ørjan Nyland",
+   "Torbjørn Heggem",
+   "Kristoffer Ajer",
+   "David Møller Wolfe",
+   "Julian Ryerson",
+   "Sander Berge",
+   "Fredrik Aursnes",
+   "Martin Ødegaard",
+   "Erling Haaland",
+   "Antonio Nusa",
+   "Alexander Sørloth"
+  ],
+  "home_bench": [
+   "Jørgen Strand Larsen",
+   "Fredrik André Bjørkan",
+   "Patrick Berg",
+   "Henrik Falchener",
+   "Sondre Langas",
+   "Andreas Schjelderup",
+   "Jens Petter Hauge",
+   "Morten Thorsby",
+   "Egil Selvik",
+   "Marcus Holmgren Pedersen",
+   "Sander Tangvik",
+   "Kristian Thorstvedt",
+   "Leo Østigard",
+   "Thelo Aasgaard",
+   "Oscar Bobb"
+  ],
+  "away_formation": "4-2-3-1",
+  "away_xi": [
+   "Édouard Mendy",
+   "Moussa Niakhaté",
+   "Kalidou Koulibaly",
+   "El Hadji Malick Diouf",
+   "Krépin Diatta",
+   "Lamine Camara",
+   "Pape Gueye",
+   "Idrissa Gueye",
+   "Nicolas Jackson",
+   "Sadio Mané",
+   "Ismaïla Sarr"
+  ],
+  "away_bench": [
+   "Habib Diarra",
+   "Antoine Mendy",
+   "Bamba Dieng",
+   "Pape Matar Sarr",
+   "Abdoulaye Seck",
+   "Ismail Jakobs",
+   "Mamadou Sarr",
+   "Pathé Ciss",
+   "Iliman Ndiaye",
+   "Yehvann Diouf",
+   "Ibrahim Mbaye",
+   "Mory Diaw",
+   "Bara Sapoko Ndiaye",
+   "Assane Diao",
+   "Cherif Ndiaye"
+  ],
+  "source": "ESPN (compos réelles)"
  }
 }

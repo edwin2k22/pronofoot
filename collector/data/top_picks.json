@@ -2,64 +2,64 @@
   "reliability": {
     "byTier": {
       "lock": {
-        "won": 110,
-        "total": 122,
-        "pct": 90
+        "won": 111,
+        "total": 125,
+        "pct": 89
       },
       "strong": {
-        "won": 30,
-        "total": 41,
-        "pct": 73
+        "won": 31,
+        "total": 44,
+        "pct": 70
       },
       "value": {
         "won": 13,
-        "total": 19,
-        "pct": 68
+        "total": 20,
+        "pct": 65
       }
     },
     "byMarket": {
       "DC": {
-        "won": 35,
-        "total": 41,
-        "pct": 85
+        "won": 36,
+        "total": 42,
+        "pct": 86
       },
       "DNB": {
-        "won": 23,
-        "total": 28,
-        "pct": 82
+        "won": 24,
+        "total": 29,
+        "pct": 83
       },
       "1N2": {
-        "won": 24,
-        "total": 41,
-        "pct": 59
+        "won": 25,
+        "total": 42,
+        "pct": 60
       },
       "OU": {
-        "won": 23,
-        "total": 41,
-        "pct": 56
+        "won": 24,
+        "total": 42,
+        "pct": 57
       },
       "BTTS": {
-        "won": 20,
-        "total": 41,
-        "pct": 49
+        "won": 21,
+        "total": 42,
+        "pct": 50
       },
       "CORNERS": {
-        "won": 33,
-        "total": 41,
-        "pct": 80
+        "won": 32,
+        "total": 42,
+        "pct": 76
       },
       "CARTONS": {
-        "won": 37,
-        "total": 41,
-        "pct": 90
+        "won": 36,
+        "total": 42,
+        "pct": 86
       }
     },
     "overall": {
-      "won": 153,
-      "total": 182,
-      "pct": 84
+      "won": 155,
+      "total": 189,
+      "pct": 82
     },
-    "sampleMatches": 41
+    "sampleMatches": 42
   },
   "tiers": {
     "lock": 0.85,
@@ -68,52 +68,28 @@
   },
   "picks": [
     {
-      "home": "France",
-      "away": "Iraq",
-      "date": "2026-06-22 17:00 UTC-4",
-      "id": null,
-      "market": "DNB",
-      "label": "Sans match nul : France",
-      "prob": 0.9991,
-      "why": "remboursé si nul",
-      "tier": "lock",
-      "tierReliability": 90
-    },
-    {
-      "home": "France",
-      "away": "Iraq",
-      "date": "2026-06-22 17:00 UTC-4",
-      "id": null,
-      "market": "DC",
-      "label": "Double chance : France ou Iraq",
-      "prob": 0.9901,
-      "why": "exclut l'issue la moins probable",
-      "tier": "lock",
-      "tierReliability": 90
-    },
-    {
       "home": "Norway",
       "away": "Senegal",
       "date": "2026-06-22 20:00 UTC-4",
       "id": null,
       "market": "DC",
       "label": "Double chance : nul ou Senegal",
-      "prob": 0.8391,
+      "prob": 0.826,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 90
+      "tierReliability": 89
     },
     {
       "home": "Norway",
       "away": "Senegal",
       "date": "2026-06-22 20:00 UTC-4",
       "id": null,
-      "market": "CORNERS",
-      "label": "Plus de 5.5 corners",
-      "prob": 0.8016,
-      "why": "",
+      "market": "DNB",
+      "label": "Sans match nul : Senegal",
+      "prob": 0.7651,
+      "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 90
+      "tierReliability": 89
     },
     {
       "home": "Jordan",
@@ -125,7 +101,7 @@
       "prob": 0.9376,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 90
+      "tierReliability": 89
     },
     {
       "home": "Jordan",
@@ -137,7 +113,7 @@
       "prob": 0.9258,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 90
+      "tierReliability": 89
     },
     {
       "home": "Portugal",
@@ -149,7 +125,7 @@
       "prob": 0.9938,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 90
+      "tierReliability": 89
     },
     {
       "home": "Portugal",
@@ -161,7 +137,7 @@
       "prob": 0.9606,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 90
+      "tierReliability": 89
     },
     {
       "home": "England",
@@ -173,7 +149,7 @@
       "prob": 0.9966,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 90
+      "tierReliability": 89
     },
     {
       "home": "England",
@@ -185,7 +161,7 @@
       "prob": 0.9762,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 90
+      "tierReliability": 89
     },
     {
       "home": "Panama",
@@ -197,7 +173,7 @@
       "prob": 0.8887,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 90
+      "tierReliability": 89
     },
     {
       "home": "Panama",
@@ -209,7 +185,7 @@
       "prob": 0.8589,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 90
+      "tierReliability": 89
     },
     {
       "home": "Colombia",
@@ -221,7 +197,7 @@
       "prob": 0.9272,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 90
+      "tierReliability": 89
     },
     {
       "home": "Colombia",
@@ -233,7 +209,7 @@
       "prob": 0.916,
       "why": "",
       "tier": "lock",
-      "tierReliability": 90
+      "tierReliability": 89
     },
     {
       "home": "Bosnia & Herzegovina",
@@ -245,7 +221,7 @@
       "prob": 0.8461,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 90
+      "tierReliability": 89
     },
     {
       "home": "Switzerland",
@@ -257,7 +233,7 @@
       "prob": 0.8076,
       "why": "",
       "tier": "lock",
-      "tierReliability": 90
+      "tierReliability": 89
     },
     {
       "home": "Bosnia & Herzegovina",
@@ -269,7 +245,7 @@
       "prob": 0.7873,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 90
+      "tierReliability": 89
     },
     {
       "home": "Switzerland",
@@ -281,7 +257,7 @@
       "prob": 0.7275,
       "why": "",
       "tier": "lock",
-      "tierReliability": 90
+      "tierReliability": 89
     },
     {
       "home": "Morocco",
@@ -293,7 +269,7 @@
       "prob": 0.9989,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 90
+      "tierReliability": 89
     },
     {
       "home": "Morocco",
@@ -305,8 +281,32 @@
       "prob": 0.9881,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 90
+      "tierReliability": 89
+    },
+    {
+      "home": "Scotland",
+      "away": "Brazil",
+      "date": "2026-06-24 18:00 UTC-4",
+      "id": null,
+      "market": "DC",
+      "label": "Double chance : nul ou Brazil",
+      "prob": 0.9628,
+      "why": "exclut l'issue la moins probable",
+      "tier": "lock",
+      "tierReliability": 89
+    },
+    {
+      "home": "Scotland",
+      "away": "Brazil",
+      "date": "2026-06-24 18:00 UTC-4",
+      "id": null,
+      "market": "DNB",
+      "label": "Sans match nul : Brazil",
+      "prob": 0.9574,
+      "why": "remboursé si nul",
+      "tier": "lock",
+      "tierReliability": 89
     }
   ],
-  "lockCount": 133
+  "lockCount": 130
 }
