@@ -6,8 +6,8 @@ export function cardsBlock(m,p){
   const ln=c.lines||{};
   const rows=["2.5","3.5","4.5"].filter(k=>ln[k]).map(k=>ouLineRow(`${k} cartons`,ln[k])).join("");
   const ref=p.referee;
-  const refLine = ref
-    ? `<div class="stat"><span>🧑‍⚖️ Arbitre</span><span><b>${ref.name}</b> <span style="color:var(--muted)">(${ref.nation})</span></span></div>`
+  const refLine = (ref && ref.name)
+    ? `<div class="stat"><span>🧑‍⚖️ Arbitre</span><span><b>${ref.name}</b> <span style="color:var(--muted)">(${ref.nation || 'N/D'})</span></span></div>`
       + (ref.severity?`<div class="stat"><span>⚖️ Style d'arbitrage</span><span><b>${ref.severity}</b> cartons/match <span style="color:var(--muted);font-size:10px">(${ref.severitySrc})</span></span></div>`:"")
     : `<div class="stat"><span>🧑‍⚖️ Arbitre</span><span style="color:var(--muted)">N/D — non désigné publiquement</span></div>`;
   const red = c.redProb!=null

@@ -1,66 +1,65 @@
 {
-  "sampleWithOdds": 31,
+  "sampleWithOdds": 34,
   "favorite": {
-    "bets": 31,
-    "wins": 19,
-    "winRate": 61,
-    "pnl": -3.09,
-    "yield": -10.0
+    "bets": 34,
+    "wins": 21,
+    "winRate": 62,
+    "pnl": -3.34,
+    "yield": -9.8
   },
   "value": {
-    "bets": 61,
-    "wins": 29,
-    "winRate": 48,
-    "pnl": -2.67,
-    "yield": -4.4
+    "bets": 66,
+    "wins": 31,
+    "winRate": 47,
+    "pnl": -5.4,
+    "yield": -8.2
   },
   "valueStrict": {
-    "bets": 34,
-    "wins": 17,
-    "winRate": 50,
-    "pnl": -4.25,
-    "yield": -12.5
+    "bets": 37,
+    "wins": 19,
+    "winRate": 51,
+    "pnl": -4.45,
+    "yield": -12.0
   },
   "topValue": [
     {
-      "home": "England",
-      "away": "Ghana",
-      "date": "2026-06-23 16:00 UTC-4",
+      "home": "Morocco",
+      "away": "Haiti",
+      "date": "2026-06-24 18:00 UTC-4",
       "label": "Plus de 2.5 buts",
-      "prob": 0.8089,
-      "odd": 1.645,
-      "implied": 0.6079,
-      "edge": 0.201,
-      "ev": 0.331,
+      "prob": 0.874,
+      "odd": 1.571,
+      "implied": 0.6365,
+      "edge": 0.2375,
+      "ev": 0.373,
       "provider": "DraftKings",
       "market": "O/U"
     },
     {
-      "home": "Colombia",
-      "away": "DR Congo",
-      "date": "2026-06-23 20:00 UTC-6",
-      "label": "Plus de 2.5 buts",
-      "prob": 0.522,
+      "home": "South Africa",
+      "away": "South Korea",
+      "date": "2026-06-24 19:00 UTC-6",
+      "label": "Moins de 2.5 buts",
+      "prob": 0.7534,
+      "odd": 1.769,
+      "implied": 0.5653,
+      "edge": 0.1881,
+      "ev": 0.333,
+      "provider": "DraftKings",
+      "market": "O/U"
+    },
+    {
+      "home": "Bosnia & Herzegovina",
+      "away": "Qatar",
+      "date": "2026-06-24 12:00 UTC-7",
+      "label": "Moins de 2.5 buts",
+      "prob": 0.6208,
       "odd": 2.25,
       "implied": 0.4444,
-      "edge": 0.0776,
-      "ev": 0.175,
+      "edge": 0.1764,
+      "ev": 0.397,
       "provider": "DraftKings",
       "market": "O/U"
-    },
-    {
-      "home": "England",
-      "away": "Ghana",
-      "date": "2026-06-23 16:00 UTC-4",
-      "label": "Victoire England",
-      "prob": 0.88,
-      "odd": 1.222,
-      "implied": 0.8183,
-      "edge": 0.0617,
-      "ev": 0.075,
-      "provider": "DraftKings",
-      "market": "1N2",
-      "lineMovement": -0.101
     }
   ]
 }

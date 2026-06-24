@@ -128,9 +128,10 @@ def main():
             # si un match vient de finir, on régénère les pronos + page tout de suite
             if r["finished"]:
                 try:
-                    from collector import pipeline, embed
+                    from collector import import_stats, pipeline, embed
+                    import_stats.main()
                     pipeline.update(); pipeline.calibrate_dc(); pipeline.predict(); embed.main()
-                    print("   ✅ pronos + page régénérés (match terminé).")
+                    print("   ✅ stats importées, pronos + page régénérés (match terminé).")
                 except Exception as e:
                     print(f"   [warn] régénération : {e}")
             time.sleep(args.loop)

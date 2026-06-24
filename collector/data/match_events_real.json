@@ -25734,10 +25734,17 @@
  "Portugal|Uzbekistan": {
   "goals": [
    {
-    "minute": 6,
+    "minute": 39,
     "team": "Portugal",
     "player": "Cristiano Ronaldo",
-    "assist": "João Cancelo",
+    "assist": "Bruno Fernandes",
+    "note": null
+   },
+   {
+    "minute": 87,
+    "team": "Portugal",
+    "player": "Rafael Leão",
+    "assist": null,
     "note": null
    }
   ],
@@ -25746,6 +25753,12 @@
     "minute": 14,
     "team": "Uzbekistan",
     "player": "Odiljon Xamrobekov",
+    "type": "Yellow"
+   },
+   {
+    "minute": 68,
+    "team": "Portugal",
+    "player": "Renato Veiga",
     "type": "Yellow"
    }
   ],
@@ -25788,7 +25801,7 @@
    {
     "minute": 6,
     "text": "Goal! Portugal 1, Uzbekistan 0. Cristiano Ronaldo (Portugal) right footed shot from the centre of the box to the bottom right corner. Assisted by João Cancelo with a cross.",
-    "type": "Goal - Volley"
+    "type": "Goal"
    },
    {
     "minute": 10,
@@ -25842,11 +25855,2274 @@
    },
    {
     "minute": 21,
-    "text": "Attempt missed. Vitinha (Portugal) right footed shot from outside the box.",
+    "text": "Attempt missed. Vitinha (Portugal) right footed shot from outside the box is close, but misses to the right.",
     "type": "Shot Off Target"
+   },
+   {
+    "minute": 22,
+    "text": "Foul by Abdulla Abdullaev (Uzbekistan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 22,
+    "text": "Bruno Fernandes (Portugal) wins a free kick on the left wing.",
+    "type": ""
+   },
+   {
+    "minute": 23,
+    "text": "Eldor Shomurodov (Uzbekistan) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 23,
+    "text": "Foul by João Cancelo (Portugal).",
+    "type": "Foul"
+   },
+   {
+    "minute": 23,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 25,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 26,
+    "text": "Bekhruz Karimov (Uzbekistan) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 26,
+    "text": "Foul by Nuno Mendes (Portugal).",
+    "type": "Foul"
+   },
+   {
+    "minute": 28,
+    "text": "Odiljon Khamrobekov (Uzbekistan) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 28,
+    "text": "Foul by Vitinha (Portugal).",
+    "type": "Foul"
+   },
+   {
+    "minute": 29,
+    "text": "Foul by Abbosbek Fayzullaev (Uzbekistan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 29,
+    "text": "João Cancelo (Portugal) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 29,
+    "text": "GOAL OVERTURNED BY VAR: Aziz G'aniev (Uzbekistan) scores but the goal is ruled out after a VAR review.",
+    "type": "Deleted After Review"
+   },
+   {
+    "minute": 30,
+    "text": "VAR Decision: No Goal Portugal 2-0 Uzbekistan.",
+    "type": "VAR - Referee decision cancelled"
+   },
+   {
+    "minute": 32,
+    "text": "Handball by Pedro Neto (Portugal).",
+    "type": "Handball"
+   },
+   {
+    "minute": 34,
+    "text": "Abdulla Abdullaev (Uzbekistan) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 34,
+    "text": "Foul by João Félix (Portugal).",
+    "type": "Foul"
+   },
+   {
+    "minute": 36,
+    "text": "Foul by Otabek Shukurov (Uzbekistan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 36,
+    "text": "Nuno Mendes (Portugal) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 39,
+    "text": "Goal! Portugal 3, Uzbekistan 0. Cristiano Ronaldo (Portugal) right footed shot from the right side of the box to the bottom left corner. Assisted by Bruno Fernandes with a through ball following a fast break.",
+    "type": "Goal"
+   },
+   {
+    "minute": 42,
+    "text": "Attempt missed. João Félix (Portugal) left footed shot from the left side of the box is high and wide to the right. Assisted by Vitinha with a through ball.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 42,
+    "text": "Abbosbek Fayzullaev (Uzbekistan) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 42,
+    "text": "Foul by João Cancelo (Portugal).",
+    "type": "Foul"
+   },
+   {
+    "minute": 43,
+    "text": "Attempt missed. Otabek Shukurov (Uzbekistan) right footed shot from outside the box is too high. Assisted by Eldor Shomurodov.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 45,
+    "text": "Fourth official has announced 6 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 45,
+    "text": "Eldor Shomurodov (Uzbekistan) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Foul by Rúben Dias (Portugal).",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Attempt blocked. Odiljon Khamrobekov (Uzbekistan) right footed shot from the centre of the box is blocked. Assisted by Eldor Shomurodov.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 45,
+    "text": "Delay in match (Portugal).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 45,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 45,
+    "text": "Bekhruz Karimov (Uzbekistan) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Foul by Nuno Mendes (Portugal).",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Attempt blocked. Cristiano Ronaldo (Portugal) right footed shot from the centre of the box is blocked. Assisted by João Cancelo with a cross.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 45,
+    "text": "First Half ends, Portugal 3, Uzbekistan 0.",
+    "type": "Halftime"
+   },
+   {
+    "minute": 45,
+    "text": "Substitution, Uzbekistan. Khojiakbar Alijonov replaces Sherzod Nasrullaev.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 45,
+    "text": "Substitution, Uzbekistan. Akmal Mozgovoy replaces Odiljon Khamrobekov.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 45,
+    "text": "Second Half begins Portugal 3, Uzbekistan 0.",
+    "type": "Start 2nd Half"
+   },
+   {
+    "minute": 45,
+    "text": "Substitution, Portugal. Nélson Semedo replaces João Cancelo.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 45,
+    "text": "Substitution, Portugal. Francisco Conceição replaces Pedro Neto.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 47,
+    "text": "Attempt missed. João Félix (Portugal) right footed shot from outside the box is just a bit too high.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 50,
+    "text": "Otabek Shukurov (Uzbekistan) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 50,
+    "text": "Foul by Vitinha (Portugal).",
+    "type": "Foul"
+   },
+   {
+    "minute": 52,
+    "text": "Attempt saved. Abbosbek Fayzullaev (Uzbekistan) right footed shot from the left side of the box is saved in the centre of the goal by Diogo Costa (Portugal). Assisted by Khojiakbar Alijonov.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 53,
+    "text": "Foul by Bekhruz Karimov (Uzbekistan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 53,
+    "text": "João Félix (Portugal) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 55,
+    "text": "Attempt blocked. Otabek Shukurov (Uzbekistan) left footed shot from outside the box is blocked. Assisted by Abbosbek Fayzullaev.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 55,
+    "text": "Corner, Uzbekistan. Conceded by Bruno Fernandes.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 57,
+    "text": "Foul by Abdulla Abdullaev (Uzbekistan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 57,
+    "text": "Cristiano Ronaldo (Portugal) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 58,
+    "text": "Attempt saved. Cristiano Ronaldo (Portugal) right footed shot from the centre of the box is saved in the centre of the goal by Abduvokhid Nematov (Uzbekistan). Assisted by Bruno Fernandes with a through ball.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 58,
+    "text": "Corner, Portugal. Conceded by Abduvokhid Nematov.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 60,
+    "text": "Attempt saved. João Félix (Portugal) right footed shot from the right side of the six yard box is saved in the centre of the goal by Abduvokhid Nematov (Uzbekistan).",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 60,
+    "text": "Own Goal by Abduvokhid Nematov, Uzbekistan. Portugal 4, Uzbekistan 0.",
+    "type": "Own Goal"
+   },
+   {
+    "minute": 61,
+    "text": "Corner, Uzbekistan. Conceded by Francisco Conceição.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 62,
+    "text": "Attempt blocked. Aziz G'aniev (Uzbekistan) right footed shot from outside the box is blocked. Assisted by Eldor Shomurodov with a headed pass.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 63,
+    "text": "Otabek Shukurov (Uzbekistan) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 63,
+    "text": "Foul by Bruno Fernandes (Portugal).",
+    "type": "Foul"
+   },
+   {
+    "minute": 63,
+    "text": "Substitution, Portugal. Trincão replaces João Félix.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 66,
+    "text": "Foul by Bekhruz Karimov (Uzbekistan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 66,
+    "text": "Nuno Mendes (Portugal) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 68,
+    "text": "Aziz G'aniev (Uzbekistan) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 68,
+    "text": "Foul by Renato Veiga (Portugal).",
+    "type": "Foul"
+   },
+   {
+    "minute": 68,
+    "text": "Renato Veiga (Portugal) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 69,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 71,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 72,
+    "text": "Offside, Uzbekistan. Eldor Shomurodov is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 73,
+    "text": "Attempt blocked. Cristiano Ronaldo (Portugal) left footed shot from the centre of the box is blocked. Assisted by Nuno Mendes.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 73,
+    "text": "Substitution, Uzbekistan. Igor Sergeev replaces Abbosbek Fayzullaev.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 74,
+    "text": "Attempt saved. Cristiano Ronaldo (Portugal) left footed shot from the centre of the box is saved in the bottom left corner by Abduvokhid Nematov (Uzbekistan).",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 74,
+    "text": "Foul by Eldor Shomurodov (Uzbekistan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 74,
+    "text": "Rúben Dias (Portugal) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 75,
+    "text": "Foul by Rustam Ashurmatov (Uzbekistan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 75,
+    "text": "João Neves (Portugal) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 76,
+    "text": "Substitution, Portugal. Bernardo Silva replaces João Neves.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 78,
+    "text": "Attempt missed. Eldor Shomurodov (Uzbekistan) right footed shot from the right side of the box is just a bit too high. Assisted by Bekhruz Karimov.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 79,
+    "text": "Foul by Khojiakbar Alijonov (Uzbekistan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 79,
+    "text": "Francisco Conceição (Portugal) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 80,
+    "text": "Bekhruz Karimov (Uzbekistan) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 80,
+    "text": "Foul by Nuno Mendes (Portugal).",
+    "type": "Foul"
+   },
+   {
+    "minute": 82,
+    "text": "Corner, Portugal. Conceded by Bekhruz Karimov.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 83,
+    "text": "Substitution, Portugal. Rafael Leão replaces Vitinha.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 84,
+    "text": "Attempt saved. Bruno Fernandes (Portugal) right footed shot from outside the box is saved in the bottom left corner by Abduvokhid Nematov (Uzbekistan). Assisted by Francisco Conceição.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 85,
+    "text": "Offside, Portugal. Cristiano Ronaldo is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 87,
+    "text": "Foul by Bekhruz Karimov (Uzbekistan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 87,
+    "text": "Nuno Mendes (Portugal) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 87,
+    "text": "Goal! Portugal 5, Uzbekistan 0. Rafael Leão (Portugal) right footed shot from the centre of the box to the top left corner.",
+    "type": "Goal"
+   },
+   {
+    "minute": 91,
+    "text": "Fourth official has announced 5 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 90,
+    "text": "Bekhruz Karimov (Uzbekistan) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Rafael Leão (Portugal).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Substitution, Uzbekistan. Ruslanbek Jiyanov replaces Bekhruz Karimov.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 90,
+    "text": "Substitution, Uzbekistan. Sherzod Esanov replaces Otabek Shukurov.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Aziz G'aniev (Uzbekistan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Rafael Leão (Portugal) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt missed. Trincão (Portugal) left footed shot from the centre of the box is close, but misses to the right. Assisted by Nuno Mendes following a set piece situation.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 90,
+    "text": "Offside, Uzbekistan. Igor Sergeev is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 90,
+    "text": "Khojiakbar Alijonov (Uzbekistan) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Cristiano Ronaldo (Portugal).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Offside, Portugal. Cristiano Ronaldo is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 96,
+    "text": "Second Half ends, Portugal 5, Uzbekistan 0.",
+    "type": ""
+   },
+   {
+    "minute": 0,
+    "text": "Match ends, Portugal 5, Uzbekistan 0.",
+    "type": ""
    }
   ],
-  "halftime": "2-0",
+  "halftime": "3-0",
+  "motm": "—",
+  "note": ""
+ },
+ "England|Ghana": {
+  "goals": [],
+  "cards": [
+   {
+    "minute": 41,
+    "team": "England",
+    "player": "Declan Rice",
+    "type": "Yellow"
+   },
+   {
+    "minute": 60,
+    "team": "Ghana",
+    "player": "Iñaki Williams",
+    "type": "Yellow"
+   }
+  ],
+  "commentary": [
+   {
+    "minute": 0,
+    "text": "Lineups are announced and players are warming up.",
+    "type": ""
+   },
+   {
+    "minute": 0,
+    "text": "First Half begins.",
+    "type": ""
+   },
+   {
+    "minute": 5,
+    "text": "Offside, Ghana. Iñaki Williams is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 6,
+    "text": "Foul by Kwasi Sibo (Ghana).",
+    "type": "Foul"
+   },
+   {
+    "minute": 6,
+    "text": "Noni Madueke (England) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 8,
+    "text": "Jerome Opoku (Ghana) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 8,
+    "text": "Foul by Jude Bellingham (England).",
+    "type": "Foul"
+   },
+   {
+    "minute": 12,
+    "text": "Foul by Marvin Senaya (Ghana).",
+    "type": "Foul"
+   },
+   {
+    "minute": 12,
+    "text": "Anthony Gordon (England) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 14,
+    "text": "Attempt missed. Declan Rice (England) right footed shot from outside the box is just a bit too high. Assisted by Reece James from a direct free kick.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 14,
+    "text": "Foul by Jonas Adjetey (Ghana).",
+    "type": "Foul"
+   },
+   {
+    "minute": 14,
+    "text": "Harry Kane (England) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 15,
+    "text": "Attempt blocked. Elliot Anderson (England) right footed shot from the centre of the box is blocked. Assisted by Anthony Gordon.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 16,
+    "text": "Attempt blocked. Declan Rice (England) left footed shot from a difficult angle on the left is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 16,
+    "text": "Corner, England. Conceded by Jonas Adjetey.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 18,
+    "text": "Jordan Ayew (Ghana) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 18,
+    "text": "Foul by Ezri Konsa (England).",
+    "type": "Foul"
+   },
+   {
+    "minute": 18,
+    "text": "Foul by Iñaki Williams (Ghana).",
+    "type": "Foul"
+   },
+   {
+    "minute": 18,
+    "text": "Marc Guéhi (England) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 20,
+    "text": "Foul by Antoine Semenyo (Ghana).",
+    "type": "Foul"
+   },
+   {
+    "minute": 20,
+    "text": "Ezri Konsa (England) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 20,
+    "text": "Delay in match because of an injury Jordan Ayew (Ghana).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 20,
+    "text": "Delay in match because of an injury Reece James (England).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 23,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 24,
+    "text": "Foul by Caleb Yirenkyi (Ghana).",
+    "type": "Foul"
+   },
+   {
+    "minute": 24,
+    "text": "Marc Guéhi (England) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 26,
+    "text": "Foul by Antoine Semenyo (Ghana).",
+    "type": "Foul"
+   },
+   {
+    "minute": 26,
+    "text": "Elliot Anderson (England) wins a free kick in the attacking half.",
+    "type": "Dispossessed"
+   },
+   {
+    "minute": 26,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 29,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 31,
+    "text": "Marvin Senaya (Ghana) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 31,
+    "text": "Foul by Anthony Gordon (England).",
+    "type": "Foul"
+   },
+   {
+    "minute": 31,
+    "text": "Jordan Ayew (Ghana) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 31,
+    "text": "Foul by Ezri Konsa (England).",
+    "type": "Attempted tackle"
+   },
+   {
+    "minute": 32,
+    "text": "Foul by Jerome Opoku (Ghana).",
+    "type": "Foul"
+   },
+   {
+    "minute": 32,
+    "text": "Marc Guéhi (England) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 33,
+    "text": "Attempt blocked. Jude Bellingham (England) right footed shot from the right side of the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 34,
+    "text": "Gideon Mensah (Ghana) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 34,
+    "text": "Foul by Elliot Anderson (England).",
+    "type": "Foul"
+   },
+   {
+    "minute": 37,
+    "text": "Attempt missed. Declan Rice (England) header from the centre of the box is just a bit too high. Assisted by Noni Madueke with a cross.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 38,
+    "text": "Handball by Marc Guéhi (England).",
+    "type": "Handball"
+   },
+   {
+    "minute": 39,
+    "text": "Jordan Ayew (Ghana) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 39,
+    "text": "Foul by Elliot Anderson (England).",
+    "type": "Foul"
+   },
+   {
+    "minute": 40,
+    "text": "Offside, England. Jude Bellingham is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 41,
+    "text": "Jerome Opoku (Ghana) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 41,
+    "text": "Foul by Declan Rice (England).",
+    "type": "Foul"
+   },
+   {
+    "minute": 41,
+    "text": "Declan Rice (England) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 43,
+    "text": "Corner, Ghana. Conceded by Reece James.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 45,
+    "text": "Corner, England. Conceded by Jerome Opoku.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 45,
+    "text": "Fourth official has announced 6 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 45,
+    "text": "Attempt blocked. Harry Kane (England) left footed shot from the left side of the box is blocked. Assisted by Declan Rice.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 45,
+    "text": "Corner, England. Conceded by Jonas Adjetey.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 45,
+    "text": "Jerome Opoku (Ghana) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Foul by Jude Bellingham (England).",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "First Half ends, England 0, Ghana 0.",
+    "type": "Halftime"
+   },
+   {
+    "minute": 45,
+    "text": "Second Half begins England 0, Ghana 0.",
+    "type": ""
+   },
+   {
+    "minute": 47,
+    "text": "Foul by Marvin Senaya (Ghana).",
+    "type": "Foul"
+   },
+   {
+    "minute": 47,
+    "text": "Anthony Gordon (England) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 50,
+    "text": "Attempt blocked. Marvin Senaya (Ghana) right footed shot from the right side of the box is blocked. Assisted by Jerome Opoku.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 51,
+    "text": "Foul by Jordan Ayew (Ghana).",
+    "type": "Foul"
+   },
+   {
+    "minute": 51,
+    "text": "Marc Guéhi (England) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 52,
+    "text": "Foul by Kwasi Sibo (Ghana).",
+    "type": "Foul"
+   },
+   {
+    "minute": 52,
+    "text": "Marc Guéhi (England) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 53,
+    "text": "Corner, Ghana. Conceded by Reece James.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 54,
+    "text": "Foul by Caleb Yirenkyi (Ghana).",
+    "type": "Foul"
+   },
+   {
+    "minute": 54,
+    "text": "Jordan Pickford (England) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 54,
+    "text": "Foul by Jordan Ayew (Ghana).",
+    "type": "Foul"
+   },
+   {
+    "minute": 54,
+    "text": "Elliot Anderson (England) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 55,
+    "text": "Foul by Kwasi Sibo (Ghana).",
+    "type": "Foul"
+   },
+   {
+    "minute": 55,
+    "text": "Elliot Anderson (England) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 57,
+    "text": "Attempt blocked. Noni Madueke (England) left footed shot from the right side of the box is blocked. Assisted by Jude Bellingham.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 57,
+    "text": "Attempt saved. Anthony Gordon (England) right footed shot from the left side of the box is saved in the centre of the goal by Benjamin Asare (Ghana). Assisted by Declan Rice.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 58,
+    "text": "Foul by Jordan Ayew (Ghana).",
+    "type": "Foul"
+   },
+   {
+    "minute": 58,
+    "text": "Marc Guéhi (England) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 60,
+    "text": "Foul by Iñaki Williams (Ghana).",
+    "type": "Foul"
+   },
+   {
+    "minute": 60,
+    "text": "Anthony Gordon (England) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 60,
+    "text": "Iñaki Williams (Ghana) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 61,
+    "text": "Attempt blocked. Elliot Anderson (England) header from the centre of the box is blocked. Assisted by Declan Rice with a cross.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 61,
+    "text": "Corner, England. Conceded by Kwasi Sibo.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 62,
+    "text": "Attempt missed. Elliot Anderson (England) header from the centre of the box is too high. Assisted by Declan Rice with a cross following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 62,
+    "text": "Foul by Thomas Partey (Ghana).",
+    "type": "Foul"
+   },
+   {
+    "minute": 62,
+    "text": "Harry Kane (England) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 63,
+    "text": "Attempt missed. Elliot Anderson (England) right footed shot from outside the box misses to the left following a set piece situation.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 64,
+    "text": "Attempt missed. Noni Madueke (England) left footed shot from outside the box is high and wide to the left. Assisted by Anthony Gordon following a set piece situation.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 64,
+    "text": "Foul by Jordan Ayew (Ghana).",
+    "type": "Foul"
+   },
+   {
+    "minute": 64,
+    "text": "Marc Guéhi (England) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 65,
+    "text": "Delay in match because of an injury Caleb Yirenkyi (Ghana).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 65,
+    "text": "Substitution, England. Bukayo Saka replaces Anthony Gordon.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 66,
+    "text": "Substitution, England. Nico O'Reilly replaces Djed Spence.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 66,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 66,
+    "text": "Substitution, Ghana. Abdul Fatawu replaces Iñaki Williams.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 67,
+    "text": "Substitution, Ghana. Prince Adu replaces Jordan Ayew.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 67,
+    "text": "Foul by Prince Adu (Ghana).",
+    "type": "Foul"
+   },
+   {
+    "minute": 67,
+    "text": "Jordan Pickford (England) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 69,
+    "text": "Attempt saved. Harry Kane (England) left footed shot from outside the box is saved in the bottom right corner by Benjamin Asare (Ghana).",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 70,
+    "text": "Attempt missed. Bukayo Saka (England) header from the centre of the box is too high. Assisted by Noni Madueke with a cross.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 70,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 73,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 73,
+    "text": "Substitution, England. Morgan Rogers replaces Jude Bellingham.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 74,
+    "text": "Substitution, England. Eberechi Eze replaces Elliot Anderson.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 74,
+    "text": "Foul by Kwasi Sibo (Ghana).",
+    "type": "Foul"
+   },
+   {
+    "minute": 74,
+    "text": "Bukayo Saka (England) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 75,
+    "text": "Corner, England. Conceded by Jerome Opoku.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 77,
+    "text": "Marvin Senaya (Ghana) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 77,
+    "text": "Foul by Harry Kane (England).",
+    "type": "Foul"
+   },
+   {
+    "minute": 78,
+    "text": "Foul by Gideon Mensah (Ghana).",
+    "type": "Foul"
+   },
+   {
+    "minute": 78,
+    "text": "Bukayo Saka (England) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 79,
+    "text": "Attempt blocked. Prince Adu (Ghana) left footed shot from the centre of the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 79,
+    "text": "Offside, Ghana. Antoine Semenyo is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 81,
+    "text": "Offside, England. Bukayo Saka is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 82,
+    "text": "Foul by Gideon Mensah (Ghana).",
+    "type": "Foul"
+   },
+   {
+    "minute": 82,
+    "text": "Bukayo Saka (England) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 83,
+    "text": "Caleb Yirenkyi (Ghana) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 83,
+    "text": "Foul by Marc Guéhi (England).",
+    "type": "Foul"
+   },
+   {
+    "minute": 83,
+    "text": "Substitution, England. Marcus Rashford replaces Noni Madueke.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 84,
+    "text": "Foul by Caleb Yirenkyi (Ghana).",
+    "type": "Foul"
+   },
+   {
+    "minute": 84,
+    "text": "Eberechi Eze (England) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 85,
+    "text": "Abdul Fatawu (Ghana) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 85,
+    "text": "Foul by Marcus Rashford (England).",
+    "type": "Foul"
+   },
+   {
+    "minute": 86,
+    "text": "Attempt saved. Bukayo Saka (England) left footed shot from outside the box is saved in the bottom left corner by Benjamin Asare (Ghana). Assisted by Declan Rice with a headed pass.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 86,
+    "text": "Nico O'Reilly (England) hits the bar with a header from the centre of the box. Assisted by Reece James with a cross.",
+    "type": "Shot Hit Woodwork"
+   },
+   {
+    "minute": 86,
+    "text": "Attempt missed. Harry Kane (England) left footed shot from the centre of the box is too high.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 87,
+    "text": "Substitution, Ghana. Kojo Peprah Oppong replaces Marvin Senaya.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 89,
+    "text": "Caleb Yirenkyi (Ghana) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 89,
+    "text": "Foul by Marcus Rashford (England).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Antoine Semenyo (Ghana).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Ezri Konsa (England) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Fourth official has announced 6 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 90,
+    "text": "Corner, England. Conceded by Kojo Peprah Oppong.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt missed. Nico O'Reilly (England) header from the right side of the six yard box misses to the right. Assisted by Declan Rice with a cross following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt missed. Marc Guéhi (England) header from the centre of the box is close, but misses to the left. Assisted by Eberechi Eze following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 90,
+    "text": "Corner, England. Conceded by Kojo Peprah Oppong.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 90,
+    "text": "Corner, England. Conceded by Thomas Partey.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 90,
+    "text": "Substitution, Ghana. Abdul Rahman Baba replaces Prince Adu.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 90,
+    "text": "Thomas Partey (Ghana) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Morgan Rogers (England).",
+    "type": "Foul"
+   },
+   {
+    "minute": 97,
+    "text": "Second Half ends, England 0, Ghana 0.",
+    "type": ""
+   },
+   {
+    "minute": 0,
+    "text": "Match ends, England 0, Ghana 0.",
+    "type": ""
+   }
+  ],
+  "halftime": "0-0",
+  "motm": "—",
+  "note": ""
+ },
+ "Panama|Croatia": {
+  "goals": [],
+  "cards": [
+   {
+    "minute": 61,
+    "team": "Panama",
+    "player": "Édgar Yoel Bárcenas",
+    "type": "Yellow"
+   },
+   {
+    "minute": 90,
+    "team": "Croatia",
+    "player": "Petar Sucic",
+    "type": "Yellow"
+   }
+  ],
+  "commentary": [
+   {
+    "minute": 0,
+    "text": "Lineups are announced and players are warming up.",
+    "type": ""
+   },
+   {
+    "minute": 0,
+    "text": "First Half begins.",
+    "type": "Kickoff"
+   },
+   {
+    "minute": 2,
+    "text": "Attempt missed. Luka Modric (Croatia) header from the right side of the box is high and wide to the right. Assisted by Marco Pasalic with a cross.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 3,
+    "text": "Cristian Martínez (Panama) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 3,
+    "text": "Foul by Josko Gvardiol (Croatia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 4,
+    "text": "Attempt blocked. Amir Murillo (Panama) right footed shot from the left side of the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 5,
+    "text": "Foul by Jiovany Ramos (Panama).",
+    "type": "Foul"
+   },
+   {
+    "minute": 5,
+    "text": "Martin Baturina (Croatia) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 6,
+    "text": "Foul by Carlos Harvey (Panama).",
+    "type": "Foul"
+   },
+   {
+    "minute": 6,
+    "text": "Martin Baturina (Croatia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 8,
+    "text": "Carlos Harvey (Panama) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 8,
+    "text": "Foul by Mateo Kovacic (Croatia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 13,
+    "text": "José Luis Rodríguez (Panama) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 13,
+    "text": "Foul by Luka Modric (Croatia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 22,
+    "text": "Cristian Martínez (Panama) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 22,
+    "text": "Foul by Josko Gvardiol (Croatia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 23,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 26,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 28,
+    "text": "Foul by Cristian Martínez (Panama).",
+    "type": "Foul"
+   },
+   {
+    "minute": 28,
+    "text": "Josko Gvardiol (Croatia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 29,
+    "text": "Foul by Yoel Bárcenas (Panama).",
+    "type": "Foul"
+   },
+   {
+    "minute": 29,
+    "text": "Martin Baturina (Croatia) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 34,
+    "text": "Handball by Cristian Martínez (Panama).",
+    "type": "Handball"
+   },
+   {
+    "minute": 36,
+    "text": "Foul by José Córdoba (Panama).",
+    "type": "Foul"
+   },
+   {
+    "minute": 36,
+    "text": "Martin Baturina (Croatia) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 38,
+    "text": "Foul by José Luis Rodríguez (Panama).",
+    "type": "Foul"
+   },
+   {
+    "minute": 38,
+    "text": "Josip Stanisic (Croatia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 40,
+    "text": "Foul by Amir Murillo (Panama).",
+    "type": "Foul"
+   },
+   {
+    "minute": 40,
+    "text": "Josko Gvardiol (Croatia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 44,
+    "text": "José Fajardo (Panama) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 44,
+    "text": "Foul by Josip Sutalo (Croatia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Fourth official has announced 3 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 45,
+    "text": "Foul by Cristian Martínez (Panama).",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Martin Baturina (Croatia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Attempt missed. Martin Baturina (Croatia) right footed shot from outside the box is close, but misses to the left. Assisted by Ivan Perisic.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 45,
+    "text": "Corner, Croatia. Conceded by Orlando Mosquera.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 49,
+    "text": "First Half ends, Panama 0, Croatia 0.",
+    "type": ""
+   },
+   {
+    "minute": 45,
+    "text": "Substitution, Croatia. Ante Budimir replaces Petar Musa.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 45,
+    "text": "Substitution, Croatia. Andrej Kramaric replaces Josko Gvardiol.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 45,
+    "text": "Second Half begins Panama 0, Croatia 0.",
+    "type": "Start 2nd Half"
+   },
+   {
+    "minute": 47,
+    "text": "Foul by José Fajardo (Panama).",
+    "type": "Foul"
+   },
+   {
+    "minute": 47,
+    "text": "Luka Modric (Croatia) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 49,
+    "text": "Josip Stanisic (Croatia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 49,
+    "text": "Foul by José Luis Rodríguez (Panama).",
+    "type": "Foul"
+   },
+   {
+    "minute": 50,
+    "text": "Offside, Croatia. Andrej Kramaric is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 52,
+    "text": "Corner, Panama. Conceded by Marco Pasalic.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 53,
+    "text": "Foul by José Córdoba (Panama).",
+    "type": "Foul"
+   },
+   {
+    "minute": 53,
+    "text": "Ante Budimir (Croatia) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 54,
+    "text": "Goal! Panama 0, Croatia 1. Ante Budimir (Croatia) left footed shot from very close range to the bottom left corner. Assisted by Josip Stanisic with a cross.",
+    "type": "Goal - Volley"
+   },
+   {
+    "minute": 56,
+    "text": "José Fajardo (Panama) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 56,
+    "text": "Foul by Josip Sutalo (Croatia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 56,
+    "text": "Corner, Panama. Conceded by Marin Pongracic.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 57,
+    "text": "Attempt saved. Marco Pasalic (Croatia) left footed shot from the centre of the box is saved in the centre of the goal by Orlando Mosquera (Panama). Assisted by Luka Modric with a through ball.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 57,
+    "text": "Attempt missed. Marco Pasalic (Croatia) left footed shot from the left side of the six yard box is close, but misses to the left following a fast break.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 58,
+    "text": "Marco Pasalic (Croatia) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 58,
+    "text": "Foul by César Blackman (Panama).",
+    "type": "Foul"
+   },
+   {
+    "minute": 60,
+    "text": "Attempt missed. José Fajardo (Panama) header from the centre of the box misses to the left. Assisted by Amir Murillo with a cross.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 60,
+    "text": "Marco Pasalic (Croatia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 60,
+    "text": "Foul by José Córdoba (Panama).",
+    "type": "Foul"
+   },
+   {
+    "minute": 61,
+    "text": "Luka Modric (Croatia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 61,
+    "text": "Foul by Yoel Bárcenas (Panama).",
+    "type": "Foul"
+   },
+   {
+    "minute": 61,
+    "text": "Yoel Bárcenas (Panama) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 62,
+    "text": "Corner, Panama. Conceded by Josip Stanisic.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 64,
+    "text": "Offside, Croatia. Marco Pasalic is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 65,
+    "text": "Martin Baturina (Croatia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 65,
+    "text": "Foul by José Córdoba (Panama).",
+    "type": "Foul"
+   },
+   {
+    "minute": 68,
+    "text": "Attempt saved. Amir Murillo (Panama) right footed shot from the right side of the box is saved in the bottom right corner by Dominik Livakovic (Croatia).",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 68,
+    "text": "Corner, Panama. Conceded by Dominik Livakovic.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 68,
+    "text": "Attempt missed. Carlos Harvey (Panama) header from the centre of the box is just a bit too high. Assisted by Yoel Bárcenas with a cross following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 68,
+    "text": "Corner, Panama. Conceded by Dominik Livakovic.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 69,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 72,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 72,
+    "text": "Substitution, Croatia. Luka Sucic replaces Marco Pasalic.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 72,
+    "text": "Substitution, Croatia. Petar Sucic replaces Mateo Kovacic.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 73,
+    "text": "Carlos Harvey (Panama) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 73,
+    "text": "Foul by Petar Sucic (Croatia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 74,
+    "text": "Offside, Panama. Cristian Martínez is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 77,
+    "text": "Substitution, Panama. Cecilio Waterman replaces Jiovany Ramos.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 78,
+    "text": "Attempt missed. José Luis Rodríguez (Panama) left footed shot from outside the box is too high. Assisted by Cecilio Waterman.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 79,
+    "text": "Corner, Panama. Conceded by Josip Sutalo.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 79,
+    "text": "Attempt missed. Carlos Harvey (Panama) right footed shot from a difficult angle on the right is close, but misses to the right. Assisted by José Luis Rodríguez with a cross following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 80,
+    "text": "Foul by José Fajardo (Panama).",
+    "type": "Foul"
+   },
+   {
+    "minute": 80,
+    "text": "Martin Baturina (Croatia) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 81,
+    "text": "Substitution, Croatia. Mario Pasalic replaces Luka Modric.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 82,
+    "text": "Attempt blocked. Luka Sucic (Croatia) left footed shot from outside the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 82,
+    "text": "Corner, Croatia. Conceded by Carlos Harvey.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 83,
+    "text": "Cecilio Waterman (Panama) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 83,
+    "text": "Foul by Marin Pongracic (Croatia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 83,
+    "text": "Substitution, Panama. Azarías Londoño replaces José Fajardo.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 84,
+    "text": "Attempt blocked. Cecilio Waterman (Panama) right footed shot from the right side of the box is blocked. Assisted by Yoel Bárcenas.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 89,
+    "text": "César Blackman (Panama) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 89,
+    "text": "Foul by Mario Pasalic (Croatia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 89,
+    "text": "Foul by Cecilio Waterman (Panama).",
+    "type": "Foul"
+   },
+   {
+    "minute": 89,
+    "text": "Josip Stanisic (Croatia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Yoel Bárcenas (Panama) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Ante Budimir (Croatia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Substitution, Panama. Éric Davis replaces César Blackman.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 90,
+    "text": "Substitution, Panama. Tomás Rodríguez replaces Yoel Bárcenas.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 90,
+    "text": "Corner, Panama. Conceded by Marin Pongracic.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 91,
+    "text": "Fourth official has announced 5 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 90,
+    "text": "Cristian Martínez (Panama) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Ante Budimir (Croatia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Tomás Rodríguez (Panama) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Petar Sucic (Croatia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Petar Sucic (Croatia) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt missed. Amir Murillo (Panama) right footed shot from outside the box is high and wide to the right from a direct free kick.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Andrés Andrade (Panama).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Ante Budimir (Croatia) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 96,
+    "text": "Second Half ends, Panama 0, Croatia 1.",
+    "type": ""
+   },
+   {
+    "minute": 0,
+    "text": "Match ends, Panama 0, Croatia 1.",
+    "type": ""
+   }
+  ],
+  "halftime": "0-0",
+  "motm": "—",
+  "note": ""
+ },
+ "Colombia|DR Congo": {
+  "goals": [
+   {
+    "minute": 76,
+    "team": "Colombia",
+    "player": "Daniel Muñoz",
+    "assist": "Juan Fernando Quintero",
+    "note": null
+   }
+  ],
+  "cards": [
+   {
+    "minute": 56,
+    "team": "Colombia",
+    "player": "Jhon Lucumí",
+    "type": "Yellow"
+   }
+  ],
+  "commentary": [
+   {
+    "minute": 0,
+    "text": "Lineups are announced and players are warming up.",
+    "type": ""
+   },
+   {
+    "minute": 0,
+    "text": "First Half begins.",
+    "type": "Kickoff"
+   },
+   {
+    "minute": 1,
+    "text": "Attempt missed. Edo Kayembe (Congo DR) left footed shot from outside the box is high and wide to the left. Assisted by Ngal'ayel Mukau.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 3,
+    "text": "Offside, Colombia. Luis Díaz is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 4,
+    "text": "Attempt saved. Jhon Arias (Colombia) right footed shot from the left side of the box is saved in the bottom right corner by Lionel Mpasi (Congo DR). Assisted by Johan Mojica.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 4,
+    "text": "Daniel Muñoz (Colombia) hits the right post with a right footed shot from the right side of the six yard box.",
+    "type": "Shot Hit Woodwork"
+   },
+   {
+    "minute": 6,
+    "text": "Foul by Cédric Bakambu (Congo DR).",
+    "type": "Foul"
+   },
+   {
+    "minute": 6,
+    "text": "Jefferson Lerma (Colombia) wins a free kick in the defensive half.",
+    "type": "Pass"
+   },
+   {
+    "minute": 6,
+    "text": "Offside, Colombia. Daniel Muñoz is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 7,
+    "text": "Delay in match because of an injury Lionel Mpasi (Congo DR).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 8,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 11,
+    "text": "Attempt saved. James Rodríguez (Colombia) left footed shot from outside the box is saved in the bottom right corner by Lionel Mpasi (Congo DR). Assisted by Luis Díaz.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 11,
+    "text": "Corner, Colombia. Conceded by Lionel Mpasi.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 12,
+    "text": "Attempt missed. Jhon Lucumí (Colombia) header from the centre of the box is too high. Assisted by James Rodríguez with a cross following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 13,
+    "text": "Offside, Colombia. Luis Díaz is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 15,
+    "text": "Attempt saved. Johan Mojica (Colombia) left footed shot from outside the box is saved in the bottom right corner by Lionel Mpasi (Congo DR). Assisted by James Rodríguez.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 16,
+    "text": "Attempt saved. Luis Díaz (Colombia) right footed shot from the centre of the box is saved in the bottom left corner by Lionel Mpasi (Congo DR). Assisted by Jhon Arias.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 16,
+    "text": "Corner, Colombia. Conceded by Lionel Mpasi.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 17,
+    "text": "Attempt missed. Gustavo Puerta (Colombia) left footed shot from outside the box misses to the right following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 19,
+    "text": "Attempt saved. Gustavo Puerta (Colombia) right footed shot from outside the box is saved in the bottom right corner by Lionel Mpasi (Congo DR). Assisted by Jefferson Lerma.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 19,
+    "text": "Arthur Masuaku (Congo DR) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 19,
+    "text": "Foul by Daniel Muñoz (Colombia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 21,
+    "text": "Foul by Steve Kapuadi (Congo DR).",
+    "type": "Foul"
+   },
+   {
+    "minute": 21,
+    "text": "Gustavo Puerta (Colombia) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 24,
+    "text": "Attempt blocked. Luis Díaz (Colombia) right footed shot from outside the box is blocked. Assisted by Davinson Sánchez.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 25,
+    "text": "Edo Kayembe (Congo DR) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 25,
+    "text": "Foul by Daniel Muñoz (Colombia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 25,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 28,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 28,
+    "text": "Foul by Samuel Moutoussamy (Congo DR).",
+    "type": "Foul"
+   },
+   {
+    "minute": 28,
+    "text": "Gustavo Puerta (Colombia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 31,
+    "text": "Attempt blocked. Luis Díaz (Colombia) right footed shot from the left side of the box is blocked. Assisted by James Rodríguez.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 31,
+    "text": "Ngal'ayel Mukau (Congo DR) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 31,
+    "text": "Foul by Gustavo Puerta (Colombia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 35,
+    "text": "Corner, Congo DR. Conceded by Davinson Sánchez.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 38,
+    "text": "Foul by Edo Kayembe (Congo DR).",
+    "type": "Foul"
+   },
+   {
+    "minute": 38,
+    "text": "James Rodríguez (Colombia) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 39,
+    "text": "Attempt saved. Davinson Sánchez (Colombia) header from the centre of the box is saved in the centre of the goal by Lionel Mpasi (Congo DR). Assisted by James Rodríguez.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 39,
+    "text": "Ngal'ayel Mukau (Congo DR) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 39,
+    "text": "Foul by Davinson Sánchez (Colombia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 41,
+    "text": "Attempt blocked. Luis Suárez (Colombia) right footed shot from the left side of the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 41,
+    "text": "Foul by Axel Tuanzebe (Congo DR).",
+    "type": "Foul"
+   },
+   {
+    "minute": 41,
+    "text": "James Rodríguez (Colombia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 44,
+    "text": "Corner, Congo DR. Conceded by Daniel Muñoz.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 45,
+    "text": "Attempt missed. Cédric Bakambu (Congo DR) header from the centre of the box is too high. Assisted by Arthur Masuaku with a cross following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 45,
+    "text": "Attempt blocked. Luis Díaz (Colombia) left footed shot from the right side of the box is blocked. Assisted by Camilo Vargas.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 45,
+    "text": "Fourth official has announced 5 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 45,
+    "text": "Attempt blocked. Gustavo Puerta (Colombia) right footed shot from outside the box is blocked. Assisted by Luis Díaz.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 45,
+    "text": "Handball by Yoane Wissa (Congo DR).",
+    "type": "Handball"
+   },
+   {
+    "minute": 45,
+    "text": "VAR Decision: Other Decision Cancelled.",
+    "type": "VAR - Referee decision cancelled"
+   },
+   {
+    "minute": 45,
+    "text": "First Half ends, Colombia 0, Congo DR 0.",
+    "type": "Halftime"
+   },
+   {
+    "minute": 45,
+    "text": "Substitution, Congo DR. Noah Sadiki replaces Ngal'ayel Mukau.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 45,
+    "text": "Second Half begins Colombia 0, Congo DR 0.",
+    "type": "Start 2nd Half"
+   },
+   {
+    "minute": 49,
+    "text": "Corner, Colombia. Conceded by Arthur Masuaku.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 50,
+    "text": "Attempt saved. Luis Díaz (Colombia) left footed shot from the centre of the box is saved in the centre of the goal by Lionel Mpasi (Congo DR). Assisted by James Rodríguez with a cross.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 50,
+    "text": "Attempt missed. Jhon Arias (Colombia) left footed shot from the centre of the box is close, but misses to the right following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 52,
+    "text": "Axel Tuanzebe (Congo DR) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 52,
+    "text": "Foul by Luis Suárez (Colombia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 53,
+    "text": "Attempt missed. Samuel Moutoussamy (Congo DR) left footed shot from outside the box is high and wide to the left. Assisted by Yoane Wissa following a fast break.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 54,
+    "text": "Foul by Axel Tuanzebe (Congo DR).",
+    "type": "Foul"
+   },
+   {
+    "minute": 54,
+    "text": "Luis Suárez (Colombia) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 56,
+    "text": "Chancel Mbemba (Congo DR) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 56,
+    "text": "Foul by Luis Díaz (Colombia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 56,
+    "text": "Yoane Wissa (Congo DR) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 56,
+    "text": "Foul by Jhon Lucumí (Colombia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 56,
+    "text": "Jhon Lucumí (Colombia) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 57,
+    "text": "Substitution, Congo DR. Simon Banza replaces Cédric Bakambu.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 58,
+    "text": "Substitution, Colombia. Jhon Córdoba replaces Luis Suárez.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 58,
+    "text": "Substitution, Colombia. Juan Fernando Quintero replaces James Rodríguez.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 61,
+    "text": "Foul by Edo Kayembe (Congo DR).",
+    "type": "Foul"
+   },
+   {
+    "minute": 61,
+    "text": "Jefferson Lerma (Colombia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 62,
+    "text": "Foul by Steve Kapuadi (Congo DR).",
+    "type": "Foul"
+   },
+   {
+    "minute": 62,
+    "text": "Gustavo Puerta (Colombia) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 62,
+    "text": "Offside, Colombia. Luis Díaz is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 63,
+    "text": "Foul by Samuel Moutoussamy (Congo DR).",
+    "type": "Foul"
+   },
+   {
+    "minute": 63,
+    "text": "Jhon Córdoba (Colombia) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 64,
+    "text": "Corner, Colombia. Conceded by Lionel Mpasi.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 66,
+    "text": "Foul by Edo Kayembe (Congo DR).",
+    "type": "Foul"
+   },
+   {
+    "minute": 66,
+    "text": "Johan Mojica (Colombia) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 67,
+    "text": "Foul by Samuel Moutoussamy (Congo DR).",
+    "type": "Foul"
+   },
+   {
+    "minute": 67,
+    "text": "Jhon Arias (Colombia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 68,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 71,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 72,
+    "text": "Substitution, Congo DR. Joris Kayembe replaces Arthur Masuaku.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 72,
+    "text": "Substitution, Congo DR. Charles Pickel replaces Edo Kayembe.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 74,
+    "text": "Attempt blocked. Yoane Wissa (Congo DR) right footed shot from the centre of the box is blocked. Assisted by Simon Banza.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 75,
+    "text": "Offside, Colombia. Luis Díaz is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 76,
+    "text": "Goal! Colombia 1, Congo DR 0. Daniel Muñoz (Colombia) left footed shot from the right side of the box to the bottom right corner. Assisted by Juan Fernando Quintero.",
+    "type": "Goal"
+   },
+   {
+    "minute": 78,
+    "text": "Substitution, Colombia. Richard Ríos replaces Jhon Arias.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 79,
+    "text": "Chancel Mbemba (Congo DR) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 79,
+    "text": "Foul by Luis Díaz (Colombia).",
+    "type": "Foul"
+   }
+  ],
+  "halftime": "0-0",
   "motm": "—",
   "note": ""
  }

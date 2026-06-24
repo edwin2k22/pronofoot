@@ -606,11 +606,17 @@ function pitchFor(team, form, coach, xi, side){
     }
     rows.push(`<div class="pl-row">${cells.join("")}</div>`);
   });
-  // l'extérieur joue "vers le haut" -> on inverse l'ordre des lignes
-  if(side==="away") rows.reverse();
+  
+  // on inverse toujours pour que le gardien soit en bas (les deux équipes attaquent vers le haut)
+  rows.reverse();
+  
   return `<div class="pitch ${side}">
-      <div class="pitch-head">${team} <b>${form||""}</b>${coach?` · 👔 ${coach}`:""}</div>
-      <div class="pitch-grass">${rows.join("")}</div>
+      <div class="pitch-head" style="text-align:center; padding-bottom:6px;">${team} <b style="color:var(--acc2);">${form||""}</b>${coach?`<br><span style="font-weight:normal;font-size:11px;opacity:0.8;">👔 ${coach}</span>`:""}</div>
+      <div class="pitch-grass">
+        <div class="pitch-box-top"></div>
+        <div class="pitch-box-bottom"></div>
+        ${rows.join("")}
+      </div>
     </div>`;
 }
 
