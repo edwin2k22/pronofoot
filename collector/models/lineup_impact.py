@@ -85,25 +85,40 @@ def player_rating(pos: str, team_elo: float, real_xg: float | None = None,
 
 
 def rotation_delta(xi_positions, team_elo, ideal_offensive_avg=None,
-                   real_stats=None):
+                   ideal_defensive_avg=None, real_stats=None):
     """
-    ANGLE 1 — compare la force OFFENSIVE du XI aligné à un XI 'idéal'.
-    xi_positions : liste de postes du 11 de départ.
-    Renvoie un delta dans [0, 0.2] : 0 = équipe-type, >0 = rotation/faiblesse offensive.
+    ANGLE 1 — compare la force OFFENSIVE et DEFENSIVE du XI aligné à un XI 'idéal'.
+    Renvoie (offense_delta, defense_delta).
+    >0 = équipe affaiblie (remplaçants alignés).
     """
     if not xi_positions:
-        return 0.0
-    # force offensive du XI = somme(rating × poids offensif du poste)
+        return 0.0, 0.0
+
     offense = 0.0
+    defense = 0.0
     for i, pos in enumerate(xi_positions):
         rs = (real_stats or {}).get(i, {})
         r = player_rating(pos, team_elo, rs.get("xg"), rs.get("xa"))
-        offense += r * POS_OFFENSIVE.get(_norm_pos(pos), 0.5)
+        norm_p = _norm_pos(pos)
+        
+        # Offense: FW, AM, RW, LW contribuent le plus
+        offense += r * POS_OFFENSIVE.get(norm_p, 0.5)
+        
+        # Defense: GK, CB, DF, DM contribuent le plus
+        def_weight = 1.0 if norm_p in ["GK", "CB"] else (0.8 if norm_p in ["DF", "RB", "LB", "DM"] else 0.2)
+        defense += r * def_weight
+
     avg_off = offense / len(xi_positions)
-    # référence : un XI standard a ~ team_elo × 0.55 d'offensive moyenne
-    ref = ideal_offensive_avg or (team_elo * 0.55)
-    delta = (ref - avg_off) / ref            # >0 si le XI est plus faible offensivement
-    return max(0.0, min(0.20, delta))
+    avg_def = defense / len(xi_positions)
+    
+    # références idéales approximatives (11 type)
+    ref_off = ideal_offensive_avg or (team_elo * 0.55)
+    ref_def = ideal_defensive_avg or (team_elo * 0.45)
+    
+    d_off = (ref_off - avg_off) / ref_off
+    d_def = (ref_def - avg_def) / ref_def
+    
+    return max(0.0, min(0.20, d_off)), max(0.0, min(0.20, d_def))
 
 
 def tactical_modifier(home_formation: str, away_formation: str) -> float:
@@ -157,18 +172,22 @@ def apply_lineup(lam_home, lam_away, home_xi_pos, away_xi_pos,
     """
     Combine les 3 leviers et renvoie (lam_home_ajusté, lam_away_ajusté, infos).
     """
-    dh = rotation_delta(home_xi_pos, home_elo, real_stats=real_home)
-    da = rotation_delta(away_xi_pos, away_elo, real_stats=real_away)
+    dh_off, dh_def = rotation_delta(home_xi_pos, home_elo, real_stats=real_home)
+    da_off, da_def = rotation_delta(away_xi_pos, away_elo, real_stats=real_away)
     tac = tactical_modifier(home_form, away_form)
 
-    lh = lam_home * (1 - dh) * tac
-    la = lam_away * (1 - da) * (2 - tac)   # effet miroir tactique côté extérieur
+    # L'équipe Home marque selon sa force offensive (baisse si dh_off > 0)
+    # et encaisse selon sa faiblesse défensive (adversaire marque + si dh_def > 0)
+    lh = lam_home * (1 - dh_off) * (1 + da_def) * tac
+    la = lam_away * (1 - da_off) * (1 + dh_def) * (2 - tac)   # effet miroir tactique côté extérieur
 
     bh = bench_impact(home_bench, home_elo)
     ba = bench_impact(away_bench, away_elo)
 
     return round(max(0.2, lh), 2), round(max(0.2, la), 2), {
-        "rotationDeltaHome": round(dh, 3), "rotationDeltaAway": round(da, 3),
+        "rotationDeltaHome": round(dh_off, 3), "rotationDeltaAway": round(da_off, 3),
+        "defensiveDeltaHome": round(dh_def, 3), "defensiveDeltaAway": round(da_def, 3),
+        "missingKeyPlayers": [], # sera rempli par la pipeline si des stars manquent
         "tacticalMod": round(tac, 3),
         "benchHome": bh, "benchAway": ba,
         "benchBonusOver25": round((bh + ba) / 2 * 0.06, 3),  # jusqu'à +6% Over 2.5

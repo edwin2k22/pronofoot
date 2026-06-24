@@ -878,6 +878,22 @@ function hotTrendsBlock(m) {
 
 /* match À VENIR : pronostic complet.
    mode : undefined = à venir | "kickoff" = coup d'envoi atteint | "awaiting" = résultat en attente */
+function missingKeyPlayersBlock(m) {
+  if (!m.lineupImpact || !m.lineupImpact.missingKeyPlayers || m.lineupImpact.missingKeyPlayers.length === 0) return "";
+  const teams = m.lineupImpact.missingKeyPlayers.join(" et ");
+  return `<div style="background:var(--card-bg); border-left:4px solid #ff6b7d; padding:10px 14px; margin-bottom:15px; border-radius:4px;">
+    <div style="font-weight:700; color:#ff6b7d; font-size:13px; margin-bottom:4px; display:flex; align-items:center; gap:6px;">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+      ÉQUIPE AFFAIBLIE
+    </div>
+    <div style="font-size:12px; color:var(--text); opacity:0.9;">
+      Fort remaniement ou absences clés détectées pour : <b>${teams}</b>. L'algorithme a ajusté l'Elo et les probabilités (Poisson) à la baisse.
+    </div>
+  </div>`;
+}
+
+/* bloc commun : barres 1N2 + marchés */
+/* forme W/D/L en pastilles colorées (le plus récent à gauche) */
 function renderUpcoming(m, mode){
   const p=m.prediction;
   const conf = m.confidence!=null ? `${Math.round(m.confidence*100)}% (${m.confidence>=.8?"élevée":m.confidence>=.4?"moyenne":"faible — prior"})` : "—";
@@ -899,6 +915,7 @@ function renderUpcoming(m, mode){
       <div class="tn">${m.away}</div>
     </div>
     ${coherenceHint(m,p)}
+    ${missingKeyPlayersBlock(m)}
     ${hotTrendsBlock(m)}
     ${probBlock(m,p)}
     <div class="verdict anim-block anim-5">Le modèle favorise <b>${bl}</b> (${pct(bp)}).

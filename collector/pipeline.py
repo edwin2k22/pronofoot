@@ -661,22 +661,37 @@ def predict():
             lu = None
         hform = (lu or {}).get("home_formation", "4-3-3")
         aform = (lu or {}).get("away_formation", "4-4-2")
-        hpos = li.formation_positions(hform)
-        apos = li.formation_positions(aform)
-        # bancs : postes extraits des libellés "Nom (FW)" si dispo
-        def _bench_pos(bench):
+        
+        def _extract_pos(players_list):
             out = []
-            for p in (bench or []):
+            for p in (players_list or []):
                 import re as _re
-                mm = _re.search(r"\(([A-Z]+)\)", p or "")
+                mm = _re.search(r"\(([A-Z]+)\)", str(p or ""))
                 out.append(mm.group(1) if mm else "MF")
             return out
-        hbench = _bench_pos((lu or {}).get("home_bench"))
-        abench = _bench_pos((lu or {}).get("away_bench"))
+
+        if lu and lu.get("home_xi"):
+            hpos = _extract_pos(lu.get("home_xi"))
+        else:
+            hpos = li.formation_positions(hform)
+
+        if lu and lu.get("away_xi"):
+            apos = _extract_pos(lu.get("away_xi"))
+        else:
+            apos = li.formation_positions(aform)
+
+        hbench = _extract_pos((lu or {}).get("home_bench"))
+        abench = _extract_pos((lu or {}).get("away_bench"))
         lam_h, lam_a, lineup_info = li.apply_lineup(
             lam_h, lam_a, hpos, apos, hform, aform,
             home_bench=hbench, away_bench=abench,
             home_elo=h["elo"], away_elo=a["elo"])
+        
+        # Flags pour l'UI
+        if lineup_info["rotationDeltaHome"] > 0.1 or lineup_info["defensiveDeltaHome"] > 0.1:
+            lineup_info["missingKeyPlayers"].append(mt["home"])
+        if lineup_info["rotationDeltaAway"] > 0.1 or lineup_info["defensiveDeltaAway"] > 0.1:
+            lineup_info["missingKeyPlayers"].append(mt["away"])
 
         # ANGLE 1 — Must-Win Index : enjeu + statut de qualification réel (théorie des jeux)
         md = group_md.get(mt["id"])
