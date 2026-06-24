@@ -1,40 +1,27 @@
 {
-  "sampleWithOdds": 35,
+  "sampleWithOdds": 37,
   "favorite": {
-    "bets": 35,
-    "wins": 24,
-    "winRate": 69,
-    "pnl": 1.08,
-    "yield": 3.1
+    "bets": 37,
+    "wins": 27,
+    "winRate": 73,
+    "pnl": 5.17,
+    "yield": 14.0
   },
   "value": {
-    "bets": 71,
-    "wins": 38,
-    "winRate": 54,
-    "pnl": 0.95,
-    "yield": 1.3
+    "bets": 73,
+    "wins": 41,
+    "winRate": 56,
+    "pnl": 0.2,
+    "yield": 0.3
   },
   "valueStrict": {
-    "bets": 41,
-    "wins": 25,
-    "winRate": 61,
-    "pnl": 3.03,
-    "yield": 7.4
+    "bets": 42,
+    "wins": 26,
+    "winRate": 62,
+    "pnl": 1.72,
+    "yield": 4.1
   },
   "topValue": [
-    {
-      "home": "Bosnia & Herzegovina",
-      "away": "Qatar",
-      "date": "2026-06-24 12:00 UTC-7",
-      "label": "Moins de 2.5 buts",
-      "prob": 0.7462,
-      "odd": 2.25,
-      "implied": 0.4444,
-      "edge": 0.3018,
-      "ev": 0.679,
-      "provider": "DraftKings",
-      "market": "O/U"
-    },
     {
       "home": "Morocco",
       "away": "Haiti",
@@ -49,18 +36,32 @@
       "market": "O/U"
     },
     {
-      "home": "Bosnia & Herzegovina",
-      "away": "Qatar",
-      "date": "2026-06-24 12:00 UTC-7",
-      "label": "Match nul",
-      "prob": 0.3546,
-      "odd": 5.0,
-      "implied": 0.2,
-      "edge": 0.1546,
-      "ev": 0.773,
+      "home": "Ecuador",
+      "away": "Germany",
+      "date": "2026-06-25 16:00 UTC-4",
+      "label": "Victoire Germany",
+      "prob": 0.6876,
+      "odd": 1.952,
+      "implied": 0.5123,
+      "edge": 0.1753,
+      "ev": 0.342,
       "provider": "DraftKings",
       "market": "1N2",
-      "lineMovement": 0.9
+      "lineMovement": -1.898
+    },
+    {
+      "home": "Czech Republic",
+      "away": "Mexico",
+      "date": "2026-06-24 19:00 UTC-6",
+      "label": "Victoire Mexico",
+      "prob": 0.6743,
+      "odd": 1.952,
+      "implied": 0.5123,
+      "edge": 0.162,
+      "ev": 0.316,
+      "provider": "DraftKings",
+      "market": "1N2",
+      "lineMovement": -1.698
     }
   ]
 }

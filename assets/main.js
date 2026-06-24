@@ -21,9 +21,8 @@ window.openSidebar = openSidebar;
 window.closeSidebar = closeSidebar;
 window.adminAction = adminAction;
 
-
-
-
+let COMBO_HISTORY = null;
+function setComboHistory(d) { COMBO_HISTORY = d; }
 
 /* ===== FAVORIS & NOTIFICATIONS ===== */
 
@@ -129,6 +128,7 @@ async function load(){
   try{ const pEl=$("embedded-pnl"); if(pEl) setPnl(JSON.parse(pEl.textContent) || null); }catch(_){}
   try{ const stEl=$("embedded-standings"); if(stEl) setStandings(JSON.parse(stEl.textContent) || []); }catch(_){}
   try{ const hEl=$("embedded-h2h"); if(hEl) setH2h(JSON.parse(hEl.textContent) || {}); }catch(_){}
+  try{ const cbEl=$("embedded-combo"); if(cbEl) setComboHistory(JSON.parse(cbEl.textContent) || null); }catch(_){}
   if(embedded.length) applyData(embedded, "intégré");
   renderLiveFeed();
   renderTopValue();
@@ -270,21 +270,52 @@ function renderBestPicks(){
     }).join("");
   }
   // ----- combiné (accumulateur) : 1 pick verrouillé par match, max 4 -----
-  const lockPicks = TOPPICKS.picks.filter(p=>p.tier==="lock");
-  const seenMatch = new Set();
-  const combo = [];
-  for(const p of lockPicks){
-    const k=p.home+"|"+p.away;
-    if(seenMatch.has(k)) continue;
-    seenMatch.add(k); combo.push(p);
-    if(combo.length>=4) break;
+  let combo = [];
+  let comboStats = null;
+  let comboStatus = null;
+  
+  if (COMBO_HISTORY && COMBO_HISTORY.history) {
+    comboStats = COMBO_HISTORY.stats;
+    const todayStr = new Date().toISOString().split('T')[0];
+    const todayCombo = COMBO_HISTORY.history[todayStr];
+    if (todayCombo && todayCombo.legs.length > 0) {
+      combo = todayCombo.legs;
+      comboStatus = todayCombo.status;
+    }
   }
+  
+  if (combo.length === 0) {
+    const lockPicks = TOPPICKS.picks.filter(p=>p.tier==="lock");
+    const seenMatch = new Set();
+    for(const p of lockPicks){
+      const k=p.home+"|"+p.away;
+      if(seenMatch.has(k)) continue;
+      seenMatch.add(k); combo.push(p);
+      if(combo.length>=4) break;
+    }
+  }
+
   let comboHtml="";
   if(combo.length>=2){
     const comboProb = combo.reduce((a,p)=>a*p.prob,1);
-    const legs = combo.map(p=>`<div class="combo-leg"><span>${p.home} v ${p.away}</span><b>${p.label}</b><span style="color:#33e0a0">${Math.round(p.prob*100)}%</span></div>`).join("");
+    const legs = combo.map(p=>{
+      let legStat = '';
+      if (p.status && p.status !== 'PENDING') {
+        const color = p.status === 'WON' ? '#33e0a0' : (p.status === 'LOST' ? '#ff6b6b' : '#ffb84d');
+        legStat = `<span style="font-size:10px;margin-left:4px;padding:2px 4px;border-radius:3px;background:${color};color:#000;">${p.status}</span>`;
+      }
+      return `<div class="combo-leg"><span>${p.home} v ${p.away}</span><b>${p.label}</b><span style="color:#33e0a0">${Math.round(p.prob*100)}%${legStat}</span></div>`;
+    }).join("");
+    
+    const statsBadge = comboStats ? `<span style="float:right;font-size:11px;background:rgba(255,255,255,0.1);padding:2px 6px;border-radius:4px;">Historique : <b style="color:#33e0a0">${comboStats.won}W</b> - <b style="color:#ff6b6b">${comboStats.lost}L</b></span>` : '';
+    let statusBadge = '';
+    if (comboStatus && comboStatus !== 'PENDING') {
+      const ccolor = comboStatus === 'WON' ? '#33e0a0' : (comboStatus === 'LOST' ? '#ff6b6b' : '#ffb84d');
+      statusBadge = `<span style="font-size:11px;margin-left:8px;padding:2px 6px;border-radius:3px;background:${ccolor};color:#000;vertical-align:middle;">${comboStatus}</span>`;
+    }
+
     comboHtml = `<div class="combo-box" style="margin-top:0; height:100%;">
-      <div class="combo-head">🧩 Combiné du jour <span class="mod-hint">${combo.length} sélections verrouillées</span></div>
+      <div class="combo-head">🧩 Combiné du jour ${statusBadge} ${statsBadge} <div style="font-size:11px;color:var(--muted);margin-top:4px;">${combo.length} sélections verrouillées</div></div>
       ${legs}
       <div class="combo-total">Probabilité combinée du modèle : <b>${Math.round(comboProb*100)}%</b>
         <span style="color:var(--muted);font-size:11px"> (cote théorique ≈ ${(1/comboProb).toFixed(2)})</span></div>
@@ -449,8 +480,9 @@ function render(){
     // score affiché : réel/live UNIQUEMENT si la donnée existe ; sinon prono.
     // On ne fabrique JAMAIS un score : KICKOFF/AWAITING montrent le prono d'avant-match.
     let scoreHtml;
-    if(isDone && m.realScore) scoreHtml=`<div class="mi-score">${m.realScore.replace("-"," – ")}</div><div class="mi-when">score final</div>`;
-    else if(isLive && m.liveScore) scoreHtml=`<div class="mi-score">${m.liveScore.replace("-"," – ")}</div><div class="mi-when">en direct</div>`;
+    let htHtml = m.htScore ? ` (MT: ${m.htScore})` : "";
+    if(isDone && m.realScore) scoreHtml=`<div class="mi-score">${m.realScore.replace("-"," – ")}</div><div class="mi-when">score final${htHtml}</div>`;
+    else if(isLive && m.liveScore) scoreHtml=`<div class="mi-score">${m.liveScore.replace("-"," – ")}</div><div class="mi-when">en direct${htHtml}</div>`;
     else if(isKick) scoreHtml=`<div class="mi-vsmid">VS</div><div class="mi-when">en attente du direct</div>`;
     else if(isAwait) scoreHtml=`<div class="mi-vsmid">VS</div><div class="mi-when">résultat en attente</div>`;
     else if(p.topScore) scoreHtml=`<div class="mi-vsmid">VS</div><div class="mi-when">prév. ${p.topScore[0]}-${p.topScore[1]}</div>`;
@@ -770,7 +802,7 @@ function renderFinished(m){
     <div class="banner done">🏁 Match TERMINÉ — résultat & analyse (pas un pronostic).</div>
     <div class="scoreline anim-block anim-1">
       <div class="tn">${m.home}</div>
-      <div class="sc gold">${a.realScore.replace("-"," – ")}<small>score final</small></div>
+      <div class="sc gold">${a.realScore.replace("-"," – ")}<small>score final${m.htScore ? ` (MT: ${m.htScore})` : ""}</small></div>
       <div class="tn">${m.away}</div>
     </div>
     ${vsTable(m)}

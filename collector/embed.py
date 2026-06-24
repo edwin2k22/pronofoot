@@ -74,6 +74,10 @@ def main():
     if os.path.exists(pnl_path):
         _inject(os.path.join(ROOT, "index.html"),
                 pnl_path, "embedded-pnl", "PnL/ROI")
+    combo_path = os.path.join(DATA, "combo_history.json")
+    if os.path.exists(combo_path):
+        _inject(os.path.join(ROOT, "index.html"),
+                combo_path, "embedded-combo", "Historique combinés")
     st_path = os.path.join(DATA, "standings.json")
     if os.path.exists(st_path):
         _inject(os.path.join(ROOT, "index.html"),

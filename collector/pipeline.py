@@ -111,7 +111,12 @@ def ingest():
             (t1, t2, date)).fetchone()
         if row and row["status"] != "FINISHED":
             # openfootball ne fournit pas xG/corners -> on laisse NULL (le modèle gère)
-            db.record_result(conn, row["id"], home_goals=ft[0], away_goals=ft[1])
+            stats = {"home_goals": ft[0], "away_goals": ft[1]}
+            ht = m.get("score", {}).get("ht")
+            if ht and len(ht) == 2:
+                stats["home_ht_goals"] = ht[0]
+                stats["away_ht_goals"] = ht[1]
+            db.record_result(conn, row["id"], **stats)
             updated += 1
     conn.commit(); conn.close()
     print(f"✅ ingest : {updated} nouveaux résultats réels enregistrés.")
@@ -1007,6 +1012,11 @@ def predict():
                       if mt["status"] in ("LIVE", "HT") and mt["home_goals"] is not None
                       else None)
         live_clock = mt["live_clock"] if ("live_clock" in mt.keys() and mt["status"] in ("LIVE", "HT")) else None
+        
+        ht_score = (f"{mt['home_ht_goals']}-{mt['away_ht_goals']}"
+                    if "home_ht_goals" in mt.keys() and mt["home_ht_goals"] is not None and mt["away_ht_goals"] is not None
+                    else None)
+
         analysis = _analyze_finished(mt, h, a, res, goals) if mt["status"] == "FINISHED" else None
         trends = _calculate_trends(conn, h["name"], a["name"])
         out.append({
@@ -1016,6 +1026,7 @@ def predict():
             "liveScore": live_score,
             "liveClock": live_clock,
             "realScore": analysis["realScore"] if analysis else None,
+            "htScore": ht_score,
             "analysis": analysis,
             "hotTrends": trends,
             "home": mt["home"], "away": mt["away"],
@@ -1093,8 +1104,12 @@ def predict():
         rel = tp["reliability"]["byTier"]["lock"]
         print(f"✅ top picks : {tp['lockCount']} verrouillés "
               f"(fiabilité 🔒 mesurée : {rel['pct']}% sur {rel['total']} cas) -> {tp_path}")
+              
+        from collector.models import combo
+        cdata = combo.update_daily_combo(tp, out)
+        print(f"✅ combiné du jour : {cdata['stats']['won']}W - {cdata['stats']['lost']}L - {cdata['stats']['pending']}P")
     except Exception as e:
-        print(f"   [warn] top picks non générés : {e}")
+        print(f"   [warn] top picks / combo non générés : {e}")
 
     # ----- PnL / ROI (Yield) — la métrique reine -----
     try:
