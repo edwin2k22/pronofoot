@@ -534,6 +534,18 @@
     "rows": [
       {
         "rank": 1,
+        "team": "Colombia",
+        "played": 2,
+        "win": 2,
+        "draw": 0,
+        "loss": 0,
+        "gf": 4,
+        "ga": 1,
+        "gd": 3,
+        "pts": 6
+      },
+      {
+        "rank": 2,
         "team": "Portugal",
         "played": 2,
         "win": 1,
@@ -545,27 +557,15 @@
         "pts": 4
       },
       {
-        "rank": 2,
-        "team": "Colombia",
-        "played": 1,
-        "win": 1,
-        "draw": 0,
-        "loss": 0,
-        "gf": 3,
-        "ga": 1,
-        "gd": 2,
-        "pts": 3
-      },
-      {
         "rank": 3,
         "team": "DR Congo",
-        "played": 1,
+        "played": 2,
         "win": 0,
         "draw": 1,
-        "loss": 0,
+        "loss": 1,
         "gf": 1,
-        "ga": 1,
-        "gd": 0,
+        "ga": 2,
+        "gd": -1,
         "pts": 1
       },
       {

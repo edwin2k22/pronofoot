@@ -18082,7 +18082,7 @@
    {
     "minute": 36,
     "text": "Attempt missed. Kenan Yildiz (Türkiye) right footed shot from the left side of the box misses to the right. Assisted by Ferdi Kadioglu.",
-    "type": "Shot Blocked"
+    "type": "Shot Off Target"
    },
    {
     "minute": 37,
@@ -25801,7 +25801,7 @@
    {
     "minute": 6,
     "text": "Goal! Portugal 1, Uzbekistan 0. Cristiano Ronaldo (Portugal) right footed shot from the centre of the box to the bottom right corner. Assisted by João Cancelo with a cross.",
-    "type": "Goal"
+    "type": "Goal - Volley"
    },
    {
     "minute": 10,
@@ -26289,7 +26289,7 @@
     "type": "Goal"
    },
    {
-    "minute": 91,
+    "minute": 90,
     "text": "Fourth official has announced 5 minutes of added time.",
     "type": ""
    },
@@ -26577,7 +26577,7 @@
    },
    {
     "minute": 37,
-    "text": "Attempt missed. Declan Rice (England) header from the centre of the box is just a bit too high. Assisted by Noni Madueke with a cross.",
+    "text": "Attempt missed. Declan Rice (England) header from the centre of the box is too high. Assisted by Noni Madueke with a cross.",
     "type": "Shot Off Target"
    },
    {
@@ -26632,7 +26632,7 @@
    },
    {
     "minute": 45,
-    "text": "Attempt blocked. Harry Kane (England) left footed shot from the left side of the box is blocked. Assisted by Declan Rice.",
+    "text": "Attempt blocked. Harry Kane (England) left footed shot from the centre of the box is blocked. Assisted by Declan Rice.",
     "type": "Shot Blocked"
    },
    {
@@ -27033,7 +27033,7 @@
    {
     "minute": 90,
     "text": "Attempt missed. Marc Guéhi (England) header from the centre of the box is close, but misses to the left. Assisted by Eberechi Eze following a corner.",
-    "type": "Shot Off Target"
+    "type": "Shot Blocked"
    },
    {
     "minute": 90,
@@ -27304,12 +27304,12 @@
    },
    {
     "minute": 49,
-    "text": "Josip Stanisic (Croatia) wins a free kick in the defensive half.",
+    "text": "Foul by José Luis Rodríguez (Panama).",
     "type": "Foul"
    },
    {
     "minute": 49,
-    "text": "Foul by José Luis Rodríguez (Panama).",
+    "text": "Josip Stanisic (Croatia) wins a free kick in the defensive half.",
     "type": "Foul"
    },
    {
@@ -27364,12 +27364,12 @@
    },
    {
     "minute": 58,
-    "text": "Marco Pasalic (Croatia) wins a free kick on the right wing.",
+    "text": "Foul by César Blackman (Panama).",
     "type": "Foul"
    },
    {
     "minute": 58,
-    "text": "Foul by César Blackman (Panama).",
+    "text": "Marco Pasalic (Croatia) wins a free kick on the right wing.",
     "type": "Foul"
    },
    {
@@ -27379,22 +27379,22 @@
    },
    {
     "minute": 60,
-    "text": "Marco Pasalic (Croatia) wins a free kick in the defensive half.",
-    "type": "Foul"
-   },
-   {
-    "minute": 60,
     "text": "Foul by José Córdoba (Panama).",
     "type": "Foul"
    },
    {
-    "minute": 61,
-    "text": "Luka Modric (Croatia) wins a free kick in the defensive half.",
+    "minute": 60,
+    "text": "Marco Pasalic (Croatia) wins a free kick in the defensive half.",
     "type": "Foul"
    },
    {
     "minute": 61,
     "text": "Foul by Yoel Bárcenas (Panama).",
+    "type": "Foul"
+   },
+   {
+    "minute": 61,
+    "text": "Luka Modric (Croatia) wins a free kick in the defensive half.",
     "type": "Foul"
    },
    {
@@ -27414,12 +27414,12 @@
    },
    {
     "minute": 65,
-    "text": "Martin Baturina (Croatia) wins a free kick in the defensive half.",
+    "text": "Foul by José Córdoba (Panama).",
     "type": "Foul"
    },
    {
     "minute": 65,
-    "text": "Foul by José Córdoba (Panama).",
+    "text": "Martin Baturina (Croatia) wins a free kick in the defensive half.",
     "type": "Foul"
    },
    {
@@ -27662,6 +27662,18 @@
     "minute": 56,
     "team": "Colombia",
     "player": "Jhon Lucumí",
+    "type": "Yellow"
+   },
+   {
+    "minute": 90,
+    "team": "Congo DR",
+    "player": "Charles Pickel",
+    "type": "Yellow"
+   },
+   {
+    "minute": 90,
+    "team": "Colombia",
+    "player": "Jefferson Lerma",
     "type": "Yellow"
    }
   ],
@@ -28120,6 +28132,166 @@
     "minute": 79,
     "text": "Foul by Luis Díaz (Colombia).",
     "type": "Foul"
+   },
+   {
+    "minute": 80,
+    "text": "Offside, Colombia. Luis Díaz is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 82,
+    "text": "Substitution, Congo DR. Nathanaël Mbuku replaces Samuel Moutoussamy.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 82,
+    "text": "Foul by Simon Banza (Congo DR).",
+    "type": "Foul"
+   },
+   {
+    "minute": 82,
+    "text": "Johan Mojica (Colombia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 83,
+    "text": "Offside, Colombia. Jhon Córdoba is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 83,
+    "text": "Foul by Charles Pickel (Congo DR).",
+    "type": "Foul"
+   },
+   {
+    "minute": 83,
+    "text": "Gustavo Puerta (Colombia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 86,
+    "text": "Attempt blocked. Gustavo Puerta (Colombia) right footed shot from outside the box is blocked. Assisted by Juan Fernando Quintero.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 86,
+    "text": "Corner, Colombia. Conceded by Charles Pickel.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 86,
+    "text": "Attempt saved. Gustavo Puerta (Colombia) right footed shot from outside the box is saved in the top left corner by Lionel Mpasi (Congo DR).",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 86,
+    "text": "Handball by Jhon Córdoba (Colombia).",
+    "type": "Handball"
+   },
+   {
+    "minute": 88,
+    "text": "Charles Pickel (Congo DR) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 88,
+    "text": "Foul by Luis Díaz (Colombia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 89,
+    "text": "Attempt blocked. Joris Kayembe (Congo DR) left footed shot from outside the box is blocked. Assisted by Steve Kapuadi.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 90,
+    "text": "Nathanaël Mbuku (Congo DR) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Richard Ríos (Colombia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Fourth official has announced 6 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 90,
+    "text": "Attempt saved. Nathanaël Mbuku (Congo DR) left footed shot from outside the box is saved in the bottom right corner by Camilo Vargas (Colombia). Assisted by Joris Kayembe.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 90,
+    "text": "Corner, Congo DR. Conceded by Camilo Vargas.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt missed. Charles Pickel (Congo DR) right footed shot from the centre of the box misses to the left. Assisted by Nathanaël Mbuku with a cross following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 90,
+    "text": "Corner, Congo DR. Conceded by Daniel Muñoz.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Charles Pickel (Congo DR).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Davinson Sánchez (Colombia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Charles Pickel (Congo DR) is shown the yellow card.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 90,
+    "text": "Nathanaël Mbuku (Congo DR) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Jefferson Lerma (Colombia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Jefferson Lerma (Colombia) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Nathanaël Mbuku (Congo DR).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Richard Ríos (Colombia) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt missed. Juan Fernando Quintero (Colombia) left footed shot from more than 35 yards is high and wide to the left from a direct free kick.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 97,
+    "text": "Second Half ends, Colombia 1, Congo DR 0.",
+    "type": ""
+   },
+   {
+    "minute": 0,
+    "text": "Match ends, Colombia 1, Congo DR 0.",
+    "type": ""
    }
   ],
   "halftime": "0-0",
