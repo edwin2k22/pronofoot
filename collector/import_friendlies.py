@@ -27,6 +27,8 @@ def main():
     # 2. Récupérer les événements
     print("Téléchargement des matchs amicaux de Mars 2026...")
     events = get_friendlies_from_espn('20260315', '20260331')
+    print("Téléchargement des matchs amicaux d'Avril et Mai 2026...")
+    events.extend(get_friendlies_from_espn('20260401', '20260531'))
     print("Téléchargement des matchs amicaux de Juin 2026...")
     events.extend(get_friendlies_from_espn('20260601', '20260613'))
     

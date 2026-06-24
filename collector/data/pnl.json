@@ -4,22 +4,22 @@
     "bets": 35,
     "wins": 23,
     "winRate": 66,
-    "pnl": -1.22,
-    "yield": -3.5
+    "pnl": -0.53,
+    "yield": -1.5
   },
   "value": {
-    "bets": 77,
-    "wins": 37,
-    "winRate": 48,
-    "pnl": -1.01,
-    "yield": -1.3
+    "bets": 76,
+    "wins": 32,
+    "winRate": 42,
+    "pnl": -10.13,
+    "yield": -13.3
   },
   "valueStrict": {
-    "bets": 39,
-    "wins": 23,
-    "winRate": 59,
-    "pnl": 1.16,
-    "yield": 3.0
+    "bets": 40,
+    "wins": 21,
+    "winRate": 52,
+    "pnl": -4.14,
+    "yield": -10.3
   },
   "topValue": [
     {
@@ -27,11 +27,11 @@
       "away": "Qatar",
       "date": "2026-06-24 12:00 UTC-7",
       "label": "Moins de 2.5 buts",
-      "prob": 0.6887,
+      "prob": 0.719,
       "odd": 2.25,
       "implied": 0.4444,
-      "edge": 0.2443,
-      "ev": 0.55,
+      "edge": 0.2746,
+      "ev": 0.618,
       "provider": "DraftKings",
       "market": "O/U"
     },
@@ -40,26 +40,27 @@
       "away": "Haiti",
       "date": "2026-06-24 18:00 UTC-4",
       "label": "Plus de 2.5 buts",
-      "prob": 0.8568,
+      "prob": 0.8801,
       "odd": 1.571,
       "implied": 0.6365,
-      "edge": 0.2203,
-      "ev": 0.346,
+      "edge": 0.2436,
+      "ev": 0.383,
       "provider": "DraftKings",
       "market": "O/U"
     },
     {
-      "home": "South Africa",
-      "away": "South Korea",
-      "date": "2026-06-24 19:00 UTC-6",
-      "label": "Moins de 2.5 buts",
-      "prob": 0.7405,
-      "odd": 1.769,
-      "implied": 0.5653,
-      "edge": 0.1752,
-      "ev": 0.31,
+      "home": "Bosnia & Herzegovina",
+      "away": "Qatar",
+      "date": "2026-06-24 12:00 UTC-7",
+      "label": "Match nul",
+      "prob": 0.3563,
+      "odd": 5.0,
+      "implied": 0.2,
+      "edge": 0.1563,
+      "ev": 0.782,
       "provider": "DraftKings",
-      "market": "O/U"
+      "market": "1N2",
+      "lineMovement": 0.9
     }
   ]
 }
