@@ -905,14 +905,14 @@ function formBadge(str){
     background:${col(r)};margin-right:3px">${r}</span>`).join("");
 }
 function formCell(form5, det){
-  if(form5) return `${formBadge(form5)} <span style="color:var(--muted);font-size:11px">(${det.pts10}pts · ${det.gf_avg}⚽/${det.ga_avg})</span>`;
+  if(form5) return `${formBadge(form5)} <span style="color:var(--muted);font-size:11px">(${det.pts5}pts · ${det.gf_avg}⚽/${det.ga_avg})</span>`;
   if(det) return `<span style="color:var(--muted);font-size:11.5px">indice ${Math.round(det.form_index*100)}% · <i>estimée (FIFA)</i></span>`;
   return `<span style="color:var(--muted);font-size:11px">N/D</span>`;
 }
 function formRow(m){
   if(!m.homeFormDetail && !m.awayFormDetail) return "";
   return `<div style="margin:6px 0 10px">
-    <h3>📈 Forme (10 derniers, le + récent à gauche)</h3>
+    <h3>📈 Forme (5 derniers, le + récent à gauche)</h3>
     <div class="stat"><span>${m.home}</span><span>${formCell(m.homeForm5, m.homeFormDetail)}</span></div>
     <div class="stat"><span>${m.away}</span><span>${formCell(m.awayForm5, m.awayFormDetail)}</span></div>
   </div>`;

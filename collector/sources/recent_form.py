@@ -69,8 +69,8 @@ def team_form(team: str) -> dict | None:
     data = load()
     pre = data.get(team) or []          # forme d'avant-tournoi (amicaux/qualifs)
     cdm = _cdm_results().get(team) or [] # matchs CDM 2026 déjà joués (plus récents)
-    # CDM en TÊTE (plus récent), puis on complète avec l'historique pré-tournoi, max 10
-    matches = (cdm + pre)[:10]
+    # CDM en TÊTE (plus récent), puis on complète avec l'historique pré-tournoi, max 5
+    matches = (cdm + pre)[:5]
     if not matches:
         return None        # zéro estimé : on préfère N/D à une donnée inventée
     n = len(matches)
@@ -84,13 +84,13 @@ def team_form(team: str) -> dict | None:
             last5.append(res)
     max_pts = 3 * n
     return {
-        "pts10": pts, "played": n,
+        "pts5": pts, "played": n,
         "gf_avg": round(gf / n, 2), "ga_avg": round(ga / n, 2),
         "last5": "".join(last5),
         "form_index": round(pts / max_pts, 3) if max_pts else 0.5,
         "cdmGames": len(cdm),
-        "source": (f"réelle (10 derniers · {len(cdm)} de la CDM 2026)" if cdm
-                   else "réelle (10 derniers)"),
+        "source": (f"réelle (5 derniers · {len(cdm)} de la CDM 2026)" if cdm
+                   else "réelle (5 derniers)"),
     }
 
 

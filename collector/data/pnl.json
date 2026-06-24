@@ -8,18 +8,18 @@
     "yield": -3.5
   },
   "value": {
-    "bets": 71,
-    "wins": 36,
-    "winRate": 51,
-    "pnl": 4.13,
-    "yield": 5.8
+    "bets": 77,
+    "wins": 37,
+    "winRate": 48,
+    "pnl": -1.01,
+    "yield": -1.3
   },
   "valueStrict": {
-    "bets": 41,
-    "wins": 21,
-    "winRate": 51,
-    "pnl": -4.89,
-    "yield": -11.9
+    "bets": 39,
+    "wins": 23,
+    "winRate": 59,
+    "pnl": 1.16,
+    "yield": 3.0
   },
   "topValue": [
     {
@@ -27,11 +27,11 @@
       "away": "Qatar",
       "date": "2026-06-24 12:00 UTC-7",
       "label": "Moins de 2.5 buts",
-      "prob": 0.6658,
+      "prob": 0.6887,
       "odd": 2.25,
       "implied": 0.4444,
-      "edge": 0.2214,
-      "ev": 0.498,
+      "edge": 0.2443,
+      "ev": 0.55,
       "provider": "DraftKings",
       "market": "O/U"
     },
@@ -40,10 +40,10 @@
       "away": "Haiti",
       "date": "2026-06-24 18:00 UTC-4",
       "label": "Plus de 2.5 buts",
-      "prob": 0.8567,
+      "prob": 0.8568,
       "odd": 1.571,
       "implied": 0.6365,
-      "edge": 0.2202,
+      "edge": 0.2203,
       "ev": 0.346,
       "provider": "DraftKings",
       "market": "O/U"
@@ -53,11 +53,11 @@
       "away": "South Korea",
       "date": "2026-06-24 19:00 UTC-6",
       "label": "Moins de 2.5 buts",
-      "prob": 0.743,
+      "prob": 0.7405,
       "odd": 1.769,
       "implied": 0.5653,
-      "edge": 0.1777,
-      "ev": 0.314,
+      "edge": 0.1752,
+      "ev": 0.31,
       "provider": "DraftKings",
       "market": "O/U"
     }
