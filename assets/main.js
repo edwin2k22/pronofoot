@@ -930,7 +930,7 @@ function renderUpcoming(m, mode){
 function formBadge(str){
   if(!str) return `<span style="color:var(--muted);font-size:11px">forme N/D</span>`;
   const col=r=> r==="W"?"#33e0a0": r==="D"?"#ffd34e":"#ff6b7d";
-  return str.split("").map(r=>`<span style="display:inline-block;width:18px;height:18px;line-height:18px;
+  return str.split("").reverse().map(r=>`<span style="display:inline-block;width:18px;height:18px;line-height:18px;
     text-align:center;border-radius:5px;font-size:10px;font-weight:700;color:#0b1020;
     background:${col(r)};margin-right:3px">${r}</span>`).join("");
 }
@@ -942,7 +942,7 @@ function formCell(form5, det){
 function formRow(m){
   if(!m.homeFormDetail && !m.awayFormDetail) return "";
   return `<div style="margin:6px 0 10px">
-    <h3>📈 Forme (5 derniers, le + récent à gauche)</h3>
+    <h3>📈 Forme (5 derniers, le + récent à droite)</h3>
     <div class="stat"><span>${m.home}</span><span>${formCell(m.homeForm5, m.homeFormDetail)}</span></div>
     <div class="stat"><span>${m.away}</span><span>${formCell(m.awayForm5, m.awayFormDetail)}</span></div>
   </div>`;

@@ -60,7 +60,9 @@ def main():
         espn_ingest.main()
         import_stats.main()            # vraies stats (xG/tirs/corners/cartons) des matchs finis
     except Exception as e:
+        import traceback
         print(f"   [warn] import stats échoué : {e}")
+        traceback.print_exc()
     
     pipeline.update()                  # maj des moyennes (inclut possession, xG, fautes)
 

@@ -35,9 +35,6 @@ def _cdm_results():
     {équipe: [[adversaire, H/A, gf, ga, W/D/L, 'CDM 2026'], ...]} (plus récent d'abord).
     Ainsi la 'forme des 10 derniers' inclut automatiquement le 1er tour de la CDM.
     """
-    global _CDM_CACHE
-    if _CDM_CACHE is not None:
-        return _CDM_CACHE
     out = {}
     try:
         from collector.db import database as db
@@ -55,7 +52,6 @@ def _cdm_results():
             out.setdefault(r["away"], []).append([r["home"], "A", ag, hg, ares, "CDM 2026"])
     except Exception:
         out = {}
-    _CDM_CACHE = out
     return out
 
 
