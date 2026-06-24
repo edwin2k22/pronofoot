@@ -41,6 +41,13 @@ ASSIGNMENTS = {
     ("Jordan", "Algeria"):                 ("Saíd Martínez", "Honduras"),
     ("Portugal", "Uzbekistan"):            ("Glenn Nyberg", "Suède"),
     ("England", "Ghana"):                  ("César Arturo Ramos", "Mexique"),
+    # --- Ajout manuel pour la 3ème journée (24 Juin 2026) ---
+    ("Switzerland", "Canada"):             ("Ramon Abatti", "Brésil"),
+    ("Bosnia & Herzegovina", "Qatar"):     ("Jesús Valenzuela", "Venezuela"),
+    ("Morocco", "Haiti"):                  ("Danny Makkelie", "Pays-Bas"),
+    ("South Africa", "South Korea"):       ("Facundo Tello", "Argentine"),
+    ("Czech Republic", "Mexico"):          ("Yael Falcón Pérez", "Argentine"),
+    ("Scotland", "Brazil"):                ("César Arturo Ramos", "Mexique"),
 }
 # Sévérité connue de quelques arbitres = cartons TOTAUX par match (jaunes + rouges)
 # sur leur saison/carrière récente. Sources : statshub, soccerbase, worldfootball (2025-26).
