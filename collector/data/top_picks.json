@@ -7,46 +7,46 @@
         "pct": 91
       },
       "strong": {
-        "won": 17,
-        "total": 25,
-        "pct": 68
+        "won": 19,
+        "total": 27,
+        "pct": 70
       },
       "value": {
-        "won": 16,
-        "total": 23,
-        "pct": 70
+        "won": 13,
+        "total": 20,
+        "pct": 65
       }
     },
     "byMarket": {
       "DC": {
-        "won": 43,
+        "won": 42,
         "total": 48,
-        "pct": 90
-      },
-      "DNB": {
-        "won": 30,
-        "total": 34,
         "pct": 88
       },
+      "DNB": {
+        "won": 31,
+        "total": 34,
+        "pct": 91
+      },
       "1N2": {
-        "won": 30,
+        "won": 29,
         "total": 48,
-        "pct": 62
+        "pct": 60
       },
       "OU": {
-        "won": 28,
+        "won": 29,
         "total": 48,
-        "pct": 58
+        "pct": 60
       },
       "BTTS": {
-        "won": 24,
+        "won": 23,
         "total": 48,
-        "pct": 50
+        "pct": 48
       }
     },
     "overall": {
-      "won": 103,
-      "total": 125,
+      "won": 102,
+      "total": 124,
       "pct": 82
     },
     "sampleMatches": 48
@@ -136,7 +136,7 @@
       "id": null,
       "market": "DNB",
       "label": "Sans match nul : Brazil",
-      "prob": 0.9359,
+      "prob": 0.9412,
       "why": "remboursé si nul",
       "tier": "lock",
       "tierReliability": 91
@@ -148,7 +148,7 @@
       "id": null,
       "market": "DC",
       "label": "Double chance : Scotland ou Brazil",
-      "prob": 0.8383,
+      "prob": 0.8475,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
       "tierReliability": 91
@@ -172,7 +172,7 @@
       "id": null,
       "market": "DC",
       "label": "Double chance : nul ou Mexico",
-      "prob": 0.9069,
+      "prob": 0.8992,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
       "tierReliability": 91
@@ -184,7 +184,7 @@
       "id": null,
       "market": "DC",
       "label": "Double chance : nul ou South Korea",
-      "prob": 0.8687,
+      "prob": 0.8642,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
       "tierReliability": 91
@@ -232,7 +232,7 @@
       "id": null,
       "market": "DC",
       "label": "Double chance : nul ou Germany",
-      "prob": 0.8686,
+      "prob": 0.8564,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
       "tierReliability": 91
@@ -242,10 +242,10 @@
       "away": "Germany",
       "date": "2026-06-25 16:00 UTC-4",
       "id": null,
-      "market": "DNB",
-      "label": "Sans match nul : Germany",
-      "prob": 0.8275,
-      "why": "remboursé si nul",
+      "market": "CORNERS",
+      "label": "Moins de 9.5 corners",
+      "prob": 0.8253,
+      "why": "",
       "tier": "lock",
       "tierReliability": 91
     },
@@ -280,7 +280,7 @@
       "id": null,
       "market": "DC",
       "label": "Double chance : Japan ou nul",
-      "prob": 0.9213,
+      "prob": 0.9149,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
       "tierReliability": 91
@@ -292,7 +292,7 @@
       "id": null,
       "market": "DNB",
       "label": "Sans match nul : Japan",
-      "prob": 0.904,
+      "prob": 0.8958,
       "why": "remboursé si nul",
       "tier": "lock",
       "tierReliability": 91

@@ -553,6 +553,46 @@ def load_halftime_shares(conn) -> dict[str, float]:
     return shares
 
 
+def _calculate_trends(conn, h_name, a_name):
+    trends = []
+    
+    def _team_trends(team):
+        rows = conn.execute("SELECT home_goals, away_goals, home_corners, away_corners, home, away FROM matches WHERE (home=? OR away=?) AND status='FINISHED' ORDER BY utc_date DESC LIMIT 10", (team, team)).fetchall()
+        if not rows: return
+        n = len(rows)
+        if n < 5: return
+        o25 = sum(1 for r in rows if (r['home_goals'] or 0) + (r['away_goals'] or 0) > 2)
+        btts = sum(1 for r in rows if (r['home_goals'] or 0) > 0 and (r['away_goals'] or 0) > 0)
+        
+        corners_over = 0
+        corners_valid = 0
+        for r in rows:
+            if r['home_corners'] is not None and r['away_corners'] is not None:
+                corners_valid += 1
+                if r['home_corners'] + r['away_corners'] > 8.5:
+                    corners_over += 1
+                    
+        scored_goals = sum(1 for r in rows if (r['home'] == team and (r['home_goals'] or 0) > 0) or (r['away'] == team and (r['away_goals'] or 0) > 0))
+
+        if o25 / n >= 0.7:
+            trends.append(f"{team} : Plus de 2.5 buts dans {int((o25/n)*100)}% de ses {n} derniers matchs")
+        elif o25 / n <= 0.3:
+            trends.append(f"{team} : Moins de 2.5 buts dans {int(((n-o25)/n)*100)}% de ses {n} derniers matchs")
+            
+        if btts / n >= 0.7:
+            trends.append(f"{team} : Les deux équipes marquent (BTTS) dans {int((btts/n)*100)}% de ses matchs")
+            
+        if scored_goals / n >= 0.9:
+            trends.append(f"{team} : A marqué au moins 1 but dans {int((scored_goals/n)*100)}% de ses matchs")
+            
+        if corners_valid >= 5 and (corners_over / corners_valid) >= 0.8:
+            trends.append(f"{team} : Plus de 8.5 corners (total match) dans {int((corners_over/corners_valid)*100)}% de ses matchs")
+
+    _team_trends(h_name)
+    _team_trends(a_name)
+    
+    return trends
+
 def predict():
     conn = db.init_db()
     rows = conn.execute(
@@ -953,6 +993,7 @@ def predict():
                       else None)
         live_clock = mt["live_clock"] if ("live_clock" in mt.keys() and mt["status"] in ("LIVE", "HT")) else None
         analysis = _analyze_finished(mt, h, a, res, goals) if mt["status"] == "FINISHED" else None
+        trends = _calculate_trends(conn, h["name"], a["name"])
         out.append({
             "league": f"CDM 2026 · {mt['stage']}",
             "date": mt["utc_date"],
@@ -961,6 +1002,7 @@ def predict():
             "liveClock": live_clock,
             "realScore": analysis["realScore"] if analysis else None,
             "analysis": analysis,
+            "hotTrends": trends,
             "home": mt["home"], "away": mt["away"],
             "homeGF": round(h["gf_avg"], 2), "awayGF": round(a["gf_avg"], 2),
             "homeGA": round(h["ga_avg"], 2), "awayGA": round(a["ga_avg"], 2),

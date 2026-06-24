@@ -7,14 +7,29 @@ export function renderStandings(){
   if(!STANDINGS || !STANDINGS.length){
     box.innerHTML=`<div class="empty">Classements indisponibles.</div>`; return;
   }
+  
+  const heat = (val, max, invert=false) => {
+    let ratio = max === 0 ? 0.5 : val / max;
+    ratio = Math.max(0, Math.min(1, ratio));
+    if (invert) ratio = 1 - ratio; // invert: high = bad (red)
+    const hue = Math.round(ratio * 120); // 0 = red, 120 = green
+    return `style="color: hsl(${hue}, 80%, 60%); font-weight:600;"`;
+  };
+
   box.innerHTML = `<div class="groups-grid">` + STANDINGS.map(g=>{
+    const maxGF = Math.max(...g.rows.map(r=>r.gf), 1);
+    const maxGA = Math.max(...g.rows.map(r=>r.ga), 1);
+    
     const rows=g.rows.map(r=>{
       const qual = r.rank<=2 ? "q1" : (r.rank===3 ? "q3" : "");
+      const gdHeat = r.gd > 0 ? 1 : (r.gd < 0 ? 0 : 0.5);
+      
       return `<tr class="${qual}">
         <td class="gt-rk">${r.rank}</td>
         <td class="gt-tm">${teamBadge(r.team)}<span>${r.team}</span></td>
         <td>${r.played}</td><td class="gt-hide">${r.win}</td><td class="gt-hide">${r.draw}</td><td class="gt-hide">${r.loss}</td>
-        <td class="gt-hide">${r.gf}:${r.ga}</td><td>${r.gd>0?"+":""}${r.gd}</td>
+        <td class="gt-hide"><span ${heat(r.gf, maxGF)}>${r.gf}</span>:<span ${heat(r.ga, maxGA, true)}>${r.ga}</span></td>
+        <td ${heat(gdHeat, 1)}>${r.gd>0?"+":""}${r.gd}</td>
         <td class="gt-pts">${r.pts}</td></tr>`;
     }).join("");
     return `<div class="group-card">

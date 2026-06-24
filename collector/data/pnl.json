@@ -2,24 +2,24 @@
   "sampleWithOdds": 35,
   "favorite": {
     "bets": 35,
-    "wins": 23,
-    "winRate": 66,
-    "pnl": -0.53,
-    "yield": -1.5
+    "wins": 22,
+    "winRate": 63,
+    "pnl": -2.83,
+    "yield": -8.1
   },
   "value": {
-    "bets": 76,
-    "wins": 32,
-    "winRate": 42,
-    "pnl": -10.13,
-    "yield": -13.3
+    "bets": 75,
+    "wins": 31,
+    "winRate": 41,
+    "pnl": -22.67,
+    "yield": -30.2
   },
   "valueStrict": {
     "bets": 40,
-    "wins": 21,
-    "winRate": 52,
-    "pnl": -4.14,
-    "yield": -10.3
+    "wins": 20,
+    "winRate": 50,
+    "pnl": -6.09,
+    "yield": -15.2
   },
   "topValue": [
     {
@@ -53,11 +53,11 @@
       "away": "Qatar",
       "date": "2026-06-24 12:00 UTC-7",
       "label": "Match nul",
-      "prob": 0.3563,
+      "prob": 0.353,
       "odd": 5.0,
       "implied": 0.2,
-      "edge": 0.1563,
-      "ev": 0.782,
+      "edge": 0.153,
+      "ev": 0.765,
       "provider": "DraftKings",
       "market": "1N2",
       "lineMovement": 0.9

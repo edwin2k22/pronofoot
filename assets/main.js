@@ -864,6 +864,18 @@ function renderLive(m){
   </div>`;
 }
 
+function hotTrendsBlock(m) {
+  if (!m.hotTrends || m.hotTrends.length === 0) return "";
+  let html = `<div style="margin:12px 0; padding:10px; background:rgba(255, 60, 0, 0.1); border:1px solid #ff3c00; border-radius:6px;">
+    <h3 style="color:#ff6b4a; margin-bottom:8px; display:flex; align-items:center; gap:6px;">🔥 Tendances Fortes</h3>
+    <ul style="margin:0; padding-left:20px; font-size:13px; color:#f0f0f0;">`;
+  for(let t of m.hotTrends) {
+    html += `<li style="margin-bottom:4px;">${t}</li>`;
+  }
+  html += `</ul></div>`;
+  return html;
+}
+
 /* match À VENIR : pronostic complet.
    mode : undefined = à venir | "kickoff" = coup d'envoi atteint | "awaiting" = résultat en attente */
 function renderUpcoming(m, mode){
@@ -887,6 +899,7 @@ function renderUpcoming(m, mode){
       <div class="tn">${m.away}</div>
     </div>
     ${coherenceHint(m,p)}
+    ${hotTrendsBlock(m)}
     ${probBlock(m,p)}
     <div class="verdict anim-block anim-5">Le modèle favorise <b>${bl}</b> (${pct(bp)}).
       Tendance ${p.over25>0.5?"<b>Over 2.5</b>":"<b>Under 2.5</b>"} (${pct(p.over25)}),
