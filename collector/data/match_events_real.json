@@ -30692,5 +30692,78 @@
   "halftime": "0-2",
   "motm": "\u2014",
   "note": ""
+ },
+ "Japan|Sweden": {
+  "goals": [],
+  "cards": [],
+  "commentary": [
+   {
+    "minute": 0,
+    "text": "Lineups are announced and players are warming up.",
+    "type": ""
+   },
+   {
+    "minute": 0,
+    "text": "First Half begins.",
+    "type": "Kickoff"
+   },
+   {
+    "minute": 1,
+    "text": "Corner, Sweden. Conceded by Ao Tanaka.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 2,
+    "text": "Corner, Sweden. Conceded by Ritsu Doan.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 4,
+    "text": "Foul by Ritsu Doan (Japan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 4,
+    "text": "Yasin Ayari (Sweden) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 6,
+    "text": "Attempt saved. Alexander Bernhardsson (Sweden) left footed shot from outside the box is saved in the bottom left corner by Zion Suzuki (Japan). Assisted by Alexander Isak.",
+    "type": "Shot On Target"
+   }
+  ],
+  "halftime": "0-0",
+  "motm": "\u2014",
+  "note": ""
+ },
+ "Tunisia|Netherlands": {
+  "goals": [],
+  "cards": [],
+  "commentary": [
+   {
+    "minute": 0,
+    "text": "Lineups are announced and players are warming up.",
+    "type": ""
+   },
+   {
+    "minute": 0,
+    "text": "First Half begins.",
+    "type": "Kickoff"
+   },
+   {
+    "minute": 2,
+    "text": "Attempt missed. Isma\u00ebl Gharbi (Tunisia) right footed shot from the centre of the box is too high. Assisted by Hazem Mastouri with a cross.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 3,
+    "text": "Own Goal by Ellyes Skhiri, Tunisia. Tunisia 0, Netherlands 1.",
+    "type": "Own Goal"
+   }
+  ],
+  "halftime": "0-1",
+  "motm": "\u2014",
+  "note": ""
  }
 }

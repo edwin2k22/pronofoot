@@ -36,6 +36,7 @@ from collector.models import availability as avail
 from collector.models import ensemble as ens
 from collector.models import calibrate as calib
 from collector.models import player_props as pprops
+from collector.models import nlp_momentum as nlpm
 from collector.sources import player_bios as pbios
 from collector.sources import openfootball_wc as wc
 from collector.sources import squads_2026
@@ -750,6 +751,34 @@ def predict():
             lam_h = round(max(0.2, lam_h * avh["factor"]), 2)
             lam_a = round(max(0.2, lam_a * ava["factor"]), 2)
 
+        # ----- NLP MOMENTUM (Live/HT uniquement) -----
+        # Analyse le commentaire ESPN en temps réel et ajuste λ selon la dynamique du match.
+        nlp_signal = None
+        if mt["status"] in ("LIVE", "HT"):
+            try:
+                from collector.sources import espn_stats as _espn
+                _ev = _espn.find_event(mt["home"], mt["away"])
+                if _ev:
+                    _tl = _espn.get_timeline(_ev["id"])
+                    _comments = _tl.get("commentary", [])
+                    # Extraire la minute courante depuis live_clock (ex: '67\'' -> 67)
+                    _min_raw = mt["live_clock"] or "0"
+                    import re as _re
+                    _min_match = _re.search(r"(\d+)", str(_min_raw))
+                    _cur_min = int(_min_match.group(1)) if _min_match else 0
+                    _sig = nlpm.analyse_commentary(
+                        _comments, mt["home"], mt["away"],
+                        current_minute=_cur_min, window_size=20
+                    )
+                    # Appliquer les multiplicateurs λ (effet NLP plafonné à ±20%)
+                    _nlp_h = max(0.80, min(1.20, _sig.home_lambda_adj))
+                    _nlp_a = max(0.80, min(1.20, _sig.away_lambda_adj))
+                    lam_h = round(max(0.2, lam_h * _nlp_h), 2)
+                    lam_a = round(max(0.2, lam_a * _nlp_a), 2)
+                    nlp_signal = nlpm.momentum_to_dict(_sig)
+            except Exception:
+                nlp_signal = None
+
         # ----- grille de scores CORRIGÉE (Dixon-Coles + effet de choc bivarié) -----
         # Dynamically adjust rho based on combined defensive strength
         h_xga = h["xga_avg"] if "xga_avg" in h.keys() else 1.2
@@ -1030,6 +1059,7 @@ def predict():
             "realScore": analysis["realScore"] if analysis else None,
             "htScore": ht_score,
             "analysis": analysis,
+            "nlpMomentum": nlp_signal,
             "hotTrends": trends,
             "home": mt["home"], "away": mt["away"],
             "homeGF": round(h["gf_avg"], 2), "awayGF": round(a["gf_avg"], 2),

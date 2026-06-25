@@ -8369,7 +8369,7 @@
   "Bart Verbruggen": {
    "poste": "G",
    "statut": "Titulaire",
-   "minutes": 180,
+   "minutes": 720,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -8379,13 +8379,13 @@
    "shots_faced": 0,
    "goals_conceded": 3,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Virgil van Dijk": {
    "poste": "CD-L",
    "statut": "Titulaire",
-   "minutes": 180,
+   "minutes": 720,
    "buts": 1,
    "passes_dec": 0,
    "tirs": 1,
@@ -8395,13 +8395,13 @@
    "shots_faced": 0,
    "goals_conceded": 3,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Jan Paul van Hecke": {
    "poste": "CD-R",
    "statut": "Titulaire",
-   "minutes": 180,
+   "minutes": 720,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 1,
@@ -8411,12 +8411,12 @@
    "shots_faced": 0,
    "goals_conceded": 3,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Micky van de Ven": {
-   "poste": "LB",
-   "statut": "Titulaire",
+   "poste": "SUB",
+   "statut": "Rempla\u00e7ant",
    "minutes": 180,
    "buts": 0,
    "passes_dec": 0,
@@ -8427,13 +8427,13 @@
    "shots_faced": 0,
    "goals_conceded": 3,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "Yellow"
   },
   "Denzel Dumfries": {
    "poste": "RB",
    "statut": "Titulaire",
-   "minutes": 180,
+   "minutes": 720,
    "buts": 0,
    "passes_dec": 2,
    "tirs": 0,
@@ -8443,13 +8443,13 @@
    "shots_faced": 0,
    "goals_conceded": 3,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Frenkie de Jong": {
    "poste": "CM",
    "statut": "Titulaire",
-   "minutes": 149,
+   "minutes": 689,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -8459,13 +8459,13 @@
    "shots_faced": 0,
    "goals_conceded": 3,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Tijjani Reijnders": {
    "poste": "LM",
    "statut": "Titulaire",
-   "minutes": 129,
+   "minutes": 669,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 1,
@@ -8475,13 +8475,13 @@
    "shots_faced": 0,
    "goals_conceded": 2,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Ryan Gravenberch": {
    "poste": "RM",
    "statut": "Titulaire",
-   "minutes": 171,
+   "minutes": 711,
    "buts": 0,
    "passes_dec": 2,
    "tirs": 1,
@@ -8491,13 +8491,13 @@
    "shots_faced": 0,
    "goals_conceded": 2,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Donyell Malen": {
    "poste": "RF",
    "statut": "Titulaire",
-   "minutes": 115,
+   "minutes": 655,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 2,
@@ -8507,13 +8507,13 @@
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Cody Gakpo": {
    "poste": "LF",
    "statut": "Titulaire",
-   "minutes": 175,
+   "minutes": 715,
    "buts": 2,
    "passes_dec": 1,
    "tirs": 7,
@@ -8523,7 +8523,7 @@
    "shots_faced": 0,
    "goals_conceded": 2,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Crysencio Summerville": {
@@ -8539,7 +8539,7 @@
    "shots_faced": 0,
    "goals_conceded": 2,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "Yellow"
   },
   "Mats Wieffer": {
@@ -8555,7 +8555,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Lutsharel Geertruida": {
@@ -8571,7 +8571,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Justin Kluivert": {
@@ -8587,7 +8587,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Teun Koopmeiners": {
@@ -8603,7 +8603,7 @@
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Guus Til": {
@@ -8619,7 +8619,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Robin Roefs": {
@@ -8635,7 +8635,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Quinten Timber": {
@@ -8651,13 +8651,13 @@
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 7,
    "cartons": "\u2014"
   },
   "Nathan Ak\u00e9": {
-   "poste": "SUB",
-   "statut": "Rempla\u00e7ant",
-   "minutes": 9,
+   "poste": "LB",
+   "statut": "Titulaire",
+   "minutes": 549,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -8667,7 +8667,7 @@
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Wout Weghorst": {
@@ -8683,7 +8683,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Mark Flekken": {
@@ -8699,7 +8699,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Memphis Depay": {
@@ -8715,7 +8715,7 @@
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "Yellow"
   },
   "Noa Lang": {
@@ -8731,7 +8731,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Marten de Roon": {
@@ -8747,7 +8747,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Jorrel Hato": {
@@ -8763,13 +8763,13 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Brian Brobbey": {
    "poste": "F",
    "statut": "Titulaire",
-   "minutes": 77,
+   "minutes": 617,
    "buts": 2,
    "passes_dec": 0,
    "tirs": 2,
@@ -8779,7 +8779,7 @@
    "shots_faced": 0,
    "goals_conceded": 2,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   }
  },
@@ -8787,17 +8787,17 @@
   "Zion Suzuki": {
    "poste": "G",
    "statut": "Titulaire",
-   "minutes": 180,
+   "minutes": 810,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 0,
-   "saves": 4,
+   "saves": 5,
    "shots_faced": 0,
    "goals_conceded": 2,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Shogo Taniguchi": {
@@ -8813,13 +8813,13 @@
    "shots_faced": 0,
    "goals_conceded": 2,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Hiroki Ito": {
    "poste": "CD-L",
    "statut": "Titulaire",
-   "minutes": 180,
+   "minutes": 810,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 1,
@@ -8829,7 +8829,7 @@
    "shots_faced": 0,
    "goals_conceded": 2,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Tsuyoshi Watanabe": {
@@ -8845,13 +8845,13 @@
    "shots_faced": 0,
    "goals_conceded": 2,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Daichi Kamada": {
-   "poste": "CF-L",
+   "poste": "CM-L",
    "statut": "Titulaire",
-   "minutes": 163,
+   "minutes": 793,
    "buts": 2,
    "passes_dec": 0,
    "tirs": 2,
@@ -8861,12 +8861,12 @@
    "shots_faced": 0,
    "goals_conceded": 2,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Kaishu Sano": {
-   "poste": "CM-R",
-   "statut": "Titulaire",
+   "poste": "SUB",
+   "statut": "Rempla\u00e7ant",
    "minutes": 180,
    "buts": 0,
    "passes_dec": 1,
@@ -8877,13 +8877,13 @@
    "shots_faced": 0,
    "goals_conceded": 2,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Keito Nakamura": {
    "poste": "LM",
    "statut": "Titulaire",
-   "minutes": 169,
+   "minutes": 799,
    "buts": 1,
    "passes_dec": 1,
    "tirs": 4,
@@ -8893,29 +8893,29 @@
    "shots_faced": 0,
    "goals_conceded": 2,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Ritsu Doan": {
-   "poste": "RM",
+   "poste": "CF-R",
    "statut": "Titulaire",
-   "minutes": 149,
+   "minutes": 779,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 1,
+   "fautes_commises": 4,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 2,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Ayase Ueda": {
    "poste": "F",
    "statut": "Titulaire",
-   "minutes": 168,
+   "minutes": 798,
    "buts": 2,
    "passes_dec": 1,
    "tirs": 6,
@@ -8925,13 +8925,13 @@
    "shots_faced": 0,
    "goals_conceded": 2,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Daizen Maeda": {
-   "poste": "SUB",
-   "statut": "Rempla\u00e7ant",
-   "minutes": 66,
+   "poste": "CF-L",
+   "statut": "Titulaire",
+   "minutes": 696,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -8941,7 +8941,7 @@
    "shots_faced": 0,
    "goals_conceded": 2,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Takefusa Kubo": {
@@ -8961,8 +8961,8 @@
    "cartons": "\u2014"
   },
   "Junya Ito": {
-   "poste": "CF-R",
-   "statut": "Titulaire",
+   "poste": "SUB",
+   "statut": "Rempla\u00e7ant",
    "minutes": 114,
    "buts": 1,
    "passes_dec": 0,
@@ -8973,7 +8973,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Koki Ogawa": {
@@ -8989,7 +8989,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Yuto Nagatomo": {
@@ -9005,7 +9005,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Kento Shiogai": {
@@ -9021,7 +9021,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Keisuke Goto": {
@@ -9037,7 +9037,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Yuito Suzuki": {
@@ -9053,13 +9053,13 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Ayumu Seko": {
-   "poste": "SUB",
-   "statut": "Rempla\u00e7ant",
-   "minutes": 11,
+   "poste": "CD-R",
+   "statut": "Titulaire",
+   "minutes": 641,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -9069,7 +9069,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Tomoki Hayakawa": {
@@ -9085,7 +9085,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Shuto Machino": {
@@ -9101,13 +9101,13 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 1,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Kou Itakura": {
    "poste": "CD",
    "statut": "Titulaire",
-   "minutes": 90,
+   "minutes": 720,
    "buts": 0,
    "passes_dec": 1,
    "tirs": 0,
@@ -9117,7 +9117,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Junnosuke Suzuki": {
@@ -9133,7 +9133,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Keisuke Osako": {
@@ -9149,13 +9149,13 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Ao Tanaka": {
-   "poste": "CM-L",
+   "poste": "CM-R",
    "statut": "Titulaire",
-   "minutes": 90,
+   "minutes": 720,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 1,
@@ -9165,13 +9165,13 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Yukinari Sugawara": {
-   "poste": "SUB",
-   "statut": "Rempla\u00e7ant",
-   "minutes": 31,
+   "poste": "RM",
+   "statut": "Titulaire",
+   "minutes": 661,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 1,
@@ -9181,12 +9181,12 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Takehiro Tomiyasu": {
-   "poste": "CD-R",
-   "statut": "Titulaire",
+   "poste": "SUB",
+   "statut": "Rempla\u00e7ant",
    "minutes": 94,
    "buts": 0,
    "passes_dec": 0,
@@ -9197,13 +9197,13 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   }
  },
  "Sweden": {
   "Mattias Svanberg": {
-   "poste": null,
+   "poste": "SUB",
    "statut": "Rempla\u00e7ant",
    "minutes": 6,
    "buts": 1,
@@ -9215,11 +9215,11 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Daniel Svensson": {
-   "poste": null,
+   "poste": "SUB",
    "statut": "Rempla\u00e7ant",
    "minutes": 1,
    "buts": 0,
@@ -9231,11 +9231,11 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Gustaf Nilsson": {
-   "poste": null,
+   "poste": "SUB",
    "statut": "Rempla\u00e7ant",
    "minutes": 0,
    "buts": 0,
@@ -9247,13 +9247,13 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Elliot Stroud": {
-   "poste": null,
-   "statut": "Rempla\u00e7ant",
-   "minutes": 26,
+   "poste": "CD-L",
+   "statut": "Titulaire",
+   "minutes": 656,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -9263,11 +9263,11 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Viktor Johansson": {
-   "poste": null,
+   "poste": "SUB",
    "statut": "Rempla\u00e7ant",
    "minutes": 0,
    "buts": 0,
@@ -9276,14 +9276,15 @@
    "tirs_cadres": 0,
    "fautes_commises": 0,
    "hors_jeu": 0,
+   "saves": 0,
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Besfort Zeneli": {
-   "poste": null,
+   "poste": "SUB",
    "statut": "Rempla\u00e7ant",
    "minutes": 34,
    "buts": 0,
@@ -9295,11 +9296,11 @@
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Hjalmar Ekdal": {
-   "poste": null,
+   "poste": "SUB",
    "statut": "Rempla\u00e7ant",
    "minutes": 0,
    "buts": 0,
@@ -9311,11 +9312,11 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Eric Smith": {
-   "poste": null,
+   "poste": "SUB",
    "statut": "Rempla\u00e7ant",
    "minutes": 0,
    "buts": 0,
@@ -9327,13 +9328,13 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Anthony Elanga": {
-   "poste": null,
-   "statut": "Rempla\u00e7ant",
-   "minutes": 36,
+   "poste": "CF-R",
+   "statut": "Titulaire",
+   "minutes": 666,
    "buts": 1,
    "passes_dec": 0,
    "tirs": 1,
@@ -9343,11 +9344,11 @@
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Lucas Bergvall": {
-   "poste": null,
+   "poste": "SUB",
    "statut": "Rempla\u00e7ant",
    "minutes": 59,
    "buts": 0,
@@ -9359,11 +9360,11 @@
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "Yellow"
   },
   "Herman Johansson": {
-   "poste": null,
+   "poste": "SUB",
    "statut": "Rempla\u00e7ant",
    "minutes": 0,
    "buts": 0,
@@ -9375,27 +9376,28 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Jacob Widell Zetterstr\u00f6m": {
-   "poste": null,
-   "statut": "Rempla\u00e7ant",
-   "minutes": 0,
+   "poste": "G",
+   "statut": "Titulaire",
+   "minutes": 630,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 0,
    "hors_jeu": 0,
+   "saves": 0,
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Taha Ali": {
-   "poste": null,
+   "poste": "SUB",
    "statut": "Rempla\u00e7ant",
    "minutes": 11,
    "buts": 0,
@@ -9407,11 +9409,11 @@
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Ken Sema": {
-   "poste": null,
+   "poste": "SUB",
    "statut": "Rempla\u00e7ant",
    "minutes": 0,
    "buts": 0,
@@ -9423,11 +9425,11 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Carl Starfelt": {
-   "poste": null,
+   "poste": "SUB",
    "statut": "Rempla\u00e7ant",
    "minutes": 0,
    "buts": 0,
@@ -9439,12 +9441,12 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Kristoffer Nordfeldt": {
-   "poste": "G",
-   "statut": "Titulaire",
+   "poste": "SUB",
+   "statut": "Rempla\u00e7ant",
    "minutes": 180,
    "buts": 0,
    "passes_dec": 0,
@@ -9455,13 +9457,13 @@
    "shots_faced": 0,
    "goals_conceded": 6,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Isak Hien": {
    "poste": "CD",
    "statut": "Titulaire",
-   "minutes": 180,
+   "minutes": 810,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -9471,13 +9473,13 @@
    "shots_faced": 0,
    "goals_conceded": 6,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Victor Lindel\u00f6f": {
-   "poste": "CD-L",
+   "poste": "CM-R",
    "statut": "Titulaire",
-   "minutes": 180,
+   "minutes": 810,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 1,
@@ -9487,13 +9489,13 @@
    "shots_faced": 0,
    "goals_conceded": 6,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Gustaf Lagerbielke": {
    "poste": "CD-R",
    "statut": "Titulaire",
-   "minutes": 180,
+   "minutes": 810,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 1,
@@ -9503,12 +9505,12 @@
    "shots_faced": 0,
    "goals_conceded": 6,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Jesper Karlstr\u00f6m": {
-   "poste": "SW",
-   "statut": "Titulaire",
+   "poste": "SUB",
+   "statut": "Rempla\u00e7ant",
    "minutes": 140,
    "buts": 0,
    "passes_dec": 0,
@@ -9519,13 +9521,13 @@
    "shots_faced": 0,
    "goals_conceded": 5,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Yasin Ayari": {
    "poste": "CM-L",
    "statut": "Titulaire",
-   "minutes": 169,
+   "minutes": 799,
    "buts": 2,
    "passes_dec": 0,
    "tirs": 7,
@@ -9535,12 +9537,12 @@
    "shots_faced": 0,
    "goals_conceded": 5,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "Yellow"
   },
   "Benjamin Nygren": {
-   "poste": "CM-R",
-   "statut": "Titulaire",
+   "poste": "SUB",
+   "statut": "Rempla\u00e7ant",
    "minutes": 121,
    "buts": 0,
    "passes_dec": 0,
@@ -9551,13 +9553,13 @@
    "shots_faced": 0,
    "goals_conceded": 5,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Gabriel Gudmundsson": {
    "poste": "LM",
    "statut": "Titulaire",
-   "minutes": 155,
+   "minutes": 785,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -9567,29 +9569,29 @@
    "shots_faced": 0,
    "goals_conceded": 6,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "Yellow"
   },
   "Alexander Bernhardsson": {
    "poste": "RM",
    "statut": "Titulaire",
-   "minutes": 145,
+   "minutes": 775,
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 0,
-   "tirs_cadres": 0,
+   "tirs": 1,
+   "tirs_cadres": 1,
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 5,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Alexander Isak": {
    "poste": "CF-L",
    "statut": "Titulaire",
-   "minutes": 180,
+   "minutes": 810,
    "buts": 1,
    "passes_dec": 3,
    "tirs": 4,
@@ -9599,13 +9601,13 @@
    "shots_faced": 0,
    "goals_conceded": 6,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   },
   "Viktor Gy\u00f6keres": {
-   "poste": "CF-R",
+   "poste": "F",
    "statut": "Titulaire",
-   "minutes": 180,
+   "minutes": 810,
    "buts": 1,
    "passes_dec": 1,
    "tirs": 10,
@@ -9615,7 +9617,7 @@
    "shots_faced": 0,
    "goals_conceded": 6,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 9,
    "cartons": "\u2014"
   }
  },
@@ -9633,13 +9635,13 @@
    "shots_faced": 0,
    "goals_conceded": 5,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Montassar Talbi": {
-   "poste": "CD",
+   "poste": "CD-R",
    "statut": "Titulaire",
-   "minutes": 180,
+   "minutes": 720,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 1,
@@ -9647,15 +9649,15 @@
    "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 9,
+   "goals_conceded": 12,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Mohamed Amine Ben Hamida": {
-   "poste": "SUB",
-   "statut": "Rempla\u00e7ant",
-   "minutes": 135,
+   "poste": "CD-L",
+   "statut": "Titulaire",
+   "minutes": 675,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -9663,14 +9665,14 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 7,
+   "goals_conceded": 10,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Omar Rekik": {
-   "poste": "CD-L",
-   "statut": "Titulaire",
+   "poste": "SUB",
+   "statut": "Rempla\u00e7ant",
    "minutes": 180,
    "buts": 1,
    "passes_dec": 0,
@@ -9681,13 +9683,13 @@
    "shots_faced": 0,
    "goals_conceded": 9,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Ali Abdi": {
-   "poste": "LM",
+   "poste": "LB",
    "statut": "Titulaire",
-   "minutes": 180,
+   "minutes": 720,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -9695,15 +9697,15 @@
    "fautes_commises": 4,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 9,
+   "goals_conceded": 12,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Yan Valery": {
-   "poste": "RM",
+   "poste": "RB",
    "statut": "Titulaire",
-   "minutes": 162,
+   "minutes": 702,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -9711,15 +9713,15 @@
    "fautes_commises": 4,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 7,
+   "goals_conceded": 10,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Ellyes Skhiri": {
-   "poste": "CM-L",
+   "poste": "CD",
    "statut": "Titulaire",
-   "minutes": 162,
+   "minutes": 702,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -9727,15 +9729,15 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 7,
+   "goals_conceded": 10,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Hannibal Mejbri": {
-   "poste": "CF-L",
+   "poste": "LM",
    "statut": "Titulaire",
-   "minutes": 180,
+   "minutes": 720,
    "buts": 0,
    "passes_dec": 1,
    "tirs": 2,
@@ -9743,15 +9745,15 @@
    "fautes_commises": 3,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 9,
+   "goals_conceded": 12,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Rani Khedira": {
-   "poste": "SUB",
-   "statut": "Rempla\u00e7ant",
-   "minutes": 84,
+   "poste": "CM-L",
+   "statut": "Titulaire",
+   "minutes": 624,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 1,
@@ -9759,15 +9761,15 @@
    "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 3,
+   "goals_conceded": 6,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "Yellow"
   },
   "Anis Slimane": {
-   "poste": "CM-R",
+   "poste": "RM",
    "statut": "Titulaire",
-   "minutes": 174,
+   "minutes": 714,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -9775,14 +9777,14 @@
    "fautes_commises": 0,
    "hors_jeu": 2,
    "shots_faced": 0,
-   "goals_conceded": 7,
+   "goals_conceded": 10,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Elias Saad": {
-   "poste": "CF-R",
-   "statut": "Titulaire",
+   "poste": "SUB",
+   "statut": "Rempla\u00e7ant",
    "minutes": 117,
    "buts": 0,
    "passes_dec": 0,
@@ -9793,7 +9795,7 @@
    "shots_faced": 0,
    "goals_conceded": 5,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Adem Arous": {
@@ -9825,12 +9827,12 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Sebastian Tounekti": {
-   "poste": "F",
-   "statut": "Titulaire",
+   "poste": "SUB",
+   "statut": "Rempla\u00e7ant",
    "minutes": 82,
    "buts": 0,
    "passes_dec": 0,
@@ -9841,12 +9843,12 @@
    "shots_faced": 0,
    "goals_conceded": 4,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Dylan Bronn": {
-   "poste": "CD-R",
-   "statut": "Titulaire",
+   "poste": "SUB",
+   "statut": "Rempla\u00e7ant",
    "minutes": 45,
    "buts": 0,
    "passes_dec": 0,
@@ -9857,29 +9859,29 @@
    "shots_faced": 0,
    "goals_conceded": 2,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Isma\u00ebl Gharbi": {
-   "poste": "SUB",
-   "statut": "Rempla\u00e7ant",
-   "minutes": 52,
+   "poste": "CM-R",
+   "statut": "Titulaire",
+   "minutes": 592,
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 1,
+   "tirs": 6,
    "tirs_cadres": 0,
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 4,
+   "goals_conceded": 7,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Hazem Mastouri": {
-   "poste": "SUB",
-   "statut": "Rempla\u00e7ant",
-   "minutes": 0,
+   "poste": "F",
+   "statut": "Titulaire",
+   "minutes": 540,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -9887,9 +9889,9 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 0,
+   "goals_conceded": 3,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Moutaz Neffati": {
@@ -9921,7 +9923,7 @@
    "shots_faced": 0,
    "goals_conceded": 2,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Raed Chikhaoui": {
@@ -9937,7 +9939,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Mohamed Hadj Mahmoud": {
@@ -9953,13 +9955,13 @@
    "shots_faced": 0,
    "goals_conceded": 2,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Aymen Dahmen": {
    "poste": "G",
    "statut": "Titulaire",
-   "minutes": 90,
+   "minutes": 630,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -9967,9 +9969,9 @@
    "fautes_commises": 0,
    "saves": 1,
    "shots_faced": 0,
-   "goals_conceded": 4,
+   "goals_conceded": 7,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Firas Chaouat": {
@@ -9985,7 +9987,7 @@
    "shots_faced": 0,
    "goals_conceded": 4,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Rayan Elloumi": {
@@ -10001,7 +10003,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Mortadha Ben Ouanes": {
@@ -10017,7 +10019,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   },
   "Sabri Ben Hessen": {
@@ -10033,7 +10035,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 2,
+   "matchs_2026": 8,
    "cartons": "\u2014"
   }
  },

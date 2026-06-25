@@ -1,68 +1,67 @@
 {
-  "sampleWithOdds": 41,
+  "sampleWithOdds": 43,
   "favorite": {
-    "bets": 41,
-    "wins": 31,
-    "winRate": 76,
-    "pnl": 9.47,
-    "yield": 23.1
+    "bets": 43,
+    "wins": 29,
+    "winRate": 67,
+    "pnl": 0.38,
+    "yield": 0.9
   },
   "value": {
-    "bets": 80,
-    "wins": 48,
-    "winRate": 60,
-    "pnl": 9.69,
-    "yield": 12.1
+    "bets": 86,
+    "wins": 46,
+    "winRate": 53,
+    "pnl": 0.55,
+    "yield": 0.6
   },
   "valueStrict": {
-    "bets": 52,
-    "wins": 34,
-    "winRate": 65,
-    "pnl": 10.8,
-    "yield": 20.8
+    "bets": 53,
+    "wins": 31,
+    "winRate": 58,
+    "pnl": -0.54,
+    "yield": -1.0
   },
   "topValue": [
-    {
-      "home": "Japan",
-      "away": "Sweden",
-      "date": "2026-06-25 18:00 UTC-5",
-      "label": "Victoire Japan",
-      "prob": 0.8373,
-      "odd": 2.05,
-      "implied": 0.4878,
-      "edge": 0.3495,
-      "ev": 0.716,
-      "provider": "DraftKings",
-      "market": "1N2",
-      "lineMovement": -0.05
-    },
-    {
-      "home": "Ecuador",
-      "away": "Germany",
-      "date": "2026-06-25 16:00 UTC-4",
-      "label": "Victoire Germany",
-      "prob": 0.7067,
-      "odd": 1.952,
-      "implied": 0.5123,
-      "edge": 0.1944,
-      "ev": 0.379,
-      "provider": "DraftKings",
-      "market": "1N2",
-      "lineMovement": -1.898
-    },
     {
       "home": "Turkey",
       "away": "USA",
       "date": "2026-06-25 19:00 UTC-7",
-      "label": "Match nul",
-      "prob": 0.3477,
-      "odd": 4.0,
-      "implied": 0.25,
-      "edge": 0.0977,
-      "ev": 0.391,
+      "label": "Victoire Turkey",
+      "prob": 0.5288,
+      "odd": 3.35,
+      "implied": 0.2985,
+      "edge": 0.2303,
+      "ev": 0.771,
       "provider": "DraftKings",
       "market": "1N2",
-      "lineMovement": 0.3
+      "lineMovement": 0.6
+    },
+    {
+      "home": "Norway",
+      "away": "France",
+      "date": "2026-06-26 15:00 UTC-4",
+      "label": "Victoire France",
+      "prob": 0.7799,
+      "odd": 1.8,
+      "implied": 0.5556,
+      "edge": 0.2243,
+      "ev": 0.404,
+      "provider": "DraftKings",
+      "market": "1N2",
+      "lineMovement": -1.95
+    },
+    {
+      "home": "Norway",
+      "away": "France",
+      "date": "2026-06-26 15:00 UTC-4",
+      "label": "Plus de 2.5 buts",
+      "prob": 0.7001,
+      "odd": 1.769,
+      "implied": 0.5653,
+      "edge": 0.1348,
+      "ev": 0.238,
+      "provider": "DraftKings",
+      "market": "O/U"
     }
   ]
 }
