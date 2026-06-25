@@ -30760,6 +30760,16 @@
     "minute": 3,
     "text": "Own Goal by Ellyes Skhiri, Tunisia. Tunisia 0, Netherlands 1.",
     "type": "Own Goal"
+   },
+   {
+    "minute": 6,
+    "text": "Foul by Rani Khedira (Tunisia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 6,
+    "text": "Donyell Malen (Netherlands) wins a free kick in the attacking half.",
+    "type": "Foul"
    }
   ],
   "halftime": "0-1",
