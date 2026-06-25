@@ -438,11 +438,13 @@ def _risk_players(team):
         for name, st in stats.items():
             card = st.get("cartons") or st.get("cards")
             if card:
-                real.append({
-                    "name": name,
-                    "pos": st.get("poste"),
-                    "card": "🟥 rouge" if str(card).lower().startswith("r") else "🟨 jaune",
-                })
+                cstr = str(card).lower()
+                if "yellow" in cstr or "red" in cstr or "jaune" in cstr or "rouge" in cstr:
+                    real.append({
+                        "name": name,
+                        "pos": st.get("poste"),
+                        "card": "🟥 rouge" if "red" in cstr or "rouge" in cstr else "🟨 jaune",
+                    })
     return {"real": real, "profiles": _RISK_PROFILES}
 
 

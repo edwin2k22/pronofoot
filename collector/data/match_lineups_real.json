@@ -3,34 +3,34 @@
  "Mexico|South Africa": {
   "home_formation": "4-1-4-1",
   "home_xi": [
-   "Raúl Rangel",
-   "Johan Vásquez",
-   "César Montes",
-   "Érik Lira",
-   "Jesús Gallardo",
+   "Ra\u00fal Rangel",
+   "Johan V\u00e1squez",
+   "C\u00e9sar Montes",
+   "\u00c9rik Lira",
+   "Jes\u00fas Gallardo",
    "Israel Reyes",
-   "Álvaro Fidalgo",
-   "Brian Gutiérrez",
-   "Julián Quiñones",
+   "\u00c1lvaro Fidalgo",
+   "Brian Guti\u00e9rrez",
+   "Juli\u00e1n Qui\u00f1ones",
    "Roberto Alvarado",
-   "Raúl Jiménez"
+   "Ra\u00fal Jim\u00e9nez"
   ],
   "home_bench": [
    "Luis Romo",
-   "César Huerta",
+   "C\u00e9sar Huerta",
    "Guillermo Ochoa",
    "Carlos Acevedo",
-   "Luis Chávez",
-   "Mateo Chávez",
+   "Luis Ch\u00e1vez",
+   "Mateo Ch\u00e1vez",
    "Santiago Gimenez",
    "Obed Vargas",
    "Alexis Vega",
-   "Guillermo Martínez",
-   "Armando González",
+   "Guillermo Mart\u00ednez",
+   "Armando Gonz\u00e1lez",
    "Gilberto Mora",
-   "Edson Álvarez",
-   "Jorge Sánchez",
-   "Orbelín Pineda"
+   "Edson \u00c1lvarez",
+   "Jorge S\u00e1nchez",
+   "Orbel\u00edn Pineda"
   ],
   "away_formation": "5-3-2",
   "away_xi": [
@@ -63,7 +63,7 @@
    "Evidence Makgopa",
    "Olwethu Makhanya"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "South Korea|Czech Republic": {
   "home_formation": "3-4-2-1",
@@ -99,63 +99,63 @@
   ],
   "away_formation": "3-4-2-1",
   "away_xi": [
-   "Matej Kovár",
-   "Robin Hranác",
-   "Ladislav Krejcí",
-   "Stepán Chaloupek",
+   "Matej Kov\u00e1r",
+   "Robin Hran\u00e1c",
+   "Ladislav Krejc\u00ed",
+   "Step\u00e1n Chaloupek",
    "Alexandr Sojka",
-   "Tomás Soucek",
-   "Jaroslav Zelený",
-   "Vladimír Coufal",
+   "Tom\u00e1s Soucek",
+   "Jaroslav Zelen\u00fd",
+   "Vladim\u00edr Coufal",
    "Patrik Schick",
    "Pavel Sulc",
-   "Lukás Provod"
+   "Luk\u00e1s Provod"
   ],
   "away_bench": [
    "Jindrich Stanek",
    "Adam Hlozek",
-   "Tomás Chorý",
+   "Tom\u00e1s Chor\u00fd",
    "David Doudera",
-   "Lukás Cerv",
-   "Tomás Holes",
-   "Vladimír Darida",
-   "Lukás Hornícek",
+   "Luk\u00e1s Cerv",
+   "Tom\u00e1s Holes",
+   "Vladim\u00edr Darida",
+   "Luk\u00e1s Horn\u00edcek",
    "Jan Kuchta",
-   "Mojmír Chytil",
-   "Michal Sadílek",
+   "Mojm\u00edr Chytil",
+   "Michal Sad\u00edlek",
    "Hugo Sochurek",
-   "David Jurásek",
-   "Denis Visinský",
+   "David Jur\u00e1sek",
+   "Denis Visinsk\u00fd",
    "David Zima"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Czech Republic|South Africa": {
   "home_formation": "3-5-2",
   "home_xi": [
-   "Matej Kovár",
-   "Robin Hranác",
-   "Ladislav Krejcí",
-   "Tomás Holes",
-   "Michal Sadílek",
-   "Vladimír Darida",
-   "Lukás Cerv",
+   "Matej Kov\u00e1r",
+   "Robin Hran\u00e1c",
+   "Ladislav Krejc\u00ed",
+   "Tom\u00e1s Holes",
+   "Michal Sad\u00edlek",
+   "Vladim\u00edr Darida",
+   "Luk\u00e1s Cerv",
    "Alexandr Sojka",
-   "Vladimír Coufal",
+   "Vladim\u00edr Coufal",
    "Adam Hlozek",
    "Patrik Schick"
   ],
   "home_bench": [
-   "Jaroslav Zelený",
-   "Mojmír Chytil",
-   "Stepán Chaloupek",
-   "Denis Visinský",
+   "Jaroslav Zelen\u00fd",
+   "Mojm\u00edr Chytil",
+   "Step\u00e1n Chaloupek",
+   "Denis Visinsk\u00fd",
    "Jan Kuchta",
-   "Lukás Provod",
-   "Tomás Chorý",
-   "Tomás Soucek",
+   "Luk\u00e1s Provod",
+   "Tom\u00e1s Chor\u00fd",
+   "Tom\u00e1s Soucek",
    "David Doudera",
-   "Lukás Hornícek",
+   "Luk\u00e1s Horn\u00edcek",
    "Jindrich Stanek",
    "Hugo Sochurek",
    "David Zima",
@@ -190,36 +190,36 @@
    "Relebohile Mofokeng",
    "Bradley Cross"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Mexico|South Korea": {
   "home_formation": "4-3-3",
   "home_xi": [
-   "Raúl Rangel",
-   "Johan Vásquez",
-   "Edson Álvarez",
-   "Jesús Gallardo",
-   "Jorge Sánchez",
-   "Érik Lira",
+   "Ra\u00fal Rangel",
+   "Johan V\u00e1squez",
+   "Edson \u00c1lvarez",
+   "Jes\u00fas Gallardo",
+   "Jorge S\u00e1nchez",
+   "\u00c9rik Lira",
    "Luis Romo",
-   "Brian Gutiérrez",
-   "Raúl Jiménez",
-   "Julián Quiñones",
+   "Brian Guti\u00e9rrez",
+   "Ra\u00fal Jim\u00e9nez",
+   "Juli\u00e1n Qui\u00f1ones",
    "Roberto Alvarado"
   ],
   "home_bench": [
-   "Mateo Chávez",
+   "Mateo Ch\u00e1vez",
    "Obed Vargas",
-   "Álvaro Fidalgo",
+   "\u00c1lvaro Fidalgo",
    "Gilberto Mora",
    "Santiago Gimenez",
    "Carlos Acevedo",
    "Israel Reyes",
-   "César Huerta",
-   "Orbelín Pineda",
-   "Guillermo Martínez",
-   "Luis Chávez",
-   "Armando González",
+   "C\u00e9sar Huerta",
+   "Orbel\u00edn Pineda",
+   "Guillermo Mart\u00ednez",
+   "Luis Ch\u00e1vez",
+   "Armando Gonz\u00e1lez",
    "Guillermo Ochoa",
    "Alexis Vega"
   ],
@@ -254,18 +254,18 @@
    "Park Jin-Seop",
    "Kim Jin-Gyu"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Canada|Bosnia & Herzegovina": {
   "home_formation": "4-4-2",
   "home_xi": [
-   "Maxime Crépeau",
+   "Maxime Cr\u00e9peau",
    "Derek Cornelius",
    "Luc de Fougerolles",
    "Richie Laryea",
    "Alistair Johnston",
-   "Stephen Eustáquio",
-   "Ismaël Koné",
+   "Stephen Eust\u00e1quio",
+   "Isma\u00ebl Kon\u00e9",
    "Liam Millar",
    "Tajon Buchanan",
    "Tani Oluwaseyi",
@@ -284,9 +284,9 @@
    "Owen Goodman",
    "Alphonso Davies",
    "Dayne St. Clair",
-   "Moïse Bombito",
+   "Mo\u00efse Bombito",
    "Nathan Saliba",
-   "Mathieu Choinière"
+   "Mathieu Choini\u00e8re"
   ],
   "away_formation": "4-4-2",
   "away_xi": [
@@ -319,7 +319,7 @@
    "Ivan Sunjic",
    "Nihad Mujakic"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Qatar|Switzerland": {
   "home_formation": "4-3-3",
@@ -334,7 +334,7 @@
    "Jassem Gaber",
    "Yusuf Abdurisag",
    "Akram Afif",
-   "Edmílson Junior"
+   "Edm\u00edlson Junior"
   ],
   "home_bench": [
    "Hassan Al-Haydos",
@@ -358,19 +358,19 @@
    "Gregor Kobel",
    "Manuel Akanji",
    "Nico Elvedi",
-   "Ricardo Rodríguez",
+   "Ricardo Rodr\u00edguez",
    "Denis Zakaria",
    "Granit Xhaka",
    "Remo Freuler",
    "Michel Aebischer",
    "Breel Embolo",
-   "Rubén Vargas",
+   "Rub\u00e9n Vargas",
    "Dan Ndoye"
   ],
   "away_bench": [
-   "Eray Cömert",
+   "Eray C\u00f6mert",
    "Marvin Keller",
-   "Aurèle Amenda",
+   "Aur\u00e8le Amenda",
    "Miro Muheim",
    "Silvan Widmer",
    "Noah Okafor",
@@ -384,7 +384,7 @@
    "Cedric Itten",
    "Ardon Jashari"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Switzerland|Bosnia & Herzegovina": {
   "home_formation": "4-3-1-2",
@@ -392,7 +392,7 @@
    "Gregor Kobel",
    "Manuel Akanji",
    "Nico Elvedi",
-   "Ricardo Rodríguez",
+   "Ricardo Rodr\u00edguez",
    "Silvan Widmer",
    "Dan Ndoye",
    "Granit Xhaka",
@@ -406,14 +406,14 @@
    "Christian Fassnacht",
    "Djibril Sow",
    "Luca Jaquez",
-   "Aurèle Amenda",
-   "Eray Cömert",
+   "Aur\u00e8le Amenda",
+   "Eray C\u00f6mert",
    "Marvin Keller",
    "Noah Okafor",
    "Denis Zakaria",
    "Zeki Amdouni",
    "Cedric Itten",
-   "Rubén Vargas",
+   "Rub\u00e9n Vargas",
    "Johan Manzambi",
    "Ardon Jashari"
   ],
@@ -448,18 +448,18 @@
    "Esmir Bajraktarevic",
    "Armin Gigovic"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Canada|Qatar": {
   "home_formation": "4-4-2",
   "home_xi": [
-   "Maxime Crépeau",
+   "Maxime Cr\u00e9peau",
    "Derek Cornelius",
    "Luc de Fougerolles",
    "Richie Laryea",
    "Alistair Johnston",
-   "Stephen Eustáquio",
-   "Ismaël Koné",
+   "Stephen Eust\u00e1quio",
+   "Isma\u00ebl Kon\u00e9",
    "Ali Ahmed",
    "Tajon Buchanan",
    "Cyle Larin",
@@ -471,10 +471,10 @@
    "Jayden Nelson",
    "Dayne St. Clair",
    "Promise David",
-   "Mathieu Choinière",
+   "Mathieu Choini\u00e8re",
    "Joel Waterman",
    "Niko Sigur",
-   "Moïse Bombito",
+   "Mo\u00efse Bombito",
    "Liam Millar",
    "Alphonso Davies",
    "Owen Goodman",
@@ -493,7 +493,7 @@
    "Jassem Gaber",
    "Yusuf Abdurisag",
    "Akram Afif",
-   "Edmílson Junior"
+   "Edm\u00edlson Junior"
   ],
   "away_bench": [
    "Hassan Al-Haydos",
@@ -512,30 +512,30 @@
    "Karim Boudiaf",
    "Abdulaziz Hatem"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Brazil|Morocco": {
   "home_formation": "4-2-3-1",
   "home_xi": [
    "Alisson Becker",
-   "Gabriel Magalhães",
+   "Gabriel Magalh\u00e3es",
    "Marquinhos",
    "Douglas Santos",
-   "Roger Ibañez",
+   "Roger Iba\u00f1ez",
    "Raphinha ",
-   "Bruno Guimarães",
+   "Bruno Guimar\u00e3es",
    "Casemiro",
    "Igor Thiago",
-   "Vinícius Júnior",
-   "Lucas Paquetá"
+   "Vin\u00edcius J\u00fanior",
+   "Lucas Paquet\u00e1"
   ],
   "home_bench": [
    "Matheus Cunha",
    "Ederson ",
    "Rayan",
-   "Léo Pereira",
+   "L\u00e9o Pereira",
    "Fabinho",
-   "Éderson",
+   "\u00c9derson",
    "Luiz Henrique",
    "Gabriel Martinelli",
    "Danilo",
@@ -557,11 +557,11 @@
    "Neil El Aynaoui",
    "Ismael Saibari",
    "Bilal El Khannouss",
-   "Brahim Díaz"
+   "Brahim D\u00edaz"
   ],
   "away_bench": [
    "Ahmed Reda Tagnaouti",
-   "Amine Sbaï",
+   "Amine Sba\u00ef",
    "Chemsdine Talbi",
    "Soufiane Rahimi",
    "Ayoube Amaimouni",
@@ -576,15 +576,15 @@
    "Munir El Kajoui",
    "Redouane Halhal"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Haiti|Scotland": {
   "home_formation": "4-4-2",
   "home_xi": [
    "Johny Placide",
    "Hannes Delcroix",
-   "Ricardo Adé",
-   "Martin Expérience",
+   "Ricardo Ad\u00e9",
+   "Martin Exp\u00e9rience",
    "Carlens Arcus",
    "Jean-Ricner Bellegarde",
    "Danley Jean Jacques",
@@ -594,21 +594,21 @@
    "Frantzdy Pierrot"
   ],
   "home_bench": [
-   "Josué Duverger",
-   "Carl Sainté",
+   "Josu\u00e9 Duverger",
+   "Carl Saint\u00e9",
    "Duckens Nazon",
    "Wilguens Paugain",
-   "Josué Casimir",
+   "Josu\u00e9 Casimir",
    "Lenny Joseph",
    "Garven Metusala",
-   "Jean-Kévin Duverne",
+   "Jean-K\u00e9vin Duverne",
    "Woodensky Pierre",
    "Dominique Simon",
    "Keeto Thermoncy",
    "Alexandre Pierre",
    "Markhus Lacroix",
    "Derrick Etienne Jr.",
-   "Yassin Fortuné"
+   "Yassin Fortun\u00e9"
   ],
   "away_formation": "4-4-2",
   "away_xi": [
@@ -621,7 +621,7 @@
    "Scott McTominay",
    "John McGinn",
    "Ben Gannon-Doak",
-   "Ché Adams",
+   "Ch\u00e9 Adams",
    "Lawrence Shankland"
   ],
   "away_bench": [
@@ -641,7 +641,7 @@
    "Scott McKenna",
    "Liam Kelly"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Scotland|Morocco": {
   "home_formation": "4-4-1-1",
@@ -655,7 +655,7 @@
    "Ryan Christie",
    "Kieran Tierney",
    "John McGinn",
-   "Ché Adams",
+   "Ch\u00e9 Adams",
    "Scott McTominay"
   ],
   "home_bench": [
@@ -687,12 +687,12 @@
    "Ayyoub Bouaddi",
    "Ismael Saibari",
    "Bilal El Khannouss",
-   "Brahim Díaz"
+   "Brahim D\u00edaz"
   ],
   "away_bench": [
    "Ahmed Reda Tagnaouti",
    "Ayoube Amaimouni",
-   "Amine Sbaï",
+   "Amine Sba\u00ef",
    "Ayoub El Kaabi",
    "Anass Salah-Eddine",
    "Munir El Kajoui",
@@ -706,21 +706,21 @@
    "Youssef Belammari",
    "Soufiane Rahimi"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Brazil|Haiti": {
   "home_formation": "4-3-3",
   "home_xi": [
    "Alisson Becker",
-   "Gabriel Magalhães",
+   "Gabriel Magalh\u00e3es",
    "Marquinhos",
    "Douglas Santos",
    "Danilo",
    "Casemiro",
-   "Lucas Paquetá",
-   "Bruno Guimarães",
+   "Lucas Paquet\u00e1",
+   "Bruno Guimar\u00e3es",
    "Matheus Cunha",
-   "Vinícius Júnior",
+   "Vin\u00edcius J\u00fanior",
    "Raphinha "
   ],
   "home_bench": [
@@ -730,81 +730,81 @@
    "Bremer",
    "Endrick",
    "Igor Thiago",
-   "Léo Pereira",
-   "Roger Ibañez",
+   "L\u00e9o Pereira",
+   "Roger Iba\u00f1ez",
    "Weverton",
    "Luiz Henrique",
    "Ederson ",
    "Danilo Santos",
-   "Éderson",
+   "\u00c9derson",
    "Fabinho"
   ],
   "away_formation": "5-4-1",
   "away_xi": [
    "Johny Placide",
-   "Ricardo Adé",
+   "Ricardo Ad\u00e9",
    "Hannes Delcroix",
-   "Jean-Kévin Duverne",
-   "Martin Expérience",
+   "Jean-K\u00e9vin Duverne",
+   "Martin Exp\u00e9rience",
    "Carlens Arcus",
    "Jean-Ricner Bellegarde",
    "Danley Jean Jacques",
    "Ruben Providence",
-   "Josué Casimir",
+   "Josu\u00e9 Casimir",
    "Frantzdy Pierrot"
   ],
   "away_bench": [
    "Alexandre Pierre",
-   "Josué Duverger",
+   "Josu\u00e9 Duverger",
    "Lenny Joseph",
    "Wilson Isidor",
    "Louicius Deedson",
    "Garven Metusala",
-   "Carl Sainté",
+   "Carl Saint\u00e9",
    "Markhus Lacroix",
    "Derrick Etienne Jr.",
    "Duckens Nazon",
    "Keeto Thermoncy",
    "Dominique Simon",
-   "Yassin Fortuné",
+   "Yassin Fortun\u00e9",
    "Wilguens Paugain",
    "Woodensky Pierre"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "USA|Paraguay": {
   "away_formation": "4-4-2",
   "away_xi": [
    "Orlando Gil",
    "Omar Alderete",
-   "Gustavo Gómez",
-   "Júnior Alonso",
-   "Juan Jose Cáceres",
-   "Damián Bobadilla",
-   "Andrés Cubas",
-   "Miguel Almirón",
-   "Diego Gómez",
+   "Gustavo G\u00f3mez",
+   "J\u00fanior Alonso",
+   "Juan Jose C\u00e1ceres",
+   "Dami\u00e1n Bobadilla",
+   "Andr\u00e9s Cubas",
+   "Miguel Almir\u00f3n",
+   "Diego G\u00f3mez",
    "Julio Enciso",
    "Antonio Sanabria"
   ],
   "away_bench": [
    "Alex Arce",
-   "José Canale",
-   "Gabriel Ávalos",
+   "Jos\u00e9 Canale",
+   "Gabriel \u00c1valos",
    "Alexandro Maidana",
    "Gustavo Caballero",
    "Alejandro Romero Gamarra",
    "Braian Ojeda",
-   "Gastón Olveira",
-   "Gatito Fernández",
+   "Gast\u00f3n Olveira",
+   "Gatito Fern\u00e1ndez",
    "Isidro Pitta",
-   "Fabián Balbuena",
-   "Matías Galarza",
-   "Ramón Sosa",
-   "Maurício",
-   "Gustavo Velázquez"
+   "Fabi\u00e1n Balbuena",
+   "Mat\u00edas Galarza",
+   "Ram\u00f3n Sosa",
+   "Maur\u00edcio",
+   "Gustavo Vel\u00e1zquez"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Australia|Turkey": {
   "home_formation": "5-4-1",
@@ -840,36 +840,36 @@
   ],
   "away_formation": "4-2-3-1",
   "away_xi": [
-   "Ugurcan Çakir",
-   "Abdülkerim Bardakçi",
+   "Ugurcan \u00c7akir",
+   "Abd\u00fclkerim Bardak\u00e7i",
    "Merih Demiral",
    "Ferdi Kadioglu",
-   "Zeki Çelik",
-   "Orkun Kökçü",
-   "Hakan Çalhanoglu",
-   "Ismail Yüksek",
-   "Kerem Aktürkoglu",
+   "Zeki \u00c7elik",
+   "Orkun K\u00f6k\u00e7\u00fc",
+   "Hakan \u00c7alhanoglu",
+   "Ismail Y\u00fcksek",
+   "Kerem Akt\u00fcrkoglu",
    "Baris Alper Yilmaz",
-   "Arda Güler"
+   "Arda G\u00fcler"
   ],
   "away_bench": [
-   "Yunus Akgün",
-   "Deniz Gül",
+   "Yunus Akg\u00fcn",
+   "Deniz G\u00fcl",
    "Kaan Ayhan",
    "Kenan Yildiz",
    "Oguz Aydin",
    "Altay Bayindir",
-   "Salih Özcan",
+   "Salih \u00d6zcan",
    "Can Uzun",
    "Ozan Kabak",
    "Samet Akaydin",
    "Irfan Can Kahveci",
-   "Çaglar Söyüncü",
+   "\u00c7aglar S\u00f6y\u00fcnc\u00fc",
    "Eren Elmali",
-   "Mert Müldür",
-   "Mert Günok"
+   "Mert M\u00fcld\u00fcr",
+   "Mert G\u00fcnok"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "USA|Australia": {
   "away_formation": "5-4-1",
@@ -903,74 +903,74 @@
    "Paul Izzo",
    "Cristian Volpato"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Turkey|Paraguay": {
   "home_formation": "4-2-3-1",
   "home_xi": [
-   "Ugurcan Çakir",
-   "Abdülkerim Bardakçi",
+   "Ugurcan \u00c7akir",
+   "Abd\u00fclkerim Bardak\u00e7i",
    "Merih Demiral",
    "Ferdi Kadioglu",
-   "Mert Müldür",
-   "Arda Güler",
-   "Ismail Yüksek",
-   "Hakan Çalhanoglu",
-   "Kerem Aktürkoglu",
+   "Mert M\u00fcld\u00fcr",
+   "Arda G\u00fcler",
+   "Ismail Y\u00fcksek",
+   "Hakan \u00c7alhanoglu",
+   "Kerem Akt\u00fcrkoglu",
    "Kenan Yildiz",
-   "Yunus Akgün"
+   "Yunus Akg\u00fcn"
   ],
   "home_bench": [
-   "Zeki Çelik",
+   "Zeki \u00c7elik",
    "Can Uzun",
    "Irfan Can Kahveci",
-   "Deniz Gül",
+   "Deniz G\u00fcl",
    "Eren Elmali",
    "Baris Alper Yilmaz",
-   "Salih Özcan",
+   "Salih \u00d6zcan",
    "Kaan Ayhan",
    "Oguz Aydin",
    "Altay Bayindir",
    "Ozan Kabak",
-   "Çaglar Söyüncü",
-   "Mert Günok",
+   "\u00c7aglar S\u00f6y\u00fcnc\u00fc",
+   "Mert G\u00fcnok",
    "Samet Akaydin",
-   "Orkun Kökçü"
+   "Orkun K\u00f6k\u00e7\u00fc"
   ],
   "away_formation": "4-4-2",
   "away_xi": [
    "Orlando Gil",
    "Omar Alderete",
-   "Gustavo Gómez",
-   "Júnior Alonso",
-   "Juan Jose Cáceres",
-   "Diego Gómez",
-   "Andrés Cubas",
-   "Matías Galarza",
-   "Miguel Almirón",
+   "Gustavo G\u00f3mez",
+   "J\u00fanior Alonso",
+   "Juan Jose C\u00e1ceres",
+   "Diego G\u00f3mez",
+   "Andr\u00e9s Cubas",
+   "Mat\u00edas Galarza",
+   "Miguel Almir\u00f3n",
    "Julio Enciso",
    "Isidro Pitta"
   ],
   "away_bench": [
    "Alejandro Romero Gamarra",
-   "Damián Bobadilla",
+   "Dami\u00e1n Bobadilla",
    "Alexandro Maidana",
    "Braian Ojeda",
-   "Gatito Fernández",
-   "Ramón Sosa",
-   "José Canale",
+   "Gatito Fern\u00e1ndez",
+   "Ram\u00f3n Sosa",
+   "Jos\u00e9 Canale",
    "Gustavo Caballero",
-   "Fabián Balbuena",
+   "Fabi\u00e1n Balbuena",
    "Alex Arce",
    "Antonio Sanabria",
-   "Maurício",
-   "Gastón Olveira",
-   "Gabriel Ávalos",
-   "Gustavo Velázquez"
+   "Maur\u00edcio",
+   "Gast\u00f3n Olveira",
+   "Gabriel \u00c1valos",
+   "Gustavo Vel\u00e1zquez"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
- "Germany|Curaçao": {
+ "Germany|Cura\u00e7ao": {
   "home_formation": "4-2-3-1",
   "home_xi": [
    "Manuel Neuer",
@@ -983,7 +983,7 @@
    "Felix Nmecha",
    "Kai Havertz",
    "Florian Wirtz",
-   "Leroy Sané"
+   "Leroy San\u00e9"
   ],
   "home_bench": [
    "David Raum",
@@ -992,14 +992,14 @@
    "Deniz Undav",
    "Waldemar Anton",
    "Jamie Leweling",
-   "Alexander Nübel",
+   "Alexander N\u00fcbel",
    "Leon Goretzka",
-   "Antonio Rüdiger",
+   "Antonio R\u00fcdiger",
    "Malick Thiaw",
    "Nadiem Amiri",
    "Oliver Baumann",
    "Pascal Gross",
-   "Assan Ouédraogo",
+   "Assan Ou\u00e9draogo",
    "Maximilian Beier"
   ],
   "away_formation": "4-3-1-2",
@@ -1014,11 +1014,11 @@
    "Tahith Chong",
    "Juninho Bacuna",
    "Livano Comenencia",
-   "Jürgen Locadia"
+   "J\u00fcrgen Locadia"
   ],
   "away_bench": [
    "Ar'jany Martha",
-   "Juriën Gaari",
+   "Juri\u00ebn Gaari",
    "Tyrick Bodak",
    "Kevin Felida",
    "Joshua Brenet",
@@ -1029,11 +1029,11 @@
    "Jeremy Antonisse",
    "Shurandy Sambo",
    "Trevor Doornbusch",
-   "Kenji Gorré",
+   "Kenji Gorr\u00e9",
    "Godfried Roemeratoe",
    "Roshon van Eijma"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Ivory Coast|Ecuador": {
   "home_formation": "4-4-2",
@@ -1042,63 +1042,63 @@
    "Emmanuel Agbadou",
    "Wilfried Singo",
    "Ghislain Konan",
-   "Guela Doué",
+   "Guela Dou\u00e9",
    "Seko Fofana",
-   "Franck Kessié",
-   "Bazoumana Touré",
+   "Franck Kessi\u00e9",
+   "Bazoumana Tour\u00e9",
    "Yan Diomande",
    "Elye Wahi",
-   "Nicolas Pépé"
+   "Nicolas P\u00e9p\u00e9"
   ],
   "home_bench": [
    "Parfait Guiagon",
-   "Christ Inao Oulaï",
+   "Christ Inao Oula\u00ef",
    "Christopher Operi",
    "Simon Adingra",
    "Ange-Yoan Bonny",
-   "Oumar Diakité",
-   "Mohamed Koné",
-   "Ibrahim Sangaré",
+   "Oumar Diakit\u00e9",
+   "Mohamed Kon\u00e9",
+   "Ibrahim Sangar\u00e9",
    "Ousmane Diomande",
    "Evan Ndicka",
    "Alban Lafont",
    "Evann Guessand",
-   "Jean Michaël Seri",
+   "Jean Micha\u00ebl Seri",
    "Amad Diallo",
    "Odilon Kossounou"
   ],
   "away_formation": "4-4-2",
   "away_xi": [
-   "Hernán Galíndez",
+   "Hern\u00e1n Gal\u00edndez",
    "Willian Pacho",
-   "Joel Ordóñez",
-   "Piero Hincapié",
+   "Joel Ord\u00f3\u00f1ez",
+   "Piero Hincapi\u00e9",
    "Alan Franco",
    "Pedro Vite",
-   "Moisés Caicedo",
+   "Mois\u00e9s Caicedo",
    "Alan Minda",
    "John Yeboah",
    "Enner Valencia",
    "Gonzalo Plata"
   ],
   "away_bench": [
-   "Kevin Rodríguez",
+   "Kevin Rodr\u00edguez",
    "Gonzalo Valle",
-   "Pervis Estupiñán",
+   "Pervis Estupi\u00f1\u00e1n",
    "Denil Castillo",
    "Jordy Caicedo",
    "Nilson Angulo",
    "Anthony Valencia",
-   "Ángelo Preciado",
-   "Kendry Páez",
+   "\u00c1ngelo Preciado",
+   "Kendry P\u00e1ez",
    "Yaimar Medina",
    "Jackson Porozo",
-   "Félix Torres",
-   "Jeremy Arévalo",
-   "Jordy Alcívar",
-   "Moisés Ramírez"
+   "F\u00e9lix Torres",
+   "Jeremy Ar\u00e9valo",
+   "Jordy Alc\u00edvar",
+   "Mois\u00e9s Ram\u00edrez"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Germany|Ivory Coast": {
   "home_formation": "4-2-3-1",
@@ -1113,7 +1113,7 @@
    "Felix Nmecha",
    "Kai Havertz",
    "Florian Wirtz",
-   "Leroy Sané"
+   "Leroy San\u00e9"
   ],
   "home_bench": [
    "David Raum",
@@ -1123,10 +1123,10 @@
    "Oliver Baumann",
    "Jamie Leweling",
    "Maximilian Beier",
-   "Alexander Nübel",
+   "Alexander N\u00fcbel",
    "Leon Goretzka",
-   "Antonio Rüdiger",
-   "Assan Ouédraogo",
+   "Antonio R\u00fcdiger",
+   "Assan Ou\u00e9draogo",
    "Waldemar Anton",
    "Pascal Gross",
    "Malick Thiaw",
@@ -1137,84 +1137,84 @@
    "Yahia Fofana",
    "Emmanuel Agbadou",
    "Odilon Kossounou",
-   "Ibrahim Sangaré",
+   "Ibrahim Sangar\u00e9",
    "Ghislain Konan",
    "Wilfried Singo",
-   "Christ Inao Oulaï",
-   "Franck Kessié",
+   "Christ Inao Oula\u00ef",
+   "Franck Kessi\u00e9",
    "Yan Diomande",
    "Amad Diallo",
    "Ange-Yoan Bonny"
   ],
   "away_bench": [
    "Evan Ndicka",
-   "Nicolas Pépé",
-   "Guela Doué",
+   "Nicolas P\u00e9p\u00e9",
+   "Guela Dou\u00e9",
    "Elye Wahi",
    "Ousmane Diomande",
-   "Oumar Diakité",
+   "Oumar Diakit\u00e9",
    "Christopher Operi",
    "Simon Adingra",
    "Parfait Guiagon",
    "Seko Fofana",
-   "Jean Michaël Seri",
-   "Mohamed Koné",
+   "Jean Micha\u00ebl Seri",
+   "Mohamed Kon\u00e9",
    "Alban Lafont",
-   "Bazoumana Touré",
+   "Bazoumana Tour\u00e9",
    "Evann Guessand"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
- "Ecuador|Curaçao": {
+ "Ecuador|Cura\u00e7ao": {
   "home_formation": "3-1-4-2",
   "home_xi": [
-   "Hernán Galíndez",
+   "Hern\u00e1n Gal\u00edndez",
    "Willian Pacho",
-   "Piero Hincapié",
+   "Piero Hincapi\u00e9",
    "Alan Franco",
-   "Jordy Alcívar",
-   "Moisés Caicedo",
+   "Jordy Alc\u00edvar",
+   "Mois\u00e9s Caicedo",
    "Pedro Vite",
-   "Pervis Estupiñán",
+   "Pervis Estupi\u00f1\u00e1n",
    "John Yeboah",
    "Enner Valencia",
    "Gonzalo Plata"
   ],
   "home_bench": [
-   "Jeremy Arévalo",
+   "Jeremy Ar\u00e9valo",
    "Anthony Valencia",
    "Jackson Porozo",
-   "Kevin Rodríguez",
+   "Kevin Rodr\u00edguez",
    "Yaimar Medina",
    "Jordy Caicedo",
    "Alan Minda",
-   "Félix Torres",
-   "Joel Ordóñez",
+   "F\u00e9lix Torres",
+   "Joel Ord\u00f3\u00f1ez",
    "Nilson Angulo",
    "Gonzalo Valle",
-   "Ángelo Preciado",
+   "\u00c1ngelo Preciado",
    "Denil Castillo",
-   "Moisés Ramírez",
-   "Kendry Páez"
+   "Mois\u00e9s Ram\u00edrez",
+   "Kendry P\u00e1ez"
   ],
   "away_formation": "5-4-1",
   "away_xi": [
    "Eloy Room",
    "Armando Obispo",
    "Sherel Floranus",
-   "Juriën Gaari",
+   "Juri\u00ebn Gaari",
    "Deveron Fonville",
    "Joshua Brenet",
    "Leandro Bacuna",
    "Livano Comenencia",
    "Juninho Bacuna",
    "Tahith Chong",
-   "Jürgen Locadia"
+   "J\u00fcrgen Locadia"
   ],
   "away_bench": [
    "Trevor Doornbusch",
    "Shurandy Sambo",
-   "Kenji Gorré",
+   "Kenji Gorr\u00e9",
    "Riechedly Bazoer",
    "Jeremy Antonisse",
    "Ar'jany Martha",
@@ -1228,7 +1228,7 @@
    "Tyrick Bodak",
    "Sontje Hansen"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Netherlands|Japan": {
   "home_formation": "4-3-3",
@@ -1253,7 +1253,7 @@
    "Guus Til",
    "Robin Roefs",
    "Quinten Timber",
-   "Nathan Aké",
+   "Nathan Ak\u00e9",
    "Wout Weghorst",
    "Mark Flekken",
    "Memphis Depay",
@@ -1293,22 +1293,22 @@
    "Yukinari Sugawara",
    "Takehiro Tomiyasu"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Sweden|Tunisia": {
   "home_formation": "3-1-4-2",
   "home_xi": [
    "Kristoffer Nordfeldt",
    "Isak Hien",
-   "Victor Lindelöf",
+   "Victor Lindel\u00f6f",
    "Gustaf Lagerbielke",
-   "Jesper Karlström",
+   "Jesper Karlstr\u00f6m",
    "Yasin Ayari",
    "Benjamin Nygren",
    "Gabriel Gudmundsson",
    "Alexander Bernhardsson",
    "Alexander Isak",
-   "Viktor Gyökeres"
+   "Viktor Gy\u00f6keres"
   ],
   "home_bench": [
    "Mattias Svanberg",
@@ -1322,7 +1322,7 @@
    "Anthony Elanga",
    "Lucas Bergvall",
    "Herman Johansson",
-   "Jacob Widell Zetterström",
+   "Jacob Widell Zetterstr\u00f6m",
    "Taha Ali",
    "Ken Sema",
    "Carl Starfelt"
@@ -1346,7 +1346,7 @@
    "Khalil Ayari",
    "Sebastian Tounekti",
    "Dylan Bronn",
-   "Ismaël Gharbi",
+   "Isma\u00ebl Gharbi",
    "Hazem Mastouri",
    "Moutaz Neffati",
    "Elias Achouri",
@@ -1358,7 +1358,7 @@
    "Mortadha Ben Ouanes",
    "Sabri Ben Hessen"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Netherlands|Sweden": {
   "home_formation": "4-3-3",
@@ -1377,7 +1377,7 @@
   ],
   "home_bench": [
    "Wout Weghorst",
-   "Nathan Aké",
+   "Nathan Ak\u00e9",
    "Crysencio Summerville",
    "Lutsharel Geertruida",
    "Marten de Roon",
@@ -1395,15 +1395,15 @@
   "away_xi": [
    "Kristoffer Nordfeldt",
    "Isak Hien",
-   "Victor Lindelöf",
+   "Victor Lindel\u00f6f",
    "Gustaf Lagerbielke",
-   "Jesper Karlström",
+   "Jesper Karlstr\u00f6m",
    "Yasin Ayari",
    "Benjamin Nygren",
    "Gabriel Gudmundsson",
    "Alexander Bernhardsson",
    "Alexander Isak",
-   "Viktor Gyökeres"
+   "Viktor Gy\u00f6keres"
   ],
   "away_bench": [
    "Hjalmar Ekdal",
@@ -1415,14 +1415,14 @@
    "Elliot Stroud",
    "Eric Smith",
    "Carl Starfelt",
-   "Jacob Widell Zetterström",
+   "Jacob Widell Zetterstr\u00f6m",
    "Viktor Johansson",
    "Mattias Svanberg",
    "Lucas Bergvall",
    "Besfort Zeneli",
    "Daniel Svensson"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Tunisia|Japan": {
   "home_formation": "3-4-2-1",
@@ -1441,7 +1441,7 @@
   ],
   "home_bench": [
    "Adem Arous",
-   "Ismaël Gharbi",
+   "Isma\u00ebl Gharbi",
    "Firas Chaouat",
    "Raed Chikhaoui",
    "Rayan Elloumi",
@@ -1485,7 +1485,7 @@
    "Yukinari Sugawara",
    "Kento Shiogai"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Belgium|Egypt": {
   "home_formation": "4-2-3-1",
@@ -1499,7 +1499,7 @@
    "Youri Tielemans",
    "Amadou Onana",
    "Charles De Ketelaere",
-   "Jérémy Doku",
+   "J\u00e9r\u00e9my Doku",
    "Leandro Trossard"
   ],
   "home_bench": [
@@ -1512,7 +1512,7 @@
    "Arthur Theate",
    "Matias Fernandez-Pardo",
    "Alexis Saelemaekers",
-   "Dodi Lukébakio",
+   "Dodi Luk\u00e9bakio",
    "Hans Vanaken",
    "Axel Witsel",
    "Maxim De Cuyper",
@@ -1546,10 +1546,10 @@
    "Karim Hafez",
    "Mohamed El Shenawy",
    "Mohamed Alaa",
-   "Trézéguet",
+   "Tr\u00e9z\u00e9guet",
    "Mahmoud Saber"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Iran|New Zealand": {
   "home_formation": "4-4-2",
@@ -1613,7 +1613,7 @@
    "Ryan Thomas",
    "Alex Rufer"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Belgium|Iran": {
   "home_formation": "4-2-3-1",
@@ -1641,7 +1641,7 @@
    "Hans Vanaken",
    "Timothy Castagne",
    "Senne Lammens",
-   "Dodi Lukébakio",
+   "Dodi Luk\u00e9bakio",
    "Matias Fernandez-Pardo",
    "Amadou Onana"
   ],
@@ -1676,7 +1676,7 @@
    "Roozbeh Cheshmi",
    "Amirmohammad Razzaghinia"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "New Zealand|Egypt": {
   "home_formation": "4-2-3-1",
@@ -1735,45 +1735,45 @@
    "Zizo",
    "Ramy Rabia",
    "Nabil Donga",
-   "Trézéguet",
+   "Tr\u00e9z\u00e9guet",
    "Mahdy Soliman",
    "Hamza Abdelkarim",
    "Mahmoud Saber",
    "Karim Hafez"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Spain|Cape Verde": {
   "home_formation": "4-3-3",
   "home_xi": [
-   "Unai Simón",
+   "Unai Sim\u00f3n",
    "Aymeric Laporte",
-   "Pau Cubarsí",
+   "Pau Cubars\u00ed",
    "Marc Cucurella",
    "Marcos Llorente",
    "Rodri ",
    "Pedri ",
-   "Fabián Ruiz",
+   "Fabi\u00e1n Ruiz",
    "Mikel Oyarzabal",
    "Gavi ",
    "Ferran Torres"
   ],
   "home_bench": [
    "David Raya",
-   "Víctor Muñoz",
+   "V\u00edctor Mu\u00f1oz",
    "Lamine Yamal",
-   "Yéremy Pino",
-   "Martín Zubimendi",
+   "Y\u00e9remy Pino",
+   "Mart\u00edn Zubimendi",
    "Dani Olmo",
    "Nico Williams",
    "Mikel Merino",
    "Pedro Porro",
    "Borja Iglesias",
-   "Joan García",
-   "Álex Baena",
+   "Joan Garc\u00eda",
+   "\u00c1lex Baena",
    "Alejandro Grimaldo",
    "Marc Pubill",
-   "Eric García"
+   "Eric Garc\u00eda"
   ],
   "away_formation": "4-1-4-1",
   "away_xi": [
@@ -1791,8 +1791,8 @@
   ],
   "away_bench": [
    "Stopira",
-   "Márcio Rosa",
-   "Hélio Varela",
+   "M\u00e1rcio Rosa",
+   "H\u00e9lio Varela",
    "Wagner Pina",
    "Gilson Benchimol",
    "Garry Rodrigues",
@@ -1801,12 +1801,12 @@
    "Logan Costa",
    "Yannick Semedo",
    "Nuno da Costa",
-   "João Paulo",
+   "Jo\u00e3o Paulo",
    "CJ dos Santos",
    "Kelvin Pires",
    "Deroy Duarte"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Saudi Arabia|Uruguay": {
   "home_formation": "4-4-2",
@@ -1843,63 +1843,63 @@
   "away_formation": "4-2-3-1",
   "away_xi": [
    "Fernando Muslera",
-   "Mathías Olivera",
-   "Sebastián Cáceres",
-   "Matías Viña",
+   "Math\u00edas Olivera",
+   "Sebasti\u00e1n C\u00e1ceres",
+   "Mat\u00edas Vi\u00f1a",
    "Guillermo Varela",
-   "Federico Viñas",
+   "Federico Vi\u00f1as",
    "Rodrigo Bentancur",
    "Manuel Ugarte",
-   "Darwin Núñez",
-   "Maxi Araújo",
+   "Darwin N\u00fa\u00f1ez",
+   "Maxi Ara\u00fajo",
    "Federico Valverde"
   ],
   "away_bench": [
-   "Nicolás de la Cruz",
-   "Emiliano Martínez",
-   "Joaquín Piquerez",
+   "Nicol\u00e1s de la Cruz",
+   "Emiliano Mart\u00ednez",
+   "Joaqu\u00edn Piquerez",
    "Rodrigo Aguirre",
    "Juan Manuel Sanabria",
-   "Agustín Canobbio",
+   "Agust\u00edn Canobbio",
    "Santiago Mele",
    "Sergio Rochet",
    "Facundo Pellistri",
    "Rodrigo Zalazar",
-   "Brian Rodríguez",
+   "Brian Rodr\u00edguez",
    "Santiago Bueno",
-   "José María Giménez"
+   "Jos\u00e9 Mar\u00eda Gim\u00e9nez"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Spain|Saudi Arabia": {
   "home_formation": "4-3-3",
   "home_xi": [
-   "Unai Simón",
+   "Unai Sim\u00f3n",
    "Aymeric Laporte",
-   "Pau Cubarsí",
+   "Pau Cubars\u00ed",
    "Marc Cucurella",
    "Pedro Porro",
    "Rodri ",
    "Pedri ",
    "Dani Olmo",
    "Mikel Oyarzabal",
-   "Álex Baena",
+   "\u00c1lex Baena",
    "Lamine Yamal"
   ],
   "home_bench": [
    "Ferran Torres",
    "Mikel Merino",
-   "Joan García",
-   "Martín Zubimendi",
+   "Joan Garc\u00eda",
+   "Mart\u00edn Zubimendi",
    "David Raya",
    "Gavi ",
    "Alejandro Grimaldo",
-   "Eric García",
+   "Eric Garc\u00eda",
    "Borja Iglesias",
-   "Fabián Ruiz",
-   "Víctor Muñoz",
+   "Fabi\u00e1n Ruiz",
+   "V\u00edctor Mu\u00f1oz",
    "Marc Pubill",
-   "Yéremy Pino",
+   "Y\u00e9remy Pino",
    "Marcos Llorente",
    "Nico Williams"
   ],
@@ -1934,36 +1934,36 @@
    "Aiman Yahya",
    "Mohamed Kanno"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Uruguay|Cape Verde": {
   "home_formation": "4-1-4-1",
   "home_xi": [
    "Fernando Muslera",
-   "Mathías Olivera",
-   "Sebastián Cáceres",
+   "Math\u00edas Olivera",
+   "Sebasti\u00e1n C\u00e1ceres",
    "Manuel Ugarte",
    "Juan Manuel Sanabria",
    "Guillermo Varela",
    "Federico Valverde",
    "Rodrigo Bentancur",
-   "Maxi Araújo",
-   "Agustín Canobbio",
-   "Federico Viñas"
+   "Maxi Ara\u00fajo",
+   "Agust\u00edn Canobbio",
+   "Federico Vi\u00f1as"
   ],
   "home_bench": [
    "Rodrigo Zalazar",
-   "Nicolás de la Cruz",
+   "Nicol\u00e1s de la Cruz",
    "Rodrigo Aguirre",
-   "José María Giménez",
-   "Brian Rodríguez",
+   "Jos\u00e9 Mar\u00eda Gim\u00e9nez",
+   "Brian Rodr\u00edguez",
    "Facundo Pellistri",
-   "Matías Viña",
-   "Joaquín Piquerez",
-   "Emiliano Martínez",
+   "Mat\u00edas Vi\u00f1a",
+   "Joaqu\u00edn Piquerez",
+   "Emiliano Mart\u00ednez",
    "Santiago Bueno",
    "Santiago Mele",
-   "Darwin Núñez",
+   "Darwin N\u00fa\u00f1ez",
    "Sergio Rochet"
   ],
   "away_formation": "4-1-4-1",
@@ -1981,13 +1981,13 @@
    "Gilson Benchimol"
   ],
   "away_bench": [
-   "João Paulo",
+   "Jo\u00e3o Paulo",
    "Willy Semedo",
    "Jovane Cabral",
    "Deroy Duarte",
    "Yannick Semedo",
    "Kelvin Pires",
-   "Márcio Rosa",
+   "M\u00e1rcio Rosa",
    "Nuno da Costa",
    "Laros Duarte",
    "Dailon Livramento",
@@ -1995,9 +1995,9 @@
    "CJ dos Santos",
    "Stopira",
    "Wagner Pina",
-   "Hélio Varela"
+   "H\u00e9lio Varela"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "France|Senegal": {
   "home_formation": "4-2-3-1",
@@ -2005,52 +2005,52 @@
    "Mike Maignan",
    "William Saliba",
    "Dayot Upamecano",
-   "Theo Hernández",
-   "Jules Koundé",
-   "Ousmane Dembélé",
+   "Theo Hern\u00e1ndez",
+   "Jules Kound\u00e9",
+   "Ousmane Demb\u00e9l\u00e9",
    "Adrien Rabiot",
-   "Aurélien Tchouaméni",
-   "Kylian Mbappé",
-   "Désiré Doué",
+   "Aur\u00e9lien Tchouam\u00e9ni",
+   "Kylian Mbapp\u00e9",
+   "D\u00e9sir\u00e9 Dou\u00e9",
    "Michael Olise"
   ],
   "home_bench": [
-   "N'Golo Kanté",
+   "N'Golo Kant\u00e9",
    "Brice Samba",
    "Lucas Digne",
-   "Warren Zaïre-Emery",
+   "Warren Za\u00efre-Emery",
    "Jean-Philippe Mateta",
    "Robin Risser",
-   "Manu Koné",
-   "Lucas Hernández",
+   "Manu Kon\u00e9",
+   "Lucas Hern\u00e1ndez",
    "Maghnes Akliouche",
    "Rayan Cherki",
    "Maxence Lacroix",
    "Bradley Barcola",
-   "Ibrahima Konaté",
+   "Ibrahima Konat\u00e9",
    "Marcus Thuram",
    "Malo Gusto"
   ],
   "away_formation": "4-2-3-1",
   "away_xi": [
-   "Édouard Mendy",
-   "Moussa Niakhaté",
+   "\u00c9douard Mendy",
+   "Moussa Niakhat\u00e9",
    "Kalidou Koulibaly",
    "El Hadji Malick Diouf",
-   "Krépin Diatta",
+   "Kr\u00e9pin Diatta",
    "Lamine Camara",
    "Pape Gueye",
    "Idrissa Gueye",
    "Nicolas Jackson",
-   "Sadio Mané",
-   "Ismaïla Sarr"
+   "Sadio Man\u00e9",
+   "Isma\u00efla Sarr"
   ],
   "away_bench": [
    "Cherif Ndiaye",
    "Mamadou Sarr",
    "Habib Diarra",
    "Ismail Jakobs",
-   "Pathé Ciss",
+   "Path\u00e9 Ciss",
    "Antoine Mendy",
    "Yehvann Diouf",
    "Bara Sapoko Ndiaye",
@@ -2062,7 +2062,7 @@
    "Assane Diao",
    "Iliman Ndiaye"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Iraq|Norway": {
   "home_formation": "4-4-2",
@@ -2098,17 +2098,17 @@
   ],
   "away_formation": "4-4-2",
   "away_xi": [
-   "Ørjan Nyland",
-   "Torbjørn Heggem",
+   "\u00d8rjan Nyland",
+   "Torbj\u00f8rn Heggem",
    "Kristoffer Ajer",
-   "David Møller Wolfe",
+   "David M\u00f8ller Wolfe",
    "Julian Ryerson",
    "Fredrik Aursnes",
    "Sander Berge",
    "Antonio Nusa",
-   "Martin Ødegaard",
+   "Martin \u00d8degaard",
    "Erling Haaland",
-   "Alexander Sørloth"
+   "Alexander S\u00f8rloth"
   ],
   "away_bench": [
    "Morten Thorsby",
@@ -2116,18 +2116,18 @@
    "Oscar Bobb",
    "Henrik Falchener",
    "Kristian Thorstvedt",
-   "Leo Østigard",
+   "Leo \u00d8stigard",
    "Andreas Schjelderup",
    "Patrick Berg",
    "Thelo Aasgaard",
    "Egil Selvik",
-   "Jørgen Strand Larsen",
+   "J\u00f8rgen Strand Larsen",
    "Sander Tangvik",
    "Jens Petter Hauge",
    "Marcus Holmgren Pedersen",
-   "Fredrik André Bjørkan"
+   "Fredrik Andr\u00e9 Bj\u00f8rkan"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "France|Iraq": {
   "home_formation": "4-2-3-1",
@@ -2136,30 +2136,30 @@
    "William Saliba",
    "Dayot Upamecano",
    "Lucas Digne",
-   "Jules Koundé",
+   "Jules Kound\u00e9",
    "Michael Olise",
    "Adrien Rabiot",
-   "Manu Koné",
-   "Kylian Mbappé",
+   "Manu Kon\u00e9",
+   "Kylian Mbapp\u00e9",
    "Bradley Barcola",
-   "Ousmane Dembélé"
+   "Ousmane Demb\u00e9l\u00e9"
   ],
   "home_bench": [
-   "Warren Zaïre-Emery",
+   "Warren Za\u00efre-Emery",
    "Malo Gusto",
    "Maxence Lacroix",
    "Rayan Cherki",
-   "Désiré Doué",
-   "Ibrahima Konaté",
+   "D\u00e9sir\u00e9 Dou\u00e9",
+   "Ibrahima Konat\u00e9",
    "Jean-Philippe Mateta",
    "Brice Samba",
-   "N'Golo Kanté",
-   "Aurélien Tchouaméni",
-   "Lucas Hernández",
+   "N'Golo Kant\u00e9",
+   "Aur\u00e9lien Tchouam\u00e9ni",
+   "Lucas Hern\u00e1ndez",
    "Robin Risser",
    "Marcus Thuram",
    "Maghnes Akliouche",
-   "Theo Hernández"
+   "Theo Hern\u00e1ndez"
   ],
   "away_formation": "4-1-4-1",
   "away_xi": [
@@ -2192,26 +2192,26 @@
    "Frans Putros",
    "Fahad Talib"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Norway|Senegal": {
   "home_formation": "4-3-3",
   "home_xi": [
-   "Ørjan Nyland",
-   "Torbjørn Heggem",
+   "\u00d8rjan Nyland",
+   "Torbj\u00f8rn Heggem",
    "Kristoffer Ajer",
-   "David Møller Wolfe",
+   "David M\u00f8ller Wolfe",
    "Julian Ryerson",
    "Sander Berge",
    "Fredrik Aursnes",
-   "Martin Ødegaard",
+   "Martin \u00d8degaard",
    "Erling Haaland",
    "Antonio Nusa",
-   "Alexander Sørloth"
+   "Alexander S\u00f8rloth"
   ],
   "home_bench": [
-   "Jørgen Strand Larsen",
-   "Fredrik André Bjørkan",
+   "J\u00f8rgen Strand Larsen",
+   "Fredrik Andr\u00e9 Bj\u00f8rkan",
    "Patrick Berg",
    "Henrik Falchener",
    "Sondre Langas",
@@ -2222,23 +2222,23 @@
    "Marcus Holmgren Pedersen",
    "Sander Tangvik",
    "Kristian Thorstvedt",
-   "Leo Østigard",
+   "Leo \u00d8stigard",
    "Thelo Aasgaard",
    "Oscar Bobb"
   ],
   "away_formation": "4-2-3-1",
   "away_xi": [
-   "Édouard Mendy",
-   "Moussa Niakhaté",
+   "\u00c9douard Mendy",
+   "Moussa Niakhat\u00e9",
    "Kalidou Koulibaly",
    "El Hadji Malick Diouf",
-   "Krépin Diatta",
+   "Kr\u00e9pin Diatta",
    "Lamine Camara",
    "Pape Gueye",
    "Idrissa Gueye",
    "Nicolas Jackson",
-   "Sadio Mané",
-   "Ismaïla Sarr"
+   "Sadio Man\u00e9",
+   "Isma\u00efla Sarr"
   ],
   "away_bench": [
    "Habib Diarra",
@@ -2248,7 +2248,7 @@
    "Abdoulaye Seck",
    "Ismail Jakobs",
    "Mamadou Sarr",
-   "Pathé Ciss",
+   "Path\u00e9 Ciss",
    "Iliman Ndiaye",
    "Yehvann Diouf",
    "Ibrahim Mbaye",
@@ -2257,61 +2257,61 @@
    "Assane Diao",
    "Cherif Ndiaye"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Argentina|Algeria": {
   "home_formation": "4-4-2",
   "home_xi": [
-   "Emiliano Martínez",
-   "Lisandro Martínez",
+   "Emiliano Mart\u00ednez",
+   "Lisandro Mart\u00ednez",
    "Cristian Romero",
    "Facundo Medina",
    "Gonzalo Montiel",
-   "Enzo Fernández",
+   "Enzo Fern\u00e1ndez",
    "Alexis Mac Allister",
    "Thiago Almada",
    "Rodrigo De Paul",
-   "Lautaro Martínez",
+   "Lautaro Mart\u00ednez",
    "Lionel Messi"
   ],
   "home_bench": [
-   "Nicolás Tagliafico",
+   "Nicol\u00e1s Tagliafico",
    "Giovani Lo Celso",
    "Juan Musso",
    "Giuliano Simeone",
    "Leandro Paredes",
-   "Valentín Barco",
-   "Julián Álvarez",
-   "Nico González",
+   "Valent\u00edn Barco",
+   "Juli\u00e1n \u00c1lvarez",
+   "Nico Gonz\u00e1lez",
    "Nahuel Molina",
    "Nico Paz",
-   "José Manuel López",
+   "Jos\u00e9 Manuel L\u00f3pez",
    "Marcos Senesi",
-   "Gerónimo Rulli",
-   "Nicolás Otamendi",
+   "Ger\u00f3nimo Rulli",
+   "Nicol\u00e1s Otamendi",
    "Exequiel Palacios"
   ],
   "away_formation": "4-3-3",
   "away_xi": [
    "Luca Zidane",
    "Ramy Bensebaini",
-   "Aïssa Mandi",
-   "Rayan Aït-Nouri",
+   "A\u00efssa Mandi",
+   "Rayan A\u00eft-Nouri",
    "Rafik Belghali",
    "Nabil Bentaleb",
    "Ibrahim Maza",
    "Hicham Boudaoui",
    "Amine Gouiri",
-   "Farès Chaïbi",
+   "Far\u00e8s Cha\u00efbi",
    "Anis Hadj Moussa"
   ],
   "away_bench": [
    "Riyad Mahrez",
    "Nadhir Benbouali",
    "Jaouen Hadjam",
-   "Zineddine Belaïd",
+   "Zineddine Bela\u00efd",
    "Melvin Mastil",
-   "Farès Ghedjemis",
+   "Far\u00e8s Ghedjemis",
    "Mohamed Amine Tougai",
    "Houssem Aouar",
    "Yassine Titraoui",
@@ -2322,7 +2322,7 @@
    "Oussama Benbot",
    "Ramiz Zerrouki"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Austria|Jordan": {
   "home_formation": "4-2-3-1",
@@ -2352,7 +2352,7 @@
    "Marko Arnautovic",
    "Michael Svoboda",
    "David Affengruber",
-   "Alessandro Schöpf",
+   "Alessandro Sch\u00f6pf",
    "Patrick Wimmer",
    "Kevin Danso"
   ],
@@ -2387,37 +2387,37 @@
    "Mohammed Abu Zraiq",
    "Ali Azaizeh"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Argentina|Austria": {
   "home_formation": "4-4-2",
   "home_xi": [
-   "Emiliano Martínez",
-   "Lisandro Martínez",
+   "Emiliano Mart\u00ednez",
+   "Lisandro Mart\u00ednez",
    "Cristian Romero",
    "Facundo Medina",
    "Nahuel Molina",
-   "Enzo Fernández",
+   "Enzo Fern\u00e1ndez",
    "Alexis Mac Allister",
    "Thiago Almada",
    "Rodrigo De Paul",
-   "Lautaro Martínez",
+   "Lautaro Mart\u00ednez",
    "Lionel Messi"
   ],
   "home_bench": [
-   "Gerónimo Rulli",
-   "Valentín Barco",
+   "Ger\u00f3nimo Rulli",
+   "Valent\u00edn Barco",
    "Nico Paz",
-   "Julián Álvarez",
+   "Juli\u00e1n \u00c1lvarez",
    "Marcos Senesi",
    "Gonzalo Montiel",
    "Leandro Paredes",
    "Giuliano Simeone",
-   "Nico González",
-   "Nicolás Otamendi",
-   "Nicolás Tagliafico",
+   "Nico Gonz\u00e1lez",
+   "Nicol\u00e1s Otamendi",
+   "Nicol\u00e1s Tagliafico",
    "Exequiel Palacios",
-   "José Manuel López",
+   "Jos\u00e9 Manuel L\u00f3pez",
    "Giovani Lo Celso",
    "Juan Musso"
   ],
@@ -2441,7 +2441,7 @@
    "Marco Friedl",
    "Florian Wiegele",
    "Phillipp Mwene",
-   "Alessandro Schöpf",
+   "Alessandro Sch\u00f6pf",
    "David Affengruber",
    "Dejan Ljubicic",
    "Patrick Pentz",
@@ -2452,7 +2452,7 @@
    "Sasa Kalajdzic",
    "Marko Arnautovic"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Jordan|Algeria": {
   "home_formation": "3-4-2-1",
@@ -2490,20 +2490,20 @@
   "away_xi": [
    "Luca Zidane",
    "Ramy Bensebaini",
-   "Aïssa Mandi",
-   "Rayan Aït-Nouri",
+   "A\u00efssa Mandi",
+   "Rayan A\u00eft-Nouri",
    "Rafik Belghali",
    "Ibrahim Maza",
    "Ramiz Zerrouki",
    "Hicham Boudaoui",
    "Amine Gouiri",
-   "Farès Chaïbi",
+   "Far\u00e8s Cha\u00efbi",
    "Riyad Mahrez"
   ],
   "away_bench": [
    "Mohamed Amine Tougai",
-   "Zineddine Belaïd",
-   "Farès Ghedjemis",
+   "Zineddine Bela\u00efd",
+   "Far\u00e8s Ghedjemis",
    "Anis Hadj Moussa",
    "Oussama Benbot",
    "Achraf Abada",
@@ -2516,39 +2516,39 @@
    "Samir Chergui",
    "Melvin Mastil"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Portugal|DR Congo": {
   "home_formation": "4-2-3-1",
   "home_xi": [
    "Diogo Costa",
    "Renato Veiga",
-   "Tomás Araújo",
+   "Tom\u00e1s Ara\u00fajo",
    "Nuno Mendes",
-   "João Cancelo",
+   "Jo\u00e3o Cancelo",
    "Bruno Fernandes",
    "Vitinha ",
-   "João Neves",
+   "Jo\u00e3o Neves",
    "Cristiano Ronaldo",
    "Pedro Neto",
    "Bernardo Silva"
   ],
   "home_bench": [
-   "Gonçalo Inácio",
-   "Samú Costa",
-   "Rúben Dias",
-   "João Félix",
-   "José Sá",
+   "Gon\u00e7alo In\u00e1cio",
+   "Sam\u00fa Costa",
+   "R\u00faben Dias",
+   "Jo\u00e3o F\u00e9lix",
+   "Jos\u00e9 S\u00e1",
    "Matheus Nunes",
-   "Francisco Trincão",
-   "Rúben Neves",
-   "Francisco Conceição",
-   "Nélson Semedo",
-   "Gonçalo Ramos",
+   "Francisco Trinc\u00e3o",
+   "R\u00faben Neves",
+   "Francisco Concei\u00e7\u00e3o",
+   "N\u00e9lson Semedo",
+   "Gon\u00e7alo Ramos",
    "Rui Silva",
-   "Rafael Leão",
+   "Rafael Le\u00e3o",
    "Diogo Dalot",
-   "Gonçalo Guedes"
+   "Gon\u00e7alo Guedes"
   ],
   "away_formation": "5-3-2",
   "away_xi": [
@@ -2561,27 +2561,27 @@
    "Samuel Moutoussamy",
    "Edo Kayembe",
    "Ngal'ayel Mukau",
-   "Cédric Bakambu",
+   "C\u00e9dric Bakambu",
    "Yoane Wissa"
   ],
   "away_bench": [
    "Joris Kayembe",
-   "Théo Bongonda",
+   "Th\u00e9o Bongonda",
    "Brian Cipenga",
-   "Gédéon Kalulu",
+   "G\u00e9d\u00e9on Kalulu",
    "Timothy Fayulu",
    "Simon Banza",
    "Noah Sadiki",
    "Matthieu Epolo",
    "Aaron Tshibola",
-   "Nathanaël Mbuku",
+   "Nathana\u00ebl Mbuku",
    "Dylan Batubinsika",
    "Fiston Mayele",
-   "Gaël Kakuta",
+   "Ga\u00ebl Kakuta",
    "Charles Pickel",
    "Meschack Elia"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Uzbekistan|Colombia": {
   "home_formation": "3-4-2-1",
@@ -2618,67 +2618,67 @@
   "away_formation": "4-3-3",
   "away_xi": [
    "Camilo Vargas",
-   "Jhon Lucumí",
-   "Davinson Sánchez",
+   "Jhon Lucum\u00ed",
+   "Davinson S\u00e1nchez",
    "Johan Mojica",
-   "Daniel Muñoz",
+   "Daniel Mu\u00f1oz",
    "Jefferson Lerma",
    "Jhon Arias",
    "Gustavo Puerta",
-   "Luis Suárez",
-   "Luis Díaz",
-   "James Rodríguez"
+   "Luis Su\u00e1rez",
+   "Luis D\u00edaz",
+   "James Rodr\u00edguez"
   ],
   "away_bench": [
    "David Ospina",
    "Yerry Mina",
    "Juan Fernando Quintero",
-   "Jhon Córdoba",
+   "Jhon C\u00f3rdoba",
    "Willer Ditta",
-   "Álvaro Montero",
+   "\u00c1lvaro Montero",
    "Santiago Arias",
-   "Jáminton Campaz",
+   "J\u00e1minton Campaz",
    "Deiver Machado",
-   "Kevin Castaño",
+   "Kevin Casta\u00f1o",
    "Juan Portilla",
    "Jorge Carrascal",
-   "Andrés Gómez",
-   "Richard Ríos",
-   "Cucho Hernández"
+   "Andr\u00e9s G\u00f3mez",
+   "Richard R\u00edos",
+   "Cucho Hern\u00e1ndez"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Portugal|Uzbekistan": {
   "home_formation": "4-2-3-1",
   "home_xi": [
    "Diogo Costa",
    "Renato Veiga",
-   "Rúben Dias",
+   "R\u00faben Dias",
    "Nuno Mendes",
-   "João Cancelo",
+   "Jo\u00e3o Cancelo",
    "Bruno Fernandes",
    "Vitinha ",
-   "João Neves",
+   "Jo\u00e3o Neves",
    "Cristiano Ronaldo",
-   "João Félix",
+   "Jo\u00e3o F\u00e9lix",
    "Pedro Neto"
   ],
   "home_bench": [
-   "José Sá",
-   "Nélson Semedo",
+   "Jos\u00e9 S\u00e1",
+   "N\u00e9lson Semedo",
    "Bernardo Silva",
-   "Francisco Trincão",
-   "Rúben Neves",
-   "Gonçalo Inácio",
-   "Rafael Leão",
+   "Francisco Trinc\u00e3o",
+   "R\u00faben Neves",
+   "Gon\u00e7alo In\u00e1cio",
+   "Rafael Le\u00e3o",
    "Rui Silva",
-   "Samú Costa",
+   "Sam\u00fa Costa",
    "Diogo Dalot",
    "Matheus Nunes",
-   "Gonçalo Ramos",
-   "Gonçalo Guedes",
-   "Francisco Conceição",
-   "Tomás Araújo"
+   "Gon\u00e7alo Ramos",
+   "Gon\u00e7alo Guedes",
+   "Francisco Concei\u00e7\u00e3o",
+   "Tom\u00e1s Ara\u00fajo"
   ],
   "away_formation": "3-4-2-1",
   "away_xi": [
@@ -2711,39 +2711,39 @@
    "Farrukh Sayfiev",
    "Sherzod Esanov"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Colombia|DR Congo": {
   "home_formation": "4-3-3",
   "home_xi": [
    "Camilo Vargas",
-   "Jhon Lucumí",
-   "Davinson Sánchez",
+   "Jhon Lucum\u00ed",
+   "Davinson S\u00e1nchez",
    "Johan Mojica",
-   "Daniel Muñoz",
+   "Daniel Mu\u00f1oz",
    "Jefferson Lerma",
    "Jhon Arias",
    "Gustavo Puerta",
-   "Luis Suárez",
-   "Luis Díaz",
-   "James Rodríguez"
+   "Luis Su\u00e1rez",
+   "Luis D\u00edaz",
+   "James Rodr\u00edguez"
   ],
   "home_bench": [
    "Deiver Machado",
-   "Jhon Córdoba",
+   "Jhon C\u00f3rdoba",
    "Yerry Mina",
-   "Kevin Castaño",
+   "Kevin Casta\u00f1o",
    "Juan Portilla",
    "Willer Ditta",
    "Jorge Carrascal",
    "Juan Fernando Quintero",
    "Santiago Arias",
-   "Jáminton Campaz",
-   "Richard Ríos",
+   "J\u00e1minton Campaz",
+   "Richard R\u00edos",
    "David Ospina",
-   "Andrés Gómez",
-   "Álvaro Montero",
-   "Cucho Hernández"
+   "Andr\u00e9s G\u00f3mez",
+   "\u00c1lvaro Montero",
+   "Cucho Hern\u00e1ndez"
   ],
   "away_formation": "5-3-2",
   "away_xi": [
@@ -2757,17 +2757,17 @@
    "Edo Kayembe",
    "Ngal'ayel Mukau",
    "Yoane Wissa",
-   "Cédric Bakambu"
+   "C\u00e9dric Bakambu"
   ],
   "away_bench": [
    "Joris Kayembe",
    "Matthieu Epolo",
-   "Nathanaël Mbuku",
-   "Gédéon Kalulu",
+   "Nathana\u00ebl Mbuku",
+   "G\u00e9d\u00e9on Kalulu",
    "Timothy Fayulu",
    "Dylan Batubinsika",
-   "Théo Bongonda",
-   "Gaël Kakuta",
+   "Th\u00e9o Bongonda",
+   "Ga\u00ebl Kakuta",
    "Brian Cipenga",
    "Aaron Tshibola",
    "Noah Sadiki",
@@ -2776,7 +2776,7 @@
    "Meschack Elia",
    "Simon Banza"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "England|Croatia": {
   "home_formation": "4-2-3-1",
@@ -2804,7 +2804,7 @@
    "Djed Spence",
    "Dan Burn",
    "James Trafford",
-   "Marc Guéhi",
+   "Marc Gu\u00e9hi",
    "Dean Henderson",
    "Marcus Rashford",
    "Bukayo Saka"
@@ -2840,7 +2840,7 @@
    "Marco Pasalic",
    "Ivor Pandur"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Ghana|Panama": {
   "home_formation": "4-3-3",
@@ -2866,7 +2866,7 @@
    "Benjamin Asare",
    "Christopher Bonsu Baah",
    "Brandon Thomas-Asante",
-   "Iñaki Williams",
+   "I\u00f1aki Williams",
    "Fatawu Issahaku",
    "Kwasi Sibo",
    "Abdul Mumin",
@@ -2876,41 +2876,41 @@
   "away_formation": "3-4-3",
   "away_xi": [
    "Orlando Mosquera",
-   "José Córdoba",
-   "Andrés Andrade",
+   "Jos\u00e9 C\u00f3rdoba",
+   "Andr\u00e9s Andrade",
    "Jiovany Ramos",
-   "Édgar Yoel Bárcenas",
+   "\u00c9dgar Yoel B\u00e1rcenas",
    "Carlos Harvey",
-   "César Blackman",
+   "C\u00e9sar Blackman",
    "Amir Murillo",
    "Cecilio Waterman",
-   "José Luis Rodríguez",
-   "Cristian Martínez"
+   "Jos\u00e9 Luis Rodr\u00edguez",
+   "Cristian Mart\u00ednez"
   ],
   "away_bench": [
-   "Éric Davis",
-   "Azarias Londoño",
-   "Ismael Díaz",
+   "\u00c9ric Davis",
+   "Azarias Londo\u00f1o",
+   "Ismael D\u00edaz",
    "Roderick Miller",
    "Alberto Quintero",
-   "José Fajardo",
+   "Jos\u00e9 Fajardo",
    "Adalberto Carrasquilla",
-   "César Yanis",
-   "Jorge Gutiérrez",
-   "Aníbal Godoy",
-   "César Samudio",
+   "C\u00e9sar Yanis",
+   "Jorge Guti\u00e9rrez",
+   "An\u00edbal Godoy",
+   "C\u00e9sar Samudio",
    "Fidel Escobar",
-   "Edgardo Fariña",
-   "Tomás Rodríguez",
-   "Luis Mejía"
+   "Edgardo Fari\u00f1a",
+   "Tom\u00e1s Rodr\u00edguez",
+   "Luis Mej\u00eda"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "England|Ghana": {
   "home_formation": "4-2-3-1",
   "home_xi": [
    "Jordan Pickford",
-   "Marc Guéhi",
+   "Marc Gu\u00e9hi",
    "Ezri Konsa",
    "Djed Spence",
    "Reece James",
@@ -2949,7 +2949,7 @@
    "Kwasi Sibo",
    "Caleb Yirenkyi",
    "Antoine Semenyo",
-   "Iñaki Williams",
+   "I\u00f1aki Williams",
    "Jordan Ayew"
   ],
   "away_bench": [
@@ -2969,39 +2969,39 @@
    "Lawrence Ati Zigi",
    "Fatawu Issahaku"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
  },
  "Panama|Croatia": {
   "home_formation": "5-4-1",
   "home_xi": [
    "Orlando Mosquera",
-   "José Córdoba",
-   "Andrés Andrade",
+   "Jos\u00e9 C\u00f3rdoba",
+   "Andr\u00e9s Andrade",
    "Jiovany Ramos",
-   "César Blackman",
+   "C\u00e9sar Blackman",
    "Amir Murillo",
-   "Édgar Yoel Bárcenas",
+   "\u00c9dgar Yoel B\u00e1rcenas",
    "Carlos Harvey",
-   "José Luis Rodríguez",
-   "Cristian Martínez",
-   "José Fajardo"
+   "Jos\u00e9 Luis Rodr\u00edguez",
+   "Cristian Mart\u00ednez",
+   "Jos\u00e9 Fajardo"
   ],
   "home_bench": [
-   "César Yanis",
+   "C\u00e9sar Yanis",
    "Adalberto Carrasquilla",
    "Fidel Escobar",
-   "Aníbal Godoy",
+   "An\u00edbal Godoy",
    "Roderick Miller",
    "Alberto Quintero",
-   "César Samudio",
-   "Ismael Díaz",
-   "Éric Davis",
-   "Edgardo Fariña",
-   "Luis Mejía",
-   "Tomás Rodríguez",
-   "Jorge Gutiérrez",
+   "C\u00e9sar Samudio",
+   "Ismael D\u00edaz",
+   "\u00c9ric Davis",
+   "Edgardo Fari\u00f1a",
+   "Luis Mej\u00eda",
+   "Tom\u00e1s Rodr\u00edguez",
+   "Jorge Guti\u00e9rrez",
    "Cecilio Waterman",
-   "Azarias Londoño"
+   "Azarias Londo\u00f1o"
   ],
   "away_formation": "4-2-3-1",
   "away_xi": [
@@ -3034,6 +3034,260 @@
    "Luka Sucic",
    "Ivor Pandur"
   ],
-  "source": "ESPN (compos réelles)"
+  "source": "ESPN (compos r\u00e9elles)"
+ },
+ "Czech Republic|Mexico": {
+  "home_formation": "3-4-2-1",
+  "home_xi": [
+   "Matej Kov\u00e1r",
+   "Robin Hran\u00e1c",
+   "Ladislav Krejc\u00ed",
+   "Tom\u00e1s Holes",
+   "Michal Sad\u00edlek",
+   "Luk\u00e1s Cerv",
+   "David Doudera",
+   "Vladim\u00edr Coufal",
+   "Adam Hlozek",
+   "Denis Visinsk\u00fd",
+   "Pavel Sulc"
+  ],
+  "home_bench": [
+   "Luk\u00e1s Provod",
+   "David Zima",
+   "Jaroslav Zelen\u00fd",
+   "Luk\u00e1s Horn\u00edcek",
+   "Hugo Sochurek",
+   "Tom\u00e1s Chor\u00fd",
+   "Step\u00e1n Chaloupek",
+   "Patrik Schick",
+   "Jan Kuchta",
+   "Mojm\u00edr Chytil",
+   "Tom\u00e1s Soucek",
+   "Vladim\u00edr Darida",
+   "Jindrich Stanek",
+   "Alexandr Sojka"
+  ],
+  "away_formation": "4-3-3",
+  "away_xi": [
+   "Ra\u00fal Rangel",
+   "Israel Reyes",
+   "C\u00e9sar Montes",
+   "Mateo Ch\u00e1vez",
+   "Jorge S\u00e1nchez",
+   "Edson \u00c1lvarez",
+   "Luis Romo",
+   "Gilberto Mora",
+   "Guillermo Mart\u00ednez",
+   "Juli\u00e1n Qui\u00f1ones",
+   "Roberto Alvarado"
+  ],
+  "away_bench": [
+   "Jes\u00fas Gallardo",
+   "Johan V\u00e1squez",
+   "Orbel\u00edn Pineda",
+   "\u00c9rik Lira",
+   "C\u00e9sar Huerta",
+   "Ra\u00fal Jim\u00e9nez",
+   "Luis Ch\u00e1vez",
+   "Armando Gonz\u00e1lez",
+   "Alexis Vega",
+   "Guillermo Ochoa",
+   "Obed Vargas",
+   "Brian Guti\u00e9rrez",
+   "\u00c1lvaro Fidalgo",
+   "Santiago Gimenez",
+   "Carlos Acevedo"
+  ],
+  "source": "ESPN (compos r\u00e9elles)"
+ },
+ "South Africa|South Korea": {
+  "home_formation": "4-2-3-1",
+  "home_xi": [
+   "Ronwen Williams",
+   "Mbekezeli Mbokazi",
+   "Ime Okon",
+   "Aubrey Modiba",
+   "Khuliso Mudau",
+   "Relebohile Mofokeng",
+   "Sphephelo Sithole",
+   "Thalente Mbatha",
+   "Evidence Makgopa",
+   "Oswin Appollis",
+   "Thapelo Maseko"
+  ],
+  "home_bench": [
+   "Lyle Foster",
+   "Olwethu Makhanya",
+   "Khulumani Ndamane",
+   "Bradley Cross",
+   "Ricardo Goss",
+   "Thabang Matuludi",
+   "Nkosinathi Sibisi",
+   "Samukele Kabini",
+   "Sipho Chaine",
+   "Tshepang Moremi",
+   "Kamogelo Sebelebele",
+   "Jayden Adams",
+   "Iqraam Rayners"
+  ],
+  "away_formation": "4-2-3-1",
+  "away_xi": [
+   "Ronwen Williams",
+   "Mbekezeli Mbokazi",
+   "Ime Okon",
+   "Aubrey Modiba",
+   "Khuliso Mudau",
+   "Relebohile Mofokeng",
+   "Sphephelo Sithole",
+   "Thalente Mbatha",
+   "Evidence Makgopa",
+   "Oswin Appollis",
+   "Thapelo Maseko"
+  ],
+  "away_bench": [
+   "Lyle Foster",
+   "Olwethu Makhanya",
+   "Khulumani Ndamane",
+   "Bradley Cross",
+   "Ricardo Goss",
+   "Thabang Matuludi",
+   "Nkosinathi Sibisi",
+   "Samukele Kabini",
+   "Sipho Chaine",
+   "Tshepang Moremi",
+   "Kamogelo Sebelebele",
+   "Jayden Adams",
+   "Iqraam Rayners"
+  ],
+  "source": "ESPN (compos r\u00e9elles)"
+ },
+ "Morocco|Haiti": {
+  "home_formation": "4-2-3-1",
+  "home_xi": [
+   "Yassine Bounou",
+   "Chadi Riad",
+   "Redouane Halhal",
+   "Anass Salah-Eddine",
+   "Achraf Hakimi",
+   "Ismael Saibari",
+   "Sofyan Amrabat",
+   "Neil El Aynaoui",
+   "Ayoub El Kaabi",
+   "Bilal El Khannouss",
+   "Brahim D\u00edaz"
+  ],
+  "home_bench": [
+   "Chemsdine Talbi",
+   "Gessime Yassine",
+   "Noussair Mazraoui",
+   "Ayyoub Bouaddi",
+   "Samir El Mourabet",
+   "Ahmed Reda Tagnaouti",
+   "Munir El Kajoui",
+   "Youssef Belammari",
+   "Zakaria El Ouahdi",
+   "Soufiane Rahimi",
+   "Issa Diop",
+   "Marwane Saadane",
+   "Amine Sba\u00ef",
+   "Azzedine Ounahi",
+   "Ayoube Amaimouni"
+  ],
+  "away_formation": "4-4-1-1",
+  "away_xi": [
+   "Johny Placide",
+   "Hannes Delcroix",
+   "Ricardo Ad\u00e9",
+   "Martin Exp\u00e9rience",
+   "Jean-K\u00e9vin Duverne",
+   "Jean-Ricner Bellegarde",
+   "Danley Jean Jacques",
+   "Ruben Providence",
+   "Josu\u00e9 Casimir",
+   "Lenny Joseph",
+   "Wilson Isidor"
+  ],
+  "away_bench": [
+   "Keeto Thermoncy",
+   "Woodensky Pierre",
+   "Yassin Fortun\u00e9",
+   "Wilguens Paugain",
+   "Dominique Simon",
+   "Duckens Nazon",
+   "Derrick Etienne Jr.",
+   "Carlens Arcus",
+   "Garven Metusala",
+   "Alexandre Pierre",
+   "Louicius Deedson",
+   "Markhus Lacroix",
+   "Josu\u00e9 Duverger",
+   "Carl Saint\u00e9",
+   "Frantzdy Pierrot"
+  ],
+  "source": "ESPN (compos r\u00e9elles)"
+ },
+ "Scotland|Brazil": {
+  "home_formation": "4-2-3-1",
+  "home_xi": [
+   "Angus Gunn",
+   "Scott McKenna",
+   "Jack Hendry",
+   "Andy Robertson",
+   "Nathan Patterson",
+   "Scott McTominay",
+   "Kenny McLean",
+   "Lewis Ferguson",
+   "Lawrence Shankland",
+   "John McGinn",
+   "Ben Gannon-Doak"
+  ],
+  "home_bench": [
+   "George Hirst",
+   "Dominic Hyam",
+   "Ch\u00e9 Adams",
+   "John Souttar",
+   "Liam Kelly",
+   "Grant Hanley",
+   "Ross Stewart",
+   "Anthony Ralston",
+   "Ryan Christie",
+   "Lyndon Dykes",
+   "Kieran Tierney",
+   "Craig Gordon",
+   "Aaron Hickey",
+   "Tyler Fletcher",
+   "Findlay Curtis"
+  ],
+  "away_formation": "4-3-3",
+  "away_xi": [
+   "Alisson Becker",
+   "Gabriel Magalh\u00e3es",
+   "Marquinhos",
+   "Douglas Santos",
+   "Danilo",
+   "Casemiro",
+   "Lucas Paquet\u00e1",
+   "Bruno Guimar\u00e3es",
+   "Matheus Cunha",
+   "Vin\u00edcius J\u00fanior",
+   "Rayan"
+  ],
+  "away_bench": [
+   "Fabinho",
+   "Igor Thiago",
+   "Luiz Henrique",
+   "Ederson ",
+   "Danilo Santos",
+   "Roger Iba\u00f1ez",
+   "L\u00e9o Pereira",
+   "Weverton",
+   "Neymar",
+   "Endrick",
+   "Gabriel Martinelli",
+   "Alex Sandro",
+   "\u00c9derson",
+   "Bremer"
+  ],
+  "source": "ESPN (compos r\u00e9elles)"
  }
 }

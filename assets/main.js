@@ -997,7 +997,7 @@ function probBlock(m,p){
   
   const marketsHtml = [marketsBlock(m,p), shotsBlock(m,p), cornersBlock(m,p), cardsBlock(m,p)].filter(Boolean).join('');
   const scenHalftime = [halftimeBlock(m,p), scenariosBlock(m,p)].filter(Boolean).join('');
-  const contextHtml = [h2hBlock(m), contextBlock(m,p), oddsBlock(m,p)].filter(Boolean).join('');
+  const contextHtml = [refereeBlock(p), h2hBlock(m), contextBlock(m,p), oddsBlock(m,p)].filter(Boolean).join('');
   const propsHtml = playerPropsBlock(m,p) || '';
   
   return `${formRow(m)}
@@ -1019,6 +1019,19 @@ function probBlock(m,p){
     ${accordion('Pronostics Joueurs', propsHtml, 8, '👤')}
     ${accordion('Contexte & Historique', contextHtml, 9, '📊')}
   `;
+}
+
+/* ===== ARBITRE ===== */
+function refereeBlock(p) {
+  if (!p || !p.referee || !p.referee.name) return "";
+  const r = p.referee;
+  return `<div style="margin:12px 0; padding:10px; background:var(--card-bg); border-left:4px solid #ffd34e; border-radius:4px;">
+    <h3 style="color:#ffd34e; margin-bottom:4px; display:flex; align-items:center; gap:6px;">🧑‍⚖️ Arbitre : ${r.name} ${r.nation ? '('+r.nation+')' : ''}</h3>
+    <ul style="margin:0; padding-left:20px; font-size:13px; color:var(--muted);">
+      <li>Sévérité relative : <b>${r.severity?.toFixed(2) || 'N/D'}</b> <small>(${r.severitySrc || ''})</small></li>
+      <li>Cartons par match : <b>${r.cardsAvg || 'N/D'}</b></li>
+    </ul>
+  </div>`;
 }
 
 /* ===== HEAD-TO-HEAD (confrontations directes réelles ESPN) ===== */

@@ -1,67 +1,68 @@
 {
-  "sampleWithOdds": 37,
+  "sampleWithOdds": 41,
   "favorite": {
-    "bets": 37,
-    "wins": 27,
-    "winRate": 73,
-    "pnl": 5.17,
-    "yield": 14.0
+    "bets": 41,
+    "wins": 31,
+    "winRate": 76,
+    "pnl": 9.47,
+    "yield": 23.1
   },
   "value": {
-    "bets": 73,
-    "wins": 41,
-    "winRate": 56,
-    "pnl": 0.2,
-    "yield": 0.3
+    "bets": 80,
+    "wins": 48,
+    "winRate": 60,
+    "pnl": 9.69,
+    "yield": 12.1
   },
   "valueStrict": {
-    "bets": 42,
-    "wins": 26,
-    "winRate": 62,
-    "pnl": 1.72,
-    "yield": 4.1
+    "bets": 52,
+    "wins": 34,
+    "winRate": 65,
+    "pnl": 10.8,
+    "yield": 20.8
   },
   "topValue": [
     {
-      "home": "Morocco",
-      "away": "Haiti",
-      "date": "2026-06-24 18:00 UTC-4",
-      "label": "Plus de 2.5 buts",
-      "prob": 0.8793,
-      "odd": 1.571,
-      "implied": 0.6365,
-      "edge": 0.2428,
-      "ev": 0.381,
+      "home": "Japan",
+      "away": "Sweden",
+      "date": "2026-06-25 18:00 UTC-5",
+      "label": "Victoire Japan",
+      "prob": 0.8373,
+      "odd": 2.05,
+      "implied": 0.4878,
+      "edge": 0.3495,
+      "ev": 0.716,
       "provider": "DraftKings",
-      "market": "O/U"
+      "market": "1N2",
+      "lineMovement": -0.05
     },
     {
       "home": "Ecuador",
       "away": "Germany",
       "date": "2026-06-25 16:00 UTC-4",
       "label": "Victoire Germany",
-      "prob": 0.6876,
+      "prob": 0.7067,
       "odd": 1.952,
       "implied": 0.5123,
-      "edge": 0.1753,
-      "ev": 0.342,
+      "edge": 0.1944,
+      "ev": 0.379,
       "provider": "DraftKings",
       "market": "1N2",
       "lineMovement": -1.898
     },
     {
-      "home": "Czech Republic",
-      "away": "Mexico",
-      "date": "2026-06-24 19:00 UTC-6",
-      "label": "Victoire Mexico",
-      "prob": 0.6743,
-      "odd": 1.952,
-      "implied": 0.5123,
-      "edge": 0.162,
-      "ev": 0.316,
+      "home": "Turkey",
+      "away": "USA",
+      "date": "2026-06-25 19:00 UTC-7",
+      "label": "Match nul",
+      "prob": 0.3477,
+      "odd": 4.0,
+      "implied": 0.25,
+      "edge": 0.0977,
+      "ev": 0.391,
       "provider": "DraftKings",
       "market": "1N2",
-      "lineMovement": -1.698
+      "lineMovement": 0.3
     }
   ]
 }

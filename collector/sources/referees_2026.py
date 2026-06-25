@@ -48,6 +48,13 @@ ASSIGNMENTS = {
     ("South Africa", "South Korea"):       ("Facundo Tello", "Argentine"),
     ("Czech Republic", "Mexico"):          ("Yael Falcón Pérez", "Argentine"),
     ("Scotland", "Brazil"):                ("César Arturo Ramos", "Mexique"),
+    # --- Ajout manuel pour la journée du 25 Juin 2026 ---
+    ("Curaçao", "Ivory Coast"):            ("Maurizio Mariani", "Italie"),
+    ("Ecuador", "Germany"):                ("Slavko Vinčić", "Slovénie"),
+    ("Japan", "Sweden"):                   ("Alireza Faghani", "Australie"),
+    ("Paraguay", "Australia"):             ("Ismail Elfath", "États-Unis"),
+    ("Tunisia", "Netherlands"):            ("Glenn Nyberg", "Suède"),
+    ("Turkey", "USA"):                     ("François Letexier", "France"),
 }
 # Sévérité connue de quelques arbitres = cartons TOTAUX par match (jaunes + rouges)
 # sur leur saison/carrière récente. Sources : statshub, soccerbase, worldfootball (2025-26).
