@@ -875,6 +875,76 @@ function teamStatsBlock(m){
     ${rows}</div>`;
 }
 
+/* ===== NLP MOMENTUM BLOCK (Live uniquement) ===== */
+function nlpMomentumBlock(m) {
+  const nlp = m.nlpMomentum;
+  if (!nlp) return "";
+
+  const homeM = nlp.homeMomentum || 0;   // [-1, +1]
+  const awayM = nlp.awayMomentum || 0;
+  const dom   = nlp.dominance || "balanced";
+  const urgency = nlp.urgencyDetected;
+
+  // Barres de momentum : on convertit [-1,+1] → [0%,100%]
+  const homePct  = Math.round((homeM + 1) / 2 * 100);   // 0%=dominé, 100%=dominant
+  const awayPct  = Math.round((awayM + 1) / 2 * 100);
+
+  // Couleurs selon dominance
+  const hCol = dom === "home"  ? "#4fc3f7"
+             : dom === "away"  ? "#607d8b"
+             :                   "#78909c";
+  const aCol = dom === "away"  ? "#f06292"
+             : dom === "home"  ? "#607d8b"
+             :                   "#78909c";
+
+  const domLabel = dom === "home"  ? `🏠 <b>${m.home}</b> domine`
+                 : dom === "away"  ? `✈️ <b>${m.away}</b> domine`
+                 :                   "⚖️ Équilibre";
+
+  const urgencyBadge = urgency
+    ? `<span style="background:#ff3c00;color:#fff;padding:2px 7px;border-radius:10px;font-size:11px;margin-left:8px;">⚡ Urgence</span>`
+    : "";
+
+  const lamH = nlp.homeLambdaAdj ? `×${nlp.homeLambdaAdj.toFixed(2)}` : "";
+  const lamA = nlp.awayLambdaAdj ? `×${nlp.awayLambdaAdj.toFixed(2)}` : "";
+
+  return `
+  <div style="margin:14px 0;padding:12px 14px;background:rgba(30,40,60,0.7);border:1px solid rgba(79,195,247,0.25);border-radius:8px;">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;">
+      <span style="font-size:13px;font-weight:700;color:#90caf9;display:flex;align-items:center;gap:6px;">
+        🧠 Momentum NLP (ESPN live)
+      </span>
+      <span style="font-size:12px;color:#aaa;">${domLabel}${urgencyBadge}</span>
+    </div>
+
+    <!-- Barre home -->
+    <div style="margin-bottom:7px;">
+      <div style="display:flex;justify-content:space-between;font-size:12px;color:#ccc;margin-bottom:3px;">
+        <span>${m.home}</span>
+        <span style="color:${hCol};font-weight:700;">${lamH}</span>
+      </div>
+      <div style="background:rgba(255,255,255,0.08);border-radius:4px;height:7px;overflow:hidden;">
+        <div style="height:100%;width:${homePct}%;background:${hCol};border-radius:4px;transition:width .5s;"></div>
+      </div>
+    </div>
+
+    <!-- Barre away -->
+    <div>
+      <div style="display:flex;justify-content:space-between;font-size:12px;color:#ccc;margin-bottom:3px;">
+        <span>${m.away}</span>
+        <span style="color:${aCol};font-weight:700;">${lamA}</span>
+      </div>
+      <div style="background:rgba(255,255,255,0.08);border-radius:4px;height:7px;overflow:hidden;">
+        <div style="height:100%;width:${awayPct}%;background:${aCol};border-radius:4px;transition:width .5s;"></div>
+      </div>
+    </div>
+
+    <div style="margin-top:8px;font-size:11px;color:#607d8b;">
+      Analyse textuelle des ${nlp.signalsCount || 0} signaux ESPN · ajuste λ Poisson en temps réel
+    </div>
+  </div>`;
+}
+
 /* match EN COURS : score live + prono d'avant en repère */
 function renderLive(m){
   const p=m.prediction;
@@ -890,11 +960,13 @@ function renderLive(m){
       <div class="tn">${m.away}</div>
     </div>
     ${probBlock(m,p)}
+    ${nlpMomentumBlock(m)}
     <div class="verdict anim-block anim-5">Pronostic d'avant-match (repère). Élo ${m.homeElo} vs ${m.awayElo}.</div>
     <div id="live-timeline-container"></div>
     ${srcTags(m)}
   </div>`;
 }
+
 
 function hotTrendsBlock(m) {
   if (!m.hotTrends || m.hotTrends.length === 0) return "";

@@ -30731,6 +30731,31 @@
     "minute": 6,
     "text": "Attempt saved. Alexander Bernhardsson (Sweden) left footed shot from outside the box is saved in the bottom left corner by Zion Suzuki (Japan). Assisted by Alexander Isak.",
     "type": "Shot On Target"
+   },
+   {
+    "minute": 7,
+    "text": "Offside, Japan. Ayase Ueda is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 8,
+    "text": "Foul by Gabriel Gudmundsson (Sweden).",
+    "type": "Foul"
+   },
+   {
+    "minute": 8,
+    "text": "Ayase Ueda (Japan) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 10,
+    "text": "Anthony Elanga (Sweden) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 10,
+    "text": "Foul by Ao Tanaka (Japan).",
+    "type": "Foul"
    }
   ],
   "halftime": "0-0",
@@ -30738,7 +30763,15 @@
   "note": ""
  },
  "Tunisia|Netherlands": {
-  "goals": [],
+  "goals": [
+   {
+    "minute": 7,
+    "team": "Netherlands",
+    "player": "Brian Brobbey",
+    "assist": "Virgil van Dijk",
+    "note": null
+   }
+  ],
   "cards": [],
   "commentary": [
    {
@@ -30770,9 +30803,44 @@
     "minute": 6,
     "text": "Donyell Malen (Netherlands) wins a free kick in the attacking half.",
     "type": "Foul"
+   },
+   {
+    "minute": 7,
+    "text": "Goal! Tunisia 0, Netherlands 2. Brian Brobbey (Netherlands) right footed shot from the centre of the box to the top right corner. Assisted by Virgil van Dijk with a headed pass following a set piece situation.",
+    "type": "Goal - Volley"
+   },
+   {
+    "minute": 9,
+    "text": "Attempt missed. Ali Abdi (Tunisia) right footed shot from outside the box misses to the left. Assisted by Anis Ben Slimane with a cross.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 9,
+    "text": "Foul by Hannibal Mejbri (Tunisia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 9,
+    "text": "Denzel Dumfries (Netherlands) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 11,
+    "text": "Attempt blocked. Frenkie de Jong (Netherlands) left footed shot from the centre of the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 12,
+    "text": "Corner, Tunisia. Conceded by Nathan Ak\u00e9.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 12,
+    "text": "Attempt saved. Anis Ben Slimane (Tunisia) header from the centre of the box is saved in the centre of the goal by Bart Verbruggen (Netherlands). Assisted by Yan Valery with a cross.",
+    "type": "Shot On Target"
    }
   ],
-  "halftime": "0-1",
+  "halftime": "0-2",
   "motm": "\u2014",
   "note": ""
  }
