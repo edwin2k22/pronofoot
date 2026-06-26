@@ -753,14 +753,14 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.9062,
+      "p1": 0.9061,
       "pX": 0.0481,
       "p2": 0.0458,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -2157,14 +2157,14 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.4671,
+      "p1": 0.4672,
       "pX": 0.2931,
-      "p2": 0.2398,
+      "p2": 0.2397,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -3640,14 +3640,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.57,
-      "pX": 0.2605,
-      "p2": 0.1695,
+      "p1": 0.5698,
+      "pX": 0.2606,
+      "p2": 0.1696,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -3667,7 +3667,7 @@
         ]
       },
       "over25": 0.61,
-      "btts": 0.6199,
+      "btts": 0.49,
       "marketCalib": {
         "bttsShift": 0.0533,
         "overShift": -0.0549,
@@ -3766,9 +3766,9 @@
       },
       "totalXg": 3.27,
       "bttsConf": {
-        "pick": "Oui",
-        "score": 0.54,
-        "label": "moyenne"
+        "pick": "indécis",
+        "score": 0.43,
+        "label": "faible"
       },
       "halftime": {
         "lamHome": 0.91,
@@ -5075,13 +5075,13 @@
     "confidence": 0.85,
     "prediction": {
       "p1": 0.558,
-      "pX": 0.2606,
-      "p2": 0.1814,
+      "pX": 0.2605,
+      "p2": 0.1815,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -6425,14 +6425,14 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.0693,
-      "pX": 0.0789,
-      "p2": 0.8518,
+      "p1": 0.0694,
+      "pX": 0.079,
+      "p2": 0.8517,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -7941,14 +7941,14 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.4277,
+      "p1": 0.4278,
       "pX": 0.3046,
-      "p2": 0.2677,
+      "p2": 0.2676,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -9619,14 +9619,14 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.1278,
+      "p1": 0.128,
       "pX": 0.1663,
-      "p2": 0.7059,
+      "p2": 0.7057,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -9646,7 +9646,7 @@
         ]
       },
       "over25": 0.5678,
-      "btts": 0.5028,
+      "btts": 0.49,
       "marketCalib": {
         "bttsShift": 0.0533,
         "overShift": -0.0549,
@@ -9746,7 +9746,7 @@
       "totalXg": 3.07,
       "bttsConf": {
         "pick": "indécis",
-        "score": 0.5,
+        "score": 0.51,
         "label": "faible"
       },
       "halftime": {
@@ -11074,9 +11074,9 @@
       "p2": 0.4295,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -12552,14 +12552,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.9695,
+      "p1": 0.9694,
       "pX": 0.0094,
-      "p2": 0.0211,
+      "p2": 0.0212,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -13874,9 +13874,9 @@
       "p2": 0.2953,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -15276,14 +15276,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.3826,
-      "pX": 0.3219,
+      "p1": 0.3828,
+      "pX": 0.3218,
       "p2": 0.2955,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -16626,13 +16626,13 @@
     "confidence": 1.0,
     "prediction": {
       "p1": 0.7096,
-      "pX": 0.1765,
-      "p2": 0.1139,
+      "pX": 0.1764,
+      "p2": 0.114,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -16652,7 +16652,7 @@
         ]
       },
       "over25": 0.525,
-      "btts": 0.4947,
+      "btts": 0.49,
       "marketCalib": {
         "bttsShift": 0.0533,
         "overShift": -0.0549,
@@ -18001,14 +18001,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.9042,
+      "p1": 0.904,
       "pX": 0.0423,
-      "p2": 0.0535,
+      "p2": 0.0537,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -18157,7 +18157,7 @@
         "home": {
           "odd": 1.062,
           "implied": 0.942,
-          "edge": -0.037,
+          "edge": -0.038,
           "is_value": false
         },
         "draw": {
@@ -18624,8 +18624,8 @@
           "note": "pas de value (EV ≤ 0)"
         },
         "away": {
-          "kelly": 0.0187,
-          "rawKelly": 0.022,
+          "kelly": 0.0188,
+          "rawKelly": 0.0222,
           "note": "miser ~1.9% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -19507,14 +19507,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.7139,
-      "pX": 0.16,
-      "p2": 0.1261,
+      "p1": 0.7136,
+      "pX": 0.1601,
+      "p2": 0.1263,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -19534,7 +19534,7 @@
         ]
       },
       "over25": 0.6703,
-      "btts": 0.5621,
+      "btts": 0.49,
       "marketCalib": {
         "bttsShift": 0.0533,
         "overShift": -0.0549,
@@ -19633,9 +19633,9 @@
       },
       "totalXg": 3.59,
       "bttsConf": {
-        "pick": "Oui",
-        "score": 0.49,
-        "label": "moyenne"
+        "pick": "indécis",
+        "score": 0.43,
+        "label": "faible"
       },
       "halftime": {
         "lamHome": 0.99,
@@ -20106,7 +20106,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.2128,
+          "rawKelly": 0.212,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -20941,14 +20941,14 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.1766,
-      "pX": 0.182,
-      "p2": 0.6414,
+      "p1": 0.1769,
+      "pX": 0.1821,
+      "p2": 0.641,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -21103,7 +21103,7 @@
         "draw": {
           "odd": 4.3,
           "implied": 0.233,
-          "edge": -0.051,
+          "edge": -0.05,
           "is_value": false
         },
         "away": {
@@ -21521,7 +21521,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.059,
+          "rawKelly": 0.0593,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -22302,14 +22302,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.805,
-      "pX": 0.1103,
-      "p2": 0.0846,
+      "p1": 0.8049,
+      "pX": 0.1104,
+      "p2": 0.0847,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -22329,7 +22329,7 @@
         ]
       },
       "over25": 0.6694,
-      "btts": 0.5151,
+      "btts": 0.49,
       "marketCalib": {
         "bttsShift": 0.0533,
         "overShift": -0.0549,
@@ -22429,7 +22429,7 @@
       "totalXg": 3.58,
       "bttsConf": {
         "pick": "indécis",
-        "score": 0.44,
+        "score": 0.43,
         "label": "faible"
       },
       "halftime": {
@@ -22816,7 +22816,7 @@
         ]
       },
       "upsetIndex": {
-        "index": 26,
+        "index": 27,
         "label": "faible",
         "dampener": 1.0,
         "favOverperf": true,
@@ -22878,7 +22878,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.5613,
+          "rawKelly": 0.561,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -23549,14 +23549,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.8882,
+      "p1": 0.8881,
       "pX": 0.0605,
-      "p2": 0.0513,
+      "p2": 0.0514,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -23576,7 +23576,7 @@
         ]
       },
       "over25": 0.8034,
-      "btts": 0.5596,
+      "btts": 0.49,
       "marketCalib": {
         "bttsShift": 0.0533,
         "overShift": -0.0549,
@@ -23676,7 +23676,7 @@
       "totalXg": 4.54,
       "bttsConf": {
         "pick": "indécis",
-        "score": 0.48,
+        "score": 0.43,
         "label": "faible"
       },
       "halftime": {
@@ -23717,7 +23717,7 @@
         "away": {
           "odd": 7.0,
           "implied": 0.143,
-          "edge": -0.092,
+          "edge": -0.091,
           "is_value": false
         }
       },
@@ -24283,7 +24283,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.6533,
+          "rawKelly": 0.653,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -25085,14 +25085,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.1225,
+      "p1": 0.1227,
       "pX": 0.1611,
-      "p2": 0.7164,
+      "p2": 0.7162,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -25112,7 +25112,7 @@
         ]
       },
       "over25": 0.6036,
-      "btts": 0.5042,
+      "btts": 0.49,
       "marketCalib": {
         "bttsShift": 0.0533,
         "overShift": -0.0549,
@@ -25719,7 +25719,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.0598,
+          "rawKelly": 0.06,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -26432,14 +26432,14 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.9023,
-      "pX": 0.0447,
-      "p2": 0.053,
+      "p1": 0.9022,
+      "pX": 0.0448,
+      "p2": 0.0531,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -26459,7 +26459,7 @@
         ]
       },
       "over25": 0.8525,
-      "btts": 0.5129,
+      "btts": 0.49,
       "marketCalib": {
         "bttsShift": 0.0533,
         "overShift": -0.0549,
@@ -27040,7 +27040,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.6531,
+          "rawKelly": 0.6527,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -27798,14 +27798,14 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.9238,
+      "p1": 0.9237,
       "pX": 0.0429,
       "p2": 0.0334,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -28375,7 +28375,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.7029,
+          "rawKelly": 0.7025,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -29082,14 +29082,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.9138,
+      "p1": 0.9137,
       "pX": 0.0447,
-      "p2": 0.0415,
+      "p2": 0.0416,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -30498,14 +30498,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.641,
-      "pX": 0.2063,
+      "p1": 0.6411,
+      "pX": 0.2062,
       "p2": 0.1527,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -31147,7 +31147,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.1382,
+          "rawKelly": 0.1384,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -31898,14 +31898,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.3284,
+      "p1": 0.3285,
       "pX": 0.3419,
-      "p2": 0.3297,
+      "p2": 0.3296,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -32066,7 +32066,7 @@
         "away": {
           "odd": 3.4,
           "implied": 0.294,
-          "edge": 0.036,
+          "edge": 0.035,
           "is_value": true
         }
       },
@@ -32494,8 +32494,8 @@
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
-          "kelly": 0.0428,
-          "rawKelly": 0.0504,
+          "kelly": 0.0427,
+          "rawKelly": 0.0503,
           "note": "miser ~4.3% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -33290,14 +33290,14 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.0549,
+      "p1": 0.0551,
       "pX": 0.0661,
-      "p2": 0.879,
+      "p2": 0.8788,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -33458,7 +33458,7 @@
         "away": {
           "odd": 1.392,
           "implied": 0.718,
-          "edge": 0.161,
+          "edge": 0.16,
           "is_value": true
         }
       },
@@ -33894,7 +33894,7 @@
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.5703,
+          "rawKelly": 0.5696,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -34707,14 +34707,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.4458,
-      "pX": 0.3249,
-      "p2": 0.2293,
+      "p1": 0.4457,
+      "pX": 0.3248,
+      "p2": 0.2296,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -34863,7 +34863,7 @@
         "home": {
           "odd": 1.769,
           "implied": 0.565,
-          "edge": -0.119,
+          "edge": -0.12,
           "is_value": false
         },
         "draw": {
@@ -34875,7 +34875,7 @@
         "away": {
           "odd": 4.9,
           "implied": 0.204,
-          "edge": 0.025,
+          "edge": 0.026,
           "is_value": true
         }
       },
@@ -35316,12 +35316,12 @@
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.0794,
+          "rawKelly": 0.0793,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
-          "kelly": 0.0269,
-          "rawKelly": 0.0317,
+          "kelly": 0.0273,
+          "rawKelly": 0.0321,
           "note": "miser ~2.7% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -36147,14 +36147,14 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.783,
-      "pX": 0.1233,
-      "p2": 0.0937,
+      "p1": 0.7828,
+      "pX": 0.1234,
+      "p2": 0.0938,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -36174,7 +36174,7 @@
         ]
       },
       "over25": 0.7228,
-      "btts": 0.5982,
+      "btts": 0.49,
       "marketCalib": {
         "bttsShift": 0.0533,
         "overShift": -0.0549,
@@ -36273,9 +36273,9 @@
       },
       "totalXg": 3.91,
       "bttsConf": {
-        "pick": "Oui",
-        "score": 0.6,
-        "label": "moyenne"
+        "pick": "indécis",
+        "score": 0.51,
+        "label": "faible"
       },
       "halftime": {
         "lamHome": 0.8,
@@ -36731,7 +36731,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.403,
+          "rawKelly": 0.4024,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -37672,14 +37672,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.7923,
+      "p1": 0.7922,
       "pX": 0.1244,
-      "p2": 0.0833,
+      "p2": 0.0834,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -38288,8 +38288,8 @@
       },
       "kelly": {
         "home": {
-          "kelly": 0.0384,
-          "rawKelly": 0.0452,
+          "kelly": 0.038,
+          "rawKelly": 0.0447,
           "note": "miser ~3.8% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -38969,14 +38969,14 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.8037,
+      "p1": 0.8036,
       "pX": 0.114,
-      "p2": 0.0823,
+      "p2": 0.0824,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -38996,7 +38996,7 @@
         ]
       },
       "over25": 0.6295,
-      "btts": 0.5126,
+      "btts": 0.49,
       "marketCalib": {
         "bttsShift": 0.0533,
         "overShift": -0.0549,
@@ -39586,7 +39586,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.6074,
+          "rawKelly": 0.6072,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -40440,14 +40440,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.4918,
-      "pX": 0.2792,
-      "p2": 0.229,
+      "p1": 0.4922,
+      "pX": 0.2791,
+      "p2": 0.2287,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -40596,7 +40596,7 @@
         "home": {
           "odd": 1.606,
           "implied": 0.623,
-          "edge": -0.131,
+          "edge": -0.13,
           "is_value": false
         },
         "draw": {
@@ -40942,13 +40942,13 @@
           "note": "pas de value (EV ≤ 0)"
         },
         "draw": {
-          "kelly": 0.0459,
-          "rawKelly": 0.054,
+          "kelly": 0.0457,
+          "rawKelly": 0.0538,
           "note": "miser ~4.6% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
-          "kelly": 0.049,
-          "rawKelly": 0.0577,
+          "kelly": 0.0487,
+          "rawKelly": 0.0573,
           "note": "miser ~4.9% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -41646,14 +41646,14 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.1335,
-      "pX": 0.1509,
-      "p2": 0.7156,
+      "p1": 0.1337,
+      "pX": 0.1511,
+      "p2": 0.7152,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -41802,7 +41802,7 @@
         "home": {
           "odd": 5.0,
           "implied": 0.2,
-          "edge": -0.067,
+          "edge": -0.066,
           "is_value": false
         },
         "draw": {
@@ -42353,7 +42353,7 @@
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.3458,
+          "rawKelly": 0.3448,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -43385,14 +43385,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.5813,
+      "p1": 0.5812,
       "pX": 0.2503,
-      "p2": 0.1684,
+      "p2": 0.1685,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -44030,7 +44030,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.1415,
+          "rawKelly": 0.1413,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -44903,9 +44903,9 @@
       "p2": 0.015,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -46387,14 +46387,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.7861,
+      "p1": 0.786,
       "pX": 0.1201,
       "p2": 0.0939,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -46414,7 +46414,7 @@
         ]
       },
       "over25": 0.7183,
-      "btts": 0.6128,
+      "btts": 0.49,
       "marketCalib": {
         "bttsShift": 0.0533,
         "overShift": -0.0549,
@@ -46513,9 +46513,9 @@
       },
       "totalXg": 3.88,
       "bttsConf": {
-        "pick": "Oui",
-        "score": 0.54,
-        "label": "moyenne"
+        "pick": "indécis",
+        "score": 0.43,
+        "label": "faible"
       },
       "halftime": {
         "lamHome": 1.22,
@@ -47112,7 +47112,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.4865,
+          "rawKelly": 0.4863,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -47812,14 +47812,14 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.6522,
+      "p1": 0.652,
       "pX": 0.1971,
-      "p2": 0.1507,
+      "p2": 0.1509,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -47839,7 +47839,7 @@
         ]
       },
       "over25": 0.7011,
-      "btts": 0.6244,
+      "btts": 0.49,
       "marketCalib": {
         "bttsShift": 0.0533,
         "overShift": -0.0549,
@@ -47938,9 +47938,9 @@
       },
       "totalXg": 3.77,
       "bttsConf": {
-        "pick": "Oui",
-        "score": 0.62,
-        "label": "élevée"
+        "pick": "indécis",
+        "score": 0.51,
+        "label": "faible"
       },
       "halftime": {
         "lamHome": 1.16,
@@ -48457,8 +48457,8 @@
       },
       "kelly": {
         "home": {
-          "kelly": 0.0093,
-          "rawKelly": 0.0093,
+          "kelly": 0.0087,
+          "rawKelly": 0.0087,
           "note": "miser ~0.9% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -49308,14 +49308,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.9176,
+      "p1": 0.9175,
       "pX": 0.0372,
-      "p2": 0.0452,
+      "p2": 0.0453,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -49464,7 +49464,7 @@
         "home": {
           "odd": 1.1,
           "implied": 0.909,
-          "edge": 0.009,
+          "edge": 0.008,
           "is_value": false
         },
         "draw": {
@@ -49924,7 +49924,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.0936,
+          "rawKelly": 0.0925,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -49933,7 +49933,7 @@
         },
         "away": {
           "kelly": 0.006,
-          "rawKelly": 0.007,
+          "rawKelly": 0.0071,
           "note": "miser ~0.6% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -50641,13 +50641,13 @@
     "confidence": 1.0,
     "prediction": {
       "p1": 0.0562,
-      "pX": 0.0689,
-      "p2": 0.8749,
+      "pX": 0.069,
+      "p2": 0.8748,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -50808,7 +50808,7 @@
         "away": {
           "odd": 1.526,
           "implied": 0.655,
-          "edge": 0.22,
+          "edge": 0.219,
           "is_value": true
         }
       },
@@ -51224,7 +51224,7 @@
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.6371,
+          "rawKelly": 0.6368,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -51936,14 +51936,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.9214,
-      "pX": 0.0329,
-      "p2": 0.0456,
+      "p1": 0.9213,
+      "pX": 0.033,
+      "p2": 0.0457,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -52553,7 +52553,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.1354,
+          "rawKelly": 0.1343,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -52561,8 +52561,8 @@
           "note": "pas de value (EV ≤ 0)"
         },
         "away": {
-          "kelly": 0.0019,
-          "rawKelly": 0.0022,
+          "kelly": 0.002,
+          "rawKelly": 0.0023,
           "note": "miser ~0.2% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -53314,14 +53314,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.6523,
-      "pX": 0.1933,
-      "p2": 0.1543,
+      "p1": 0.652,
+      "pX": 0.1935,
+      "p2": 0.1545,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -53341,7 +53341,7 @@
         ]
       },
       "over25": 0.6525,
-      "btts": 0.6011,
+      "btts": 0.49,
       "marketCalib": {
         "bttsShift": 0.0533,
         "overShift": -0.0549,
@@ -53440,9 +53440,9 @@
       },
       "totalXg": 3.49,
       "bttsConf": {
-        "pick": "Oui",
-        "score": 0.53,
-        "label": "moyenne"
+        "pick": "indécis",
+        "score": 0.43,
+        "label": "faible"
       },
       "halftime": {
         "lamHome": 0.92,
@@ -53909,8 +53909,8 @@
           "note": "pas de value (EV ≤ 0)"
         },
         "away": {
-          "kelly": 0.0206,
-          "rawKelly": 0.0242,
+          "kelly": 0.0208,
+          "rawKelly": 0.0244,
           "note": "miser ~2.1% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -54708,14 +54708,14 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.6898,
+      "p1": 0.6896,
       "pX": 0.164,
-      "p2": 0.1462,
+      "p2": 0.1464,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -54864,7 +54864,7 @@
         "home": {
           "odd": 1.455,
           "implied": 0.687,
-          "edge": 0.003,
+          "edge": 0.002,
           "is_value": false
         },
         "draw": {
@@ -55287,18 +55287,18 @@
       },
       "kelly": {
         "home": {
-          "kelly": 0.008,
-          "rawKelly": 0.008,
-          "note": "miser ~0.8% de la bankroll (Kelly×confiance, plafonné 5%)"
+          "kelly": 0.0074,
+          "rawKelly": 0.0074,
+          "note": "miser ~0.7% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
           "kelly": 0.0,
           "note": "pas de value (EV ≤ 0)"
         },
         "away": {
-          "kelly": 0.0395,
-          "rawKelly": 0.0395,
-          "note": "miser ~3.9% de la bankroll (Kelly×confiance, plafonné 5%)"
+          "kelly": 0.0397,
+          "rawKelly": 0.0397,
+          "note": "miser ~4.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
       "lineMovement": {
@@ -56129,14 +56129,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.1517,
-      "pX": 0.201,
-      "p2": 0.6473,
+      "p1": 0.152,
+      "pX": 0.2011,
+      "p2": 0.6469,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -56156,7 +56156,7 @@
         ]
       },
       "over25": 0.6144,
-      "btts": 0.5158,
+      "btts": 0.49,
       "marketCalib": {
         "bttsShift": 0.0533,
         "overShift": -0.0549,
@@ -56256,7 +56256,7 @@
       "totalXg": 3.29,
       "bttsConf": {
         "pick": "indécis",
-        "score": 0.44,
+        "score": 0.43,
         "label": "faible"
       },
       "halftime": {
@@ -56297,7 +56297,7 @@
         "away": {
           "odd": 1.588,
           "implied": 0.63,
-          "edge": 0.018,
+          "edge": 0.017,
           "is_value": false
         }
       },
@@ -56728,9 +56728,9 @@
           "note": "pas de value (EV ≤ 0)"
         },
         "away": {
-          "kelly": 0.0403,
-          "rawKelly": 0.0475,
-          "note": "miser ~4.0% de la bankroll (Kelly×confiance, plafonné 5%)"
+          "kelly": 0.0394,
+          "rawKelly": 0.0464,
+          "note": "miser ~3.9% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
       "lineMovement": {
@@ -57536,14 +57536,14 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.8272,
-      "pX": 0.0899,
-      "p2": 0.083,
+      "p1": 0.8269,
+      "pX": 0.09,
+      "p2": 0.0831,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -57563,7 +57563,7 @@
         ]
       },
       "over25": 0.7924,
-      "btts": 0.5587,
+      "btts": 0.49,
       "marketCalib": {
         "bttsShift": 0.0533,
         "overShift": -0.0549,
@@ -57663,7 +57663,7 @@
       "totalXg": 4.44,
       "bttsConf": {
         "pick": "indécis",
-        "score": 0.56,
+        "score": 0.51,
         "label": "faible"
       },
       "halftime": {
@@ -57692,7 +57692,7 @@
         "home": {
           "odd": 1.571,
           "implied": 0.637,
-          "edge": 0.191,
+          "edge": 0.19,
           "is_value": true
         },
         "draw": {
@@ -58146,7 +58146,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.5246,
+          "rawKelly": 0.5237,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -58792,9 +58792,9 @@
       "p2": 0.0196,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -60219,14 +60219,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.4371,
-      "pX": 0.2175,
-      "p2": 0.3454,
+      "p1": 0.4376,
+      "pX": 0.2173,
+      "p2": 0.3451,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -60375,7 +60375,7 @@
         "home": {
           "odd": 2.3,
           "implied": 0.435,
-          "edge": 0.002,
+          "edge": 0.003,
           "is_value": false
         },
         "draw": {
@@ -60936,18 +60936,18 @@
       },
       "kelly": {
         "home": {
-          "kelly": 0.0035,
-          "rawKelly": 0.0041,
-          "note": "miser ~0.3% de la bankroll (Kelly×confiance, plafonné 5%)"
+          "kelly": 0.0042,
+          "rawKelly": 0.005,
+          "note": "miser ~0.4% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
           "kelly": 0.0,
           "note": "pas de value (EV ≤ 0)"
         },
         "away": {
-          "kelly": 0.0286,
-          "rawKelly": 0.0337,
-          "note": "miser ~2.9% de la bankroll (Kelly×confiance, plafonné 5%)"
+          "kelly": 0.0283,
+          "rawKelly": 0.0332,
+          "note": "miser ~2.8% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
       "lineMovement": {
@@ -61666,14 +61666,14 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.0825,
+      "p1": 0.0826,
       "pX": 0.1008,
-      "p2": 0.8167,
+      "p2": 0.8166,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -61693,7 +61693,7 @@
         ]
       },
       "over25": 0.7399,
-      "btts": 0.5205,
+      "btts": 0.49,
       "marketCalib": {
         "bttsShift": 0.0533,
         "overShift": -0.0549,
@@ -61793,7 +61793,7 @@
       "totalXg": 4.03,
       "bttsConf": {
         "pick": "indécis",
-        "score": 0.52,
+        "score": 0.51,
         "label": "faible"
       },
       "halftime": {
@@ -62249,7 +62249,7 @@
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.4957,
+          "rawKelly": 0.4954,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -63093,13 +63093,13 @@
     "confidence": 1.0,
     "prediction": {
       "p1": 0.9684,
-      "pX": 0.0143,
+      "pX": 0.0144,
       "p2": 0.0172,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -63254,7 +63254,7 @@
         "draw": {
           "odd": 7.0,
           "implied": 0.143,
-          "edge": -0.129,
+          "edge": -0.128,
           "is_value": false
         },
         "away": {
@@ -64658,14 +64658,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.9245,
-      "pX": 0.0316,
+      "p1": 0.9244,
+      "pX": 0.0317,
       "p2": 0.0439,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -65306,7 +65306,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.5844,
+          "rawKelly": 0.5839,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -66107,14 +66107,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.1397,
-      "pX": 0.1639,
-      "p2": 0.6963,
+      "p1": 0.14,
+      "pX": 0.1641,
+      "p2": 0.696,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -66134,7 +66134,7 @@
         ]
       },
       "over25": 0.7099,
-      "btts": 0.4977,
+      "btts": 0.49,
       "marketCalib": {
         "bttsShift": 0.0533,
         "overShift": -0.0549,
@@ -66702,7 +66702,7 @@
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.1349,
+          "rawKelly": 0.1341,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -67566,14 +67566,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.7992,
-      "pX": 0.1158,
-      "p2": 0.085,
+      "p1": 0.7991,
+      "pX": 0.1157,
+      "p2": 0.0851,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -67593,7 +67593,7 @@
         ]
       },
       "over25": 0.6058,
-      "btts": 0.57,
+      "btts": 0.49,
       "marketCalib": {
         "bttsShift": 0.0533,
         "overShift": -0.0549,
@@ -67692,9 +67692,9 @@
       },
       "totalXg": 3.25,
       "bttsConf": {
-        "pick": "Oui",
-        "score": 0.49,
-        "label": "moyenne"
+        "pick": "indécis",
+        "score": 0.43,
+        "label": "faible"
       },
       "halftime": {
         "lamHome": 0.84,
@@ -68157,7 +68157,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.4078,
+          "rawKelly": 0.4075,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -69030,9 +69030,9 @@
       "p2": 0.1801,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -70539,14 +70539,14 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.6152,
-      "pX": 0.2283,
+      "p1": 0.6153,
+      "pX": 0.2282,
       "p2": 0.1565,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -71066,8 +71066,8 @@
           "note": "pas de value (EV ≤ 0)"
         },
         "draw": {
-          "kelly": 0.0354,
-          "rawKelly": 0.0354,
+          "kelly": 0.0352,
+          "rawKelly": 0.0352,
           "note": "miser ~3.5% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
@@ -71929,14 +71929,14 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.1052,
-      "pX": 0.118,
-      "p2": 0.7768,
+      "p1": 0.1054,
+      "pX": 0.1182,
+      "p2": 0.7764,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -71956,7 +71956,7 @@
         ]
       },
       "over25": 0.7998,
-      "btts": 0.5099,
+      "btts": 0.49,
       "marketCalib": {
         "bttsShift": 0.0533,
         "overShift": -0.0549,
@@ -72085,7 +72085,7 @@
         "home": {
           "odd": 7.0,
           "implied": 0.143,
-          "edge": -0.038,
+          "edge": -0.037,
           "is_value": false
         },
         "draw": {
@@ -72097,7 +72097,7 @@
         "away": {
           "odd": 1.408,
           "implied": 0.71,
-          "edge": 0.067,
+          "edge": 0.066,
           "is_value": true
         }
       },
@@ -72624,7 +72624,7 @@
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.2297,
+          "rawKelly": 0.2284,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -73581,9 +73581,9 @@
       "p2": 0.0219,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -75019,14 +75019,14 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.0871,
-      "pX": 0.1016,
-      "p2": 0.8113,
+      "p1": 0.0872,
+      "pX": 0.1017,
+      "p2": 0.8111,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -75046,7 +75046,7 @@
         ]
       },
       "over25": 0.749,
-      "btts": 0.5644,
+      "btts": 0.49,
       "marketCalib": {
         "bttsShift": 0.0533,
         "overShift": -0.0549,
@@ -75145,9 +75145,9 @@
       },
       "totalXg": 4.02,
       "bttsConf": {
-        "pick": "Oui",
-        "score": 0.56,
-        "label": "moyenne"
+        "pick": "indécis",
+        "score": 0.51,
+        "label": "faible"
       },
       "halftime": {
         "lamHome": 0.31,
@@ -75631,7 +75631,7 @@
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.6131,
+          "rawKelly": 0.6127,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -76310,14 +76310,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.2443,
+      "p1": 0.2445,
       "pX": 0.3248,
-      "p2": 0.4309,
+      "p2": 0.4307,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -76337,7 +76337,7 @@
         ]
       },
       "over25": 0.404,
-      "btts": 0.5093,
+      "btts": 0.49,
       "marketCalib": {
         "bttsShift": 0.0533,
         "overShift": -0.0549,
@@ -76466,7 +76466,7 @@
         "home": {
           "odd": 5.75,
           "implied": 0.174,
-          "edge": 0.07,
+          "edge": 0.071,
           "is_value": true
         },
         "draw": {
@@ -76478,7 +76478,7 @@
         "away": {
           "odd": 1.625,
           "implied": 0.615,
-          "edge": -0.184,
+          "edge": -0.185,
           "is_value": false
         }
       },
@@ -76924,7 +76924,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.0852,
+          "rawKelly": 0.0854,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -77649,14 +77649,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.0665,
-      "pX": 0.0663,
-      "p2": 0.8672,
+      "p1": 0.0666,
+      "pX": 0.0664,
+      "p2": 0.867,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -77817,7 +77817,7 @@
         "away": {
           "odd": 1.154,
           "implied": 0.867,
-          "edge": 0.001,
+          "edge": 0.0,
           "is_value": false
         }
       },
@@ -78257,7 +78257,7 @@
       "kelly": {
         "home": {
           "kelly": 0.0099,
-          "rawKelly": 0.0116,
+          "rawKelly": 0.0117,
           "note": "miser ~1.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -78265,9 +78265,9 @@
           "note": "pas de value (EV ≤ 0)"
         },
         "away": {
-          "kelly": 0.0041,
-          "rawKelly": 0.0049,
-          "note": "miser ~0.4% de la bankroll (Kelly×confiance, plafonné 5%)"
+          "kelly": 0.0029,
+          "rawKelly": 0.0034,
+          "note": "miser ~0.3% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
       "lineMovement": {
@@ -79033,14 +79033,14 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.1898,
-      "pX": 0.2478,
-      "p2": 0.5624,
+      "p1": 0.19,
+      "pX": 0.249,
+      "p2": 0.561,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -79060,7 +79060,7 @@
         ]
       },
       "over25": 0.6923,
-      "btts": 0.6446,
+      "btts": 0.49,
       "marketCalib": {
         "bttsShift": 0.0533,
         "overShift": -0.0549,
@@ -79159,9 +79159,9 @@
       },
       "totalXg": 3.64,
       "bttsConf": {
-        "pick": "Oui",
-        "score": 0.64,
-        "label": "élevée"
+        "pick": "indécis",
+        "score": 0.51,
+        "label": "faible"
       },
       "halftime": {
         "lamHome": 0.41,
@@ -79195,13 +79195,13 @@
         "draw": {
           "odd": 3.9,
           "implied": 0.256,
-          "edge": -0.009,
+          "edge": -0.007,
           "is_value": false
         },
         "away": {
           "odd": 1.952,
           "implied": 0.512,
-          "edge": 0.05,
+          "edge": 0.049,
           "is_value": true
         }
       },
@@ -79620,9 +79620,9 @@
         ]
       },
       "upsetIndex": {
-        "index": 57,
+        "index": 58,
         "label": "élevé",
-        "dampener": 0.978,
+        "dampener": 0.976,
         "favOverperf": true,
         "dogLowBlock": true
       },
@@ -79692,7 +79692,7 @@
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.1027,
+          "rawKelly": 0.0999,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -80571,13 +80571,13 @@
     "confidence": 0.85,
     "prediction": {
       "p1": 0.7659,
-      "pX": 0.1354,
-      "p2": 0.0988,
+      "pX": 0.1353,
+      "p2": 0.0989,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -80597,7 +80597,7 @@
         ]
       },
       "over25": 0.6503,
-      "btts": 0.6165,
+      "btts": 0.49,
       "marketCalib": {
         "bttsShift": 0.0533,
         "overShift": -0.0549,
@@ -80696,9 +80696,9 @@
       },
       "totalXg": 3.4,
       "bttsConf": {
-        "pick": "Oui",
-        "score": 0.54,
-        "label": "moyenne"
+        "pick": "indécis",
+        "score": 0.43,
+        "label": "faible"
       },
       "halftime": {
         "lamHome": 0.87,
@@ -82005,14 +82005,14 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.0541,
-      "pX": 0.0554,
-      "p2": 0.8904,
+      "p1": 0.0543,
+      "pX": 0.0555,
+      "p2": 0.8902,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -82641,7 +82641,7 @@
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.1787,
+          "rawKelly": 0.1772,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -83496,14 +83496,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.3891,
+      "p1": 0.389,
       "pX": 0.3402,
-      "p2": 0.2707,
+      "p2": 0.2708,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -83652,7 +83652,7 @@
         "home": {
           "odd": 3.35,
           "implied": 0.299,
-          "edge": 0.091,
+          "edge": 0.09,
           "is_value": true
         },
         "draw": {
@@ -84009,7 +84009,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.1291,
+          "rawKelly": 0.129,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -84645,14 +84645,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.3331,
-      "pX": 0.323,
-      "p2": 0.3439,
+      "p1": 0.3334,
+      "pX": 0.3229,
+      "p2": 0.3437,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -84801,13 +84801,13 @@
         "home": {
           "odd": 2.9,
           "implied": 0.345,
-          "edge": -0.012,
+          "edge": -0.011,
           "is_value": false
         },
         "draw": {
           "odd": 2.25,
           "implied": 0.444,
-          "edge": -0.121,
+          "edge": -0.122,
           "is_value": false
         },
         "away": {
@@ -85282,7 +85282,7 @@
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.1215,
+          "rawKelly": 0.1212,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -85380,14 +85380,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.131,
-      "pX": 0.1337,
-      "p2": 0.7353,
+      "p1": 0.1312,
+      "pX": 0.1339,
+      "p2": 0.7349,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -85536,7 +85536,7 @@
         "home": {
           "odd": 4.3,
           "implied": 0.233,
-          "edge": -0.102,
+          "edge": -0.101,
           "is_value": false
         },
         "draw": {
@@ -85548,7 +85548,7 @@
         "away": {
           "odd": 1.8,
           "implied": 0.556,
-          "edge": 0.18,
+          "edge": 0.179,
           "is_value": true
         }
       },
@@ -86086,7 +86086,7 @@
         ]
       },
       "upsetIndex": {
-        "index": 38,
+        "index": 39,
         "label": "modéré",
         "dampener": 1.0,
         "favOverperf": true,
@@ -86158,7 +86158,7 @@
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.4044,
+          "rawKelly": 0.4035,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -86251,14 +86251,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.7436,
-      "pX": 0.1403,
-      "p2": 0.1161,
+      "p1": 0.7433,
+      "pX": 0.1404,
+      "p2": 0.1163,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -86413,7 +86413,7 @@
         "draw": {
           "odd": 5.5,
           "implied": 0.182,
-          "edge": -0.042,
+          "edge": -0.041,
           "is_value": false
         },
         "away": {
@@ -86985,8 +86985,8 @@
           "note": "pas de value (EV ≤ 0)"
         },
         "away": {
-          "kelly": 0.0236,
-          "rawKelly": 0.0277,
+          "kelly": 0.0237,
+          "rawKelly": 0.0279,
           "note": "miser ~2.4% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -87079,14 +87079,14 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.1471,
+      "p1": 0.1472,
       "pX": 0.2199,
-      "p2": 0.633,
+      "p2": 0.6329,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -87235,7 +87235,7 @@
         "home": {
           "odd": 6.0,
           "implied": 0.167,
-          "edge": -0.02,
+          "edge": -0.019,
           "is_value": false
         },
         "draw": {
@@ -87860,9 +87860,9 @@
       "p2": 0.2365,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -88594,14 +88594,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.3129,
+      "p1": 0.313,
       "pX": 0.3603,
-      "p2": 0.3268,
+      "p2": 0.3267,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -89245,7 +89245,7 @@
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.1024,
+          "rawKelly": 0.1023,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -89338,14 +89338,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.0764,
-      "pX": 0.0789,
-      "p2": 0.8447,
+      "p1": 0.0766,
+      "pX": 0.079,
+      "p2": 0.8444,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -89494,7 +89494,7 @@
         "home": {
           "odd": 13.0,
           "implied": 0.077,
-          "edge": -0.001,
+          "edge": -0.0,
           "is_value": false
         },
         "draw": {
@@ -89995,7 +89995,7 @@
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.1838,
+          "rawKelly": 0.1823,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -90090,14 +90090,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.0705,
+      "p1": 0.0706,
       "pX": 0.0758,
-      "p2": 0.8537,
+      "p2": 0.8535,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -90792,7 +90792,7 @@
         },
         "away": {
           "kelly": 0.05,
-          "rawKelly": 0.2311,
+          "rawKelly": 0.2301,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -90885,14 +90885,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.7819,
-      "pX": 0.1197,
-      "p2": 0.0984,
+      "p1": 0.7816,
+      "pX": 0.1198,
+      "p2": 0.0986,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -91041,7 +91041,7 @@
         "home": {
           "odd": 1.625,
           "implied": 0.615,
-          "edge": 0.167,
+          "edge": 0.166,
           "is_value": true
         },
         "draw": {
@@ -91526,7 +91526,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.4329,
+          "rawKelly": 0.4322,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -91629,14 +91629,14 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.2591,
+      "p1": 0.2593,
       "pX": 0.3331,
-      "p2": 0.4078,
+      "p2": 0.4075,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -91785,7 +91785,7 @@
         "home": {
           "odd": 3.75,
           "implied": 0.267,
-          "edge": -0.008,
+          "edge": -0.007,
           "is_value": false
         },
         "draw": {
@@ -92438,14 +92438,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.6471,
+      "p1": 0.6469,
       "pX": 0.2225,
-      "p2": 0.1304,
+      "p2": 0.1306,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -93055,7 +93055,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.3263,
+          "rawKelly": 0.3259,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -93161,9 +93161,9 @@
       "p2": 0.3529,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -93901,9 +93901,9 @@
       "p2": 0.9703,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -94649,14 +94649,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.2646,
-      "pX": 0.3464,
-      "p2": 0.389,
+      "p1": 0.2648,
+      "pX": 0.3463,
+      "p2": 0.3889,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -95407,14 +95407,14 @@
     ],
     "confidence": 0.75,
     "prediction": {
-      "p1": 0.9236,
-      "pX": 0.0327,
-      "p2": 0.0437,
+      "p1": 0.9234,
+      "pX": 0.0328,
+      "p2": 0.0438,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -96067,14 +96067,14 @@
     ],
     "confidence": 0.75,
     "prediction": {
-      "p1": 0.9058,
-      "pX": 0.0421,
-      "p2": 0.0521,
+      "p1": 0.9056,
+      "pX": 0.0422,
+      "p2": 0.0522,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -96718,14 +96718,14 @@
     ],
     "confidence": 0.75,
     "prediction": {
-      "p1": 0.9204,
+      "p1": 0.9203,
       "pX": 0.0396,
-      "p2": 0.04,
+      "p2": 0.0401,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -97349,14 +97349,14 @@
     ],
     "confidence": 0.6,
     "prediction": {
-      "p1": 0.7053,
+      "p1": 0.7052,
       "pX": 0.1687,
-      "p2": 0.1261,
+      "p2": 0.1262,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [
@@ -97376,7 +97376,7 @@
         ]
       },
       "over25": 0.5531,
-      "btts": 0.5335,
+      "btts": 0.49,
       "marketCalib": {
         "bttsShift": 0.0533,
         "overShift": -0.0549,
@@ -97476,7 +97476,7 @@
       "totalXg": 3.06,
       "bttsConf": {
         "pick": "indécis",
-        "score": 0.33,
+        "score": 0.31,
         "label": "faible"
       },
       "halftime": {
@@ -97849,14 +97849,14 @@
     ],
     "confidence": 0.75,
     "prediction": {
-      "p1": 0.7828,
+      "p1": 0.7827,
       "pX": 0.1231,
-      "p2": 0.0941,
+      "p2": 0.0942,
       "ensemble": {
         "weights": {
-          "elo": 0.3400081384637429,
-          "grid": 0.33979911818370506,
-          "form": 0.32019274335255204
+          "elo": 0.340506886733699,
+          "grid": 0.33877695634782684,
+          "form": 0.32071615691847416
         },
         "T": 0.8,
         "elo": [

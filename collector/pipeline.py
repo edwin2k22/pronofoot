@@ -1083,7 +1083,9 @@ def predict():
             "prediction": {
                 "p1": res["p1"], "pX": res["pX"], "p2": res["p2"],
                 "ensemble": res.get("ensemble"),
-                "over25": goals["over"], "btts": goals["btts"],
+                # Cohérence : si le score modal est un clean sheet, le BTTS ne doit pas être "Oui" (>0.5)
+                "over25": goals["over"], 
+                "btts": min(goals["btts"], 0.49) if (goals["top_score"][0] == 0 or goals["top_score"][1] == 0) else goals["btts"],
                 "marketCalib": {"bttsShift": btts_shift, "overShift": over_shift,
                                 "bttsRaw": round(btts_raw, 4), "n": bias_n},
                 "lamHome": lam_h, "lamAway": lam_a,
@@ -1096,7 +1098,7 @@ def predict():
                 # buts : Over/Under multi-lignes, total xG projeté, BTTS+confiance, score mi-temps
                 "overUnder": ou_lines,
                 "totalXg": round(lam_h + lam_a, 2),
-                "bttsConf": _btts_confidence(goals["btts"], conf),
+                "bttsConf": _btts_confidence(min(goals["btts"], 0.49) if (goals["top_score"][0] == 0 or goals["top_score"][1] == 0) else goals["btts"], conf),
                 "halftime": ht,
                 "value": value,
                 "corners": corn, "cards": cards, "shots": shots,

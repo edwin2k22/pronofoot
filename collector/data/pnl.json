@@ -15,11 +15,11 @@
     "yield": -1.1
   },
   "valueStrict": {
-    "bets": 76,
+    "bets": 75,
     "wins": 46,
     "winRate": 61,
-    "pnl": 13.33,
-    "yield": 17.5
+    "pnl": 14.33,
+    "yield": 19.1
   },
   "topValue": [
     {
@@ -40,11 +40,11 @@
       "away": "France",
       "date": "2026-06-26 15:00 UTC-4",
       "label": "Victoire France",
-      "prob": 0.7353,
+      "prob": 0.7349,
       "odd": 1.8,
       "implied": 0.5556,
-      "edge": 0.1797,
-      "ev": 0.324,
+      "edge": 0.1793,
+      "ev": 0.323,
       "provider": "DraftKings",
       "market": "1N2",
       "lineMovement": -1.95
