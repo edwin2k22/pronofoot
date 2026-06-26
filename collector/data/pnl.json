@@ -8,18 +8,18 @@
     "yield": 6.8
   },
   "value": {
-    "bets": 102,
-    "wins": 52,
-    "winRate": 51,
-    "pnl": -4.67,
-    "yield": -4.6
+    "bets": 105,
+    "wins": 56,
+    "winRate": 53,
+    "pnl": -1.17,
+    "yield": -1.1
   },
   "valueStrict": {
-    "bets": 74,
-    "wins": 45,
+    "bets": 76,
+    "wins": 46,
     "winRate": 61,
-    "pnl": 13.39,
-    "yield": 18.1
+    "pnl": 13.33,
+    "yield": 17.5
   },
   "topValue": [
     {
@@ -40,11 +40,11 @@
       "away": "France",
       "date": "2026-06-26 15:00 UTC-4",
       "label": "Victoire France",
-      "prob": 0.7448,
+      "prob": 0.7353,
       "odd": 1.8,
       "implied": 0.5556,
-      "edge": 0.1892,
-      "ev": 0.341,
+      "edge": 0.1797,
+      "ev": 0.324,
       "provider": "DraftKings",
       "market": "1N2",
       "lineMovement": -1.95
@@ -54,11 +54,11 @@
       "away": "Belgium",
       "date": "2026-06-26 20:00 UTC-7",
       "label": "Plus de 2.5 buts",
-      "prob": 0.7469,
+      "prob": 0.7484,
       "odd": 1.625,
       "implied": 0.6154,
-      "edge": 0.1315,
-      "ev": 0.214,
+      "edge": 0.133,
+      "ev": 0.216,
       "provider": "DraftKings",
       "market": "O/U"
     }
