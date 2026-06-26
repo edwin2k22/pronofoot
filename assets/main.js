@@ -1022,6 +1022,7 @@ function renderUpcoming(m, mode){
     ${missingKeyPlayersBlock(m)}
     ${hotTrendsBlock(m)}
     ${probBlock(m,p)}
+    ${nlpMomentumBlock(m)}
     <div class="verdict anim-block anim-5">Le modèle favorise <b>${bl}</b> (${pct(bp)}).
       Tendance ${p.over25>0.5?"<b>Over 2.5</b>":"<b>Under 2.5</b>"} (${pct(p.over25)}),
       BTTS ${p.btts>0.5?"probable":"peu probable"} (${pct(p.btts)}).</div>

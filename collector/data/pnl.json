@@ -1,65 +1,64 @@
 {
-  "sampleWithOdds": 43,
+  "sampleWithOdds": 47,
   "favorite": {
-    "bets": 43,
-    "wins": 29,
-    "winRate": 67,
-    "pnl": 0.38,
-    "yield": 0.9
+    "bets": 47,
+    "wins": 32,
+    "winRate": 68,
+    "pnl": 3.18,
+    "yield": 6.8
   },
   "value": {
-    "bets": 86,
-    "wins": 46,
-    "winRate": 53,
-    "pnl": 0.55,
-    "yield": 0.6
+    "bets": 102,
+    "wins": 52,
+    "winRate": 51,
+    "pnl": -4.67,
+    "yield": -4.6
   },
   "valueStrict": {
-    "bets": 53,
-    "wins": 31,
-    "winRate": 58,
-    "pnl": -0.54,
-    "yield": -1.0
+    "bets": 74,
+    "wins": 45,
+    "winRate": 61,
+    "pnl": 13.39,
+    "yield": 18.1
   },
   "topValue": [
     {
-      "home": "Turkey",
-      "away": "USA",
-      "date": "2026-06-25 19:00 UTC-7",
-      "label": "Victoire Turkey",
-      "prob": 0.5288,
-      "odd": 3.35,
-      "implied": 0.2985,
-      "edge": 0.2303,
-      "ev": 0.771,
+      "home": "Norway",
+      "away": "France",
+      "date": "2026-06-26 15:00 UTC-4",
+      "label": "Plus de 2.5 buts",
+      "prob": 0.7563,
+      "odd": 1.769,
+      "implied": 0.5653,
+      "edge": 0.191,
+      "ev": 0.338,
       "provider": "DraftKings",
-      "market": "1N2",
-      "lineMovement": 0.6
+      "market": "O/U"
     },
     {
       "home": "Norway",
       "away": "France",
       "date": "2026-06-26 15:00 UTC-4",
       "label": "Victoire France",
-      "prob": 0.7799,
+      "prob": 0.7448,
       "odd": 1.8,
       "implied": 0.5556,
-      "edge": 0.2243,
-      "ev": 0.404,
+      "edge": 0.1892,
+      "ev": 0.341,
       "provider": "DraftKings",
       "market": "1N2",
       "lineMovement": -1.95
     },
     {
-      "home": "Norway",
-      "away": "France",
-      "date": "2026-06-26 15:00 UTC-4",
+      "home": "New Zealand",
+      "away": "Belgium",
+      "date": "2026-06-26 20:00 UTC-7",
       "label": "Plus de 2.5 buts",
-      "prob": 0.7001,
-      "odd": 1.769,
-      "implied": 0.5653,
-      "edge": 0.1348,
-      "ev": 0.238,
+      "prob": 0.7469,
+      "odd": 1.625,
+      "implied": 0.6154,
+      "edge": 0.1315,
+      "ev": 0.214,
       "provider": "DraftKings",
       "market": "O/U"
     }

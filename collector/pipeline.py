@@ -776,7 +776,10 @@ def predict():
                     lam_h = round(max(0.2, lam_h * _nlp_h), 2)
                     lam_a = round(max(0.2, lam_a * _nlp_a), 2)
                     nlp_signal = nlpm.momentum_to_dict(_sig)
-            except Exception:
+            except Exception as _nlp_err:
+                import traceback as _tb
+                print(f"[NLP] ERREUR sur {mt['home']} vs {mt['away']}: {_nlp_err}", flush=True)
+                _tb.print_exc()
                 nlp_signal = None
 
         # ----- grille de scores CORRIGÉE (Dixon-Coles + effet de choc bivarié) -----

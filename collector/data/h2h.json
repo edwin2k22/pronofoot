@@ -386,5 +386,84 @@
   },
   "home": "Scotland",
   "away": "Brazil"
+ },
+ "Norway|France": {
+  "refTeam": "Norway",
+  "games": [
+   {
+    "date": "2014-05-27",
+    "score": "0-4",
+    "competition": "International Friendly"
+   },
+   {
+    "date": "2010-08-11",
+    "score": "2-1",
+    "competition": "International Friendly"
+   }
+  ],
+  "summary": {
+   "win": 1,
+   "draw": 0,
+   "loss": 1,
+   "total": 2
+  },
+  "home": "Norway",
+  "away": "France"
+ },
+ "Uruguay|Spain": {
+  "refTeam": "Uruguay",
+  "games": [
+   {
+    "date": "2013-06-16",
+    "score": "1-2",
+    "competition": "2013 FIFA Confederations Cup"
+   },
+   {
+    "date": "2013-02-06",
+    "score": "1-3",
+    "competition": "International Friendly"
+   },
+   {
+    "date": "2005-08-17",
+    "score": "0-2",
+    "competition": "International Friendly"
+   },
+   {
+    "date": "1990-06-13",
+    "score": "0-0",
+    "competition": "1990 FIFA World Cup"
+   },
+   {
+    "date": "1950-07-09",
+    "score": "2-2",
+    "competition": "World Cup - Brazil 1950"
+   }
+  ],
+  "summary": {
+   "win": 0,
+   "draw": 2,
+   "loss": 3,
+   "total": 5
+  },
+  "home": "Uruguay",
+  "away": "Spain"
+ },
+ "New Zealand|Belgium": {
+  "refTeam": "New Zealand",
+  "games": [
+   {
+    "date": "2008-08-13",
+    "score": "0-1",
+    "competition": "2008 Olympic Men's Soccer"
+   }
+  ],
+  "summary": {
+   "win": 0,
+   "draw": 0,
+   "loss": 1,
+   "total": 1
+  },
+  "home": "New Zealand",
+  "away": "Belgium"
  }
 }
