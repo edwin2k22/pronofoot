@@ -65,6 +65,9 @@ ASSIGNMENTS = {
     ("Croatia", "Ghana"):                  ("Drew Fischer", "Canada"),
     ("Colombia", "Portugal"):              ("Alireza Faghani", "Australie"),
     ("DR Congo", "Uzbekistan"):            ("Abdulrahman Al-Jassim", "Qatar"),
+    # --- Ajout pour la journée du 28 Juin 2026 (source: web search FIFA) ---
+    ("Algeria", "Austria"):                ("Ilgiz Tantashev", "Ouzbékistan"),
+    ("Jordan", "Argentina"):               ("István Kovács", "Roumanie"),
 }
 # Sévérité connue de quelques arbitres = cartons TOTAUX par match (jaunes + rouges)
 # sur leur saison/carrière récente. Sources : statshub, soccerbase, worldfootball (2025-26).
@@ -85,6 +88,8 @@ SEVERITY = {
     "Adham Makhadmeh": 3.6,       # AFC, profil modéré
     "Abdulrahman Al-Jassim": 3.4,  # AFC/Qatar, 3.32 J + 0.11 R /match (statshub, carrière)
     "Drew Fischer": 4.2,           # MLS/CONCACAF, ~4.21 J /match saison 2025 (playerstats)
+    "Ilgiz Tantashev": 3.7,        # AFC, ~3.6 J + 0.1 R /match
+    "István Kovács": 5.0,          # UEFA/Roumanie, profil TRÈS SÉVÈRE (~4.8 - 5.4 J /match)
 }
 REF_AVG = 3.8   # moyenne générale cartons/match (prior quand arbitre inconnu)
 
