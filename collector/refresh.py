@@ -66,6 +66,14 @@ def main():
     
     pipeline.update()                  # maj des moyennes (inclut possession, xG, fautes)
 
+    # arbitres désignés (ESPN publie souvent 24-48 h avant le match)
+    # -> injection automatique, plus besoin de les coder en dur dans referees_2026.py
+    try:
+        from collector import referee_ingest
+        referee_ingest.ingest_all_upcoming()
+    except Exception as e:
+        print(f"   [warn] ingestion arbitres échouée : {e}")
+
     # compos officielles des matchs à venir (XI réel ESPN, ~1 h avant le coup d'envoi)
     # -> active la pondération des absences (availability.py). Zéro invention.
     try:
