@@ -16833,6 +16833,13 @@
     "player": "Nilson Angulo",
     "assist": "Pedro Vite",
     "note": null
+   },
+   {
+    "minute": 77,
+    "team": "Ecuador",
+    "player": "Gonzalo Plata",
+    "assist": "Kevin Rodr\u00edguez",
+    "note": null
    }
   ],
   "cards": [
@@ -17265,7 +17272,7 @@
    {
     "minute": 77,
     "text": "Goal! Ecuador 2, Germany 1. Gonzalo Plata (Ecuador) left footed shot from very close range to the top right corner. Assisted by Kevin Rodr\u00edguez with a headed pass following a corner.",
-    "type": "Goal - Volley"
+    "type": "Goal"
    },
    {
     "minute": 84,
@@ -20153,7 +20160,15 @@
   "note": ""
  },
  "Tunisia|Netherlands": {
-  "goals": [],
+  "goals": [
+   {
+    "minute": 7,
+    "team": "Netherlands",
+    "player": "Brian Brobbey",
+    "assist": "Virgil van Dijk",
+    "note": null
+   }
+  ],
   "cards": [],
   "commentary": [
    {
@@ -20189,7 +20204,7 @@
    {
     "minute": 7,
     "text": "Goal! Tunisia 0, Netherlands 2. Brian Brobbey (Netherlands) right footed shot from the centre of the box to the top right corner. Assisted by Virgil van Dijk with a headed pass following a set piece situation.",
-    "type": "Goal - Volley"
+    "type": "Goal"
    },
    {
     "minute": 9,
@@ -36793,7 +36808,7 @@
    },
    {
     "minute": 39,
-    "text": "Attempt missed. Jo\u00e3o Paulo (Cabo Verde) header from the centre of the box is high and wide to the left. Assisted by Jamiro Monteiro with a cross following a corner.",
+    "text": "Attempt missed. Jo\u00e3o Paulo (Cabo Verde) header from the centre of the box misses to the left. Assisted by Jamiro Monteiro with a cross following a corner.",
     "type": "Shot Off Target"
    },
    {
@@ -36978,7 +36993,7 @@
    },
    {
     "minute": 67,
-    "text": "Nuno da Costa (Cabo Verde) wins a free kick in the attacking half.",
+    "text": "Nuno da Costa (Cabo Verde) wins a free kick in the defensive half.",
     "type": "Foul"
    },
    {
@@ -37782,13 +37797,6 @@
  "Egypt|Iran": {
   "goals": [
    {
-    "minute": 5,
-    "team": "Egypt",
-    "player": "Mahmoud Saber",
-    "assist": "Tr\u00e9z\u00e9guet",
-    "note": null
-   },
-   {
     "minute": 14,
     "team": "Iran",
     "player": "Ramin Rezaeian",
@@ -37819,6 +37827,24 @@
     "minute": 43,
     "team": "Iran",
     "player": "Ali Nemati",
+    "type": "Yellow"
+   },
+   {
+    "minute": 79,
+    "team": "Iran",
+    "player": "Saeid Ezatolahi",
+    "type": "Yellow"
+   },
+   {
+    "minute": 90,
+    "team": "Egypt",
+    "player": "Mohanad Lashin",
+    "type": "Yellow"
+   },
+   {
+    "minute": 90,
+    "team": "Iran",
+    "player": "Shoja Khalilzadeh",
     "type": "Yellow"
    }
   ],
@@ -37851,7 +37877,7 @@
    {
     "minute": 5,
     "text": "Goal! Egypt 1, IR Iran 0. Mahmoud Saber (Egypt) left footed shot from the left side of the box to the bottom left corner. Assisted by Trezeguet.",
-    "type": "Goal"
+    "type": "Goal - Volley"
    },
    {
     "minute": 8,
@@ -38117,6 +38143,351 @@
     "minute": 45,
     "text": "First Half ends, Egypt 1, IR Iran 1.",
     "type": "Halftime"
+   },
+   {
+    "minute": 45,
+    "text": "Substitution, IR Iran. Saleh Hardani replaces Hossein Kanani.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 45,
+    "text": "Second Half begins Egypt 1, IR Iran 1.",
+    "type": "Start 2nd Half"
+   },
+   {
+    "minute": 45,
+    "text": "Substitution, Egypt. Marwan Attia replaces Mahmoud Saber.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 45,
+    "text": "Substitution, Egypt. Omar Marmoush replaces Emam Ashour.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 46,
+    "text": "Attempt missed. Saeid Ezatolahi (IR Iran) right footed shot from outside the box is high and wide to the right. Assisted by Ramin Rezaeian.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 49,
+    "text": "Attempt saved. Trezeguet (Egypt) right footed shot from the centre of the box is saved in the bottom right corner by Alireza Beiranvand (IR Iran). Assisted by Mohamed Salah.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 51,
+    "text": "Foul by Ramin Rezaeian (IR Iran).",
+    "type": "Foul"
+   },
+   {
+    "minute": 51,
+    "text": "Ahmed Fatouh (Egypt) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 52,
+    "text": "Attempt blocked. Trezeguet (Egypt) right footed shot from the centre of the box is blocked. Assisted by Mohamed Salah.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 52,
+    "text": "Corner, Egypt. Conceded by Saleh Hardani.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 52,
+    "text": "Attempt missed. Mohanad Lasheen (Egypt) header from the centre of the box misses to the left. Assisted by Mohamed Salah with a cross following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 54,
+    "text": "Saleh Hardani (IR Iran) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 54,
+    "text": "Foul by Trezeguet (Egypt).",
+    "type": "Foul"
+   },
+   {
+    "minute": 55,
+    "text": "Attempt missed. Saman Ghoddos (IR Iran) right footed shot from outside the box misses to the left.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 55,
+    "text": "Delay in match because of an injury Mostafa Zico (Egypt).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 56,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 56,
+    "text": "Saeid Ezatolahi (IR Iran) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 56,
+    "text": "Foul by Omar Marmoush (Egypt).",
+    "type": "Foul"
+   },
+   {
+    "minute": 57,
+    "text": "Substitution, Egypt. Zizo replaces Mohamed Salah.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 60,
+    "text": "Foul by Saman Ghoddos (IR Iran).",
+    "type": "Foul"
+   },
+   {
+    "minute": 60,
+    "text": "Yasser Ibrahim (Egypt) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 62,
+    "text": "Attempt blocked. Zizo (Egypt) left footed shot from the centre of the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 62,
+    "text": "Corner, Egypt. Conceded by Saeid Ezatolahi.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 64,
+    "text": "Foul by Shoja Khalilzadeh (IR Iran).",
+    "type": "Foul"
+   },
+   {
+    "minute": 64,
+    "text": "Omar Marmoush (Egypt) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 64,
+    "text": "Corner, Egypt. Conceded by Ali Nemati.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 65,
+    "text": "Foul by Mehdi Taremi (IR Iran).",
+    "type": "Foul"
+   },
+   {
+    "minute": 65,
+    "text": "Mohamed Hany (Egypt) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 67,
+    "text": "Substitution, IR Iran. Shahriyar Moghanloo replaces Saman Ghoddos.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 68,
+    "text": "Attempt blocked. Omar Marmoush (Egypt) right footed shot from outside the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 68,
+    "text": "Corner, Egypt. Conceded by Shoja Khalilzadeh.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 69,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 71,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 72,
+    "text": "Attempt missed. Trezeguet (Egypt) header from the centre of the box misses to the left. Assisted by Zizo with a cross following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 73,
+    "text": "Milad Mohammadi (IR Iran) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 73,
+    "text": "Foul by Mostafa Zico (Egypt).",
+    "type": "Foul"
+   },
+   {
+    "minute": 74,
+    "text": "Foul by Mohammad Ghorbani (IR Iran).",
+    "type": "Foul"
+   },
+   {
+    "minute": 74,
+    "text": "Trezeguet (Egypt) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 76,
+    "text": "Attempt blocked. Mohammad Ghorbani (IR Iran) right footed shot from outside the box is blocked. Assisted by Milad Mohammadi.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 76,
+    "text": "Substitution, Egypt. Hamza Abdelkarim replaces Mostafa Zico.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 79,
+    "text": "Foul by Saeid Ezatolahi (IR Iran).",
+    "type": "Foul"
+   },
+   {
+    "minute": 79,
+    "text": "Omar Marmoush (Egypt) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 79,
+    "text": "Saeid Ezatolahi (IR Iran) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 82,
+    "text": "Delay in match because of an injury Ahmed Fatouh (Egypt).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 82,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 84,
+    "text": "Attempt missed. Mohanad Lasheen (Egypt) right footed shot from outside the box misses to the left.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 86,
+    "text": "Offside, IR Iran. Ramin Rezaeian is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 87,
+    "text": "Handball by Zizo (Egypt).",
+    "type": "Handball"
+   },
+   {
+    "minute": 88,
+    "text": "Corner, IR Iran. Conceded by Zizo.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 89,
+    "text": "Foul by Saeid Ezatolahi (IR Iran).",
+    "type": "Foul"
+   },
+   {
+    "minute": 89,
+    "text": "Mostafa Shobeir (Egypt) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Fourth official has announced 6 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Mohammad Mohebbi (IR Iran).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Marwan Attia (Egypt) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Substitution, IR Iran. Alireza Jahanbakhsh replaces Mohammad Mohebbi.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 90,
+    "text": "Mehdi Taremi (IR Iran) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Mohanad Lasheen (Egypt).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Mohanad Lasheen (Egypt) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt blocked. Mohammad Ghorbani (IR Iran) right footed shot from the centre of the box is blocked. Assisted by Shahriyar Moghanloo.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 90,
+    "text": "GOAL OVERTURNED BY VAR: Shoja Khalilzadeh (IR Iran) scores but the goal is ruled out after a VAR review.",
+    "type": "Deleted After Review"
+   },
+   {
+    "minute": 90,
+    "text": "Offside, IR Iran. Shoja Khalilzadeh is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 90,
+    "text": "Shoja Khalilzadeh (IR Iran) is shown the yellow card for excessive celebration.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 90,
+    "text": "VAR Decision: No Goal Egypt 1-1 IR Iran.",
+    "type": "VAR - Referee decision cancelled"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt blocked. Mehdi Taremi (IR Iran) right footed shot from the centre of the box is blocked. Assisted by Shahriyar Moghanloo with a headed pass.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt blocked. Ramin Rezaeian (IR Iran) right footed shot from the centre of the box is blocked. Assisted by Mehdi Taremi.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 90,
+    "text": "Corner, IR Iran. Conceded by Yasser Ibrahim.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 90,
+    "text": "Saeid Ezatolahi (IR Iran) hits the bar with a header from very close range. Assisted by Alireza Jahanbakhsh with a cross following a corner.",
+    "type": "Shot Hit Woodwork"
+   },
+   {
+    "minute": 90,
+    "text": "Second Half ends, Egypt 1, IR Iran 1.",
+    "type": "End Regular Time"
+   },
+   {
+    "minute": 0,
+    "text": "Match ends, Egypt 1, IR Iran 1.",
+    "type": ""
    }
   ],
   "halftime": "1-1",
@@ -38131,9 +38502,43 @@
     "player": "Leandro Trossard",
     "assist": null,
     "note": null
+   },
+   {
+    "minute": 66,
+    "team": "Belgium",
+    "player": "Kevin De Bruyne",
+    "assist": null,
+    "note": null
+   },
+   {
+    "minute": 84,
+    "team": "New Zealand",
+    "player": "Elijah Just",
+    "assist": null,
+    "note": null
+   },
+   {
+    "minute": 90,
+    "team": "Belgium",
+    "player": "Alexis Saelemaekers",
+    "assist": "Romelu Lukaku",
+    "note": null
    }
   ],
-  "cards": [],
+  "cards": [
+   {
+    "minute": 46,
+    "team": "New Zealand",
+    "player": "Marko Stamenic",
+    "type": "Yellow"
+   },
+   {
+    "minute": 56,
+    "team": "New Zealand",
+    "player": "Elijah Just",
+    "type": "Yellow"
+   }
+  ],
   "commentary": [
    {
     "minute": 0,
@@ -38337,7 +38742,7 @@
    },
    {
     "minute": 45,
-    "text": "Finn Surman (New Zealand) wins a free kick on the left wing.",
+    "text": "Finn Surman (New Zealand) wins a free kick in the defensive half.",
     "type": ""
    },
    {
@@ -38349,6 +38754,371 @@
     "minute": 45,
     "text": "First Half ends, New Zealand 0, Belgium 1.",
     "type": "Halftime"
+   },
+   {
+    "minute": 45,
+    "text": "Substitution, New Zealand. Ben Old replaces Ryan Thomas.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 45,
+    "text": "Substitution, New Zealand. Jesse Randall replaces Sarpreet Singh.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 45,
+    "text": "Second Half begins New Zealand 0, Belgium 1.",
+    "type": ""
+   },
+   {
+    "minute": 46,
+    "text": "Foul by Marko Stamenic (New Zealand).",
+    "type": "Foul"
+   },
+   {
+    "minute": 46,
+    "text": "Youri Tielemans (Belgium) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 46,
+    "text": "Marko Stamenic (New Zealand) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 47,
+    "text": "Attempt missed. Kevin De Bruyne (Belgium) right footed shot from outside the box misses to the left. Assisted by Hans Vanaken.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 50,
+    "text": "Attempt blocked. Leandro Trossard (Belgium) right footed shot from the centre of the box is blocked. Assisted by Kevin De Bruyne.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 50,
+    "text": "Goal! New Zealand 0, Belgium 2. Leandro Trossard (Belgium) right footed shot from the centre of the box to the top left corner. Assisted by Hans Vanaken.",
+    "type": "Goal - Volley"
+   },
+   {
+    "minute": 54,
+    "text": "Tim Payne (New Zealand) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 54,
+    "text": "Foul by Charles De Ketelaere (Belgium).",
+    "type": "Foul"
+   },
+   {
+    "minute": 54,
+    "text": "Attempt saved. Elijah Just (New Zealand) left footed shot from outside the box is saved in the bottom right corner by Thibaut Courtois (Belgium). Assisted by Chris Wood.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 55,
+    "text": "Attempt missed. Tim Payne (New Zealand) right footed shot from outside the box misses to the left.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 56,
+    "text": "Foul by Elijah Just (New Zealand).",
+    "type": "Foul"
+   },
+   {
+    "minute": 56,
+    "text": "Leandro Trossard (Belgium) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 56,
+    "text": "Elijah Just (New Zealand) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 56,
+    "text": "Substitution, Belgium. Matias Fernandez-Pardo replaces J\u00e9r\u00e9my Doku.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 57,
+    "text": "Liberato Cacace (New Zealand) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 57,
+    "text": "Foul by Charles De Ketelaere (Belgium).",
+    "type": "Foul"
+   },
+   {
+    "minute": 58,
+    "text": "Corner, New Zealand. Conceded by Timothy Castagne.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 59,
+    "text": "Attempt missed. Jesse Randall (New Zealand) left footed shot from outside the box is high and wide to the left following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 60,
+    "text": "Corner, Belgium. Conceded by Finn Surman.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 60,
+    "text": "Attempt missed. Arthur Theate (Belgium) header from the centre of the box misses to the right. Assisted by Maxim De Cuyper with a cross following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 60,
+    "text": "Jesse Randall (New Zealand) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 60,
+    "text": "Foul by Brandon Mechele (Belgium).",
+    "type": "Foul"
+   },
+   {
+    "minute": 61,
+    "text": "Attempt blocked. Kevin De Bruyne (Belgium) right footed shot from outside the box is blocked. Assisted by Matias Fernandez-Pardo.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 61,
+    "text": "Corner, Belgium. Conceded by Ben Old.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 62,
+    "text": "Attempt saved. Arthur Theate (Belgium) right footed shot from the centre of the box is saved in the centre of the goal by Max Crocombe (New Zealand).",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 62,
+    "text": "Attempt blocked. Kevin De Bruyne (Belgium) right footed shot from outside the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 62,
+    "text": "Corner, Belgium. Conceded by Marko Stamenic.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 64,
+    "text": "Corner, New Zealand. Conceded by Brandon Mechele.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 64,
+    "text": "Substitution, New Zealand. Michael Boxall replaces Tim Payne.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 64,
+    "text": "Substitution, New Zealand. Callum McCowatt replaces Joe Bell.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 65,
+    "text": "Attempt missed. Matias Fernandez-Pardo (Belgium) left footed shot from the centre of the box is too high. Assisted by Leandro Trossard following a fast break.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 66,
+    "text": "Attempt blocked. Kevin De Bruyne (Belgium) left footed shot from the centre of the box is blocked. Assisted by Matias Fernandez-Pardo.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 66,
+    "text": "Goal! New Zealand 0, Belgium 3. Kevin De Bruyne (Belgium) left footed shot from outside the box to the bottom right corner.",
+    "type": "Goal"
+   },
+   {
+    "minute": 69,
+    "text": "Foul by Callum McCowatt (New Zealand).",
+    "type": "Foul"
+   },
+   {
+    "minute": 69,
+    "text": "Youri Tielemans (Belgium) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 69,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 71,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 72,
+    "text": "Substitution, Belgium. Alexis Saelemaekers replaces Leandro Trossard.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 72,
+    "text": "Substitution, Belgium. Amadou Onana replaces Kevin De Bruyne.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 72,
+    "text": "Foul by Michael Boxall (New Zealand).",
+    "type": "Foul"
+   },
+   {
+    "minute": 72,
+    "text": "Charles De Ketelaere (Belgium) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 73,
+    "text": "Offside, Belgium. Alexis Saelemaekers is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 74,
+    "text": "Attempt blocked. Matias Fernandez-Pardo (Belgium) right footed shot from the centre of the box is blocked. Assisted by Charles De Ketelaere.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 74,
+    "text": "Attempt blocked. Amadou Onana (Belgium) left footed shot from outside the box is blocked. Assisted by Matias Fernandez-Pardo.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 74,
+    "text": "Handball by Maxim De Cuyper (Belgium).",
+    "type": "Handball"
+   },
+   {
+    "minute": 76,
+    "text": "Attempt blocked. Elijah Just (New Zealand) right footed shot from the centre of the box is blocked. Assisted by Chris Wood.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 76,
+    "text": "Corner, New Zealand. Conceded by Maxim De Cuyper.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 76,
+    "text": "Attempt missed. Tyler Bindon (New Zealand) header from the right side of the six yard box is too high. Assisted by Jesse Randall with a cross following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 77,
+    "text": "Foul by Marko Stamenic (New Zealand).",
+    "type": "Foul"
+   },
+   {
+    "minute": 77,
+    "text": "Alexis Saelemaekers (Belgium) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 78,
+    "text": "Attempt missed. Maxim De Cuyper (Belgium) left footed shot from outside the box is too high from a direct free kick.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 79,
+    "text": "Substitution, New Zealand. Francis de Vries replaces Liberato Cacace.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 80,
+    "text": "Attempt missed. Alexis Saelemaekers (Belgium) right footed shot from the right side of the box is too high. Assisted by Matias Fernandez-Pardo.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 82,
+    "text": "Chris Wood (New Zealand) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 82,
+    "text": "Foul by Brandon Mechele (Belgium).",
+    "type": "Foul"
+   },
+   {
+    "minute": 83,
+    "text": "Corner, New Zealand. Conceded by Youri Tielemans.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 84,
+    "text": "Goal! New Zealand 1, Belgium 3. Elijah Just (New Zealand) left footed shot from the centre of the box to the high centre of the goal following a corner.",
+    "type": "Goal"
+   },
+   {
+    "minute": 85,
+    "text": "Substitution, Belgium. Romelu Lukaku replaces Charles De Ketelaere.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 85,
+    "text": "Substitution, Belgium. Nicolas Raskin replaces Youri Tielemans.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 86,
+    "text": "Goal! New Zealand 1, Belgium 4. Romelu Lukaku (Belgium) header from very close range to the centre of the goal. Assisted by Nicolas Raskin with a cross.",
+    "type": "Goal - Header"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Callum McCowatt (New Zealand).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Alexis Saelemaekers (Belgium) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt missed. Amadou Onana (Belgium) right footed shot from outside the box misses to the left. Assisted by Hans Vanaken following a set piece situation.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 90,
+    "text": "Fourth official has announced 4 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 90,
+    "text": "Attempt saved. Maxim De Cuyper (Belgium) left footed shot from outside the box is saved in the top centre of the goal by Max Crocombe (New Zealand). Assisted by Hans Vanaken.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 90,
+    "text": "Corner, Belgium. Conceded by Max Crocombe.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt missed. Arthur Theate (Belgium) left footed shot from outside the box is high and wide to the left following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 90,
+    "text": "Goal! New Zealand 1, Belgium 5. Alexis Saelemaekers (Belgium) right footed shot from the centre of the box to the bottom left corner. Assisted by Romelu Lukaku following a fast break.",
+    "type": "Goal"
+   },
+   {
+    "minute": 90,
+    "text": "Second Half ends, New Zealand 1, Belgium 5.",
+    "type": "End Regular Time"
+   },
+   {
+    "minute": 0,
+    "text": "Match ends, New Zealand 1, Belgium 5.",
+    "type": ""
    }
   ],
   "halftime": "0-1",

@@ -1,37 +1,51 @@
 {
-  "sampleWithOdds": 51,
+  "sampleWithOdds": 53,
   "favorite": {
-    "bets": 51,
-    "wins": 34,
-    "winRate": 67,
-    "pnl": 2.17,
-    "yield": 4.3
+    "bets": 53,
+    "wins": 35,
+    "winRate": 66,
+    "pnl": 0.76,
+    "yield": 1.4
   },
   "value": {
-    "bets": 93,
-    "wins": 50,
-    "winRate": 54,
-    "pnl": 2.02,
-    "yield": 2.2
+    "bets": 115,
+    "wins": 65,
+    "winRate": 57,
+    "pnl": 6.01,
+    "yield": 5.2
   },
   "valueStrict": {
-    "bets": 67,
-    "wins": 40,
-    "winRate": 60,
-    "pnl": 5.64,
-    "yield": 8.4
+    "bets": 91,
+    "wins": 57,
+    "winRate": 63,
+    "pnl": 17.29,
+    "yield": 19.0
   },
   "topValue": [
+    {
+      "home": "DR Congo",
+      "away": "Uzbekistan",
+      "date": "2026-06-27 19:30 UTC-4",
+      "label": "Victoire DR Congo",
+      "prob": 0.6476,
+      "odd": 2.1,
+      "implied": 0.4762,
+      "edge": 0.1714,
+      "ev": 0.36,
+      "provider": "DraftKings",
+      "market": "1N2",
+      "lineMovement": 0.0
+    },
     {
       "home": "Croatia",
       "away": "Ghana",
       "date": "2026-06-27 17:00 UTC-4",
       "label": "Victoire Croatia",
-      "prob": 0.8679,
+      "prob": 0.7863,
       "odd": 1.625,
       "implied": 0.6154,
-      "edge": 0.2525,
-      "ev": 0.41,
+      "edge": 0.1709,
+      "ev": 0.278,
       "provider": "DraftKings",
       "market": "1N2",
       "lineMovement": 0.0
@@ -41,24 +55,11 @@
       "away": "Ghana",
       "date": "2026-06-27 17:00 UTC-4",
       "label": "Plus de 2.5 buts",
-      "prob": 0.6594,
+      "prob": 0.6301,
       "odd": 2.05,
       "implied": 0.4878,
-      "edge": 0.1716,
-      "ev": 0.352,
-      "provider": "DraftKings",
-      "market": "O/U"
-    },
-    {
-      "home": "Jordan",
-      "away": "Argentina",
-      "date": "2026-06-27 21:00 UTC-5",
-      "label": "Plus de 2.5 buts",
-      "prob": 0.7951,
-      "odd": 1.588,
-      "implied": 0.6297,
-      "edge": 0.1654,
-      "ev": 0.263,
+      "edge": 0.1423,
+      "ev": 0.292,
       "provider": "DraftKings",
       "market": "O/U"
     }

@@ -2,64 +2,64 @@
   "reliability": {
     "byTier": {
       "lock": {
-        "won": 161,
-        "total": 196,
-        "pct": 82
+        "won": 184,
+        "total": 228,
+        "pct": 81
       },
       "strong": {
-        "won": 51,
-        "total": 76,
-        "pct": 67
+        "won": 48,
+        "total": 69,
+        "pct": 70
       },
       "value": {
-        "won": 22,
-        "total": 31,
-        "pct": 71
+        "won": 27,
+        "total": 33,
+        "pct": 82
       }
     },
     "byMarket": {
       "DC": {
-        "won": 56,
-        "total": 64,
-        "pct": 88
+        "won": 55,
+        "total": 66,
+        "pct": 83
       },
       "DNB": {
-        "won": 40,
-        "total": 47,
+        "won": 41,
+        "total": 48,
         "pct": 85
       },
       "1N2": {
         "won": 42,
-        "total": 64,
-        "pct": 66
+        "total": 66,
+        "pct": 64
       },
       "OU": {
-        "won": 39,
-        "total": 64,
-        "pct": 61
+        "won": 41,
+        "total": 66,
+        "pct": 62
       },
       "BTTS": {
-        "won": 39,
-        "total": 64,
-        "pct": 61
+        "won": 35,
+        "total": 66,
+        "pct": 53
       },
       "CORNERS": {
-        "won": 41,
-        "total": 60,
-        "pct": 68
+        "won": 46,
+        "total": 66,
+        "pct": 70
       },
       "CARTONS": {
-        "won": 45,
-        "total": 60,
-        "pct": 75
+        "won": 54,
+        "total": 66,
+        "pct": 82
       }
     },
     "overall": {
-      "won": 234,
-      "total": 303,
-      "pct": 77
+      "won": 259,
+      "total": 330,
+      "pct": 78
     },
-    "sampleMatches": 64
+    "sampleMatches": 66
   },
   "tiers": {
     "lock": 0.85,
@@ -68,64 +68,16 @@
   },
   "picks": [
     {
-      "home": "New Zealand",
-      "away": "Belgium",
-      "date": "2026-06-26 20:00 UTC-7",
-      "id": null,
-      "market": "DNB",
-      "label": "Sans match nul : Belgium",
-      "prob": 0.9905,
-      "why": "remboursé si nul",
-      "tier": "lock",
-      "tierReliability": 82
-    },
-    {
-      "home": "New Zealand",
-      "away": "Belgium",
-      "date": "2026-06-26 20:00 UTC-7",
-      "id": null,
-      "market": "DC",
-      "label": "Double chance : New Zealand ou Belgium",
-      "prob": 0.9472,
-      "why": "exclut l'issue la moins probable",
-      "tier": "lock",
-      "tierReliability": 82
-    },
-    {
-      "home": "Egypt",
-      "away": "Iran",
-      "date": "2026-06-26 20:00 UTC-7",
-      "id": null,
-      "market": "CORNERS",
-      "label": "Plus de 4.5 corners",
-      "prob": 0.8135,
-      "why": "",
-      "tier": "lock",
-      "tierReliability": 82
-    },
-    {
-      "home": "Egypt",
-      "away": "Iran",
-      "date": "2026-06-26 20:00 UTC-7",
-      "id": null,
-      "market": "CARTONS",
-      "label": "Moins de 4.5 cartons",
-      "prob": 0.7367,
-      "why": "",
-      "tier": "lock",
-      "tierReliability": 82
-    },
-    {
       "home": "Panama",
       "away": "England",
       "date": "2026-06-27 17:00 UTC-4",
       "id": null,
       "market": "DC",
       "label": "Double chance : nul ou England",
-      "prob": 0.9845,
+      "prob": 0.986,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 82
+      "tierReliability": 81
     },
     {
       "home": "Panama",
@@ -134,10 +86,10 @@
       "id": null,
       "market": "DNB",
       "label": "Sans match nul : England",
-      "prob": 0.9833,
+      "prob": 0.9848,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 82
+      "tierReliability": 81
     },
     {
       "home": "Croatia",
@@ -146,10 +98,10 @@
       "id": null,
       "market": "DC",
       "label": "Double chance : Croatia ou nul",
-      "prob": 0.9782,
+      "prob": 0.9784,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 82
+      "tierReliability": 81
     },
     {
       "home": "Croatia",
@@ -161,7 +113,7 @@
       "prob": 0.9759,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 82
+      "tierReliability": 81
     },
     {
       "home": "DR Congo",
@@ -170,10 +122,10 @@
       "id": null,
       "market": "DC",
       "label": "Double chance : DR Congo ou nul",
-      "prob": 0.8917,
+      "prob": 0.9085,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 82
+      "tierReliability": 81
     },
     {
       "home": "DR Congo",
@@ -185,7 +137,7 @@
       "prob": 0.8849,
       "why": "",
       "tier": "lock",
-      "tierReliability": 82
+      "tierReliability": 81
     },
     {
       "home": "Colombia",
@@ -197,7 +149,7 @@
       "prob": 0.8182,
       "why": "",
       "tier": "lock",
-      "tierReliability": 82
+      "tierReliability": 81
     },
     {
       "home": "Colombia",
@@ -209,7 +161,19 @@
       "prob": 0.8112,
       "why": "",
       "tier": "lock",
-      "tierReliability": 82
+      "tierReliability": 81
+    },
+    {
+      "home": "Jordan",
+      "away": "Argentina",
+      "date": "2026-06-27 21:00 UTC-5",
+      "id": null,
+      "market": "DC",
+      "label": "Double chance : nul ou Argentina",
+      "prob": 0.9938,
+      "why": "exclut l'issue la moins probable",
+      "tier": "lock",
+      "tierReliability": 81
     },
     {
       "home": "Jordan",
@@ -218,22 +182,10 @@
       "id": null,
       "market": "DNB",
       "label": "Sans match nul : Argentina",
-      "prob": 0.9954,
+      "prob": 0.9936,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 82
-    },
-    {
-      "home": "Jordan",
-      "away": "Argentina",
-      "date": "2026-06-27 21:00 UTC-5",
-      "id": null,
-      "market": "1N2",
-      "label": "Victoire Argentina",
-      "prob": 0.9714,
-      "why": "issue la plus probable",
-      "tier": "lock",
-      "tierReliability": 82
+      "tierReliability": 81
     },
     {
       "home": "Algeria",
@@ -242,10 +194,10 @@
       "id": null,
       "market": "CORNERS",
       "label": "Moins de 9.5 corners",
-      "prob": 0.8238,
+      "prob": 0.8235,
       "why": "",
       "tier": "lock",
-      "tierReliability": 82
+      "tierReliability": 81
     },
     {
       "home": "Algeria",
@@ -257,7 +209,7 @@
       "prob": 0.756,
       "why": "",
       "tier": "lock",
-      "tierReliability": 82
+      "tierReliability": 81
     },
     {
       "home": "South Africa",
@@ -266,10 +218,10 @@
       "id": null,
       "market": "DC",
       "label": "Double chance : nul ou Canada",
-      "prob": 0.8545,
+      "prob": 0.8511,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 82
+      "tierReliability": 81
     },
     {
       "home": "South Africa",
@@ -281,7 +233,7 @@
       "prob": 0.8221,
       "why": "",
       "tier": "lock",
-      "tierReliability": 82
+      "tierReliability": 81
     },
     {
       "home": "Brazil",
@@ -290,10 +242,10 @@
       "id": null,
       "market": "DC",
       "label": "Double chance : Brazil ou nul",
-      "prob": 0.8187,
+      "prob": 0.8183,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 82
+      "tierReliability": 81
     },
     {
       "home": "Brazil",
@@ -302,11 +254,59 @@
       "id": null,
       "market": "DNB",
       "label": "Sans match nul : Brazil",
-      "prob": 0.7544,
+      "prob": 0.7516,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 82
+      "tierReliability": 81
+    },
+    {
+      "home": "Germany",
+      "away": "3A/B/C/D/F",
+      "date": "2026-06-29 16:30 UTC-4",
+      "id": null,
+      "market": "DNB",
+      "label": "Sans match nul : Germany",
+      "prob": 0.9942,
+      "why": "remboursé si nul",
+      "tier": "lock",
+      "tierReliability": 81
+    },
+    {
+      "home": "Germany",
+      "away": "3A/B/C/D/F",
+      "date": "2026-06-29 16:30 UTC-4",
+      "id": null,
+      "market": "DC",
+      "label": "Double chance : Germany ou 3A/B/C/D/F",
+      "prob": 0.9684,
+      "why": "exclut l'issue la moins probable",
+      "tier": "lock",
+      "tierReliability": 81
+    },
+    {
+      "home": "Netherlands",
+      "away": "Morocco",
+      "date": "2026-06-29 19:00 UTC-6",
+      "id": null,
+      "market": "CORNERS",
+      "label": "Plus de 4.5 corners",
+      "prob": 0.82,
+      "why": "",
+      "tier": "lock",
+      "tierReliability": 81
+    },
+    {
+      "home": "Netherlands",
+      "away": "Morocco",
+      "date": "2026-06-29 19:00 UTC-6",
+      "id": null,
+      "market": "CARTONS",
+      "label": "Moins de 4.5 cartons",
+      "prob": 0.7571,
+      "why": "",
+      "tier": "lock",
+      "tierReliability": 81
     }
   ],
-  "lockCount": 66
+  "lockCount": 58
 }

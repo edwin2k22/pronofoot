@@ -465,5 +465,41 @@
   },
   "home": "New Zealand",
   "away": "Belgium"
+ },
+ "Panama|England": {
+  "refTeam": "Panama",
+  "games": [
+   {
+    "date": "2018-06-24",
+    "score": "1-6",
+    "competition": "2018 FIFA World Cup"
+   }
+  ],
+  "summary": {
+   "win": 0,
+   "draw": 0,
+   "loss": 1,
+   "total": 1
+  },
+  "home": "Panama",
+  "away": "England"
+ },
+ "Algeria|Austria": {
+  "refTeam": "Algeria",
+  "games": [
+   {
+    "date": "1982-06-21",
+    "score": "0-2",
+    "competition": "World Cup - Spain 1982"
+   }
+  ],
+  "summary": {
+   "win": 0,
+   "draw": 0,
+   "loss": 1,
+   "total": 1
+  },
+  "home": "Algeria",
+  "away": "Austria"
  }
 }
