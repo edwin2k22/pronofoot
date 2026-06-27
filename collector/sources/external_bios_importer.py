@@ -2,7 +2,7 @@ import os
 import csv
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
-EXTERNAL_DB_PATH = os.path.join(DATA_DIR, "players_fifa24.csv")
+EXTERNAL_DB_PATH = os.path.join(DATA_DIR, "players_fifa_merged.csv")
 
 # Cache to avoid re-parsing the CSV for every player
 _external_cache = None
@@ -27,15 +27,28 @@ def _load_db():
             name = row.get("short_name", "").lower()
             _external_cache[name] = row
 
+import unicodedata
+
+def _norm(name):
+    # Fix common utf-8 mojibake manually first
+    name = name.replace("Ã¯", "ï").replace("Ã©", "é").replace("Ã¨", "è").replace("Ã¡", "á").replace("Ã", "à").replace("Ã³", "ó").replace("Ã¼", "ü").replace("Ã±", "ñ").replace("Ã§", "ç")
+    # Then normalize
+    name = unicodedata.normalize("NFD", name)
+    name = "".join(c for c in name if unicodedata.category(c) != "Mn")
+    return name.lower().strip()
+
 def _fuzzy_match(name):
-    # Very basic matching: split names and find best overlap
-    name_lower = name.lower()
-    if name_lower in _external_cache:
-        return _external_cache[name_lower]
+    name_norm = _norm(name)
+    if name_norm in _external_cache:
+        return _external_cache[name_norm]
     
-    parts = name_lower.split()
+    parts = name_norm.split()
+    # Find best overlap
     for ext_name, data in _external_cache.items():
-        if all(p in ext_name for p in parts) or all(p in parts for p in ext_name.split()):
+        ext_norm = _norm(ext_name)
+        if ext_norm == name_norm:
+            return data
+        if all(p in ext_norm for p in parts) or all(p in parts for p in ext_norm.split()):
             return data
     return None
 

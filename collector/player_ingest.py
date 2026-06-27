@@ -203,9 +203,26 @@ def export_for_web():
             }
             bio = _bios.get_bio(r["name"])
             if not bio:
-                bio = generate_auto_bio(p_dict)
-            if not bio:
-                bio = ext_bios.get_external_bio(r["name"])
+                ext_bio = ext_bios.get_external_bio(r["name"])
+                auto_bio = generate_auto_bio(p_dict)
+                
+                if ext_bio and auto_bio:
+                    ext_f = [f for f in ext_bio["forces"] if f != "Standard"]
+                    ext_w = [f for f in ext_bio["faiblesses"] if f != "Standard"]
+                    aut_f = [f for f in auto_bio["forces"] if f not in ("N/D", "Volume de jeu standard")]
+                    aut_w = [f for f in auto_bio["faiblesses"] if f not in ("N/D", "Volume de jeu standard")]
+                    
+                    forces = ext_f + aut_f
+                    faiblesses = ext_w + aut_w
+                    
+                    bio = {
+                        "bio": ext_bio["bio"],
+                        "forces": forces if forces else ["Standard"],
+                        "faiblesses": faiblesses if faiblesses else ["Standard"],
+                        "source": "EA FC 24 + Stats 2026"
+                    }
+                else:
+                    bio = ext_bio or auto_bio
                 
             p_dict["bio"] = bio
             players.append(p_dict)
