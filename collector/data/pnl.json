@@ -2,50 +2,36 @@
   "sampleWithOdds": 53,
   "favorite": {
     "bets": 53,
-    "wins": 35,
-    "winRate": 66,
-    "pnl": 0.76,
-    "yield": 1.4
+    "wins": 40,
+    "winRate": 75,
+    "pnl": 14.41,
+    "yield": 27.2
   },
   "value": {
-    "bets": 115,
-    "wins": 65,
+    "bets": 106,
+    "wins": 60,
     "winRate": 57,
-    "pnl": 6.01,
-    "yield": 5.2
+    "pnl": 5.25,
+    "yield": 5.0
   },
   "valueStrict": {
-    "bets": 91,
-    "wins": 57,
-    "winRate": 63,
-    "pnl": 17.29,
-    "yield": 19.0
+    "bets": 70,
+    "wins": 46,
+    "winRate": 66,
+    "pnl": 18.65,
+    "yield": 26.6
   },
   "topValue": [
-    {
-      "home": "DR Congo",
-      "away": "Uzbekistan",
-      "date": "2026-06-27 19:30 UTC-4",
-      "label": "Victoire DR Congo",
-      "prob": 0.6476,
-      "odd": 2.1,
-      "implied": 0.4762,
-      "edge": 0.1714,
-      "ev": 0.36,
-      "provider": "DraftKings",
-      "market": "1N2",
-      "lineMovement": 0.0
-    },
     {
       "home": "Croatia",
       "away": "Ghana",
       "date": "2026-06-27 17:00 UTC-4",
       "label": "Victoire Croatia",
-      "prob": 0.7863,
+      "prob": 0.7704,
       "odd": 1.625,
       "implied": 0.6154,
-      "edge": 0.1709,
-      "ev": 0.278,
+      "edge": 0.155,
+      "ev": 0.252,
       "provider": "DraftKings",
       "market": "1N2",
       "lineMovement": 0.0
@@ -55,13 +41,27 @@
       "away": "Ghana",
       "date": "2026-06-27 17:00 UTC-4",
       "label": "Plus de 2.5 buts",
-      "prob": 0.6301,
+      "prob": 0.6428,
       "odd": 2.05,
       "implied": 0.4878,
-      "edge": 0.1423,
-      "ev": 0.292,
+      "edge": 0.155,
+      "ev": 0.318,
       "provider": "DraftKings",
       "market": "O/U"
+    },
+    {
+      "home": "DR Congo",
+      "away": "Uzbekistan",
+      "date": "2026-06-27 19:30 UTC-4",
+      "label": "Victoire DR Congo",
+      "prob": 0.6149,
+      "odd": 2.1,
+      "implied": 0.4762,
+      "edge": 0.1387,
+      "ev": 0.291,
+      "provider": "DraftKings",
+      "market": "1N2",
+      "lineMovement": 0.0
     }
   ]
 }

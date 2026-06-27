@@ -60,6 +60,11 @@ ASSIGNMENTS = {
     ("Senegal", "Iraq"):                   ("Anthony Taylor", "Angleterre"),
     ("Uruguay", "Spain"):                  ("Ismail Elfath", "États-Unis"),
     ("New Zealand", "Belgium"):            ("Adham Makhadmeh", "Jordanie"),
+    # --- Ajout pour la journée du 27 Juin 2026 (source: web search FIFA) ---
+    ("Panama", "England"):                 ("Abdulrahman Al-Jassim", "Qatar"),
+    ("Croatia", "Ghana"):                  ("Drew Fischer", "Canada"),
+    ("Colombia", "Portugal"):              ("Alireza Faghani", "Australie"),
+    ("DR Congo", "Uzbekistan"):            ("Abdulrahman Al-Jassim", "Qatar"),
 }
 # Sévérité connue de quelques arbitres = cartons TOTAUX par match (jaunes + rouges)
 # sur leur saison/carrière récente. Sources : statshub, soccerbase, worldfootball (2025-26).
@@ -78,6 +83,8 @@ SEVERITY = {
     "Michael Oliver": 3.9,        # Premier League, 3.7 J + 0.22 R /match (statshub)
     "Anthony Taylor": 4.1,        # Premier League, sévérité élevée (statshub)
     "Adham Makhadmeh": 3.6,       # AFC, profil modéré
+    "Abdulrahman Al-Jassim": 3.4,  # AFC/Qatar, 3.32 J + 0.11 R /match (statshub, carrière)
+    "Drew Fischer": 4.2,           # MLS/CONCACAF, ~4.21 J /match saison 2025 (playerstats)
 }
 REF_AVG = 3.8   # moyenne générale cartons/match (prior quand arbitre inconnu)
 
