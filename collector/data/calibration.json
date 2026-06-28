@@ -1,30 +1,30 @@
 {
   "rho": -0.1175,
-  "gamma": 0.0021,
+  "gamma": 0.0596,
   "n_matches": 187,
   "rho_mle": -0.12,
-  "gamma_mle": 0.0,
-  "log_likelihood": -526.38,
+  "gamma_mle": 0.06,
+  "log_likelihood": -523.51,
   "note": "calibré sur 187 matchs (shrinkage k=8 vers prior)",
   "cornersFactor": {
-    "factor": 0.542,
-    "n": 69,
-    "avg_pred": 17.57,
-    "avg_obs": 8.83,
-    "raw": 0.502,
-    "note": "facteur empirique sur 69 matchs (shrinkage k=6, borné [0.5,1.6])"
+    "factor": 0.509,
+    "n": 115,
+    "avg_pred": 15.49,
+    "avg_obs": 7.5,
+    "raw": 0.484,
+    "note": "facteur empirique sur 115 matchs (shrinkage k=6, borné [0.5,1.6])"
   },
   "bttsBias": {
-    "shift": 0.0599,
+    "shift": 0.0712,
     "n": 187,
-    "avg_pred": 0.439,
+    "avg_pred": 0.427,
     "avg_obs": 0.503,
     "note": "biais empirique sur 187 matchs (shrinkage k=12, borné ±0.15)"
   },
   "overBias": {
-    "shift": -0.0584,
+    "shift": -0.0215,
     "n": 187,
-    "avg_pred": 0.618,
+    "avg_pred": 0.579,
     "avg_obs": 0.556,
     "note": "biais empirique sur 187 matchs (shrinkage k=12, borné ±0.15)"
   }

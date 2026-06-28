@@ -1,67 +1,25 @@
 {
-  "sampleWithOdds": 55,
+  "sampleWithOdds": 59,
   "favorite": {
-    "bets": 55,
-    "wins": 37,
-    "winRate": 67,
-    "pnl": 1.62,
-    "yield": 2.9
+    "bets": 59,
+    "wins": 44,
+    "winRate": 75,
+    "pnl": 15.41,
+    "yield": 26.1
   },
   "value": {
-    "bets": 120,
-    "wins": 67,
-    "winRate": 56,
-    "pnl": 4.15,
-    "yield": 3.5
+    "bets": 121,
+    "wins": 74,
+    "winRate": 61,
+    "pnl": 18.46,
+    "yield": 15.3
   },
   "valueStrict": {
-    "bets": 98,
-    "wins": 60,
-    "winRate": 61,
-    "pnl": 13.12,
-    "yield": 13.4
+    "bets": 84,
+    "wins": 57,
+    "winRate": 68,
+    "pnl": 21.0,
+    "yield": 25.0
   },
-  "topValue": [
-    {
-      "home": "DR Congo",
-      "away": "Uzbekistan",
-      "date": "2026-06-27 19:30 UTC-4",
-      "label": "Victoire DR Congo",
-      "prob": 0.6562,
-      "odd": 2.1,
-      "implied": 0.4762,
-      "edge": 0.18,
-      "ev": 0.378,
-      "provider": "DraftKings",
-      "market": "1N2",
-      "lineMovement": 0.0
-    },
-    {
-      "home": "Jordan",
-      "away": "Argentina",
-      "date": "2026-06-27 21:00 UTC-5",
-      "label": "Plus de 2.5 buts",
-      "prob": 0.7951,
-      "odd": 1.588,
-      "implied": 0.6297,
-      "edge": 0.1654,
-      "ev": 0.263,
-      "provider": "DraftKings",
-      "market": "O/U"
-    },
-    {
-      "home": "Jordan",
-      "away": "Argentina",
-      "date": "2026-06-27 21:00 UTC-5",
-      "label": "Victoire Argentina",
-      "prob": 0.9791,
-      "odd": 1.19,
-      "implied": 0.8403,
-      "edge": 0.1388,
-      "ev": 0.165,
-      "provider": "DraftKings",
-      "market": "1N2",
-      "lineMovement": -6.31
-    }
-  ]
+  "topValue": []
 }

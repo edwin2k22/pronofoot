@@ -40347,5 +40347,2121 @@
   "halftime": "1-0",
   "motm": "\u2014",
   "note": ""
+ },
+ "Colombia|Portugal": {
+  "goals": [],
+  "cards": [
+   {
+    "minute": 86,
+    "team": "Colombia",
+    "player": "Gustavo Puerta",
+    "type": "Yellow"
+   }
+  ],
+  "commentary": [
+   {
+    "minute": 0,
+    "text": "Lineups are announced and players are warming up.",
+    "type": ""
+   },
+   {
+    "minute": 0,
+    "text": "First Half begins.",
+    "type": ""
+   },
+   {
+    "minute": 1,
+    "text": "Foul by Pedro Neto (Portugal).",
+    "type": "Foul"
+   },
+   {
+    "minute": 1,
+    "text": "Deiver Machado (Colombia) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 1,
+    "text": "Attempt blocked. Luis D\u00edaz (Colombia) right footed shot from the left side of the box is blocked. Assisted by Davinson S\u00e1nchez.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 2,
+    "text": "Attempt missed. Jhon C\u00f3rdoba (Colombia) header from the centre of the box is just a bit too high.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 2,
+    "text": "Offside, Colombia. Jhon C\u00f3rdoba is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 4,
+    "text": "Foul by Jhon Arias (Colombia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 4,
+    "text": "Nuno Mendes (Portugal) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 4,
+    "text": "Attempt missed. R\u00faben Neves (Portugal) right footed shot from outside the box misses to the left.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 6,
+    "text": "Attempt missed. Luis D\u00edaz (Colombia) right footed shot from the centre of the box misses to the right. Assisted by Jhon Arias with a headed pass.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 12,
+    "text": "Attempt missed. Bruno Fernandes (Portugal) right footed shot from outside the box misses to the left. Assisted by Pedro Neto.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 14,
+    "text": "Attempt missed. Gustavo Puerta (Colombia) left footed shot from outside the box is high and wide to the left. Assisted by Santiago Arias.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 17,
+    "text": "Attempt saved. Jhon C\u00f3rdoba (Colombia) right footed shot from the right side of the box is saved in the centre of the goal by Diogo Costa (Portugal). Assisted by Jhon Arias.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 17,
+    "text": "Attempt blocked. Luis D\u00edaz (Colombia) right footed shot from the centre of the box is blocked. Assisted by James Rodr\u00edguez.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 17,
+    "text": "Corner, Colombia. Conceded by Jo\u00e3o Cancelo.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 18,
+    "text": "Offside, Colombia. Luis D\u00edaz is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 22,
+    "text": "Attempt missed. Jhon Arias (Colombia) right footed shot from the right side of the box misses to the left. Assisted by James Rodr\u00edguez.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 23,
+    "text": "Foul by Jhon Arias (Colombia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 23,
+    "text": "Cristiano Ronaldo (Portugal) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 24,
+    "text": "Attempt saved. Cristiano Ronaldo (Portugal) right footed shot from outside the box is saved in the centre of the goal by Camilo Vargas (Colombia).",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 24,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 27,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 31,
+    "text": "VAR Decision: Other Decision Cancelled.",
+    "type": "VAR - Referee decision cancelled"
+   },
+   {
+    "minute": 32,
+    "text": "Offside, Portugal. Cristiano Ronaldo is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 33,
+    "text": "James Rodr\u00edguez (Colombia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 33,
+    "text": "Foul by R\u00faben Dias (Portugal).",
+    "type": "Foul"
+   },
+   {
+    "minute": 36,
+    "text": "Foul by Renato Veiga (Portugal).",
+    "type": "Foul"
+   },
+   {
+    "minute": 36,
+    "text": "Jhon C\u00f3rdoba (Colombia) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 38,
+    "text": "Attempt blocked. Vitinha (Portugal) right footed shot from outside the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 39,
+    "text": "Attempt saved. Bruno Fernandes (Portugal) right footed shot from the centre of the box is saved in the top centre of the goal by Camilo Vargas (Colombia).",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 39,
+    "text": "Attempt blocked. Cristiano Ronaldo (Portugal) right footed shot from the centre of the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 40,
+    "text": "Attempt missed. R\u00faben Neves (Portugal) right footed shot from outside the box is close, but misses to the left. Assisted by Vitinha.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 42,
+    "text": "Attempt missed. Jo\u00e3o F\u00e9lix (Portugal) right footed shot from the left side of the box is just a bit too high. Assisted by Nuno Mendes.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 44,
+    "text": "Attempt blocked. James Rodr\u00edguez (Colombia) right footed shot from the centre of the box is blocked. Assisted by Santiago Arias.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 44,
+    "text": "Attempt blocked. Jefferson Lerma (Colombia) left footed shot from outside the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 44,
+    "text": "Foul by Pedro Neto (Portugal).",
+    "type": "Foul"
+   },
+   {
+    "minute": 44,
+    "text": "Deiver Machado (Colombia) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Cristiano Ronaldo (Portugal) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Foul by Jhon Lucum\u00ed (Colombia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Attempt saved. Gustavo Puerta (Colombia) right footed shot from outside the box is saved in the bottom left corner by Diogo Costa (Portugal). Assisted by Jhon Arias.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 45,
+    "text": "Fourth official has announced 3 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 45,
+    "text": "Attempt missed. Luis D\u00edaz (Colombia) right footed shot from outside the box is close, but misses to the left. Assisted by James Rodr\u00edguez.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 45,
+    "text": "Attempt blocked. Cristiano Ronaldo (Portugal) left footed shot from outside the box is blocked. Assisted by Nuno Mendes.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 45,
+    "text": "Attempt saved. James Rodr\u00edguez (Colombia) left footed shot from outside the box is saved in the bottom left corner by Diogo Costa (Portugal). Assisted by Jhon Arias.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 45,
+    "text": "First Half ends, Colombia 0, Portugal 0.",
+    "type": ""
+   },
+   {
+    "minute": 45,
+    "text": "Substitution, Portugal. Diogo Dalot replaces Jo\u00e3o Cancelo.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 45,
+    "text": "Substitution, Portugal. Jo\u00e3o Neves replaces R\u00faben Neves.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 45,
+    "text": "Second Half begins Colombia 0, Portugal 0.",
+    "type": "Start 2nd Half"
+   },
+   {
+    "minute": 47,
+    "text": "Vitinha (Portugal) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 47,
+    "text": "Foul by Jhon Arias (Colombia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 48,
+    "text": "Foul by Cristiano Ronaldo (Portugal).",
+    "type": "Foul"
+   },
+   {
+    "minute": 48,
+    "text": "Jhon Arias (Colombia) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 49,
+    "text": "Bruno Fernandes (Portugal) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 49,
+    "text": "Foul by Gustavo Puerta (Colombia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 51,
+    "text": "Attempt missed. Jo\u00e3o F\u00e9lix (Portugal) header from the centre of the box is high and wide to the left. Assisted by Diogo Dalot with a cross.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 55,
+    "text": "Attempt saved. Jefferson Lerma (Colombia) right footed shot from outside the box is saved in the centre of the goal by Diogo Costa (Portugal). Assisted by Deiver Machado.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 55,
+    "text": "Attempt saved. Jhon Arias (Colombia) right footed shot from outside the box is saved in the top right corner by Diogo Costa (Portugal). Assisted by Gustavo Puerta.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 57,
+    "text": "Attempt blocked. Jo\u00e3o F\u00e9lix (Portugal) right footed shot from outside the box is blocked. Assisted by Nuno Mendes.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 59,
+    "text": "Offside, Portugal. Cristiano Ronaldo is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 60,
+    "text": "Substitution, Colombia. Richard R\u00edos replaces Jefferson Lerma.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 60,
+    "text": "Substitution, Colombia. Luis Su\u00e1rez replaces Jhon C\u00f3rdoba.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 62,
+    "text": "Attempt missed. Richard R\u00edos (Colombia) left footed shot from the centre of the box is close, but misses to the right. Assisted by Santiago Arias.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 63,
+    "text": "Vitinha (Portugal) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 63,
+    "text": "Foul by Richard R\u00edos (Colombia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 65,
+    "text": "Attempt blocked. Luis Su\u00e1rez (Colombia) right footed shot from the right side of the box is blocked. Assisted by James Rodr\u00edguez.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 65,
+    "text": "Corner, Colombia. Conceded by Renato Veiga.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 65,
+    "text": "Attempt missed. Davinson S\u00e1nchez (Colombia) header from the centre of the box misses to the right. Assisted by James Rodr\u00edguez with a cross following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 66,
+    "text": "Attempt saved. Jhon Arias (Colombia) right footed shot from the right side of the box is saved in the top right corner by Diogo Costa (Portugal). Assisted by Santiago Arias.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 66,
+    "text": "Corner, Colombia. Conceded by Diogo Costa.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 67,
+    "text": "Attempt missed. Gustavo Puerta (Colombia) right footed shot from outside the box is close, but misses to the left. Assisted by Luis D\u00edaz following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 67,
+    "text": "Delay in match because of an injury Nuno Mendes (Portugal).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 67,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 68,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 70,
+    "text": "Substitution, Portugal. Rafael Le\u00e3o replaces Jo\u00e3o F\u00e9lix.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 70,
+    "text": "Substitution, Portugal. Sam\u00fa Costa replaces Vitinha.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 71,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 73,
+    "text": "Attempt missed. Luis Su\u00e1rez (Colombia) left footed shot from the centre of the box is close, but misses to the right. Assisted by Santiago Arias with a cross.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 74,
+    "text": "Attempt blocked. James Rodr\u00edguez (Colombia) left footed shot from outside the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 74,
+    "text": "Corner, Colombia. Conceded by Renato Veiga.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 74,
+    "text": "Nuno Mendes (Portugal) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 74,
+    "text": "Foul by Richard R\u00edos (Colombia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 75,
+    "text": "Diogo Dalot (Portugal) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 75,
+    "text": "Foul by Deiver Machado (Colombia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 76,
+    "text": "Substitution, Colombia. Kevin Casta\u00f1o replaces Jhon Arias.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 76,
+    "text": "Substitution, Colombia. Juan Fernando Quintero replaces James Rodr\u00edguez.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 77,
+    "text": "Corner, Portugal. Conceded by Santiago Arias.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 78,
+    "text": "Attempt missed. Diogo Dalot (Portugal) right footed shot from outside the box is close, but misses to the right. Assisted by Bruno Fernandes following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 79,
+    "text": "Pedro Neto (Portugal) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 79,
+    "text": "Foul by Gustavo Puerta (Colombia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 80,
+    "text": "Corner, Portugal. Conceded by Davinson S\u00e1nchez.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 81,
+    "text": "Rafael Le\u00e3o (Portugal) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 81,
+    "text": "Foul by Santiago Arias (Colombia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 82,
+    "text": "Bruno Fernandes (Portugal) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 82,
+    "text": "Foul by Richard R\u00edos (Colombia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 83,
+    "text": "Foul by R\u00faben Dias (Portugal).",
+    "type": "Foul"
+   },
+   {
+    "minute": 83,
+    "text": "Richard R\u00edos (Colombia) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 86,
+    "text": "Gustavo Puerta (Colombia) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 87,
+    "text": "Substitution, Colombia. Daniel Mu\u00f1oz replaces Santiago Arias.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 88,
+    "text": "Attempt missed. Luis Su\u00e1rez (Colombia) right footed shot from the centre of the box is high and wide to the left.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt missed. Luis Su\u00e1rez (Colombia) header from the centre of the box misses to the left. Assisted by Daniel Mu\u00f1oz with a cross.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 90,
+    "text": "Fourth official has announced 5 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 90,
+    "text": "Corner, Colombia. Conceded by Pedro Neto.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 90,
+    "text": "Offside, Colombia. Davinson S\u00e1nchez is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 90,
+    "text": "Substitution, Portugal. Matheus Nunes replaces Nuno Mendes.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt missed. Rafael Le\u00e3o (Portugal) right footed shot from the left side of the box misses to the right. Assisted by Renato Veiga.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt blocked. Gustavo Puerta (Colombia) right footed shot from the centre of the box is blocked. Assisted by Luis D\u00edaz.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 90,
+    "text": "Diogo Costa (Portugal) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Daniel Mu\u00f1oz (Colombia).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Second Half ends, Colombia 0, Portugal 0.",
+    "type": "End Regular Time"
+   },
+   {
+    "minute": 0,
+    "text": "Match ends, Colombia 0, Portugal 0.",
+    "type": ""
+   }
+  ],
+  "halftime": "0-0",
+  "motm": "\u2014",
+  "note": ""
+ },
+ "DR Congo|Uzbekistan": {
+  "goals": [
+   {
+    "minute": 10,
+    "team": "Uzbekistan",
+    "player": "Eldor Shomurodov",
+    "assist": "Akmal Mozgovoy",
+    "note": null
+   },
+   {
+    "minute": 78,
+    "team": "Congo DR",
+    "player": "Fiston Mayele",
+    "assist": null,
+    "note": null
+   },
+   {
+    "minute": 90,
+    "team": "Congo DR",
+    "player": "Yoane Wissa",
+    "assist": "Meschack Elia",
+    "note": null
+   }
+  ],
+  "cards": [
+   {
+    "minute": 21,
+    "team": "Congo DR",
+    "player": "Noah Sadiki",
+    "type": "Yellow"
+   },
+   {
+    "minute": 43,
+    "team": "Uzbekistan",
+    "player": "Abdukodir Khusanov",
+    "type": "Yellow"
+   },
+   {
+    "minute": 45,
+    "team": "Congo DR",
+    "player": "Nathana\u00ebl Mbuku",
+    "type": "Yellow"
+   },
+   {
+    "minute": 48,
+    "team": "Uzbekistan",
+    "player": "Sherzod Nasrullaev",
+    "type": "Yellow"
+   },
+   {
+    "minute": 62,
+    "team": "Congo DR",
+    "player": "Samuel Moutoussamy",
+    "type": "Yellow"
+   }
+  ],
+  "commentary": [
+   {
+    "minute": 0,
+    "text": "Lineups are announced and players are warming up.",
+    "type": ""
+   },
+   {
+    "minute": 0,
+    "text": "First Half begins.",
+    "type": "Kickoff"
+   },
+   {
+    "minute": 1,
+    "text": "Offside, Uzbekistan. Dostonbek Khamdamov is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 2,
+    "text": "Attempt missed. Yoane Wissa (Congo DR) right footed shot from outside the box misses to the right.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 3,
+    "text": "Noah Sadiki (Congo DR) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 3,
+    "text": "Foul by Khojiakbar Alijonov (Uzbekistan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 4,
+    "text": "Foul by Nathana\u00ebl Mbuku (Congo DR).",
+    "type": "Foul"
+   },
+   {
+    "minute": 4,
+    "text": "Sherzod Nasrullaev (Uzbekistan) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 10,
+    "text": "Goal! Congo DR 0, Uzbekistan 1. Eldor Shomurodov (Uzbekistan) left footed shot from the left side of the box to the top right corner. Assisted by Akmal Mozgovoy.",
+    "type": "Goal"
+   },
+   {
+    "minute": 13,
+    "text": "Corner, Uzbekistan. Conceded by Axel Tuanzebe.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 14,
+    "text": "Noah Sadiki (Congo DR) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 14,
+    "text": "Foul by Otabek Shukurov (Uzbekistan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 15,
+    "text": "Arthur Masuaku (Congo DR) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 15,
+    "text": "Foul by Abbosbek Fayzullaev (Uzbekistan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 17,
+    "text": "Foul by Nathana\u00ebl Mbuku (Congo DR).",
+    "type": "Foul"
+   },
+   {
+    "minute": 17,
+    "text": "Sherzod Nasrullaev (Uzbekistan) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 17,
+    "text": "GOAL OVERTURNED BY VAR: Nathana\u00ebl Mbuku (Congo DR) scores but the goal is ruled out after a VAR review.",
+    "type": "Deleted After Review"
+   },
+   {
+    "minute": 18,
+    "text": "VAR Decision: No Goal Congo DR 0-1 Uzbekistan.",
+    "type": "VAR - Referee decision cancelled"
+   },
+   {
+    "minute": 20,
+    "text": "Foul by Noah Sadiki (Congo DR).",
+    "type": "Foul"
+   },
+   {
+    "minute": 20,
+    "text": "Otabek Shukurov (Uzbekistan) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 21,
+    "text": "Noah Sadiki (Congo DR) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 23,
+    "text": "Akmal Mozgovoy (Uzbekistan) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 23,
+    "text": "Foul by Yoane Wissa (Congo DR).",
+    "type": "Foul"
+   },
+   {
+    "minute": 23,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 25,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 26,
+    "text": "Corner, Uzbekistan. Conceded by Axel Tuanzebe.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 29,
+    "text": "Attempt missed. Yoane Wissa (Congo DR) left footed shot from the centre of the box is too high. Assisted by Noah Sadiki.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 31,
+    "text": "Offside, Congo DR. C\u00e9dric Bakambu is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 34,
+    "text": "Foul by Abbosbek Fayzullaev (Uzbekistan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 34,
+    "text": "Axel Tuanzebe (Congo DR) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 35,
+    "text": "Delay in match because of an injury Abbosbek Fayzullaev (Uzbekistan).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 36,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 38,
+    "text": "Corner, Uzbekistan. Conceded by Aaron Wan-Bissaka.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 39,
+    "text": "Handball by Eldor Shomurodov (Uzbekistan).",
+    "type": "Handball"
+   },
+   {
+    "minute": 40,
+    "text": "Foul by Sherzod Nasrullaev (Uzbekistan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 40,
+    "text": "Nathana\u00ebl Mbuku (Congo DR) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 41,
+    "text": "Foul by Dostonbek Khamdamov (Uzbekistan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 41,
+    "text": "Noah Sadiki (Congo DR) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 42,
+    "text": "Corner, Congo DR. Conceded by Abbosbek Fayzullaev.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 43,
+    "text": "Foul by Abdukodir Khusanov (Uzbekistan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 43,
+    "text": "Yoane Wissa (Congo DR) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 43,
+    "text": "Abdukodir Khusanov (Uzbekistan) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 44,
+    "text": "Attempt blocked. Brian Cipenga (Congo DR) right footed shot from a difficult angle and long range on the left is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 44,
+    "text": "Offside, Congo DR. C\u00e9dric Bakambu is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 45,
+    "text": "Fourth official has announced 7 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 45,
+    "text": "Foul by Abbosbek Fayzullaev (Uzbekistan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Chancel Mbemba (Congo DR) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Attempt missed. Chancel Mbemba (Congo DR) right footed shot from the left side of the box is close, but misses to the left following a set piece situation.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 45,
+    "text": "Abbosbek Fayzullaev (Uzbekistan) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Foul by Nathana\u00ebl Mbuku (Congo DR).",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Nathana\u00ebl Mbuku (Congo DR) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 45,
+    "text": "Attempt missed. Abbosbek Fayzullaev (Uzbekistan) right footed shot from outside the box is too high from a direct free kick.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 45,
+    "text": "First Half ends, Congo DR 0, Uzbekistan 1.",
+    "type": "Halftime"
+   },
+   {
+    "minute": 45,
+    "text": "Second Half begins Congo DR 0, Uzbekistan 1.",
+    "type": ""
+   },
+   {
+    "minute": 47,
+    "text": "Foul by Abbosbek Fayzullaev (Uzbekistan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 47,
+    "text": "Axel Tuanzebe (Congo DR) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 47,
+    "text": "Foul by Sherzod Nasrullaev (Uzbekistan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 47,
+    "text": "Nathana\u00ebl Mbuku (Congo DR) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 48,
+    "text": "Sherzod Nasrullaev (Uzbekistan) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 48,
+    "text": "Attempt missed. Brian Cipenga (Congo DR) right footed shot from outside the box is high and wide to the right. Assisted by Arthur Masuaku following a set piece situation.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 50,
+    "text": "Attempt missed. Yoane Wissa (Congo DR) left footed shot from the centre of the box misses to the left. Assisted by Samuel Moutoussamy.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 51,
+    "text": "Attempt missed. Eldor Shomurodov (Uzbekistan) right footed shot from the centre of the box is just a bit too high. Assisted by Khojiakbar Alijonov.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 51,
+    "text": "Substitution, Congo DR. Fiston Mayele replaces C\u00e9dric Bakambu.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 53,
+    "text": "Attempt missed. Brian Cipenga (Congo DR) right footed shot from the left side of the box is high and wide to the right. Assisted by Samuel Moutoussamy.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 54,
+    "text": "Delay in match because of an injury Akmal Mozgovoy (Uzbekistan).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 55,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 58,
+    "text": "Attempt saved. Nathana\u00ebl Mbuku (Congo DR) left footed shot from outside the box is saved in the top centre of the goal by Abduvokhid Nematov (Uzbekistan). Assisted by Aaron Wan-Bissaka.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 58,
+    "text": "Offside, Congo DR. Fiston Mayele is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 59,
+    "text": "Substitution, Uzbekistan. Odiljon Khamrobekov replaces Otabek Shukurov.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 59,
+    "text": "Substitution, Uzbekistan. Aziz G'aniev replaces Dostonbek Khamdamov.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 60,
+    "text": "Attempt missed. Fiston Mayele (Congo DR) right footed shot from the left side of the box is high and wide to the right. Assisted by Nathana\u00ebl Mbuku.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 61,
+    "text": "Attempt missed. Yoane Wissa (Congo DR) header from the centre of the box misses to the right. Assisted by Arthur Masuaku with a cross.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 62,
+    "text": "Akmal Mozgovoy (Uzbekistan) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 62,
+    "text": "Foul by Samuel Moutoussamy (Congo DR).",
+    "type": "Foul"
+   },
+   {
+    "minute": 62,
+    "text": "Samuel Moutoussamy (Congo DR) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 62,
+    "text": "Foul by Eldor Shomurodov (Uzbekistan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 62,
+    "text": "Arthur Masuaku (Congo DR) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 66,
+    "text": "Penalty conceded by Abdukodir Khusanov (Uzbekistan) after a foul in the penalty area.",
+    "type": "Foul"
+   },
+   {
+    "minute": 66,
+    "text": "Penalty Congo DR. Yoane Wissa draws a foul in the penalty area.",
+    "type": "Foul"
+   },
+   {
+    "minute": 68,
+    "text": "Goal! Congo DR 1, Uzbekistan 1. Yoane Wissa (Congo DR) converts the penalty with a right footed shot to the bottom right corner.",
+    "type": "Penalty - Scored"
+   },
+   {
+    "minute": 69,
+    "text": "Foul by Eldor Shomurodov (Uzbekistan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 69,
+    "text": "Nathana\u00ebl Mbuku (Congo DR) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 70,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 72,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 72,
+    "text": "Substitution, Congo DR. Meschack Elia replaces Nathana\u00ebl Mbuku.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 72,
+    "text": "Substitution, Congo DR. Th\u00e9o Bongonda replaces Brian Cipenga.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 72,
+    "text": "Substitution, Congo DR. Ngal'ayel Mukau replaces Samuel Moutoussamy.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 73,
+    "text": "Substitution, Uzbekistan. Oston Urunov replaces Abbosbek Fayzullaev.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 74,
+    "text": "Corner, Congo DR. Conceded by Sherzod Nasrullaev.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 75,
+    "text": "Attempt missed. Fiston Mayele (Congo DR) header from the left side of the six yard box is too high. Assisted by Aaron Wan-Bissaka with a cross.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 78,
+    "text": "Attempt missed. Meschack Elia (Congo DR) right footed shot from outside the box misses to the left. Assisted by Noah Sadiki following a fast break.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 78,
+    "text": "Goal! Congo DR 2, Uzbekistan 1. Fiston Mayele (Congo DR) right footed shot from very close range to the top left corner following a fast break.",
+    "type": "Goal"
+   },
+   {
+    "minute": 82,
+    "text": "Substitution, Uzbekistan. Jamshid Iskanderov replaces Akmal Mozgovoy.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 82,
+    "text": "Substitution, Uzbekistan. Igor Sergeev replaces Jakhongir Urozov.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 83,
+    "text": "Substitution, Congo DR. Joris Kayembe replaces Arthur Masuaku.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 88,
+    "text": "Attempt missed. Fiston Mayele (Congo DR) right footed shot from outside the box is close, but misses to the right. Assisted by Meschack Elia.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Aziz G'aniev (Uzbekistan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Yoane Wissa (Congo DR) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Fourth official has announced 8 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 90,
+    "text": "Attempt missed. Fiston Mayele (Congo DR) right footed shot from the right side of the box misses to the left. Assisted by Aaron Wan-Bissaka.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 90,
+    "text": "Goal! Congo DR 3, Uzbekistan 1. Yoane Wissa (Congo DR) right footed shot from outside the box to the bottom right corner. Assisted by Meschack Elia.",
+    "type": "Goal"
+   },
+   {
+    "minute": 90,
+    "text": "Corner, Uzbekistan. Conceded by Aaron Wan-Bissaka.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt missed. Ngal'ayel Mukau (Congo DR) left footed shot from outside the box is too high. Assisted by Meschack Elia.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt missed. Th\u00e9o Bongonda (Congo DR) left footed shot from the right side of the box is high and wide to the left. Assisted by Joris Kayembe with a cross.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Abdukodir Khusanov (Uzbekistan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Fiston Mayele (Congo DR) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Second Half ends, Congo DR 3, Uzbekistan 1.",
+    "type": ""
+   },
+   {
+    "minute": 0,
+    "text": "Match ends, Congo DR 3, Uzbekistan 1.",
+    "type": ""
+   }
+  ],
+  "halftime": "1-0",
+  "motm": "\u2014",
+  "note": ""
+ },
+ "Algeria|Austria": {
+  "goals": [
+   {
+    "minute": 28,
+    "team": "Austria",
+    "player": "Marko Arnautovic",
+    "assist": "David Alaba",
+    "note": null
+   },
+   {
+    "minute": 45,
+    "team": "Algeria",
+    "player": "Rafik Belghali",
+    "assist": null,
+    "note": null
+   },
+   {
+    "minute": 55,
+    "team": "Austria",
+    "player": "Marcel Sabitzer",
+    "assist": "Konrad Laimer",
+    "note": null
+   },
+   {
+    "minute": 60,
+    "team": "Algeria",
+    "player": "Riyad Mahrez",
+    "assist": "Houssem Aouar",
+    "note": null
+   },
+   {
+    "minute": 90,
+    "team": "Algeria",
+    "player": "Riyad Mahrez",
+    "assist": "Houssem Aouar",
+    "note": null
+   }
+  ],
+  "cards": [
+   {
+    "minute": 11,
+    "team": "Austria",
+    "player": "Marko Arnautovic",
+    "type": "Yellow"
+   }
+  ],
+  "commentary": [
+   {
+    "minute": 0,
+    "text": "Lineups are announced and players are warming up.",
+    "type": ""
+   },
+   {
+    "minute": 0,
+    "text": "First Half begins.",
+    "type": "Kickoff"
+   },
+   {
+    "minute": 1,
+    "text": "Delay in match (Austria).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 1,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 3,
+    "text": "Phillipp Mwene (Austria) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 3,
+    "text": "Foul by Riyad Mahrez (Algeria).",
+    "type": "Foul"
+   },
+   {
+    "minute": 7,
+    "text": "Foul by Marcel Sabitzer (Austria).",
+    "type": "Foul"
+   },
+   {
+    "minute": 7,
+    "text": "Ibrahim Maza (Algeria) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 8,
+    "text": "Attempt missed. Xaver Schlager (Austria) left footed shot from outside the box is too high.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 10,
+    "text": "Attempt missed. Ibrahim Maza (Algeria) right footed shot from outside the box is too high. Assisted by Houssem Aouar.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 11,
+    "text": "Foul by Marko Arnautovic (Austria).",
+    "type": "Foul"
+   },
+   {
+    "minute": 11,
+    "text": "A\u00efssa Mandi (Algeria) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 11,
+    "text": "Marko Arnautovic (Austria) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 11,
+    "text": "Delay in match because of an injury A\u00efssa Mandi (Algeria).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 12,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 19,
+    "text": "Offside, Austria. Konrad Laimer is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 23,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 26,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 28,
+    "text": "Goal! Algeria 0, Austria 1. Marko Arnautovic (Austria) right footed shot from the centre of the box to the bottom right corner. Assisted by David Alaba with a through ball.",
+    "type": "Goal"
+   },
+   {
+    "minute": 30,
+    "text": "Offside, Austria. Marko Arnautovic is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 32,
+    "text": "Attempt missed. Rafik Belghali (Algeria) right footed shot from the right side of the box misses to the left. Assisted by Ibrahim Maza.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 36,
+    "text": "Attempt missed. Ibrahim Maza (Algeria) left footed shot from a difficult angle on the left is close, but misses to the left. Assisted by Nabil Bentaleb.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 37,
+    "text": "Corner, Austria. Conceded by Jaouen Hadjam.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 38,
+    "text": "Attempt missed. Romano Schmid (Austria) right footed shot from outside the box is just a bit too high following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 39,
+    "text": "Offside, Austria. Marko Arnautovic is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 40,
+    "text": "Far\u00e8s Cha\u00efbi (Algeria) hits the right post with a left footed shot from outside the box. Assisted by Riyad Mahrez.",
+    "type": "Shot Hit Woodwork"
+   },
+   {
+    "minute": 41,
+    "text": "Attempt missed. Phillipp Mwene (Austria) right footed shot from the left side of the box misses to the left.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 42,
+    "text": "Attempt blocked. Riyad Mahrez (Algeria) left footed shot from outside the box is blocked. Assisted by Nabil Bentaleb.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 42,
+    "text": "Foul by Romano Schmid (Austria).",
+    "type": "Foul"
+   },
+   {
+    "minute": 42,
+    "text": "Riyad Mahrez (Algeria) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 44,
+    "text": "Attempt saved. Ibrahim Maza (Algeria) left footed shot from the centre of the box is saved in the centre of the goal by Alexander Schlager (Austria). Assisted by Rafik Belghali with a headed pass.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 45,
+    "text": "Goal! Algeria 1, Austria 1. Rafik Belghali (Algeria) left footed shot from the centre of the box to the top right corner.",
+    "type": "Goal"
+   },
+   {
+    "minute": 45,
+    "text": "Fourth official has announced 4 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 45,
+    "text": "Corner, Austria. Conceded by Riyad Mahrez.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 45,
+    "text": "Attempt blocked. Nicolas Seiwald (Austria) left footed shot from the centre of the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 45,
+    "text": "Foul by Xaver Schlager (Austria).",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Oussama Benbot (Algeria) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "First Half ends, Algeria 1, Austria 1.",
+    "type": ""
+   },
+   {
+    "minute": 45,
+    "text": "Substitution, Austria. Michael Gregoritsch replaces Marko Arnautovic.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 45,
+    "text": "Substitution, Austria. Florian Grillitsch replaces Xaver Schlager.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 45,
+    "text": "Substitution, Austria. Paul Wanner replaces Romano Schmid.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 45,
+    "text": "Second Half begins Algeria 1, Austria 1.",
+    "type": "Start 2nd Half"
+   },
+   {
+    "minute": 49,
+    "text": "Attempt missed. Ramy Bensebaini (Algeria) left footed shot from more than 35 yards is too high.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 54,
+    "text": "Attempt saved. Far\u00e8s Cha\u00efbi (Algeria) right footed shot from outside the box is saved in the centre of the goal by Alexander Schlager (Austria). Assisted by Riyad Mahrez.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 55,
+    "text": "Goal! Algeria 1, Austria 2. Marcel Sabitzer (Austria) right footed shot from outside the box to the top right corner. Assisted by Konrad Laimer.",
+    "type": "Goal"
+   },
+   {
+    "minute": 58,
+    "text": "Foul by Florian Grillitsch (Austria).",
+    "type": "Foul"
+   },
+   {
+    "minute": 58,
+    "text": "Far\u00e8s Cha\u00efbi (Algeria) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 59,
+    "text": "Attempt blocked. Far\u00e8s Cha\u00efbi (Algeria) right footed shot from outside the box is blocked. Assisted by A\u00efssa Mandi.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 59,
+    "text": "Handball by Michael Gregoritsch (Austria).",
+    "type": "Handball"
+   },
+   {
+    "minute": 60,
+    "text": "Goal! Algeria 2, Austria 2. Riyad Mahrez (Algeria) left footed shot from the centre of the box to the top right corner. Assisted by Houssem Aouar.",
+    "type": "Goal"
+   },
+   {
+    "minute": 62,
+    "text": "Substitution, Austria. Kevin Danso replaces David Alaba.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 64,
+    "text": "Stefan Posch (Austria) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 64,
+    "text": "Foul by Houssem Aouar (Algeria).",
+    "type": "Foul"
+   },
+   {
+    "minute": 65,
+    "text": "Attempt missed. Nicolas Seiwald (Austria) right footed shot from outside the box is close, but misses to the right. Assisted by Phillipp Mwene.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 67,
+    "text": "Corner, Austria. Conceded by Rafik Belghali.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 68,
+    "text": "Attempt missed. Kevin Danso (Austria) header from the centre of the box misses to the right. Assisted by Marcel Sabitzer with a cross following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 68,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 71,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 71,
+    "text": "Substitution, Algeria. Rayan A\u00eft-Nouri replaces Jaouen Hadjam.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 71,
+    "text": "Substitution, Algeria. Zineddine Bela\u00efd replaces Amine Gouiri.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 71,
+    "text": "Substitution, Algeria. Samir Chergui replaces Rafik Belghali.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 78,
+    "text": "Paul Wanner (Austria) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 78,
+    "text": "Foul by Rayan A\u00eft-Nouri (Algeria).",
+    "type": "Foul"
+   },
+   {
+    "minute": 83,
+    "text": "Foul by Florian Grillitsch (Austria).",
+    "type": "Foul"
+   },
+   {
+    "minute": 83,
+    "text": "Riyad Mahrez (Algeria) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 84,
+    "text": "Offside, Algeria. Zineddine Bela\u00efd is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 90,
+    "text": "Fourth official has announced 4 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 90,
+    "text": "Goal! Algeria 3, Austria 2. Riyad Mahrez (Algeria) right footed shot from the centre of the box to the bottom left corner. Assisted by Houssem Aouar with a through ball.",
+    "type": "Goal"
+   },
+   {
+    "minute": 90,
+    "text": "Substitution, Algeria. Far\u00e8s Ghedjemis replaces Houssem Aouar.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 90,
+    "text": "Substitution, Austria. Sasa Kalajdzic replaces Phillipp Mwene.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt missed. Philipp Lienhart (Austria) left footed shot from the centre of the box is high and wide to the left. Assisted by Michael Gregoritsch.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 90,
+    "text": "Goal! Algeria 3, Austria 3. Sasa Kalajdzic (Austria) header from the centre of the box to the bottom right corner. Assisted by Michael Gregoritsch with a headed pass.",
+    "type": "Goal - Header"
+   },
+   {
+    "minute": 90,
+    "text": "Second Half ends, Algeria 3, Austria 3.",
+    "type": ""
+   }
+  ],
+  "halftime": "1-1",
+  "motm": "\u2014",
+  "note": ""
+ },
+ "Jordan|Argentina": {
+  "goals": [
+   {
+    "minute": 55,
+    "team": "Jordan",
+    "player": "Mousa Al-Tamari",
+    "assist": "Ehsan Haddad",
+    "note": null
+   }
+  ],
+  "cards": [
+   {
+    "minute": 17,
+    "team": "Jordan",
+    "player": "Mohannad Abu Taha",
+    "type": "Yellow"
+   },
+   {
+    "minute": 64,
+    "team": "Jordan",
+    "player": "Yazan Al-Arab",
+    "type": "Yellow"
+   },
+   {
+    "minute": 90,
+    "team": "Jordan",
+    "player": "Mohammed Abu Zraiq",
+    "type": "Yellow"
+   }
+  ],
+  "commentary": [
+   {
+    "minute": 0,
+    "text": "Lineups are announced and players are warming up.",
+    "type": ""
+   },
+   {
+    "minute": 0,
+    "text": "First Half begins.",
+    "type": "Kickoff"
+   },
+   {
+    "minute": 1,
+    "text": "Foul by Giuliano Simeone (Argentina).",
+    "type": "Foul"
+   },
+   {
+    "minute": 1,
+    "text": "Ali Olwan (Jordan) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 7,
+    "text": "Offside, Argentina. Giovani Lo Celso is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 12,
+    "text": "Corner, Argentina. Conceded by Husam Abu Dahab.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 13,
+    "text": "Attempt missed. Nicol\u00e1s Otamendi (Argentina) header from the right side of the six yard box is too high. Assisted by Giovani Lo Celso with a cross following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 17,
+    "text": "Foul by Mohannad Abu Taha (Jordan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 17,
+    "text": "Giovani Lo Celso (Argentina) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 17,
+    "text": "Mohannad Abu Taha (Jordan) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 19,
+    "text": "Goal! Jordan 0, Argentina 1. Giovani Lo Celso (Argentina) from a free kick with a left footed shot to the top left corner.",
+    "type": "Goal - Free-kick"
+   },
+   {
+    "minute": 23,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 25,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 27,
+    "text": "Corner, Argentina. Conceded by Husam Abu Dahab.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 28,
+    "text": "Lautaro Mart\u00ednez (Argentina) hits the bar with a left footed shot from very close range. Assisted by Nicol\u00e1s Tagliafico following a corner.",
+    "type": "Shot Hit Woodwork"
+   },
+   {
+    "minute": 28,
+    "text": "Penalty conceded by Nizar Al Rashdan (Jordan) after a foul in the penalty area.",
+    "type": "Foul"
+   },
+   {
+    "minute": 28,
+    "text": "Penalty Argentina. Marcos Senesi draws a foul in the penalty area.",
+    "type": "Foul"
+   },
+   {
+    "minute": 28,
+    "text": "Delay in match because of an injury Marcos Senesi (Argentina).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 29,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 29,
+    "text": "VAR Decision: Penalty Argentina.",
+    "type": "VAR - Referee decision cancelled"
+   },
+   {
+    "minute": 31,
+    "text": "Goal! Jordan 0, Argentina 2. Lautaro Mart\u00ednez (Argentina) converts the penalty with a right footed shot to the bottom left corner.",
+    "type": "Penalty - Scored"
+   },
+   {
+    "minute": 32,
+    "text": "Ali Olwan (Jordan) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 32,
+    "text": "Foul by Giovani Lo Celso (Argentina).",
+    "type": "Foul"
+   },
+   {
+    "minute": 33,
+    "text": "Odeh Fakhoury (Jordan) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 33,
+    "text": "Foul by Exequiel Palacios (Argentina).",
+    "type": "Foul"
+   },
+   {
+    "minute": 34,
+    "text": "Nizar Al Rashdan (Jordan) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 34,
+    "text": "Foul by Nico Paz (Argentina).",
+    "type": "Foul"
+   },
+   {
+    "minute": 35,
+    "text": "Attempt blocked. Odeh Fakhoury (Jordan) right footed shot from outside the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 35,
+    "text": "Corner, Jordan. Conceded by Nicol\u00e1s Tagliafico.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 35,
+    "text": "Attempt blocked. Mohannad Abu Taha (Jordan) left footed shot from outside the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 38,
+    "text": "Attempt missed. Ali Azaizeh (Jordan) header from the centre of the box misses to the right. Assisted by Ali Olwan with a cross.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 41,
+    "text": "Foul by Yazan Al Arab (Jordan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 41,
+    "text": "Exequiel Palacios (Argentina) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 42,
+    "text": "Ali Azaizeh (Jordan) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 42,
+    "text": "Foul by Lautaro Mart\u00ednez (Argentina).",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Fourth official has announced 5 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 45,
+    "text": "Foul by Odeh Fakhoury (Jordan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Marcos Senesi (Argentina) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Foul by Yazan Al Arab (Jordan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Nico Paz (Argentina) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Offside, Argentina. Nicol\u00e1s Otamendi is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 45,
+    "text": "Attempt saved. Juli\u00e1n Alvarez (Argentina) left footed shot from the left side of the box is saved in the bottom left corner by Yazeed Abulaila (Jordan). Assisted by Lautaro Mart\u00ednez.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 45,
+    "text": "Offside, Jordan. Odeh Fakhoury is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 45,
+    "text": "First Half ends, Jordan 0, Argentina 2.",
+    "type": "Halftime"
+   },
+   {
+    "minute": 45,
+    "text": "Substitution, Jordan. Mahmoud Al Mardi replaces Odeh Fakhoury.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 45,
+    "text": "Substitution, Jordan. Mousa Al Tamari replaces Ali Azaizeh.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 45,
+    "text": "Second Half begins Jordan 0, Argentina 2.",
+    "type": "Start 2nd Half"
+   },
+   {
+    "minute": 48,
+    "text": "Offside, Argentina. Lautaro Mart\u00ednez is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 49,
+    "text": "Mousa Al Tamari (Jordan) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 49,
+    "text": "Foul by Nicol\u00e1s Tagliafico (Argentina).",
+    "type": "Foul"
+   },
+   {
+    "minute": 49,
+    "text": "Foul by Ali Olwan (Jordan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 49,
+    "text": "Nicol\u00e1s Tagliafico (Argentina) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 51,
+    "text": "Attempt missed. Mousa Al Tamari (Jordan) left footed shot from outside the box is too high. Assisted by Ali Olwan.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 53,
+    "text": "Lautaro Mart\u00ednez (Argentina) hits the bar with a right footed shot from outside the box. Assisted by Giovani Lo Celso.",
+    "type": "Shot Hit Woodwork"
+   },
+   {
+    "minute": 55,
+    "text": "Goal! Jordan 1, Argentina 2. Mousa Al Tamari (Jordan) left footed shot from the centre of the box to the top left corner. Assisted by Ehsan Haddad with a cross.",
+    "type": "Goal"
+   },
+   {
+    "minute": 59,
+    "text": "Attempt missed. Nico Paz (Argentina) right footed shot from outside the box misses to the right.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 60,
+    "text": "Substitution, Argentina. Thiago Almada replaces Giovani Lo Celso.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 60,
+    "text": "Substitution, Argentina. Lionel Messi replaces Lautaro Mart\u00ednez.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 61,
+    "text": "Substitution, Argentina. Alexis Mac Allister replaces Nico Paz.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 61,
+    "text": "Corner, Argentina. Conceded by Mohannad Abu Taha.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 64,
+    "text": "Foul by Yazan Al Arab (Jordan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 64,
+    "text": "Alexis Mac Allister (Argentina) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 64,
+    "text": "Yazan Al Arab (Jordan) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 65,
+    "text": "Attempt missed. Lionel Messi (Argentina) left footed shot from outside the box is high and wide to the left from a direct free kick.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 67,
+    "text": "Foul by Mahmoud Al Mardi (Jordan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 67,
+    "text": "Alexis Mac Allister (Argentina) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 68,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 70,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 71,
+    "text": "Substitution, Argentina. Valent\u00edn Barco replaces Giuliano Simeone.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 75,
+    "text": "Mahmoud Al Mardi (Jordan) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 75,
+    "text": "Foul by Nicol\u00e1s Otamendi (Argentina).",
+    "type": "Foul"
+   },
+   {
+    "minute": 76,
+    "text": "Substitution, Jordan. Amer Jamous replaces Nizar Al Rashdan.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 79,
+    "text": "Foul by Amer Jamous (Jordan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 79,
+    "text": "Lionel Messi (Argentina) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 80,
+    "text": "Goal! Jordan 1, Argentina 3. Lionel Messi (Argentina) from a free kick with a left footed shot to the centre of the goal.",
+    "type": "Goal - Free-kick"
+   },
+   {
+    "minute": 82,
+    "text": "Attempt missed. Thiago Almada (Argentina) right footed shot from outside the box is close, but misses to the right.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 82,
+    "text": "Substitution, Argentina. Jos\u00e9 Manuel L\u00f3pez replaces Juli\u00e1n Alvarez.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 85,
+    "text": "Foul by Ehsan Haddad (Jordan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 85,
+    "text": "Nicol\u00e1s Tagliafico (Argentina) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 86,
+    "text": "Attempt blocked. Jos\u00e9 Manuel L\u00f3pez (Argentina) right footed shot from the left side of the box is blocked. Assisted by Lionel Messi.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 86,
+    "text": "Corner, Argentina. Conceded by Ehsan Haddad.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 87,
+    "text": "Corner, Argentina. Conceded by Abdallah Nasib.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 87,
+    "text": "Corner, Argentina. Conceded by Mohannad Abu Taha.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 88,
+    "text": "Foul by Husam Abu Dahab (Jordan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 88,
+    "text": "Valent\u00edn Barco (Argentina) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 89,
+    "text": "Delay in match because of an injury Husam Abu Dahab (Jordan).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 90,
+    "text": "Substitution, Jordan. Mohammad Abu Zraiq replaces Ali Olwan.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 90,
+    "text": "Substitution, Jordan. Saleem Obaid replaces Husam Abu Dahab because of an injury.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 90,
+    "text": "Fourth official has announced 5 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 90,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt missed. Marcos Senesi (Argentina) right footed shot from very close range is too high. Assisted by Lionel Messi with a cross following a set piece situation.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 90,
+    "text": "Corner, Jordan. Conceded by Valent\u00edn Barco.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 90,
+    "text": "Handball by Mahmoud Al Mardi (Jordan).",
+    "type": "Handball"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Mohammad Abu Zraiq (Jordan).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Alexis Mac Allister (Argentina) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Mohammad Abu Zraiq (Jordan) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 90,
+    "text": "Second Half ends, Jordan 1, Argentina 3.",
+    "type": ""
+   },
+   {
+    "minute": 0,
+    "text": "Match ends, Jordan 1, Argentina 3.",
+    "type": ""
+   }
+  ],
+  "halftime": "0-2",
+  "motm": "\u2014",
+  "note": ""
  }
 }
