@@ -290,6 +290,32 @@ def _analyze_finished(mt, h, a, res, goals):
     }
 
 
+def _shots_from_analysis(analysis):
+    """Build the display block for real shot data from a finished-match analysis."""
+    if not analysis:
+        return None
+    home_shots = analysis.get("homeShots")
+    away_shots = analysis.get("awayShots")
+    if home_shots is None or away_shots is None:
+        return None
+
+    home_on = analysis.get("homeShotsOn")
+    away_on = analysis.get("awayShotsOn")
+
+    def _acc(shots, shots_on):
+        return round(shots_on / shots * 100) if (shots and shots_on is not None and shots > 0) else None
+
+    return {
+        "home": home_shots,
+        "away": away_shots,
+        "homeOn": home_on,
+        "awayOn": away_on,
+        "homeAcc": _acc(home_shots, home_on),
+        "awayAcc": _acc(away_shots, away_on),
+        "real": True,
+    }
+
+
 def calibrate_dc():
     """
     Calibre ρ (Dixon-Coles) et γ (effet de choc) sur les matchs terminés,
@@ -642,7 +668,10 @@ def predict():
 
     try:
         with open(os.path.join(DATA_DIR, "predictions.json"), encoding="utf-8") as f:
-            old_preds = {m["id"]: m for m in json.load(f)}
+            old_preds = {}
+            for m in json.load(f):
+                key = m.get("id") or f"{m.get('home')}|{m.get('away')}|{m.get('date')}"
+                old_preds[key] = m
     except (OSError, ValueError):
         old_preds = {}
 
@@ -654,7 +683,8 @@ def predict():
         if not h or not a:
             continue
             
-        old_p = old_preds.get(mt["id"])
+        old_key = f"{mt['home']}|{mt['away']}|{mt['utc_date']}"
+        old_p = old_preds.get(mt["id"]) or old_preds.get(old_key)
         # PRESERVE HISTORICAL PREDICTION to avoid look-ahead bias (changing past predictions based on new results)
         if mt["status"] in ("FINISHED", "LIVE", "HT") and old_p:
             old_p["status"] = mt["status"]
@@ -664,11 +694,19 @@ def predict():
             old_p["htScore"] = (f"{mt['home_ht_goals']}-{mt['away_ht_goals']}"
                                 if mt["home_ht_goals"] is not None and mt["away_ht_goals"] is not None else None)
             if mt["status"] == "FINISHED":
+                old_analysis = old_p.get("analysis") or {}
                 p = old_p.get("prediction", {})
                 res = {"p1": p.get("p1", 0), "pX": p.get("pX", 0), "p2": p.get("p2", 0)}
                 goals = {"top_score": tuple(p.get("topScore", (0, 0)))}
-                old_p["analysis"] = _analyze_finished(mt, h, a, res, goals)
+                analysis = _analyze_finished(mt, h, a, res, goals)
+                for key in ("homeShots", "awayShots", "homeShotsOn", "awayShotsOn"):
+                    if analysis.get(key) is None and old_analysis.get(key) is not None:
+                        analysis[key] = old_analysis[key]
+                old_p["analysis"] = analysis
                 old_p["realScore"] = old_p["analysis"]["realScore"] if old_p.get("analysis") else None
+                real_shots = _shots_from_analysis(old_p.get("analysis"))
+                if real_shots:
+                    old_p.setdefault("prediction", {})["shots"] = real_shots
             out.append(old_p)
             continue
 
@@ -1092,6 +1130,7 @@ def predict():
         analysis = _analyze_finished(mt, h, a, res, goals) if mt["status"] == "FINISHED" else None
         trends = _calculate_trends(conn, h["name"], a["name"])
         out.append({
+            "id": mt["id"],
             "league": f"CDM 2026 · {mt['stage']}",
             "date": mt["utc_date"],
             "status": mt["status"],
