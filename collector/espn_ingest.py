@@ -161,7 +161,7 @@ def ingest_match(home, away, date_hint=None, force=False):
     if ref:
         cur["referee"] = ref
         tc = (cur.get("home_cards") or 0) + (cur.get("away_cards") or 0)
-        refform.record_match(ref, tc)
+        refform.record_match(ref, tc, match_key=key)
     # xG : on ne touche JAMAIS à une valeur réelle déjà présente dans le fichier.
     # espn_stats.py calcule maintenant un xG estimé (shots_on×0.11 + off×0.036)
     # depuis les tirs ESPN. On l'injecte UNIQUEMENT si le match n'avait pas encore de xG.

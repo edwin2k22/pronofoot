@@ -76,7 +76,7 @@ export function teamBadge(name){
   return `<span class="mi-badge" style="background:${bg}">${init}</span>`;
 }
 
-export function clean(n){ return (n||"").replace(/\s*\(GK\)|\s*\(C\)/g,""); }
+export function clean(n){ return (n||"").replace(/\s*\((G|D|M|F|GK|DF|CB|RB|LB|MF|DM|CM|AM|FW|CF|RW|LW|ST|SUB|C)\)/g,""); }
 
 export function dot(name){
   const s = (name||"").length % 3;

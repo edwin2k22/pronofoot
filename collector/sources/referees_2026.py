@@ -68,6 +68,8 @@ ASSIGNMENTS = {
     # --- Ajout pour la journée du 28 Juin 2026 (source: web search FIFA) ---
     ("Algeria", "Austria"):                ("Ilgiz Tantashev", "Ouzbékistan"),
     ("Jordan", "Argentina"):               ("István Kovács", "Roumanie"),
+    # --- Round of 32 (source: FIFA Match Centre / presse live) ---
+    ("Germany", "Paraguay"):               ("Jalal Jayed", "Maroc"),
 }
 # Sévérité connue de quelques arbitres = cartons TOTAUX par match (jaunes + rouges)
 # sur leur saison/carrière récente. Sources : statshub, soccerbase, worldfootball (2025-26).

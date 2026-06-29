@@ -104388,9 +104388,9 @@
     "id": 74,
     "league": "CDM 2026 · Round of 32",
     "date": "2026-06-29 16:30 UTC-4",
-    "status": "SCHEDULED",
-    "liveScore": null,
-    "liveClock": null,
+    "status": "LIVE",
+    "liveScore": "0-0",
+    "liveClock": "30'",
     "realScore": null,
     "htScore": null,
     "analysis": null,
@@ -104406,8 +104406,8 @@
     "awayGF": 1.33,
     "homeGA": 1.29,
     "awayGA": 1.0,
-    "homeXG": 3.98,
-    "awayXG": 0.66,
+    "homeXG": 2.91,
+    "awayXG": 0.48,
     "homeForm": 8,
     "awayForm": 8,
     "homeElo": 1962.3,
@@ -104459,9 +104459,9 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.8885,
-      "pX": 0.0588,
-      "p2": 0.0527,
+      "p1": 0.8707,
+      "pX": 0.0731,
+      "p2": 0.0561,
       "ensemble": {
         "weights": {
           "elo": 0.36122826070010233,
@@ -104475,9 +104475,9 @@
           0.127
         ],
         "grid": [
-          0.913,
-          0.065,
-          0.023
+          0.857,
+          0.111,
+          0.032
         ],
         "form": [
           0.761,
@@ -104485,56 +104485,56 @@
           0.158
         ]
       },
-      "over25": 0.7904,
-      "btts": 0.49,
+      "over25": 0.6475,
+      "btts": 0.4607,
       "marketCalib": {
         "bttsShift": 0.0627,
         "overShift": -0.0552,
-        "bttsRaw": 0.5027,
+        "bttsRaw": 0.398,
         "n": 193
       },
-      "lamHome": 3.98,
-      "lamAway": 0.66,
+      "lamHome": 2.91,
+      "lamAway": 0.48,
       "topScore": [
-        3,
+        2,
         0
       ],
       "doubleChance": {
-        "1X": 0.9773,
-        "12": 0.9354,
-        "X2": 0.0873
+        "1X": 0.9677,
+        "12": 0.8889,
+        "X2": 0.1434
       },
       "drawNoBet": {
-        "home": 0.9757,
-        "away": 0.0243
+        "home": 0.9637,
+        "away": 0.0363
       },
       "topScores": [
         {
+          "score": "2-0",
+          "p": 0.1359
+        },
+        {
           "score": "3-0",
-          "p": 0.0985
+          "p": 0.1319
         },
         {
           "score": "4-0",
-          "p": 0.098
+          "p": 0.0959
         },
         {
-          "score": "5-0",
-          "p": 0.078
+          "score": "1-0",
+          "p": 0.0882
         },
         {
-          "score": "2-0",
-          "p": 0.0743
-        },
-        {
-          "score": "4-1",
-          "p": 0.0698
+          "score": "3-1",
+          "p": 0.0704
         }
       ],
       "scenarios": [
         {
           "id": "closed",
           "title": "Match fermé",
-          "p": 0.05,
+          "p": 0.1357,
           "scores": [
             "1-0",
             "0-0"
@@ -104544,7 +104544,7 @@
         {
           "id": "tight",
           "title": "Match serré",
-          "p": 0.1044,
+          "p": 0.1916,
           "scores": [
             "2-0",
             "1-1"
@@ -104554,7 +104554,7 @@
         {
           "id": "open",
           "title": "Match ouvert / spectacle",
-          "p": 0.8456,
+          "p": 0.6727,
           "scores": [
             "3-0",
             "4-0"
@@ -104564,7 +104564,7 @@
         {
           "id": "blowout",
           "title": "Large écart",
-          "p": 0.7259,
+          "p": 0.5441,
           "scores": [
             "3-0",
             "4-0"
@@ -104575,45 +104575,45 @@
       ],
       "overUnder": {
         "0.5": {
-          "over": 0.9877,
-          "under": 0.0123
+          "over": 0.9626,
+          "under": 0.0374
         },
         "1.5": {
-          "over": 0.95,
-          "under": 0.05
+          "over": 0.8643,
+          "under": 0.1357
         },
         "2.5": {
-          "over": 0.8456,
-          "under": 0.1544
+          "over": 0.6727,
+          "under": 0.3273
         },
         "3.5": {
-          "over": 0.6872,
-          "under": 0.3128
+          "over": 0.4586,
+          "under": 0.5414
         }
       },
-      "totalXg": 4.64,
+      "totalXg": 3.39,
       "bttsConf": {
         "pick": "indécis",
-        "score": 0.43,
+        "score": 0.46,
         "label": "faible"
       },
       "halftime": {
-        "lamHome": 1.62,
-        "lamAway": 0.58,
+        "lamHome": 1.18,
+        "lamAway": 0.42,
         "topScore": [
           1,
           0
         ],
-        "p1": 0.6169,
-        "pX": 0.2658,
-        "p2": 0.1173,
+        "p1": 0.5431,
+        "pX": 0.3374,
+        "p2": 0.1195,
         "ou05": {
-          "over": 0.8826,
-          "under": 0.1174
+          "over": 0.7978,
+          "under": 0.2022
         },
         "ou15": {
-          "over": 0.6737,
-          "under": 0.3263
+          "over": 0.5139,
+          "under": 0.4861
         },
         "shareHome": 0.407,
         "shareAway": 0.871,
@@ -104623,19 +104623,19 @@
         "home": {
           "odd": 1.333,
           "implied": 0.75,
-          "edge": 0.138,
+          "edge": 0.121,
           "is_value": true
         },
         "draw": {
           "odd": 5.25,
           "implied": 0.19,
-          "edge": -0.132,
+          "edge": -0.117,
           "is_value": false
         },
         "away": {
           "odd": 10.0,
           "implied": 0.1,
-          "edge": -0.047,
+          "edge": -0.044,
           "is_value": false
         }
       },
@@ -104672,29 +104672,35 @@
       },
       "cards": {
         "exp_cards": 3.9,
-        "over": 0.5478,
-        "under": 0.4522,
+        "over": 0.5372,
+        "under": 0.4628,
         "line": 3.5,
         "home": 1.7,
-        "away": 2.2,
+        "away": 2.1,
         "lines": {
           "2.5": {
-            "over": 0.7477,
-            "under": 0.2523
+            "over": 0.7395,
+            "under": 0.2605
           },
           "3.5": {
-            "over": 0.5478,
-            "under": 0.4522
+            "over": 0.5372,
+            "under": 0.4628
           },
           "4.5": {
-            "over": 0.3527,
-            "under": 0.6473
+            "over": 0.3424,
+            "under": 0.6576
           }
         },
-        "redProb": 0.195,
+        "redProb": 0.193,
         "foulsHome": 10.4,
         "foulsAway": 11.2,
-        "src": "FootyStats (réel)"
+        "src": "FootyStats + arbitre",
+        "refSeverity": {
+          "avg": 3.8,
+          "n": 0,
+          "prior": 3.8,
+          "source": "moyenne générale"
+        }
       },
       "shots": {
         "expShots": 26.5,
@@ -104769,7 +104775,13 @@
         "shotsAvgHome": 14.4,
         "shotsAvgAway": 11.0
       },
-      "referee": null,
+      "referee": {
+        "name": "Jalal Jayed",
+        "nation": "Maroc",
+        "severity": 3.8,
+        "severityN": 0,
+        "severitySrc": "moyenne générale"
+      },
       "riskPlayers": {
         "home": {
           "real": [
@@ -104849,7 +104861,7 @@
             {
               "name": "Kai Havertz",
               "poste": "FW",
-              "p": 0.5918,
+              "p": 0.4806,
               "real_goals": 2.0,
               "why": "déjà 2 but(s) dans le tournoi · volume de tirs élevé (8)",
               "bio": {
@@ -104870,28 +104882,28 @@
             {
               "name": "Deniz Undav",
               "poste": "FW",
-              "p": 0.5918,
+              "p": 0.4806,
               "real_goals": 3.0,
               "why": "déjà 3 but(s) dans le tournoi · volume de tirs élevé (5)"
             },
             {
               "name": "Felix Nmecha",
               "poste": "MF",
-              "p": 0.2824,
+              "p": 0.2155,
               "real_goals": 1.0,
               "why": "déjà 1 but(s) dans le tournoi · volume de tirs élevé (8)"
             },
             {
               "name": "Jamal Musiala",
               "poste": "MF",
-              "p": 0.2588,
+              "p": 0.1967,
               "real_goals": 1.0,
               "why": "déjà 1 but(s) dans le tournoi · volume de tirs élevé (6)"
             },
             {
               "name": "Leroy Sané",
               "poste": "MF",
-              "p": 0.2467,
+              "p": 0.1871,
               "real_goals": 1.0,
               "why": "déjà 1 but(s) dans le tournoi · volume de tirs élevé (5)"
             }
@@ -104900,7 +104912,7 @@
             {
               "name": "Florian Wirtz",
               "poste": "MF",
-              "p": 0.3471,
+              "p": 0.2678,
               "real_assists": 2.0,
               "why": "déjà 2 passe(s) déc.",
               "bio": {
@@ -104920,21 +104932,21 @@
             {
               "name": "Deniz Undav",
               "poste": "FW",
-              "p": 0.3061,
+              "p": 0.2345,
               "real_assists": 2.0,
               "why": "déjà 2 passe(s) déc."
             },
             {
               "name": "Felix Nmecha",
               "poste": "MF",
-              "p": 0.2666,
+              "p": 0.2029,
               "real_assists": 1.0,
               "why": "déjà 1 passe(s) déc."
             },
             {
               "name": "Jamal Musiala",
               "poste": "MF",
-              "p": 0.1762,
+              "p": 0.1321,
               "real_assists": 0.0,
               "why": "création selon le poste"
             }
@@ -104942,7 +104954,7 @@
           "creator": {
             "name": "Florian Wirtz",
             "poste": "MF",
-            "p": 0.3471,
+            "p": 0.2678,
             "real_assists": 2.0,
             "why": "déjà 2 passe(s) déc.",
             "bio": {
@@ -104961,9 +104973,9 @@
           },
           "keeper": {
             "name": "Manuel Neuer",
-            "expSotFaced": 2.1,
-            "fromLineup": true,
-            "why": "Subit une pression offensive adverse de ~0.66 xG → environ 2.1 tirs cadrés à gérer."
+            "expSotFaced": 1.5,
+            "fromLineup": false,
+            "why": "Subit une pression offensive adverse de ~0.48 xG → environ 1.5 tirs cadrés à gérer."
           },
           "benchImpact": [
             {
@@ -104988,35 +105000,35 @@
             {
               "name": "Julio Enciso",
               "poste": "FW",
-              "p": 0.1256,
+              "p": 0.093,
               "real_goals": 0.0,
               "why": "volume de tirs élevé (5)"
             },
             {
               "name": "Gabriel Ávalos",
               "poste": "FW",
-              "p": 0.0896,
+              "p": 0.066,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Matías Galarza",
               "poste": "MF",
-              "p": 0.0535,
+              "p": 0.0392,
               "real_goals": 1.0,
               "why": "déjà 1 but(s) dans le tournoi"
             },
             {
               "name": "Diego Gómez",
               "poste": "MF",
-              "p": 0.0493,
+              "p": 0.0361,
               "real_goals": 0.0,
               "why": "volume de tirs élevé (5)"
             },
             {
               "name": "Miguel Almirón",
               "poste": "MF",
-              "p": 0.0384,
+              "p": 0.0281,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             }
@@ -105025,28 +105037,28 @@
             {
               "name": "Julio Enciso",
               "poste": "FW",
-              "p": 0.0675,
+              "p": 0.0495,
               "real_assists": 2.0,
               "why": "déjà 2 passe(s) déc."
             },
             {
               "name": "Diego Gómez",
               "poste": "MF",
-              "p": 0.0364,
+              "p": 0.0266,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Miguel Almirón",
               "poste": "MF",
-              "p": 0.0364,
+              "p": 0.0266,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Andrés Cubas",
               "poste": "MF",
-              "p": 0.0364,
+              "p": 0.0266,
               "real_assists": 0.0,
               "why": "création selon le poste"
             }
@@ -105054,15 +105066,15 @@
           "creator": {
             "name": "Julio Enciso",
             "poste": "FW",
-            "p": 0.0675,
+            "p": 0.0495,
             "real_assists": 2.0,
             "why": "déjà 2 passe(s) déc."
           },
           "keeper": {
             "name": "Gatito Fernández",
-            "expSotFaced": 12.4,
+            "expSotFaced": 9.1,
             "fromLineup": false,
-            "why": "Subit une pression offensive adverse de ~3.98 xG → environ 12.4 tirs cadrés à gérer."
+            "why": "Subit une pression offensive adverse de ~2.91 xG → environ 9.1 tirs cadrés à gérer."
           },
           "benchImpact": [
             {
@@ -105077,18 +105089,15 @@
         }
       },
       "lineupImpact": {
-        "rotationDeltaHome": 0.091,
-        "rotationDeltaAway": 0.091,
-        "defensiveDeltaHome": 0.2,
-        "defensiveDeltaAway": 0.2,
-        "missingKeyPlayers": [
-          "Germany",
-          "Paraguay"
-        ],
+        "rotationDeltaHome": 0.2,
+        "rotationDeltaAway": 0.2,
+        "defensiveDeltaHome": 0.0,
+        "defensiveDeltaAway": 0.0,
+        "missingKeyPlayers": [],
         "tacticalMod": 1.0,
-        "benchHome": 0.0,
-        "benchAway": 0.0,
-        "benchBonusOver25": 0.0
+        "benchHome": 0.5,
+        "benchAway": 0.5,
+        "benchBonusOver25": 0.03
       },
       "formations": {
         "home": "4-2-3-1",
@@ -105099,33 +105108,63 @@
         "homeFormation": "4-2-3-1",
         "awayFormation": "4-1-4-1",
         "homeXi": [
-          "Manuel Neuer",
-          "Antonio Rüdiger",
-          "Nathaniel Brown",
-          "Joshua Kimmich",
-          "Jonathan Tah",
-          "Aleksandar Pavlovic",
-          "Deniz Undav",
-          "Florian Wirtz",
-          "Felix Nmecha",
-          "Leroy Sané",
-          "Kai Havertz"
+          "Manuel Neuer (G)",
+          "Antonio Rüdiger (D)",
+          "Nathaniel Brown (D)",
+          "Joshua Kimmich (D)",
+          "Jonathan Tah (D)",
+          "Aleksandar Pavlovic (M)",
+          "Deniz Undav (M)",
+          "Florian Wirtz (M)",
+          "Felix Nmecha (M)",
+          "Leroy Sané (M)",
+          "Kai Havertz (F)"
         ],
         "awayXi": [
-          "Orlando Gil",
-          "Juan Jose Cáceres",
-          "José Canale",
-          "Júnior Alonso",
-          "Gustavo Gómez",
-          "Matías Galarza",
-          "Julio Enciso",
-          "Miguel Almirón",
-          "Andrés Cubas",
-          "Damián Bobadilla",
-          "Gabriel Ávalos"
+          "Orlando Gil (G)",
+          "Juan Jose Cáceres (D)",
+          "José Canale (D)",
+          "Júnior Alonso (D)",
+          "Gustavo Gómez (D)",
+          "Matías Galarza (M)",
+          "Julio Enciso (M)",
+          "Miguel Almirón (M)",
+          "Andrés Cubas (M)",
+          "Damián Bobadilla (M)",
+          "Gabriel Ávalos (F)"
         ],
-        "homeBench": [],
-        "awayBench": []
+        "homeBench": [
+          "David Raum (SUB)",
+          "Jamie Leweling (SUB)",
+          "Waldemar Anton (SUB)",
+          "Nadiem Amiri (SUB)",
+          "Alexander Nübel (SUB)",
+          "Angelo Stiller (SUB)",
+          "Jamal Musiala (SUB)",
+          "Malick Thiaw (SUB)",
+          "Nick Woltemade (SUB)",
+          "Pascal Gross (SUB)",
+          "Assan Ouédraogo (SUB)",
+          "Maximilian Beier (SUB)",
+          "Oliver Baumann (SUB)",
+          "Leon Goretzka (SUB)"
+        ],
+        "awayBench": [
+          "Gatito Fernández (SUB)",
+          "Alex Arce (SUB)",
+          "Ramón Sosa (SUB)",
+          "Gastón Olveira (SUB)",
+          "Antonio Sanabria (SUB)",
+          "Alexandro Maidana (SUB)",
+          "Isidro Pitta (SUB)",
+          "Gustavo Velázquez (SUB)",
+          "Omar Alderete (SUB)",
+          "Braian Ojeda (SUB)",
+          "Fabián Balbuena (SUB)",
+          "Alejandro Romero Gamarra (SUB)",
+          "Gustavo Caballero (SUB)",
+          "Maurício (SUB)"
+        ]
       },
       "mwi": {
         "home": 0.2,
@@ -105143,7 +105182,7 @@
         ]
       },
       "upsetIndex": {
-        "index": 23,
+        "index": 25,
         "label": "faible",
         "dampener": 1.0,
         "favOverperf": true,
@@ -105224,7 +105263,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.5537,
+          "rawKelly": 0.4824,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -105253,12 +105292,12 @@
         "calibratedOn": 193
       },
       "knockout": {
-        "qualifyHome": 0.9655,
-        "qualifyAway": 0.0345,
+        "qualifyHome": 0.9437,
+        "qualifyAway": 0.0563,
         "reg90": {
-          "p1": 0.9142,
-          "pX": 0.0617,
-          "p2": 0.0241
+          "p1": 0.8593,
+          "pX": 0.1058,
+          "p2": 0.0349
         },
         "shootoutHome": 0.65,
         "note": "90' → prolongations (λ−70%) → tirs au but (Elo+forme)"
@@ -105995,10 +106034,7 @@
         "rotationDeltaAway": 0.2,
         "defensiveDeltaHome": 0.0,
         "defensiveDeltaAway": 0.0,
-        "missingKeyPlayers": [
-          "Netherlands",
-          "Morocco"
-        ],
+        "missingKeyPlayers": [],
         "tacticalMod": 1.04,
         "benchHome": 0.0,
         "benchAway": 0.0,
@@ -106804,10 +106840,7 @@
         "rotationDeltaAway": 0.2,
         "defensiveDeltaHome": 0.0,
         "defensiveDeltaAway": 0.0,
-        "missingKeyPlayers": [
-          "Ivory Coast",
-          "Norway"
-        ],
+        "missingKeyPlayers": [],
         "tacticalMod": 1.04,
         "benchHome": 0.0,
         "benchAway": 0.0,
@@ -107771,10 +107804,7 @@
         "rotationDeltaAway": 0.2,
         "defensiveDeltaHome": 0.0,
         "defensiveDeltaAway": 0.0,
-        "missingKeyPlayers": [
-          "France",
-          "Sweden"
-        ],
+        "missingKeyPlayers": [],
         "tacticalMod": 1.04,
         "benchHome": 0.0,
         "benchAway": 0.0,
@@ -108577,10 +108607,7 @@
         "rotationDeltaAway": 0.2,
         "defensiveDeltaHome": 0.0,
         "defensiveDeltaAway": 0.0,
-        "missingKeyPlayers": [
-          "Mexico",
-          "Ecuador"
-        ],
+        "missingKeyPlayers": [],
         "tacticalMod": 1.04,
         "benchHome": 0.0,
         "benchAway": 0.0,
@@ -109410,10 +109437,7 @@
         "rotationDeltaAway": 0.2,
         "defensiveDeltaHome": 0.0,
         "defensiveDeltaAway": 0.0,
-        "missingKeyPlayers": [
-          "England",
-          "DR Congo"
-        ],
+        "missingKeyPlayers": [],
         "tacticalMod": 1.04,
         "benchHome": 0.0,
         "benchAway": 0.0,
@@ -110300,10 +110324,7 @@
         "rotationDeltaAway": 0.2,
         "defensiveDeltaHome": 0.0,
         "defensiveDeltaAway": 0.0,
-        "missingKeyPlayers": [
-          "Belgium",
-          "Senegal"
-        ],
+        "missingKeyPlayers": [],
         "tacticalMod": 1.04,
         "benchHome": 0.0,
         "benchAway": 0.0,
@@ -110907,10 +110928,7 @@
         "rotationDeltaAway": 0.2,
         "defensiveDeltaHome": 0.0,
         "defensiveDeltaAway": 0.0,
-        "missingKeyPlayers": [
-          "USA",
-          "Bosnia & Herzegovina"
-        ],
+        "missingKeyPlayers": [],
         "tacticalMod": 1.04,
         "benchHome": 0.0,
         "benchAway": 0.0,
@@ -111716,10 +111734,7 @@
         "rotationDeltaAway": 0.2,
         "defensiveDeltaHome": 0.0,
         "defensiveDeltaAway": 0.0,
-        "missingKeyPlayers": [
-          "Spain",
-          "Austria"
-        ],
+        "missingKeyPlayers": [],
         "tacticalMod": 1.04,
         "benchHome": 0.0,
         "benchAway": 0.0,
@@ -112562,10 +112577,7 @@
         "rotationDeltaAway": 0.2,
         "defensiveDeltaHome": 0.0,
         "defensiveDeltaAway": 0.0,
-        "missingKeyPlayers": [
-          "Portugal",
-          "Croatia"
-        ],
+        "missingKeyPlayers": [],
         "tacticalMod": 1.04,
         "benchHome": 0.0,
         "benchAway": 0.0,
@@ -113397,10 +113409,7 @@
         "rotationDeltaAway": 0.2,
         "defensiveDeltaHome": 0.0,
         "defensiveDeltaAway": 0.0,
-        "missingKeyPlayers": [
-          "Switzerland",
-          "Algeria"
-        ],
+        "missingKeyPlayers": [],
         "tacticalMod": 1.04,
         "benchHome": 0.0,
         "benchAway": 0.0,
@@ -114192,10 +114201,7 @@
         "rotationDeltaAway": 0.2,
         "defensiveDeltaHome": 0.0,
         "defensiveDeltaAway": 0.0,
-        "missingKeyPlayers": [
-          "Australia",
-          "Egypt"
-        ],
+        "missingKeyPlayers": [],
         "tacticalMod": 1.04,
         "benchHome": 0.0,
         "benchAway": 0.0,
@@ -115000,10 +115006,7 @@
         "rotationDeltaAway": 0.2,
         "defensiveDeltaHome": 0.0,
         "defensiveDeltaAway": 0.0,
-        "missingKeyPlayers": [
-          "Argentina",
-          "Cape Verde"
-        ],
+        "missingKeyPlayers": [],
         "tacticalMod": 1.04,
         "benchHome": 0.0,
         "benchAway": 0.0,
@@ -115812,10 +115815,7 @@
         "rotationDeltaAway": 0.2,
         "defensiveDeltaHome": 0.0,
         "defensiveDeltaAway": 0.0,
-        "missingKeyPlayers": [
-          "Colombia",
-          "Ghana"
-        ],
+        "missingKeyPlayers": [],
         "tacticalMod": 1.04,
         "benchHome": 0.0,
         "benchAway": 0.0,
@@ -116488,10 +116488,7 @@
         "rotationDeltaAway": 0.2,
         "defensiveDeltaHome": 0.0,
         "defensiveDeltaAway": 0.0,
-        "missingKeyPlayers": [
-          "Canada",
-          "W75"
-        ],
+        "missingKeyPlayers": [],
         "tacticalMod": 1.04,
         "benchHome": 0.0,
         "benchAway": 0.0,

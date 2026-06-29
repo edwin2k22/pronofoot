@@ -59,6 +59,8 @@ TACTICAL = {
 
 def _norm_pos(pos: str) -> str:
     p = (pos or "").upper().strip()
+    if p in ("SUB", "BENCH"):
+        return "MF"
     if p in POS_WEIGHT:
         return p
     if p.startswith("G"): return "GK"
@@ -187,7 +189,7 @@ def apply_lineup(lam_home, lam_away, home_xi_pos, away_xi_pos,
     return round(max(0.2, lh), 2), round(max(0.2, la), 2), {
         "rotationDeltaHome": round(dh_off, 3), "rotationDeltaAway": round(da_off, 3),
         "defensiveDeltaHome": round(dh_def, 3), "defensiveDeltaAway": round(da_def, 3),
-        "missingKeyPlayers": [], # sera rempli par la pipeline si des stars manquent
+        "missingKeyPlayers": [], # réservé compat UI ; les vraies absences viennent d'availability
         "tacticalMod": round(tac, 3),
         "benchHome": bh, "benchAway": ba,
         "benchBonusOver25": round((bh + ba) / 2 * 0.06, 3),  # jusqu'à +6% Over 2.5

@@ -4662,5 +4662,68 @@
    "Ao Tanaka"
   ],
   "source": "ESPN (compos r\u00e9elles)"
+ },
+ "Germany|Paraguay": {
+  "home_formation": "4-4-2",
+  "home_xi": [
+   "Manuel Neuer",
+   "Antonio R\u00fcdiger",
+   "Jonathan Tah",
+   "Nathaniel Brown",
+   "Joshua Kimmich",
+   "Aleksandar Pavlovic",
+   "Felix Nmecha",
+   "Florian Wirtz",
+   "Leroy San\u00e9",
+   "Deniz Undav",
+   "Kai Havertz"
+  ],
+  "home_bench": [
+   "David Raum",
+   "Jamie Leweling",
+   "Waldemar Anton",
+   "Nadiem Amiri",
+   "Alexander N\u00fcbel",
+   "Angelo Stiller",
+   "Jamal Musiala",
+   "Malick Thiaw",
+   "Nick Woltemade",
+   "Pascal Gross",
+   "Assan Ou\u00e9draogo",
+   "Maximilian Beier",
+   "Oliver Baumann",
+   "Leon Goretzka"
+  ],
+  "away_formation": "4-4-2",
+  "away_xi": [
+   "Orlando Gil",
+   "Jos\u00e9 Canale",
+   "Gustavo G\u00f3mez",
+   "J\u00fanior Alonso",
+   "Juan Jose C\u00e1ceres",
+   "Andr\u00e9s Cubas",
+   "Dami\u00e1n Bobadilla",
+   "Mat\u00edas Galarza",
+   "Miguel Almir\u00f3n",
+   "Julio Enciso",
+   "Gabriel \u00c1valos"
+  ],
+  "away_bench": [
+   "Gatito Fern\u00e1ndez",
+   "Alex Arce",
+   "Ram\u00f3n Sosa",
+   "Gast\u00f3n Olveira",
+   "Antonio Sanabria",
+   "Alexandro Maidana",
+   "Isidro Pitta",
+   "Gustavo Vel\u00e1zquez",
+   "Omar Alderete",
+   "Braian Ojeda",
+   "Fabi\u00e1n Balbuena",
+   "Alejandro Romero Gamarra",
+   "Gustavo Caballero",
+   "Maur\u00edcio"
+  ],
+  "source": "ESPN (compos r\u00e9elles)"
  }
 }

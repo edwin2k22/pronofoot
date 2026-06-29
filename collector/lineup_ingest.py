@@ -39,6 +39,31 @@ def _match_lineup_to_sides(lineups, home, away):
     return h_block, a_block
 
 
+def _players_for_side(players, team_name):
+    """Retourne les stats joueurs ESPN du bloc d'équipe correspondant."""
+    if not players:
+        return {}
+    team_norm = _norm(team_name)
+    last = team_norm.split()[-1] if team_norm else ""
+    for name, block in players.items():
+        n = _norm(name)
+        if n == team_norm or (last and last in n):
+            return block or {}
+    return {}
+
+
+def _with_positions(names, players):
+    """Ajoute un suffixe poste court pour le modèle, sans inventer s'il manque."""
+    out = []
+    for name in names or []:
+        if "(" in str(name):
+            out.append(name)
+            continue
+        pos = (players.get(name) or {}).get("poste")
+        out.append(f"{name} ({pos})" if pos else name)
+    return out
+
+
 def ingest_lineup(home, away):
     """Tente de récupérer le XI officiel d'un match à venir. Retourne True si écrit."""
     ev = espn.find_event(home, away)
@@ -65,8 +90,14 @@ def ingest_lineup(home, away):
     except (TypeError, ValueError):
         events = {}
     lu = events.get("lineups") or {}
+    players = summ.get("players") or {}
+    h_players = _players_for_side(players, home)
+    a_players = _players_for_side(players, away)
     lu.update({
-        "home_xi": h_xi, "away_xi": a_xi,
+        "home_xi": _with_positions(h_xi, h_players),
+        "away_xi": _with_positions(a_xi, a_players),
+        "home_bench": _with_positions((h_block or {}).get("bench") or [], h_players),
+        "away_bench": _with_positions((a_block or {}).get("bench") or [], a_players),
         "home_formation": (h_block or {}).get("formation") or lu.get("home_formation"),
         "away_formation": (a_block or {}).get("formation") or lu.get("away_formation"),
         "source_xi": "ESPN (compo officielle)",

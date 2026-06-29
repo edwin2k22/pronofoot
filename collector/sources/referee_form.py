@@ -35,13 +35,23 @@ def _load():
         return {}
 
 
-def record_match(referee, total_cards):
-    """Enregistre le nb total de cartons d'un match arbitré (idempotent par valeur)."""
+def record_match(referee, total_cards, match_key=None):
+    """Enregistre le nb total de cartons d'un match arbitré, idempotent par match."""
     if not referee or total_cards is None:
         return
     store = _load()
-    store.setdefault(referee, [])
-    store[referee].append(int(total_cards))
+    cur = store.get(referee)
+    if isinstance(cur, dict):
+        bucket = cur
+    elif isinstance(cur, list):
+        # Ancien format : des refresh répétés ont pu dupliquer le même match.
+        # Si la liste est irréaliste pour une seule CDM, on repart proprement.
+        bucket = {} if len(cur) > 20 else {f"legacy:{i}": int(v) for i, v in enumerate(cur)}
+    else:
+        bucket = {}
+    key = match_key or f"sample:{len(bucket) + 1}"
+    bucket[key] = int(total_cards)
+    store[referee] = bucket
     os.makedirs(DATA, exist_ok=True)
     with open(CARDS_FILE, "w", encoding="utf-8") as f:
         json.dump(store, f, ensure_ascii=False, indent=1)
@@ -65,7 +75,10 @@ def severity(referee):
     obs = []
     for name, lst in store.items():
         if _norm(name) == key:
-            obs += lst
+            if isinstance(lst, dict):
+                obs += list(lst.values())
+            elif isinstance(lst, list) and len(lst) <= 20:
+                obs += lst
     n = len(obs)
     known = any(_norm(name) == key for name in refs.SEVERITY)
     if n == 0:

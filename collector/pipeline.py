@@ -734,21 +734,26 @@ def predict():
         hform = (lu or {}).get("home_formation", "4-3-3")
         aform = (lu or {}).get("away_formation", "4-4-2")
         
-        def _extract_pos(players_list):
+        def _extract_pos(players_list, fallback_form=None):
             out = []
             for p in (players_list or []):
                 import re as _re
                 mm = _re.search(r"\(([A-Z]+)\)", str(p or ""))
-                out.append(mm.group(1) if mm else "MF")
+                if mm:
+                    out.append(mm.group(1))
+            if out:
+                return out
+            if players_list and fallback_form:
+                return li.formation_positions(fallback_form)
             return out
 
         if lu and lu.get("home_xi"):
-            hpos = _extract_pos(lu.get("home_xi"))
+            hpos = _extract_pos(lu.get("home_xi"), hform)
         else:
             hpos = li.formation_positions(hform)
 
         if lu and lu.get("away_xi"):
-            apos = _extract_pos(lu.get("away_xi"))
+            apos = _extract_pos(lu.get("away_xi"), aform)
         else:
             apos = li.formation_positions(aform)
 
@@ -759,11 +764,8 @@ def predict():
             home_bench=hbench, away_bench=abench,
             home_elo=h["elo"], away_elo=a["elo"])
         
-        # Flags pour l'UI
-        if lineup_info["rotationDeltaHome"] > 0.1 or lineup_info["defensiveDeltaHome"] > 0.1:
-            lineup_info["missingKeyPlayers"].append(mt["home"])
-        if lineup_info["rotationDeltaAway"] > 0.1 or lineup_info["defensiveDeltaAway"] > 0.1:
-            lineup_info["missingKeyPlayers"].append(mt["away"])
+        # Les vraies absences clés sont calculées plus bas par availability_factor().
+        # On ne transforme pas un delta de formation en "joueur manquant".
 
         # ANGLE 1 — Must-Win Index : enjeu + statut de qualification réel (théorie des jeux)
         md = group_md.get(mt["id"])

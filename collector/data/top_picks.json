@@ -74,7 +74,7 @@
       "id": 74,
       "market": "DC",
       "label": "Double chance : Germany ou nul",
-      "prob": 0.9773,
+      "prob": 0.9677,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
       "tierReliability": 88
@@ -86,7 +86,7 @@
       "id": 74,
       "market": "DNB",
       "label": "Sans match nul : Germany",
-      "prob": 0.9757,
+      "prob": 0.9637,
       "why": "remboursé si nul",
       "tier": "lock",
       "tierReliability": 88
@@ -308,5 +308,5 @@
       "tierReliability": 88
     }
   ],
-  "lockCount": 62
+  "lockCount": 61
 }
