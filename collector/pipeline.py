@@ -687,6 +687,7 @@ def predict():
         old_p = old_preds.get(mt["id"]) or old_preds.get(old_key)
         # PRESERVE HISTORICAL PREDICTION to avoid look-ahead bias (changing past predictions based on new results)
         if mt["status"] in ("FINISHED", "LIVE", "HT") and old_p:
+            old_p["id"] = mt["id"]
             old_p["status"] = mt["status"]
             old_p["liveScore"] = (f"{mt['home_goals']}-{mt['away_goals']}"
                                   if mt["status"] in ("LIVE", "HT") and mt["home_goals"] is not None else None)

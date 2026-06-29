@@ -44,6 +44,9 @@ export function renderStandings(){
 }
 
 export function renderBracket(){
+  const box = $("bracketView") || $("matchList");
+  if(!box) return;
+  box.classList.remove("u-hidden");
   const sortedMatches = [...MATCHES].sort((a,b)=>parseKickoff(a.date)-parseKickoff(b.date));
   const rounds = [
     { id: "LAST_16", label: "Huitièmes de finale" },
@@ -53,9 +56,11 @@ export function renderBracket(){
   ];
   
   let html = `<div class="bracket-container">`;
+  let rendered = 0;
   rounds.forEach(r => {
     const matches = sortedMatches.filter(m => String(m.league).includes(r.id));
     if(!matches.length) return;
+    rendered += matches.length;
     html += `<div class="bracket-round"><h4 style="text-align:center;color:var(--muted)">${r.label}</h4>`;
     matches.forEach(m => {
       let scoreHtml = "vs";
@@ -71,5 +76,8 @@ export function renderBracket(){
     html += `</div>`;
   });
   html += `</div>`;
-  $("matchList").innerHTML = html;
+  if(!rendered){
+    html = `<div class="empty">Phase finale pas encore disponible. Elle s'affichera automatiquement quand les affiches seront connues.</div>`;
+  }
+  box.innerHTML = html;
 }

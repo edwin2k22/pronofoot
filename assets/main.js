@@ -25,6 +25,13 @@ window.adminAction = adminAction;
 let COMBO_HISTORY = null;
 function setComboHistory(d) { COMBO_HISTORY = d; }
 
+const DASHBOARD_VIEW = {
+  sort: localStorage.getItem("pf-sort") || "time",
+  valueOnly: localStorage.getItem("pf-filter-value") === "1",
+  highConfidence: localStorage.getItem("pf-filter-confidence") === "1",
+  withOdds: localStorage.getItem("pf-filter-odds") === "1",
+};
+
 /* ===== FAVORIS & NOTIFICATIONS ===== */
 
 try { setFavTeams(JSON.parse(localStorage.getItem("prono_favs")) || []); } catch(e){}
@@ -110,7 +117,8 @@ function applyData(data, srcLabel){
   const nFin = data.filter(m=>effectiveStatus(m)==="FINISHED").length;
   const liveCount = $("liveCount");
   if(liveCount) liveCount.textContent = "Dashboard intelligent · données réelles ESPN/Opta · modèle Elo + Poisson";
-  updateCounts(); buildGroupFilter(); render();
+  ensureModernDashboard();
+  updateCounts(); buildGroupFilter(); renderDecisionRadar(); render();
   return true;
 }
 
@@ -192,6 +200,226 @@ function matchInTab(m){
   // AWAITING (résultat pas encore ingéré) reste avec les matchs "À venir"
   if(TAB==="SCHEDULED") return st==="SCHEDULED"||st==="AWAITING";
   return st===TAB;
+}
+
+function predictionOf(m){
+  return (m && m.prediction) || {};
+}
+
+function outcomeProfile(m){
+  const p = predictionOf(m);
+  const items = [
+    {key:"home", label:m.home, prob:+p.p1 || 0, odd:m.odd1},
+    {key:"draw", label:"Nul", prob:+p.pX || 0, odd:m.oddX},
+    {key:"away", label:m.away, prob:+p.p2 || 0, odd:m.odd2},
+  ];
+  return items.reduce((best, item)=>item.prob > best.prob ? item : best, items[0]);
+}
+
+function modelConfidence(m){
+  const declared = Number(m && m.confidence);
+  if(Number.isFinite(declared) && declared > 0) return declared;
+  return outcomeProfile(m).prob || 0;
+}
+
+function valueCandidates(m){
+  const p = predictionOf(m);
+  const v = p.value || {};
+  return [
+    {key:"home", label:m.home, data:v.home},
+    {key:"draw", label:"Nul", data:v.draw},
+    {key:"away", label:m.away, data:v.away},
+  ].filter(x=>x.data && (x.data.is_value || x.data.edge > 0));
+}
+
+function bestValue(m){
+  const values = valueCandidates(m);
+  if(!values.length) return null;
+  return values.sort((a,b)=>(b.data.edge || 0) - (a.data.edge || 0))[0];
+}
+
+function hasOdds(m){
+  return !!(m && (m.odd1 || m.oddX || m.odd2 || m.oddOver || m.oddUnder));
+}
+
+function upsetInfo(m){
+  const p = predictionOf(m);
+  return p.upsetIndex || m.upsetIndex || null;
+}
+
+function totalGoalLean(m){
+  const p = predictionOf(m);
+  return Number.isFinite(+p.totalXg) ? +p.totalXg : ((+p.lamHome || 0) + (+p.lamAway || 0));
+}
+
+function sortRankDate(m){
+  const t = parseKickoff(m.date);
+  return t == null ? Number.MAX_SAFE_INTEGER : t;
+}
+
+function applySmartFilters(list){
+  let out = [...list];
+  if(DASHBOARD_VIEW.valueOnly) out = out.filter(m=>!!bestValue(m));
+  if(DASHBOARD_VIEW.highConfidence) out = out.filter(m=>modelConfidence(m) >= .72 || outcomeProfile(m).prob >= .62);
+  if(DASHBOARD_VIEW.withOdds) out = out.filter(hasOdds);
+
+  const by = DASHBOARD_VIEW.sort;
+  out.sort((a,b)=>{
+    if(by === "confidence") return modelConfidence(b) - modelConfidence(a);
+    if(by === "value") return ((bestValue(b)||{}).data?.edge || -9) - ((bestValue(a)||{}).data?.edge || -9);
+    if(by === "upset") return ((upsetInfo(b)||{}).index || -1) - ((upsetInfo(a)||{}).index || -1);
+    if(by === "goals") return totalGoalLean(b) - totalGoalLean(a);
+    return sortRankDate(a) - sortRankDate(b);
+  });
+  return out;
+}
+
+function ensureModernDashboard(){
+  if(!$("decisionRadar")){
+    const hero = document.querySelector(".hero");
+    if(hero){
+      hero.insertAdjacentHTML("afterend", `<section class="decision-radar" id="decisionRadar" aria-label="Radar decisionnel"></section>`);
+    }
+  }
+  if(!$("smartControls")){
+    const anchor = $("liveFeed") || $("matchList");
+    if(anchor){
+      anchor.insertAdjacentHTML("beforebegin", `
+        <section class="command-strip" id="smartControls" aria-label="Controle des matchs">
+          <div class="command-field">
+            <label for="matchSort">Tri</label>
+            <select id="matchSort" aria-label="Trier les matchs">
+              <option value="time">Horaire</option>
+              <option value="confidence">Confiance</option>
+              <option value="value">Value</option>
+              <option value="upset">Risque surprise</option>
+              <option value="goals">Buts attendus</option>
+            </select>
+          </div>
+          <button type="button" class="chip-toggle" data-filter="valueOnly">Value</button>
+          <button type="button" class="chip-toggle" data-filter="highConfidence">Confiance</button>
+          <button type="button" class="chip-toggle" data-filter="withOdds">Cotes</button>
+          <div class="smart-count" id="smartCount"></div>
+        </section>`);
+    }
+  }
+
+  const sort = $("matchSort");
+  if(sort && !sort.dataset.wired){
+    sort.dataset.wired = "1";
+    sort.value = DASHBOARD_VIEW.sort;
+    sort.addEventListener("change", ()=>{
+      DASHBOARD_VIEW.sort = sort.value;
+      localStorage.setItem("pf-sort", DASHBOARD_VIEW.sort);
+      render();
+    });
+  }
+
+  document.querySelectorAll(".chip-toggle[data-filter]").forEach(btn=>{
+    if(btn.dataset.wired) return;
+    btn.dataset.wired = "1";
+    btn.addEventListener("click", ()=>{
+      const key = btn.dataset.filter;
+      DASHBOARD_VIEW[key] = !DASHBOARD_VIEW[key];
+      const storageKey = key === "valueOnly" ? "pf-filter-value" : key === "highConfidence" ? "pf-filter-confidence" : "pf-filter-odds";
+      localStorage.setItem(storageKey, DASHBOARD_VIEW[key] ? "1" : "0");
+      render();
+    });
+  });
+  updateSmartControls();
+}
+
+function updateSmartControls(shown, total){
+  const panel = $("smartControls");
+  if(panel){
+    const hidden = TAB==="BEST" || TAB==="GROUPS" || TAB==="BRACKET";
+    panel.classList.toggle("u-hidden", hidden);
+  }
+  const radar = $("decisionRadar");
+  if(radar) radar.classList.toggle("u-hidden", TAB==="BRACKET");
+  const sort = $("matchSort");
+  if(sort) sort.value = DASHBOARD_VIEW.sort;
+  document.querySelectorAll(".chip-toggle[data-filter]").forEach(btn=>{
+    btn.classList.toggle("active", !!DASHBOARD_VIEW[btn.dataset.filter]);
+  });
+  const count = $("smartCount");
+  if(count && Number.isFinite(shown) && Number.isFinite(total)){
+    count.textContent = shown === total ? `${shown} matchs` : `${shown}/${total} matchs`;
+  }
+}
+
+function renderDecisionRadar(){
+  const box = $("decisionRadar");
+  if(!box || !MATCHES.length) return;
+  const active = MATCHES.filter(m=>effectiveStatus(m)!=="FINISHED");
+  const pool = active.length ? active : MATCHES;
+  const upcoming = pool.filter(m=>parseKickoff(m.date)!=null).sort((a,b)=>sortRankDate(a)-sortRankDate(b));
+  const next = upcoming[0] || pool[0];
+  const lock = [...pool].sort((a,b)=>modelConfidence(b)-modelConfidence(a))[0];
+  const value = [...pool].filter(bestValue).sort((a,b)=>((bestValue(b)||{}).data.edge || 0)-((bestValue(a)||{}).data.edge || 0))[0];
+  const upset = [...pool].filter(upsetInfo).sort((a,b)=>((upsetInfo(b)||{}).index || 0)-((upsetInfo(a)||{}).index || 0))[0];
+  const goals = [...pool].sort((a,b)=>totalGoalLean(b)-totalGoalLean(a))[0];
+
+  const card = (kind, title, m, metric, hint)=>{
+    if(!m) return "";
+    const key = `${(m.home || "").replace(/"/g,"&quot;")}|${(m.away || "").replace(/"/g,"&quot;")}`;
+    return `<button type="button" class="radar-card ${kind}" data-open-match="${key}">
+      <span class="radar-k">${title}</span>
+      <b>${m.home} - ${m.away}</b>
+      <span class="radar-m">${metric}</span>
+      <small>${hint}</small>
+    </button>`;
+  };
+  const emptyCard = (kind, title, metric, hint)=>`<div class="radar-card ${kind} disabled">
+      <span class="radar-k">${title}</span>
+      <b>${metric}</b>
+      <span class="radar-m">--</span>
+      <small>${hint}</small>
+    </div>`;
+
+  const valuePick = value ? bestValue(value) : null;
+  const nextLabel = next && parseKickoff(next.date)!=null ? countdown(next) : "calendrier";
+  const lockPick = lock ? outcomeProfile(lock) : null;
+  const upsetMeta = upset ? upsetInfo(upset) : null;
+  box.innerHTML = `
+    <div class="radar-head">
+      <div>
+        <span>PronoFoot intelligence</span>
+        <h2>Radar decisionnel</h2>
+      </div>
+      <div class="radar-meta">${MATCHES.length} matchs · ${active.length} a surveiller</div>
+    </div>
+    <div class="radar-grid">
+      ${card("time", "Prochain", next, nextLabel, next?.date ? next.date.slice(0,16) : "")}
+      ${card("lock", "Plus fiable", lock, lockPick ? `${lockPick.label} · ${pct(lockPick.prob)}` : "modele", `${Math.round(modelConfidence(lock || {})*100)}% confiance`)}
+      ${value ? card("value", "Value", value, valuePick ? `${valuePick.label} · +${Math.round((valuePick.data.edge || 0)*100)}%` : "aucune value", valuePick?.data?.odd ? `cote ${valuePick.data.odd}` : "marche neutre") : emptyCard("value", "Value", "Aucune value active", "marche surveille")}
+      ${card("risk", "Surprise", upset, upsetMeta ? `${upsetMeta.index}/100` : "faible", upsetMeta?.label || "indice modele")}
+      ${card("goals", "Buts", goals, `${totalGoalLean(goals).toFixed(2)} xG`, predictionOf(goals).over25!=null ? `Over 2.5 ${pct(predictionOf(goals).over25)}` : "projection")}
+    </div>`;
+
+  box.querySelectorAll("[data-open-match]").forEach(btn=>{
+    btn.addEventListener("click", ()=>{
+      const [home, away] = btn.dataset.openMatch.split("|");
+      openMatchByTeams(home, away);
+    });
+  });
+}
+
+function matchInsightStrip(m){
+  const p = predictionOf(m);
+  if(!p.p1 && !p.pX && !p.p2) return "";
+  const pick = outcomeProfile(m);
+  const val = bestValue(m);
+  const risk = upsetInfo(m);
+  const conf = Math.round(modelConfidence(m) * 100);
+  const bits = [
+    `<span>Pick <b>${pick.label} ${pct(pick.prob)}</b></span>`,
+    `<span>Confiance <b>${conf}%</b></span>`,
+  ];
+  if(val) bits.push(`<span>Edge <b>+${Math.round((val.data.edge || 0)*100)}%</b></span>`);
+  if(risk && risk.index != null) bits.push(`<span>Surprise <b>${risk.index}/100</b></span>`);
+  if(p.over25 != null) bits.push(`<span>Over <b>${pct(p.over25)}</b></span>`);
+  return `<div class="mi-insights">${bits.join("")}</div>`;
 }
 
 /* ===== HORLOGE INTELLIGENTE =====================================================
@@ -424,25 +652,32 @@ function renderTopValue(){
 
 
 function render(){
-  if(TAB==="BEST"){ renderBestPicks(); return; }
-  if(TAB==="GROUPS"){ renderStandings(); return; }
+  ensureModernDashboard();
+  renderDecisionRadar();
   if(TAB==="BRACKET"){
     const ml = $("matchList"); if(ml) ml.classList.add("u-hidden");
     const hero = document.querySelector(".hero"); if(hero) hero.classList.add("u-hidden");
+    updateSmartControls();
     renderBracket(); 
     return; 
-  } else {
-    const box=$("bracketView"); if(box) box.classList.add("u-hidden");
-    const ml = $("matchList"); if(ml) ml.classList.remove("u-hidden");
-    const hero = document.querySelector(".hero"); if(hero) hero.classList.remove("u-hidden");
   }
+  const box=$("bracketView"); if(box) box.classList.add("u-hidden");
+  const ml = $("matchList"); if(ml) ml.classList.remove("u-hidden");
+  const hero = document.querySelector(".hero"); if(hero) hero.classList.remove("u-hidden");
+  if(TAB==="BEST"){ updateSmartControls(); renderBestPicks(); return; }
+  if(TAB==="GROUPS"){ updateSmartControls(); renderStandings(); return; }
   const q = $("search").value.toLowerCase();
   let list = MATCHES.filter(matchInTab);
   if(GROUP!=="Tous") list = list.filter(m=>m.league===GROUP);
   if(q) list = list.filter(m=>(m.home+" "+m.away).toLowerCase().includes(q));
+  const beforeSmartFilters = list.length;
+  list = applySmartFilters(list);
+  updateSmartControls(list.length, beforeSmartFilters);
 
   if(!list.length){
-    const msg = TAB==="LIVE"
+    const msg = beforeSmartFilters && !list.length
+      ? "Aucun match ne correspond aux filtres actifs."
+      : TAB==="LIVE"
       ? "🔴 Aucun match en cours actuellement. Reviens à l'heure d'un coup d'envoi !"
       : TAB==="FINISHED"
       ? "Aucun match terminé pour l'instant."
@@ -498,7 +733,7 @@ function render(){
       tags = m.analysis.predictionCorrect?'<span class="tag ok">✅ prono réussi</span>':'<span class="tag ko">❌ prono manqué</span>';
       tags += vsSummaryInline(m);
     } else {
-      const hasVal=["home","draw","away","over","under"].some(k=>(p.value||{})[k]&&p.value[k].value);
+      const hasVal=!!bestValue(m);
       if(hasVal) tags+=`<span class="tag val">💎 value détectée</span>`;
       const ui=p.upsetIndex;
       if(ui && ui.index>=45){
@@ -521,6 +756,7 @@ function render(){
           <div class="mi-team away">${favBtn(m.away)}${teamBadge(m.away)}<span class="mi-tname">${m.away}</span></div>
         </div>
         ${probBar}
+        ${matchInsightStrip(m)}
         <div class="mi-meta"><div class="mi-tags">${tags}</div><div class="mi-go">${cta}</div></div>
       </div>`;
     d.onclick=()=>{ setSelected(m.home+"|"+m.away); showDetail(m); };
@@ -1206,13 +1442,13 @@ $("tabs").querySelectorAll(".tab").forEach(tab=>{
     $("tabs").querySelectorAll(".tab").forEach(t=>t.classList.remove("active"));
     tab.classList.add("active");
     setTab(tab.dataset.t); setGroup("Tous"); closeDetail();
-    // le filtre par groupe n'a pas de sens dans "Meilleurs choix" / "Groupes"
-    const gf=$("groupFilter"); if(gf) gf.style.display = (TAB==="BEST"||TAB==="GROUPS")?"none":"";
+    // le filtre par groupe n'a pas de sens dans ces vues agrégées.
+    const gf=$("groupFilter"); if(gf) gf.style.display = (TAB==="BEST"||TAB==="GROUPS"||TAB==="BRACKET")?"none":"";
     buildGroupFilter(); render();
     closeSidebar();   // referme la sidebar sur mobile après sélection
   };
 });
-$("groupFilter").onchange=()=>{ GROUP=$("groupFilter").value; render(); };
+$("groupFilter").onchange=()=>{ setGroup($("groupFilter").value); render(); };
 $("search").oninput=render;
 
 /* ===== Offcanvas (panneau d'analyse) : fermeture ===== */

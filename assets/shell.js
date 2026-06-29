@@ -41,16 +41,6 @@
       });
     }
 
-    const favToggle = $("favoritesToggle");
-    if(favToggle){
-      favToggle.addEventListener("click", e=>{
-        e.stopPropagation();
-        const open = !fav.classList.contains("open");
-        setPanel(notif, false);
-        setPanel(fav, open);
-      });
-    }
-
     qsa("[data-close-notif]").forEach(btn=>{
       btn.addEventListener("click", ()=>setPanel(notif, false));
     });
