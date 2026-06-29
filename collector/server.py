@@ -19,6 +19,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # /home/user/prono-app
 DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
+READONLY = os.getenv("PRONOFOOT_READONLY", "0").strip().lower() in ("1", "true", "yes", "on")
 
 MIME = {".html": "text/html; charset=utf-8", ".js": "application/javascript",
         ".css": "text/css", ".json": "application/json; charset=utf-8",
@@ -74,7 +75,7 @@ def do_sync():
 
 def _status():
     p = os.path.join(DATA, "predictions.json")
-    out = {"matches": 0, "finished": 0, "live": 0, "scheduled": 0, "calibration": None}
+    out = {"matches": 0, "finished": 0, "live": 0, "scheduled": 0, "calibration": None, "readonly": READONLY}
     try:
         d = json.load(open(p, encoding="utf-8"))
         out["matches"] = len(d)
@@ -137,6 +138,11 @@ class Handler(BaseHTTPRequestHandler):
             self._send(200, f.read(), MIME.get(ext, "application/octet-stream"))
 
     def do_POST(self):
+        if READONLY:
+            return self._send(403, {
+                "ok": False,
+                "error": "Mode public lecture seule : actions administrateur désactivées."
+            })
         path = self.path.split("?")[0]
         ln = int(self.headers.get("Content-Length", 0) or 0)
         try:
@@ -165,7 +171,7 @@ class Handler(BaseHTTPRequestHandler):
 
 
 def main():
-    port = int(sys.argv[1]) if len(sys.argv) > 1 else 8077
+    port = int(sys.argv[1]) if len(sys.argv) > 1 else int(os.getenv("PORT", os.getenv("PRONOFOOT_PORT", "8077")))
     srv = ThreadingHTTPServer(("0.0.0.0", port), Handler)
     print(f"🎛️  ProноFoot control server : http://localhost:{port}/index.html")
     print("   Boutons actifs dans l'app (refresh / saisie score / sync).")

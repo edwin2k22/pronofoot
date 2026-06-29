@@ -1,0 +1,17 @@
+.git
+.pytest_cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+.env.*
+!.env.example
+node_modules
+coverage
+htmlcov
+dist
+build
+*.log
+screenshots

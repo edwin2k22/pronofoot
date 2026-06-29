@@ -1506,10 +1506,11 @@ let _clockSig = "";
 
 /* ===== PANNEAU D'ACTIONS (boutons) ===== */
 let SERVER_OK = false;
+let SERVER_READONLY = false;
 async function checkServer(){
   try{ const r=await fetch("api/status",{cache:"no-store"});
-    if(r.ok){ SERVER_OK=true; return await r.json(); } }catch(_){}
-  SERVER_OK=false; return null;
+    if(r.ok){ const st=await r.json(); SERVER_OK=true; SERVER_READONLY=!!st.readonly; return st; } }catch(_){}
+  SERVER_OK=false; SERVER_READONLY=false; return null;
 }
 function fillAdminMatches(){
   const sel=$("adminMatch"); if(!sel) return;
@@ -1521,6 +1522,11 @@ function setAdminStatus(txt){ const e=$("adminStatus"); if(e) e.textContent=txt;
 
 
 async function adminAction(act){
+  if(SERVER_READONLY){
+    setAdminStatus("Mode public lecture seule : actions administrateur desactivees.");
+    $("adminHint").innerHTML = "Le site peut etre partage sans risque. Les refresh, sync et scores restent reserves au serveur prive.";
+    return;
+  }
   if(!SERVER_OK){
     // mode hors-serveur : on ne peut pas exécuter Python -> on guide l'utilisateur
     // Windows : python | Linux/Mac : python3
@@ -1559,6 +1565,11 @@ $("toggleAdmin").onclick=async ()=>{
   if(show){
     fillAdminMatches();
     const st=await checkServer();
+    if(st && st.readonly){
+      setAdminStatus(`Mode public lecture seule · ${st.finished} termines / ${st.live} en cours / ${st.scheduled} a venir`);
+      $("adminHint").innerHTML = "Actions administrateur desactivees sur l'URL publique.";
+      return;
+    }
     if(st) setAdminStatus(`🎛️ Serveur connecté · ${st.finished} terminés / ${st.live} en cours / ${st.scheduled} à venir`);
     else { setAdminStatus("⚠️ Serveur non détecté (boutons en mode lecture seule).");
       const py2 = navigator.platform.startsWith("Win") ? "python" : "python3";

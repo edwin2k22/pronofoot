@@ -37,6 +37,7 @@ collector/data/*.sqlite3
 deploy/*
 !deploy/install.sh
 !deploy/uninstall.sh
+!deploy/start-public.sh
 !deploy/pronofoot-*.service
 
 # Built HTML dashboards — régénérés par `python3 -m collector.embed`
