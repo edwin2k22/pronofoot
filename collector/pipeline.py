@@ -640,6 +640,12 @@ def predict():
     except (OSError, ValueError):
         odds_store = {}
 
+    try:
+        with open(os.path.join(DATA_DIR, "predictions.json"), encoding="utf-8") as f:
+            old_preds = {m["id"]: m for m in json.load(f)}
+    except (OSError, ValueError):
+        old_preds = {}
+
     out = []
     for mt in rows:
         if mt["competition"] != "CDM 2026":
@@ -647,6 +653,25 @@ def predict():
         h, a = db.get_team(conn, mt["home"]), db.get_team(conn, mt["away"])
         if not h or not a:
             continue
+            
+        old_p = old_preds.get(mt["id"])
+        # PRESERVE HISTORICAL PREDICTION to avoid look-ahead bias (changing past predictions based on new results)
+        if mt["status"] in ("FINISHED", "LIVE", "HT") and old_p:
+            old_p["status"] = mt["status"]
+            old_p["liveScore"] = (f"{mt['home_goals']}-{mt['away_goals']}"
+                                  if mt["status"] in ("LIVE", "HT") and mt["home_goals"] is not None else None)
+            old_p["liveClock"] = mt.get("live_clock") if mt["status"] in ("LIVE", "HT") else None
+            old_p["htScore"] = (f"{mt['home_ht_goals']}-{mt['away_ht_goals']}"
+                                if mt.get("home_ht_goals") is not None and mt.get("away_ht_goals") is not None else None)
+            if mt["status"] == "FINISHED":
+                p = old_p.get("prediction", {})
+                res = {"p1": p.get("p1", 0), "pX": p.get("pX", 0), "p2": p.get("p2", 0)}
+                goals = {"top_score": tuple(p.get("topScore", (0, 0)))}
+                old_p["analysis"] = _analyze_finished(mt, h, a, res, goals)
+                old_p["realScore"] = old_p["analysis"]["realScore"] if old_p.get("analysis") else None
+            out.append(old_p)
+            continue
+
         lam_h = _expected_goals(h, a)
         lam_a = _expected_goals(a, h)
 

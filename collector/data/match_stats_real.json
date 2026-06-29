@@ -1,852 +1,4 @@
 {
- "France|Northern Ireland": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Australia|Cameroon": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Peru|Spain": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Iran|Nigeria": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Saudi Arabia|Senegal": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Uzbekistan|Gabon": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Argentina|Iceland": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Austria|Ghana": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Iraq|Venezuela": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "South Africa|Panama": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Portugal|Nigeria": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Jordan|Costa Rica": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "England|Costa Rica": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Saudi Arabia|Egypt": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Bolivia|Algeria": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Greece|Paraguay": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Algeria|Guatemala": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "England|Uruguay": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Netherlands|Norway": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Switzerland|Germany": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Spain|Serbia": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Morocco|Ecuador": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Argentina|Mauritania": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "South Korea|Ivory Coast": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Senegal|Peru": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Canada|Iceland": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Scotland|Japan": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "USA|Belgium": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Haiti|Tunisia": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Mexico|Portugal": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Colombia|France": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Cape Verde|Finland": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "New Zealand|Chile": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Uzbekistan|Venezuela": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Germany|Ghana": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Australia|Cura\u00e7ao": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Iran|Costa Rica": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Norway|Switzerland": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Serbia|Saudi Arabia": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Jordan|Nigeria": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Haiti|Iceland": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Morocco|Paraguay": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Algeria|Uruguay": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Ivory Coast|Scotland": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Austria|South Korea": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "England|Japan": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Netherlands|Ecuador": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Senegal|Gambia": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Spain|Egypt": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "USA|Portugal": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Argentina|Zambia": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Brazil|Croatia": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Canada|Tunisia": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Mexico|Belgium": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Mexico|Ghana": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Morocco|Burundi": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Egypt|Russia": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Republic of Ireland|Qatar": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Iran|Gambia": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Iraq|Andorra": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "South Africa|Nicaragua": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Bosnia & Herzegovina|North Macedonia": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Scotland|Cura\u00e7ao": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Ecuador|Saudi Arabia": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "South Korea|Trinidad and Tobago": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Mexico|Australia": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Japan|Iceland": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Switzerland|Jordan": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Czech Republic|Kosovo": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Cape Verde|Serbia": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Germany|Finland": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "USA|Senegal": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Brazil|Panama": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Norway|Sweden": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Turkey|North Macedonia": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Austria|Tunisia": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Colombia|Costa Rica": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Canada|Uzbekistan": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Croatia|Belgium": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Morocco|Madagascar": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Wales|Ghana": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Haiti|New Zealand": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Netherlands|Algeria": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Panama|Dominican Republic": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "South Korea|El Salvador": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Iran|Mali": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Sweden|Greece": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Spain|Iraq": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "France|Ivory Coast": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Czech Republic|Guatemala": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Mexico|Serbia": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Paraguay|Nicaragua": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Puerto Rico|Saudi Arabia": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Canada|Republic of Ireland": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Haiti|Peru": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Belgium|Tunisia": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Portugal|Chile": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "USA|Germany": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Panama|Bosnia & Herzegovina": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Switzerland|Australia": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Bolivia|Scotland": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "England|New Zealand": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Qatar|El Salvador": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Jamaica|South Africa": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Brazil|Egypt": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Venezuela|Turkey": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Argentina|Honduras": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Cura\u00e7ao|Aruba": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Croatia|Slovenia": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Morocco|Norway": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Ecuador|Guatemala": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Colombia|Jordan": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Netherlands|Uzbekistan": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Czech Republic|Mexico": {
-  "home_shots": 13,
-  "away_shots": 11,
-  "home_shots_on": 1,
-  "away_shots_on": 5,
-  "home_corners": 5,
-  "away_corners": 1,
-  "home_cards": 0,
-  "away_cards": 1,
-  "home_possession": 51.9,
-  "away_possession": 48.1,
-  "home_passes": 398,
-  "away_passes": 386,
-  "home_passes_ok": 333,
-  "away_passes_ok": 330,
-  "home_pass_pct": 0.8,
-  "away_pass_pct": 0.9,
-  "home_crosses": 26,
-  "away_crosses": 12,
-  "home_crosses_ok": 5,
-  "away_crosses_ok": 1,
-  "home_long_balls": 53,
-  "away_long_balls": 55,
-  "home_tackles": 12,
-  "away_tackles": 12,
-  "home_tackles_won": 7,
-  "away_tackles_won": 8,
-  "home_interceptions": 5,
-  "away_interceptions": 7,
-  "home_clearances": 20,
-  "away_clearances": 30,
-  "home_blocked_shots": 4,
-  "away_blocked_shots": 2,
-  "home_fouls": 9,
-  "away_fouls": 13,
-  "home_offsides": 1,
-  "away_offsides": 0,
-  "home_saves": 2,
-  "away_saves": 1,
-  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
-  "referee": "Yael Falc\u00f3n P\u00e9rez",
-  "home_xg": 0.33,
-  "away_xg": 0.29
- },
- "South Africa|South Korea": {
-  "home_shots": 13,
-  "away_shots": 8,
-  "home_shots_on": 4,
-  "away_shots_on": 3,
-  "home_corners": 4,
-  "away_corners": 6,
-  "home_cards": 1,
-  "away_cards": 1,
-  "home_possession": 31.6,
-  "away_possession": 68.4,
-  "home_passes": 340,
-  "away_passes": 719,
-  "home_passes_ok": 277,
-  "away_passes_ok": 641,
-  "home_pass_pct": 0.8,
-  "away_pass_pct": 0.9,
-  "home_crosses": 8,
-  "away_crosses": 34,
-  "home_crosses_ok": 1,
-  "away_crosses_ok": 7,
-  "home_long_balls": 57,
-  "away_long_balls": 52,
-  "home_tackles": 11,
-  "away_tackles": 12,
-  "home_tackles_won": 7,
-  "away_tackles_won": 9,
-  "home_interceptions": 15,
-  "away_interceptions": 4,
-  "home_clearances": 40,
-  "away_clearances": 16,
-  "home_blocked_shots": 4,
-  "away_blocked_shots": 1,
-  "home_fouls": 7,
-  "away_fouls": 9,
-  "home_offsides": 3,
-  "away_offsides": 0,
-  "home_saves": 2,
-  "away_saves": 3,
-  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
-  "referee": "Facundo Tello",
-  "home_xg": 0.65,
-  "away_xg": 0.22
- },
- "Morocco|Haiti": {
-  "home_shots": 22,
-  "away_shots": 9,
-  "home_shots_on": 11,
-  "away_shots_on": 2,
-  "home_corners": 9,
-  "away_corners": 1,
-  "home_cards": 0,
-  "away_cards": 3,
-  "home_possession": 69.1,
-  "away_possession": 30.9,
-  "home_passes": 541,
-  "away_passes": 247,
-  "home_passes_ok": 477,
-  "away_passes_ok": 198,
-  "home_pass_pct": 0.9,
-  "away_pass_pct": 0.8,
-  "home_crosses": 22,
-  "away_crosses": 3,
-  "home_crosses_ok": 7,
-  "away_crosses_ok": 2,
-  "home_long_balls": 34,
-  "away_long_balls": 44,
-  "home_tackles": 20,
-  "away_tackles": 25,
-  "home_tackles_won": 8,
-  "away_tackles_won": 12,
-  "home_interceptions": 8,
-  "away_interceptions": 16,
-  "home_clearances": 14,
-  "away_clearances": 26,
-  "home_blocked_shots": 5,
-  "away_blocked_shots": 3,
-  "home_fouls": 10,
-  "away_fouls": 18,
-  "home_offsides": 5,
-  "away_offsides": 0,
-  "home_saves": 1,
-  "away_saves": 8,
-  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
-  "referee": "Danny Makkelie",
-  "home_xg": 1.61,
-  "away_xg": 0.47
- },
- "Scotland|Brazil": {
-  "home_shots": 14,
-  "away_shots": 21,
-  "home_shots_on": 5,
-  "away_shots_on": 9,
-  "home_corners": 7,
-  "away_corners": 7,
-  "home_cards": 1,
-  "away_cards": 2,
-  "home_possession": 46,
-  "away_possession": 54,
-  "home_passes": 500,
-  "away_passes": 605,
-  "home_passes_ok": 450,
-  "away_passes_ok": 564,
-  "home_pass_pct": 0.9,
-  "away_pass_pct": 0.9,
-  "home_crosses": 23,
-  "away_crosses": 12,
-  "home_crosses_ok": 9,
-  "away_crosses_ok": 2,
-  "home_long_balls": 33,
-  "away_long_balls": 27,
-  "home_tackles": 12,
-  "away_tackles": 14,
-  "home_tackles_won": 8,
-  "away_tackles_won": 6,
-  "home_interceptions": 2,
-  "away_interceptions": 13,
-  "home_clearances": 13,
-  "away_clearances": 24,
-  "home_blocked_shots": 3,
-  "away_blocked_shots": 5,
-  "home_fouls": 10,
-  "away_fouls": 11,
-  "home_offsides": 0,
-  "away_offsides": 1,
-  "home_saves": 5,
-  "away_saves": 5,
-  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
-  "referee": "C\u00e9sar Arturo Ramos Palazuelos",
-  "home_xg": 0.87,
-  "away_xg": 1.42
- },
- "Japan|Sweden": {
-  "home_shots": 8,
-  "away_shots": 11,
-  "home_shots_on": 3,
-  "away_shots_on": 5,
-  "home_corners": 2,
-  "away_corners": 8,
-  "home_cards": 1,
-  "away_cards": 2,
-  "home_possession": 52.3,
-  "away_possession": 47.7,
-  "home_passes": 445,
-  "away_passes": 395,
-  "home_passes_ok": 378,
-  "away_passes_ok": 312,
-  "home_pass_pct": 0.8,
-  "away_pass_pct": 0.8,
-  "home_crosses": 13,
-  "away_crosses": 16,
-  "home_crosses_ok": 4,
-  "away_crosses_ok": 4,
-  "home_long_balls": 49,
-  "away_long_balls": 50,
-  "home_tackles": 13,
-  "away_tackles": 7,
-  "home_tackles_won": 7,
-  "away_tackles_won": 3,
-  "home_interceptions": 4,
-  "away_interceptions": 5,
-  "home_clearances": 40,
-  "away_clearances": 21,
-  "home_blocked_shots": 2,
-  "away_blocked_shots": 3,
-  "home_fouls": 20,
-  "away_fouls": 11,
-  "home_offsides": 3,
-  "away_offsides": 2,
-  "home_saves": 4,
-  "away_saves": 2,
-  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
-  "referee": "Iv\u00e1n Arcides Barton Cisneros",
-  "home_xg": 0.0,
-  "away_xg": 0.0
- },
- "Tunisia|Netherlands": {
-  "home_shots": 10,
-  "away_shots": 20,
-  "home_shots_on": 4,
-  "away_shots_on": 7,
-  "home_corners": 4,
-  "away_corners": 6,
-  "home_cards": 0,
-  "away_cards": 0,
-  "home_possession": 28.6,
-  "away_possession": 71.4,
-  "home_passes": 258,
-  "away_passes": 647,
-  "home_passes_ok": 199,
-  "away_passes_ok": 602,
-  "home_pass_pct": 0.8,
-  "away_pass_pct": 0.9,
-  "home_crosses": 13,
-  "away_crosses": 27,
-  "home_crosses_ok": 4,
-  "away_crosses_ok": 6,
-  "home_long_balls": 47,
-  "away_long_balls": 22,
-  "home_tackles": 17,
-  "away_tackles": 8,
-  "home_tackles_won": 9,
-  "away_tackles_won": 5,
-  "home_interceptions": 8,
-  "away_interceptions": 10,
-  "home_clearances": 35,
-  "away_clearances": 17,
-  "home_blocked_shots": 1,
-  "away_blocked_shots": 5,
-  "home_fouls": 11,
-  "away_fouls": 10,
-  "home_offsides": 2,
-  "away_offsides": 1,
-  "home_saves": 4,
-  "away_saves": 3,
-  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
-  "referee": "Katia Itzel Garc\u00eda",
-  "home_xg": 0.0,
-  "away_xg": 0.0
- },
- "Paraguay|Australia": {
-  "home_shots": 7,
-  "away_shots": 12,
-  "home_shots_on": 2,
-  "away_shots_on": 5,
-  "home_corners": 1,
-  "away_corners": 3,
-  "home_cards": 1,
-  "away_cards": 1,
-  "home_possession": 44,
-  "away_possession": 56,
-  "home_passes": 426,
-  "away_passes": 537,
-  "home_passes_ok": 330,
-  "away_passes_ok": 438,
-  "home_pass_pct": 0.8,
-  "away_pass_pct": 0.8,
-  "home_crosses": 7,
-  "away_crosses": 13,
-  "home_crosses_ok": 0,
-  "away_crosses_ok": 4,
-  "home_long_balls": 59,
-  "away_long_balls": 58,
-  "home_tackles": 24,
-  "away_tackles": 20,
-  "home_tackles_won": 17,
-  "away_tackles_won": 12,
-  "home_interceptions": 8,
-  "away_interceptions": 7,
-  "home_clearances": 24,
-  "away_clearances": 10,
-  "home_blocked_shots": 1,
-  "away_blocked_shots": 3,
-  "home_fouls": 9,
-  "away_fouls": 6,
-  "home_offsides": 0,
-  "away_offsides": 0,
-  "home_saves": 5,
-  "away_saves": 2,
-  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
-  "referee": "Cl\u00e9ment Turpin",
-  "home_xg": 0.0,
-  "away_xg": 0.15
- },
- "Turkey|USA": {
-  "home_shots": 9,
-  "away_shots": 18,
-  "home_shots_on": 3,
-  "away_shots_on": 7,
-  "home_corners": 2,
-  "away_corners": 9,
-  "home_cards": 0,
-  "away_cards": 1,
-  "home_possession": 47.4,
-  "away_possession": 52.6,
-  "home_passes": 434,
-  "away_passes": 471,
-  "home_passes_ok": 335,
-  "away_passes_ok": 398,
-  "home_pass_pct": 0.8,
-  "away_pass_pct": 0.8,
-  "home_crosses": 12,
-  "away_crosses": 19,
-  "home_crosses_ok": 0,
-  "away_crosses_ok": 5,
-  "home_long_balls": 66,
-  "away_long_balls": 42,
-  "home_tackles": 32,
-  "away_tackles": 14,
-  "home_tackles_won": 20,
-  "away_tackles_won": 9,
-  "home_interceptions": 9,
-  "away_interceptions": 9,
-  "home_clearances": 24,
-  "away_clearances": 27,
-  "home_blocked_shots": 2,
-  "away_blocked_shots": 5,
-  "home_fouls": 13,
-  "away_fouls": 13,
-  "home_offsides": 2,
-  "away_offsides": 5,
-  "home_saves": 5,
-  "away_saves": 1,
-  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
-  "referee": "Mustapha Ghorbal",
-  "home_xg": 0.11,
-  "away_xg": 0.4
- },
- "Cura\u00e7ao|Ivory Coast": {
-  "home_shots": 11,
-  "away_shots": 7,
-  "home_shots_on": 2,
-  "away_shots_on": 3,
-  "home_corners": 4,
-  "away_corners": 6,
-  "home_cards": 2,
-  "away_cards": 1,
-  "home_possession": 36.7,
-  "away_possession": 63.3,
-  "home_passes": 355,
-  "away_passes": 624,
-  "home_passes_ok": 295,
-  "away_passes_ok": 558,
-  "home_pass_pct": 0.8,
-  "away_pass_pct": 0.9,
-  "home_crosses": 15,
-  "away_crosses": 16,
-  "home_crosses_ok": 5,
-  "away_crosses_ok": 3,
-  "home_long_balls": 30,
-  "away_long_balls": 38,
-  "home_tackles": 17,
-  "away_tackles": 16,
-  "home_tackles_won": 11,
-  "away_tackles_won": 9,
-  "home_interceptions": 15,
-  "away_interceptions": 12,
-  "home_clearances": 17,
-  "away_clearances": 19,
-  "home_blocked_shots": 2,
-  "away_blocked_shots": 1,
-  "home_fouls": 11,
-  "away_fouls": 6,
-  "home_offsides": 2,
-  "away_offsides": 1,
-  "home_saves": 1,
-  "away_saves": 2,
-  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
-  "referee": "Glenn Nyberg",
-  "home_xg": 0.54,
-  "away_xg": 0.47
- },
  "Mexico|South Africa": {
   "home_shots": 16,
   "away_shots": 3,
@@ -1022,6 +174,94 @@
   "referee": "Gustavo Tejera",
   "home_xg": 0.58,
   "away_xg": 0.47
+ },
+ "Czech Republic|Mexico": {
+  "home_shots": 13,
+  "away_shots": 11,
+  "home_shots_on": 1,
+  "away_shots_on": 5,
+  "home_corners": 5,
+  "away_corners": 1,
+  "home_cards": 0,
+  "away_cards": 1,
+  "home_possession": 51.9,
+  "away_possession": 48.1,
+  "home_passes": 398,
+  "away_passes": 386,
+  "home_passes_ok": 333,
+  "away_passes_ok": 330,
+  "home_pass_pct": 0.8,
+  "away_pass_pct": 0.9,
+  "home_crosses": 26,
+  "away_crosses": 12,
+  "home_crosses_ok": 5,
+  "away_crosses_ok": 1,
+  "home_long_balls": 53,
+  "away_long_balls": 55,
+  "home_tackles": 12,
+  "away_tackles": 12,
+  "home_tackles_won": 7,
+  "away_tackles_won": 8,
+  "home_interceptions": 5,
+  "away_interceptions": 7,
+  "home_clearances": 20,
+  "away_clearances": 30,
+  "home_blocked_shots": 4,
+  "away_blocked_shots": 2,
+  "home_fouls": 9,
+  "away_fouls": 13,
+  "home_offsides": 1,
+  "away_offsides": 0,
+  "home_saves": 2,
+  "away_saves": 1,
+  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
+  "referee": "Yael Falc\u00f3n P\u00e9rez",
+  "home_xg": 0.54,
+  "away_xg": 0.77
+ },
+ "South Africa|South Korea": {
+  "home_shots": 13,
+  "away_shots": 8,
+  "home_shots_on": 4,
+  "away_shots_on": 3,
+  "home_corners": 4,
+  "away_corners": 6,
+  "home_cards": 1,
+  "away_cards": 1,
+  "home_possession": 31.6,
+  "away_possession": 68.4,
+  "home_passes": 340,
+  "away_passes": 719,
+  "home_passes_ok": 277,
+  "away_passes_ok": 641,
+  "home_pass_pct": 0.8,
+  "away_pass_pct": 0.9,
+  "home_crosses": 8,
+  "away_crosses": 34,
+  "home_crosses_ok": 1,
+  "away_crosses_ok": 7,
+  "home_long_balls": 57,
+  "away_long_balls": 52,
+  "home_tackles": 11,
+  "away_tackles": 12,
+  "home_tackles_won": 7,
+  "away_tackles_won": 9,
+  "home_interceptions": 15,
+  "away_interceptions": 4,
+  "home_clearances": 40,
+  "away_clearances": 16,
+  "home_blocked_shots": 4,
+  "away_blocked_shots": 1,
+  "home_fouls": 7,
+  "away_fouls": 9,
+  "home_offsides": 3,
+  "away_offsides": 0,
+  "home_saves": 2,
+  "away_saves": 3,
+  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
+  "referee": "Facundo Tello",
+  "home_xg": 0.76,
+  "away_xg": 0.51
  },
  "Canada|Bosnia & Herzegovina": {
   "home_shots": 13,
@@ -1463,6 +703,94 @@
   "home_xg": 0.66,
   "away_xg": 0.47
  },
+ "Scotland|Brazil": {
+  "home_shots": 14,
+  "away_shots": 21,
+  "home_shots_on": 5,
+  "away_shots_on": 9,
+  "home_corners": 7,
+  "away_corners": 7,
+  "home_cards": 1,
+  "away_cards": 2,
+  "home_possession": 46,
+  "away_possession": 54,
+  "home_passes": 500,
+  "away_passes": 605,
+  "home_passes_ok": 450,
+  "away_passes_ok": 564,
+  "home_pass_pct": 0.9,
+  "away_pass_pct": 0.9,
+  "home_crosses": 23,
+  "away_crosses": 12,
+  "home_crosses_ok": 9,
+  "away_crosses_ok": 2,
+  "home_long_balls": 33,
+  "away_long_balls": 27,
+  "home_tackles": 12,
+  "away_tackles": 14,
+  "home_tackles_won": 8,
+  "away_tackles_won": 6,
+  "home_interceptions": 2,
+  "away_interceptions": 13,
+  "home_clearances": 13,
+  "away_clearances": 24,
+  "home_blocked_shots": 3,
+  "away_blocked_shots": 5,
+  "home_fouls": 10,
+  "away_fouls": 11,
+  "home_offsides": 0,
+  "away_offsides": 1,
+  "home_saves": 5,
+  "away_saves": 5,
+  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
+  "referee": "C\u00e9sar Arturo Ramos Palazuelos",
+  "home_xg": 0.87,
+  "away_xg": 1.42
+ },
+ "Morocco|Haiti": {
+  "home_shots": 22,
+  "away_shots": 9,
+  "home_shots_on": 11,
+  "away_shots_on": 2,
+  "home_corners": 9,
+  "away_corners": 1,
+  "home_cards": 0,
+  "away_cards": 3,
+  "home_possession": 69.1,
+  "away_possession": 30.9,
+  "home_passes": 541,
+  "away_passes": 247,
+  "home_passes_ok": 477,
+  "away_passes_ok": 198,
+  "home_pass_pct": 0.9,
+  "away_pass_pct": 0.8,
+  "home_crosses": 22,
+  "away_crosses": 3,
+  "home_crosses_ok": 7,
+  "away_crosses_ok": 2,
+  "home_long_balls": 34,
+  "away_long_balls": 44,
+  "home_tackles": 20,
+  "away_tackles": 25,
+  "home_tackles_won": 8,
+  "away_tackles_won": 12,
+  "home_interceptions": 8,
+  "away_interceptions": 16,
+  "home_clearances": 14,
+  "away_clearances": 26,
+  "home_blocked_shots": 5,
+  "away_blocked_shots": 3,
+  "home_fouls": 10,
+  "away_fouls": 18,
+  "home_offsides": 5,
+  "away_offsides": 0,
+  "home_saves": 1,
+  "away_saves": 8,
+  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
+  "referee": "Danny Makkelie",
+  "home_xg": 1.61,
+  "away_xg": 0.47
+ },
  "USA|Paraguay": {
   "home_shots": 9,
   "away_shots": 16,
@@ -1639,6 +967,94 @@
   "home_xg": 1.52,
   "away_xg": 0.4
  },
+ "Turkey|USA": {
+  "home_shots": 9,
+  "away_shots": 18,
+  "home_shots_on": 3,
+  "away_shots_on": 7,
+  "home_corners": 2,
+  "away_corners": 9,
+  "home_cards": 0,
+  "away_cards": 1,
+  "home_possession": 47.4,
+  "away_possession": 52.6,
+  "home_passes": 434,
+  "away_passes": 471,
+  "home_passes_ok": 335,
+  "away_passes_ok": 398,
+  "home_pass_pct": 0.8,
+  "away_pass_pct": 0.8,
+  "home_crosses": 12,
+  "away_crosses": 19,
+  "home_crosses_ok": 0,
+  "away_crosses_ok": 5,
+  "home_long_balls": 66,
+  "away_long_balls": 42,
+  "home_tackles": 32,
+  "away_tackles": 14,
+  "home_tackles_won": 20,
+  "away_tackles_won": 9,
+  "home_interceptions": 9,
+  "away_interceptions": 9,
+  "home_clearances": 24,
+  "away_clearances": 27,
+  "home_blocked_shots": 2,
+  "away_blocked_shots": 5,
+  "home_fouls": 13,
+  "away_fouls": 13,
+  "home_offsides": 2,
+  "away_offsides": 5,
+  "home_saves": 5,
+  "away_saves": 1,
+  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
+  "referee": "Mustapha Ghorbal",
+  "home_xg": 0.55,
+  "away_xg": 1.17
+ },
+ "Paraguay|Australia": {
+  "home_shots": 7,
+  "away_shots": 12,
+  "home_shots_on": 2,
+  "away_shots_on": 5,
+  "home_corners": 1,
+  "away_corners": 3,
+  "home_cards": 1,
+  "away_cards": 1,
+  "home_possession": 44,
+  "away_possession": 56,
+  "home_passes": 426,
+  "away_passes": 537,
+  "home_passes_ok": 330,
+  "away_passes_ok": 438,
+  "home_pass_pct": 0.8,
+  "away_pass_pct": 0.8,
+  "home_crosses": 7,
+  "away_crosses": 13,
+  "home_crosses_ok": 0,
+  "away_crosses_ok": 4,
+  "home_long_balls": 59,
+  "away_long_balls": 58,
+  "home_tackles": 24,
+  "away_tackles": 20,
+  "home_tackles_won": 17,
+  "away_tackles_won": 12,
+  "home_interceptions": 8,
+  "away_interceptions": 7,
+  "home_clearances": 24,
+  "away_clearances": 10,
+  "home_blocked_shots": 1,
+  "away_blocked_shots": 3,
+  "home_fouls": 9,
+  "away_fouls": 6,
+  "home_offsides": 0,
+  "away_offsides": 0,
+  "home_saves": 5,
+  "away_saves": 2,
+  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
+  "referee": "Cl\u00e9ment Turpin",
+  "home_xg": 0.4,
+  "away_xg": 0.8
+ },
  "Germany|Cura\u00e7ao": {
   "home_shots": 26,
   "away_shots": 8,
@@ -1814,6 +1230,50 @@
   "referee": "Ma Ning",
   "home_xg": 2.08,
   "away_xg": 0.58
+ },
+ "Cura\u00e7ao|Ivory Coast": {
+  "home_shots": 11,
+  "away_shots": 7,
+  "home_shots_on": 2,
+  "away_shots_on": 3,
+  "home_corners": 4,
+  "away_corners": 6,
+  "home_cards": 2,
+  "away_cards": 1,
+  "home_possession": 36.7,
+  "away_possession": 63.3,
+  "home_passes": 355,
+  "away_passes": 624,
+  "home_passes_ok": 295,
+  "away_passes_ok": 558,
+  "home_pass_pct": 0.8,
+  "away_pass_pct": 0.9,
+  "home_crosses": 15,
+  "away_crosses": 16,
+  "home_crosses_ok": 5,
+  "away_crosses_ok": 3,
+  "home_long_balls": 30,
+  "away_long_balls": 38,
+  "home_tackles": 17,
+  "away_tackles": 16,
+  "home_tackles_won": 11,
+  "away_tackles_won": 9,
+  "home_interceptions": 15,
+  "away_interceptions": 12,
+  "home_clearances": 17,
+  "away_clearances": 19,
+  "home_blocked_shots": 2,
+  "away_blocked_shots": 1,
+  "home_fouls": 11,
+  "away_fouls": 6,
+  "home_offsides": 2,
+  "away_offsides": 1,
+  "home_saves": 1,
+  "away_saves": 2,
+  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
+  "referee": "Glenn Nyberg",
+  "home_xg": 0.54,
+  "away_xg": 0.47
  },
  "Ecuador|Germany": {
   "home_shots": 7,
@@ -2035,6 +1495,94 @@
   "home_xg": 0.07,
   "away_xg": 0.77
  },
+ "Japan|Sweden": {
+  "home_shots": 8,
+  "away_shots": 11,
+  "home_shots_on": 3,
+  "away_shots_on": 5,
+  "home_corners": 2,
+  "away_corners": 8,
+  "home_cards": 1,
+  "away_cards": 2,
+  "home_possession": 52.3,
+  "away_possession": 47.7,
+  "home_passes": 445,
+  "away_passes": 395,
+  "home_passes_ok": 378,
+  "away_passes_ok": 312,
+  "home_pass_pct": 0.8,
+  "away_pass_pct": 0.8,
+  "home_crosses": 13,
+  "away_crosses": 16,
+  "home_crosses_ok": 4,
+  "away_crosses_ok": 4,
+  "home_long_balls": 49,
+  "away_long_balls": 50,
+  "home_tackles": 13,
+  "away_tackles": 7,
+  "home_tackles_won": 7,
+  "away_tackles_won": 3,
+  "home_interceptions": 4,
+  "away_interceptions": 5,
+  "home_clearances": 40,
+  "away_clearances": 21,
+  "home_blocked_shots": 2,
+  "away_blocked_shots": 3,
+  "home_fouls": 20,
+  "away_fouls": 11,
+  "home_offsides": 3,
+  "away_offsides": 2,
+  "home_saves": 4,
+  "away_saves": 2,
+  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
+  "referee": "Iv\u00e1n Arcides Barton Cisneros",
+  "home_xg": 0.51,
+  "away_xg": 0.77
+ },
+ "Tunisia|Netherlands": {
+  "home_shots": 10,
+  "away_shots": 20,
+  "home_shots_on": 4,
+  "away_shots_on": 7,
+  "home_corners": 4,
+  "away_corners": 6,
+  "home_cards": 0,
+  "away_cards": 0,
+  "home_possession": 28.6,
+  "away_possession": 71.4,
+  "home_passes": 258,
+  "away_passes": 647,
+  "home_passes_ok": 199,
+  "away_passes_ok": 602,
+  "home_pass_pct": 0.8,
+  "away_pass_pct": 0.9,
+  "home_crosses": 13,
+  "away_crosses": 27,
+  "home_crosses_ok": 4,
+  "away_crosses_ok": 6,
+  "home_long_balls": 47,
+  "away_long_balls": 22,
+  "home_tackles": 17,
+  "away_tackles": 8,
+  "home_tackles_won": 9,
+  "away_tackles_won": 5,
+  "home_interceptions": 8,
+  "away_interceptions": 10,
+  "home_clearances": 35,
+  "away_clearances": 17,
+  "home_blocked_shots": 1,
+  "away_blocked_shots": 5,
+  "home_fouls": 11,
+  "away_fouls": 10,
+  "home_offsides": 2,
+  "away_offsides": 1,
+  "home_saves": 4,
+  "away_saves": 3,
+  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
+  "referee": "Katia Itzel Garc\u00eda",
+  "home_xg": 0.66,
+  "away_xg": 1.24
+ },
  "Belgium|Egypt": {
   "home_shots": 15,
   "away_shots": 14,
@@ -2210,6 +1758,94 @@
   "referee": "Omar Al Ali",
   "home_xg": 0.77,
   "away_xg": 1.2
+ },
+ "Egypt|Iran": {
+  "home_shots": 15,
+  "away_shots": 13,
+  "home_shots_on": 3,
+  "away_shots_on": 4,
+  "home_corners": 8,
+  "away_corners": 2,
+  "home_cards": 3,
+  "away_cards": 4,
+  "home_possession": 61.4,
+  "away_possession": 38.6,
+  "home_passes": 589,
+  "away_passes": 367,
+  "home_passes_ok": 513,
+  "away_passes_ok": 281,
+  "home_pass_pct": 0.9,
+  "away_pass_pct": 0.8,
+  "home_crosses": 15,
+  "away_crosses": 10,
+  "home_crosses_ok": 4,
+  "away_crosses_ok": 1,
+  "home_long_balls": 44,
+  "away_long_balls": 66,
+  "home_tackles": 17,
+  "away_tackles": 22,
+  "home_tackles_won": 10,
+  "away_tackles_won": 17,
+  "home_interceptions": 7,
+  "away_interceptions": 8,
+  "home_clearances": 38,
+  "away_clearances": 32,
+  "home_blocked_shots": 6,
+  "away_blocked_shots": 3,
+  "home_fouls": 11,
+  "away_fouls": 16,
+  "home_offsides": 0,
+  "away_offsides": 3,
+  "home_saves": 2,
+  "away_saves": 2,
+  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
+  "referee": "Szymon Marciniak",
+  "home_xg": 0.76,
+  "away_xg": 0.76
+ },
+ "New Zealand|Belgium": {
+  "home_shots": 6,
+  "away_shots": 35,
+  "home_shots_on": 2,
+  "away_shots_on": 10,
+  "home_corners": 5,
+  "away_corners": 8,
+  "home_cards": 2,
+  "away_cards": 0,
+  "home_possession": 45.5,
+  "away_possession": 54.5,
+  "home_passes": 436,
+  "away_passes": 525,
+  "home_passes_ok": 369,
+  "away_passes_ok": 462,
+  "home_pass_pct": 0.8,
+  "away_pass_pct": 0.9,
+  "home_crosses": 17,
+  "away_crosses": 16,
+  "home_crosses_ok": 2,
+  "away_crosses_ok": 6,
+  "home_long_balls": 38,
+  "away_long_balls": 46,
+  "home_tackles": 10,
+  "away_tackles": 13,
+  "home_tackles_won": 6,
+  "away_tackles_won": 8,
+  "home_interceptions": 6,
+  "away_interceptions": 10,
+  "home_clearances": 35,
+  "away_clearances": 27,
+  "home_blocked_shots": 1,
+  "away_blocked_shots": 12,
+  "home_fouls": 10,
+  "away_fouls": 7,
+  "home_offsides": 1,
+  "away_offsides": 1,
+  "home_saves": 5,
+  "away_saves": 1,
+  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
+  "referee": "Adham Mohammad",
+  "home_xg": 0.36,
+  "away_xg": 2.0
  },
  "Spain|Cape Verde": {
   "home_shots": 27,
@@ -2387,6 +2023,94 @@
   "home_xg": 0.76,
   "away_xg": 0.73
  },
+ "Cape Verde|Saudi Arabia": {
+  "home_shots": 15,
+  "away_shots": 7,
+  "home_shots_on": 2,
+  "away_shots_on": 3,
+  "home_corners": 4,
+  "away_corners": 2,
+  "home_cards": 1,
+  "away_cards": 3,
+  "home_possession": 51,
+  "away_possession": 49,
+  "home_passes": 451,
+  "away_passes": 444,
+  "home_passes_ok": 381,
+  "away_passes_ok": 359,
+  "home_pass_pct": 0.8,
+  "away_pass_pct": 0.8,
+  "home_crosses": 18,
+  "away_crosses": 11,
+  "home_crosses_ok": 2,
+  "away_crosses_ok": 3,
+  "home_long_balls": 55,
+  "away_long_balls": 50,
+  "home_tackles": 15,
+  "away_tackles": 29,
+  "home_tackles_won": 12,
+  "away_tackles_won": 15,
+  "home_interceptions": 13,
+  "away_interceptions": 11,
+  "home_clearances": 29,
+  "away_clearances": 25,
+  "home_blocked_shots": 5,
+  "away_blocked_shots": 3,
+  "home_fouls": 10,
+  "away_fouls": 16,
+  "home_offsides": 2,
+  "away_offsides": 0,
+  "home_saves": 3,
+  "away_saves": 2,
+  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
+  "referee": "Francois Letexier",
+  "home_xg": 0.69,
+  "away_xg": 0.47
+ },
+ "Uruguay|Spain": {
+  "home_shots": 5,
+  "away_shots": 6,
+  "home_shots_on": 1,
+  "away_shots_on": 1,
+  "home_corners": 1,
+  "away_corners": 6,
+  "home_cards": 4,
+  "away_cards": 1,
+  "home_possession": 33.1,
+  "away_possession": 66.9,
+  "home_passes": 301,
+  "away_passes": 622,
+  "home_passes_ok": 228,
+  "away_passes_ok": 553,
+  "home_pass_pct": 0.8,
+  "away_pass_pct": 0.9,
+  "home_crosses": 16,
+  "away_crosses": 12,
+  "home_crosses_ok": 1,
+  "away_crosses_ok": 3,
+  "home_long_balls": 43,
+  "away_long_balls": 34,
+  "home_tackles": 25,
+  "away_tackles": 17,
+  "home_tackles_won": 15,
+  "away_tackles_won": 10,
+  "home_interceptions": 14,
+  "away_interceptions": 9,
+  "home_clearances": 14,
+  "away_clearances": 23,
+  "home_blocked_shots": 1,
+  "away_blocked_shots": 1,
+  "home_fouls": 14,
+  "away_fouls": 14,
+  "home_offsides": 5,
+  "away_offsides": 2,
+  "home_saves": 0,
+  "away_saves": 2,
+  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
+  "referee": "Ismail Elfath",
+  "home_xg": 0.25,
+  "away_xg": 0.29
+ },
  "France|Senegal": {
   "home_shots": 11,
   "away_shots": 6,
@@ -2562,6 +2286,94 @@
   "referee": "Wilton Pereira Sampaio",
   "home_xg": 0.99,
   "away_xg": 0.87
+ },
+ "Norway|France": {
+  "home_shots": 10,
+  "away_shots": 18,
+  "home_shots_on": 4,
+  "away_shots_on": 9,
+  "home_corners": 4,
+  "away_corners": 5,
+  "home_cards": 1,
+  "away_cards": 1,
+  "home_possession": 43.3,
+  "away_possession": 56.7,
+  "home_passes": 421,
+  "away_passes": 555,
+  "home_passes_ok": 343,
+  "away_passes_ok": 480,
+  "home_pass_pct": 0.8,
+  "away_pass_pct": 0.9,
+  "home_crosses": 9,
+  "away_crosses": 10,
+  "home_crosses_ok": 3,
+  "away_crosses_ok": 3,
+  "home_long_balls": 40,
+  "away_long_balls": 53,
+  "home_tackles": 17,
+  "away_tackles": 17,
+  "home_tackles_won": 11,
+  "away_tackles_won": 12,
+  "home_interceptions": 13,
+  "away_interceptions": 11,
+  "home_clearances": 16,
+  "away_clearances": 19,
+  "home_blocked_shots": 3,
+  "away_blocked_shots": 3,
+  "home_fouls": 9,
+  "away_fouls": 11,
+  "home_offsides": 1,
+  "away_offsides": 2,
+  "home_saves": 5,
+  "away_saves": 3,
+  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
+  "referee": "Michael Oliver",
+  "home_xg": 0.66,
+  "away_xg": 1.31
+ },
+ "Senegal|Iraq": {
+  "home_shots": 28,
+  "away_shots": 6,
+  "home_shots_on": 12,
+  "away_shots_on": 1,
+  "home_corners": 12,
+  "away_corners": 3,
+  "home_cards": 2,
+  "away_cards": 3,
+  "home_possession": 69.2,
+  "away_possession": 30.8,
+  "home_passes": 590,
+  "away_passes": 266,
+  "home_passes_ok": 517,
+  "away_passes_ok": 184,
+  "home_pass_pct": 0.9,
+  "away_pass_pct": 0.7,
+  "home_crosses": 25,
+  "away_crosses": 6,
+  "home_crosses_ok": 7,
+  "away_crosses_ok": 0,
+  "home_long_balls": 43,
+  "away_long_balls": 68,
+  "home_tackles": 12,
+  "away_tackles": 20,
+  "home_tackles_won": 9,
+  "away_tackles_won": 13,
+  "home_interceptions": 2,
+  "away_interceptions": 7,
+  "home_clearances": 10,
+  "away_clearances": 34,
+  "home_blocked_shots": 5,
+  "away_blocked_shots": 4,
+  "home_fouls": 10,
+  "away_fouls": 11,
+  "home_offsides": 1,
+  "away_offsides": 0,
+  "home_saves": 1,
+  "away_saves": 7,
+  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
+  "referee": "Anthony Taylor",
+  "home_xg": 1.9,
+  "away_xg": 0.29
  },
  "Argentina|Algeria": {
   "home_shots": 10,
@@ -2739,6 +2551,94 @@
   "home_xg": 0.58,
   "away_xg": 1.2
  },
+ "Algeria|Austria": {
+  "home_shots": 12,
+  "away_shots": 10,
+  "home_shots_on": 5,
+  "away_shots_on": 3,
+  "home_corners": 0,
+  "away_corners": 3,
+  "home_cards": 0,
+  "away_cards": 1,
+  "home_possession": 65,
+  "away_possession": 35,
+  "home_passes": 754,
+  "away_passes": 396,
+  "home_passes_ok": 706,
+  "away_passes_ok": 346,
+  "home_pass_pct": 0.9,
+  "away_pass_pct": 0.9,
+  "home_crosses": 5,
+  "away_crosses": 13,
+  "home_crosses_ok": 0,
+  "away_crosses_ok": 3,
+  "home_long_balls": 44,
+  "away_long_balls": 32,
+  "home_tackles": 11,
+  "away_tackles": 11,
+  "home_tackles_won": 5,
+  "away_tackles_won": 4,
+  "home_interceptions": 4,
+  "away_interceptions": 10,
+  "home_clearances": 18,
+  "away_clearances": 19,
+  "home_blocked_shots": 2,
+  "away_blocked_shots": 1,
+  "home_fouls": 3,
+  "away_fouls": 7,
+  "home_offsides": 1,
+  "away_offsides": 3,
+  "home_saves": 1,
+  "away_saves": 2,
+  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
+  "referee": "Ilgiz Tantashev",
+  "home_xg": 0.8,
+  "away_xg": 0.58
+ },
+ "Jordan|Argentina": {
+  "home_shots": 5,
+  "away_shots": 12,
+  "home_shots_on": 1,
+  "away_shots_on": 4,
+  "home_corners": 2,
+  "away_corners": 6,
+  "home_cards": 3,
+  "away_cards": 0,
+  "home_possession": 26.7,
+  "away_possession": 73.3,
+  "home_passes": 285,
+  "away_passes": 801,
+  "home_passes_ok": 228,
+  "away_passes_ok": 737,
+  "home_pass_pct": 0.8,
+  "away_pass_pct": 0.9,
+  "home_crosses": 7,
+  "away_crosses": 5,
+  "home_crosses_ok": 2,
+  "away_crosses_ok": 3,
+  "home_long_balls": 36,
+  "away_long_balls": 25,
+  "home_tackles": 16,
+  "away_tackles": 14,
+  "home_tackles_won": 8,
+  "away_tackles_won": 5,
+  "home_interceptions": 19,
+  "away_interceptions": 12,
+  "home_clearances": 13,
+  "away_clearances": 9,
+  "home_blocked_shots": 2,
+  "away_blocked_shots": 1,
+  "home_fouls": 13,
+  "away_fouls": 7,
+  "home_offsides": 1,
+  "away_offsides": 3,
+  "home_saves": 1,
+  "away_saves": 0,
+  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
+  "referee": "Istvan Kovacs",
+  "home_xg": 0.25,
+  "away_xg": 0.73
+ },
  "Portugal|DR Congo": {
   "home_shots": 7,
   "away_shots": 8,
@@ -2914,6 +2814,94 @@
   "referee": "Maurizio Mariani",
   "home_xg": 1.39,
   "away_xg": 0.33
+ },
+ "Colombia|Portugal": {
+  "home_shots": 24,
+  "away_shots": 13,
+  "home_shots_on": 6,
+  "away_shots_on": 2,
+  "home_corners": 5,
+  "away_corners": 2,
+  "home_cards": 1,
+  "away_cards": 0,
+  "home_possession": 54.6,
+  "away_possession": 45.4,
+  "home_passes": 544,
+  "away_passes": 446,
+  "home_passes_ok": 485,
+  "away_passes_ok": 405,
+  "home_pass_pct": 0.9,
+  "away_pass_pct": 0.9,
+  "home_crosses": 11,
+  "away_crosses": 13,
+  "home_crosses_ok": 3,
+  "away_crosses_ok": 2,
+  "home_long_balls": 46,
+  "away_long_balls": 29,
+  "home_tackles": 15,
+  "away_tackles": 9,
+  "home_tackles_won": 8,
+  "away_tackles_won": 5,
+  "home_interceptions": 6,
+  "away_interceptions": 13,
+  "home_clearances": 16,
+  "away_clearances": 22,
+  "home_blocked_shots": 7,
+  "away_blocked_shots": 4,
+  "home_fouls": 12,
+  "away_fouls": 6,
+  "home_offsides": 3,
+  "away_offsides": 2,
+  "home_saves": 2,
+  "away_saves": 6,
+  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
+  "referee": "Alireza Faghani",
+  "home_xg": 1.31,
+  "away_xg": 0.62
+ },
+ "DR Congo|Uzbekistan": {
+  "home_shots": 3,
+  "away_shots": 19,
+  "home_shots_on": 1,
+  "away_shots_on": 4,
+  "home_corners": 4,
+  "away_corners": 2,
+  "home_cards": 2,
+  "away_cards": 3,
+  "home_possession": 42.4,
+  "away_possession": 57.6,
+  "home_passes": 355,
+  "away_passes": 485,
+  "home_passes_ok": 269,
+  "away_passes_ok": 400,
+  "home_pass_pct": 0.8,
+  "away_pass_pct": 0.8,
+  "home_crosses": 16,
+  "away_crosses": 22,
+  "home_crosses_ok": 2,
+  "away_crosses_ok": 6,
+  "home_long_balls": 59,
+  "away_long_balls": 60,
+  "home_tackles": 29,
+  "away_tackles": 20,
+  "home_tackles_won": 18,
+  "away_tackles_won": 13,
+  "home_interceptions": 12,
+  "away_interceptions": 7,
+  "home_clearances": 38,
+  "away_clearances": 25,
+  "home_blocked_shots": 0,
+  "away_blocked_shots": 1,
+  "home_fouls": 16,
+  "away_fouls": 6,
+  "home_offsides": 1,
+  "away_offsides": 3,
+  "home_saves": 1,
+  "away_saves": 1,
+  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
+  "referee": "Felix Zwayer",
+  "home_xg": 0.18,
+  "away_xg": 0.98
  },
  "England|Croatia": {
   "home_shots": 22,
@@ -3091,290 +3079,6 @@
   "home_xg": 0.36,
   "away_xg": 0.36
  },
- "Brazil|France": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Colombia|Croatia": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Chile|Cape Verde": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "China|Cura\u00e7ao": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "New Zealand|Finland": {
-  "source_espn": "not_found",
-  "home_shots": null
- },
- "Norway|France": {
-  "home_shots": 10,
-  "away_shots": 18,
-  "home_shots_on": 4,
-  "away_shots_on": 9,
-  "home_corners": 4,
-  "away_corners": 5,
-  "home_cards": 1,
-  "away_cards": 1,
-  "home_possession": 43.3,
-  "away_possession": 56.7,
-  "home_passes": 421,
-  "away_passes": 555,
-  "home_passes_ok": 343,
-  "away_passes_ok": 480,
-  "home_pass_pct": 0.8,
-  "away_pass_pct": 0.9,
-  "home_crosses": 9,
-  "away_crosses": 10,
-  "home_crosses_ok": 3,
-  "away_crosses_ok": 3,
-  "home_long_balls": 40,
-  "away_long_balls": 53,
-  "home_tackles": 17,
-  "away_tackles": 17,
-  "home_tackles_won": 11,
-  "away_tackles_won": 12,
-  "home_interceptions": 13,
-  "away_interceptions": 11,
-  "home_clearances": 16,
-  "away_clearances": 19,
-  "home_blocked_shots": 3,
-  "away_blocked_shots": 3,
-  "home_fouls": 9,
-  "away_fouls": 11,
-  "home_offsides": 1,
-  "away_offsides": 2,
-  "home_saves": 5,
-  "away_saves": 3,
-  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
-  "referee": "Michael Oliver",
-  "home_xg": 0.66,
-  "away_xg": 1.31
- },
- "Senegal|Iraq": {
-  "home_shots": 28,
-  "away_shots": 6,
-  "home_shots_on": 12,
-  "away_shots_on": 1,
-  "home_corners": 12,
-  "away_corners": 3,
-  "home_cards": 2,
-  "away_cards": 3,
-  "home_possession": 69.2,
-  "away_possession": 30.8,
-  "home_passes": 590,
-  "away_passes": 266,
-  "home_passes_ok": 517,
-  "away_passes_ok": 184,
-  "home_pass_pct": 0.9,
-  "away_pass_pct": 0.7,
-  "home_crosses": 25,
-  "away_crosses": 6,
-  "home_crosses_ok": 7,
-  "away_crosses_ok": 0,
-  "home_long_balls": 43,
-  "away_long_balls": 68,
-  "home_tackles": 12,
-  "away_tackles": 20,
-  "home_tackles_won": 9,
-  "away_tackles_won": 13,
-  "home_interceptions": 2,
-  "away_interceptions": 7,
-  "home_clearances": 10,
-  "away_clearances": 34,
-  "home_blocked_shots": 5,
-  "away_blocked_shots": 4,
-  "home_fouls": 10,
-  "away_fouls": 11,
-  "home_offsides": 1,
-  "away_offsides": 0,
-  "home_saves": 1,
-  "away_saves": 7,
-  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
-  "referee": "Anthony Taylor",
-  "home_xg": 1.9,
-  "away_xg": 0.29
- },
- "Cape Verde|Saudi Arabia": {
-  "home_shots": 15,
-  "away_shots": 7,
-  "home_shots_on": 2,
-  "away_shots_on": 3,
-  "home_corners": 4,
-  "away_corners": 2,
-  "home_cards": 1,
-  "away_cards": 3,
-  "home_possession": 51,
-  "away_possession": 49,
-  "home_passes": 451,
-  "away_passes": 444,
-  "home_passes_ok": 381,
-  "away_passes_ok": 359,
-  "home_pass_pct": 0.8,
-  "away_pass_pct": 0.8,
-  "home_crosses": 18,
-  "away_crosses": 11,
-  "home_crosses_ok": 2,
-  "away_crosses_ok": 3,
-  "home_long_balls": 55,
-  "away_long_balls": 50,
-  "home_tackles": 15,
-  "away_tackles": 29,
-  "home_tackles_won": 12,
-  "away_tackles_won": 15,
-  "home_interceptions": 13,
-  "away_interceptions": 11,
-  "home_clearances": 29,
-  "away_clearances": 25,
-  "home_blocked_shots": 5,
-  "away_blocked_shots": 3,
-  "home_fouls": 10,
-  "away_fouls": 16,
-  "home_offsides": 2,
-  "away_offsides": 0,
-  "home_saves": 3,
-  "away_saves": 2,
-  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
-  "referee": "Francois Letexier",
-  "home_xg": 0.69,
-  "away_xg": 0.47
- },
- "Uruguay|Spain": {
-  "home_shots": 5,
-  "away_shots": 6,
-  "home_shots_on": 1,
-  "away_shots_on": 1,
-  "home_corners": 1,
-  "away_corners": 6,
-  "home_cards": 4,
-  "away_cards": 1,
-  "home_possession": 33.1,
-  "away_possession": 66.9,
-  "home_passes": 301,
-  "away_passes": 622,
-  "home_passes_ok": 228,
-  "away_passes_ok": 553,
-  "home_pass_pct": 0.8,
-  "away_pass_pct": 0.9,
-  "home_crosses": 16,
-  "away_crosses": 12,
-  "home_crosses_ok": 1,
-  "away_crosses_ok": 3,
-  "home_long_balls": 43,
-  "away_long_balls": 34,
-  "home_tackles": 25,
-  "away_tackles": 17,
-  "home_tackles_won": 15,
-  "away_tackles_won": 10,
-  "home_interceptions": 14,
-  "away_interceptions": 9,
-  "home_clearances": 14,
-  "away_clearances": 23,
-  "home_blocked_shots": 1,
-  "away_blocked_shots": 1,
-  "home_fouls": 14,
-  "away_fouls": 14,
-  "home_offsides": 5,
-  "away_offsides": 2,
-  "home_saves": 0,
-  "away_saves": 2,
-  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
-  "referee": "Ismail Elfath",
-  "home_xg": 0.25,
-  "away_xg": 0.29
- },
- "Egypt|Iran": {
-  "home_shots": 15,
-  "away_shots": 13,
-  "home_shots_on": 3,
-  "away_shots_on": 4,
-  "home_corners": 8,
-  "away_corners": 2,
-  "home_cards": 3,
-  "away_cards": 4,
-  "home_possession": 61.4,
-  "away_possession": 38.6,
-  "home_passes": 589,
-  "away_passes": 367,
-  "home_passes_ok": 513,
-  "away_passes_ok": 281,
-  "home_pass_pct": 0.9,
-  "away_pass_pct": 0.8,
-  "home_crosses": 15,
-  "away_crosses": 10,
-  "home_crosses_ok": 4,
-  "away_crosses_ok": 1,
-  "home_long_balls": 44,
-  "away_long_balls": 66,
-  "home_tackles": 17,
-  "away_tackles": 22,
-  "home_tackles_won": 10,
-  "away_tackles_won": 17,
-  "home_interceptions": 7,
-  "away_interceptions": 8,
-  "home_clearances": 38,
-  "away_clearances": 32,
-  "home_blocked_shots": 6,
-  "away_blocked_shots": 3,
-  "home_fouls": 11,
-  "away_fouls": 16,
-  "home_offsides": 0,
-  "away_offsides": 3,
-  "home_saves": 2,
-  "away_saves": 2,
-  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
-  "referee": "Szymon Marciniak",
-  "home_xg": 0.0,
-  "away_xg": 0.0
- },
- "New Zealand|Belgium": {
-  "home_shots": 6,
-  "away_shots": 35,
-  "home_shots_on": 2,
-  "away_shots_on": 10,
-  "home_corners": 5,
-  "away_corners": 8,
-  "home_cards": 2,
-  "away_cards": 0,
-  "home_possession": 45.5,
-  "away_possession": 54.5,
-  "home_passes": 436,
-  "away_passes": 525,
-  "home_passes_ok": 369,
-  "away_passes_ok": 462,
-  "home_pass_pct": 0.8,
-  "away_pass_pct": 0.9,
-  "home_crosses": 17,
-  "away_crosses": 16,
-  "home_crosses_ok": 2,
-  "away_crosses_ok": 6,
-  "home_long_balls": 38,
-  "away_long_balls": 46,
-  "home_tackles": 10,
-  "away_tackles": 13,
-  "home_tackles_won": 6,
-  "away_tackles_won": 8,
-  "home_interceptions": 6,
-  "away_interceptions": 10,
-  "home_clearances": 35,
-  "away_clearances": 27,
-  "home_blocked_shots": 1,
-  "away_blocked_shots": 12,
-  "home_fouls": 10,
-  "away_fouls": 7,
-  "home_offsides": 1,
-  "away_offsides": 1,
-  "home_saves": 5,
-  "away_saves": 1,
-  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
-  "referee": "Adham Mohammad",
-  "home_xg": 0.0,
-  "away_xg": 0.0
- },
  "Panama|England": {
   "home_shots": 13,
   "away_shots": 17,
@@ -3416,8 +3120,8 @@
   "away_saves": 2,
   "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
   "referee": "Abdulrahman Al-Jassim",
-  "home_xg": 0.0,
-  "away_xg": 0.0
+  "home_xg": 0.62,
+  "away_xg": 1.06
  },
  "Croatia|Ghana": {
   "home_shots": 8,
@@ -3460,184 +3164,8 @@
   "away_saves": 2,
   "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
   "referee": "Drew Fischer",
-  "home_xg": 0.0,
-  "away_xg": 0.0
- },
- "Colombia|Portugal": {
-  "home_shots": 24,
-  "away_shots": 13,
-  "home_shots_on": 6,
-  "away_shots_on": 2,
-  "home_corners": 5,
-  "away_corners": 2,
-  "home_cards": 1,
-  "away_cards": 0,
-  "home_possession": 54.6,
-  "away_possession": 45.4,
-  "home_passes": 544,
-  "away_passes": 446,
-  "home_passes_ok": 485,
-  "away_passes_ok": 405,
-  "home_pass_pct": 0.9,
-  "away_pass_pct": 0.9,
-  "home_crosses": 11,
-  "away_crosses": 13,
-  "home_crosses_ok": 3,
-  "away_crosses_ok": 2,
-  "home_long_balls": 46,
-  "away_long_balls": 29,
-  "home_tackles": 15,
-  "away_tackles": 9,
-  "home_tackles_won": 8,
-  "away_tackles_won": 5,
-  "home_interceptions": 6,
-  "away_interceptions": 13,
-  "home_clearances": 16,
-  "away_clearances": 22,
-  "home_blocked_shots": 7,
-  "away_blocked_shots": 4,
-  "home_fouls": 12,
-  "away_fouls": 6,
-  "home_offsides": 3,
-  "away_offsides": 2,
-  "home_saves": 2,
-  "away_saves": 6,
-  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
-  "referee": "Alireza Faghani",
-  "home_xg": 0.0,
-  "away_xg": 0.0
- },
- "DR Congo|Uzbekistan": {
-  "home_shots": 3,
-  "away_shots": 19,
-  "home_shots_on": 1,
-  "away_shots_on": 4,
-  "home_corners": 4,
-  "away_corners": 2,
-  "home_cards": 2,
-  "away_cards": 3,
-  "home_possession": 42.4,
-  "away_possession": 57.6,
-  "home_passes": 355,
-  "away_passes": 485,
-  "home_passes_ok": 269,
-  "away_passes_ok": 400,
-  "home_pass_pct": 0.8,
-  "away_pass_pct": 0.8,
-  "home_crosses": 16,
-  "away_crosses": 22,
-  "home_crosses_ok": 2,
-  "away_crosses_ok": 6,
-  "home_long_balls": 59,
-  "away_long_balls": 60,
-  "home_tackles": 29,
-  "away_tackles": 20,
-  "home_tackles_won": 18,
-  "away_tackles_won": 13,
-  "home_interceptions": 12,
-  "away_interceptions": 7,
-  "home_clearances": 38,
-  "away_clearances": 25,
-  "home_blocked_shots": 0,
-  "away_blocked_shots": 1,
-  "home_fouls": 16,
-  "away_fouls": 6,
-  "home_offsides": 1,
-  "away_offsides": 3,
-  "home_saves": 1,
-  "away_saves": 1,
-  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
-  "referee": "Felix Zwayer",
-  "home_xg": 0.0,
-  "away_xg": 0.0
- },
- "Algeria|Austria": {
-  "home_shots": 12,
-  "away_shots": 10,
-  "home_shots_on": 5,
-  "away_shots_on": 3,
-  "home_corners": 0,
-  "away_corners": 3,
-  "home_cards": 0,
-  "away_cards": 1,
-  "home_possession": 65,
-  "away_possession": 35,
-  "home_passes": 754,
-  "away_passes": 396,
-  "home_passes_ok": 706,
-  "away_passes_ok": 346,
-  "home_pass_pct": 0.9,
-  "away_pass_pct": 0.9,
-  "home_crosses": 5,
-  "away_crosses": 13,
-  "home_crosses_ok": 0,
-  "away_crosses_ok": 3,
-  "home_long_balls": 44,
-  "away_long_balls": 32,
-  "home_tackles": 11,
-  "away_tackles": 11,
-  "home_tackles_won": 5,
-  "away_tackles_won": 4,
-  "home_interceptions": 4,
-  "away_interceptions": 10,
-  "home_clearances": 18,
-  "away_clearances": 19,
-  "home_blocked_shots": 2,
-  "away_blocked_shots": 1,
-  "home_fouls": 3,
-  "away_fouls": 7,
-  "home_offsides": 1,
-  "away_offsides": 3,
-  "home_saves": 1,
-  "away_saves": 2,
-  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
-  "referee": "Ilgiz Tantashev",
-  "home_xg": 0.0,
-  "away_xg": 0.0
- },
- "Jordan|Argentina": {
-  "home_shots": 5,
-  "away_shots": 12,
-  "home_shots_on": 1,
-  "away_shots_on": 4,
-  "home_corners": 2,
-  "away_corners": 6,
-  "home_cards": 3,
-  "away_cards": 0,
-  "home_possession": 26.7,
-  "away_possession": 73.3,
-  "home_passes": 285,
-  "away_passes": 801,
-  "home_passes_ok": 228,
-  "away_passes_ok": 737,
-  "home_pass_pct": 0.8,
-  "away_pass_pct": 0.9,
-  "home_crosses": 7,
-  "away_crosses": 5,
-  "home_crosses_ok": 2,
-  "away_crosses_ok": 3,
-  "home_long_balls": 36,
-  "away_long_balls": 25,
-  "home_tackles": 16,
-  "away_tackles": 14,
-  "home_tackles_won": 8,
-  "away_tackles_won": 5,
-  "home_interceptions": 19,
-  "away_interceptions": 12,
-  "home_clearances": 13,
-  "away_clearances": 9,
-  "home_blocked_shots": 2,
-  "away_blocked_shots": 1,
-  "home_fouls": 13,
-  "away_fouls": 7,
-  "home_offsides": 1,
-  "away_offsides": 3,
-  "home_saves": 1,
-  "away_saves": 0,
-  "source_espn": "ESPN (Opta) \u2014 stats joueur + \u00e9quipe compl\u00e8tes",
-  "referee": "Istvan Kovacs",
-  "home_xg": 0.0,
-  "away_xg": 0.0
+  "home_xg": 0.58,
+  "away_xg": 0.29
  },
  "South Africa|Canada": {
   "home_shots": 6,
@@ -3682,5 +3210,477 @@
   "referee": "Jo\u00e3o Pinheiro",
   "home_xg": 0.29,
   "away_xg": 0.95
+ },
+ "Brazil|France": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Colombia|Croatia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Chile|Cape Verde": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "China|Cura\u00e7ao": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "New Zealand|Finland": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Australia|Cameroon": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Iran|Nigeria": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Uzbekistan|Gabon": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Austria|Ghana": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "South Africa|Panama": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Jordan|Costa Rica": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Saudi Arabia|Egypt": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Greece|Paraguay": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Algeria|Guatemala": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "England|Uruguay": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Netherlands|Norway": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Switzerland|Germany": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Spain|Serbia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Morocco|Ecuador": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Argentina|Mauritania": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "South Korea|Ivory Coast": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Senegal|Peru": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Canada|Iceland": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Scotland|Japan": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "USA|Belgium": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Haiti|Tunisia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Mexico|Portugal": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Colombia|France": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Cape Verde|Finland": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "New Zealand|Chile": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Uzbekistan|Venezuela": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Germany|Ghana": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Australia|Cura\u00e7ao": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Iran|Costa Rica": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Norway|Switzerland": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Serbia|Saudi Arabia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Jordan|Nigeria": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Haiti|Iceland": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Morocco|Paraguay": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Algeria|Uruguay": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Ivory Coast|Scotland": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Austria|South Korea": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "England|Japan": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Netherlands|Ecuador": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Senegal|Gambia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Spain|Egypt": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "USA|Portugal": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Argentina|Zambia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Brazil|Croatia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Canada|Tunisia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Mexico|Belgium": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Mexico|Ghana": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Morocco|Burundi": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Egypt|Russia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Republic of Ireland|Qatar": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Iran|Gambia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Iraq|Andorra": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "South Africa|Nicaragua": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Bosnia & Herzegovina|North Macedonia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Scotland|Cura\u00e7ao": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Ecuador|Saudi Arabia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "South Korea|Trinidad and Tobago": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Mexico|Australia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Japan|Iceland": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Switzerland|Jordan": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Czech Republic|Kosovo": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Cape Verde|Serbia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Germany|Finland": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "USA|Senegal": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Brazil|Panama": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Norway|Sweden": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Turkey|North Macedonia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Austria|Tunisia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Colombia|Costa Rica": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Canada|Uzbekistan": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Croatia|Belgium": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Morocco|Madagascar": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Wales|Ghana": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Haiti|New Zealand": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Netherlands|Algeria": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Panama|Dominican Republic": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "South Korea|El Salvador": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Iran|Mali": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Sweden|Greece": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Spain|Iraq": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "France|Ivory Coast": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Czech Republic|Guatemala": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Mexico|Serbia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Paraguay|Nicaragua": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Puerto Rico|Saudi Arabia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Canada|Republic of Ireland": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Haiti|Peru": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Belgium|Tunisia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Portugal|Chile": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "USA|Germany": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Panama|Bosnia & Herzegovina": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Switzerland|Australia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Bolivia|Scotland": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "England|New Zealand": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Qatar|El Salvador": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Jamaica|South Africa": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Brazil|Egypt": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Venezuela|Turkey": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Argentina|Honduras": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Cura\u00e7ao|Aruba": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Croatia|Slovenia": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Morocco|Norway": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Ecuador|Guatemala": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Colombia|Jordan": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Netherlands|Uzbekistan": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "France|Northern Ireland": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Peru|Spain": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Saudi Arabia|Senegal": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Argentina|Iceland": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Iraq|Venezuela": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Portugal|Nigeria": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "England|Costa Rica": {
+  "source_espn": "not_found",
+  "home_shots": null
+ },
+ "Bolivia|Algeria": {
+  "source_espn": "not_found",
+  "home_shots": null
  }
 }

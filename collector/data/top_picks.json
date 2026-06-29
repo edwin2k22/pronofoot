@@ -2,52 +2,62 @@
   "reliability": {
     "byTier": {
       "lock": {
-        "won": 111,
-        "total": 127,
-        "pct": 87
+        "won": 218,
+        "total": 267,
+        "pct": 82
       },
       "strong": {
-        "won": 30,
-        "total": 39,
-        "pct": 77
+        "won": 53,
+        "total": 81,
+        "pct": 65
       },
       "value": {
-        "won": 31,
-        "total": 39,
-        "pct": 79
+        "won": 23,
+        "total": 33,
+        "pct": 70
       }
     },
     "byMarket": {
       "DC": {
-        "won": 63,
+        "won": 59,
         "total": 73,
-        "pct": 86
+        "pct": 81
       },
       "DNB": {
-        "won": 47,
+        "won": 46,
         "total": 53,
-        "pct": 89
+        "pct": 87
       },
       "1N2": {
-        "won": 51,
+        "won": 47,
         "total": 73,
-        "pct": 70
+        "pct": 64
       },
       "OU": {
-        "won": 43,
+        "won": 42,
         "total": 73,
-        "pct": 59
+        "pct": 58
       },
       "BTTS": {
-        "won": 34,
+        "won": 40,
         "total": 73,
-        "pct": 47
+        "pct": 55
+      },
+      "CORNERS": {
+        "won": 52,
+        "total": 73,
+        "pct": 71
+      },
+      "CARTONS": {
+        "won": 59,
+        "total": 73,
+        "pct": 81
       }
     },
     "overall": {
-      "won": 172,
-      "total": 205,
-      "pct": 84
+      "won": 294,
+      "total": 381,
+      "pct": 77
     },
     "sampleMatches": 73
   },
@@ -64,10 +74,10 @@
       "id": null,
       "market": "DC",
       "label": "Double chance : Brazil ou nul",
-      "prob": 0.838,
+      "prob": 0.8183,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 82
     },
     {
       "home": "Brazil",
@@ -76,10 +86,10 @@
       "id": null,
       "market": "CORNERS",
       "label": "Moins de 8.5 corners",
-      "prob": 0.8319,
+      "prob": 0.8035,
       "why": "",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 82
     },
     {
       "home": "Germany",
@@ -88,10 +98,10 @@
       "id": null,
       "market": "DC",
       "label": "Double chance : Germany ou nul",
-      "prob": 0.9723,
+      "prob": 0.9763,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 82
     },
     {
       "home": "Germany",
@@ -100,22 +110,22 @@
       "id": null,
       "market": "DNB",
       "label": "Sans match nul : Germany",
-      "prob": 0.9693,
+      "prob": 0.9742,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 82
     },
     {
       "home": "Netherlands",
       "away": "Morocco",
       "date": "2026-06-29 19:00 UTC-6",
       "id": null,
-      "market": "TIRS",
-      "label": "Plus de 18.5 tirs",
-      "prob": 0.8197,
+      "market": "CORNERS",
+      "label": "Plus de 4.5 corners",
+      "prob": 0.8001,
       "why": "",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 82
     },
     {
       "home": "Netherlands",
@@ -127,7 +137,19 @@
       "prob": 0.7571,
       "why": "",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 82
+    },
+    {
+      "home": "Ivory Coast",
+      "away": "Norway",
+      "date": "2026-06-30 12:00 UTC-5",
+      "id": null,
+      "market": "CORNERS",
+      "label": "Plus de 4.5 corners",
+      "prob": 0.8202,
+      "why": "",
+      "tier": "lock",
+      "tierReliability": 82
     },
     {
       "home": "Ivory Coast",
@@ -139,19 +161,7 @@
       "prob": 0.8134,
       "why": "",
       "tier": "lock",
-      "tierReliability": 87
-    },
-    {
-      "home": "Ivory Coast",
-      "away": "Norway",
-      "date": "2026-06-30 12:00 UTC-5",
-      "id": null,
-      "market": "DNB",
-      "label": "Sans match nul : Ivory Coast",
-      "prob": 0.6871,
-      "why": "remboursé si nul",
-      "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 82
     },
     {
       "home": "France",
@@ -160,10 +170,10 @@
       "id": null,
       "market": "DNB",
       "label": "Sans match nul : France",
-      "prob": 0.9924,
+      "prob": 0.9921,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 82
     },
     {
       "home": "France",
@@ -172,10 +182,10 @@
       "id": null,
       "market": "DC",
       "label": "Double chance : France ou Sweden",
-      "prob": 0.9644,
+      "prob": 0.9654,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 82
     },
     {
       "home": "Mexico",
@@ -184,10 +194,10 @@
       "id": null,
       "market": "DC",
       "label": "Double chance : Mexico ou nul",
-      "prob": 0.8756,
+      "prob": 0.8895,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 82
     },
     {
       "home": "Mexico",
@@ -196,10 +206,10 @@
       "id": null,
       "market": "DNB",
       "label": "Sans match nul : Mexico",
-      "prob": 0.8317,
+      "prob": 0.8561,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 82
     },
     {
       "home": "England",
@@ -208,10 +218,10 @@
       "id": null,
       "market": "DC",
       "label": "Double chance : England ou nul",
-      "prob": 0.9867,
+      "prob": 0.9794,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 82
     },
     {
       "home": "England",
@@ -220,10 +230,10 @@
       "id": null,
       "market": "DNB",
       "label": "Sans match nul : England",
-      "prob": 0.9857,
+      "prob": 0.9774,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 82
     },
     {
       "home": "Belgium",
@@ -232,10 +242,10 @@
       "id": null,
       "market": "DC",
       "label": "Double chance : Belgium ou nul",
-      "prob": 0.8865,
+      "prob": 0.9061,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 82
     },
     {
       "home": "Belgium",
@@ -244,10 +254,10 @@
       "id": null,
       "market": "DNB",
       "label": "Sans match nul : Belgium",
-      "prob": 0.8541,
+      "prob": 0.885,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 82
     },
     {
       "home": "USA",
@@ -256,10 +266,10 @@
       "id": null,
       "market": "DC",
       "label": "Double chance : USA ou nul",
-      "prob": 0.9258,
+      "prob": 0.9071,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 82
     },
     {
       "home": "USA",
@@ -268,10 +278,10 @@
       "id": null,
       "market": "DNB",
       "label": "Sans match nul : USA",
-      "prob": 0.9078,
+      "prob": 0.8849,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 82
     },
     {
       "home": "Spain",
@@ -280,10 +290,10 @@
       "id": null,
       "market": "DC",
       "label": "Double chance : Spain ou nul",
-      "prob": 0.9609,
+      "prob": 0.9569,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 82
     },
     {
       "home": "Spain",
@@ -292,11 +302,11 @@
       "id": null,
       "market": "DNB",
       "label": "Sans match nul : Spain",
-      "prob": 0.9548,
+      "prob": 0.9505,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 87
+      "tierReliability": 82
     }
   ],
-  "lockCount": 63
+  "lockCount": 62
 }
