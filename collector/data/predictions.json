@@ -103050,12 +103050,644 @@
     "id": 76,
     "league": "CDM 2026 · Round of 32",
     "date": "2026-06-29 12:00 UTC-5",
-    "status": "LIVE",
-    "liveScore": "1-1",
+    "status": "FINISHED",
+    "liveScore": null,
     "liveClock": null,
-    "realScore": null,
-    "htScore": null,
-    "analysis": null,
+    "realScore": "2-1",
+    "htScore": "0-1",
+    "analysis": {
+      "realScore": "2-1",
+      "outcome": "1",
+      "winner": "Brazil",
+      "predictedOutcome": "1",
+      "predictionCorrect": true,
+      "exactScore": false,
+      "over25Real": true,
+      "bttsReal": true,
+      "totalGoals": 3,
+      "homeXgReal": 1.2,
+      "awayXgReal": 0.33,
+      "homeShots": 19,
+      "awayShots": 5,
+      "homeShotsOn": 7,
+      "awayShotsOn": 2,
+      "teamStats": {
+        "home_possession": 68.6,
+        "home_passes": 682,
+        "home_passes_ok": 625,
+        "home_pass_pct": 0.9,
+        "home_crosses": 40,
+        "home_crosses_ok": 9,
+        "home_long_balls": 45,
+        "home_tackles": 12,
+        "home_tackles_won": 8,
+        "home_interceptions": 9,
+        "home_clearances": 18,
+        "home_blocked_shots": 6,
+        "home_fouls": 4,
+        "home_offsides": 1,
+        "home_saves": 1,
+        "away_possession": 31.4,
+        "away_passes": 315,
+        "away_passes_ok": 261,
+        "away_pass_pct": 0.8,
+        "away_crosses": 10,
+        "away_crosses_ok": 2,
+        "away_long_balls": 45,
+        "away_tackles": 10,
+        "away_tackles_won": 4,
+        "away_interceptions": 4,
+        "away_clearances": 45,
+        "away_blocked_shots": 2,
+        "away_fouls": 13,
+        "away_offsides": 0,
+        "away_saves": 4
+      },
+      "homeCorners": 6,
+      "awayCorners": 2,
+      "homeCards": 2,
+      "awayCards": 3,
+      "events": {
+        "goals": [
+          {
+            "minute": 29,
+            "team": "Japan",
+            "player": "Kaishu Sano",
+            "assist": null,
+            "note": null
+          },
+          {
+            "minute": 90,
+            "team": "Brazil",
+            "player": "Gabriel Martinelli",
+            "assist": "Bruno Guimarães",
+            "note": null
+          }
+        ],
+        "cards": [
+          {
+            "minute": 12,
+            "team": "Japan",
+            "player": "Kaishu Sano",
+            "type": "Yellow"
+          },
+          {
+            "minute": 14,
+            "team": "Brazil",
+            "player": "Casemiro",
+            "type": "Yellow"
+          },
+          {
+            "minute": 45,
+            "team": "Japan",
+            "player": "Daichi Kamada",
+            "type": "Yellow"
+          },
+          {
+            "minute": 48,
+            "team": "Brazil",
+            "player": "Danilo",
+            "type": "Yellow"
+          },
+          {
+            "minute": 84,
+            "team": "Japan",
+            "player": "Junnosuke Suzuki",
+            "type": "Yellow"
+          }
+        ],
+        "commentary": [
+          {
+            "minute": 0,
+            "text": "Lineups are announced and players are warming up.",
+            "type": ""
+          },
+          {
+            "minute": 0,
+            "text": "First Half begins.",
+            "type": ""
+          },
+          {
+            "minute": 1,
+            "text": "Foul by Takehiro Tomiyasu (Japan).",
+            "type": "Foul"
+          },
+          {
+            "minute": 1,
+            "text": "Lucas Paquetá (Brazil) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 2,
+            "text": "Attempt blocked. Bruno Guimarães (Brazil) left footed shot from the right side of the box is blocked. Assisted by Rayan.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 2,
+            "text": "Corner, Brazil. Conceded by Shogo Taniguchi.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 7,
+            "text": "Foul by Kaishu Sano (Japan).",
+            "type": "Foul"
+          },
+          {
+            "minute": 7,
+            "text": "Vinícius Júnior (Brazil) wins a free kick in the attacking half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 10,
+            "text": "Attempt blocked. Bruno Guimarães (Brazil) left footed shot from the centre of the box is blocked. Assisted by Douglas Santos.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 12,
+            "text": "Foul by Kaishu Sano (Japan).",
+            "type": "Foul"
+          },
+          {
+            "minute": 12,
+            "text": "Vinícius Júnior (Brazil) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 12,
+            "text": "Kaishu Sano (Japan) is shown the yellow card for a bad foul.",
+            "type": "Yellow Card"
+          },
+          {
+            "minute": 14,
+            "text": "Attempt missed. Matheus Cunha (Brazil) left footed shot from outside the box is close, but misses to the left. Assisted by Bruno Guimarães following a fast break.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 14,
+            "text": "Corner, Brazil. Conceded by Zion Suzuki.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 14,
+            "text": "Attempt missed. Bruno Guimarães (Brazil) right footed shot from the left side of the box misses to the right. Assisted by Lucas Paquetá following a corner.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 14,
+            "text": "Junya Ito (Japan) wins a free kick in the attacking half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 14,
+            "text": "Foul by Casemiro (Brazil).",
+            "type": "Foul"
+          },
+          {
+            "minute": 14,
+            "text": "Casemiro (Brazil) is shown the yellow card for a bad foul.",
+            "type": "Yellow Card"
+          },
+          {
+            "minute": 16,
+            "text": "Attempt blocked. Daichi Kamada (Japan) right footed shot from outside the box is blocked.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 16,
+            "text": "Corner, Japan. Conceded by Casemiro.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 18,
+            "text": "Handball by Ayase Ueda (Japan).",
+            "type": "Handball"
+          },
+          {
+            "minute": 23,
+            "text": "Delay in match for a drinks break.",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 26,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 27,
+            "text": "Corner, Japan. Conceded by Gabriel Magalhães.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 27,
+            "text": "Attempt missed. Ayase Ueda (Japan) header from the centre of the box is high and wide to the left. Assisted by Junya Ito with a cross following a corner.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 29,
+            "text": "Goal! Brazil 0, Japan 1. Kaishu Sano (Japan) right footed shot from outside the box to the bottom left corner following a fast break.",
+            "type": "Goal"
+          },
+          {
+            "minute": 32,
+            "text": "Foul by Ritsu Doan (Japan).",
+            "type": "Foul"
+          },
+          {
+            "minute": 32,
+            "text": "Douglas Santos (Brazil) wins a free kick on the left wing.",
+            "type": "Take On"
+          },
+          {
+            "minute": 33,
+            "text": "Offside, Brazil. Marquinhos is caught offside.",
+            "type": "Offside"
+          },
+          {
+            "minute": 34,
+            "text": "Attempt saved. Vinícius Júnior (Brazil) right footed shot from outside the box is saved in the centre of the goal by Zion Suzuki (Japan). Assisted by Bruno Guimarães.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 35,
+            "text": "Attempt blocked. Lucas Paquetá (Brazil) left footed shot from outside the box is blocked. Assisted by Vinícius Júnior.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 38,
+            "text": "Attempt saved. Matheus Cunha (Brazil) right footed shot from outside the box is saved in the centre of the goal by Zion Suzuki (Japan). Assisted by Lucas Paquetá.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 45,
+            "text": "Attempt blocked. Junya Ito (Japan) left footed shot from outside the box is blocked. Assisted by Daichi Kamada.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 45,
+            "text": "Foul by Daichi Kamada (Japan).",
+            "type": "Foul"
+          },
+          {
+            "minute": 45,
+            "text": "Bruno Guimarães (Brazil) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 45,
+            "text": "Daichi Kamada (Japan) is shown the yellow card for a bad foul.",
+            "type": "Yellow Card"
+          },
+          {
+            "minute": 45,
+            "text": "Fourth official has announced 4 minutes of added time.",
+            "type": ""
+          },
+          {
+            "minute": 45,
+            "text": "Attempt blocked. Lucas Paquetá (Brazil) header from the centre of the box is blocked. Assisted by Marquinhos.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 45,
+            "text": "First Half ends, Brazil 0, Japan 1.",
+            "type": "Halftime"
+          },
+          {
+            "minute": 45,
+            "text": "Second Half begins Brazil 0, Japan 1.",
+            "type": "Start 2nd Half"
+          },
+          {
+            "minute": 45,
+            "text": "Substitution, Brazil. Endrick replaces Lucas Paquetá because of an injury.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 47,
+            "text": "Handball by Ritsu Doan (Japan).",
+            "type": "Handball"
+          },
+          {
+            "minute": 48,
+            "text": "Daizen Maeda (Japan) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 48,
+            "text": "Foul by Danilo (Brazil).",
+            "type": "Foul"
+          },
+          {
+            "minute": 48,
+            "text": "Danilo (Brazil) is shown the yellow card for a bad foul.",
+            "type": "Yellow Card"
+          },
+          {
+            "minute": 49,
+            "text": "Takehiro Tomiyasu (Japan) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 49,
+            "text": "Foul by Matheus Cunha (Brazil).",
+            "type": "Foul"
+          },
+          {
+            "minute": 52,
+            "text": "Attempt saved. Bruno Guimarães (Brazil) header from the centre of the box is saved in the top centre of the goal by Zion Suzuki (Japan). Assisted by Danilo with a cross.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 53,
+            "text": "Attempt missed. Endrick (Brazil) left footed shot from the centre of the box misses to the right. Assisted by Vinícius Júnior with a cross.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 54,
+            "text": "Attempt blocked. Casemiro (Brazil) header from very close range is blocked. Assisted by Douglas Santos with a headed pass.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 56,
+            "text": "Goal! Brazil 1, Japan 1. Casemiro (Brazil) header from the right side of the six yard box to the high centre of the goal. Assisted by Gabriel Magalhães with a cross.",
+            "type": "Goal - Header"
+          },
+          {
+            "minute": 58,
+            "text": "Attempt saved. Vinícius Júnior (Brazil) right footed shot from the left side of the box is saved in the bottom right corner by Zion Suzuki (Japan). Assisted by Rayan.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 58,
+            "text": "Attempt missed. Matheus Cunha (Brazil) right footed shot from outside the box is too high following a fast break.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 60,
+            "text": "Handball by Ayase Ueda (Japan).",
+            "type": "Handball"
+          },
+          {
+            "minute": 64,
+            "text": "Attempt saved. Ayase Ueda (Japan) right footed shot from the left side of the box is saved in the bottom left corner by Alisson Becker (Brazil). Assisted by Daizen Maeda.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 66,
+            "text": "Substitution, Brazil. Gabriel Martinelli replaces Matheus Cunha.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 66,
+            "text": "Substitution, Japan. Junnosuke Suzuki replaces Keito Nakamura.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 66,
+            "text": "Substitution, Japan. Yukinari Sugawara replaces Ritsu Doan.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 68,
+            "text": "Delay in match for a drinks break.",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 71,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 72,
+            "text": "Junya Ito (Japan) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 72,
+            "text": "Foul by Gabriel Martinelli (Brazil).",
+            "type": "Foul"
+          },
+          {
+            "minute": 74,
+            "text": "Attempt blocked. Rayan (Brazil) header from the right side of the six yard box is blocked. Assisted by Gabriel Magalhães with a cross.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 74,
+            "text": "Corner, Brazil. Conceded by Junnosuke Suzuki.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 77,
+            "text": "Attempt missed. Gabriel Martinelli (Brazil) right footed shot from outside the box misses to the right.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 78,
+            "text": "Substitution, Japan. Shuto Machino replaces Junya Ito.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 78,
+            "text": "Substitution, Japan. Ao Tanaka replaces Daichi Kamada.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 84,
+            "text": "Foul by Junnosuke Suzuki (Japan).",
+            "type": "Foul"
+          },
+          {
+            "minute": 84,
+            "text": "Danilo (Brazil) wins a free kick on the right wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 84,
+            "text": "Junnosuke Suzuki (Japan) is shown the yellow card for a bad foul.",
+            "type": "Yellow Card"
+          },
+          {
+            "minute": 85,
+            "text": "Corner, Brazil. Conceded by Junnosuke Suzuki.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 88,
+            "text": "Foul by Junnosuke Suzuki (Japan).",
+            "type": "Foul"
+          },
+          {
+            "minute": 88,
+            "text": "Rayan (Brazil) wins a free kick on the right wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 89,
+            "text": "Attempt blocked. Vinícius Júnior (Brazil) right footed shot from outside the box is blocked. Assisted by Gabriel Martinelli.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 89,
+            "text": "Corner, Brazil. Conceded by Kaishu Sano.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 90,
+            "text": "Foul by Ao Tanaka (Japan).",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Vinícius Júnior (Brazil) wins a free kick on the left wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Fourth official has announced 6 minutes of added time.",
+            "type": ""
+          },
+          {
+            "minute": 90,
+            "text": "Delay in match because of an injury Casemiro (Brazil).",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 90,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 90,
+            "text": "Substitution, Brazil. Fabinho replaces Casemiro because of an injury.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 90,
+            "text": "Corner, Brazil. Conceded by Shogo Taniguchi.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 90,
+            "text": "Attempt missed. Fabinho (Brazil) header from the centre of the box is high and wide to the right. Assisted by Bruno Guimarães with a cross following a corner.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 90,
+            "text": "Goal! Brazil 2, Japan 1. Gabriel Martinelli (Brazil) right footed shot from the centre of the box to the bottom right corner. Assisted by Bruno Guimarães.",
+            "type": "Goal"
+          },
+          {
+            "minute": 90,
+            "text": "Substitution, Japan. Koki Ogawa replaces Daizen Maeda.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 90,
+            "text": "Substitution, Brazil. Danilo Santos replaces Bruno Guimarães.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 90,
+            "text": "Foul by Shogo Taniguchi (Japan).",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Endrick (Brazil) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Foul by Shuto Machino (Japan).",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Marquinhos (Brazil) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Second Half ends, Brazil 2, Japan 1.",
+            "type": ""
+          },
+          {
+            "minute": 0,
+            "text": "Match ends, Brazil 2, Japan 1.",
+            "type": ""
+          }
+        ],
+        "halftime": "0-1",
+        "motm": "—",
+        "note": "",
+        "lineups": {
+          "home_formation": "4-3-3",
+          "home_xi": [
+            "Alisson Becker",
+            "Gabriel Magalhães",
+            "Marquinhos",
+            "Douglas Santos",
+            "Danilo",
+            "Casemiro",
+            "Lucas Paquetá",
+            "Bruno Guimarães",
+            "Matheus Cunha",
+            "Vinícius Júnior",
+            "Rayan"
+          ],
+          "home_bench": [
+            "Neymar",
+            "Gabriel Martinelli",
+            "Léo Pereira",
+            "Igor Thiago",
+            "Danilo Santos",
+            "Éderson",
+            "Fabinho",
+            "Endrick",
+            "Roger Ibañez",
+            "Bremer",
+            "Luiz Henrique",
+            "Alex Sandro",
+            "Ederson",
+            "Weverton"
+          ],
+          "away_formation": "3-4-2-1",
+          "away_xi": [
+            "Zion Suzuki",
+            "Shogo Taniguchi",
+            "Hiroki Ito",
+            "Takehiro Tomiyasu",
+            "Daichi Kamada",
+            "Kaishu Sano",
+            "Keito Nakamura",
+            "Ritsu Doan",
+            "Ayase Ueda",
+            "Daizen Maeda",
+            "Junya Ito"
+          ],
+          "away_bench": [
+            "Keisuke Osako",
+            "Kou Itakura",
+            "Koki Ogawa",
+            "Yuto Nagatomo",
+            "Yuito Suzuki",
+            "Tsuyoshi Watanabe",
+            "Kento Shiogai",
+            "Tomoki Hayakawa",
+            "Shuto Machino",
+            "Ayumu Seko",
+            "Yukinari Sugawara",
+            "Junnosuke Suzuki",
+            "Keisuke Goto",
+            "Takefusa Kubo",
+            "Ao Tanaka"
+          ],
+          "source": "ESPN (compos réelles)"
+        }
+      },
+      "summary": "Le modèle donnait <b>Brazil</b> favori (44%). ✅ Issue correctement anticipée. Score le plus probable prévu : 1-0 → réel 2-1. Total buts 3 (Over 2.5), BTTS oui."
+    },
     "nlpMomentum": null,
     "hotTrends": [],
     "home": "Brazil",
@@ -103331,77 +103963,13 @@
         "src": "FootyStats (réel)"
       },
       "shots": {
-        "expShots": 27.5,
-        "expShotsOn": 9.3,
-        "home": 15.1,
-        "away": 12.4,
-        "homeOn": 5.1,
-        "awayOn": 4.2,
-        "homeAcc": 34,
-        "awayAcc": 34,
-        "line": 27.5,
-        "lineOn": 9.5,
-        "lines": {
-          "23.5": {
-            "over": 0.7717,
-            "under": 0.2283
-          },
-          "25.5": {
-            "over": 0.6363,
-            "under": 0.3637
-          },
-          "27.5": {
-            "over": 0.4851,
-            "under": 0.5149
-          },
-          "29.5": {
-            "over": 0.3395,
-            "under": 0.6605
-          },
-          "31.5": {
-            "over": 0.2171,
-            "under": 0.7829
-          }
-        },
-        "linesOn": {
-          "7.5": {
-            "over": 0.7144,
-            "under": 0.2856
-          },
-          "8.5": {
-            "over": 0.5883,
-            "under": 0.4117
-          },
-          "9.5": {
-            "over": 0.4574,
-            "under": 0.5426
-          },
-          "10.5": {
-            "over": 0.3351,
-            "under": 0.6649
-          },
-          "11.5": {
-            "over": 0.2312,
-            "under": 0.7688
-          }
-        },
-        "real": false,
-        "basis": {
-          "dominance": [
-            1.22,
-            0.82
-          ],
-          "possession": [
-            50,
-            50
-          ],
-          "accuracy": [
-            34,
-            34
-          ]
-        },
-        "shotsAvgHome": 12.0,
-        "shotsAvgAway": 12.0
+        "home": 19,
+        "away": 5,
+        "homeOn": 7,
+        "awayOn": 2,
+        "homeAcc": 37,
+        "awayAcc": 40,
+        "real": true
       },
       "referee": null,
       "riskPlayers": {
@@ -103891,13 +104459,13 @@
     "confidence": 0.85,
     "prediction": {
       "p1": 0.8823,
-      "pX": 0.0643,
-      "p2": 0.0534,
+      "pX": 0.0644,
+      "p2": 0.0533,
       "ensemble": {
         "weights": {
-          "elo": 0.3607339508393836,
-          "grid": 0.37154545863445304,
-          "form": 0.26772059052616337
+          "elo": 0.36122826070010233,
+          "grid": 0.37230614499012255,
+          "form": 0.2664655943097752
         },
         "T": 0.751,
         "elo": [
@@ -103917,12 +104485,12 @@
         ]
       },
       "over25": 0.6954,
-      "btts": 0.4775,
+      "btts": 0.4774,
       "marketCalib": {
-        "bttsShift": 0.0628,
+        "bttsShift": 0.0627,
         "overShift": -0.0552,
         "bttsRaw": 0.4147,
-        "n": 192
+        "n": 193
       },
       "lamHome": 3.36,
       "lamAway": 0.5,
@@ -104048,32 +104616,32 @@
         "away": null
       },
       "corners": {
-        "exp_corners": 7.1,
-        "over": 0.422,
-        "under": 0.578,
+        "exp_corners": 7.2,
+        "over": 0.4281,
+        "under": 0.5719,
         "line": 7.5,
         "home": 4.5,
         "away": 2.7,
         "lines": {
           "5.5": {
-            "over": 0.7167,
-            "under": 0.2833
+            "over": 0.7217,
+            "under": 0.2783
           },
           "6.5": {
-            "over": 0.5708,
-            "under": 0.4292
+            "over": 0.5767,
+            "under": 0.4233
           },
           "7.5": {
-            "over": 0.422,
-            "under": 0.578
+            "over": 0.4281,
+            "under": 0.5719
           },
           "8.5": {
-            "over": 0.2892,
-            "under": 0.7108
+            "over": 0.2946,
+            "under": 0.7054
           },
           "9.5": {
-            "over": 0.1839,
-            "under": 0.8161
+            "over": 0.1882,
+            "under": 0.8118
           }
         },
         "src": "FootyStats ×0.53 (calibré 75 matchs)"
@@ -104548,7 +105116,7 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 19.5,
+          "stars": 21.0,
           "shield": 0.85,
           "names": [
             "Antonio Rüdiger",
@@ -104559,7 +105127,7 @@
           ]
         },
         "away": {
-          "stars": 18.5,
+          "stars": 20.0,
           "shield": 0.85,
           "names": [
             "Gustavo Velázquez",
@@ -104600,7 +105168,7 @@
       "dixonColes": {
         "rho": -0.1176,
         "gamma": 0.052,
-        "calibratedOn": 192
+        "calibratedOn": 193
       },
       "knockout": {
         "qualifyHome": 0.96,
@@ -104694,9 +105262,9 @@
       "p2": 0.3137,
       "ensemble": {
         "weights": {
-          "elo": 0.3607339508393836,
-          "grid": 0.37154545863445304,
-          "form": 0.26772059052616337
+          "elo": 0.36122826070010233,
+          "grid": 0.37230614499012255,
+          "form": 0.2664655943097752
         },
         "T": 0.751,
         "elo": [
@@ -104716,12 +105284,12 @@
         ]
       },
       "over25": 0.4885,
-      "btts": 0.6637,
+      "btts": 0.6636,
       "marketCalib": {
-        "bttsShift": 0.0628,
+        "bttsShift": 0.0627,
         "overShift": -0.0552,
         "bttsRaw": 0.6009,
-        "n": 192
+        "n": 193
       },
       "lamHome": 1.29,
       "lamAway": 1.41,
@@ -104848,31 +105416,31 @@
       },
       "corners": {
         "exp_corners": 6.7,
-        "over": 0.5023,
-        "under": 0.4977,
+        "over": 0.5081,
+        "under": 0.4919,
         "line": 6.5,
         "home": 3.2,
         "away": 3.5,
         "lines": {
           "4.5": {
-            "over": 0.7962,
-            "under": 0.2038
+            "over": 0.8001,
+            "under": 0.1999
           },
           "5.5": {
-            "over": 0.6572,
-            "under": 0.3428
+            "over": 0.6624,
+            "under": 0.3376
           },
           "6.5": {
-            "over": 0.5023,
-            "under": 0.4977
+            "over": 0.5081,
+            "under": 0.4919
           },
           "7.5": {
-            "over": 0.3543,
-            "under": 0.6457
+            "over": 0.36,
+            "under": 0.64
           },
           "8.5": {
-            "over": 0.2308,
-            "under": 0.7692
+            "over": 0.2355,
+            "under": 0.7645
           }
         },
         "src": "FootyStats ×0.53 (calibré 75 matchs)"
@@ -105369,7 +105937,7 @@
           ]
         },
         "away": {
-          "stars": 8.5,
+          "stars": 7.5,
           "boost": 1.18,
           "names": [
             "Soufiane Rahimi",
@@ -105382,7 +105950,7 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 22.0,
+          "stars": 23.5,
           "shield": 0.85,
           "names": [
             "Lutsharel Geertruida",
@@ -105393,7 +105961,7 @@
           ]
         },
         "away": {
-          "stars": 21.0,
+          "stars": 18.0,
           "shield": 0.85,
           "names": [
             "Noussair Mazraoui",
@@ -105434,7 +106002,7 @@
       "dixonColes": {
         "rho": -0.1176,
         "gamma": 0.092,
-        "calibratedOn": 192
+        "calibratedOn": 193
       },
       "knockout": {
         "qualifyHome": 0.4647,
@@ -105523,14 +106091,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.5146,
-      "pX": 0.2903,
+      "p1": 0.5145,
+      "pX": 0.2904,
       "p2": 0.1951,
       "ensemble": {
         "weights": {
-          "elo": 0.3607339508393836,
-          "grid": 0.37154545863445304,
-          "form": 0.26772059052616337
+          "elo": 0.36122826070010233,
+          "grid": 0.37230614499012255,
+          "form": 0.2664655943097752
         },
         "T": 0.751,
         "elo": [
@@ -105550,12 +106118,12 @@
         ]
       },
       "over25": 0.4839,
-      "btts": 0.6307,
+      "btts": 0.6306,
       "marketCalib": {
-        "bttsShift": 0.0628,
+        "bttsShift": 0.0627,
         "overShift": -0.0552,
         "bttsRaw": 0.5679,
-        "n": 192
+        "n": 193
       },
       "lamHome": 1.69,
       "lamAway": 0.99,
@@ -105682,31 +106250,31 @@
       },
       "corners": {
         "exp_corners": 6.9,
-        "over": 0.5334,
-        "under": 0.4666,
+        "over": 0.5393,
+        "under": 0.4607,
         "line": 6.5,
         "home": 4.2,
         "away": 2.7,
         "lines": {
           "4.5": {
-            "over": 0.8165,
-            "under": 0.1835
+            "over": 0.8202,
+            "under": 0.1798
           },
           "5.5": {
-            "over": 0.6847,
-            "under": 0.3153
+            "over": 0.6898,
+            "under": 0.3102
           },
           "6.5": {
-            "over": 0.5334,
-            "under": 0.4666
+            "over": 0.5393,
+            "under": 0.4607
           },
           "7.5": {
-            "over": 0.3845,
-            "under": 0.6155
+            "over": 0.3904,
+            "under": 0.6096
           },
           "8.5": {
-            "over": 0.2563,
-            "under": 0.7437
+            "over": 0.2614,
+            "under": 0.7386
           }
         },
         "src": "FootyStats ×0.53 (calibré 75 matchs)"
@@ -105851,7 +106419,13 @@
           ]
         },
         "away": {
-          "real": [],
+          "real": [
+            {
+              "name": "Patrick Berg",
+              "pos": "CM",
+              "card": "🟨 jaune"
+            }
+          ],
           "profiles": [
             {
               "role": "Défenseur central",
@@ -105966,36 +106540,50 @@
             {
               "name": "Jørgen Strand Larsen",
               "poste": "FW",
-              "p": 0.2467,
-              "real_goals": null,
+              "p": 0.141,
+              "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
-              "name": "Patrick Berg",
-              "poste": "MF",
-              "p": 0.1012,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
-            },
-            {
-              "name": "Fredrik Aursnes",
-              "poste": "MF",
-              "p": 0.1012,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
-            },
-            {
-              "name": "Kristian Thorstvedt",
-              "poste": "MF",
-              "p": 0.1012,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
+              "name": "Erling Haaland",
+              "poste": "FW",
+              "p": 0.1288,
+              "real_goals": 4.0,
+              "why": "déjà 4 but(s) dans le tournoi · volume de tirs élevé (10)",
+              "bio": {
+                "club": "Manchester City",
+                "role": "Avant-centre",
+                "bio": "Machine à buts de Man City, fer de lance de la Norvège.",
+                "forces": [
+                  "Finition et puissance physique",
+                  "Appels en profondeur dévastateurs"
+                ],
+                "faiblesses": [
+                  "Peu impliqué dans la construction",
+                  "Dépendant du service"
+                ],
+                "source": "profils 2025-26"
+              }
             },
             {
               "name": "Thelo Aasgaard",
               "poste": "MF",
-              "p": 0.1012,
-              "real_goals": null,
+              "p": 0.0772,
+              "real_goals": 1.0,
+              "why": "déjà 1 but(s) dans le tournoi"
+            },
+            {
+              "name": "Alexander Sørloth",
+              "poste": "FW",
+              "p": 0.0661,
+              "real_goals": 0.0,
+              "why": "présence offensive selon le poste"
+            },
+            {
+              "name": "Antonio Nusa",
+              "poste": "FW",
+              "p": 0.0661,
+              "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             }
           ],
@@ -106003,46 +106591,68 @@
             {
               "name": "Patrick Berg",
               "poste": "MF",
-              "p": 0.0887,
-              "real_assists": null,
-              "why": "création selon le poste"
+              "p": 0.0808,
+              "real_assists": 1.0,
+              "why": "déjà 1 passe(s) déc."
+            },
+            {
+              "name": "Andreas Schjelderup",
+              "poste": "MF",
+              "p": 0.0808,
+              "real_assists": 1.0,
+              "why": "déjà 1 passe(s) déc."
             },
             {
               "name": "Fredrik Aursnes",
               "poste": "MF",
-              "p": 0.0887,
-              "real_assists": null,
+              "p": 0.0513,
+              "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Kristian Thorstvedt",
               "poste": "MF",
-              "p": 0.0887,
-              "real_assists": null,
-              "why": "création selon le poste"
-            },
-            {
-              "name": "Thelo Aasgaard",
-              "poste": "MF",
-              "p": 0.0887,
-              "real_assists": null,
+              "p": 0.0513,
+              "real_assists": 0.0,
               "why": "création selon le poste"
             }
           ],
           "creator": {
             "name": "Patrick Berg",
             "poste": "MF",
-            "p": 0.0887,
-            "real_assists": null,
-            "why": "création selon le poste"
+            "p": 0.0808,
+            "real_assists": 1.0,
+            "why": "déjà 1 passe(s) déc."
           },
           "keeper": {
-            "name": "Egil Selvik",
+            "name": "Ørjan Nyland",
             "expSotFaced": 5.3,
             "fromLineup": false,
             "why": "Subit une pression offensive adverse de ~1.69 xG → environ 5.3 tirs cadrés à gérer."
           },
-          "benchImpact": [],
+          "benchImpact": [
+            {
+              "name": "Erling Haaland",
+              "poste": "FW",
+              "goals": 4.0,
+              "assists": 0,
+              "why": "Entré en jeu et décisif : 4 but(s)."
+            },
+            {
+              "name": "Marcus Holmgren Pedersen",
+              "poste": "DF",
+              "goals": 1.0,
+              "assists": 0,
+              "why": "Entré en jeu et décisif : 1 but(s)."
+            },
+            {
+              "name": "Martin Ødegaard",
+              "poste": "MF",
+              "goals": 0,
+              "assists": 2.0,
+              "why": "Entré en jeu et décisif : 2 passe(s) déc.."
+            }
+          ],
           "note": "Probabilités MODÈLE (poste réel + production réelle des matchs joués), pas des certitudes. Se précisent à mesure que les équipes jouent."
         }
       },
@@ -106112,7 +106722,7 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 20.0,
+          "stars": 18.0,
           "shield": 0.85,
           "names": [
             "Ousmane Diomande",
@@ -106123,7 +106733,7 @@
           ]
         },
         "away": {
-          "stars": 16.5,
+          "stars": 15.0,
           "shield": 0.85,
           "names": [
             "Kristoffer Ajer",
@@ -106164,7 +106774,7 @@
       "dixonColes": {
         "rho": -0.1176,
         "gamma": 0.092,
-        "calibratedOn": 192
+        "calibratedOn": 193
       },
       "knockout": {
         "qualifyHome": 0.6842,
@@ -106257,13 +106867,13 @@
     "confidence": 0.85,
     "prediction": {
       "p1": 0.9456,
-      "pX": 0.0251,
+      "pX": 0.0252,
       "p2": 0.0292,
       "ensemble": {
         "weights": {
-          "elo": 0.3607339508393836,
-          "grid": 0.37154545863445304,
-          "form": 0.26772059052616337
+          "elo": 0.36122826070010233,
+          "grid": 0.37230614499012255,
+          "form": 0.2664655943097752
         },
         "T": 0.751,
         "elo": [
@@ -106283,12 +106893,12 @@
         ]
       },
       "over25": 0.8165,
-      "btts": 0.4476,
+      "btts": 0.4475,
       "marketCalib": {
-        "bttsShift": 0.0628,
+        "bttsShift": 0.0627,
         "overShift": -0.0552,
         "bttsRaw": 0.3848,
-        "n": 192
+        "n": 193
       },
       "lamHome": 4.51,
       "lamAway": 0.44,
@@ -106415,31 +107025,31 @@
       },
       "corners": {
         "exp_corners": 7.0,
-        "over": 0.5475,
-        "under": 0.4525,
-        "line": 6.5,
-        "home": 4.0,
-        "away": 2.9,
+        "over": 0.4044,
+        "under": 0.5956,
+        "line": 7.5,
+        "home": 4.1,
+        "away": 3.0,
         "lines": {
-          "4.5": {
-            "over": 0.8253,
-            "under": 0.1747
-          },
           "5.5": {
-            "over": 0.6969,
-            "under": 0.3031
+            "over": 0.702,
+            "under": 0.298
           },
           "6.5": {
-            "over": 0.5475,
-            "under": 0.4525
+            "over": 0.5534,
+            "under": 0.4466
           },
           "7.5": {
-            "over": 0.3985,
-            "under": 0.6015
+            "over": 0.4044,
+            "under": 0.5956
           },
           "8.5": {
-            "over": 0.2685,
-            "under": 0.7315
+            "over": 0.2736,
+            "under": 0.7264
+          },
+          "9.5": {
+            "over": 0.1716,
+            "under": 0.8284
           }
         },
         "src": "FootyStats ×0.53 (calibré 75 matchs)"
@@ -106546,7 +107156,13 @@
       "referee": null,
       "riskPlayers": {
         "home": {
-          "real": [],
+          "real": [
+            {
+              "name": "Aurélien Tchouaméni",
+              "pos": "RM",
+              "card": "🟨 jaune"
+            }
+          ],
           "profiles": [
             {
               "role": "Défenseur central",
@@ -106612,9 +107228,9 @@
             {
               "name": "Ousmane Dembélé",
               "poste": "FW",
-              "p": 0.5866,
-              "real_goals": null,
-              "why": "présence offensive selon le poste",
+              "p": 0.5746,
+              "real_goals": 4.0,
+              "why": "déjà 4 but(s) dans le tournoi · volume de tirs élevé (8)",
               "bio": {
                 "club": "Paris Saint-Germain",
                 "role": "Ailier",
@@ -106633,9 +107249,66 @@
             {
               "name": "Kylian Mbappé",
               "poste": "FW",
-              "p": 0.5866,
-              "real_goals": null,
-              "why": "présence offensive selon le poste",
+              "p": 0.5746,
+              "real_goals": 4.0,
+              "why": "déjà 4 but(s) dans le tournoi · volume de tirs élevé (16)",
+              "bio": {
+                "club": "Real Madrid",
+                "role": "Attaquant (capitaine)",
+                "bio": "Capitaine des Bleus, double médaillé en CDM ; meilleur buteur LdC & Liga 2025-26.",
+                "forces": [
+                  "Explosivité et vitesse pure",
+                  "Finition clinique, crée et conclut"
+                ],
+                "faiblesses": [
+                  "Apport défensif limité",
+                  "Peut s'isoler quand l'équipe souffre"
+                ],
+                "source": "FOX Sports (Golden Ball power rankings 2026)"
+              }
+            },
+            {
+              "name": "Désiré Doué",
+              "poste": "FW",
+              "p": 0.5319,
+              "real_goals": 1.0,
+              "why": "déjà 1 but(s) dans le tournoi · volume de tirs élevé (6)"
+            },
+            {
+              "name": "Michael Olise",
+              "poste": "FW",
+              "p": 0.4884,
+              "real_goals": 0.0,
+              "why": "volume de tirs élevé (8)",
+              "bio": {
+                "club": "Bayern Munich",
+                "role": "Ailier",
+                "bio": "Révélation du Bayern (20 buts, 25 passes déc. en 2025-26), triplé en amical.",
+                "forces": [
+                  "Contrôle, pace et finition",
+                  "Création de occasions en série"
+                ],
+                "faiblesses": [
+                  "Jeune en sélection (gestion d'un tournoi)"
+                ],
+                "source": "FOX Sports (2026)"
+              }
+            },
+            {
+              "name": "Bradley Barcola",
+              "poste": "FW",
+              "p": 0.2349,
+              "real_goals": 1.0,
+              "why": "déjà 1 but(s) dans le tournoi"
+            }
+          ],
+          "assisters": [
+            {
+              "name": "Kylian Mbappé",
+              "poste": "FW",
+              "p": 0.3477,
+              "real_assists": 2.0,
+              "why": "déjà 2 passe(s) déc.",
               "bio": {
                 "club": "Real Madrid",
                 "role": "Attaquant (capitaine)",
@@ -106654,9 +107327,9 @@
             {
               "name": "Michael Olise",
               "poste": "FW",
-              "p": 0.5866,
-              "real_goals": null,
-              "why": "présence offensive selon le poste",
+              "p": 0.3477,
+              "real_assists": 3.0,
+              "why": "déjà 3 passe(s) déc.",
               "bio": {
                 "club": "Bayern Munich",
                 "role": "Ailier",
@@ -106672,41 +107345,18 @@
               }
             },
             {
-              "name": "Désiré Doué",
-              "poste": "FW",
-              "p": 0.5866,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
-            },
-            {
-              "name": "Manu Koné",
-              "poste": "MF",
-              "p": 0.2829,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
-            }
-          ],
-          "assisters": [
-            {
-              "name": "Manu Koné",
-              "poste": "MF",
-              "p": 0.3935,
-              "real_assists": null,
-              "why": "création selon le poste"
-            },
-            {
               "name": "Aurélien Tchouaméni",
               "poste": "MF",
-              "p": 0.3935,
-              "real_assists": null,
-              "why": "création selon le poste"
+              "p": 0.3041,
+              "real_assists": 1.0,
+              "why": "déjà 1 passe(s) déc."
             },
             {
               "name": "Ousmane Dembélé",
               "poste": "FW",
-              "p": 0.3485,
-              "real_assists": null,
-              "why": "création selon le poste",
+              "p": 0.2671,
+              "real_assists": 1.0,
+              "why": "déjà 1 passe(s) déc.",
               "bio": {
                 "club": "Paris Saint-Germain",
                 "role": "Ailier",
@@ -106721,43 +107371,51 @@
                 ],
                 "source": "FOX Sports (2026)"
               }
-            },
-            {
-              "name": "Kylian Mbappé",
-              "poste": "FW",
-              "p": 0.3485,
-              "real_assists": null,
-              "why": "création selon le poste",
-              "bio": {
-                "club": "Real Madrid",
-                "role": "Attaquant (capitaine)",
-                "bio": "Capitaine des Bleus, double médaillé en CDM ; meilleur buteur LdC & Liga 2025-26.",
-                "forces": [
-                  "Explosivité et vitesse pure",
-                  "Finition clinique, crée et conclut"
-                ],
-                "faiblesses": [
-                  "Apport défensif limité",
-                  "Peut s'isoler quand l'équipe souffre"
-                ],
-                "source": "FOX Sports (Golden Ball power rankings 2026)"
-              }
             }
           ],
           "creator": {
-            "name": "Manu Koné",
-            "poste": "MF",
-            "p": 0.3935,
-            "real_assists": null,
-            "why": "création selon le poste"
+            "name": "Kylian Mbappé",
+            "poste": "FW",
+            "p": 0.3477,
+            "real_assists": 2.0,
+            "why": "déjà 2 passe(s) déc.",
+            "bio": {
+              "club": "Real Madrid",
+              "role": "Attaquant (capitaine)",
+              "bio": "Capitaine des Bleus, double médaillé en CDM ; meilleur buteur LdC & Liga 2025-26.",
+              "forces": [
+                "Explosivité et vitesse pure",
+                "Finition clinique, crée et conclut"
+              ],
+              "faiblesses": [
+                "Apport défensif limité",
+                "Peut s'isoler quand l'équipe souffre"
+              ],
+              "source": "FOX Sports (Golden Ball power rankings 2026)"
+            }
           },
           "keeper": {
-            "name": "Mike Maignan",
+            "name": "Brice Samba",
             "expSotFaced": 1.4,
             "fromLineup": false,
             "why": "Subit une pression offensive adverse de ~0.44 xG → environ 1.4 tirs cadrés à gérer."
           },
-          "benchImpact": [],
+          "benchImpact": [
+            {
+              "name": "Bradley Barcola",
+              "poste": "FW",
+              "goals": 1.0,
+              "assists": 1.0,
+              "why": "Entré en jeu et décisif : 1 but(s), 1 passe(s) déc.."
+            },
+            {
+              "name": "Adrien Rabiot",
+              "poste": "MF",
+              "goals": 0,
+              "assists": 1.0,
+              "why": "Entré en jeu et décisif : 1 passe(s) déc.."
+            }
+          ],
           "note": "Probabilités MODÈLE (poste réel + production réelle des matchs joués), pas des certitudes. Se précisent à mesure que les équipes jouent."
         },
         "away": {
@@ -107000,11 +107658,11 @@
             "Dayot Upamecano",
             "Jules Koundé",
             "Ibrahima Konaté",
-            "William Saliba"
+            "Mike Maignan"
           ]
         },
         "away": {
-          "stars": 22.0,
+          "stars": 20.5,
           "shield": 0.85,
           "names": [
             "Gustaf Lagerbielke",
@@ -107045,7 +107703,7 @@
       "dixonColes": {
         "rho": -0.1176,
         "gamma": 0.052,
-        "calibratedOn": 192
+        "calibratedOn": 193
       },
       "knockout": {
         "qualifyHome": 0.9874,
@@ -107080,11 +107738,11 @@
     "awayGF": 1.29,
     "homeGA": 0.25,
     "awayGA": 0.71,
-    "homeXG": 1.72,
-    "awayXG": 0.61,
+    "homeXG": 1.9,
+    "awayXG": 0.66,
     "homeForm": 8,
     "awayForm": 8,
-    "homeElo": 1910.3,
+    "homeElo": 1911.6,
     "awayElo": 1815.3,
     "homeForm5": "WWWWW",
     "awayForm5": "WDLWW",
@@ -107132,25 +107790,25 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.6813,
-      "pX": 0.203,
-      "p2": 0.1157,
+      "p1": 0.6962,
+      "pX": 0.1906,
+      "p2": 0.1132,
       "ensemble": {
         "weights": {
-          "elo": 0.3607339508393836,
-          "grid": 0.37154545863445304,
-          "form": 0.26772059052616337
+          "elo": 0.36122826070010233,
+          "grid": 0.37230614499012255,
+          "form": 0.2664655943097752
         },
         "T": 0.751,
         "elo": [
-          0.527,
-          0.251,
-          0.222
+          0.529,
+          0.25,
+          0.221
         ],
         "grid": [
-          0.631,
-          0.253,
-          0.116
+          0.658,
+          0.231,
+          0.111
         ],
         "form": [
           0.761,
@@ -107158,48 +107816,48 @@
           0.158
         ]
       },
-      "over25": 0.3814,
-      "btts": 0.4811,
+      "over25": 0.4389,
+      "btts": 0.49,
       "marketCalib": {
-        "bttsShift": 0.0628,
+        "bttsShift": 0.0627,
         "overShift": -0.0552,
-        "bttsRaw": 0.4183,
-        "n": 192
+        "bttsRaw": 0.4518,
+        "n": 193
       },
-      "lamHome": 1.72,
-      "lamAway": 0.61,
+      "lamHome": 1.9,
+      "lamAway": 0.66,
       "topScore": [
-        1,
+        2,
         0
       ],
       "doubleChance": {
-        "1X": 0.8841,
-        "12": 0.7472,
-        "X2": 0.3685
+        "1X": 0.8895,
+        "12": 0.7688,
+        "X2": 0.3419
       },
       "drawNoBet": {
-        "home": 0.845,
-        "away": 0.155
+        "home": 0.8561,
+        "away": 0.1439
       },
       "topScores": [
         {
-          "score": "1-0",
-          "p": 0.1474
+          "score": "2-0",
+          "p": 0.1324
         },
         {
-          "score": "2-0",
-          "p": 0.1366
+          "score": "1-0",
+          "p": 0.1286
         },
         {
           "score": "1-1",
-          "p": 0.1136
+          "p": 0.1071
         }
       ],
       "scenarios": [
         {
           "id": "closed",
           "title": "Match fermé",
-          "p": 0.296,
+          "p": 0.2504,
           "scores": [
             "1-0",
             "0-0"
@@ -107209,7 +107867,7 @@
         {
           "id": "tight",
           "title": "Match serré",
-          "p": 0.2674,
+          "p": 0.2555,
           "scores": [
             "2-0",
             "1-1"
@@ -107219,7 +107877,7 @@
         {
           "id": "open",
           "title": "Match ouvert / spectacle",
-          "p": 0.4366,
+          "p": 0.4941,
           "scores": [
             "2-1",
             "3-0"
@@ -107229,7 +107887,7 @@
         {
           "id": "blowout",
           "title": "Large écart",
-          "p": 0.2481,
+          "p": 0.2913,
           "scores": [
             "3-0",
             "3-1"
@@ -107240,45 +107898,45 @@
       ],
       "overUnder": {
         "0.5": {
-          "over": 0.8963,
-          "under": 0.1037
+          "over": 0.9158,
+          "under": 0.0842
         },
         "1.5": {
-          "over": 0.704,
-          "under": 0.296
+          "over": 0.7496,
+          "under": 0.2504
         },
         "2.5": {
-          "over": 0.4366,
-          "under": 0.5634
+          "over": 0.4941,
+          "under": 0.5059
         },
         "3.5": {
-          "over": 0.2308,
-          "under": 0.7692
+          "over": 0.2792,
+          "under": 0.7208
         }
       },
-      "totalXg": 2.33,
+      "totalXg": 2.56,
       "bttsConf": {
         "pick": "indécis",
-        "score": 0.52,
+        "score": 0.51,
         "label": "faible"
       },
       "halftime": {
-        "lamHome": 0.48,
-        "lamAway": 0.27,
+        "lamHome": 0.54,
+        "lamAway": 0.29,
         "topScore": [
           0,
           0
         ],
-        "p1": 0.3035,
-        "pX": 0.5486,
-        "p2": 0.1478,
+        "p1": 0.3237,
+        "pX": 0.5246,
+        "p2": 0.1517,
         "ou05": {
-          "over": 0.5481,
-          "under": 0.4519
+          "over": 0.5785,
+          "under": 0.4215
         },
         "ou15": {
-          "over": 0.2259,
-          "under": 0.7741
+          "over": 0.2512,
+          "under": 0.7488
         },
         "shareHome": 0.282,
         "shareAway": 0.443,
@@ -107291,31 +107949,31 @@
       },
       "corners": {
         "exp_corners": 6.4,
-        "over": 0.454,
-        "under": 0.546,
+        "over": 0.4598,
+        "under": 0.5402,
         "line": 6.5,
-        "home": 3.7,
-        "away": 2.6,
+        "home": 3.8,
+        "away": 2.7,
         "lines": {
           "4.5": {
-            "over": 0.7622,
-            "under": 0.2378
+            "over": 0.7665,
+            "under": 0.2335
           },
           "5.5": {
-            "over": 0.6128,
-            "under": 0.3872
+            "over": 0.6182,
+            "under": 0.3818
           },
           "6.5": {
-            "over": 0.454,
-            "under": 0.546
+            "over": 0.4598,
+            "under": 0.5402
           },
           "7.5": {
-            "over": 0.3093,
-            "under": 0.6907
+            "over": 0.3146,
+            "under": 0.6854
           },
           "8.5": {
-            "over": 0.194,
-            "under": 0.806
+            "over": 0.1982,
+            "under": 0.8018
           }
         },
         "src": "FootyStats ×0.53 (calibré 75 matchs)"
@@ -107342,63 +108000,63 @@
           }
         },
         "redProb": 0.203,
-        "foulsHome": 11.8,
+        "foulsHome": 10.5,
         "foulsAway": 10.7,
         "src": "FootyStats (réel)"
       },
       "shots": {
-        "expShots": 23.8,
-        "expShotsOn": 7.7,
-        "home": 12.5,
-        "away": 11.3,
-        "homeOn": 3.6,
-        "awayOn": 4.1,
-        "homeAcc": 28,
+        "expShots": 25.3,
+        "expShotsOn": 9.1,
+        "home": 13.9,
+        "away": 11.5,
+        "homeOn": 4.9,
+        "awayOn": 4.2,
+        "homeAcc": 35,
         "awayAcc": 37,
-        "line": 23.5,
-        "lineOn": 7.5,
+        "line": 25.5,
+        "lineOn": 9.5,
         "lines": {
-          "19.5": {
-            "over": 0.8087,
-            "under": 0.1913
-          },
           "21.5": {
-            "over": 0.6711,
-            "under": 0.3289
+            "over": 0.7718,
+            "under": 0.2282
           },
           "23.5": {
-            "over": 0.5103,
-            "under": 0.4897
+            "over": 0.63,
+            "under": 0.37
           },
           "25.5": {
-            "over": 0.352,
-            "under": 0.648
+            "over": 0.4723,
+            "under": 0.5277
           },
           "27.5": {
-            "over": 0.2192,
-            "under": 0.7808
+            "over": 0.3225,
+            "under": 0.6775
+          },
+          "29.5": {
+            "over": 0.1998,
+            "under": 0.8002
           }
         },
         "linesOn": {
-          "5.5": {
-            "over": 0.7787,
-            "under": 0.2213
-          },
-          "6.5": {
-            "over": 0.6474,
-            "under": 0.3526
-          },
           "7.5": {
-            "over": 0.503,
-            "under": 0.497
+            "over": 0.6844,
+            "under": 0.3156
           },
           "8.5": {
-            "over": 0.3643,
-            "under": 0.6357
+            "over": 0.5537,
+            "under": 0.4463
           },
           "9.5": {
-            "over": 0.2458,
-            "under": 0.7542
+            "over": 0.422,
+            "under": 0.578
+          },
+          "10.5": {
+            "over": 0.3025,
+            "under": 0.6975
+          },
+          "11.5": {
+            "over": 0.204,
+            "under": 0.796
           }
         },
         "real": false,
@@ -107408,15 +108066,15 @@
             0.82
           ],
           "possession": [
-            46,
-            54
+            49,
+            51
           ],
           "accuracy": [
-            28,
+            35,
             37
           ]
         },
-        "shotsAvgHome": 8.8,
+        "shotsAvgHome": 11.9,
         "shotsAvgAway": 13.4
       },
       "referee": null,
@@ -107504,35 +108162,35 @@
             {
               "name": "Julián Quiñones",
               "poste": "FW",
-              "p": 0.3442,
+              "p": 0.3725,
               "real_goals": 2.0,
               "why": "déjà 2 but(s) dans le tournoi · volume de tirs élevé (10)"
             },
             {
               "name": "Roberto Alvarado",
               "poste": "FW",
-              "p": 0.1888,
+              "p": 0.2064,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Guillermo Martínez",
               "poste": "FW",
-              "p": 0.1553,
+              "p": 0.1701,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Raúl Jiménez",
               "poste": "FW",
-              "p": 0.1551,
+              "p": 0.1699,
               "real_goals": 1.0,
               "why": "déjà 1 but(s) dans le tournoi · volume de tirs élevé (6)"
             },
             {
               "name": "Luis Romo",
               "poste": "MF",
-              "p": 0.0978,
+              "p": 0.1075,
               "real_goals": 1.0,
               "why": "déjà 1 but(s) dans le tournoi"
             }
@@ -107541,28 +108199,28 @@
             {
               "name": "Roberto Alvarado",
               "poste": "FW",
-              "p": 0.1646,
+              "p": 0.1802,
               "real_assists": 2.0,
               "why": "déjà 2 passe(s) déc."
             },
             {
               "name": "Luis Romo",
               "poste": "MF",
-              "p": 0.1415,
+              "p": 0.1551,
               "real_assists": 1.0,
               "why": "déjà 1 passe(s) déc."
             },
             {
               "name": "Gilberto Mora",
               "poste": "MF",
-              "p": 0.091,
+              "p": 0.1,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Julián Quiñones",
               "poste": "FW",
-              "p": 0.0785,
+              "p": 0.0863,
               "real_assists": 0.0,
               "why": "création selon le poste"
             }
@@ -107570,15 +108228,15 @@
           "creator": {
             "name": "Roberto Alvarado",
             "poste": "FW",
-            "p": 0.1646,
+            "p": 0.1802,
             "real_assists": 2.0,
             "why": "déjà 2 passe(s) déc."
           },
           "keeper": {
             "name": "Raúl Rangel",
-            "expSotFaced": 1.9,
+            "expSotFaced": 2.1,
             "fromLineup": false,
-            "why": "Subit une pression offensive adverse de ~0.61 xG → environ 1.9 tirs cadrés à gérer."
+            "why": "Subit une pression offensive adverse de ~0.66 xG → environ 2.1 tirs cadrés à gérer."
           },
           "benchImpact": [
             {
@@ -107610,35 +108268,35 @@
             {
               "name": "Gonzalo Plata",
               "poste": "FW",
-              "p": 0.111,
+              "p": 0.1196,
               "real_goals": 1.0,
               "why": "déjà 1 but(s) dans le tournoi · volume de tirs élevé (8)"
             },
             {
               "name": "Enner Valencia",
               "poste": "FW",
-              "p": 0.0999,
+              "p": 0.1076,
               "real_goals": 0.0,
               "why": "volume de tirs élevé (10)"
             },
             {
               "name": "Nilson Angulo",
               "poste": "FW",
-              "p": 0.0799,
+              "p": 0.0861,
               "real_goals": 1.0,
               "why": "déjà 1 but(s) dans le tournoi"
             },
             {
               "name": "John Yeboah",
               "poste": "FW",
-              "p": 0.079,
+              "p": 0.0852,
               "real_goals": 0.0,
               "why": "volume de tirs élevé (6)"
             },
             {
               "name": "Kevin Rodríguez",
               "poste": "FW",
-              "p": 0.0339,
+              "p": 0.0366,
               "real_goals": 0.0,
               "why": "volume de tirs élevé (5)"
             }
@@ -107647,28 +108305,28 @@
             {
               "name": "Pedro Vite",
               "poste": "MF",
-              "p": 0.0544,
+              "p": 0.0587,
               "real_assists": 1.0,
               "why": "déjà 1 passe(s) déc."
             },
             {
               "name": "Alan Franco",
               "poste": "MF",
-              "p": 0.0343,
+              "p": 0.0371,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Moisés Caicedo",
               "poste": "MF",
-              "p": 0.0343,
+              "p": 0.0371,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "John Yeboah",
               "poste": "FW",
-              "p": 0.0295,
+              "p": 0.0319,
               "real_assists": 0.0,
               "why": "création selon le poste"
             }
@@ -107676,15 +108334,15 @@
           "creator": {
             "name": "Pedro Vite",
             "poste": "MF",
-            "p": 0.0544,
+            "p": 0.0587,
             "real_assists": 1.0,
             "why": "déjà 1 passe(s) déc."
           },
           "keeper": {
             "name": "Hernán Galíndez",
-            "expSotFaced": 5.4,
+            "expSotFaced": 5.9,
             "fromLineup": false,
-            "why": "Subit une pression offensive adverse de ~1.72 xG → environ 5.4 tirs cadrés à gérer."
+            "why": "Subit une pression offensive adverse de ~1.9 xG → environ 5.9 tirs cadrés à gérer."
           },
           "benchImpact": [
             {
@@ -107732,9 +108390,9 @@
         ]
       },
       "upsetIndex": {
-        "index": 47,
+        "index": 45,
         "label": "modéré",
-        "dampener": 0.996,
+        "dampener": 1.0,
         "favOverperf": true,
         "dogLowBlock": true
       },
@@ -107764,25 +108422,25 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 23.5,
+          "stars": 22.0,
           "shield": 0.85,
           "names": [
-            "Raúl Rangel",
             "Jorge Sánchez",
             "César Montes",
             "Edson Álvarez",
-            "Johan Vásquez"
+            "Johan Vásquez",
+            "Israel Reyes"
           ]
         },
         "away": {
-          "stars": 16.5,
+          "stars": 14.5,
           "shield": 0.85,
           "names": [
             "Piero Hincapié",
             "Joel Ordóñez",
             "Willian Pacho",
-            "Pervis Estupiñán",
-            "Jackson Porozo"
+            "Jackson Porozo",
+            "Yaimar Medina"
           ]
         }
       },
@@ -107816,17 +108474,17 @@
       "dixonColes": {
         "rho": -0.1176,
         "gamma": 0.052,
-        "calibratedOn": 192
+        "calibratedOn": 193
       },
       "knockout": {
-        "qualifyHome": 0.803,
-        "qualifyAway": 0.197,
+        "qualifyHome": 0.817,
+        "qualifyAway": 0.183,
         "reg90": {
-          "p1": 0.6372,
-          "pX": 0.2414,
-          "p2": 0.1215
+          "p1": 0.6636,
+          "pX": 0.2205,
+          "p2": 0.1159
         },
-        "shootoutHome": 0.6168,
+        "shootoutHome": 0.618,
         "note": "90' → prolongations (λ−70%) → tirs au but (Elo+forme)"
       }
     }
@@ -107903,14 +108561,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.9014,
+      "p1": 0.9015,
       "pX": 0.0529,
-      "p2": 0.0458,
+      "p2": 0.0457,
       "ensemble": {
         "weights": {
-          "elo": 0.3607339508393836,
-          "grid": 0.37154545863445304,
-          "form": 0.26772059052616337
+          "elo": 0.36122826070010233,
+          "grid": 0.37230614499012255,
+          "form": 0.2664655943097752
         },
         "T": 0.751,
         "elo": [
@@ -107930,12 +108588,12 @@
         ]
       },
       "over25": 0.6439,
-      "btts": 0.4167,
+      "btts": 0.4166,
       "marketCalib": {
-        "bttsShift": 0.0628,
+        "bttsShift": 0.0627,
         "overShift": -0.0552,
         "bttsRaw": 0.3539,
-        "n": 192
+        "n": 193
       },
       "lamHome": 3.14,
       "lamAway": 0.4,
@@ -108062,31 +108720,31 @@
       },
       "corners": {
         "exp_corners": 7.2,
-        "over": 0.4276,
-        "under": 0.5724,
+        "over": 0.4337,
+        "under": 0.5663,
         "line": 7.5,
-        "home": 4.3,
-        "away": 2.8,
+        "home": 4.4,
+        "away": 2.9,
         "lines": {
           "5.5": {
-            "over": 0.7213,
-            "under": 0.2787
+            "over": 0.7262,
+            "under": 0.2738
           },
           "6.5": {
-            "over": 0.5763,
-            "under": 0.4237
+            "over": 0.5822,
+            "under": 0.4178
           },
           "7.5": {
-            "over": 0.4276,
-            "under": 0.5724
+            "over": 0.4337,
+            "under": 0.5663
           },
           "8.5": {
-            "over": 0.2942,
-            "under": 0.7058
+            "over": 0.2997,
+            "under": 0.7003
           },
           "9.5": {
-            "over": 0.1879,
-            "under": 0.8121
+            "over": 0.1922,
+            "under": 0.8078
           }
         },
         "src": "FootyStats ×0.53 (calibré 75 matchs)"
@@ -108193,7 +108851,18 @@
       "referee": null,
       "riskPlayers": {
         "home": {
-          "real": [],
+          "real": [
+            {
+              "name": "Declan Rice",
+              "pos": "SUB",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Jarell Quansah",
+              "pos": "RB",
+              "card": "🟨 jaune"
+            }
+          ],
           "profiles": [
             {
               "role": "Défenseur central",
@@ -108231,31 +108900,11 @@
         "home": {
           "scorers": [
             {
-              "name": "Bukayo Saka",
-              "poste": "FW",
-              "p": 0.486,
-              "real_goals": null,
-              "why": "présence offensive selon le poste",
-              "bio": {
-                "club": "Arsenal",
-                "role": "Ailier droit",
-                "bio": "Ailier d'Arsenal, créateur et buteur régulier des Three Lions.",
-                "forces": [
-                  "Dribble rentrant et centres",
-                  "Régularité dans le dernier tiers"
-                ],
-                "faiblesses": [
-                  "Ciblé par les fautes (usure)"
-                ],
-                "source": "profils 2025-26"
-              }
-            },
-            {
               "name": "Harry Kane",
               "poste": "FW",
-              "p": 0.486,
-              "real_goals": null,
-              "why": "présence offensive selon le poste",
+              "p": 0.4767,
+              "real_goals": 3.0,
+              "why": "déjà 3 but(s) dans le tournoi · volume de tirs élevé (13)",
               "bio": {
                 "club": "Bayern Munich",
                 "role": "Avant-centre (capitaine)",
@@ -108274,23 +108923,36 @@
             {
               "name": "Marcus Rashford",
               "poste": "FW",
-              "p": 0.486,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
+              "p": 0.4373,
+              "real_goals": 1.0,
+              "why": "déjà 1 but(s) dans le tournoi · volume de tirs élevé (6)"
             },
             {
-              "name": "Elliot Anderson",
-              "poste": "MF",
-              "p": 0.2216,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
+              "name": "Bukayo Saka",
+              "poste": "FW",
+              "p": 0.3393,
+              "real_goals": 0.0,
+              "why": "volume de tirs élevé (5)",
+              "bio": {
+                "club": "Arsenal",
+                "role": "Ailier droit",
+                "bio": "Ailier d'Arsenal, créateur et buteur régulier des Three Lions.",
+                "forces": [
+                  "Dribble rentrant et centres",
+                  "Régularité dans le dernier tiers"
+                ],
+                "faiblesses": [
+                  "Ciblé par les fautes (usure)"
+                ],
+                "source": "profils 2025-26"
+              }
             },
             {
               "name": "Jude Bellingham",
               "poste": "MF",
-              "p": 0.2216,
-              "real_goals": null,
-              "why": "présence offensive selon le poste",
+              "p": 0.2163,
+              "real_goals": 2.0,
+              "why": "déjà 2 but(s) dans le tournoi · volume de tirs élevé (6)",
               "bio": {
                 "club": "Real Madrid",
                 "role": "Milieu offensif",
@@ -108304,22 +108966,49 @@
                 ],
                 "source": "Reddit r/Barca analysis / profils 2025-26"
               }
+            },
+            {
+              "name": "Noni Madueke",
+              "poste": "FW",
+              "p": 0.1584,
+              "real_goals": 0.0,
+              "why": "volume de tirs élevé (4)"
             }
           ],
           "assisters": [
             {
+              "name": "Bukayo Saka",
+              "poste": "FW",
+              "p": 0.2681,
+              "real_assists": 2.0,
+              "why": "déjà 2 passe(s) déc.",
+              "bio": {
+                "club": "Arsenal",
+                "role": "Ailier droit",
+                "bio": "Ailier d'Arsenal, créateur et buteur régulier des Three Lions.",
+                "forces": [
+                  "Dribble rentrant et centres",
+                  "Régularité dans le dernier tiers"
+                ],
+                "faiblesses": [
+                  "Ciblé par les fautes (usure)"
+                ],
+                "source": "profils 2025-26"
+              }
+            },
+            {
               "name": "Elliot Anderson",
               "poste": "MF",
-              "p": 0.2685,
-              "real_assists": null,
-              "why": "création selon le poste"
+              "p": 0.2326,
+              "real_assists": 1.0,
+              "why": "déjà 1 passe(s) déc."
             },
             {
               "name": "Jude Bellingham",
               "poste": "MF",
-              "p": 0.2685,
-              "real_assists": null,
-              "why": "création selon le poste",
+              "p": 0.2326,
+              "real_assists": 1.0,
+              "why": "déjà 1 passe(s) déc.",
               "bio": {
                 "club": "Real Madrid",
                 "role": "Milieu offensif",
@@ -108337,37 +109026,30 @@
             {
               "name": "Morgan Rogers",
               "poste": "MF",
-              "p": 0.2685,
-              "real_assists": null,
+              "p": 0.1525,
+              "real_assists": 0.0,
               "why": "création selon le poste"
-            },
-            {
-              "name": "Bukayo Saka",
-              "poste": "FW",
-              "p": 0.2351,
-              "real_assists": null,
-              "why": "création selon le poste",
-              "bio": {
-                "club": "Arsenal",
-                "role": "Ailier droit",
-                "bio": "Ailier d'Arsenal, créateur et buteur régulier des Three Lions.",
-                "forces": [
-                  "Dribble rentrant et centres",
-                  "Régularité dans le dernier tiers"
-                ],
-                "faiblesses": [
-                  "Ciblé par les fautes (usure)"
-                ],
-                "source": "profils 2025-26"
-              }
             }
           ],
           "creator": {
-            "name": "Elliot Anderson",
-            "poste": "MF",
-            "p": 0.2685,
-            "real_assists": null,
-            "why": "création selon le poste"
+            "name": "Bukayo Saka",
+            "poste": "FW",
+            "p": 0.2681,
+            "real_assists": 2.0,
+            "why": "déjà 2 passe(s) déc.",
+            "bio": {
+              "club": "Arsenal",
+              "role": "Ailier droit",
+              "bio": "Ailier d'Arsenal, créateur et buteur régulier des Three Lions.",
+              "forces": [
+                "Dribble rentrant et centres",
+                "Régularité dans le dernier tiers"
+              ],
+              "faiblesses": [
+                "Ciblé par les fautes (usure)"
+              ],
+              "source": "profils 2025-26"
+            }
           },
           "keeper": {
             "name": "Jordan Pickford",
@@ -108375,7 +109057,15 @@
             "fromLineup": false,
             "why": "Subit une pression offensive adverse de ~0.4 xG → environ 1.2 tirs cadrés à gérer."
           },
-          "benchImpact": [],
+          "benchImpact": [
+            {
+              "name": "Declan Rice",
+              "poste": "MF",
+              "goals": 0,
+              "assists": 1.0,
+              "why": "Entré en jeu et décisif : 1 passe(s) déc.."
+            }
+          ],
           "note": "Probabilités MODÈLE (poste réel + production réelle des matchs joués), pas des certitudes. Se précisent à mesure que les équipes jouent."
         },
         "away": {
@@ -108505,7 +109195,7 @@
       },
       "attackQuality": {
         "home": {
-          "stars": 15.5,
+          "stars": 14.5,
           "boost": 1.18,
           "names": [
             "Harry Kane",
@@ -108529,14 +109219,14 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 25.5,
+          "stars": 14.5,
           "shield": 0.85,
           "names": [
             "Ezri Konsa",
             "Nico O'Reilly",
             "John Stones",
-            "Marc Guéhi",
-            "Tino Livramento"
+            "Tino Livramento",
+            "Dan Burn"
           ]
         },
         "away": {
@@ -108581,7 +109271,7 @@
       "dixonColes": {
         "rho": -0.1176,
         "gamma": 0.052,
-        "calibratedOn": 192
+        "calibratedOn": 193
       },
       "knockout": {
         "qualifyHome": 0.9623,
@@ -108620,7 +109310,7 @@
     "awayXG": 0.77,
     "homeForm": 8,
     "awayForm": 8,
-    "homeElo": 1980.7,
+    "homeElo": 1980.8,
     "awayElo": 1859.4,
     "homeForm5": "WDDWW",
     "awayForm5": "WLLDL",
@@ -108668,14 +109358,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.7712,
-      "pX": 0.1416,
+      "p1": 0.771,
+      "pX": 0.1418,
       "p2": 0.0872,
       "ensemble": {
         "weights": {
-          "elo": 0.3607339508393836,
-          "grid": 0.37154545863445304,
-          "form": 0.26772059052616337
+          "elo": 0.36122826070010233,
+          "grid": 0.37230614499012255,
+          "form": 0.2664655943097752
         },
         "T": 0.751,
         "elo": [
@@ -108697,10 +109387,10 @@
       "over25": 0.5715,
       "btts": 0.49,
       "marketCalib": {
-        "bttsShift": 0.0628,
+        "bttsShift": 0.0627,
         "overShift": -0.0552,
         "bttsRaw": 0.5221,
-        "n": 192
+        "n": 193
       },
       "lamHome": 2.38,
       "lamAway": 0.77,
@@ -108827,31 +109517,31 @@
       },
       "corners": {
         "exp_corners": 7.8,
-        "over": 0.5163,
-        "under": 0.4837,
+        "over": 0.5226,
+        "under": 0.4774,
         "line": 7.5,
         "home": 4.8,
         "away": 3.0,
         "lines": {
           "5.5": {
-            "over": 0.788,
-            "under": 0.212
+            "over": 0.7924,
+            "under": 0.2076
           },
           "6.5": {
-            "over": 0.6593,
-            "under": 0.3407
+            "over": 0.665,
+            "under": 0.335
           },
           "7.5": {
-            "over": 0.5163,
-            "under": 0.4837
+            "over": 0.5226,
+            "under": 0.4774
           },
           "8.5": {
-            "over": 0.3771,
-            "under": 0.6229
+            "over": 0.3833,
+            "under": 0.6167
           },
           "9.5": {
-            "over": 0.2568,
-            "under": 0.7432
+            "over": 0.2621,
+            "under": 0.7379
           }
         },
         "src": "FootyStats ×0.53 (calibré 75 matchs)"
@@ -108996,7 +109686,18 @@
           ]
         },
         "away": {
-          "real": [],
+          "real": [
+            {
+              "name": "Pape Gueye",
+              "pos": "SUB",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Abdoulaye Seck",
+              "pos": "CD-R",
+              "card": "🟨 jaune"
+            }
+          ],
           "profiles": [
             {
               "role": "Défenseur central",
@@ -109123,11 +109824,107 @@
         "away": {
           "scorers": [
             {
+              "name": "Ismaïla Sarr",
+              "poste": "FW",
+              "p": 0.1457,
+              "real_goals": 3.0,
+              "why": "déjà 3 but(s) dans le tournoi · volume de tirs élevé (12)",
+              "bio": {
+                "club": "Crystal Palace",
+                "role": "Ailier",
+                "bio": "Ailier rapide du Sénégal, danger sur les transitions.",
+                "forces": [
+                  "Vitesse, dribble",
+                  "Menace sur le côté droit"
+                ],
+                "faiblesses": [
+                  "Constance"
+                ],
+                "source": "profils 2025-26"
+              }
+            },
+            {
+              "name": "Ibrahim Mbaye",
+              "poste": "FW",
+              "p": 0.1038,
+              "real_goals": 1.0,
+              "why": "déjà 1 but(s) dans le tournoi"
+            },
+            {
               "name": "Sadio Mané",
               "poste": "FW",
-              "p": 0.1541,
-              "real_goals": null,
-              "why": "présence offensive selon le poste",
+              "p": 0.0959,
+              "real_goals": 0.0,
+              "why": "volume de tirs élevé (5)",
+              "bio": {
+                "club": "Al-Nassr",
+                "role": "Ailier / attaquant",
+                "bio": "Leader emblématique du Sénégal, ballon d'or africain, vainqueur CAN 2021.",
+                "forces": [
+                  "Vitesse et percussion",
+                  "Finition et expérience des grands matchs"
+                ],
+                "faiblesses": [
+                  "Âge (34 ans), rythme à gérer",
+                  "Moins décisif qu'à son pic"
+                ],
+                "source": "profils 2025-26 / Sportskeeda"
+              }
+            },
+            {
+              "name": "Nicolas Jackson",
+              "poste": "FW",
+              "p": 0.0508,
+              "real_goals": 0.0,
+              "why": "volume de tirs élevé (7)",
+              "bio": {
+                "club": "Bayern Munich",
+                "role": "Avant-centre",
+                "bio": "Buteur sénégalais au Bayern, pointe rapide et mobile.",
+                "forces": [
+                  "Appels en profondeur",
+                  "Puissance et vitesse"
+                ],
+                "faiblesses": [
+                  "Irrégularité dans la finition"
+                ],
+                "source": "Total Football Analysis (2026)"
+              }
+            },
+            {
+              "name": "Iliman Ndiaye",
+              "poste": "FW",
+              "p": 0.0481,
+              "real_goals": 1.0,
+              "why": "déjà 1 but(s) dans le tournoi",
+              "bio": {
+                "club": "Everton",
+                "role": "Attaquant / meneur",
+                "bio": "Créateur technique du Sénégal, polyvalent offensivement.",
+                "forces": [
+                  "Conduite de balle, créativité"
+                ],
+                "faiblesses": [
+                  "Encore en affirmation au haut niveau"
+                ],
+                "source": "profils 2025-26"
+              }
+            }
+          ],
+          "assisters": [
+            {
+              "name": "Lamine Camara",
+              "poste": "MF",
+              "p": 0.0606,
+              "real_assists": 1.0,
+              "why": "déjà 1 passe(s) déc."
+            },
+            {
+              "name": "Sadio Mané",
+              "poste": "FW",
+              "p": 0.0522,
+              "real_assists": 1.0,
+              "why": "déjà 1 passe(s) déc.",
               "bio": {
                 "club": "Al-Nassr",
                 "role": "Ailier / attaquant",
@@ -109146,9 +109943,9 @@
             {
               "name": "Ismaïla Sarr",
               "poste": "FW",
-              "p": 0.1541,
-              "real_goals": null,
-              "why": "présence offensive selon le poste",
+              "p": 0.0522,
+              "real_assists": 1.0,
+              "why": "déjà 1 passe(s) déc.",
               "bio": {
                 "club": "Crystal Palace",
                 "role": "Ailier",
@@ -109164,85 +109961,49 @@
               }
             },
             {
-              "name": "Ibrahim Mbaye",
-              "poste": "FW",
-              "p": 0.1541,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
-            },
-            {
               "name": "Idrissa Gueye",
               "poste": "MF",
-              "p": 0.0611,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
-            },
-            {
-              "name": "Lamine Camara",
-              "poste": "MF",
-              "p": 0.0611,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
-            }
-          ],
-          "assisters": [
-            {
-              "name": "Idrissa Gueye",
-              "poste": "MF",
-              "p": 0.0765,
-              "real_assists": null,
+              "p": 0.0383,
+              "real_assists": 0.0,
               "why": "création selon le poste"
-            },
-            {
-              "name": "Lamine Camara",
-              "poste": "MF",
-              "p": 0.0765,
-              "real_assists": null,
-              "why": "création selon le poste"
-            },
-            {
-              "name": "Habib Diarra",
-              "poste": "MF",
-              "p": 0.0765,
-              "real_assists": null,
-              "why": "création selon le poste"
-            },
-            {
-              "name": "Sadio Mané",
-              "poste": "FW",
-              "p": 0.066,
-              "real_assists": null,
-              "why": "création selon le poste",
-              "bio": {
-                "club": "Al-Nassr",
-                "role": "Ailier / attaquant",
-                "bio": "Leader emblématique du Sénégal, ballon d'or africain, vainqueur CAN 2021.",
-                "forces": [
-                  "Vitesse et percussion",
-                  "Finition et expérience des grands matchs"
-                ],
-                "faiblesses": [
-                  "Âge (34 ans), rythme à gérer",
-                  "Moins décisif qu'à son pic"
-                ],
-                "source": "profils 2025-26 / Sportskeeda"
-              }
             }
           ],
           "creator": {
-            "name": "Idrissa Gueye",
+            "name": "Lamine Camara",
             "poste": "MF",
-            "p": 0.0765,
-            "real_assists": null,
-            "why": "création selon le poste"
+            "p": 0.0606,
+            "real_assists": 1.0,
+            "why": "déjà 1 passe(s) déc."
           },
           "keeper": {
-            "name": "Édouard Mendy",
+            "name": "Yehvann Diouf",
             "expSotFaced": 7.4,
             "fromLineup": false,
             "why": "Subit une pression offensive adverse de ~2.38 xG → environ 7.4 tirs cadrés à gérer."
           },
-          "benchImpact": [],
+          "benchImpact": [
+            {
+              "name": "Pape Gueye",
+              "poste": "MF",
+              "goals": 2.0,
+              "assists": 1.0,
+              "why": "Entré en jeu et décisif : 2 but(s), 1 passe(s) déc.."
+            },
+            {
+              "name": "Iliman Ndiaye",
+              "poste": "FW",
+              "goals": 1.0,
+              "assists": 2.0,
+              "why": "Entré en jeu et décisif : 1 but(s), 2 passe(s) déc.."
+            },
+            {
+              "name": "Nicolas Jackson",
+              "poste": "FW",
+              "goals": 0,
+              "assists": 1.0,
+              "why": "Entré en jeu et décisif : 1 passe(s) déc.."
+            }
+          ],
           "note": "Probabilités MODÈLE (poste réel + production réelle des matchs joués), pas des certitudes. Se précisent à mesure que les équipes jouent."
         }
       },
@@ -109288,7 +110049,7 @@
       },
       "attackQuality": {
         "home": {
-          "stars": 17.0,
+          "stars": 16.0,
           "boost": 1.18,
           "names": [
             "Romelu Lukaku",
@@ -109312,14 +110073,14 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 22.5,
+          "stars": 18.0,
           "shield": 0.85,
           "names": [
-            "Thibaut Courtois",
             "Zeno Debast",
             "Arthur Theate",
             "Brandon Mechele",
-            "Maxim De Cuyper"
+            "Maxim De Cuyper",
+            "Thomas Meunier"
           ]
         },
         "away": {
@@ -109364,7 +110125,7 @@
       "dixonColes": {
         "rho": -0.1176,
         "gamma": 0.052,
-        "calibratedOn": 192
+        "calibratedOn": 193
       },
       "knockout": {
         "qualifyHome": 0.855,
@@ -109401,11 +110162,11 @@
     "awayGF": 1.2,
     "homeGA": 2.14,
     "awayGA": 1.4,
-    "homeXG": 2.27,
+    "homeXG": 2.25,
     "awayXG": 0.71,
     "homeForm": 8,
     "awayForm": 8,
-    "homeElo": 1825.3,
+    "homeElo": 1825.2,
     "awayElo": 1668.1,
     "homeForm5": "LWWLW",
     "awayForm5": "WLDDD",
@@ -109453,14 +110214,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.7214,
-      "pX": 0.1694,
-      "p2": 0.1092,
+      "p1": 0.7199,
+      "pX": 0.1704,
+      "p2": 0.1097,
       "ensemble": {
         "weights": {
-          "elo": 0.3607339508393836,
-          "grid": 0.37154545863445304,
-          "form": 0.26772059052616337
+          "elo": 0.36122826070010233,
+          "grid": 0.37230614499012255,
+          "form": 0.2664655943097752
         },
         "T": 0.751,
         "elo": [
@@ -109469,9 +110230,9 @@
           0.18
         ],
         "grid": [
-          0.718,
-          0.191,
-          0.091
+          0.714,
+          0.193,
+          0.093
         ],
         "form": [
           0.618,
@@ -109479,48 +110240,48 @@
           0.219
         ]
       },
-      "over25": 0.5358,
+      "over25": 0.5315,
       "btts": 0.49,
       "marketCalib": {
-        "bttsShift": 0.0628,
+        "bttsShift": 0.0627,
         "overShift": -0.0552,
-        "bttsRaw": 0.4926,
-        "n": 192
+        "bttsRaw": 0.4917,
+        "n": 193
       },
-      "lamHome": 2.27,
+      "lamHome": 2.25,
       "lamAway": 0.71,
       "topScore": [
         2,
         0
       ],
       "doubleChance": {
-        "1X": 0.9085,
-        "12": 0.8092,
-        "X2": 0.2823
+        "1X": 0.9071,
+        "12": 0.807,
+        "X2": 0.2859
       },
       "drawNoBet": {
-        "home": 0.8869,
-        "away": 0.1131
+        "home": 0.8849,
+        "away": 0.1151
       },
       "topScores": [
         {
           "score": "2-0",
-          "p": 0.1243
+          "p": 0.1246
         },
         {
           "score": "1-0",
-          "p": 0.1004
+          "p": 0.1015
         },
         {
-          "score": "3-0",
-          "p": 0.094
+          "score": "2-1",
+          "p": 0.0942
         }
       ],
       "scenarios": [
         {
           "id": "closed",
           "title": "Match fermé",
-          "p": 0.1828,
+          "p": 0.1856,
           "scores": [
             "1-0",
             "0-0"
@@ -109530,7 +110291,7 @@
         {
           "id": "tight",
           "title": "Match serré",
-          "p": 0.2261,
+          "p": 0.2277,
           "scores": [
             "2-0",
             "1-1"
@@ -109540,17 +110301,17 @@
         {
           "id": "open",
           "title": "Match ouvert / spectacle",
-          "p": 0.591,
+          "p": 0.5867,
           "scores": [
-            "3-0",
-            "2-1"
+            "2-1",
+            "3-0"
           ],
           "note": "Over 2.5 favorisé · les deux blocs prennent des risques"
         },
         {
           "id": "blowout",
           "title": "Large écart",
-          "p": 0.38,
+          "p": 0.3752,
           "scores": [
             "3-0",
             "3-1"
@@ -109561,23 +110322,23 @@
       ],
       "overUnder": {
         "0.5": {
-          "over": 0.9426,
-          "under": 0.0574
+          "over": 0.9415,
+          "under": 0.0585
         },
         "1.5": {
-          "over": 0.8172,
-          "under": 0.1828
+          "over": 0.8144,
+          "under": 0.1856
         },
         "2.5": {
-          "over": 0.591,
-          "under": 0.409
+          "over": 0.5867,
+          "under": 0.4133
         },
         "3.5": {
-          "over": 0.3708,
-          "under": 0.6292
+          "over": 0.3664,
+          "under": 0.6336
         }
       },
-      "totalXg": 2.98,
+      "totalXg": 2.96,
       "bttsConf": {
         "pick": "indécis",
         "score": 0.43,
@@ -109590,16 +110351,16 @@
           0,
           0
         ],
-        "p1": 0.3082,
-        "pX": 0.5075,
-        "p2": 0.1843,
+        "p1": 0.3059,
+        "pX": 0.509,
+        "p2": 0.1851,
         "ou05": {
-          "over": 0.6074,
-          "under": 0.3926
+          "over": 0.6056,
+          "under": 0.3944
         },
         "ou15": {
-          "over": 0.2784,
-          "under": 0.7216
+          "over": 0.2767,
+          "under": 0.7233
         },
         "shareHome": 0.238,
         "shareAway": 0.51,
@@ -109612,31 +110373,31 @@
       },
       "corners": {
         "exp_corners": 6.2,
-        "over": 0.426,
-        "under": 0.574,
+        "over": 0.4316,
+        "under": 0.5684,
         "line": 6.5,
         "home": 3.2,
         "away": 3.0,
         "lines": {
           "4.5": {
-            "over": 0.741,
-            "under": 0.259
+            "over": 0.7454,
+            "under": 0.2546
           },
           "5.5": {
-            "over": 0.5861,
-            "under": 0.4139
+            "over": 0.5915,
+            "under": 0.4085
           },
           "6.5": {
-            "over": 0.426,
-            "under": 0.574
+            "over": 0.4316,
+            "under": 0.5684
           },
           "7.5": {
-            "over": 0.2842,
-            "under": 0.7158
+            "over": 0.2892,
+            "under": 0.7108
           },
           "8.5": {
-            "over": 0.1742,
-            "under": 0.8258
+            "over": 0.1781,
+            "under": 0.8219
           }
         },
         "src": "prior générique"
@@ -109911,15 +110672,15 @@
       "dixonColes": {
         "rho": -0.1176,
         "gamma": 0.052,
-        "calibratedOn": 192
+        "calibratedOn": 193
       },
       "knockout": {
-        "qualifyHome": 0.8553,
-        "qualifyAway": 0.1447,
+        "qualifyHome": 0.8531,
+        "qualifyAway": 0.1469,
         "reg90": {
-          "p1": 0.7222,
-          "pX": 0.1818,
-          "p2": 0.096
+          "p1": 0.7187,
+          "pX": 0.1838,
+          "p2": 0.0974
         },
         "shootoutHome": 0.65,
         "note": "90' → prolongations (λ−70%) → tirs au but (Elo+forme)"
@@ -109996,14 +110757,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.7795,
-      "pX": 0.1274,
-      "p2": 0.0931,
+      "p1": 0.7799,
+      "pX": 0.1273,
+      "p2": 0.0929,
       "ensemble": {
         "weights": {
-          "elo": 0.3607339508393836,
-          "grid": 0.37154545863445304,
-          "form": 0.26772059052616337
+          "elo": 0.36122826070010233,
+          "grid": 0.37230614499012255,
+          "form": 0.2664655943097752
         },
         "T": 0.751,
         "elo": [
@@ -110025,10 +110786,10 @@
       "over25": 0.6008,
       "btts": 0.49,
       "marketCalib": {
-        "bttsShift": 0.0628,
+        "bttsShift": 0.0627,
         "overShift": -0.0552,
         "bttsRaw": 0.4278,
-        "n": 192
+        "n": 193
       },
       "lamHome": 2.76,
       "lamAway": 0.54,
@@ -110155,31 +110916,31 @@
       },
       "corners": {
         "exp_corners": 6.9,
-        "over": 0.5309,
-        "under": 0.4691,
+        "over": 0.5368,
+        "under": 0.4632,
         "line": 6.5,
-        "home": 4.2,
+        "home": 4.3,
         "away": 2.6,
         "lines": {
           "4.5": {
-            "over": 0.8149,
-            "under": 0.1851
+            "over": 0.8186,
+            "under": 0.1814
           },
           "5.5": {
-            "over": 0.6825,
-            "under": 0.3175
+            "over": 0.6876,
+            "under": 0.3124
           },
           "6.5": {
-            "over": 0.5309,
-            "under": 0.4691
+            "over": 0.5368,
+            "under": 0.4632
           },
           "7.5": {
-            "over": 0.382,
-            "under": 0.618
+            "over": 0.3879,
+            "under": 0.6121
           },
           "8.5": {
-            "over": 0.2542,
-            "under": 0.7458
+            "over": 0.2592,
+            "under": 0.7408
           }
         },
         "src": "FootyStats ×0.53 (calibré 75 matchs)"
@@ -110286,7 +111047,18 @@
       "referee": null,
       "riskPlayers": {
         "home": {
-          "real": [],
+          "real": [
+            {
+              "name": "Pedri",
+              "pos": "RM",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Álex Baena",
+              "pos": "AM-L",
+              "card": "🟨 jaune"
+            }
+          ],
           "profiles": [
             {
               "role": "Défenseur central",
@@ -110303,7 +111075,28 @@
           ]
         },
         "away": {
-          "real": [],
+          "real": [
+            {
+              "name": "Stefan Posch",
+              "pos": "RB",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Konrad Laimer",
+              "pos": "AM-R",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Marcel Sabitzer",
+              "pos": "AM-L",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Marko Arnautovic",
+              "pos": "F",
+              "card": "🟨 jaune"
+            }
+          ],
           "profiles": [
             {
               "role": "Défenseur central",
@@ -110324,11 +111117,31 @@
         "home": {
           "scorers": [
             {
+              "name": "Mikel Oyarzabal",
+              "poste": "FW",
+              "p": 0.4438,
+              "real_goals": 2.0,
+              "why": "déjà 2 but(s) dans le tournoi · volume de tirs élevé (11)",
+              "bio": {
+                "club": "Real Sociedad",
+                "role": "Attaquant",
+                "bio": "Buteur du sacre Euro 2024, finisseur fiable.",
+                "forces": [
+                  "Sang-froid devant le but",
+                  "Jeu collectif"
+                ],
+                "faiblesses": [
+                  "Moins explosif que les ailiers purs"
+                ],
+                "source": "profils 2024-26"
+              }
+            },
+            {
               "name": "Lamine Yamal",
               "poste": "FW",
-              "p": 0.5005,
-              "real_goals": null,
-              "why": "présence offensive selon le poste",
+              "p": 0.4386,
+              "real_goals": 1.0,
+              "why": "déjà 1 but(s) dans le tournoi · volume de tirs élevé (8)",
               "bio": {
                 "club": "Barcelona",
                 "role": "Ailier droit",
@@ -110345,11 +111158,34 @@
               }
             },
             {
+              "name": "Ferran Torres",
+              "poste": "FW",
+              "p": 0.1766,
+              "real_goals": 0.0,
+              "why": "volume de tirs élevé (7)"
+            },
+            {
+              "name": "Álex Baena",
+              "poste": "MF",
+              "p": 0.1515,
+              "real_goals": 1.0,
+              "why": "déjà 1 but(s) dans le tournoi · volume de tirs élevé (3)"
+            },
+            {
+              "name": "Dani Olmo",
+              "poste": "FW",
+              "p": 0.1338,
+              "real_goals": 0.0,
+              "why": "volume de tirs élevé (3)"
+            }
+          ],
+          "assisters": [
+            {
               "name": "Mikel Oyarzabal",
               "poste": "FW",
-              "p": 0.5005,
-              "real_goals": null,
-              "why": "présence offensive selon le poste",
+              "p": 0.1976,
+              "real_assists": 1.0,
+              "why": "déjà 1 passe(s) déc.",
               "bio": {
                 "club": "Real Sociedad",
                 "role": "Attaquant",
@@ -110367,120 +111203,97 @@
             {
               "name": "Mikel Merino",
               "poste": "MF",
-              "p": 0.23,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
-            },
-            {
-              "name": "Álex Baena",
-              "poste": "MF",
-              "p": 0.23,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
-            },
-            {
-              "name": "Rodri",
-              "poste": "MF",
-              "p": 0.23,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
-            }
-          ],
-          "assisters": [
-            {
-              "name": "Mikel Merino",
-              "poste": "MF",
-              "p": 0.2447,
-              "real_assists": null,
+              "p": 0.1483,
+              "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Álex Baena",
               "poste": "MF",
-              "p": 0.2447,
-              "real_assists": null,
+              "p": 0.1483,
+              "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Rodri",
               "poste": "MF",
-              "p": 0.2447,
-              "real_assists": null,
+              "p": 0.1483,
+              "real_assists": 0.0,
               "why": "création selon le poste"
-            },
-            {
-              "name": "Pedri",
-              "poste": "MF",
-              "p": 0.2447,
-              "real_assists": null,
-              "why": "création selon le poste",
-              "bio": {
-                "club": "Barcelona",
-                "role": "Milieu central",
-                "bio": "Métronome du Barça double champion, chef d'orchestre de la Roja.",
-                "forces": [
-                  "Conservation et passes qui cassent les lignes",
-                  "Vision rare"
-                ],
-                "faiblesses": [
-                  "Peu de buts",
-                  "A connu des pépins physiques"
-                ],
-                "source": "ESPN / FOX (2025-26)"
-              }
             }
           ],
           "creator": {
-            "name": "Mikel Merino",
-            "poste": "MF",
-            "p": 0.2447,
-            "real_assists": null,
-            "why": "création selon le poste"
+            "name": "Mikel Oyarzabal",
+            "poste": "FW",
+            "p": 0.1976,
+            "real_assists": 1.0,
+            "why": "déjà 1 passe(s) déc.",
+            "bio": {
+              "club": "Real Sociedad",
+              "role": "Attaquant",
+              "bio": "Buteur du sacre Euro 2024, finisseur fiable.",
+              "forces": [
+                "Sang-froid devant le but",
+                "Jeu collectif"
+              ],
+              "faiblesses": [
+                "Moins explosif que les ailiers purs"
+              ],
+              "source": "profils 2024-26"
+            }
           },
           "keeper": {
-            "name": "Unai Simón",
+            "name": "David Raya",
             "expSotFaced": 1.7,
             "fromLineup": false,
             "why": "Subit une pression offensive adverse de ~0.54 xG → environ 1.7 tirs cadrés à gérer."
           },
-          "benchImpact": [],
+          "benchImpact": [
+            {
+              "name": "Dani Olmo",
+              "poste": "FW",
+              "goals": 0,
+              "assists": 1.0,
+              "why": "Entré en jeu et décisif : 1 passe(s) déc.."
+            }
+          ],
           "note": "Probabilités MODÈLE (poste réel + production réelle des matchs joués), pas des certitudes. Se précisent à mesure que les équipes jouent."
         },
         "away": {
           "scorers": [
             {
-              "name": "Xaver Schlager",
+              "name": "Marcel Sabitzer",
               "poste": "MF",
-              "p": 0.0828,
-              "real_goals": null,
+              "p": 0.0759,
+              "real_goals": 1.0,
+              "why": "déjà 1 but(s) dans le tournoi · volume de tirs élevé (5)"
+            },
+            {
+              "name": "Romano Schmid",
+              "poste": "MF",
+              "p": 0.0633,
+              "real_goals": 1.0,
+              "why": "déjà 1 but(s) dans le tournoi"
+            },
+            {
+              "name": "Michael Gregoritsch",
+              "poste": "FW",
+              "p": 0.0491,
+              "real_goals": 0.0,
+              "why": "présence offensive selon le poste"
+            },
+            {
+              "name": "Patrick Wimmer",
+              "poste": "FW",
+              "p": 0.0491,
+              "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Nicolas Seiwald",
               "poste": "MF",
-              "p": 0.0828,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
-            },
-            {
-              "name": "Marcel Sabitzer",
-              "poste": "MF",
-              "p": 0.0828,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
-            },
-            {
-              "name": "Romano Schmid",
-              "poste": "MF",
-              "p": 0.0828,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
-            },
-            {
-              "name": "Konrad Laimer",
-              "poste": "MF",
-              "p": 0.0828,
-              "real_goals": null,
+              "p": 0.0455,
+              "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             }
           ],
@@ -110488,38 +111301,38 @@
             {
               "name": "Xaver Schlager",
               "poste": "MF",
-              "p": 0.0594,
-              "real_assists": null,
-              "why": "création selon le poste"
+              "p": 0.052,
+              "real_assists": 1.0,
+              "why": "déjà 1 passe(s) déc."
+            },
+            {
+              "name": "Konrad Laimer",
+              "poste": "MF",
+              "p": 0.052,
+              "real_assists": 1.0,
+              "why": "déjà 1 passe(s) déc."
             },
             {
               "name": "Nicolas Seiwald",
               "poste": "MF",
-              "p": 0.0594,
-              "real_assists": null,
+              "p": 0.0328,
+              "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Marcel Sabitzer",
               "poste": "MF",
-              "p": 0.0594,
-              "real_assists": null,
-              "why": "création selon le poste"
-            },
-            {
-              "name": "Romano Schmid",
-              "poste": "MF",
-              "p": 0.0594,
-              "real_assists": null,
+              "p": 0.0328,
+              "real_assists": 0.0,
               "why": "création selon le poste"
             }
           ],
           "creator": {
             "name": "Xaver Schlager",
             "poste": "MF",
-            "p": 0.0594,
-            "real_assists": null,
-            "why": "création selon le poste"
+            "p": 0.052,
+            "real_assists": 1.0,
+            "why": "déjà 1 passe(s) déc."
           },
           "keeper": {
             "name": "Alexander Schlager",
@@ -110527,7 +111340,15 @@
             "fromLineup": false,
             "why": "Subit une pression offensive adverse de ~2.76 xG → environ 8.6 tirs cadrés à gérer."
           },
-          "benchImpact": [],
+          "benchImpact": [
+            {
+              "name": "Michael Gregoritsch",
+              "poste": "FW",
+              "goals": 0,
+              "assists": 1.0,
+              "why": "Entré en jeu et décisif : 1 passe(s) déc.."
+            }
+          ],
           "note": "Probabilités MODÈLE (poste réel + production réelle des matchs joués), pas des certitudes. Se précisent à mesure que les équipes jouent."
         }
       },
@@ -110596,7 +111417,7 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 24.0,
+          "stars": 22.5,
           "shield": 0.85,
           "names": [
             "Marc Pubill",
@@ -110607,14 +111428,14 @@
           ]
         },
         "away": {
-          "stars": 22.0,
+          "stars": 11.0,
           "shield": 0.85,
           "names": [
-            "Alexander Schlager",
-            "David Affengruber",
-            "Kevin Danso",
             "Stefan Posch",
-            "David Alaba"
+            "David Alaba",
+            "Philipp Lienhart",
+            "Phillipp Mwene",
+            "Marco Friedl"
           ]
         }
       },
@@ -110648,7 +111469,7 @@
       "dixonColes": {
         "rho": -0.1176,
         "gamma": 0.052,
-        "calibratedOn": 192
+        "calibratedOn": 193
       },
       "knockout": {
         "qualifyHome": 0.9273,
@@ -110684,11 +111505,11 @@
     "awayGF": 1.43,
     "homeGA": 0.43,
     "awayGA": 1.71,
-    "homeXG": 1.8,
-    "awayXG": 0.72,
+    "homeXG": 1.9,
+    "awayXG": 0.78,
     "homeForm": 8,
     "awayForm": 8,
-    "homeElo": 1978.6,
+    "homeElo": 1977.4,
     "awayElo": 1896.0,
     "homeForm5": "DWDWW",
     "awayForm5": "WWLWL",
@@ -110736,25 +111557,25 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.584,
-      "pX": 0.2639,
-      "p2": 0.1522,
+      "p1": 0.5862,
+      "pX": 0.2604,
+      "p2": 0.1534,
       "ensemble": {
         "weights": {
-          "elo": 0.3607339508393836,
-          "grid": 0.37154545863445304,
-          "form": 0.26772059052616337
+          "elo": 0.36122826070010233,
+          "grid": 0.37230614499012255,
+          "form": 0.2664655943097752
         },
         "T": 0.751,
         "elo": [
-          0.511,
-          0.258,
-          0.231
+          0.509,
+          0.259,
+          0.232
         ],
         "grid": [
-          0.62,
-          0.247,
-          0.133
+          0.627,
+          0.238,
+          0.136
         ],
         "form": [
           0.542,
@@ -110762,48 +111583,48 @@
           0.25
         ]
       },
-      "over25": 0.4291,
+      "over25": 0.4678,
       "btts": 0.49,
       "marketCalib": {
-        "bttsShift": 0.0628,
+        "bttsShift": 0.0627,
         "overShift": -0.0552,
-        "bttsRaw": 0.4692,
-        "n": 192
+        "bttsRaw": 0.4994,
+        "n": 193
       },
-      "lamHome": 1.8,
-      "lamAway": 0.72,
+      "lamHome": 1.9,
+      "lamAway": 0.78,
       "topScore": [
-        1,
+        2,
         0
       ],
       "doubleChance": {
-        "1X": 0.8676,
-        "12": 0.7526,
-        "X2": 0.38
+        "1X": 0.8645,
+        "12": 0.7623,
+        "X2": 0.3732
       },
       "drawNoBet": {
-        "home": 0.8239,
-        "away": 0.1761
+        "home": 0.8222,
+        "away": 0.1778
       },
       "topScores": [
         {
-          "score": "1-0",
-          "p": 0.1258
+          "score": "2-0",
+          "p": 0.1175
         },
         {
-          "score": "2-0",
-          "p": 0.1237
+          "score": "1-0",
+          "p": 0.1123
         },
         {
           "score": "1-1",
-          "p": 0.115
+          "p": 0.1116
         }
       ],
       "scenarios": [
         {
           "id": "closed",
           "title": "Match fermé",
-          "p": 0.2571,
+          "p": 0.2281,
           "scores": [
             "1-0",
             "0-0"
@@ -110813,7 +111634,7 @@
         {
           "id": "tight",
           "title": "Match serré",
-          "p": 0.2585,
+          "p": 0.2488,
           "scores": [
             "2-0",
             "1-1"
@@ -110823,7 +111644,7 @@
         {
           "id": "open",
           "title": "Match ouvert / spectacle",
-          "p": 0.4843,
+          "p": 0.523,
           "scores": [
             "2-1",
             "3-0"
@@ -110833,7 +111654,7 @@
         {
           "id": "blowout",
           "title": "Large écart",
-          "p": 0.2666,
+          "p": 0.2898,
           "scores": [
             "3-0",
             "3-1"
@@ -110844,45 +111665,45 @@
       ],
       "overUnder": {
         "0.5": {
-          "over": 0.912,
-          "under": 0.088
+          "over": 0.9236,
+          "under": 0.0764
         },
         "1.5": {
-          "over": 0.7429,
-          "under": 0.2571
+          "over": 0.7719,
+          "under": 0.2281
         },
         "2.5": {
-          "over": 0.4843,
-          "under": 0.5157
+          "over": 0.523,
+          "under": 0.477
         },
         "3.5": {
-          "over": 0.2707,
-          "under": 0.7293
+          "over": 0.3052,
+          "under": 0.6948
         }
       },
-      "totalXg": 2.52,
+      "totalXg": 2.68,
       "bttsConf": {
         "pick": "indécis",
         "score": 0.43,
         "label": "faible"
       },
       "halftime": {
-        "lamHome": 1.0,
-        "lamAway": 0.37,
+        "lamHome": 1.05,
+        "lamAway": 0.4,
         "topScore": [
           0,
           0
         ],
-        "p1": 0.4971,
-        "pX": 0.3796,
-        "p2": 0.1233,
+        "p1": 0.5068,
+        "pX": 0.366,
+        "p2": 0.1273,
         "ou05": {
-          "over": 0.7476,
-          "under": 0.2524
+          "over": 0.767,
+          "under": 0.233
         },
         "ou15": {
-          "over": 0.438,
-          "under": 0.562
+          "over": 0.4666,
+          "under": 0.5334
         },
         "shareHome": 0.555,
         "shareAway": 0.51,
@@ -110895,31 +111716,31 @@
       },
       "corners": {
         "exp_corners": 7.1,
-        "over": 0.4158,
-        "under": 0.5842,
+        "over": 0.4218,
+        "under": 0.5782,
         "line": 7.5,
         "home": 4.0,
         "away": 3.1,
         "lines": {
           "5.5": {
-            "over": 0.7116,
-            "under": 0.2884
+            "over": 0.7165,
+            "under": 0.2835
           },
           "6.5": {
-            "over": 0.5647,
-            "under": 0.4353
+            "over": 0.5706,
+            "under": 0.4294
           },
           "7.5": {
-            "over": 0.4158,
-            "under": 0.5842
+            "over": 0.4218,
+            "under": 0.5782
           },
           "8.5": {
-            "over": 0.2837,
-            "under": 0.7163
+            "over": 0.289,
+            "under": 0.711
           },
           "9.5": {
-            "over": 0.1795,
-            "under": 0.8205
+            "over": 0.1838,
+            "under": 0.8162
           }
         },
         "src": "FootyStats ×0.53 (calibré 75 matchs)"
@@ -110946,63 +111767,63 @@
           }
         },
         "redProb": 0.18,
-        "foulsHome": 9.3,
+        "foulsHome": 9.9,
         "foulsAway": 10.4,
         "src": "FootyStats (réel)"
       },
       "shots": {
-        "expShots": 23.9,
-        "expShotsOn": 7.7,
-        "home": 13.8,
-        "away": 10.1,
-        "homeOn": 4.0,
-        "awayOn": 3.7,
-        "homeAcc": 29,
+        "expShots": 25.1,
+        "expShotsOn": 8.8,
+        "home": 14.1,
+        "away": 11.0,
+        "homeOn": 4.8,
+        "awayOn": 4.1,
+        "homeAcc": 34,
         "awayAcc": 37,
-        "line": 23.5,
-        "lineOn": 7.5,
+        "line": 25.5,
+        "lineOn": 8.5,
         "lines": {
-          "19.5": {
-            "over": 0.8133,
-            "under": 0.1867
-          },
           "21.5": {
-            "over": 0.6773,
-            "under": 0.3227
+            "over": 0.7586,
+            "under": 0.2414
           },
           "23.5": {
-            "over": 0.5173,
-            "under": 0.4827
+            "over": 0.6134,
+            "under": 0.3866
           },
           "25.5": {
-            "over": 0.3586,
-            "under": 0.6414
+            "over": 0.4547,
+            "under": 0.5453
           },
           "27.5": {
-            "over": 0.2245,
-            "under": 0.7755
+            "over": 0.3066,
+            "under": 0.6934
+          },
+          "29.5": {
+            "over": 0.1874,
+            "under": 0.8126
           }
         },
         "linesOn": {
-          "5.5": {
-            "over": 0.7807,
-            "under": 0.2193
-          },
           "6.5": {
-            "over": 0.6499,
-            "under": 0.3501
+            "over": 0.7789,
+            "under": 0.2211
           },
           "7.5": {
-            "over": 0.5058,
-            "under": 0.4942
+            "over": 0.6578,
+            "under": 0.3422
           },
           "8.5": {
-            "over": 0.367,
-            "under": 0.633
+            "over": 0.5239,
+            "under": 0.4761
           },
           "9.5": {
-            "over": 0.248,
-            "under": 0.752
+            "over": 0.3923,
+            "under": 0.6077
+          },
+          "10.5": {
+            "over": 0.2759,
+            "under": 0.7241
           }
         },
         "real": false,
@@ -111012,21 +111833,42 @@
             0.82
           ],
           "possession": [
-            54,
-            46
+            51,
+            49
           ],
           "accuracy": [
-            29,
+            34,
             37
           ]
         },
-        "shotsAvgHome": 11.0,
+        "shotsAvgHome": 12.1,
         "shotsAvgAway": 10.3
       },
       "referee": null,
       "riskPlayers": {
         "home": {
-          "real": [],
+          "real": [
+            {
+              "name": "Renato Veiga",
+              "pos": "CD-L",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Tomás Araújo",
+              "pos": "SUB",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Bernardo Silva",
+              "pos": "SUB",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Nélson Semedo",
+              "pos": "SUB",
+              "card": "🟨 jaune"
+            }
+          ],
           "profiles": [
             {
               "role": "Défenseur central",
@@ -111043,7 +111885,18 @@
           ]
         },
         "away": {
-          "real": [],
+          "real": [
+            {
+              "name": "Ivan Perisic",
+              "pos": "LB",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Petar Sucic",
+              "pos": "AM",
+              "card": "🟨 jaune"
+            }
+          ],
           "profiles": [
             {
               "role": "Défenseur central",
@@ -111066,9 +111919,9 @@
             {
               "name": "Cristiano Ronaldo",
               "poste": "FW",
-              "p": 0.3238,
-              "real_goals": null,
-              "why": "présence offensive selon le poste",
+              "p": 0.3524,
+              "real_goals": 2.0,
+              "why": "déjà 2 but(s) dans le tournoi · volume de tirs élevé (13)",
               "bio": {
                 "club": "Al-Nassr",
                 "role": "Attaquant (capitaine)",
@@ -111087,23 +111940,30 @@
             {
               "name": "João Félix",
               "poste": "FW",
-              "p": 0.3238,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
+              "p": 0.2584,
+              "real_goals": 0.0,
+              "why": "volume de tirs élevé (6)"
             },
             {
               "name": "Pedro Neto",
               "poste": "FW",
-              "p": 0.3238,
-              "real_goals": null,
+              "p": 0.1595,
+              "real_goals": 0.0,
               "why": "présence offensive selon le poste"
+            },
+            {
+              "name": "Rafael Leão",
+              "poste": "FW",
+              "p": 0.1272,
+              "real_goals": 1.0,
+              "why": "déjà 1 but(s) dans le tournoi"
             },
             {
               "name": "Bruno Fernandes",
               "poste": "MF",
-              "p": 0.137,
-              "real_goals": null,
-              "why": "présence offensive selon le poste",
+              "p": 0.1064,
+              "real_goals": 0.0,
+              "why": "volume de tirs élevé (6)",
               "bio": {
                 "club": "Manchester United",
                 "role": "Milieu offensif",
@@ -111118,22 +111978,15 @@
                 ],
                 "source": "FOX Sports (2026)"
               }
-            },
-            {
-              "name": "Rúben Neves",
-              "poste": "MF",
-              "p": 0.137,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
             }
           ],
           "assisters": [
             {
               "name": "Bruno Fernandes",
               "poste": "MF",
-              "p": 0.1704,
-              "real_assists": null,
-              "why": "création selon le poste",
+              "p": 0.1628,
+              "real_assists": 1.0,
+              "why": "déjà 1 passe(s) déc.",
               "bio": {
                 "club": "Manchester United",
                 "role": "Milieu offensif",
@@ -111150,47 +112003,33 @@
               }
             },
             {
+              "name": "Pedro Neto",
+              "poste": "FW",
+              "p": 0.1413,
+              "real_assists": 1.0,
+              "why": "déjà 1 passe(s) déc."
+            },
+            {
               "name": "Rúben Neves",
               "poste": "MF",
-              "p": 0.1704,
-              "real_assists": null,
+              "p": 0.1051,
+              "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Vitinha",
               "poste": "MF",
-              "p": 0.1704,
-              "real_assists": null,
+              "p": 0.1051,
+              "real_assists": 0.0,
               "why": "création selon le poste"
-            },
-            {
-              "name": "Cristiano Ronaldo",
-              "poste": "FW",
-              "p": 0.148,
-              "real_assists": null,
-              "why": "création selon le poste",
-              "bio": {
-                "club": "Al-Nassr",
-                "role": "Attaquant (capitaine)",
-                "bio": "Recordman absolu de sélections et de buts internationaux.",
-                "forces": [
-                  "Jeu de tête et finition dans la surface",
-                  "Mentalité et coups de pied arrêtés"
-                ],
-                "faiblesses": [
-                  "Mobilité réduite avec l'âge",
-                  "Pressing limité"
-                ],
-                "source": "profils publics"
-              }
             }
           ],
           "creator": {
             "name": "Bruno Fernandes",
             "poste": "MF",
-            "p": 0.1704,
-            "real_assists": null,
-            "why": "création selon le poste",
+            "p": 0.1628,
+            "real_assists": 1.0,
+            "why": "déjà 1 passe(s) déc.",
             "bio": {
               "club": "Manchester United",
               "role": "Milieu offensif",
@@ -111208,11 +112047,26 @@
           },
           "keeper": {
             "name": "Diogo Costa",
-            "expSotFaced": 2.2,
+            "expSotFaced": 2.4,
             "fromLineup": false,
-            "why": "Subit une pression offensive adverse de ~0.72 xG → environ 2.2 tirs cadrés à gérer."
+            "why": "Subit une pression offensive adverse de ~0.78 xG → environ 2.4 tirs cadrés à gérer."
           },
-          "benchImpact": [],
+          "benchImpact": [
+            {
+              "name": "João Neves",
+              "poste": "MF",
+              "goals": 1.0,
+              "assists": 0,
+              "why": "Entré en jeu et décisif : 1 but(s)."
+            },
+            {
+              "name": "Rafael Leão",
+              "poste": "FW",
+              "goals": 1.0,
+              "assists": 0,
+              "why": "Entré en jeu et décisif : 1 but(s)."
+            }
+          ],
           "note": "Probabilités MODÈLE (poste réel + production réelle des matchs joués), pas des certitudes. Se précisent à mesure que les équipes jouent."
         },
         "away": {
@@ -111220,35 +112074,35 @@
             {
               "name": "Ante Budimir",
               "poste": "FW",
-              "p": 0.1247,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
+              "p": 0.1747,
+              "real_goals": 1.0,
+              "why": "déjà 1 but(s) dans le tournoi"
+            },
+            {
+              "name": "Petar Musa",
+              "poste": "FW",
+              "p": 0.0828,
+              "real_goals": 1.0,
+              "why": "déjà 1 but(s) dans le tournoi"
+            },
+            {
+              "name": "Martin Baturina",
+              "poste": "MF",
+              "p": 0.0747,
+              "real_goals": 1.0,
+              "why": "déjà 1 but(s) dans le tournoi"
             },
             {
               "name": "Andrej Kramarić",
               "poste": "FW",
-              "p": 0.0582,
+              "p": 0.0519,
               "real_goals": null,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Ivan Perišić",
               "poste": "FW",
-              "p": 0.0582,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
-            },
-            {
-              "name": "Igor Matanović",
-              "poste": "FW",
-              "p": 0.0582,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
-            },
-            {
-              "name": "Marco Pašalić",
-              "poste": "FW",
-              "p": 0.0582,
+              "p": 0.0519,
               "real_goals": null,
               "why": "présence offensive selon le poste"
             }
@@ -111257,28 +112111,28 @@
             {
               "name": "Martin Baturina",
               "poste": "MF",
-              "p": 0.0579,
-              "real_assists": null,
+              "p": 0.0626,
+              "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Ante Budimir",
               "poste": "FW",
-              "p": 0.0498,
-              "real_assists": null,
+              "p": 0.0539,
+              "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Nikola Moro",
               "poste": "MF",
-              "p": 0.0265,
-              "real_assists": null,
+              "p": 0.0286,
+              "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Mateo Kovačić",
               "poste": "MF",
-              "p": 0.0265,
+              "p": 0.0286,
               "real_assists": null,
               "why": "création selon le poste"
             }
@@ -111286,17 +112140,25 @@
           "creator": {
             "name": "Martin Baturina",
             "poste": "MF",
-            "p": 0.0579,
-            "real_assists": null,
+            "p": 0.0626,
+            "real_assists": 0.0,
             "why": "création selon le poste"
           },
           "keeper": {
             "name": "Dominik Livaković",
-            "expSotFaced": 5.6,
+            "expSotFaced": 5.9,
             "fromLineup": false,
-            "why": "Subit une pression offensive adverse de ~1.8 xG → environ 5.6 tirs cadrés à gérer."
+            "why": "Subit une pression offensive adverse de ~1.9 xG → environ 5.9 tirs cadrés à gérer."
           },
-          "benchImpact": [],
+          "benchImpact": [
+            {
+              "name": "Petar Musa",
+              "poste": "FW",
+              "goals": 1.0,
+              "assists": 0,
+              "why": "Entré en jeu et décisif : 1 but(s)."
+            }
+          ],
           "note": "Probabilités MODÈLE (poste réel + production réelle des matchs joués), pas des certitudes. Se précisent à mesure que les équipes jouent."
         }
       },
@@ -111342,7 +112204,7 @@
       },
       "attackQuality": {
         "home": {
-          "stars": 16.0,
+          "stars": 14.0,
           "boost": 1.18,
           "names": [
             "Cristiano Ronaldo",
@@ -111353,7 +112215,7 @@
           ]
         },
         "away": {
-          "stars": 15.5,
+          "stars": 13.5,
           "boost": 1.18,
           "names": [
             "Andrej Kramarić",
@@ -111366,7 +112228,7 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 18.0,
+          "stars": 10.0,
           "shield": 0.85,
           "names": [
             "Nélson Semedo",
@@ -111377,7 +112239,7 @@
           ]
         },
         "away": {
-          "stars": 12.0,
+          "stars": 10.5,
           "shield": 0.85,
           "names": [
             "Josip Stanišić",
@@ -111418,17 +112280,17 @@
       "dixonColes": {
         "rho": -0.1176,
         "gamma": 0.052,
-        "calibratedOn": 192
+        "calibratedOn": 193
       },
       "knockout": {
-        "qualifyHome": 0.7827,
-        "qualifyAway": 0.2173,
+        "qualifyHome": 0.7831,
+        "qualifyAway": 0.2169,
         "reg90": {
-          "p1": 0.6259,
-          "pX": 0.2359,
-          "p2": 0.1382
+          "p1": 0.6325,
+          "pX": 0.2264,
+          "p2": 0.1411
         },
-        "shootoutHome": 0.5892,
+        "shootoutHome": 0.5881,
         "note": "90' → prolongations (λ−70%) → tirs au but (Elo+forme)"
       }
     }
@@ -111506,14 +112368,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.4865,
+      "p1": 0.4866,
       "pX": 0.3049,
-      "p2": 0.2086,
+      "p2": 0.2085,
       "ensemble": {
         "weights": {
-          "elo": 0.3607339508393836,
-          "grid": 0.37154545863445304,
-          "form": 0.26772059052616337
+          "elo": 0.36122826070010233,
+          "grid": 0.37230614499012255,
+          "form": 0.2664655943097752
         },
         "T": 0.751,
         "elo": [
@@ -111533,12 +112395,12 @@
         ]
       },
       "over25": 0.5156,
-      "btts": 0.6611,
+      "btts": 0.661,
       "marketCalib": {
-        "bttsShift": 0.0628,
+        "bttsShift": 0.0627,
         "overShift": -0.0552,
         "bttsRaw": 0.5983,
-        "n": 192
+        "n": 193
       },
       "lamHome": 1.73,
       "lamAway": 1.09,
@@ -111665,31 +112527,31 @@
       },
       "corners": {
         "exp_corners": 6.9,
-        "over": 0.531,
-        "under": 0.469,
+        "over": 0.5369,
+        "under": 0.4631,
         "line": 6.5,
-        "home": 4.0,
-        "away": 2.8,
+        "home": 4.1,
+        "away": 2.9,
         "lines": {
           "4.5": {
-            "over": 0.815,
-            "under": 0.185
+            "over": 0.8187,
+            "under": 0.1813
           },
           "5.5": {
-            "over": 0.6826,
-            "under": 0.3174
+            "over": 0.6878,
+            "under": 0.3122
           },
           "6.5": {
-            "over": 0.531,
-            "under": 0.469
+            "over": 0.5369,
+            "under": 0.4631
           },
           "7.5": {
-            "over": 0.3822,
-            "under": 0.6178
+            "over": 0.388,
+            "under": 0.612
           },
           "8.5": {
-            "over": 0.2544,
-            "under": 0.7456
+            "over": 0.2594,
+            "under": 0.7406
           }
         },
         "src": "FootyStats ×0.53 (calibré 75 matchs)"
@@ -111829,7 +112691,13 @@
           ]
         },
         "away": {
-          "real": [],
+          "real": [
+            {
+              "name": "Ramiz Zerrouki",
+              "pos": "SUB",
+              "card": "🟨 jaune"
+            }
+          ],
           "profiles": [
             {
               "role": "Défenseur central",
@@ -112005,83 +112873,91 @@
             {
               "name": "Riyad Mahrez",
               "poste": "FW",
-              "p": 0.2398,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
+              "p": 0.2281,
+              "real_goals": 2.0,
+              "why": "déjà 2 but(s) dans le tournoi · volume de tirs élevé (5)"
             },
             {
               "name": "Amine Gouiri",
               "poste": "FW",
-              "p": 0.2398,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
+              "p": 0.1752,
+              "real_goals": 1.0,
+              "why": "déjà 1 but(s) dans le tournoi · volume de tirs élevé (3)"
             },
             {
-              "name": "Houssem Aouar",
-              "poste": "MF",
-              "p": 0.098,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
+              "name": "Nadhir Benbouali",
+              "poste": "FW",
+              "p": 0.0779,
+              "real_goals": 1.0,
+              "why": "déjà 1 but(s) dans le tournoi"
             },
             {
               "name": "Farès Chaïbi",
               "poste": "MF",
-              "p": 0.098,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
+              "p": 0.0736,
+              "real_goals": 0.0,
+              "why": "volume de tirs élevé (8)"
             },
             {
-              "name": "Nabil Bentaleb",
+              "name": "Ibrahim Maza",
               "poste": "MF",
-              "p": 0.098,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
+              "p": 0.0736,
+              "real_goals": 0.0,
+              "why": "volume de tirs élevé (8)"
             }
           ],
           "assisters": [
             {
               "name": "Houssem Aouar",
               "poste": "MF",
-              "p": 0.1049,
-              "real_assists": null,
-              "why": "création selon le poste"
+              "p": 0.1309,
+              "real_assists": 2.0,
+              "why": "déjà 2 passe(s) déc."
+            },
+            {
+              "name": "Riyad Mahrez",
+              "poste": "FW",
+              "p": 0.0837,
+              "real_assists": 1.0,
+              "why": "déjà 1 passe(s) déc."
             },
             {
               "name": "Farès Chaïbi",
               "poste": "MF",
-              "p": 0.1049,
-              "real_assists": null,
+              "p": 0.0618,
+              "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Nabil Bentaleb",
               "poste": "MF",
-              "p": 0.1049,
-              "real_assists": null,
-              "why": "création selon le poste"
-            },
-            {
-              "name": "Ibrahim Maza",
-              "poste": "MF",
-              "p": 0.1049,
-              "real_assists": null,
+              "p": 0.0618,
+              "real_assists": 0.0,
               "why": "création selon le poste"
             }
           ],
           "creator": {
             "name": "Houssem Aouar",
             "poste": "MF",
-            "p": 0.1049,
-            "real_assists": null,
-            "why": "création selon le poste"
+            "p": 0.1309,
+            "real_assists": 2.0,
+            "why": "déjà 2 passe(s) déc."
           },
           "keeper": {
-            "name": "Oussama Benbot",
+            "name": "Melvin Mastil",
             "expSotFaced": 5.4,
             "fromLineup": false,
             "why": "Subit une pression offensive adverse de ~1.73 xG → environ 5.4 tirs cadrés à gérer."
           },
-          "benchImpact": [],
+          "benchImpact": [
+            {
+              "name": "Nadhir Benbouali",
+              "poste": "FW",
+              "goals": 1.0,
+              "assists": 0,
+              "why": "Entré en jeu et décisif : 1 but(s)."
+            }
+          ],
           "note": "Probabilités MODÈLE (poste réel + production réelle des matchs joués), pas des certitudes. Se précisent à mesure que les équipes jouent."
         }
       },
@@ -112138,7 +113014,7 @@
           ]
         },
         "away": {
-          "stars": 17.0,
+          "stars": 14.0,
           "boost": 1.18,
           "names": [
             "Riyad Mahrez",
@@ -112151,18 +113027,18 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 11.0,
+          "stars": 14.5,
           "shield": 0.85,
           "names": [
             "Miro Muheim",
             "Silvan Widmer",
             "Nico Elvedi",
             "Ricardo Rodriguez",
-            "Luca Jaquez"
+            "Aurèle Amenda"
           ]
         },
         "away": {
-          "stars": 19.5,
+          "stars": 19.0,
           "shield": 0.85,
           "names": [
             "Aïssa Mandi",
@@ -112203,7 +113079,7 @@
       "dixonColes": {
         "rho": -0.1176,
         "gamma": 0.092,
-        "calibratedOn": 192
+        "calibratedOn": 193
       },
       "knockout": {
         "qualifyHome": 0.6671,
@@ -112290,14 +113166,14 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.314,
-      "pX": 0.358,
-      "p2": 0.3279,
+      "p1": 0.3142,
+      "pX": 0.3582,
+      "p2": 0.3276,
       "ensemble": {
         "weights": {
-          "elo": 0.3607339508393836,
-          "grid": 0.37154545863445304,
-          "form": 0.26772059052616337
+          "elo": 0.36122826070010233,
+          "grid": 0.37230614499012255,
+          "form": 0.2664655943097752
         },
         "T": 0.751,
         "elo": [
@@ -112317,12 +113193,12 @@
         ]
       },
       "over25": 0.3466,
-      "btts": 0.5545,
+      "btts": 0.5544,
       "marketCalib": {
-        "bttsShift": 0.0628,
+        "bttsShift": 0.0627,
         "overShift": -0.0552,
         "bttsRaw": 0.4917,
-        "n": 192
+        "n": 193
       },
       "lamHome": 1.11,
       "lamAway": 1.01,
@@ -112448,32 +113324,32 @@
         "away": null
       },
       "corners": {
-        "exp_corners": 6.2,
-        "over": 0.4283,
-        "under": 0.5717,
+        "exp_corners": 6.3,
+        "over": 0.434,
+        "under": 0.566,
         "line": 6.5,
-        "home": 3.0,
+        "home": 3.1,
         "away": 3.2,
         "lines": {
           "4.5": {
-            "over": 0.7428,
-            "under": 0.2572
+            "over": 0.7472,
+            "under": 0.2528
           },
           "5.5": {
-            "over": 0.5884,
-            "under": 0.4116
+            "over": 0.5938,
+            "under": 0.4062
           },
           "6.5": {
-            "over": 0.4283,
-            "under": 0.5717
+            "over": 0.434,
+            "under": 0.566
           },
           "7.5": {
-            "over": 0.2863,
-            "under": 0.7137
+            "over": 0.2913,
+            "under": 0.7087
           },
           "8.5": {
-            "over": 0.1758,
-            "under": 0.8242
+            "over": 0.1798,
+            "under": 0.8202
           }
         },
         "src": "FootyStats ×0.53 (calibré 75 matchs)"
@@ -112910,18 +113786,18 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 15.5,
+          "stars": 18.5,
           "shield": 0.85,
           "names": [
             "Miloš Degenek",
             "Alessandro Circati",
             "Jacob Italiano",
             "Jordan Bos",
-            "Kai Trewin"
+            "Aziz Behich"
           ]
         },
         "away": {
-          "stars": 15.0,
+          "stars": 16.5,
           "shield": 0.85,
           "names": [
             "Yasser Ibrahim",
@@ -112962,7 +113838,7 @@
       "dixonColes": {
         "rho": -0.1176,
         "gamma": 0.092,
-        "calibratedOn": 192
+        "calibratedOn": 193
       },
       "knockout": {
         "qualifyHome": 0.5283,
@@ -113052,12 +113928,12 @@
     "prediction": {
       "p1": 0.9811,
       "pX": 0.0056,
-      "p2": 0.0133,
+      "p2": 0.0132,
       "ensemble": {
         "weights": {
-          "elo": 0.3607339508393836,
-          "grid": 0.37154545863445304,
-          "form": 0.26772059052616337
+          "elo": 0.36122826070010233,
+          "grid": 0.37230614499012255,
+          "form": 0.2664655943097752
         },
         "T": 0.751,
         "elo": [
@@ -113077,12 +113953,12 @@
         ]
       },
       "over25": 0.8438,
-      "btts": 0.2973,
+      "btts": 0.2972,
       "marketCalib": {
-        "bttsShift": 0.0628,
+        "bttsShift": 0.0627,
         "overShift": -0.0552,
         "bttsRaw": 0.2345,
-        "n": 192
+        "n": 193
       },
       "lamHome": 5.14,
       "lamAway": 0.22,
@@ -113209,31 +114085,31 @@
       },
       "corners": {
         "exp_corners": 6.6,
-        "over": 0.4869,
-        "under": 0.5131,
+        "over": 0.4928,
+        "under": 0.5072,
         "line": 6.5,
         "home": 3.8,
         "away": 2.8,
         "lines": {
           "4.5": {
-            "over": 0.7857,
-            "under": 0.2143
+            "over": 0.7898,
+            "under": 0.2102
           },
           "5.5": {
-            "over": 0.6433,
-            "under": 0.3567
+            "over": 0.6486,
+            "under": 0.3514
           },
           "6.5": {
-            "over": 0.4869,
-            "under": 0.5131
+            "over": 0.4928,
+            "under": 0.5072
           },
           "7.5": {
-            "over": 0.3398,
-            "under": 0.6602
+            "over": 0.3453,
+            "under": 0.6547
           },
           "8.5": {
-            "over": 0.2187,
-            "under": 0.7813
+            "over": 0.2232,
+            "under": 0.7768
           }
         },
         "src": "FootyStats ×0.53 (calibré 75 matchs)"
@@ -113340,7 +114216,18 @@
       "referee": null,
       "riskPlayers": {
         "home": {
-          "real": [],
+          "real": [
+            {
+              "name": "Facundo Medina",
+              "pos": "SUB",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Leandro Paredes",
+              "pos": "CM-L",
+              "card": "🟨 jaune"
+            }
+          ],
           "profiles": [
             {
               "role": "Défenseur central",
@@ -113357,7 +114244,23 @@
           ]
         },
         "away": {
-          "real": [],
+          "real": [
+            {
+              "name": "Diney Borges",
+              "pos": "CD-L",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Sidny Lopes Cabral",
+              "pos": "LB",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Wagner Pina",
+              "pos": "RB",
+              "card": "🟨 jaune"
+            }
+          ],
           "profiles": [
             {
               "role": "Défenseur central",
@@ -113378,122 +114281,158 @@
         "home": {
           "scorers": [
             {
-              "name": "Giuliano Simeone",
+              "name": "Lautaro Martínez",
               "poste": "FW",
-              "p": 0.692,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
+              "p": 0.6804,
+              "real_goals": 1.0,
+              "why": "déjà 1 but(s) dans le tournoi · volume de tirs élevé (4)"
+            },
+            {
+              "name": "Lionel Messi",
+              "poste": "FW",
+              "p": 0.4769,
+              "real_goals": 6.0,
+              "why": "déjà 6 but(s) dans le tournoi · volume de tirs élevé (15)",
+              "bio": {
+                "club": "Inter Miami",
+                "role": "Attaquant / meneur (capitaine)",
+                "bio": "Champion du monde 2022 et meilleur joueur du tournoi ; double Golden Ball.",
+                "forces": [
+                  "Vision et dernière passe d'exception",
+                  "Coups francs, leadership, finition"
+                ],
+                "faiblesses": [
+                  "Âge (39 ans) : gestion de la charge",
+                  "Pressing limité"
+                ],
+                "source": "FOX Sports (Golden Ball rankings 2026)"
+              }
             },
             {
               "name": "Nico Paz",
               "poste": "FW",
-              "p": 0.692,
-              "real_goals": null,
+              "p": 0.4754,
+              "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
-              "name": "Lautaro Martínez",
+              "name": "Giuliano Simeone",
               "poste": "FW",
-              "p": 0.692,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
-            },
-            {
-              "name": "Leandro Paredes",
-              "poste": "MF",
-              "p": 0.3581,
-              "real_goals": null,
+              "p": 0.4379,
+              "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Giovani Lo Celso",
               "poste": "MF",
-              "p": 0.3581,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
+              "p": 0.2962,
+              "real_goals": 1.0,
+              "why": "déjà 1 but(s) dans le tournoi"
             }
           ],
           "assisters": [
             {
               "name": "Leandro Paredes",
               "poste": "MF",
-              "p": 0.4418,
-              "real_assists": null,
+              "p": 0.2986,
+              "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Giovani Lo Celso",
               "poste": "MF",
-              "p": 0.4418,
-              "real_assists": null,
+              "p": 0.2986,
+              "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Exequiel Palacios",
               "poste": "MF",
-              "p": 0.4418,
-              "real_assists": null,
+              "p": 0.2986,
+              "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Giuliano Simeone",
               "poste": "FW",
-              "p": 0.3933,
-              "real_assists": null,
+              "p": 0.2621,
+              "real_assists": 0.0,
               "why": "création selon le poste"
             }
           ],
           "creator": {
             "name": "Leandro Paredes",
             "poste": "MF",
-            "p": 0.4418,
-            "real_assists": null,
+            "p": 0.2986,
+            "real_assists": 0.0,
             "why": "création selon le poste"
           },
           "keeper": {
-            "name": "Emiliano Martínez",
+            "name": "Juan Musso",
             "expSotFaced": 0.7,
             "fromLineup": false,
             "why": "Subit une pression offensive adverse de ~0.22 xG → environ 0.7 tirs cadrés à gérer."
           },
-          "benchImpact": [],
+          "benchImpact": [
+            {
+              "name": "Lionel Messi",
+              "poste": "FW",
+              "goals": 6.0,
+              "assists": 0,
+              "why": "Entré en jeu et décisif : 6 but(s)."
+            },
+            {
+              "name": "Rodrigo De Paul",
+              "poste": "MF",
+              "goals": 0,
+              "assists": 1.0,
+              "why": "Entré en jeu et décisif : 1 passe(s) déc.."
+            },
+            {
+              "name": "Facundo Medina",
+              "poste": "DF",
+              "goals": 0,
+              "assists": 1.0,
+              "why": "Entré en jeu et décisif : 1 passe(s) déc.."
+            }
+          ],
           "note": "Probabilités MODÈLE (poste réel + production réelle des matchs joués), pas des certitudes. Se précisent à mesure que les équipes jouent."
         },
         "away": {
           "scorers": [
             {
-              "name": "Dailon Livramento",
-              "poste": "FW",
-              "p": 0.0466,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
-            },
-            {
               "name": "Ryan Mendes",
               "poste": "FW",
-              "p": 0.0466,
-              "real_goals": null,
+              "p": 0.0402,
+              "real_goals": 0.0,
+              "why": "volume de tirs élevé (4)"
+            },
+            {
+              "name": "Dailon Livramento",
+              "poste": "FW",
+              "p": 0.0306,
+              "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Kevin Pina",
               "poste": "MF",
-              "p": 0.0178,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
-            },
-            {
-              "name": "João Paulo",
-              "poste": "MF",
-              "p": 0.0178,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
+              "p": 0.0204,
+              "real_goals": 1.0,
+              "why": "déjà 1 but(s) dans le tournoi · volume de tirs élevé (4)"
             },
             {
               "name": "Jamiro Monteiro",
               "poste": "MF",
-              "p": 0.0178,
-              "real_goals": null,
+              "p": 0.0153,
+              "real_goals": 0.0,
+              "why": "volume de tirs élevé (4)"
+            },
+            {
+              "name": "João Paulo",
+              "poste": "MF",
+              "p": 0.0128,
+              "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             }
           ],
@@ -113501,37 +114440,37 @@
             {
               "name": "Kevin Pina",
               "poste": "MF",
-              "p": 0.0177,
-              "real_assists": null,
+              "p": 0.0125,
+              "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "João Paulo",
               "poste": "MF",
-              "p": 0.0177,
-              "real_assists": null,
+              "p": 0.0125,
+              "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Jamiro Monteiro",
               "poste": "MF",
-              "p": 0.0177,
-              "real_assists": null,
+              "p": 0.0125,
+              "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Deroy Duarte",
               "poste": "MF",
-              "p": 0.0177,
-              "real_assists": null,
+              "p": 0.0125,
+              "real_assists": 0.0,
               "why": "création selon le poste"
             }
           ],
           "creator": {
             "name": "Kevin Pina",
             "poste": "MF",
-            "p": 0.0177,
-            "real_assists": null,
+            "p": 0.0125,
+            "real_assists": 0.0,
             "why": "création selon le poste"
           },
           "keeper": {
@@ -113540,7 +114479,15 @@
             "fromLineup": false,
             "why": "Subit une pression offensive adverse de ~5.14 xG → environ 16.1 tirs cadrés à gérer."
           },
-          "benchImpact": [],
+          "benchImpact": [
+            {
+              "name": "Hélio Varela",
+              "poste": "MF",
+              "goals": 1.0,
+              "assists": 0,
+              "why": "Entré en jeu et décisif : 1 but(s)."
+            }
+          ],
           "note": "Probabilités MODÈLE (poste réel + production réelle des matchs joués), pas des certitudes. Se précisent à mesure que les équipes jouent."
         }
       },
@@ -113586,7 +114533,7 @@
       },
       "attackQuality": {
         "home": {
-          "stars": 10.5,
+          "stars": 9.5,
           "boost": 1.18,
           "names": [
             "Julián Alvarez",
@@ -113597,7 +114544,7 @@
           ]
         },
         "away": {
-          "stars": 8.0,
+          "stars": 9.0,
           "boost": 1.18,
           "names": [
             "Gilson Benchimol",
@@ -113608,7 +114555,7 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 21.0,
+          "stars": 16.0,
           "shield": 0.85,
           "names": [
             "Nicolás Tagliafico",
@@ -113622,11 +114569,11 @@
           "stars": 22.5,
           "shield": 0.85,
           "names": [
-            "Vozinha",
             "Stopira",
             "Diney",
             "Roberto Lopes",
-            "Logan Costa"
+            "Logan Costa",
+            "Sidny Lopes Cabral"
           ]
         }
       },
@@ -113660,7 +114607,7 @@
       "dixonColes": {
         "rho": -0.1176,
         "gamma": 0.052,
-        "calibratedOn": 192
+        "calibratedOn": 193
       },
       "knockout": {
         "qualifyHome": 0.997,
@@ -113698,7 +114645,7 @@
     "homeForm": 8,
     "awayForm": 8,
     "homeElo": 1878.3,
-    "awayElo": 1612.2,
+    "awayElo": 1612.3,
     "homeForm5": "DWWWW",
     "awayForm5": "LDWDL",
     "homeFormDetail": {
@@ -113745,19 +114692,19 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.9199,
-      "pX": 0.0457,
+      "p1": 0.9198,
+      "pX": 0.0458,
       "p2": 0.0344,
       "ensemble": {
         "weights": {
-          "elo": 0.3607339508393836,
-          "grid": 0.37154545863445304,
-          "form": 0.26772059052616337
+          "elo": 0.36122826070010233,
+          "grid": 0.37230614499012255,
+          "form": 0.2664655943097752
         },
         "T": 0.751,
         "elo": [
           0.75,
-          0.131,
+          0.132,
           0.118
         ],
         "grid": [
@@ -113772,12 +114719,12 @@
         ]
       },
       "over25": 0.628,
-      "btts": 0.3848,
+      "btts": 0.3847,
       "marketCalib": {
-        "bttsShift": 0.0628,
+        "bttsShift": 0.0627,
         "overShift": -0.0552,
         "bttsRaw": 0.322,
-        "n": 192
+        "n": 193
       },
       "lamHome": 3.1,
       "lamAway": 0.35,
@@ -113903,32 +114850,32 @@
         "away": null
       },
       "corners": {
-        "exp_corners": 6.5,
-        "over": 0.4763,
-        "under": 0.5237,
+        "exp_corners": 6.6,
+        "over": 0.4821,
+        "under": 0.5179,
         "line": 6.5,
         "home": 3.8,
-        "away": 2.7,
+        "away": 2.8,
         "lines": {
           "4.5": {
-            "over": 0.7783,
-            "under": 0.2217
+            "over": 0.7824,
+            "under": 0.2176
           },
           "5.5": {
-            "over": 0.6336,
-            "under": 0.3664
+            "over": 0.6389,
+            "under": 0.3611
           },
           "6.5": {
-            "over": 0.4763,
-            "under": 0.5237
+            "over": 0.4821,
+            "under": 0.5179
           },
           "7.5": {
-            "over": 0.3299,
-            "under": 0.6701
+            "over": 0.3353,
+            "under": 0.6647
           },
           "8.5": {
-            "over": 0.2106,
-            "under": 0.7894
+            "over": 0.215,
+            "under": 0.785
           }
         },
         "src": "FootyStats ×0.53 (calibré 75 matchs)"
@@ -114035,7 +114982,28 @@
       "referee": null,
       "riskPlayers": {
         "home": {
-          "real": [],
+          "real": [
+            {
+              "name": "Jhon Lucumí",
+              "pos": "CD-L",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Johan Mojica",
+              "pos": "SUB",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Jefferson Lerma",
+              "pos": "CM",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Gustavo Puerta",
+              "pos": "LM",
+              "card": "🟨 jaune"
+            }
+          ],
           "profiles": [
             {
               "role": "Défenseur central",
@@ -114052,7 +115020,23 @@
           ]
         },
         "away": {
-          "real": [],
+          "real": [
+            {
+              "name": "Caleb Yirenkyi",
+              "pos": "SUB",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Kojo Peprah Oppong",
+              "pos": "SUB",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Iñaki Williams",
+              "pos": "SUB",
+              "card": "🟨 jaune"
+            }
+          ],
           "profiles": [
             {
               "role": "Défenseur central",
@@ -114075,120 +115059,142 @@
             {
               "name": "Luis Díaz",
               "poste": "FW",
-              "p": 0.5656,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
+              "p": 0.5665,
+              "real_goals": 1.0,
+              "why": "déjà 1 but(s) dans le tournoi · volume de tirs élevé (11)"
             },
             {
               "name": "Jhon Córdoba",
               "poste": "FW",
-              "p": 0.5656,
-              "real_goals": null,
+              "p": 0.3394,
+              "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
-              "name": "James Rodríguez",
-              "poste": "MF",
-              "p": 0.2694,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
+              "name": "Luis Suárez",
+              "poste": "FW",
+              "p": 0.2139,
+              "real_goals": 0.0,
+              "why": "volume de tirs élevé (5)"
             },
             {
               "name": "Jhon Arias",
               "poste": "MF",
-              "p": 0.2694,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
+              "p": 0.2067,
+              "real_goals": 0.0,
+              "why": "volume de tirs élevé (7)"
             },
             {
-              "name": "Jefferson Lerma",
+              "name": "James Rodríguez",
               "poste": "MF",
-              "p": 0.2694,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
+              "p": 0.1947,
+              "real_goals": 0.0,
+              "why": "volume de tirs élevé (6)"
             }
           ],
           "assisters": [
             {
+              "name": "Luis Díaz",
+              "poste": "FW",
+              "p": 0.2314,
+              "real_assists": 1.0,
+              "why": "déjà 1 passe(s) déc."
+            },
+            {
               "name": "James Rodríguez",
               "poste": "MF",
-              "p": 0.2965,
-              "real_assists": null,
+              "p": 0.1746,
+              "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Jhon Arias",
               "poste": "MF",
-              "p": 0.2965,
-              "real_assists": null,
+              "p": 0.1746,
+              "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Jefferson Lerma",
               "poste": "MF",
-              "p": 0.2965,
-              "real_assists": null,
-              "why": "création selon le poste"
-            },
-            {
-              "name": "Luis Díaz",
-              "poste": "FW",
-              "p": 0.2602,
-              "real_assists": null,
+              "p": 0.1746,
+              "real_assists": 0.0,
               "why": "création selon le poste"
             }
           ],
           "creator": {
-            "name": "James Rodríguez",
-            "poste": "MF",
-            "p": 0.2965,
-            "real_assists": null,
-            "why": "création selon le poste"
+            "name": "Luis Díaz",
+            "poste": "FW",
+            "p": 0.2314,
+            "real_assists": 1.0,
+            "why": "déjà 1 passe(s) déc."
           },
           "keeper": {
-            "name": "Camilo Vargas",
+            "name": "David Ospina",
             "expSotFaced": 1.1,
             "fromLineup": false,
             "why": "Subit une pression offensive adverse de ~0.35 xG → environ 1.1 tirs cadrés à gérer."
           },
-          "benchImpact": [],
+          "benchImpact": [
+            {
+              "name": "Daniel Muñoz",
+              "poste": "DF",
+              "goals": 2.0,
+              "assists": 0,
+              "why": "Entré en jeu et décisif : 2 but(s)."
+            },
+            {
+              "name": "Cucho Hernández",
+              "poste": "FW",
+              "goals": 0,
+              "assists": 1.0,
+              "why": "Entré en jeu et décisif : 1 passe(s) déc.."
+            },
+            {
+              "name": "Juan Fernando Quintero",
+              "poste": "MF",
+              "goals": 0,
+              "assists": 1.0,
+              "why": "Entré en jeu et décisif : 1 passe(s) déc.."
+            }
+          ],
           "note": "Probabilités MODÈLE (poste réel + production réelle des matchs joués), pas des certitudes. Se précisent à mesure que les équipes jouent."
         },
         "away": {
           "scorers": [
             {
-              "name": "Jordan Ayew",
-              "poste": "FW",
-              "p": 0.0843,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
-            },
-            {
               "name": "Kamaldeen Sulemana",
               "poste": "FW",
-              "p": 0.0843,
-              "real_goals": null,
+              "p": 0.0553,
+              "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
-              "name": "Thomas Partey",
-              "poste": "MF",
-              "p": 0.0326,
-              "real_goals": null,
-              "why": "présence offensive selon le poste"
-            },
-            {
-              "name": "Kwasi Sibo",
-              "poste": "MF",
-              "p": 0.0326,
-              "real_goals": null,
+              "name": "Jordan Ayew",
+              "poste": "FW",
+              "p": 0.0495,
+              "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Antoine Semenyo",
               "poste": "MF",
-              "p": 0.0326,
-              "real_goals": null,
+              "p": 0.0257,
+              "real_goals": 0.0,
+              "why": "volume de tirs élevé (3)"
+            },
+            {
+              "name": "Brandon Thomas-Asante",
+              "poste": "FW",
+              "p": 0.0253,
+              "real_goals": 0.0,
+              "why": "présence offensive selon le poste"
+            },
+            {
+              "name": "Christopher Bonsu Baah",
+              "poste": "FW",
+              "p": 0.0226,
+              "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             }
           ],
@@ -114196,46 +115202,68 @@
             {
               "name": "Thomas Partey",
               "poste": "MF",
-              "p": 0.035,
-              "real_assists": null,
+              "p": 0.0235,
+              "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Kwasi Sibo",
               "poste": "MF",
-              "p": 0.035,
-              "real_assists": null,
+              "p": 0.0235,
+              "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Antoine Semenyo",
               "poste": "MF",
-              "p": 0.035,
-              "real_assists": null,
+              "p": 0.0235,
+              "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Elisha Owusu",
               "poste": "MF",
-              "p": 0.035,
-              "real_assists": null,
+              "p": 0.0235,
+              "real_assists": 0.0,
               "why": "création selon le poste"
             }
           ],
           "creator": {
             "name": "Thomas Partey",
             "poste": "MF",
-            "p": 0.035,
-            "real_assists": null,
+            "p": 0.0235,
+            "real_assists": 0.0,
             "why": "création selon le poste"
           },
           "keeper": {
-            "name": "Benjamin Asare",
+            "name": "Joseph Anang",
             "expSotFaced": 9.7,
             "fromLineup": false,
             "why": "Subit une pression offensive adverse de ~3.1 xG → environ 9.7 tirs cadrés à gérer."
           },
-          "benchImpact": [],
+          "benchImpact": [
+            {
+              "name": "Caleb Yirenkyi",
+              "poste": "MF",
+              "goals": 1.0,
+              "assists": 0,
+              "why": "Entré en jeu et décisif : 1 but(s)."
+            },
+            {
+              "name": "Brandon Thomas-Asante",
+              "poste": "FW",
+              "goals": 0,
+              "assists": 1.0,
+              "why": "Entré en jeu et décisif : 1 passe(s) déc.."
+            },
+            {
+              "name": "Ernest Nuamah",
+              "poste": "FW",
+              "goals": 0,
+              "assists": 1.0,
+              "why": "Entré en jeu et décisif : 1 passe(s) déc.."
+            }
+          ],
           "note": "Probabilités MODÈLE (poste réel + production réelle des matchs joués), pas des certitudes. Se précisent à mesure que les équipes jouent."
         }
       },
@@ -114281,7 +115309,7 @@
       },
       "attackQuality": {
         "home": {
-          "stars": 13.5,
+          "stars": 11.5,
           "boost": 1.18,
           "names": [
             "Luis Díaz",
@@ -114305,25 +115333,25 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 23.5,
+          "stars": 10.5,
           "shield": 0.85,
           "names": [
-            "Daniel Muñoz",
             "Jhon Lucumí",
-            "Camilo Vargas",
             "Yerry Mina",
-            "Gustavo Puerta"
+            "Gustavo Puerta",
+            "Johan Mojica",
+            "Deiver Machado"
           ]
         },
         "away": {
-          "stars": 22.5,
+          "stars": 16.0,
           "shield": 0.85,
           "names": [
             "Alidu Seidu",
-            "Jonas Adjetey",
             "Abdul Mumin",
             "Gideon Mensah",
-            "Abdul Rahman Baba"
+            "Abdul Rahman Baba",
+            "Jerome Opoku"
           ]
         }
       },
@@ -114357,7 +115385,7 @@
       "dixonColes": {
         "rho": -0.1176,
         "gamma": 0.052,
-        "calibratedOn": 192
+        "calibratedOn": 193
       },
       "knockout": {
         "qualifyHome": 0.9661,
@@ -114433,14 +115461,14 @@
     ],
     "confidence": 0.6,
     "prediction": {
-      "p1": 0.6397,
-      "pX": 0.2227,
-      "p2": 0.1375,
+      "p1": 0.6401,
+      "pX": 0.2226,
+      "p2": 0.1373,
       "ensemble": {
         "weights": {
-          "elo": 0.3607339508393836,
-          "grid": 0.37154545863445304,
-          "form": 0.26772059052616337
+          "elo": 0.36122826070010233,
+          "grid": 0.37230614499012255,
+          "form": 0.2664655943097752
         },
         "T": 0.751,
         "elo": [
@@ -114462,10 +115490,10 @@
       "over25": 0.4795,
       "btts": 0.49,
       "marketCalib": {
-        "bttsShift": 0.0628,
+        "bttsShift": 0.0627,
         "overShift": -0.0552,
         "bttsRaw": 0.4333,
-        "n": 192
+        "n": 193
       },
       "lamHome": 2.14,
       "lamAway": 0.59,
@@ -114591,32 +115619,32 @@
         "away": null
       },
       "corners": {
-        "exp_corners": 6.4,
-        "over": 0.4617,
-        "under": 0.5383,
+        "exp_corners": 6.5,
+        "over": 0.4675,
+        "under": 0.5325,
         "line": 6.5,
         "home": 4.3,
         "away": 2.2,
         "lines": {
           "4.5": {
-            "over": 0.7679,
-            "under": 0.2321
+            "over": 0.7721,
+            "under": 0.2279
           },
           "5.5": {
-            "over": 0.62,
-            "under": 0.38
+            "over": 0.6254,
+            "under": 0.3746
           },
           "6.5": {
-            "over": 0.4617,
-            "under": 0.5383
+            "over": 0.4675,
+            "under": 0.5325
           },
           "7.5": {
-            "over": 0.3164,
-            "under": 0.6836
+            "over": 0.3217,
+            "under": 0.6783
           },
           "8.5": {
-            "over": 0.1997,
-            "under": 0.8003
+            "over": 0.2039,
+            "under": 0.7961
           }
         },
         "src": "prior générique"
@@ -114731,7 +115759,7 @@
             },
             {
               "name": "Luc de Fougerolles",
-              "pos": "CD-R",
+              "pos": "SUB",
               "card": "🟨 jaune"
             },
             {
@@ -114741,12 +115769,22 @@
             },
             {
               "name": "Liam Millar",
+              "pos": "LM",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Niko Sigur",
               "pos": "SUB",
               "card": "🟨 jaune"
             },
             {
               "name": "Cyle Larin",
-              "pos": "CF-L",
+              "pos": "SUB",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Nathan Saliba",
+              "pos": "CM-R",
               "card": "🟨 jaune"
             }
           ],
@@ -114787,67 +115825,67 @@
         "home": {
           "scorers": [
             {
-              "name": "Cyle Larin",
-              "poste": "FW",
-              "p": 0.3453,
-              "real_goals": 2.0,
-              "why": "déjà 2 but(s) dans le tournoi · volume de tirs élevé (9)"
-            },
-            {
               "name": "Jonathan David",
               "poste": "FW",
-              "p": 0.3453,
+              "p": 0.3494,
               "real_goals": 3.0,
-              "why": "déjà 3 but(s) dans le tournoi · volume de tirs élevé (13)"
+              "why": "déjà 3 but(s) dans le tournoi · volume de tirs élevé (15)"
+            },
+            {
+              "name": "Tani Oluwaseyi",
+              "poste": "FW",
+              "p": 0.256,
+              "real_goals": 0.0,
+              "why": "volume de tirs élevé (6)"
             },
             {
               "name": "Tajon Buchanan",
               "poste": "FW",
-              "p": 0.2218,
+              "p": 0.2405,
               "real_goals": 0.0,
-              "why": "volume de tirs élevé (4)"
+              "why": "volume de tirs élevé (5)"
             },
             {
-              "name": "Ali Ahmed",
+              "name": "Cyle Larin",
               "poste": "FW",
-              "p": 0.1895,
-              "real_goals": 0.0,
-              "why": "présence offensive selon le poste"
+              "p": 0.1759,
+              "real_goals": 2.0,
+              "why": "déjà 2 but(s) dans le tournoi · volume de tirs élevé (9)"
             },
             {
               "name": "Promise David",
               "poste": "FW",
-              "p": 0.1401,
+              "p": 0.15,
               "real_goals": 1.0,
-              "why": "déjà 1 but(s) dans le tournoi · volume de tirs élevé (4)"
+              "why": "déjà 1 but(s) dans le tournoi · volume de tirs élevé (5)"
             }
           ],
           "assisters": [
             {
               "name": "Nathan Saliba",
               "poste": "MF",
-              "p": 0.2282,
+              "p": 0.227,
               "real_assists": 2.0,
               "why": "déjà 2 passe(s) déc."
             },
             {
-              "name": "Mathieu Choinière",
+              "name": "Stephen Eustáquio",
               "poste": "MF",
-              "p": 0.1111,
+              "p": 0.1104,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Ismaël Koné",
               "poste": "MF",
-              "p": 0.1111,
+              "p": 0.1104,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
-              "name": "Cyle Larin",
-              "poste": "FW",
-              "p": 0.096,
+              "name": "Liam Millar",
+              "poste": "MF",
+              "p": 0.1104,
               "real_assists": 0.0,
               "why": "création selon le poste"
             }
@@ -114855,7 +115893,7 @@
           "creator": {
             "name": "Nathan Saliba",
             "poste": "MF",
-            "p": 0.2282,
+            "p": 0.227,
             "real_assists": 2.0,
             "why": "déjà 2 passe(s) déc."
           },
@@ -114866,6 +115904,13 @@
             "why": "Subit une pression offensive adverse de ~0.59 xG → environ 1.8 tirs cadrés à gérer."
           },
           "benchImpact": [
+            {
+              "name": "Cyle Larin",
+              "poste": "FW",
+              "goals": 2.0,
+              "assists": 0,
+              "why": "Entré en jeu et décisif : 2 but(s)."
+            },
             {
               "name": "Promise David",
               "poste": "FW",
@@ -114921,7 +115966,7 @@
       },
       "attackQuality": {
         "home": {
-          "stars": 12.5,
+          "stars": 11.5,
           "boost": 1.18,
           "names": [
             "Cyle Larin",
@@ -114939,14 +115984,14 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 23.0,
+          "stars": 19.5,
           "shield": 0.85,
           "names": [
             "Alistair Johnston",
-            "Alfie Jones",
             "Luc de Fougerolles",
             "Joel Waterman",
-            "Derek Cornelius"
+            "Derek Cornelius",
+            "Moïse Bombito"
           ]
         },
         "away": {
@@ -114985,7 +116030,7 @@
       "dixonColes": {
         "rho": -0.1176,
         "gamma": 0.052,
-        "calibratedOn": 192
+        "calibratedOn": 193
       },
       "knockout": {
         "qualifyHome": 0.8634,

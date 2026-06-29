@@ -96,8 +96,8 @@ def auto_pull():
             n_fin += 1
         elif g["state"] == "LIVE":
             conn.execute("""UPDATE matches SET home_goals=?, away_goals=?,
-                            status='LIVE', processed=0 WHERE id=?""",
-                         (g["home_score"], g["away_score"], mt["id"]))
+                            status='LIVE', live_clock=?, processed=0 WHERE id=?""",
+                         (g["home_score"], g["away_score"], g.get("minute"), mt["id"]))
             n_live += 1
     conn.commit(); conn.close()
     print(f"  📡 worldcup26.ir : {n_live} LIVE mis à jour, {n_fin} passé(s) FINISHED.")

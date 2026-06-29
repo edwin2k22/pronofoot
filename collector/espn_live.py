@@ -75,9 +75,17 @@ def poll_once(verbose=True):
             continue
 
         if state in IN_PROGRESS:
+            clock_str = ev.get("clock") or ""
+            if state == "STATUS_HALFTIME":
+                clock_str = "Mi-temps"
+            elif state in ("STATUS_EXTRA_TIME", "STATUS_OVERTIME"):
+                clock_str = f"Prol. {clock_str}".strip() if clock_str else "Prolongation"
+            elif state == "STATUS_SHOOTOUT":
+                clock_str = "Tirs au but"
+            
             conn.execute(
                 "UPDATE matches SET status='LIVE', home_goals=?, away_goals=?, live_clock=? WHERE id=?",
-                (ev["home_goals"], ev["away_goals"], ev.get("clock"), row["id"]))
+                (ev["home_goals"], ev["away_goals"], clock_str if clock_str else None, row["id"]))
             live_n += 1
             # Ingest commentary and live events (stats) periodically
             try:

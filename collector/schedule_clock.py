@@ -10,7 +10,7 @@ import re, datetime
 from .sources import openfootball_wc
 
 _TZ_RE = re.compile(r"(\d{1,2}):(\d{2})\s*UTC([+-]\d{1,2})")
-MATCH_DURATION_MIN = 120   # marge large (prolongations possibles)
+MATCH_DURATION_MIN = 200   # marge large (prolongations possibles + tirs au but)
 
 
 def kickoff_utc(date_str: str, time_str: str) -> datetime.datetime | None:

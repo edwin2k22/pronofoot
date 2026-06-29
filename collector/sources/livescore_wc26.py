@@ -60,11 +60,22 @@ def fetch_live(ttl: int = 30) -> list[dict]:
             state = "LIVE"
         else:
             state = "SCHEDULED"
+        minute_str = None
+        if elapsed not in ("finished", "notstarted", "live"):
+            if elapsed == "ht":
+                minute_str = "Mi-temps"
+            elif elapsed == "et":
+                minute_str = "Prolongation"
+            elif elapsed == "pen":
+                minute_str = "Tirs au but"
+            else:
+                minute_str = elapsed
+
         out.append({
             "home": _fix(g.get("home_team_name_en", "")),
             "away": _fix(g.get("away_team_name_en", "")),
             "home_score": hs, "away_score": as_,
             "state": state,
-            "minute": None if elapsed in ("finished", "notstarted") else elapsed,
+            "minute": minute_str,
         })
     return out

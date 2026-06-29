@@ -4598,5 +4598,69 @@
    "Cyle Larin"
   ],
   "source": "ESPN (compos r\u00e9elles)"
+ },
+ "Brazil|Japan": {
+  "home_formation": "4-3-3",
+  "home_xi": [
+   "Alisson Becker",
+   "Gabriel Magalh\u00e3es",
+   "Marquinhos",
+   "Douglas Santos",
+   "Danilo",
+   "Casemiro",
+   "Lucas Paquet\u00e1",
+   "Bruno Guimar\u00e3es",
+   "Matheus Cunha",
+   "Vin\u00edcius J\u00fanior",
+   "Rayan"
+  ],
+  "home_bench": [
+   "Neymar",
+   "Gabriel Martinelli",
+   "L\u00e9o Pereira",
+   "Igor Thiago",
+   "Danilo Santos",
+   "\u00c9derson",
+   "Fabinho",
+   "Endrick",
+   "Roger Iba\u00f1ez",
+   "Bremer",
+   "Luiz Henrique",
+   "Alex Sandro",
+   "Ederson",
+   "Weverton"
+  ],
+  "away_formation": "3-4-2-1",
+  "away_xi": [
+   "Zion Suzuki",
+   "Shogo Taniguchi",
+   "Hiroki Ito",
+   "Takehiro Tomiyasu",
+   "Daichi Kamada",
+   "Kaishu Sano",
+   "Keito Nakamura",
+   "Ritsu Doan",
+   "Ayase Ueda",
+   "Daizen Maeda",
+   "Junya Ito"
+  ],
+  "away_bench": [
+   "Keisuke Osako",
+   "Kou Itakura",
+   "Koki Ogawa",
+   "Yuto Nagatomo",
+   "Yuito Suzuki",
+   "Tsuyoshi Watanabe",
+   "Kento Shiogai",
+   "Tomoki Hayakawa",
+   "Shuto Machino",
+   "Ayumu Seko",
+   "Yukinari Sugawara",
+   "Junnosuke Suzuki",
+   "Keisuke Goto",
+   "Takefusa Kubo",
+   "Ao Tanaka"
+  ],
+  "source": "ESPN (compos r\u00e9elles)"
  }
 }
