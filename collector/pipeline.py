@@ -660,9 +660,9 @@ def predict():
             old_p["status"] = mt["status"]
             old_p["liveScore"] = (f"{mt['home_goals']}-{mt['away_goals']}"
                                   if mt["status"] in ("LIVE", "HT") and mt["home_goals"] is not None else None)
-            old_p["liveClock"] = mt.get("live_clock") if mt["status"] in ("LIVE", "HT") else None
+            old_p["liveClock"] = mt["live_clock"] if mt["status"] in ("LIVE", "HT") else None
             old_p["htScore"] = (f"{mt['home_ht_goals']}-{mt['away_ht_goals']}"
-                                if mt.get("home_ht_goals") is not None and mt.get("away_ht_goals") is not None else None)
+                                if mt["home_ht_goals"] is not None and mt["away_ht_goals"] is not None else None)
             if mt["status"] == "FINISHED":
                 p = old_p.get("prediction", {})
                 res = {"p1": p.get("p1", 0), "pX": p.get("pX", 0), "p2": p.get("p2", 0)}
@@ -1150,8 +1150,14 @@ def predict():
         })
     conn.close()
     path = os.path.join(DATA_DIR, "predictions.json")
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(out, f, ensure_ascii=False, indent=2)
+    import time
+    for _ in range(5):
+        try:
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(out, f, ensure_ascii=False, indent=2)
+            break
+        except OSError:
+            time.sleep(0.1)
     print(f"✅ predict : {len(out)} pronostics (4 modèles) -> {path}")
 
     # ----- SÉLECTION DES MEILLEURS CHOIX ("Top Picks") -----
