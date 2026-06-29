@@ -104519,6 +104519,14 @@
         {
           "score": "4-0",
           "p": 0.1071
+        },
+        {
+          "score": "5-0",
+          "p": 0.072
+        },
+        {
+          "score": "3-1",
+          "p": 0.0697
         }
       ],
       "scenarios": [
@@ -105318,6 +105326,14 @@
         {
           "score": "2-1",
           "p": 0.0791
+        },
+        {
+          "score": "0-0",
+          "p": 0.0744
+        },
+        {
+          "score": "0-1",
+          "p": 0.0733
         }
       ],
       "scenarios": [
@@ -105961,7 +105977,7 @@
           ]
         },
         "away": {
-          "stars": 18.0,
+          "stars": 16.5,
           "shield": 0.85,
           "names": [
             "Noussair Mazraoui",
@@ -106152,6 +106168,14 @@
         {
           "score": "1-0",
           "p": 0.0933
+        },
+        {
+          "score": "2-0",
+          "p": 0.0893
+        },
+        {
+          "score": "0-0",
+          "p": 0.0748
         }
       ],
       "scenarios": [
@@ -106722,7 +106746,7 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 18.0,
+          "stars": 18.5,
           "shield": 0.85,
           "names": [
             "Ousmane Diomande",
@@ -106733,7 +106757,7 @@
           ]
         },
         "away": {
-          "stars": 15.0,
+          "stars": 16.5,
           "shield": 0.85,
           "names": [
             "Kristoffer Ajer",
@@ -106927,6 +106951,14 @@
         {
           "score": "3-0",
           "p": 0.1074
+        },
+        {
+          "score": "6-0",
+          "p": 0.0821
+        },
+        {
+          "score": "2-0",
+          "p": 0.0715
         }
       ],
       "scenarios": [
@@ -107651,18 +107683,18 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 16.5,
+          "stars": 15.0,
           "shield": 0.85,
           "names": [
             "Lucas Digne",
             "Dayot Upamecano",
             "Jules Koundé",
             "Ibrahima Konaté",
-            "Mike Maignan"
+            "William Saliba"
           ]
         },
         "away": {
-          "stars": 20.5,
+          "stars": 25.0,
           "shield": 0.85,
           "names": [
             "Gustaf Lagerbielke",
@@ -107851,6 +107883,14 @@
         {
           "score": "1-1",
           "p": 0.1071
+        },
+        {
+          "score": "2-1",
+          "p": 0.0947
+        },
+        {
+          "score": "0-0",
+          "p": 0.0842
         }
       ],
       "scenarios": [
@@ -108422,7 +108462,7 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 22.0,
+          "stars": 20.5,
           "shield": 0.85,
           "names": [
             "Jorge Sánchez",
@@ -108433,14 +108473,14 @@
           ]
         },
         "away": {
-          "stars": 14.5,
+          "stars": 19.5,
           "shield": 0.85,
           "names": [
+            "Hernán Galíndez",
             "Piero Hincapié",
             "Joel Ordóñez",
             "Willian Pacho",
-            "Jackson Porozo",
-            "Yaimar Medina"
+            "Pervis Estupiñán"
           ]
         }
       },
@@ -108622,6 +108662,14 @@
         {
           "score": "4-0",
           "p": 0.1122
+        },
+        {
+          "score": "1-0",
+          "p": 0.0829
+        },
+        {
+          "score": "5-0",
+          "p": 0.0704
         }
       ],
       "scenarios": [
@@ -109195,7 +109243,7 @@
       },
       "attackQuality": {
         "home": {
-          "stars": 14.5,
+          "stars": 16.5,
           "boost": 1.18,
           "names": [
             "Harry Kane",
@@ -109219,14 +109267,14 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 14.5,
+          "stars": 25.5,
           "shield": 0.85,
           "names": [
+            "Jordan Pickford",
             "Ezri Konsa",
             "Nico O'Reilly",
             "John Stones",
-            "Tino Livramento",
-            "Dan Burn"
+            "Marc Guéhi"
           ]
         },
         "away": {
@@ -109419,6 +109467,14 @@
         {
           "score": "3-0",
           "p": 0.0915
+        },
+        {
+          "score": "1-0",
+          "p": 0.0881
+        },
+        {
+          "score": "1-1",
+          "p": 0.0857
         }
       ],
       "scenarios": [
@@ -110073,18 +110129,18 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 18.0,
+          "stars": 24.0,
           "shield": 0.85,
           "names": [
+            "Thibaut Courtois",
             "Zeno Debast",
             "Arthur Theate",
             "Brandon Mechele",
-            "Maxim De Cuyper",
-            "Thomas Meunier"
+            "Maxim De Cuyper"
           ]
         },
         "away": {
-          "stars": 19.5,
+          "stars": 18.0,
           "shield": 0.85,
           "names": [
             "Mamadou Sarr",
@@ -110275,6 +110331,14 @@
         {
           "score": "2-1",
           "p": 0.0942
+        },
+        {
+          "score": "3-0",
+          "p": 0.0934
+        },
+        {
+          "score": "1-1",
+          "p": 0.0907
         }
       ],
       "scenarios": [
@@ -110818,6 +110882,14 @@
         {
           "score": "1-0",
           "p": 0.0907
+        },
+        {
+          "score": "4-0",
+          "p": 0.0849
+        },
+        {
+          "score": "2-1",
+          "p": 0.0772
         }
       ],
       "scenarios": [
@@ -111417,7 +111489,7 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 22.5,
+          "stars": 25.5,
           "shield": 0.85,
           "names": [
             "Marc Pubill",
@@ -111428,14 +111500,14 @@
           ]
         },
         "away": {
-          "stars": 11.0,
+          "stars": 18.5,
           "shield": 0.85,
           "names": [
+            "Kevin Danso",
             "Stefan Posch",
             "David Alaba",
             "Philipp Lienhart",
-            "Phillipp Mwene",
-            "Marco Friedl"
+            "Phillipp Mwene"
           ]
         }
       },
@@ -111618,6 +111690,14 @@
         {
           "score": "1-1",
           "p": 0.1116
+        },
+        {
+          "score": "2-1",
+          "p": 0.0981
+        },
+        {
+          "score": "0-0",
+          "p": 0.0764
         }
       ],
       "scenarios": [
@@ -112204,7 +112284,7 @@
       },
       "attackQuality": {
         "home": {
-          "stars": 14.0,
+          "stars": 16.0,
           "boost": 1.18,
           "names": [
             "Cristiano Ronaldo",
@@ -112215,7 +112295,7 @@
           ]
         },
         "away": {
-          "stars": 13.5,
+          "stars": 15.5,
           "boost": 1.18,
           "names": [
             "Andrej Kramarić",
@@ -112228,18 +112308,18 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 10.0,
+          "stars": 18.5,
           "shield": 0.85,
           "names": [
             "Nélson Semedo",
             "Rúben Dias",
+            "Tomás Araújo",
             "Diogo Dalot",
-            "Renato Veiga",
-            "Gonçalo Inácio"
+            "Renato Veiga"
           ]
         },
         "away": {
-          "stars": 10.5,
+          "stars": 12.0,
           "shield": 0.85,
           "names": [
             "Josip Stanišić",
@@ -112429,6 +112509,14 @@
         {
           "score": "1-0",
           "p": 0.082
+        },
+        {
+          "score": "2-0",
+          "p": 0.0813
+        },
+        {
+          "score": "0-0",
+          "p": 0.0664
         }
       ],
       "scenarios": [
@@ -113014,7 +113102,7 @@
           ]
         },
         "away": {
-          "stars": 14.0,
+          "stars": 17.0,
           "boost": 1.18,
           "names": [
             "Riyad Mahrez",
@@ -113027,18 +113115,18 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 14.5,
+          "stars": 11.0,
           "shield": 0.85,
           "names": [
             "Miro Muheim",
             "Silvan Widmer",
             "Nico Elvedi",
             "Ricardo Rodriguez",
-            "Aurèle Amenda"
+            "Luca Jaquez"
           ]
         },
         "away": {
-          "stars": 19.0,
+          "stars": 18.0,
           "shield": 0.85,
           "names": [
             "Aïssa Mandi",
@@ -113227,6 +113315,14 @@
         {
           "score": "1-0",
           "p": 0.107
+        },
+        {
+          "score": "0-1",
+          "p": 0.096
+        },
+        {
+          "score": "2-1",
+          "p": 0.0792
         }
       ],
       "scenarios": [
@@ -113786,18 +113882,18 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 18.5,
+          "stars": 19.5,
           "shield": 0.85,
           "names": [
             "Miloš Degenek",
             "Alessandro Circati",
             "Jacob Italiano",
             "Jordan Bos",
-            "Aziz Behich"
+            "Kai Trewin"
           ]
         },
         "away": {
-          "stars": 16.5,
+          "stars": 15.0,
           "shield": 0.85,
           "names": [
             "Yasser Ibrahim",
@@ -113987,6 +114083,14 @@
         {
           "score": "6-0",
           "p": 0.1244
+        },
+        {
+          "score": "3-0",
+          "p": 0.1099
+        },
+        {
+          "score": "7-0",
+          "p": 0.0914
         }
       ],
       "scenarios": [
@@ -114533,7 +114637,7 @@
       },
       "attackQuality": {
         "home": {
-          "stars": 9.5,
+          "stars": 10.5,
           "boost": 1.18,
           "names": [
             "Julián Alvarez",
@@ -114555,7 +114659,7 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 16.0,
+          "stars": 22.5,
           "shield": 0.85,
           "names": [
             "Nicolás Tagliafico",
@@ -114566,13 +114670,13 @@
           ]
         },
         "away": {
-          "stars": 22.5,
+          "stars": 22.0,
           "shield": 0.85,
           "names": [
+            "Vozinha",
             "Stopira",
             "Diney",
             "Roberto Lopes",
-            "Logan Costa",
             "Sidny Lopes Cabral"
           ]
         }
@@ -114753,6 +114857,14 @@
         {
           "score": "4-0",
           "p": 0.1166
+        },
+        {
+          "score": "1-0",
+          "p": 0.09
+        },
+        {
+          "score": "5-0",
+          "p": 0.0723
         }
       ],
       "scenarios": [
@@ -115309,7 +115421,7 @@
       },
       "attackQuality": {
         "home": {
-          "stars": 11.5,
+          "stars": 13.5,
           "boost": 1.18,
           "names": [
             "Luis Díaz",
@@ -115333,25 +115445,25 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 10.5,
+          "stars": 23.5,
           "shield": 0.85,
           "names": [
+            "Daniel Muñoz",
             "Jhon Lucumí",
+            "Santiago Arias",
             "Yerry Mina",
-            "Gustavo Puerta",
-            "Johan Mojica",
-            "Deiver Machado"
+            "Gustavo Puerta"
           ]
         },
         "away": {
-          "stars": 16.0,
+          "stars": 25.5,
           "shield": 0.85,
           "names": [
             "Alidu Seidu",
+            "Jonas Adjetey",
             "Abdul Mumin",
             "Gideon Mensah",
-            "Abdul Rahman Baba",
-            "Jerome Opoku"
+            "Abdul Rahman Baba"
           ]
         }
       },
@@ -115522,6 +115634,14 @@
         {
           "score": "3-0",
           "p": 0.1011
+        },
+        {
+          "score": "1-1",
+          "p": 0.091
+        },
+        {
+          "score": "2-1",
+          "p": 0.0905
         }
       ],
       "scenarios": [
@@ -115966,7 +116086,7 @@
       },
       "attackQuality": {
         "home": {
-          "stars": 11.5,
+          "stars": 12.5,
           "boost": 1.18,
           "names": [
             "Cyle Larin",
@@ -115984,14 +116104,14 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 19.5,
+          "stars": 23.0,
           "shield": 0.85,
           "names": [
             "Alistair Johnston",
+            "Alfie Jones",
             "Luc de Fougerolles",
             "Joel Waterman",
-            "Derek Cornelius",
-            "Moïse Bombito"
+            "Derek Cornelius"
           ]
         },
         "away": {

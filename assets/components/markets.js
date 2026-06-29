@@ -16,7 +16,7 @@ export function marketsBlock(m,p){
       <div class="mk-chip"><span class="k">${m.home}</span><span class="v">${pct(dnb.home)}</span></div>
       <div class="mk-chip"><span class="k">${m.away}</span><span class="v">${pct(dnb.away)}</span></div>
     </div>`;
-  if(ts && ts.length) out += `<div style="font-size:11.5px;color:var(--muted);margin:9px 0 3px">Scores probables (top 3)</div>
+  if(ts && ts.length) out += `<div style="font-size:11.5px;color:var(--muted);margin:9px 0 3px">Scores exacts proches (top ${Math.min(5, ts.length)})</div>
     <div class="mk-chips">
       ${ts.map(s=>`<div class="mk-chip"><span class="k">score</span><span class="v">${s.score} · ${pct(s.p)}</span></div>`).join("")}
     </div>`;

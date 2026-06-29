@@ -721,7 +721,11 @@ function render(){
     else if(isLive && m.liveScore) scoreHtml=`<div class="mi-score">${m.liveScore.replace("-"," – ")}</div><div class="mi-when">en direct${htHtml}</div>`;
     else if(isKick) scoreHtml=`<div class="mi-vsmid">VS</div><div class="mi-when">en attente du direct</div>`;
     else if(isAwait) scoreHtml=`<div class="mi-vsmid">VS</div><div class="mi-when">résultat en attente</div>`;
-    else if(p.topScore) scoreHtml=`<div class="mi-vsmid">VS</div><div class="mi-when">prév. ${p.topScore[0]}-${p.topScore[1]}</div>`;
+    else if(p.topScore){
+      const ts=(p.topScores&&p.topScores[0]);
+      const sp=ts&&ts.p!=null ? ` ${pct(ts.p)}` : "";
+      scoreHtml=`<div class="mi-vsmid">VS</div><div class="mi-when">modal ${p.topScore[0]}-${p.topScore[1]}${sp}</div>`;
+    }
     else scoreHtml=`<div class="mi-vsmid">VS</div>`;
     // barre proba 1N2
     let probBar="";
@@ -1269,6 +1273,8 @@ function renderUpcoming(m, mode){
       <div class="sc">${p.topScore[0]} – ${p.topScore[1]}<small>${scoreNote(p)}</small></div>
       <div class="tn">${m.away}</div>
     </div>
+    ${exactScoresStrip(p)}
+    ${scoreUncertaintyBlock(p)}
     ${coherenceHint(m,p)}
     ${missingKeyPlayersBlock(m)}
     ${h2hBlock(m)}
@@ -1378,8 +1384,29 @@ function refereeBlock(p) {
 /* libellé du score : sa vraie probabilité (souvent ~12-15%, pas une certitude !) */
 function scoreNote(p){
   const ts=(p.topScores&&p.topScores[0]);
-  if(ts) return `score le + probable (${pct(ts.p)})`;
-  return "score le plus probable";
+  if(ts) return `score modal exact (${pct(ts.p)})`;
+  return "score modal exact";
+}
+
+function exactScoresStrip(p){
+  const scores=(p.topScores||[]).slice(0,5);
+  if(!scores.length) return "";
+  return `<div class="exact-strip anim-block anim-2">
+    ${scores.map((s,i)=>`<div class="exact-chip ${i===0?"lead":""}">
+      <span>${String(s.score).replace("-"," – ")}</span><b>${pct(s.p)}</b>
+    </div>`).join("")}
+  </div>`;
+}
+
+function scoreUncertaintyBlock(p){
+  const scores=(p.topScores||[]).filter(s=>s&&s.p!=null);
+  if(scores.length<2) return "";
+  const top=scores[0], second=scores[1];
+  const tight=(top.p-second.p)<0.02;
+  const lowTop=top.p<0.16;
+  if(!tight && !lowTop) return "";
+  const near=scores.slice(0,5).map(s=>`${s.score} (${pct(s.p)})`).join(" · ");
+  return `<div class="coh-note score-risk"><b>Score exact dispersé.</b> Le modal est à ${pct(top.p)}${tight?`, avec plusieurs scores au contact`:""}. Alternatives proches : ${near}.</div>`;
 }
 
 /* note de cohérence : explique le « favori mais score nul » et signale les conflits.
@@ -1404,7 +1431,7 @@ function coherenceHint(m,p){
 /* Score à la mi-temps probable (ratio structurel CDM ~42%, sourcé & étiqueté) */
 
 
-/* Marchés dérivés : Double Chance, Draw No Bet, top-3 scores exacts.
+/* Marchés dérivés : Double Chance, Draw No Bet, top scores exacts.
    100% calculés sur la grille Dixon-Coles (aucune cote, aucune donnée externe). */
 
 

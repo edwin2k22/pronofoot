@@ -274,6 +274,14 @@
   .scoreline .tn{font-weight:700;font-size:15px;max-width:140px;text-align:center}
   .scoreline .sc{font-size:34px;font-weight:800;letter-spacing:1px;text-align:center}
   .scoreline .sc small{display:block;font-size:11px;color:var(--muted);font-weight:600;letter-spacing:0}
+  .exact-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(76px,1fr));gap:7px;margin:-4px 0 12px}
+  .exact-chip{border:1px solid var(--line);background:var(--bg2);border-radius:8px;padding:7px 8px;
+    display:flex;align-items:center;justify-content:space-between;gap:6px;font-size:12px}
+  .exact-chip span{font-weight:800;color:var(--txt);font-variant-numeric:tabular-nums}
+  .exact-chip b{font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums}
+  .exact-chip.lead{border-color:rgba(255,211,78,.45);background:rgba(255,211,78,.08)}
+  .exact-chip.lead span{color:var(--gold)}
+  .score-risk{margin-top:-2px}
   .gold{color:var(--gold)} .live-c{color:var(--live)}
 
   .grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}

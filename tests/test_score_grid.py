@@ -119,6 +119,13 @@ class TestOutcomes:
         assert dnb["home"] + dnb["away"] == pytest.approx(1.0, abs=1e-6)
         assert 0.0 <= dnb["home"] <= 1.0
 
+    def test_top_scores_exposes_nearby_exact_scores(self):
+        dm = sg.derived_markets(sg.score_grid(1.5, 1.5))
+        top_scores = dm["topScores"]
+        probs = [s["p"] for s in top_scores]
+        assert len(top_scores) == 5
+        assert probs == sorted(probs, reverse=True)
+
 
 # ---------- shock_gamma ----------
 class TestShockGamma:

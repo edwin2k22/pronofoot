@@ -127,13 +127,13 @@ def derived_markets(grid) -> dict:
     Marchés 100% dérivés de la grille corrigée (aucune donnée externe) :
     - Double Chance : 1X, 12, X2
     - Draw No Bet   : DNB1, DNB2 (nul retiré, renormalisé sur p1+p2)
-    - top-3 scores exacts (avec probabilité)
+    - top-5 scores exacts (avec probabilité)
     """
     o = outcomes(grid)
     p1, px, p2 = o["p1"], o["pX"], o["p2"]
     denom = max(p1 + p2, 1e-9)
     cells = _all_scores(grid)
-    top3 = [{"score": f"{i}-{j}", "p": round(p, 4)} for (i, j, p) in cells[:3]]
+    top_scores = [{"score": f"{i}-{j}", "p": round(p, 4)} for (i, j, p) in cells[:5]]
     return {
         "doubleChance": {
             "1X": round(p1 + px, 4),
@@ -144,7 +144,7 @@ def derived_markets(grid) -> dict:
             "home": round(p1 / denom, 4),
             "away": round(p2 / denom, 4),
         },
-        "topScores": top3,
+        "topScores": top_scores,
     }
 
 
