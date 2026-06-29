@@ -2,24 +2,24 @@
   "sampleWithOdds": 59,
   "favorite": {
     "bets": 59,
-    "wins": 40,
-    "winRate": 68,
-    "pnl": 2.06,
-    "yield": 3.5
+    "wins": 44,
+    "winRate": 75,
+    "pnl": 15.41,
+    "yield": 26.1
   },
   "value": {
-    "bets": 130,
-    "wins": 66,
-    "winRate": 51,
-    "pnl": 6.39,
-    "yield": 4.9
+    "bets": 121,
+    "wins": 74,
+    "winRate": 61,
+    "pnl": 18.46,
+    "yield": 15.3
   },
   "valueStrict": {
-    "bets": 98,
-    "wins": 52,
-    "winRate": 53,
-    "pnl": -1.26,
-    "yield": -1.3
+    "bets": 84,
+    "wins": 57,
+    "winRate": 68,
+    "pnl": 21.0,
+    "yield": 25.0
   },
   "topValue": []
 }

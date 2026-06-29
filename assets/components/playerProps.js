@@ -45,7 +45,8 @@ export function scorersVsBlock(m){
   }
   const goalRows=goals.map(g=>{
     const pred=picks.some(x=>last(x.name)===last(g.player));
-    return `<div class="stat"><span>${g.minute}' ${g.player} <small style="color:var(--muted)">(${g.team})</small></span>
+    const ast = g.assist ? ` <small style="color:var(--muted)">(passe: ${g.assist})</small>` : '';
+    return `<div class="stat"><span>${g.minute}' <b>${g.player}</b>${ast} <small style="color:var(--muted)">(${g.team})</small></span>
       <span>${pred?'<span class="vs-chip win">✅ prédit</span>':'<span class="vs-chip lose">—</span>'}</span></div>`;
   }).join("");
   const pickRows=picks.map(x=>{
