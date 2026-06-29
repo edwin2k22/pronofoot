@@ -1130,6 +1130,17 @@ def predict():
 
         analysis = _analyze_finished(mt, h, a, res, goals) if mt["status"] == "FINISHED" else None
         trends = _calculate_trends(conn, h["name"], a["name"])
+        official_lineups = None
+        if lu and ((lu.get("home_xi") or []) or (lu.get("away_xi") or [])):
+            official_lineups = {
+                "source": lu.get("source_xi") or lu.get("source") or "ESPN",
+                "homeFormation": lu.get("home_formation"),
+                "awayFormation": lu.get("away_formation"),
+                "homeXi": lu.get("home_xi") or [],
+                "awayXi": lu.get("away_xi") or [],
+                "homeBench": lu.get("home_bench") or [],
+                "awayBench": lu.get("away_bench") or [],
+            }
         out.append({
             "id": mt["id"],
             "league": f"CDM 2026 · {mt['stage']}",
@@ -1184,6 +1195,7 @@ def predict():
                 "playerProps": player_props,
                 "lineupImpact": lineup_info,
                 "formations": {"home": hform, "away": aform},
+                "officialLineups": official_lineups,
                 # intelligence contextuelle (3 angles)
                 "mwi": mwi,
                 "meta": meta,

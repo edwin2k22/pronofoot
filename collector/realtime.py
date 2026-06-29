@@ -5,7 +5,7 @@ nouvelle information (compos officielles, cotes, score live, fin de match).
 Phases automatiques (pilotées par schedule_clock.live_window) :
 
   IDLE      -> rien d'imminent : dort jusqu'à ~30 min avant le prochain coup d'envoi.
-  PREMATCH  -> T-30 min : récupère COMPOS OFFICIELLES ESPN + COTES à jour,
+  PREMATCH  -> T-90 min : récupère COMPOS OFFICIELLES ESPN + ARBITRE + COTES à jour,
                applique les absences, RECALCULE l'issue de chaque match concerné.
   SOON      -> T-10 min : re-vérifie compos/cotes (souvent confirmées tard).
   LIVE      -> match en cours : score + minute ESPN, recalcul (live betting), fin auto.
@@ -24,7 +24,7 @@ from __future__ import annotations
 import os, time, json, argparse, datetime
 
 from collector import schedule_clock as clock
-from collector import espn_live, lineup_ingest, odds_ingest, pipeline, embed
+from collector import espn_live, lineup_ingest, odds_ingest, pipeline, embed, referee_ingest
 
 DATA = os.path.join(os.path.dirname(__file__), "data")
 PRED = os.path.join(DATA, "predictions.json")
@@ -45,6 +45,7 @@ def _snapshot():
         snap[(m["home"], m["away"])] = {
             "p1": p.get("p1"), "pX": p.get("pX"), "p2": p.get("p2"),
             "status": m.get("status"), "liveScore": m.get("liveScore"),
+            "referee": (p.get("referee") or {}).get("name"),
             "absent": [x["name"] for x in (p.get("availability", {}).get("away", {}).get("missing", [])
                                            + p.get("availability", {}).get("home", {}).get("missing", []))],
         }
@@ -88,6 +89,11 @@ def _diff_and_log(before, after, feed, ts):
             feed.insert(0, {"t": ts, "match": match, "type": "score",
                             "text": f"⚽ {match} : score {aft['liveScore']}"})
             added += 1
+        # arbitre publié avant match
+        if aft.get("referee") and aft.get("referee") != bef.get("referee"):
+            feed.insert(0, {"t": ts, "match": match, "type": "referee",
+                            "text": f"🧑‍⚖️ {match} : arbitre confirmé → {aft['referee']}"})
+            added += 1
         # nouvelles absences détectées (compo officielle)
         new_abs = set(aft.get("absent", [])) - set(bef.get("absent", []))
         if new_abs:
@@ -107,15 +113,18 @@ def _diff_and_log(before, after, feed, ts):
 
 # ---------- cycles par phase ----------
 def cycle_prematch(matches, label="PREMATCH"):
-    """Compos officielles + cotes + recalcul de l'issue, avec journal des changements."""
+    """Arbitre + compos officielles + cotes + recalcul, avec journal des changements."""
     before = _snapshot()
     ts = datetime.datetime.now().strftime("%H:%M")
-    changed = []
+    lineups = refs = 0
     for m in matches:
         h, a = m["home"], m["away"]
+        ok_ref, _msg_ref = referee_ingest.ingest_referee(h, a)
+        if ok_ref:
+            refs += 1
         ok, msg = lineup_ingest.ingest_lineup(h, a)
         if ok:
-            changed.append(f"compo {h}-{a}")
+            lineups += 1
     # cotes à jour (toutes les rencontres à venir)
     try:
         odds_ingest.main()
@@ -129,7 +138,8 @@ def cycle_prematch(matches, label="PREMATCH"):
     n = _diff_and_log(before, after, feed, ts)
     if n:
         _save_feed(feed)
-    print(f"[{ts}] {label} : {len(matches)} match(s) surveillé(s), {n} changement(s) journalisé(s).")
+    print(f"[{ts}] {label} : {len(matches)} match(s) surveillé(s), "
+          f"{lineups} compo(s), {refs} arbitre(s), {n} changement(s) journalisé(s).")
     return n
 
 
@@ -152,7 +162,7 @@ def cycle_live():
 
 def one_cycle(verbose=True):
     """Exécute le cycle correspondant à la phase courante (utile pour --once)."""
-    w = clock.live_window(pre_min=10, prematch_min=30)
+    w = clock.live_window(pre_min=15, prematch_min=90)
     st = w["state"]
     if verbose:
         print(f"🕐 État : {st}")
@@ -165,12 +175,12 @@ def one_cycle(verbose=True):
     return 0
 
 
-def run(live_poll=30, prematch_poll=120):
+def run(live_poll=30, prematch_poll=60):
     print("🤖 MACHINE TEMPS RÉEL démarrée — l'app se met à jour et recalcule seule.")
-    print(f"   LIVE : toutes les {live_poll}s · PRÉ-MATCH (T-30) : toutes les {prematch_poll}s")
+    print(f"   LIVE : toutes les {live_poll}s · PRÉ-MATCH (T-90) : toutes les {prematch_poll}s")
     print("   (Ctrl+C pour arrêter)\n")
     while True:
-        w = clock.live_window(pre_min=10, prematch_min=30)
+        w = clock.live_window(pre_min=15, prematch_min=90)
         st = w["state"]
         ts = w["now"].strftime("%H:%M:%S")
         try:
@@ -183,8 +193,8 @@ def run(live_poll=30, prematch_poll=120):
                 secs = w["seconds_to_next"]
                 if secs is None:
                     print(f"[{ts}] 💤 plus aucun match au calendrier. Arrêt."); break
-                # se réveiller ~30 min avant le coup d'envoi
-                sleep = max(30, min(secs - 30*60, 1800))
+                # se réveiller ~90 min avant le coup d'envoi (arbitre + XI peuvent tomber tôt)
+                sleep = max(30, min(secs - 90*60, 1800))
                 nm = w["next_match"]
                 print(f"[{ts}] 💤 veille — prochain : {nm['home']}-{nm['away']} "
                       f"(réveil dans {sleep/60:.0f} min)")
@@ -202,14 +212,14 @@ def main():
     ap.add_argument("--once", action="store_true", help="un seul cycle puis stop")
     ap.add_argument("--status", action="store_true", help="diagnostic instantané")
     ap.add_argument("--live-poll", type=int, default=30)
-    ap.add_argument("--prematch-poll", type=int, default=120)
+    ap.add_argument("--prematch-poll", type=int, default=60)
     args = ap.parse_args()
     if args.status:
-        w = clock.live_window(pre_min=10, prematch_min=30)
+        w = clock.live_window(pre_min=15, prematch_min=90)
         print(f"État : {w['state']} | prochain : "
               f"{(w['next_match'] or {}).get('home','—')}-{(w['next_match'] or {}).get('away','')} "
               f"dans {(w['seconds_to_next'] or 0)/60:.0f} min")
-        print(f"Matchs en pré-match (≤30min) : {[m['home']+'-'+m['away'] for m in w['prematch_matches']]}")
+        print(f"Matchs en pré-match (≤90min) : {[m['home']+'-'+m['away'] for m in w['prematch_matches']]}")
         print(f"Matchs en cours : {[m['home']+'-'+m['away'] for m in w['live_matches']]}")
     elif args.once:
         one_cycle()

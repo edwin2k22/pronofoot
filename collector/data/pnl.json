@@ -21,5 +21,47 @@
     "pnl": -20.13,
     "yield": -27.6
   },
-  "topValue": []
+  "topValue": [
+    {
+      "home": "Germany",
+      "away": "Paraguay",
+      "date": "2026-06-29 16:30 UTC-4",
+      "label": "Plus de 2.5 buts",
+      "prob": 0.8456,
+      "odd": 1.69,
+      "implied": 0.5917,
+      "edge": 0.2539,
+      "ev": 0.429,
+      "provider": "DraftKings",
+      "market": "O/U"
+    },
+    {
+      "home": "Ivory Coast",
+      "away": "Norway",
+      "date": "2026-06-30 12:00 UTC-5",
+      "label": "Victoire Ivory Coast",
+      "prob": 0.5145,
+      "odd": 3.55,
+      "implied": 0.2817,
+      "edge": 0.2328,
+      "ev": 0.826,
+      "provider": "DraftKings",
+      "market": "1N2",
+      "lineMovement": 0.0
+    },
+    {
+      "home": "Germany",
+      "away": "Paraguay",
+      "date": "2026-06-29 16:30 UTC-4",
+      "label": "Victoire Germany",
+      "prob": 0.8885,
+      "odd": 1.333,
+      "implied": 0.7502,
+      "edge": 0.1383,
+      "ev": 0.184,
+      "provider": "DraftKings",
+      "market": "1N2",
+      "lineMovement": 0.0
+    }
+  ]
 }

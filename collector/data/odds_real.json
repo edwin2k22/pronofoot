@@ -883,5 +883,215 @@
    "odd2": 3.4
   },
   "captured": "2026-06-21 12:11"
+ },
+ "Germany|Paraguay": {
+  "odd1": 1.333,
+  "oddX": 5.25,
+  "odd2": 10.0,
+  "ou_line": 2.5,
+  "over": 1.69,
+  "under": 2.2,
+  "provider": "DraftKings",
+  "opening": {
+   "odd1": 1.333,
+   "oddX": 5.25,
+   "odd2": 10.0
+  },
+  "captured": "2026-06-29 17:10"
+ },
+ "Netherlands|Morocco": {
+  "odd1": 2.4,
+  "oddX": 3.05,
+  "odd2": 3.3,
+  "ou_line": 2.5,
+  "over": 2.2,
+  "under": 1.667,
+  "provider": "DraftKings",
+  "opening": {
+   "odd1": 2.4,
+   "oddX": 3.05,
+   "odd2": 3.3
+  },
+  "captured": "2026-06-29 17:10"
+ },
+ "Ivory Coast|Norway": {
+  "odd1": 3.55,
+  "oddX": 3.45,
+  "odd2": 2.1,
+  "ou_line": 2.5,
+  "over": 1.909,
+  "under": 1.909,
+  "provider": "DraftKings",
+  "opening": {
+   "odd1": 3.55,
+   "oddX": 3.45,
+   "odd2": 2.1
+  },
+  "captured": "2026-06-29 17:10"
+ },
+ "France|Sweden": {
+  "odd1": 1.27,
+  "oddX": 6.0,
+  "odd2": 11.0,
+  "ou_line": 3.5,
+  "over": 2.15,
+  "under": 1.69,
+  "provider": "DraftKings",
+  "opening": {
+   "odd1": 1.27,
+   "oddX": 6.0,
+   "odd2": 11.0
+  },
+  "captured": "2026-06-29 17:10"
+ },
+ "Mexico|Ecuador": {
+  "odd1": 2.25,
+  "oddX": 2.95,
+  "odd2": 3.9,
+  "ou_line": 1.5,
+  "over": 1.606,
+  "under": 2.3,
+  "provider": "DraftKings",
+  "opening": {
+   "odd1": 2.25,
+   "oddX": 2.95,
+   "odd2": 3.9
+  },
+  "captured": "2026-06-29 17:10"
+ },
+ "England|DR Congo": {
+  "odd1": 1.286,
+  "oddX": 5.5,
+  "odd2": 12.0,
+  "ou_line": 2.5,
+  "over": 1.909,
+  "under": 1.87,
+  "provider": "DraftKings",
+  "opening": {
+   "odd1": 1.286,
+   "oddX": 5.5,
+   "odd2": 12.0
+  },
+  "captured": "2026-06-29 17:10"
+ },
+ "Belgium|Senegal": {
+  "odd1": 2.2,
+  "oddX": 3.3,
+  "odd2": 3.55,
+  "ou_line": 2.5,
+  "over": 2.1,
+  "under": 1.714,
+  "provider": "DraftKings",
+  "opening": {
+   "odd1": 2.2,
+   "oddX": 3.3,
+   "odd2": 3.55
+  },
+  "captured": "2026-06-29 17:10"
+ },
+ "USA|Bosnia & Herzegovina": {
+  "odd1": 1.377,
+  "oddX": 4.9,
+  "odd2": 9.0,
+  "ou_line": 2.5,
+  "over": 1.8,
+  "under": 2.0,
+  "provider": "DraftKings",
+  "opening": {
+   "odd1": 1.377,
+   "oddX": 4.9,
+   "odd2": 9.0
+  },
+  "captured": "2026-06-29 17:10"
+ },
+ "Spain|Austria": {
+  "odd1": 1.312,
+  "oddX": 5.25,
+  "odd2": 10.5,
+  "ou_line": 2.5,
+  "over": 1.833,
+  "under": 1.952,
+  "provider": "DraftKings",
+  "opening": {
+   "odd1": 1.312,
+   "oddX": 5.25,
+   "odd2": 10.5
+  },
+  "captured": "2026-06-29 17:10"
+ },
+ "Portugal|Croatia": {
+  "odd1": 1.8,
+  "oddX": 3.65,
+  "odd2": 4.7,
+  "ou_line": 2.5,
+  "over": 2.05,
+  "under": 1.769,
+  "provider": "DraftKings",
+  "opening": {
+   "odd1": 1.8,
+   "oddX": 3.65,
+   "odd2": 4.7
+  },
+  "captured": "2026-06-29 17:10"
+ },
+ "Switzerland|Algeria": {
+  "odd1": 2.05,
+  "oddX": 3.35,
+  "odd2": 4.0,
+  "ou_line": 2.5,
+  "over": 2.1,
+  "under": 1.714,
+  "provider": "DraftKings",
+  "opening": {
+   "odd1": 2.05,
+   "oddX": 3.35,
+   "odd2": 4.0
+  },
+  "captured": "2026-06-29 17:10"
+ },
+ "Australia|Egypt": {
+  "odd1": 3.3,
+  "oddX": 2.9,
+  "odd2": 2.5,
+  "ou_line": 1.5,
+  "over": 1.588,
+  "under": 2.35,
+  "provider": "DraftKings",
+  "opening": {
+   "odd1": 3.3,
+   "oddX": 2.9,
+   "odd2": 2.5
+  },
+  "captured": "2026-06-29 17:10"
+ },
+ "Argentina|Cape Verde": {
+  "odd1": 1.174,
+  "oddX": 7.5,
+  "odd2": 17.0,
+  "ou_line": 2.5,
+  "over": 1.667,
+  "under": 2.2,
+  "provider": "DraftKings",
+  "opening": {
+   "odd1": 1.174,
+   "oddX": 7.5,
+   "odd2": 17.0
+  },
+  "captured": "2026-06-29 17:10"
+ },
+ "Colombia|Ghana": {
+  "odd1": 1.526,
+  "oddX": 4.1,
+  "odd2": 7.0,
+  "ou_line": 2.5,
+  "over": 2.25,
+  "under": 1.645,
+  "provider": "DraftKings",
+  "opening": {
+   "odd1": 1.526,
+   "oddX": 4.1,
+   "odd2": 7.0
+  },
+  "captured": "2026-06-29 17:10"
  }
 }

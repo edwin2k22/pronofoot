@@ -1238,8 +1238,10 @@ function hotTrendsBlock(m) {
 /* match À VENIR : pronostic complet.
    mode : undefined = à venir | "kickoff" = coup d'envoi atteint | "awaiting" = résultat en attente */
 function missingKeyPlayersBlock(m) {
-  if (!m.lineupImpact || !m.lineupImpact.missingKeyPlayers || m.lineupImpact.missingKeyPlayers.length === 0) return "";
-  const teams = m.lineupImpact.missingKeyPlayers.join(" et ");
+  const p = predictionOf(m);
+  const li = p.lineupImpact || m.lineupImpact || {};
+  if (!li.missingKeyPlayers || li.missingKeyPlayers.length === 0) return "";
+  const teams = li.missingKeyPlayers.join(" et ");
   return `<div style="background:var(--card-bg); border-left:4px solid #ff6b7d; padding:10px 14px; margin-bottom:15px; border-radius:4px;">
     <div style="font-weight:700; color:#ff6b7d; font-size:13px; margin-bottom:4px; display:flex; align-items:center; gap:6px;">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
@@ -1248,6 +1250,50 @@ function missingKeyPlayersBlock(m) {
     <div style="font-size:12px; color:var(--text); opacity:0.9;">
       Fort remaniement ou absences clés détectées pour : <b>${teams}</b>. L'algorithme a ajusté l'Elo et les probabilités (Poisson) à la baisse.
     </div>
+  </div>`;
+}
+
+function projectedLineupsBlock(m,p){
+  const official=p.officialLineups||{};
+  const hasOfficial=(official.homeXi&&official.homeXi.length>=11)||(official.awayXi&&official.awayXi.length>=11);
+  const forms=p.formations||{};
+  const li=p.lineupImpact||m.lineupImpact||{};
+  const pp=p.playerProps||{};
+  if(!hasOfficial && !forms.home && !forms.away && !li.tacticalMod && !pp.home && !pp.away) return "";
+  const namesFor=(side)=>{
+    if(hasOfficial){
+      const xi=official[side==="home"?"homeXi":"awayXi"]||[];
+      return xi.map((name,i)=>({role:i===0?"Gardien":"Titulaire", name}));
+    }
+    const team=pp[side]||{};
+    const out=[];
+    if(team.keeper&&team.keeper.name) out.push({role:"Gardien", name:team.keeper.name});
+    if(team.creator&&team.creator.name) out.push({role:"Créateur", name:team.creator.name});
+    (team.scorers||[]).slice(0,3).forEach(s=>out.push({role:s.poste||"Attaque", name:s.name, p:s.p}));
+    return out;
+  };
+  const side=(label,key,form)=>`<div class="lineup-side">
+    <div class="lineup-head"><b>${label}</b><span>${form||"formation N/D"}</span></div>
+    <div class="lineup-names">
+      ${namesFor(key).map(x=>`<span><b>${clean(x.name)}</b><small>${x.role}${x.p!=null?` · ${pct(x.p)}`:""}</small></span>`).join("") || '<em>Joueurs N/D</em>'}
+    </div>
+  </div>`;
+  const impact = li.tacticalMod!=null
+    ? `<div class="lineup-impact">Impact modèle : tactique ×${li.tacticalMod} · rotation ${m.home} ${Math.round((li.rotationDeltaHome||0)*100)}% / ${m.away} ${Math.round((li.rotationDeltaAway||0)*100)}%</div>`
+    : "";
+  const status = hasOfficial
+    ? `XI officiel reçu (${official.source||"source officielle"}) — le modèle l'utilise dans ses probabilités.`
+    : "XI officiel non reçu dans le flux. Projection modèle ci-dessous.";
+  const homeForm = hasOfficial ? (official.homeFormation || forms.home) : forms.home;
+  const awayForm = hasOfficial ? (official.awayFormation || forms.away) : forms.away;
+  return `<div class="module lineup-proj">
+    <h3>👥 Compos & disponibilité</h3>
+    <div class="lineup-status">${status}</div>
+    <div class="lineup-grid">
+      ${side(m.home,"home",homeForm)}
+      ${side(m.away,"away",awayForm)}
+    </div>
+    ${impact}
   </div>`;
 }
 
@@ -1277,6 +1323,7 @@ function renderUpcoming(m, mode){
     ${scoreUncertaintyBlock(p)}
     ${coherenceHint(m,p)}
     ${missingKeyPlayersBlock(m)}
+    ${projectedLineupsBlock(m,p)}
     ${h2hBlock(m)}
     ${scorersVsBlock(m)}
     ${keyEventsBlock(m)}
@@ -1405,7 +1452,7 @@ function scoreUncertaintyBlock(p){
   const tight=(top.p-second.p)<0.02;
   const lowTop=top.p<0.16;
   if(!tight && !lowTop) return "";
-  const near=scores.slice(0,5).map(s=>`${s.score} (${pct(s.p)})`).join(" · ");
+    const near=scores.slice(0,5).map(s=>`${s.score} (${pct(s.p)})`).join(" · ");
   return `<div class="coh-note score-risk"><b>Score exact dispersé.</b> Le modal est à ${pct(top.p)}${tight?`, avec plusieurs scores au contact`:""}. Alternatives proches : ${near}.</div>`;
 }
 

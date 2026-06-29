@@ -327,6 +327,18 @@
   .coh-note{font-size:11.5px;color:var(--muted);line-height:1.5;background:rgba(255,211,78,.07);
     border:1px solid rgba(255,211,78,.28);border-radius:10px;padding:9px 11px;margin:6px 0 12px}
   .coh-note b{color:#ffd34e}
+  .lineup-proj{border-left:4px solid var(--acc2)}
+  .lineup-status{font-size:12px;color:var(--muted);margin-bottom:9px}
+  .lineup-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .lineup-side{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px}
+  .lineup-head{display:flex;justify-content:space-between;gap:8px;align-items:center;margin-bottom:8px}
+  .lineup-head span{color:var(--acc2);font-size:12px;font-weight:800}
+  .lineup-names{display:flex;flex-direction:column;gap:6px}
+  .lineup-names span{display:flex;justify-content:space-between;gap:8px;font-size:12px}
+  .lineup-names small{color:var(--muted);white-space:nowrap}
+  .lineup-names em{font-style:normal;color:var(--muted);font-size:12px}
+  .lineup-impact{font-size:11.5px;color:var(--muted);margin-top:9px;background:rgba(91,140,255,.08);
+    border:1px solid rgba(91,140,255,.24);border-radius:8px;padding:7px 9px}
   .btts-pick{font-size:12px;color:var(--muted);margin:2px 0 6px}
   .btts-pick b{color:#cfe0ff}
   .conf-élevée{color:#33e0a0}.conf-moyenne{color:#ffd34e}.conf-faible{color:#ff8a5b}
@@ -363,7 +375,7 @@
   .pp-note{font-size:11.5px;color:var(--muted);background:var(--card);border:1px dashed var(--line);
     border-radius:9px;padding:8px 10px;margin-bottom:10px;line-height:1.5}
   .pp-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-  @media(max-width:600px){.pp-grid{grid-template-columns:1fr}}
+  @media(max-width:600px){.pp-grid,.lineup-grid{grid-template-columns:1fr}}
   .pp-team{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:10px 11px}
   .pp-team-h{font-weight:700;font-size:13.5px;color:#cfe0ff;margin-bottom:7px;border-bottom:1px solid var(--line);padding-bottom:5px}
   .pp-sub{font-size:11px;color:#c9a8ff;font-weight:700;margin:4px 0 5px}

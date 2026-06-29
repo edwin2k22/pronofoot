@@ -30,7 +30,8 @@ def _match_lineup_to_sides(lineups, home, away):
     hk = _norm(home).split()[-1]
     ak = _norm(away).split()[-1]
     h_block = a_block = None
-    for team_norm, blk in (lineups or {}).items():
+    for team_name, blk in (lineups or {}).items():
+        team_norm = _norm(team_name)
         if hk in team_norm:
             h_block = blk
         elif ak in team_norm:

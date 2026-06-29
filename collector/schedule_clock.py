@@ -6,11 +6,30 @@ On les convertit en datetime UTC pour que le scheduler sache exactement
 quand chaque match commence (et donc quand activer le mode live).
 """
 from __future__ import annotations
-import re, datetime
+import json, os, re, datetime
 from .sources import openfootball_wc
 
 _TZ_RE = re.compile(r"(\d{1,2}):(\d{2})\s*UTC([+-]\d{1,2})")
 MATCH_DURATION_MIN = 200   # marge large (prolongations possibles + tirs au but)
+DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
+
+
+def _finished_pairs_from_predictions() -> set[tuple[str, str]]:
+    """Résultats déjà intégrés dans l'app, même si le calendrier brut traîne."""
+    path = os.path.join(DATA, "predictions.json")
+    try:
+        with open(path, encoding="utf-8") as f:
+            rows = json.load(f)
+    except (OSError, ValueError):
+        return set()
+    pairs = set()
+    for m in rows:
+        if m.get("status") == "FINISHED":
+            h, a = m.get("home"), m.get("away")
+            if h and a:
+                pairs.add((h, a))
+                pairs.add((a, h))
+    return pairs
 
 
 def kickoff_utc(date_str: str, time_str: str) -> datetime.datetime | None:
@@ -33,6 +52,7 @@ def kickoff_utc(date_str: str, time_str: str) -> datetime.datetime | None:
 def all_kickoffs() -> list[dict]:
     """Liste triée des matchs avec leur coup d'envoi UTC + état théorique."""
     sched = openfootball_wc.load_schedule()
+    finished_pairs = _finished_pairs_from_predictions()
     out = []
     for mt in sched.get("matches", []):
         t1, t2 = mt.get("team1"), mt.get("team2")
@@ -41,8 +61,8 @@ def all_kickoffs() -> list[dict]:
         ko = kickoff_utc(mt.get("date", ""), mt.get("time", ""))
         if not ko:
             continue
-        out.append({"home": t1, "away": t2, "kickoff": ko,
-                    "played": bool(mt.get("score", {}).get("ft"))})
+        played = bool(mt.get("score", {}).get("ft")) or (t1, t2) in finished_pairs
+        out.append({"home": t1, "away": t2, "kickoff": ko, "played": played})
     out.sort(key=lambda x: x["kickoff"])
     return out
 
@@ -65,6 +85,8 @@ def live_window(pre_min: int = 10, prematch_min: int = 30):
     kos = all_kickoffs()
     live, upcoming = [], []
     for m in kos:
+        if m.get("played"):
+            continue
         start = m["kickoff"]
         end = start + datetime.timedelta(minutes=MATCH_DURATION_MIN)
         if start <= now <= end:
@@ -96,4 +118,3 @@ def live_window(pre_min: int = 10, prematch_min: int = 30):
         "next_match": upcoming[0] if upcoming else None,
         "seconds_to_next": (next_ko - now).total_seconds() if next_ko else None,
     }
-
