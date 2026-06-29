@@ -501,5 +501,89 @@
   },
   "home": "Algeria",
   "away": "Austria"
+ },
+ "Brazil|Japan": {
+  "refTeam": "Brazil",
+  "games": [
+   {
+    "date": "2025-10-14",
+    "score": "2-3",
+    "competition": "2025 International Friendly"
+   },
+   {
+    "date": "2022-06-06",
+    "score": "1-0",
+    "competition": "2022 International Friendly"
+   },
+   {
+    "date": "2017-11-10",
+    "score": "3-1",
+    "competition": "2017 International Friendly"
+   },
+   {
+    "date": "2014-10-14",
+    "score": "4-0",
+    "competition": "International Friendly"
+   },
+   {
+    "date": "2013-06-15",
+    "score": "3-0",
+    "competition": "2013 FIFA Confederations Cup"
+   }
+  ],
+  "summary": {
+   "win": 4,
+   "draw": 0,
+   "loss": 1,
+   "total": 5
+  },
+  "home": "Brazil",
+  "away": "Japan"
+ },
+ "Germany|Paraguay": {
+  "refTeam": "Germany",
+  "games": [
+   {
+    "date": "2013-08-14",
+    "score": "3-3",
+    "competition": "International Friendly"
+   },
+   {
+    "date": "2002-06-15",
+    "score": "1-0",
+    "competition": "2002 FIFA World Cup"
+   }
+  ],
+  "summary": {
+   "win": 1,
+   "draw": 1,
+   "loss": 0,
+   "total": 2
+  },
+  "home": "Germany",
+  "away": "Paraguay"
+ },
+ "Netherlands|Morocco": {
+  "refTeam": "Netherlands",
+  "games": [
+   {
+    "date": "2017-05-31",
+    "score": "2-1",
+    "competition": "2017 International Friendly"
+   },
+   {
+    "date": "1994-06-29",
+    "score": "2-1",
+    "competition": "1994 FIFA World Cup"
+   }
+  ],
+  "summary": {
+   "win": 2,
+   "draw": 0,
+   "loss": 0,
+   "total": 2
+  },
+  "home": "Netherlands",
+  "away": "Morocco"
  }
 }

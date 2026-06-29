@@ -2,10 +2,10 @@
   "sampleWithOdds": 59,
   "favorite": {
     "bets": 59,
-    "wins": 44,
-    "winRate": 75,
-    "pnl": 15.41,
-    "yield": 26.1
+    "wins": 43,
+    "winRate": 73,
+    "pnl": 11.66,
+    "yield": 19.8
   },
   "value": {
     "bets": 121,
@@ -15,11 +15,11 @@
     "yield": 15.3
   },
   "valueStrict": {
-    "bets": 84,
-    "wins": 57,
-    "winRate": 68,
-    "pnl": 21.0,
-    "yield": 25.0
+    "bets": 83,
+    "wins": 56,
+    "winRate": 67,
+    "pnl": 16.25,
+    "yield": 19.6
   },
   "topValue": []
 }
