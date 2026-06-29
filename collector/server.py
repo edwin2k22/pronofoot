@@ -15,6 +15,8 @@ Lancement :  python3 -m collector.server          (port 8077 par défaut)
 """
 from __future__ import annotations
 import sys, os, json, io, contextlib
+import datetime as _dt
+import re
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # /home/user/prono-app
@@ -79,9 +81,10 @@ def _status():
     try:
         d = json.load(open(p, encoding="utf-8"))
         out["matches"] = len(d)
-        out["finished"] = sum(1 for m in d if m["status"] == "FINISHED")
-        out["live"] = sum(1 for m in d if m["status"] in ("LIVE", "HT"))
-        out["scheduled"] = sum(1 for m in d if m["status"] == "SCHEDULED")
+        states = [_effective_status(m) for m in d]
+        out["finished"] = sum(1 for s in states if s == "FINISHED")
+        out["live"] = sum(1 for s in states if s in ("LIVE", "HT", "KICKOFF"))
+        out["scheduled"] = sum(1 for s in states if s in ("SCHEDULED", "AWAITING"))
     except Exception:
         pass
     try:
@@ -89,6 +92,50 @@ def _status():
     except Exception:
         pass
     return out
+
+
+def _parse_kickoff(date_str):
+    if not date_str:
+        return None
+    m = re.match(r"(\d{4})-(\d{2})-(\d{2})[ T](\d{2}):(\d{2})(?:\s*UTC([+-]\d{1,2})(?::?(\d{2}))?)?", date_str)
+    if not m:
+        return None
+    y, mo, d, h, mi, tz_h, tz_min = m.groups()
+    t = _dt.datetime(int(y), int(mo), int(d), int(h), int(mi), tzinfo=_dt.timezone.utc)
+    if tz_h is not None:
+        sign = -1 if tz_h.startswith("-") else 1
+        off = _dt.timedelta(minutes=abs(int(tz_h)) * 60 + (int(tz_min) if tz_min else 0))
+        t -= sign * off
+    return t
+
+
+def _effective_status(match):
+    if match.get("status") == "FINISHED":
+        return "FINISHED"
+    ko = _parse_kickoff(match.get("date"))
+    full = 90 + 15 + 8
+    stale_grace = 10
+    long_grace = full + 75
+    status = match.get("status") or "SCHEDULED"
+    if status in ("LIVE", "HT"):
+        if ko is None:
+            return status
+        elapsed = (_dt.datetime.now(_dt.timezone.utc) - ko).total_seconds() / 60
+        if elapsed < 0:
+            return "SCHEDULED"
+        if not match.get("liveClock") and elapsed > full + stale_grace:
+            return "AWAITING"
+        if elapsed <= long_grace:
+            return status
+        return "AWAITING"
+    if ko is None:
+        return status
+    elapsed = (_dt.datetime.now(_dt.timezone.utc) - ko).total_seconds() / 60
+    if elapsed < 0:
+        return "SCHEDULED"
+    if elapsed <= full:
+        return "KICKOFF"
+    return "AWAITING"
 
 
 class Handler(BaseHTTPRequestHandler):

@@ -23122,7 +23122,7 @@
    {
     "minute": 90,
     "team": "Spain",
-    "player": "Pedri ",
+    "player": "Pedri",
     "type": "Yellow"
    }
   ],
@@ -42477,7 +42477,15 @@
   "note": ""
  },
  "South Africa|Canada": {
-  "goals": [],
+  "goals": [
+   {
+    "minute": 90,
+    "team": "Canada",
+    "player": "Stephen Eust\u00e1quio",
+    "assist": null,
+    "note": null
+   }
+  ],
   "cards": [
    {
     "minute": 54,
@@ -42986,7 +42994,7 @@
    {
     "minute": 90,
     "text": "Goal! South Africa 0, Canada 1. Stephen Eustaquio (Canada) right footed shot from outside the box to the bottom left corner.",
-    "type": "Goal - Volley"
+    "type": "Goal"
    },
    {
     "minute": 90,

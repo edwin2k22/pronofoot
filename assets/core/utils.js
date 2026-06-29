@@ -4,6 +4,7 @@ export const $ = id => document.getElementById(id);
 export const pct = x => Math.round((x||0)*100) + "%";
 
 const MATCH_MINUTES = 90, HT_BREAK = 15, STOPPAGE = 8;
+const STALE_LIVE_GRACE = 10;
 
 export function parseKickoff(dateStr){
   if(!dateStr) return null;
@@ -29,8 +30,9 @@ export function effectiveStatus(m){
     if(ko==null) return m.status;
     const el=(Date.now()-ko)/60000;
     if(el<0) return "SCHEDULED";
+    if(!m.liveClock && el>FULL+STALE_LIVE_GRACE) return "AWAITING";
     if(el<=GRACE) return m.status;
-    return "FINISHED";
+    return "AWAITING";
   }
 
   if(ko==null) return m.status||"SCHEDULED";
