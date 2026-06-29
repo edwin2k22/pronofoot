@@ -741,7 +741,24 @@
       },
       "summary": "Le modèle donnait <b>Mexico</b> favori (83%). ✅ Issue correctement anticipée. Score le plus probable prévu : 3-0 → réel 2-0. Total buts 2 (Under 2.5), BTTS non."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.77,
+        "away_adj": 0.72,
+        "home_reasons": [
+          "Blessure (-5%)",
+          "Blessure (-5%)",
+          "Carton rouge (-15%)"
+        ],
+        "away_reasons": [
+          "Carton rouge (-15%)",
+          "Carton rouge (-15%)"
+        ]
+      }
+    },
     "hotTrends": [
       "Mexico : Moins de 2.5 buts dans 75% de ses 8 derniers matchs",
       "South Africa : Moins de 2.5 buts dans 85% de ses 7 derniers matchs"
@@ -3854,7 +3871,19 @@
       },
       "summary": "Le modèle donnait <b>Canada</b> favori (51%). ❌ Surprise : match nul, non anticipé. Score le plus probable prévu : 1-1 → réel 1-1 (exact !) Total buts 2 (Under 2.5), BTTS oui."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.95,
+        "away_adj": 1.0,
+        "home_reasons": [
+          "Blessure (-5%)"
+        ],
+        "away_reasons": []
+      }
+    },
     "hotTrends": [
       "Bosnia & Herzegovina : Les deux équipes marquent (BTTS) dans 80% de ses matchs"
     ],
@@ -5418,7 +5447,23 @@
       },
       "summary": "Le modèle donnait <b>USA</b> favori (62%). ✅ Issue correctement anticipée. Score le plus probable prévu : 2-0 → réel 4-1. Total buts 5 (Over 2.5), BTTS oui."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.9,
+        "away_adj": 0.9,
+        "home_reasons": [
+          "Blessure (-5%)",
+          "Blessure (-5%)"
+        ],
+        "away_reasons": [
+          "Blessure (-5%)",
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [
       "USA : Plus de 2.5 buts dans 71% de ses 7 derniers matchs",
       "USA : Les deux équipes marquent (BTTS) dans 71% de ses matchs"
@@ -6881,7 +6926,23 @@
       },
       "summary": "Le modèle donnait <b>Switzerland</b> favori (73%). ❌ Surprise : match nul, non anticipé. Score le plus probable prévu : 0-2 → réel 1-1. Total buts 2 (Under 2.5), BTTS oui."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.86,
+        "away_adj": 0.95,
+        "home_reasons": [
+          "Blessure (-5%)",
+          "Blessure (-5%)",
+          "Blessure (-5%)"
+        ],
+        "away_reasons": [
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [
       "Switzerland : Les deux équipes marquent (BTTS) dans 85% de ses matchs"
     ],
@@ -8497,7 +8558,20 @@
       },
       "summary": "Le modèle donnait <b>Brazil</b> favori (41%). ❌ Surprise : match nul, non anticipé. Score le plus probable prévu : 1-1 → réel 1-1 (exact !) Total buts 2 (Under 2.5), BTTS oui."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 1.0,
+        "away_adj": 0.9,
+        "home_reasons": [],
+        "away_reasons": [
+          "Blessure (-5%)",
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [
       "Brazil : Plus de 2.5 buts dans 85% de ses 7 derniers matchs",
       "Brazil : Les deux équipes marquent (BTTS) dans 71% de ses matchs",
@@ -10287,7 +10361,19 @@
       },
       "summary": "Le modèle donnait <b>Scotland</b> favori (64%). ✅ Issue correctement anticipée. Score le plus probable prévu : 0-2 → réel 0-1. Total buts 1 (Under 2.5), BTTS non."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.95,
+        "away_adj": 1.0,
+        "home_reasons": [
+          "Blessure (-5%)"
+        ],
+        "away_reasons": []
+      }
+    },
     "hotTrends": [],
     "home": "Haiti",
     "away": "Scotland",
@@ -14810,7 +14896,19 @@
       },
       "summary": "Le modèle donnait <b>Netherlands</b> favori (45%). ❌ Surprise : match nul, non anticipé. Score le plus probable prévu : 1-1 → réel 2-2. Total buts 4 (Over 2.5), BTTS oui."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 1.0,
+        "away_adj": 0.95,
+        "home_reasons": [],
+        "away_reasons": [
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [
       "Netherlands : Plus de 2.5 buts dans 71% de ses 7 derniers matchs",
       "Netherlands : Les deux équipes marquent (BTTS) dans 85% de ses matchs",
@@ -16330,7 +16428,20 @@
       },
       "summary": "Le modèle donnait <b>Ecuador</b> favori (38%). ❌ Surprise : c'est <b>Ivory Coast</b> qui l'emporte Score le plus probable prévu : 1-1 → réel 1-0. Total buts 1 (Under 2.5), BTTS non."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 1.0,
+        "away_adj": 0.9,
+        "home_reasons": [],
+        "away_reasons": [
+          "Blessure (-5%)",
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [
       "Ivory Coast : A marqué au moins 1 but dans 100% de ses matchs"
     ],
@@ -17767,7 +17878,19 @@
       },
       "summary": "Le modèle donnait <b>Sweden</b> favori (59%). ✅ Issue correctement anticipée. Score le plus probable prévu : 1-1 → réel 5-1. Total buts 6 (Over 2.5), BTTS oui."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.95,
+        "away_adj": 1.0,
+        "home_reasons": [
+          "Blessure (-5%)"
+        ],
+        "away_reasons": []
+      }
+    },
     "hotTrends": [
       "Sweden : Plus de 2.5 buts dans 80% de ses 5 derniers matchs",
       "Sweden : Les deux équipes marquent (BTTS) dans 100% de ses matchs",
@@ -19239,7 +19362,19 @@
       },
       "summary": "Le modèle donnait <b>Spain</b> favori (88%). ❌ Surprise : match nul, non anticipé. Score le plus probable prévu : 5-0 → réel 0-0. Total buts 0 (Under 2.5), BTTS non."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.95,
+        "away_adj": 1.0,
+        "home_reasons": [
+          "Blessure (-5%)"
+        ],
+        "away_reasons": []
+      }
+    },
     "hotTrends": [],
     "home": "Spain",
     "away": "Cape Verde",
@@ -22420,7 +22555,19 @@
       },
       "summary": "Le modèle donnait <b>Uruguay</b> favori (58%). ❌ Surprise : match nul, non anticipé. Score le plus probable prévu : 0-3 → réel 1-1. Total buts 2 (Under 2.5), BTTS oui."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.95,
+        "away_adj": 1.0,
+        "home_reasons": [
+          "Blessure (-5%)"
+        ],
+        "away_reasons": []
+      }
+    },
     "hotTrends": [
       "Uruguay : Moins de 2.5 buts dans 80% de ses 5 derniers matchs"
     ],
@@ -23941,7 +24088,24 @@
       },
       "summary": "Le modèle donnait <b>Iran</b> favori (69%). ❌ Surprise : match nul, non anticipé. Score le plus probable prévu : 2-0 → réel 2-2. Total buts 4 (Over 2.5), BTTS oui."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.81,
+        "away_adj": 0.95,
+        "home_reasons": [
+          "Blessure (-5%)",
+          "Blessure (-5%)",
+          "Blessure (-5%)",
+          "Blessure (-5%)"
+        ],
+        "away_reasons": [
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [
       "New Zealand : Plus de 2.5 buts dans 71% de ses 7 derniers matchs"
     ],
@@ -25297,7 +25461,21 @@
       },
       "summary": "Le modèle donnait <b>France</b> favori (76%). ✅ Issue correctement anticipée. Score le plus probable prévu : 2-0 → réel 3-1. Total buts 4 (Over 2.5), BTTS oui."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.95,
+        "away_adj": 0.95,
+        "home_reasons": [
+          "Blessure (-5%)"
+        ],
+        "away_reasons": [
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [
       "France : Plus de 2.5 buts dans 100% de ses 7 derniers matchs",
       "France : Les deux équipes marquent (BTTS) dans 85% de ses matchs",
@@ -27000,7 +27178,21 @@
       },
       "summary": "Le modèle donnait <b>Norway</b> favori (58%). ✅ Issue correctement anticipée. Score le plus probable prévu : 1-1 → réel 1-4. Total buts 5 (Over 2.5), BTTS oui."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.86,
+        "away_adj": 1.0,
+        "home_reasons": [
+          "Blessure (-5%)",
+          "Blessure (-5%)",
+          "Blessure (-5%)"
+        ],
+        "away_reasons": []
+      }
+    },
     "hotTrends": [
       "Norway : Plus de 2.5 buts dans 71% de ses 7 derniers matchs",
       "Norway : Les deux équipes marquent (BTTS) dans 85% de ses matchs"
@@ -28419,7 +28611,19 @@
       },
       "summary": "Le modèle donnait <b>Argentina</b> favori (87%). ✅ Issue correctement anticipée. Score le plus probable prévu : 4-0 → réel 3-0. Total buts 3 (Over 2.5), BTTS non."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 1.0,
+        "away_adj": 0.95,
+        "home_reasons": [],
+        "away_reasons": [
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [
       "Argentina : Plus de 2.5 buts dans 71% de ses 7 derniers matchs",
       "Argentina : A marqué au moins 1 but dans 100% de ses matchs",
@@ -29888,7 +30092,23 @@
       },
       "summary": "Le modèle donnait <b>Austria</b> favori (80%). ✅ Issue correctement anticipée. Score le plus probable prévu : 2-0 → réel 3-1. Total buts 4 (Over 2.5), BTTS oui."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.95,
+        "away_adj": 0.86,
+        "home_reasons": [
+          "Blessure (-5%)"
+        ],
+        "away_reasons": [
+          "Blessure (-5%)",
+          "Blessure (-5%)",
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [
       "Jordan : Plus de 2.5 buts dans 85% de ses 7 derniers matchs",
       "Jordan : Les deux équipes marquent (BTTS) dans 85% de ses matchs"
@@ -34347,7 +34567,22 @@
       },
       "summary": "Le modèle donnait <b>Ghana</b> favori (38%). ✅ Issue correctement anticipée. Score le plus probable prévu : 1-1 → réel 1-0. Total buts 1 (Under 2.5), BTTS non."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.81,
+        "away_adj": 1.0,
+        "home_reasons": [
+          "Blessure (-5%)",
+          "Blessure (-5%)",
+          "Blessure (-5%)",
+          "Blessure (-5%)"
+        ],
+        "away_reasons": []
+      }
+    },
     "hotTrends": [],
     "home": "Ghana",
     "away": "Panama",
@@ -35881,7 +36116,20 @@
       },
       "summary": "Le modèle donnait <b>Colombia</b> favori (81%). ✅ Issue correctement anticipée. Score le plus probable prévu : 0-3 → réel 1-3. Total buts 4 (Over 2.5), BTTS oui."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.9,
+        "away_adj": 1.0,
+        "home_reasons": [
+          "Blessure (-5%)",
+          "Blessure (-5%)"
+        ],
+        "away_reasons": []
+      }
+    },
     "hotTrends": [
       "Uzbekistan : Plus de 2.5 buts dans 71% de ses 7 derniers matchs"
     ],
@@ -40574,7 +40822,25 @@
       },
       "summary": "Le modèle donnait <b>Canada</b> favori (60%). ✅ Issue correctement anticipée. Score le plus probable prévu : 1-1 → réel 6-0. Total buts 6 (Over 2.5), BTTS non."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.95,
+        "away_adj": 0.62,
+        "home_reasons": [
+          "Blessure (-5%)"
+        ],
+        "away_reasons": [
+          "Blessure (-5%)",
+          "Carton rouge (-15%)",
+          "Carton rouge (-15%)",
+          "Blessure (-5%)",
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [],
     "home": "Canada",
     "away": "Qatar",
@@ -41962,7 +42228,19 @@
       },
       "summary": "Le modèle donnait <b>Mexico</b> favori (62%). ✅ Issue correctement anticipée. Score le plus probable prévu : 2-1 → réel 1-0. Total buts 1 (Under 2.5), BTTS non."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.95,
+        "away_adj": 1.0,
+        "home_reasons": [
+          "Blessure (-5%)"
+        ],
+        "away_reasons": []
+      }
+    },
     "hotTrends": [
       "Mexico : Moins de 2.5 buts dans 75% de ses 8 derniers matchs"
     ],
@@ -43570,7 +43848,24 @@
       },
       "summary": "Le modèle donnait <b>USA</b> favori (51%). ✅ Issue correctement anticipée. Score le plus probable prévu : 1-1 → réel 2-0. Total buts 2 (Under 2.5), BTTS non."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.9,
+        "away_adj": 0.86,
+        "home_reasons": [
+          "Blessure (-5%)",
+          "Blessure (-5%)"
+        ],
+        "away_reasons": [
+          "Blessure (-5%)",
+          "Blessure (-5%)",
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [
       "USA : Plus de 2.5 buts dans 71% de ses 7 derniers matchs",
       "USA : Les deux équipes marquent (BTTS) dans 71% de ses matchs",
@@ -44882,7 +45177,22 @@
       },
       "summary": "Le modèle donnait <b>Morocco</b> favori (62%). ✅ Issue correctement anticipée. Score le plus probable prévu : 0-3 → réel 0-1. Total buts 1 (Under 2.5), BTTS non."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.95,
+        "away_adj": 0.9,
+        "home_reasons": [
+          "Blessure (-5%)"
+        ],
+        "away_reasons": [
+          "Blessure (-5%)",
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [
       "Morocco : A marqué au moins 1 but dans 100% de ses matchs"
     ],
@@ -46764,7 +47074,25 @@
       },
       "summary": "Le modèle donnait <b>Turkey</b> favori (52%). ❌ Surprise : c'est <b>Paraguay</b> qui l'emporte Score le plus probable prévu : 1-1 → réel 0-1. Total buts 1 (Under 2.5), BTTS non."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 1.0,
+        "away_adj": 0.62,
+        "home_reasons": [],
+        "away_reasons": [
+          "Blessure (-5%)",
+          "Carton rouge (-15%)",
+          "Blessure (-5%)",
+          "Blessure (-5%)",
+          "Blessure (-5%)",
+          "Blessure (-5%)",
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [],
     "home": "Turkey",
     "away": "Paraguay",
@@ -48385,7 +48713,21 @@
       },
       "summary": "Le modèle donnait <b>Brazil</b> favori (95%). ✅ Issue correctement anticipée. Score le plus probable prévu : 5-0 → réel 3-0. Total buts 3 (Over 2.5), BTTS non."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.95,
+        "away_adj": 0.95,
+        "home_reasons": [
+          "Blessure (-5%)"
+        ],
+        "away_reasons": [
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [
       "Brazil : Plus de 2.5 buts dans 85% de ses 7 derniers matchs",
       "Brazil : Les deux équipes marquent (BTTS) dans 71% de ses matchs",
@@ -49974,7 +50316,19 @@
       },
       "summary": "Le modèle donnait <b>Netherlands</b> favori (66%). ✅ Issue correctement anticipée. Score le plus probable prévu : 2-1 → réel 5-1. Total buts 6 (Over 2.5), BTTS oui."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.95,
+        "away_adj": 1.0,
+        "home_reasons": [
+          "Blessure (-5%)"
+        ],
+        "away_reasons": []
+      }
+    },
     "hotTrends": [
       "Netherlands : Plus de 2.5 buts dans 71% de ses 7 derniers matchs",
       "Netherlands : Les deux équipes marquent (BTTS) dans 85% de ses matchs",
@@ -51490,7 +51844,19 @@
       },
       "summary": "Le modèle donnait <b>Germany</b> favori (66%). ✅ Issue correctement anticipée. Score le plus probable prévu : 3-0 → réel 2-1. Total buts 3 (Over 2.5), BTTS oui."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.95,
+        "away_adj": 1.0,
+        "home_reasons": [
+          "Blessure (-5%)"
+        ],
+        "away_reasons": []
+      }
+    },
     "hotTrends": [
       "Germany : Plus de 2.5 buts dans 100% de ses 7 derniers matchs",
       "Germany : Les deux équipes marquent (BTTS) dans 85% de ses matchs",
@@ -53125,7 +53491,21 @@
       },
       "summary": "Le modèle donnait <b>Ecuador</b> favori (81%). ❌ Surprise : match nul, non anticipé. Score le plus probable prévu : 3-0 → réel 0-0. Total buts 0 (Under 2.5), BTTS non."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 1.0,
+        "away_adj": 0.86,
+        "home_reasons": [],
+        "away_reasons": [
+          "Blessure (-5%)",
+          "Blessure (-5%)",
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [],
     "home": "Ecuador",
     "away": "Curaçao",
@@ -54541,7 +54921,19 @@
       },
       "summary": "Le modèle donnait <b>Japan</b> favori (75%). ✅ Issue correctement anticipée. Score le plus probable prévu : 0-3 → réel 0-4. Total buts 4 (Over 2.5), BTTS non."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.95,
+        "away_adj": 1.0,
+        "home_reasons": [
+          "Blessure (-5%)"
+        ],
+        "away_reasons": []
+      }
+    },
     "hotTrends": [
       "Japan : A marqué au moins 1 but dans 100% de ses matchs"
     ],
@@ -55937,7 +56329,21 @@
       },
       "summary": "Le modèle donnait <b>Spain</b> favori (95%). ✅ Issue correctement anticipée. Score le plus probable prévu : 5-0 → réel 4-0. Total buts 4 (Over 2.5), BTTS non."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.95,
+        "away_adj": 0.95,
+        "home_reasons": [
+          "Blessure (-5%)"
+        ],
+        "away_reasons": [
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [],
     "home": "Spain",
     "away": "Saudi Arabia",
@@ -57450,7 +57856,21 @@
       },
       "summary": "Le modèle donnait <b>Belgium</b> favori (72%). ❌ Surprise : match nul, non anticipé. Score le plus probable prévu : 2-0 → réel 0-0. Total buts 0 (Under 2.5), BTTS non."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.85,
+        "away_adj": 0.95,
+        "home_reasons": [
+          "Carton rouge (-15%)"
+        ],
+        "away_reasons": [
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [],
     "home": "Belgium",
     "away": "Iran",
@@ -60585,7 +61005,20 @@
       },
       "summary": "Le modèle donnait <b>Egypt</b> favori (49%). ✅ Issue correctement anticipée. Score le plus probable prévu : 1-1 → réel 1-3. Total buts 4 (Over 2.5), BTTS oui."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 1.0,
+        "away_adj": 0.9,
+        "home_reasons": [],
+        "away_reasons": [
+          "Blessure (-5%)",
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [
       "New Zealand : Plus de 2.5 buts dans 71% de ses 7 derniers matchs"
     ],
@@ -62110,7 +62543,23 @@
       },
       "summary": "Le modèle donnait <b>Argentina</b> favori (82%). ✅ Issue correctement anticipée. Score le plus probable prévu : 4-0 → réel 2-0. Total buts 2 (Under 2.5), BTTS non."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.86,
+        "away_adj": 0.95,
+        "home_reasons": [
+          "Blessure (-5%)",
+          "Blessure (-5%)",
+          "Blessure (-5%)"
+        ],
+        "away_reasons": [
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [
       "Argentina : Plus de 2.5 buts dans 71% de ses 7 derniers matchs",
       "Argentina : A marqué au moins 1 but dans 100% de ses matchs"
@@ -65010,7 +65459,21 @@
       },
       "summary": "Le modèle donnait <b>Norway</b> favori (39%). ✅ Issue correctement anticipée. Score le plus probable prévu : 1-2 → réel 3-2. Total buts 5 (Over 2.5), BTTS oui."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.95,
+        "away_adj": 0.95,
+        "home_reasons": [
+          "Blessure (-5%)"
+        ],
+        "away_reasons": [
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [
       "Norway : Plus de 2.5 buts dans 71% de ses 7 derniers matchs",
       "Norway : Les deux équipes marquent (BTTS) dans 85% de ses matchs",
@@ -69766,7 +70229,22 @@
       },
       "summary": "Le modèle donnait <b>England</b> favori (93%). ❌ Surprise : match nul, non anticipé. Score le plus probable prévu : 6-0 → réel 0-0. Total buts 0 (Under 2.5), BTTS non."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.95,
+        "away_adj": 0.9,
+        "home_reasons": [
+          "Blessure (-5%)"
+        ],
+        "away_reasons": [
+          "Blessure (-5%)",
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [
       "England : Moins de 2.5 buts dans 71% de ses 7 derniers matchs"
     ],
@@ -76080,7 +76558,20 @@
       },
       "summary": "Le modèle donnait <b>Bosnia & Herzegovina</b> favori (49%). ✅ Issue correctement anticipée. Score le plus probable prévu : 1-1 → réel 3-1. Total buts 4 (Over 2.5), BTTS oui."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 1.0,
+        "away_adj": 0.9,
+        "home_reasons": [],
+        "away_reasons": [
+          "Blessure (-5%)",
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [
       "Bosnia & Herzegovina : Les deux équipes marquent (BTTS) dans 80% de ses matchs"
     ],
@@ -77572,7 +78063,19 @@
       },
       "summary": "Le modèle donnait <b>Brazil</b> favori (69%). ✅ Issue correctement anticipée. Score le plus probable prévu : 0-3 → réel 0-3 (exact !) Total buts 3 (Over 2.5), BTTS non."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.95,
+        "away_adj": 1.0,
+        "home_reasons": [
+          "Blessure (-5%)"
+        ],
+        "away_reasons": []
+      }
+    },
     "hotTrends": [
       "Brazil : Plus de 2.5 buts dans 85% de ses 7 derniers matchs",
       "Brazil : Les deux équipes marquent (BTTS) dans 71% de ses matchs",
@@ -79321,7 +79824,22 @@
       },
       "summary": "Le modèle donnait <b>Morocco</b> favori (94%). ✅ Issue correctement anticipée. Score le plus probable prévu : 5-0 → réel 4-2. Total buts 6 (Over 2.5), BTTS oui."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.9,
+        "away_adj": 0.95,
+        "home_reasons": [
+          "Blessure (-5%)",
+          "Blessure (-5%)"
+        ],
+        "away_reasons": [
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [
       "Morocco : A marqué au moins 1 but dans 100% de ses matchs"
     ],
@@ -83677,7 +84195,19 @@
       },
       "summary": "Le modèle donnait <b>Ivory Coast</b> favori (72%). ✅ Issue correctement anticipée. Score le plus probable prévu : 0-3 → réel 0-2. Total buts 2 (Under 2.5), BTTS non."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.95,
+        "away_adj": 1.0,
+        "home_reasons": [
+          "Blessure (-5%)"
+        ],
+        "away_reasons": []
+      }
+    },
     "hotTrends": [
       "Ivory Coast : A marqué au moins 1 but dans 100% de ses matchs"
     ],
@@ -86803,7 +87333,20 @@
       },
       "summary": "Le modèle donnait <b>Japan</b> favori (61%). ❌ Surprise : match nul, non anticipé. Score le plus probable prévu : 2-1 → réel 1-1. Total buts 2 (Under 2.5), BTTS oui."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 1.0,
+        "away_adj": 0.9,
+        "home_reasons": [],
+        "away_reasons": [
+          "Blessure (-5%)",
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [
       "Japan : A marqué au moins 1 but dans 100% de ses matchs",
       "Sweden : Plus de 2.5 buts dans 80% de ses 5 derniers matchs",
@@ -89920,7 +90463,19 @@
       },
       "summary": "Le modèle donnait <b>USA</b> favori (38%). ❌ Surprise : c'est <b>Turkey</b> qui l'emporte Score le plus probable prévu : 1-1 → réel 3-2. Total buts 5 (Over 2.5), BTTS oui."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 1.0,
+        "away_adj": 0.95,
+        "home_reasons": [],
+        "away_reasons": [
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [
       "USA : Plus de 2.5 buts dans 71% de ses 7 derniers matchs",
       "USA : Les deux équipes marquent (BTTS) dans 71% de ses matchs"
@@ -91165,7 +91720,21 @@
       },
       "summary": "Le modèle donnait <b>Australia</b> favori (34%). ❌ Surprise : match nul, non anticipé. Score le plus probable prévu : 1-1 → réel 0-0. Total buts 0 (Under 2.5), BTTS non."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.95,
+        "away_adj": 0.95,
+        "home_reasons": [
+          "Blessure (-5%)"
+        ],
+        "away_reasons": [
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [
       "Australia : Moins de 2.5 buts dans 85% de ses 7 derniers matchs"
     ],
@@ -92697,7 +93266,19 @@
       },
       "summary": "Le modèle donnait <b>France</b> favori (71%). ✅ Issue correctement anticipée. Score le plus probable prévu : 0-5 → réel 1-4. Total buts 5 (Over 2.5), BTTS oui."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.95,
+        "away_adj": 1.0,
+        "home_reasons": [
+          "Blessure (-5%)"
+        ],
+        "away_reasons": []
+      }
+    },
     "hotTrends": [
       "Norway : Plus de 2.5 buts dans 71% de ses 7 derniers matchs",
       "Norway : Les deux équipes marquent (BTTS) dans 85% de ses matchs",
@@ -94441,7 +95022,21 @@
       },
       "summary": "Le modèle donnait <b>Senegal</b> favori (77%). ✅ Issue correctement anticipée. Score le plus probable prévu : 3-0 → réel 5-0. Total buts 5 (Over 2.5), BTTS non."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 1.0,
+        "away_adj": 0.77,
+        "home_reasons": [],
+        "away_reasons": [
+          "Carton rouge (-15%)",
+          "Blessure (-5%)",
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [
       "Senegal : Plus de 2.5 buts dans 71% de ses 7 derniers matchs"
     ],
@@ -96081,7 +96676,23 @@
       },
       "summary": "Le modèle donnait <b>Spain</b> favori (71%). ✅ Issue correctement anticipée. Score le plus probable prévu : 0-3 → réel 0-1. Total buts 1 (Under 2.5), BTTS non."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.81,
+        "away_adj": 0.9,
+        "home_reasons": [
+          "Blessure (-5%)",
+          "Carton rouge (-15%)"
+        ],
+        "away_reasons": [
+          "Blessure (-5%)",
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [
       "Uruguay : Moins de 2.5 buts dans 80% de ses 5 derniers matchs"
     ],
@@ -97665,7 +98276,19 @@
       },
       "summary": "Le modèle donnait <b>Cape Verde</b> favori (38%). ❌ Surprise : match nul, non anticipé. Score le plus probable prévu : 1-1 → réel 0-0. Total buts 0 (Under 2.5), BTTS non."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 1.0,
+        "away_adj": 0.95,
+        "home_reasons": [],
+        "away_reasons": [
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [],
     "home": "Cape Verde",
     "away": "Saudi Arabia",
@@ -99342,7 +99965,21 @@
       },
       "summary": "Le modèle donnait <b>Egypt</b> favori (35%). ❌ Surprise : match nul, non anticipé. Score le plus probable prévu : 1-1 → réel 1-1 (exact !) Total buts 2 (Under 2.5), BTTS oui."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.86,
+        "away_adj": 1.0,
+        "home_reasons": [
+          "Blessure (-5%)",
+          "Blessure (-5%)",
+          "Blessure (-5%)"
+        ],
+        "away_reasons": []
+      }
+    },
     "hotTrends": [],
     "home": "Egypt",
     "away": "Iran",
@@ -100904,7 +101541,19 @@
       },
       "summary": "Le modèle donnait <b>Belgium</b> favori (79%). ✅ Issue correctement anticipée. Score le plus probable prévu : 0-3 → réel 1-5. Total buts 6 (Over 2.5), BTTS oui."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 1.0,
+        "away_adj": 0.95,
+        "home_reasons": [],
+        "away_reasons": [
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [
       "New Zealand : Plus de 2.5 buts dans 71% de ses 7 derniers matchs"
     ],
@@ -102603,7 +103252,24 @@
       },
       "summary": "Le modèle donnait <b>England</b> favori (89%). ✅ Issue correctement anticipée. Score le plus probable prévu : 0-5 → réel 0-2. Total buts 2 (Under 2.5), BTTS non."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.86,
+        "away_adj": 0.9,
+        "home_reasons": [
+          "Blessure (-5%)",
+          "Blessure (-5%)",
+          "Blessure (-5%)"
+        ],
+        "away_reasons": [
+          "Blessure (-5%)",
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [
       "England : Moins de 2.5 buts dans 71% de ses 7 derniers matchs"
     ],
@@ -104100,7 +104766,19 @@
       },
       "summary": "Le modèle donnait <b>Croatia</b> favori (76%). ✅ Issue correctement anticipée. Score le plus probable prévu : 3-0 → réel 2-1. Total buts 3 (Over 2.5), BTTS oui."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 1.0,
+        "away_adj": 0.95,
+        "home_reasons": [],
+        "away_reasons": [
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [
       "Croatia : Plus de 2.5 buts dans 71% de ses 7 derniers matchs",
       "Croatia : Les deux équipes marquent (BTTS) dans 71% de ses matchs"
@@ -105592,7 +106270,19 @@
       },
       "summary": "Le modèle donnait <b>Portugal</b> favori (34%). ❌ Surprise : match nul, non anticipé. Score le plus probable prévu : 1-1 → réel 0-0. Total buts 0 (Under 2.5), BTTS non."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 1.0,
+        "away_adj": 0.95,
+        "home_reasons": [],
+        "away_reasons": [
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [],
     "home": "Colombia",
     "away": "Portugal",
@@ -107220,7 +107910,20 @@
       },
       "summary": "Le modèle donnait <b>DR Congo</b> favori (64%). ✅ Issue correctement anticipée. Score le plus probable prévu : 1-1 → réel 3-1. Total buts 4 (Over 2.5), BTTS oui."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 1.0,
+        "away_adj": 0.9,
+        "home_reasons": [],
+        "away_reasons": [
+          "Blessure (-5%)",
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [
       "Uzbekistan : Plus de 2.5 buts dans 71% de ses 7 derniers matchs"
     ],
@@ -108519,7 +109222,19 @@
       },
       "summary": "Le modèle donnait <b>Austria</b> favori (38%). ❌ Surprise : match nul, non anticipé. Score le plus probable prévu : 1-1 → réel 3-3. Total buts 6 (Over 2.5), BTTS oui."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.95,
+        "away_adj": 1.0,
+        "home_reasons": [
+          "Blessure (-5%)"
+        ],
+        "away_reasons": []
+      }
+    },
     "hotTrends": [
       "Algeria : Plus de 2.5 buts dans 71% de ses 7 derniers matchs"
     ],
@@ -109970,7 +110685,21 @@
       },
       "summary": "Le modèle donnait <b>Argentina</b> favori (95%). ✅ Issue correctement anticipée. Score le plus probable prévu : 0-6 → réel 1-3. Total buts 4 (Over 2.5), BTTS oui."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 0.95,
+        "away_adj": 0.95,
+        "home_reasons": [
+          "Blessure (-5%)"
+        ],
+        "away_reasons": [
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [
       "Jordan : Plus de 2.5 buts dans 85% de ses 7 derniers matchs",
       "Jordan : Les deux équipes marquent (BTTS) dans 85% de ses matchs",
@@ -111435,7 +112164,19 @@
       },
       "summary": "Le modèle donnait <b>Canada</b> favori (43%). ✅ Issue correctement anticipée. Score le plus probable prévu : 0-2 → réel 0-1. Total buts 1 (Under 2.5), BTTS non."
     },
-    "nlpMomentum": null,
+    "nlpMomentum": {
+      "homeMomentum": 0,
+      "awayMomentum": 0,
+      "dominance": "balanced",
+      "penalties": {
+        "home_adj": 1.0,
+        "away_adj": 0.95,
+        "home_reasons": [],
+        "away_reasons": [
+          "Blessure (-5%)"
+        ]
+      }
+    },
     "hotTrends": [
       "South Africa : Moins de 2.5 buts dans 85% de ses 7 derniers matchs"
     ],

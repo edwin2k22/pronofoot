@@ -249,3 +249,56 @@ if __name__ == "__main__":
     print(f"Signals ({len(sig.signals)}) :")
     for s in sig.signals:
         print(f"  {s}")
+
+
+class PenaltySignal(NamedTuple):
+    home_penalty_adj: float
+    away_penalty_adj: float
+    home_reasons: list[str]
+    away_reasons: list[str]
+
+def extract_live_penalties(commentary: list[dict], home: str, away: str) -> PenaltySignal:
+    """
+    Analyse l'historique complet d'un match pour trouver les événements 
+    pénalisants majeurs (cartons rouges, blessures).
+    """
+    if not commentary:
+        return PenaltySignal(1.0, 1.0, [], [])
+        
+    home_l = home.lower()
+    away_l = away.lower()
+    
+    h_adj = 1.0
+    a_adj = 1.0
+    h_reasons = []
+    a_reasons = []
+    
+    # Parcourt tous les commentaires
+    for c in commentary:
+        txt = c.get("text", "").lower()
+        if not txt: continue
+        
+        # Carton rouge
+        if "red card" in txt:
+            if home_l in txt:
+                h_adj *= 0.85
+                h_reasons.append("Carton rouge (-15%)")
+            elif away_l in txt:
+                a_adj *= 0.85
+                a_reasons.append("Carton rouge (-15%)")
+                
+        # Blessure
+        if "injury" in txt and "delay" in txt:
+            if home_l in txt:
+                h_adj *= 0.95
+                h_reasons.append("Blessure (-5%)")
+            elif away_l in txt:
+                a_adj *= 0.95
+                a_reasons.append("Blessure (-5%)")
+
+    return PenaltySignal(
+        home_penalty_adj=round(h_adj, 2),
+        away_penalty_adj=round(a_adj, 2),
+        home_reasons=h_reasons,
+        away_reasons=a_reasons
+    )
