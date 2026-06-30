@@ -44444,5 +44444,179 @@
   "halftime": "0-1",
   "motm": "\u2014",
   "note": ""
+ },
+ "Netherlands|Morocco": {
+  "goals": [],
+  "cards": [],
+  "commentary": [
+   {
+    "minute": 0,
+    "text": "Lineups are announced and players are warming up.",
+    "type": ""
+   },
+   {
+    "minute": 0,
+    "text": "First Half begins.",
+    "type": "Kickoff"
+   },
+   {
+    "minute": 3,
+    "text": "Corner, Netherlands. Conceded by Chadi Riad.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 4,
+    "text": "Neil El Aynaoui (Morocco) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 4,
+    "text": "Foul by Frenkie de Jong (Netherlands).",
+    "type": "Foul"
+   },
+   {
+    "minute": 7,
+    "text": "Attempt blocked. Ryan Gravenberch (Netherlands) left footed shot from the right side of the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 7,
+    "text": "Bilal El Khannouss (Morocco) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 7,
+    "text": "Foul by Ryan Gravenberch (Netherlands).",
+    "type": "Foul"
+   },
+   {
+    "minute": 10,
+    "text": "Denzel Dumfries (Netherlands) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 10,
+    "text": "Foul by Ismael Saibari (Morocco).",
+    "type": "Foul"
+   },
+   {
+    "minute": 11,
+    "text": "Brian Brobbey (Netherlands) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 11,
+    "text": "Foul by Issa Diop (Morocco).",
+    "type": "Foul"
+   },
+   {
+    "minute": 14,
+    "text": "Foul by Brian Brobbey (Netherlands).",
+    "type": "Foul"
+   },
+   {
+    "minute": 14,
+    "text": "Chadi Riad (Morocco) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 16,
+    "text": "Offside, Netherlands. Crysencio Summerville is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 19,
+    "text": "Corner, Morocco. Conceded by Micky van de Ven.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 20,
+    "text": "Attempt saved. Neil El Aynaoui (Morocco) header from the right side of the six yard box is saved in the top centre of the goal by Bart Verbruggen (Netherlands). Assisted by Achraf Hakimi with a cross.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 20,
+    "text": "Attempt missed. Ayyoub Bouaddi (Morocco) right footed shot from outside the box is too high. Assisted by Azzedine Ounahi following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 21,
+    "text": "Attempt saved. Achraf Hakimi (Morocco) right footed shot from the right side of the box is saved in the top right corner by Bart Verbruggen (Netherlands). Assisted by Ismael Saibari.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 21,
+    "text": "Corner, Morocco. Conceded by Bart Verbruggen.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 22,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 25,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 27,
+    "text": "Jan Paul van Hecke (Netherlands) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 27,
+    "text": "Foul by Azzedine Ounahi (Morocco).",
+    "type": "Foul"
+   },
+   {
+    "minute": 29,
+    "text": "Frenkie de Jong (Netherlands) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 29,
+    "text": "Foul by Ismael Saibari (Morocco).",
+    "type": "Foul"
+   },
+   {
+    "minute": 31,
+    "text": "Crysencio Summerville (Netherlands) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 31,
+    "text": "Foul by Ismael Saibari (Morocco).",
+    "type": "Foul"
+   },
+   {
+    "minute": 33,
+    "text": "Offside, Netherlands. Denzel Dumfries is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 36,
+    "text": "Corner, Netherlands. Conceded by Noussair Mazraoui.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 37,
+    "text": "Attempt blocked. Denzel Dumfries (Netherlands) header from the centre of the box is blocked. Assisted by Crysencio Summerville with a cross.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 37,
+    "text": "Corner, Netherlands. Conceded by Noussair Mazraoui.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 38,
+    "text": "Delay in match because of an injury Jan Paul van Hecke (Netherlands).",
+    "type": "Start Delay"
+   }
+  ],
+  "halftime": "0-0",
+  "motm": "\u2014",
+  "note": ""
  }
 }

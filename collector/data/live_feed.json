@@ -1,5 +1,17 @@
 [
   {
+    "t": "22:01",
+    "match": "Netherlands–Morocco",
+    "type": "score",
+    "text": "⚽ Netherlands–Morocco : score 0-0"
+  },
+  {
+    "t": "22:01",
+    "match": "Netherlands–Morocco",
+    "type": "status",
+    "text": "Netherlands–Morocco : 🟢 coup d'envoi"
+  },
+  {
     "t": "21:04",
     "match": "Netherlands–Morocco",
     "type": "lineup",

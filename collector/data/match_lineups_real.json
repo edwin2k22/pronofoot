@@ -4725,5 +4725,70 @@
    "Maur\u00edcio"
   ],
   "source": "ESPN (compos r\u00e9elles)"
+ },
+ "Netherlands|Morocco": {
+  "home_formation": "3-4-2-1",
+  "home_xi": [
+   "Bart Verbruggen",
+   "Virgil van Dijk",
+   "Nathan Ak\u00e9",
+   "Jan Paul van Hecke",
+   "Frenkie de Jong",
+   "Ryan Gravenberch",
+   "Micky van de Ven",
+   "Denzel Dumfries",
+   "Brian Brobbey",
+   "Cody Gakpo",
+   "Crysencio Summerville"
+  ],
+  "home_bench": [
+   "Marten de Roon",
+   "Jorrel Hato",
+   "Mats Wieffer",
+   "Donyell Malen",
+   "Memphis Depay",
+   "Justin Kluivert",
+   "Mark Flekken",
+   "Wout Weghorst",
+   "Guus Til",
+   "Quinten Timber",
+   "Lutsharel Geertruida",
+   "Noa Lang",
+   "Robin Roefs",
+   "Tijjani Reijnders",
+   "Teun Koopmeiners"
+  ],
+  "away_formation": "4-2-3-1",
+  "away_xi": [
+   "Yassine Bounou",
+   "Chadi Riad",
+   "Issa Diop",
+   "Noussair Mazraoui",
+   "Achraf Hakimi",
+   "Azzedine Ounahi",
+   "Neil El Aynaoui",
+   "Ayyoub Bouaddi",
+   "Ismael Saibari",
+   "Bilal El Khannouss",
+   "Brahim D\u00edaz"
+  ],
+  "away_bench": [
+   "Anass Salah-Eddine",
+   "Amine Sba\u00ef",
+   "Ahmed Reda Tagnaouti",
+   "Ayoube Amaimouni",
+   "Samir El Mourabet",
+   "Sofyan Amrabat",
+   "Gessime Yassine",
+   "Munir El Kajoui",
+   "Youssef Belammari",
+   "Chemsdine Talbi",
+   "Zakaria El Ouahdi",
+   "Soufiane Rahimi",
+   "Ayoub El Kaabi",
+   "Marwane Saadane",
+   "Redouane Halhal"
+  ],
+  "source": "ESPN (compos r\u00e9elles)"
  }
 }

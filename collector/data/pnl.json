@@ -36,6 +36,20 @@
       "market": "O/U"
     },
     {
+      "home": "Mexico",
+      "away": "Ecuador",
+      "date": "2026-06-30 19:00 UTC-6",
+      "label": "Victoire Mexico",
+      "prob": 0.6769,
+      "odd": 2.25,
+      "implied": 0.4444,
+      "edge": 0.2325,
+      "ev": 0.523,
+      "provider": "DraftKings",
+      "market": "1N2",
+      "lineMovement": 0.0
+    },
+    {
       "home": "Ivory Coast",
       "away": "Norway",
       "date": "2026-06-30 12:00 UTC-5",
@@ -45,20 +59,6 @@
       "implied": 0.2817,
       "edge": 0.2218,
       "ev": 0.787,
-      "provider": "DraftKings",
-      "market": "1N2",
-      "lineMovement": 0.0
-    },
-    {
-      "home": "France",
-      "away": "Sweden",
-      "date": "2026-06-30 17:00 UTC-4",
-      "label": "Victoire France",
-      "prob": 0.9353,
-      "odd": 1.27,
-      "implied": 0.7874,
-      "edge": 0.1479,
-      "ev": 0.188,
       "provider": "DraftKings",
       "market": "1N2",
       "lineMovement": 0.0
