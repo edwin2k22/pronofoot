@@ -1,5 +1,41 @@
 [
   {
+    "t": "21:04",
+    "match": "Netherlands–Morocco",
+    "type": "lineup",
+    "text": "🩹 Netherlands–Morocco : absent(s) → Gessime Yassine, Memphis Depay, Soufiane Rahimi"
+  },
+  {
+    "t": "20:29",
+    "match": "Germany–Paraguay",
+    "type": "status",
+    "text": "Germany–Paraguay : 🏁 match terminé"
+  },
+  {
+    "t": "19:49",
+    "match": "Germany–Paraguay",
+    "type": "score",
+    "text": "⚽ Germany–Paraguay : score 1-1"
+  },
+  {
+    "t": "19:46",
+    "match": "Germany–Paraguay",
+    "type": "score",
+    "text": "⚽ Germany–Paraguay : score 2-1"
+  },
+  {
+    "t": "18:47",
+    "match": "Germany–Paraguay",
+    "type": "score",
+    "text": "⚽ Germany–Paraguay : score 1-1"
+  },
+  {
+    "t": "18:12",
+    "match": "Germany–Paraguay",
+    "type": "score",
+    "text": "⚽ Germany–Paraguay : score 0-1"
+  },
+  {
     "t": "17:10",
     "match": "Germany–Paraguay",
     "type": "lineup",

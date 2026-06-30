@@ -43543,7 +43543,32 @@
  },
  "Germany|Paraguay": {
   "goals": [],
-  "cards": [],
+  "cards": [
+   {
+    "minute": 65,
+    "team": "Paraguay",
+    "player": "Andr\u00e9s Cubas",
+    "type": "Yellow"
+   },
+   {
+    "minute": 106,
+    "team": "Germany",
+    "player": "Kai Havertz",
+    "type": "Yellow"
+   },
+   {
+    "minute": 115,
+    "team": "Germany",
+    "player": "Jamal Musiala",
+    "type": "Yellow"
+   },
+   {
+    "minute": 117,
+    "team": "Paraguay",
+    "player": "Mat\u00edas Galarza",
+    "type": "Yellow"
+   }
+  ],
   "commentary": [
    {
     "minute": 0,
@@ -43692,11 +43717,731 @@
    },
    {
     "minute": 29,
-    "text": "Offside, Germany. Deniz Undav is caught offside.",
+    "text": "Offside, Germany. Leroy San\u00e9 is caught offside.",
     "type": "Offside"
+   },
+   {
+    "minute": 31,
+    "text": "Jos\u00e9 Canale (Paraguay) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 31,
+    "text": "Foul by Deniz Undav (Germany).",
+    "type": "Foul"
+   },
+   {
+    "minute": 33,
+    "text": "Attempt blocked. Kai Havertz (Germany) left footed shot from outside the box is blocked. Assisted by Aleksandar Pavlovic.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 35,
+    "text": "Miguel Almir\u00f3n (Paraguay) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 35,
+    "text": "Foul by Felix Nmecha (Germany).",
+    "type": "Foul"
+   },
+   {
+    "minute": 37,
+    "text": "Mat\u00edas Galarza (Paraguay) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 37,
+    "text": "Foul by Aleksandar Pavlovic (Germany).",
+    "type": "Foul"
+   },
+   {
+    "minute": 39,
+    "text": "Corner, Germany. Conceded by Juan Jos\u00e9 C\u00e1ceres.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 40,
+    "text": "Handball by Aleksandar Pavlovic (Germany).",
+    "type": "Handball"
+   },
+   {
+    "minute": 41,
+    "text": "Corner, Paraguay. Conceded by Nathaniel Brown.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 42,
+    "text": "Goal! Germany 0, Paraguay 1. Julio Enciso (Paraguay) header from the centre of the box to the bottom left corner. Assisted by Mat\u00edas Galarza with a cross following a corner.",
+    "type": "Goal - Header"
+   },
+   {
+    "minute": 45,
+    "text": "Attempt missed. Joshua Kimmich (Germany) left footed shot from outside the box is high and wide to the left.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 45,
+    "text": "Fourth official has announced 5 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 45,
+    "text": "Corner, Germany. Conceded by Gustavo G\u00f3mez.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 45,
+    "text": "Corner, Germany. Conceded by Jos\u00e9 Canale.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 45,
+    "text": "Attempt missed. Joshua Kimmich (Germany) right footed shot from a difficult angle on the left is close, but misses to the left following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 45,
+    "text": "Offside, Germany. Kai Havertz is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 45,
+    "text": "Corner, Germany. Conceded by Dami\u00e1n Bobadilla.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 45,
+    "text": "First Half ends, Germany 0, Paraguay 1.",
+    "type": ""
+   },
+   {
+    "minute": 45,
+    "text": "Second Half begins Germany 0, Paraguay 1.",
+    "type": ""
+   },
+   {
+    "minute": 45,
+    "text": "Substitution, Germany. Leon Goretzka replaces Felix Nmecha.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 49,
+    "text": "Offside, Germany. Florian Wirtz is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 50,
+    "text": "Attempt missed. Julio Enciso (Paraguay) right footed shot from a difficult angle on the left misses to the right.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 54,
+    "text": "Goal! Germany 1, Paraguay 1. Kai Havertz (Germany) header from the centre of the box to the bottom right corner. Assisted by Florian Wirtz with a cross.",
+    "type": "Goal - Header"
+   },
+   {
+    "minute": 55,
+    "text": "Substitution, Paraguay. Gustavo Caballero replaces Gabriel \u00c1valos.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 56,
+    "text": "Attempt blocked. Leon Goretzka (Germany) right footed shot from the centre of the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 56,
+    "text": "Attempt blocked. Aleksandar Pavlovic (Germany) right footed shot from outside the box is blocked. Assisted by Leon Goretzka.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 56,
+    "text": "Delay in match because of an injury Julio Enciso (Paraguay).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 57,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 57,
+    "text": "Substitution, Paraguay. Mauricio replaces Julio Enciso because of an injury.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 59,
+    "text": "Attempt saved. Gustavo Caballero (Paraguay) header from the centre of the box is saved in the top centre of the goal by Manuel Neuer (Germany). Assisted by Mauricio with a cross.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 61,
+    "text": "Foul by Mat\u00edas Galarza (Paraguay).",
+    "type": "Foul"
+   },
+   {
+    "minute": 61,
+    "text": "Kai Havertz (Germany) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 62,
+    "text": "Mauricio (Paraguay) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 62,
+    "text": "Foul by Nathaniel Brown (Germany).",
+    "type": "Foul"
+   },
+   {
+    "minute": 63,
+    "text": "Substitution, Germany. Jamal Musiala replaces Deniz Undav.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 65,
+    "text": "Foul by Andr\u00e9s Cubas (Paraguay).",
+    "type": "Foul"
+   },
+   {
+    "minute": 65,
+    "text": "Kai Havertz (Germany) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 65,
+    "text": "Andr\u00e9s Cubas (Paraguay) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 66,
+    "text": "Attempt blocked. Leroy San\u00e9 (Germany) left footed shot from outside the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 67,
+    "text": "Corner, Germany. Conceded by Dami\u00e1n Bobadilla.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 67,
+    "text": "Corner, Germany. Conceded by Miguel Almir\u00f3n.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 67,
+    "text": "Orlando Gill (Paraguay) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 67,
+    "text": "Foul by Aleksandar Pavlovic (Germany).",
+    "type": "Foul"
+   },
+   {
+    "minute": 68,
+    "text": "Gustavo Caballero (Paraguay) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 68,
+    "text": "Foul by Jonathan Tah (Germany).",
+    "type": "Foul"
+   },
+   {
+    "minute": 69,
+    "text": "Corner, Paraguay. Conceded by Nathaniel Brown.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 70,
+    "text": "Attempt missed. Gustavo G\u00f3mez (Paraguay) header from the left side of the six yard box is close, but misses to the left. Assisted by Mauricio with a cross following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 70,
+    "text": "Foul by Gustavo G\u00f3mez (Paraguay).",
+    "type": "Foul"
+   },
+   {
+    "minute": 70,
+    "text": "Manuel Neuer (Germany) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 70,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 73,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 77,
+    "text": "Offside, Paraguay. Gustavo Caballero is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 78,
+    "text": "Attempt saved. Kai Havertz (Germany) header from the centre of the box is saved in the top centre of the goal by Orlando Gill (Paraguay). Assisted by Florian Wirtz with a cross.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 78,
+    "text": "Foul by Dami\u00e1n Bobadilla (Paraguay).",
+    "type": "Foul"
+   },
+   {
+    "minute": 78,
+    "text": "Nathaniel Brown (Germany) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 79,
+    "text": "Substitution, Germany. Waldemar Anton replaces Aleksandar Pavlovic.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 80,
+    "text": "Attempt blocked. Florian Wirtz (Germany) right footed shot from outside the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 86,
+    "text": "Corner, Germany. Conceded by J\u00fanior Alonso.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 86,
+    "text": "Attempt missed. Leon Goretzka (Germany) header from the centre of the box is close, but misses to the left. Assisted by Florian Wirtz with a cross following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 86,
+    "text": "Offside, Germany. Waldemar Anton is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 88,
+    "text": "Substitution, Germany. Nick Woltemade replaces Leroy San\u00e9.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 89,
+    "text": "Gustavo Caballero (Paraguay) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 89,
+    "text": "Foul by Waldemar Anton (Germany).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt blocked. Joshua Kimmich (Germany) right footed shot from outside the box is blocked. Assisted by Waldemar Anton.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 90,
+    "text": "Corner, Germany. Conceded by Andr\u00e9s Cubas.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 90,
+    "text": "Fourth official has announced 5 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 90,
+    "text": "Attempt saved. Jonathan Tah (Germany) header from the left side of the box is saved in the bottom left corner by Orlando Gill (Paraguay). Assisted by Nathaniel Brown with a cross.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt blocked. Miguel Almir\u00f3n (Paraguay) left footed shot from outside the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 90,
+    "text": "Corner, Paraguay. Conceded by Waldemar Anton.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by J\u00fanior Alonso (Paraguay).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Florian Wirtz (Germany) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Mat\u00edas Galarza (Paraguay) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Waldemar Anton (Germany).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Second Half ends, Germany 1, Paraguay 1.",
+    "type": ""
+   },
+   {
+    "minute": 90,
+    "text": "Substitution, Paraguay. Gustavo Vel\u00e1zquez replaces Miguel Almir\u00f3n.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 90,
+    "text": "First Half Extra Time begins Germany 1, Paraguay 1.",
+    "type": ""
+   },
+   {
+    "minute": 93,
+    "text": "Attempt blocked. Nick Woltemade (Germany) left footed shot from the centre of the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 93,
+    "text": "Attempt blocked. Joshua Kimmich (Germany) right footed shot from outside the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 94,
+    "text": "Foul by Juan Jos\u00e9 C\u00e1ceres (Paraguay).",
+    "type": "Foul"
+   },
+   {
+    "minute": 94,
+    "text": "Florian Wirtz (Germany) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 95,
+    "text": "Corner, Germany. Conceded by Juan Jos\u00e9 C\u00e1ceres.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 97,
+    "text": "Attempt missed. Nick Woltemade (Germany) left footed shot from the centre of the box misses to the left.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 97,
+    "text": "Corner, Germany. Conceded by Jos\u00e9 Canale.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 99,
+    "text": "Substitution, Paraguay. Braian Ojeda replaces Juan Jos\u00e9 C\u00e1ceres.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 99,
+    "text": "Substitution, Paraguay. Antonio Sanabria replaces Dami\u00e1n Bobadilla.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 102,
+    "text": "Corner, Germany. Conceded by Jos\u00e9 Canale.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 102,
+    "text": "Orlando Gill (Paraguay) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 102,
+    "text": "GOAL OVERTURNED BY VAR: Jonathan Tah (Germany) scores but the goal is ruled out after a VAR review.",
+    "type": "Deleted After Review"
+   },
+   {
+    "minute": 102,
+    "text": "Foul by Waldemar Anton (Germany).",
+    "type": "Foul"
+   },
+   {
+    "minute": 104,
+    "text": "VAR Decision: No Goal Germany 1-1 Paraguay.",
+    "type": "VAR - Referee decision cancelled"
+   },
+   {
+    "minute": 105,
+    "text": "Corner, Paraguay. Conceded by Nathaniel Brown.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 105,
+    "text": "Fourth official has announced 4 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 105,
+    "text": "Foul by Mauricio (Paraguay).",
+    "type": "Foul"
+   },
+   {
+    "minute": 105,
+    "text": "Waldemar Anton (Germany) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 105,
+    "text": "Attempt saved. Kai Havertz (Germany) header from the right side of the six yard box is saved in the top left corner by Orlando Gill (Paraguay). Assisted by Florian Wirtz with a cross.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 105,
+    "text": "Delay in match because of an injury Orlando Gill (Paraguay).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 105,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 105,
+    "text": "First Half Extra Time ends, Germany 1, Paraguay 1.",
+    "type": ""
+   },
+   {
+    "minute": 105,
+    "text": "Second Half Extra Time begins Germany 1, Paraguay 1.",
+    "type": "Start 2nd Half Extra Time"
+   },
+   {
+    "minute": 106,
+    "text": "Jos\u00e9 Canale (Paraguay) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 106,
+    "text": "Foul by Kai Havertz (Germany).",
+    "type": "Foul"
+   },
+   {
+    "minute": 106,
+    "text": "Kai Havertz (Germany) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 107,
+    "text": "Antonio Sanabria (Paraguay) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 107,
+    "text": "Foul by Antonio R\u00fcdiger (Germany).",
+    "type": "Foul"
+   },
+   {
+    "minute": 107,
+    "text": "Corner, Paraguay. Conceded by Jonathan Tah.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 110,
+    "text": "Corner, Germany. Conceded by Gustavo Caballero.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 110,
+    "text": "Substitution, Germany. Nadiem Amiri replaces Florian Wirtz.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 110,
+    "text": "Substitution, Germany. Malick Thiaw replaces Antonio R\u00fcdiger.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 111,
+    "text": "Attempt saved. Joshua Kimmich (Germany) right footed shot from a difficult angle and long range on the left is saved in the top centre of the goal by Orlando Gill (Paraguay).",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 111,
+    "text": "Corner, Germany. Conceded by Orlando Gill.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 113,
+    "text": "Foul by J\u00fanior Alonso (Paraguay).",
+    "type": "Foul"
+   },
+   {
+    "minute": 113,
+    "text": "Jamal Musiala (Germany) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 115,
+    "text": "Mat\u00edas Galarza (Paraguay) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 115,
+    "text": "Foul by Jamal Musiala (Germany).",
+    "type": "Foul"
+   },
+   {
+    "minute": 115,
+    "text": "Jamal Musiala (Germany) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 116,
+    "text": "Delay in match because of an injury Mat\u00edas Galarza (Paraguay).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 117,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 117,
+    "text": "Foul by Mat\u00edas Galarza (Paraguay).",
+    "type": "Foul"
+   },
+   {
+    "minute": 117,
+    "text": "Jamal Musiala (Germany) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 117,
+    "text": "Mat\u00edas Galarza (Paraguay) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 118,
+    "text": "Corner, Germany. Conceded by Mauricio.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 119,
+    "text": "Attempt saved. Waldemar Anton (Germany) header from very close range is saved in the top centre of the goal by Orlando Gill (Paraguay). Assisted by Nathaniel Brown with a cross.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 120,
+    "text": "Foul by Mat\u00edas Galarza (Paraguay).",
+    "type": "Foul"
+   },
+   {
+    "minute": 120,
+    "text": "Kai Havertz (Germany) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 120,
+    "text": "Fourth official has announced 2 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 120,
+    "text": "Attempt missed. Nadiem Amiri (Germany) right footed shot from outside the box is close, but misses to the right from a direct free kick.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 120,
+    "text": "Substitution, Paraguay. Fabi\u00e1n Balbuena replaces J\u00fanior Alonso.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 120,
+    "text": "Second Half Extra Time ends, Germany 1, Paraguay 1.",
+    "type": ""
+   },
+   {
+    "minute": 120,
+    "text": "Penalty Shootout begins Germany 1, Paraguay 1.",
+    "type": ""
+   },
+   {
+    "minute": 120,
+    "text": "Penalty saved. Kai Havertz (Germany) left footed shot saved in the top right corner by Orlando Gill (Paraguay).",
+    "type": "Penalty - Saved"
+   },
+   {
+    "minute": 120,
+    "text": "Goal! Germany 1, Paraguay 1(1). Mauricio (Paraguay) converts the penalty with a left footed shot to the bottom right corner.",
+    "type": "Penalty - Scored"
+   },
+   {
+    "minute": 120,
+    "text": "Goal! Germany 1(1), Paraguay 1(1). Joshua Kimmich (Germany) converts the penalty with a right footed shot to the bottom left corner.",
+    "type": "Penalty - Scored"
+   },
+   {
+    "minute": 120,
+    "text": "Goal! Germany 1(1), Paraguay 1(2). Gustavo G\u00f3mez (Paraguay) converts the penalty with a right footed shot to the bottom right corner.",
+    "type": "Penalty - Scored"
+   },
+   {
+    "minute": 120,
+    "text": "Goal! Germany 1(2), Paraguay 1(2). Jamal Musiala (Germany) converts the penalty with a right footed shot to the bottom left corner.",
+    "type": "Penalty - Scored"
+   },
+   {
+    "minute": 120,
+    "text": "Goal! Germany 1(2), Paraguay 1(3). Mat\u00edas Galarza (Paraguay) converts the penalty with a left footed shot to the bottom left corner.",
+    "type": "Penalty - Scored"
+   },
+   {
+    "minute": 120,
+    "text": "Penalty saved. Nick Woltemade (Germany) right footed shot saved in the bottom right corner by Orlando Gill (Paraguay).",
+    "type": "Penalty - Saved"
+   },
+   {
+    "minute": 120,
+    "text": "Penalty missed. Antonio Sanabria (Paraguay) right footed shot is close, but misses to the left.",
+    "type": "Penalty - Missed"
+   },
+   {
+    "minute": 120,
+    "text": "Goal! Germany 1(3), Paraguay 1(3). Nadiem Amiri (Germany) converts the penalty with a right footed shot to the top right corner.",
+    "type": "Penalty - Scored"
+   },
+   {
+    "minute": 120,
+    "text": "Penalty saved. Fabi\u00e1n Balbuena (Paraguay) right footed shot saved in the bottom right corner by Manuel Neuer (Germany).",
+    "type": "Penalty - Saved"
+   },
+   {
+    "minute": 120,
+    "text": "Penalty missed. Jonathan Tah (Germany) right footed shot is too high.",
+    "type": "Penalty - Missed"
+   },
+   {
+    "minute": 120,
+    "text": "Goal! Germany 1(3), Paraguay 1(4). Jos\u00e9 Canale (Paraguay) converts the penalty with a left footed shot to the top right corner.",
+    "type": "Penalty - Scored"
+   },
+   {
+    "minute": 120,
+    "text": "Penalty Shootout ends, Germany 1(3), Paraguay 1(4).",
+    "type": ""
+   },
+   {
+    "minute": 0,
+    "text": "Match ends, Germany 1(3), Paraguay 1(4).",
+    "type": ""
    }
   ],
-  "halftime": "0-0",
+  "halftime": "0-1",
   "motm": "\u2014",
   "note": ""
  }

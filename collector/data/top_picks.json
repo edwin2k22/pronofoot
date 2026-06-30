@@ -2,14 +2,14 @@
   "reliability": {
     "byTier": {
       "lock": {
-        "won": 163,
-        "total": 186,
+        "won": 164,
+        "total": 187,
         "pct": 88
       },
       "strong": {
         "won": 63,
-        "total": 74,
-        "pct": 85
+        "total": 75,
+        "pct": 84
       },
       "value": {
         "won": 43,
@@ -19,8 +19,8 @@
     },
     "byMarket": {
       "DC": {
-        "won": 67,
-        "total": 74,
+        "won": 68,
+        "total": 75,
         "pct": 91
       },
       "DNB": {
@@ -30,17 +30,17 @@
       },
       "1N2": {
         "won": 46,
-        "total": 74,
-        "pct": 62
+        "total": 75,
+        "pct": 61
       },
       "OU": {
         "won": 44,
-        "total": 74,
+        "total": 75,
         "pct": 59
       },
       "BTTS": {
         "won": 35,
-        "total": 74,
+        "total": 75,
         "pct": 47
       },
       "CORNERS": {
@@ -55,11 +55,11 @@
       }
     },
     "overall": {
-      "won": 269,
-      "total": 326,
-      "pct": 83
+      "won": 270,
+      "total": 328,
+      "pct": 82
     },
-    "sampleMatches": 74
+    "sampleMatches": 75
   },
   "tiers": {
     "lock": 0.85,
@@ -68,37 +68,13 @@
   },
   "picks": [
     {
-      "home": "Germany",
-      "away": "Paraguay",
-      "date": "2026-06-29 16:30 UTC-4",
-      "id": 74,
-      "market": "DC",
-      "label": "Double chance : Germany ou nul",
-      "prob": 0.9677,
-      "why": "exclut l'issue la moins probable",
-      "tier": "lock",
-      "tierReliability": 88
-    },
-    {
-      "home": "Germany",
-      "away": "Paraguay",
-      "date": "2026-06-29 16:30 UTC-4",
-      "id": 74,
-      "market": "DNB",
-      "label": "Sans match nul : Germany",
-      "prob": 0.9637,
-      "why": "remboursé si nul",
-      "tier": "lock",
-      "tierReliability": 88
-    },
-    {
       "home": "Netherlands",
       "away": "Morocco",
       "date": "2026-06-29 19:00 UTC-6",
       "id": 75,
       "market": "CORNERS",
       "label": "Plus de 4.5 corners",
-      "prob": 0.8001,
+      "prob": 0.8009,
       "why": "",
       "tier": "lock",
       "tierReliability": 88
@@ -306,7 +282,31 @@
       "why": "remboursé si nul",
       "tier": "lock",
       "tierReliability": 88
+    },
+    {
+      "home": "Switzerland",
+      "away": "Algeria",
+      "date": "2026-07-02 20:00 UTC-7",
+      "id": 85,
+      "market": "CORNERS",
+      "label": "Plus de 4.5 corners",
+      "prob": 0.8187,
+      "why": "",
+      "tier": "lock",
+      "tierReliability": 88
+    },
+    {
+      "home": "Switzerland",
+      "away": "Algeria",
+      "date": "2026-07-02 20:00 UTC-7",
+      "id": 85,
+      "market": "TIRS",
+      "label": "Plus de 20.5 tirs",
+      "prob": 0.8102,
+      "why": "",
+      "tier": "lock",
+      "tierReliability": 88
     }
   ],
-  "lockCount": 61
+  "lockCount": 57
 }
