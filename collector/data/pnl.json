@@ -1,25 +1,25 @@
 {
-  "sampleWithOdds": 60,
+  "sampleWithOdds": 61,
   "favorite": {
-    "bets": 60,
-    "wins": 38,
-    "winRate": 63,
-    "pnl": 0.51,
-    "yield": 0.9
+    "bets": 61,
+    "wins": 39,
+    "winRate": 64,
+    "pnl": 2.56,
+    "yield": 4.2
   },
   "value": {
-    "bets": 129,
-    "wins": 47,
+    "bets": 132,
+    "wins": 48,
     "winRate": 36,
-    "pnl": -23.39,
-    "yield": -18.1
+    "pnl": -23.34,
+    "yield": -17.7
   },
   "valueStrict": {
-    "bets": 75,
+    "bets": 76,
     "wins": 28,
     "winRate": 37,
-    "pnl": -22.13,
-    "yield": -29.5
+    "pnl": -23.13,
+    "yield": -30.4
   },
   "topValue": [
     {
@@ -40,11 +40,11 @@
       "away": "Ecuador",
       "date": "2026-06-30 19:00 UTC-6",
       "label": "Victoire Mexico",
-      "prob": 0.6769,
+      "prob": 0.6774,
       "odd": 2.25,
       "implied": 0.4444,
-      "edge": 0.2325,
-      "ev": 0.523,
+      "edge": 0.233,
+      "ev": 0.524,
       "provider": "DraftKings",
       "market": "1N2",
       "lineMovement": 0.0
@@ -54,11 +54,11 @@
       "away": "Norway",
       "date": "2026-06-30 12:00 UTC-5",
       "label": "Victoire Ivory Coast",
-      "prob": 0.5035,
+      "prob": 0.5038,
       "odd": 3.55,
       "implied": 0.2817,
-      "edge": 0.2218,
-      "ev": 0.787,
+      "edge": 0.2221,
+      "ev": 0.788,
       "provider": "DraftKings",
       "market": "1N2",
       "lineMovement": 0.0

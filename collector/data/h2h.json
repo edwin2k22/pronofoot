@@ -585,5 +585,81 @@
   },
   "home": "Netherlands",
   "away": "Morocco"
+ },
+ "France|Sweden": {
+  "refTeam": "France",
+  "games": [
+   {
+    "date": "2020-11-17",
+    "score": "4-2",
+    "competition": "2020-21 UEFA Nations League"
+   },
+   {
+    "date": "2020-09-05",
+    "score": "1-0",
+    "competition": "2020-21 UEFA Nations League"
+   },
+   {
+    "date": "2017-06-09",
+    "score": "1-2",
+    "competition": "2018 World Cup Qualifying - UEFA"
+   },
+   {
+    "date": "2016-11-11",
+    "score": "2-1",
+    "competition": "2018 World Cup Qualifying - UEFA"
+   },
+   {
+    "date": "2014-11-18",
+    "score": "1-0",
+    "competition": "International Friendly"
+   }
+  ],
+  "summary": {
+   "win": 4,
+   "draw": 0,
+   "loss": 1,
+   "total": 5
+  },
+  "home": "France",
+  "away": "Sweden"
+ },
+ "Mexico|Ecuador": {
+  "refTeam": "Mexico",
+  "games": [
+   {
+    "date": "2025-10-15",
+    "score": "1-1",
+    "competition": "2025 International Friendly"
+   },
+   {
+    "date": "2024-07-01",
+    "score": "0-0",
+    "competition": "2024 Copa América"
+   },
+   {
+    "date": "2022-06-05",
+    "score": "0-0",
+    "competition": "2022 International Friendly"
+   },
+   {
+    "date": "2021-10-28",
+    "score": "2-3",
+    "competition": "2021 International Friendly"
+   },
+   {
+    "date": "2019-06-09",
+    "score": "3-2",
+    "competition": "2019 International Friendly"
+   }
+  ],
+  "summary": {
+   "win": 1,
+   "draw": 3,
+   "loss": 1,
+   "total": 5
+  },
+  "home": "Mexico",
+  "away": "Ecuador"
  }
 }

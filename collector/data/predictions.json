@@ -4984,7 +4984,7 @@
         "lineups": {
           "away_formation": "4-4-2",
           "away_xi": [
-            "Orlando Gil",
+            "Orlando Gill",
             "Omar Alderete",
             "Gustavo Gómez",
             "Júnior Alonso",
@@ -42956,7 +42956,7 @@
           ],
           "away_formation": "4-4-2",
           "away_xi": [
-            "Orlando Gil",
+            "Orlando Gill",
             "Omar Alderete",
             "Gustavo Gómez",
             "Júnior Alonso",
@@ -83956,7 +83956,7 @@
         "lineups": {
           "home_formation": "5-3-2",
           "home_xi": [
-            "Orlando Gil",
+            "Orlando Gill",
             "Gustavo Gómez",
             "Omar Alderete",
             "Gustavo Velázquez",
@@ -103076,27 +103076,27 @@
         "home_passes": 682,
         "home_passes_ok": 625,
         "home_pass_pct": 0.9,
-        "home_crosses": 40,
-        "home_crosses_ok": 9,
+        "home_crosses": 39,
+        "home_crosses_ok": 10,
         "home_long_balls": 45,
         "home_tackles": 12,
-        "home_tackles_won": 8,
+        "home_tackles_won": 7,
         "home_interceptions": 9,
-        "home_clearances": 18,
+        "home_clearances": 19,
         "home_blocked_shots": 6,
         "home_fouls": 4,
         "home_offsides": 1,
         "home_saves": 1,
         "away_possession": 31.4,
-        "away_passes": 315,
-        "away_passes_ok": 261,
+        "away_passes": 313,
+        "away_passes_ok": 260,
         "away_pass_pct": 0.8,
-        "away_crosses": 10,
+        "away_crosses": 11,
         "away_crosses_ok": 2,
         "away_long_balls": 45,
         "away_tackles": 10,
         "away_tackles_won": 4,
-        "away_interceptions": 4,
+        "away_interceptions": 6,
         "away_clearances": 45,
         "away_blocked_shots": 2,
         "away_fouls": 13,
@@ -103409,12 +103409,12 @@
           },
           {
             "minute": 56,
-            "text": "Goal! Brazil 1, Japan 1. Casemiro (Brazil) header from the right side of the six yard box to the high centre of the goal. Assisted by Gabriel Magalhães with a cross.",
+            "text": "Goal! Brazil 1, Japan 1. Casemiro (Brazil) header from the right side of the six yard box to the top right corner. Assisted by Gabriel Magalhães with a cross.",
             "type": "Goal - Header"
           },
           {
             "minute": 58,
-            "text": "Attempt saved. Vinícius Júnior (Brazil) right footed shot from the left side of the box is saved in the bottom right corner by Zion Suzuki (Japan). Assisted by Rayan.",
+            "text": "Attempt saved. Vinícius Júnior (Brazil) right footed shot from the centre of the box is saved in the centre of the goal by Zion Suzuki (Japan). Assisted by Rayan.",
             "type": "Shot On Target"
           },
           {
@@ -103479,7 +103479,7 @@
           },
           {
             "minute": 77,
-            "text": "Attempt missed. Gabriel Martinelli (Brazil) right footed shot from outside the box misses to the right.",
+            "text": "Attempt missed. Gabriel Martinelli (Brazil) right footed shot from outside the box is close, but misses to the right.",
             "type": "Shot Off Target"
           },
           {
@@ -104392,7 +104392,7 @@
     "liveScore": null,
     "liveClock": null,
     "realScore": "1-1",
-    "htScore": null,
+    "htScore": "0-1",
     "analysis": {
       "realScore": "1-1",
       "outcome": "X",
@@ -104403,80 +104403,1013 @@
       "over25Real": false,
       "bttsReal": true,
       "totalGoals": 2,
-      "homeXgReal": null,
-      "awayXgReal": null,
-      "homeShots": null,
-      "awayShots": null,
-      "homeShotsOn": null,
-      "awayShotsOn": null,
-      "teamStats": null,
-      "homeCorners": null,
-      "awayCorners": null,
-      "homeCards": null,
-      "awayCards": null,
+      "homeXgReal": 0.07,
+      "awayXgReal": 0.15,
+      "homeShots": 21,
+      "awayShots": 7,
+      "homeShotsOn": 6,
+      "awayShotsOn": 3,
+      "teamStats": {
+        "home_possession": 75.6,
+        "home_passes": 805,
+        "home_passes_ok": 725,
+        "home_pass_pct": 0.9,
+        "home_crosses": 55,
+        "home_crosses_ok": 9,
+        "home_long_balls": 40,
+        "home_tackles": 13,
+        "home_tackles_won": 7,
+        "home_interceptions": 4,
+        "home_clearances": 23,
+        "home_blocked_shots": 8,
+        "home_fouls": 18,
+        "home_offsides": 4,
+        "home_saves": 2,
+        "away_possession": 24.4,
+        "away_passes": 255,
+        "away_passes_ok": 160,
+        "away_pass_pct": 0.6,
+        "away_crosses": 21,
+        "away_crosses_ok": 6,
+        "away_long_balls": 78,
+        "away_tackles": 33,
+        "away_tackles_won": 20,
+        "away_interceptions": 13,
+        "away_clearances": 55,
+        "away_blocked_shots": 2,
+        "away_fouls": 12,
+        "away_offsides": 1,
+        "away_saves": 6
+      },
+      "homeCorners": 16,
+      "awayCorners": 6,
+      "homeCards": 2,
+      "awayCards": 2,
       "events": {
+        "goals": [],
+        "cards": [
+          {
+            "minute": 65,
+            "team": "Paraguay",
+            "player": "Andrés Cubas",
+            "type": "Yellow"
+          },
+          {
+            "minute": 106,
+            "team": "Germany",
+            "player": "Kai Havertz",
+            "type": "Yellow"
+          },
+          {
+            "minute": 115,
+            "team": "Germany",
+            "player": "Jamal Musiala",
+            "type": "Yellow"
+          },
+          {
+            "minute": 117,
+            "team": "Paraguay",
+            "player": "Matías Galarza",
+            "type": "Yellow"
+          }
+        ],
+        "commentary": [
+          {
+            "minute": 0,
+            "text": "Lineups are announced and players are warming up.",
+            "type": ""
+          },
+          {
+            "minute": 0,
+            "text": "First Half begins.",
+            "type": ""
+          },
+          {
+            "minute": 1,
+            "text": "Attempt blocked. Julio Enciso (Paraguay) right footed shot from the left side of the box is blocked. Assisted by Júnior Alonso with a headed pass.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 1,
+            "text": "Corner, Paraguay. Conceded by Aleksandar Pavlovic.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 2,
+            "text": "Attempt saved. Júnior Alonso (Paraguay) left footed shot from the right side of the six yard box is saved in the bottom right corner by Manuel Neuer (Germany). Assisted by Julio Enciso with a cross.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 3,
+            "text": "Andrés Cubas (Paraguay) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 3,
+            "text": "Foul by Kai Havertz (Germany).",
+            "type": "Foul"
+          },
+          {
+            "minute": 4,
+            "text": "Delay in match because of an injury Gustavo Gómez (Paraguay).",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 5,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 6,
+            "text": "Attempt missed. Deniz Undav (Germany) right footed shot from the left side of the box is high and wide to the right. Assisted by Kai Havertz.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 7,
+            "text": "Corner, Germany. Conceded by José Canale.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 8,
+            "text": "Attempt missed. Florian Wirtz (Germany) right footed shot from outside the box is too high following a corner.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 10,
+            "text": "Miguel Almirón (Paraguay) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 10,
+            "text": "Foul by Aleksandar Pavlovic (Germany).",
+            "type": "Foul"
+          },
+          {
+            "minute": 11,
+            "text": "Foul by Julio Enciso (Paraguay).",
+            "type": "Foul"
+          },
+          {
+            "minute": 11,
+            "text": "Joshua Kimmich (Germany) wins a free kick in the attacking half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 13,
+            "text": "Delay in match because of an injury Juan José Cáceres (Paraguay).",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 14,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 14,
+            "text": "Corner, Germany. Conceded by Miguel Almirón.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 15,
+            "text": "Orlando Gill (Paraguay) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 15,
+            "text": "Foul by Aleksandar Pavlovic (Germany).",
+            "type": "Foul"
+          },
+          {
+            "minute": 21,
+            "text": "Miguel Almirón (Paraguay) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 21,
+            "text": "Foul by Nathaniel Brown (Germany).",
+            "type": "Foul"
+          },
+          {
+            "minute": 22,
+            "text": "Foul by Matías Galarza (Paraguay).",
+            "type": "Foul"
+          },
+          {
+            "minute": 22,
+            "text": "Joshua Kimmich (Germany) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 23,
+            "text": "Gabriel Ávalos (Paraguay) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 23,
+            "text": "Foul by Jonathan Tah (Germany).",
+            "type": "Foul"
+          },
+          {
+            "minute": 23,
+            "text": "Delay in match for a drinks break.",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 26,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 29,
+            "text": "Offside, Germany. Leroy Sané is caught offside.",
+            "type": "Offside"
+          },
+          {
+            "minute": 31,
+            "text": "José Canale (Paraguay) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 31,
+            "text": "Foul by Deniz Undav (Germany).",
+            "type": "Foul"
+          },
+          {
+            "minute": 33,
+            "text": "Attempt blocked. Kai Havertz (Germany) left footed shot from outside the box is blocked. Assisted by Aleksandar Pavlovic.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 35,
+            "text": "Miguel Almirón (Paraguay) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 35,
+            "text": "Foul by Felix Nmecha (Germany).",
+            "type": "Foul"
+          },
+          {
+            "minute": 37,
+            "text": "Matías Galarza (Paraguay) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 37,
+            "text": "Foul by Aleksandar Pavlovic (Germany).",
+            "type": "Foul"
+          },
+          {
+            "minute": 39,
+            "text": "Corner, Germany. Conceded by Juan José Cáceres.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 40,
+            "text": "Handball by Aleksandar Pavlovic (Germany).",
+            "type": "Handball"
+          },
+          {
+            "minute": 41,
+            "text": "Corner, Paraguay. Conceded by Nathaniel Brown.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 42,
+            "text": "Goal! Germany 0, Paraguay 1. Julio Enciso (Paraguay) header from the centre of the box to the bottom left corner. Assisted by Matías Galarza with a cross following a corner.",
+            "type": "Goal - Header"
+          },
+          {
+            "minute": 45,
+            "text": "Attempt missed. Joshua Kimmich (Germany) left footed shot from outside the box is high and wide to the left.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 45,
+            "text": "Fourth official has announced 5 minutes of added time.",
+            "type": ""
+          },
+          {
+            "minute": 45,
+            "text": "Corner, Germany. Conceded by Gustavo Gómez.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 45,
+            "text": "Corner, Germany. Conceded by José Canale.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 45,
+            "text": "Attempt missed. Joshua Kimmich (Germany) right footed shot from a difficult angle on the left is close, but misses to the left following a corner.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 45,
+            "text": "Offside, Germany. Kai Havertz is caught offside.",
+            "type": "Offside"
+          },
+          {
+            "minute": 45,
+            "text": "Corner, Germany. Conceded by Damián Bobadilla.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 45,
+            "text": "First Half ends, Germany 0, Paraguay 1.",
+            "type": ""
+          },
+          {
+            "minute": 45,
+            "text": "Second Half begins Germany 0, Paraguay 1.",
+            "type": ""
+          },
+          {
+            "minute": 45,
+            "text": "Substitution, Germany. Leon Goretzka replaces Felix Nmecha.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 49,
+            "text": "Offside, Germany. Florian Wirtz is caught offside.",
+            "type": "Offside"
+          },
+          {
+            "minute": 50,
+            "text": "Attempt missed. Julio Enciso (Paraguay) right footed shot from a difficult angle on the left misses to the right.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 54,
+            "text": "Goal! Germany 1, Paraguay 1. Kai Havertz (Germany) header from the centre of the box to the bottom right corner. Assisted by Florian Wirtz with a cross.",
+            "type": "Goal - Header"
+          },
+          {
+            "minute": 55,
+            "text": "Substitution, Paraguay. Gustavo Caballero replaces Gabriel Ávalos.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 56,
+            "text": "Attempt blocked. Leon Goretzka (Germany) right footed shot from the centre of the box is blocked.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 56,
+            "text": "Attempt blocked. Aleksandar Pavlovic (Germany) right footed shot from outside the box is blocked. Assisted by Leon Goretzka.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 56,
+            "text": "Delay in match because of an injury Julio Enciso (Paraguay).",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 57,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 57,
+            "text": "Substitution, Paraguay. Mauricio replaces Julio Enciso because of an injury.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 59,
+            "text": "Attempt saved. Gustavo Caballero (Paraguay) header from the centre of the box is saved in the top centre of the goal by Manuel Neuer (Germany). Assisted by Mauricio with a cross.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 61,
+            "text": "Foul by Matías Galarza (Paraguay).",
+            "type": "Foul"
+          },
+          {
+            "minute": 61,
+            "text": "Kai Havertz (Germany) wins a free kick on the right wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 62,
+            "text": "Mauricio (Paraguay) wins a free kick in the attacking half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 62,
+            "text": "Foul by Nathaniel Brown (Germany).",
+            "type": "Foul"
+          },
+          {
+            "minute": 63,
+            "text": "Substitution, Germany. Jamal Musiala replaces Deniz Undav.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 65,
+            "text": "Foul by Andrés Cubas (Paraguay).",
+            "type": "Foul"
+          },
+          {
+            "minute": 65,
+            "text": "Kai Havertz (Germany) wins a free kick in the attacking half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 65,
+            "text": "Andrés Cubas (Paraguay) is shown the yellow card for a bad foul.",
+            "type": "Yellow Card"
+          },
+          {
+            "minute": 66,
+            "text": "Attempt blocked. Leroy Sané (Germany) left footed shot from outside the box is blocked.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 67,
+            "text": "Corner, Germany. Conceded by Damián Bobadilla.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 67,
+            "text": "Corner, Germany. Conceded by Miguel Almirón.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 67,
+            "text": "Orlando Gill (Paraguay) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 67,
+            "text": "Foul by Aleksandar Pavlovic (Germany).",
+            "type": "Foul"
+          },
+          {
+            "minute": 68,
+            "text": "Gustavo Caballero (Paraguay) wins a free kick on the left wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 68,
+            "text": "Foul by Jonathan Tah (Germany).",
+            "type": "Foul"
+          },
+          {
+            "minute": 69,
+            "text": "Corner, Paraguay. Conceded by Nathaniel Brown.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 70,
+            "text": "Attempt missed. Gustavo Gómez (Paraguay) header from the left side of the six yard box is close, but misses to the left. Assisted by Mauricio with a cross following a corner.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 70,
+            "text": "Foul by Gustavo Gómez (Paraguay).",
+            "type": "Foul"
+          },
+          {
+            "minute": 70,
+            "text": "Manuel Neuer (Germany) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 70,
+            "text": "Delay in match for a drinks break.",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 73,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 77,
+            "text": "Offside, Paraguay. Gustavo Caballero is caught offside.",
+            "type": "Offside"
+          },
+          {
+            "minute": 78,
+            "text": "Attempt saved. Kai Havertz (Germany) header from the centre of the box is saved in the bottom right corner by Orlando Gill (Paraguay). Assisted by Florian Wirtz with a cross.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 78,
+            "text": "Foul by Damián Bobadilla (Paraguay).",
+            "type": "Foul"
+          },
+          {
+            "minute": 78,
+            "text": "Nathaniel Brown (Germany) wins a free kick in the attacking half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 79,
+            "text": "Substitution, Germany. Waldemar Anton replaces Aleksandar Pavlovic.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 80,
+            "text": "Attempt blocked. Florian Wirtz (Germany) right footed shot from outside the box is blocked.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 86,
+            "text": "Corner, Germany. Conceded by Júnior Alonso.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 86,
+            "text": "Attempt missed. Leon Goretzka (Germany) header from the centre of the box is close, but misses to the left. Assisted by Florian Wirtz with a cross following a corner.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 86,
+            "text": "Offside, Germany. Waldemar Anton is caught offside.",
+            "type": "Offside"
+          },
+          {
+            "minute": 88,
+            "text": "Substitution, Germany. Nick Woltemade replaces Leroy Sané.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 89,
+            "text": "Gustavo Caballero (Paraguay) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 89,
+            "text": "Foul by Waldemar Anton (Germany).",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Attempt blocked. Joshua Kimmich (Germany) right footed shot from outside the box is blocked. Assisted by Waldemar Anton.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 90,
+            "text": "Corner, Germany. Conceded by Andrés Cubas.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 90,
+            "text": "Fourth official has announced 5 minutes of added time.",
+            "type": ""
+          },
+          {
+            "minute": 90,
+            "text": "Attempt saved. Jonathan Tah (Germany) header from the centre of the box is saved in the bottom left corner by Orlando Gill (Paraguay). Assisted by Nathaniel Brown with a cross.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 90,
+            "text": "Attempt blocked. Miguel Almirón (Paraguay) left footed shot from outside the box is blocked.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 90,
+            "text": "Corner, Paraguay. Conceded by Waldemar Anton.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 90,
+            "text": "Foul by Júnior Alonso (Paraguay).",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Florian Wirtz (Germany) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Matías Galarza (Paraguay) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Foul by Waldemar Anton (Germany).",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Second Half ends, Germany 1, Paraguay 1.",
+            "type": ""
+          },
+          {
+            "minute": 90,
+            "text": "Substitution, Paraguay. Gustavo Velázquez replaces Miguel Almirón.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 90,
+            "text": "First Half Extra Time begins Germany 1, Paraguay 1.",
+            "type": ""
+          },
+          {
+            "minute": 93,
+            "text": "Attempt blocked. Nick Woltemade (Germany) left footed shot from the centre of the box is blocked.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 93,
+            "text": "Attempt blocked. Joshua Kimmich (Germany) right footed shot from outside the box is blocked.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 94,
+            "text": "Foul by Juan José Cáceres (Paraguay).",
+            "type": "Foul"
+          },
+          {
+            "minute": 94,
+            "text": "Florian Wirtz (Germany) wins a free kick on the left wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 95,
+            "text": "Corner, Germany. Conceded by Juan José Cáceres.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 97,
+            "text": "Attempt missed. Nick Woltemade (Germany) left footed shot from the centre of the box misses to the left.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 97,
+            "text": "Corner, Germany. Conceded by José Canale.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 99,
+            "text": "Substitution, Paraguay. Braian Ojeda replaces Juan José Cáceres.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 99,
+            "text": "Substitution, Paraguay. Antonio Sanabria replaces Damián Bobadilla.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 102,
+            "text": "Corner, Germany. Conceded by José Canale.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 102,
+            "text": "Orlando Gill (Paraguay) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 102,
+            "text": "GOAL OVERTURNED BY VAR: Jonathan Tah (Germany) scores but the goal is ruled out after a VAR review.",
+            "type": "Deleted After Review"
+          },
+          {
+            "minute": 102,
+            "text": "Foul by Waldemar Anton (Germany).",
+            "type": "Foul"
+          },
+          {
+            "minute": 104,
+            "text": "VAR Decision: No Goal Germany 1-1 Paraguay.",
+            "type": "VAR - Referee decision cancelled"
+          },
+          {
+            "minute": 105,
+            "text": "Fourth official has announced 4 minutes of added time.",
+            "type": ""
+          },
+          {
+            "minute": 105,
+            "text": "Corner, Paraguay. Conceded by Nathaniel Brown.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 105,
+            "text": "Foul by Mauricio (Paraguay).",
+            "type": "Foul"
+          },
+          {
+            "minute": 105,
+            "text": "Waldemar Anton (Germany) wins a free kick on the right wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 105,
+            "text": "Attempt saved. Kai Havertz (Germany) header from the right side of the six yard box is saved in the top left corner by Orlando Gill (Paraguay). Assisted by Florian Wirtz with a cross.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 105,
+            "text": "Delay in match because of an injury Orlando Gill (Paraguay).",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 105,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 105,
+            "text": "First Half Extra Time ends, Germany 1, Paraguay 1.",
+            "type": ""
+          },
+          {
+            "minute": 105,
+            "text": "Second Half Extra Time begins Germany 1, Paraguay 1.",
+            "type": "Start 2nd Half Extra Time"
+          },
+          {
+            "minute": 106,
+            "text": "José Canale (Paraguay) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 106,
+            "text": "Foul by Kai Havertz (Germany).",
+            "type": "Foul"
+          },
+          {
+            "minute": 106,
+            "text": "Kai Havertz (Germany) is shown the yellow card for a bad foul.",
+            "type": "Yellow Card"
+          },
+          {
+            "minute": 107,
+            "text": "Antonio Sanabria (Paraguay) wins a free kick on the right wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 107,
+            "text": "Foul by Antonio Rüdiger (Germany).",
+            "type": "Foul"
+          },
+          {
+            "minute": 107,
+            "text": "Corner, Paraguay. Conceded by Jonathan Tah.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 110,
+            "text": "Corner, Germany. Conceded by Gustavo Caballero.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 110,
+            "text": "Substitution, Germany. Nadiem Amiri replaces Florian Wirtz.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 110,
+            "text": "Substitution, Germany. Malick Thiaw replaces Antonio Rüdiger.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 111,
+            "text": "Attempt saved. Joshua Kimmich (Germany) right footed shot from a difficult angle and long range on the left is saved in the top centre of the goal by Orlando Gill (Paraguay).",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 111,
+            "text": "Corner, Germany. Conceded by Orlando Gill.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 113,
+            "text": "Foul by Júnior Alonso (Paraguay).",
+            "type": "Foul"
+          },
+          {
+            "minute": 113,
+            "text": "Jamal Musiala (Germany) wins a free kick on the right wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 115,
+            "text": "Matías Galarza (Paraguay) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 115,
+            "text": "Foul by Jamal Musiala (Germany).",
+            "type": "Foul"
+          },
+          {
+            "minute": 115,
+            "text": "Jamal Musiala (Germany) is shown the yellow card for a bad foul.",
+            "type": "Yellow Card"
+          },
+          {
+            "minute": 116,
+            "text": "Delay in match because of an injury Matías Galarza (Paraguay).",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 117,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 117,
+            "text": "Foul by Matías Galarza (Paraguay).",
+            "type": "Foul"
+          },
+          {
+            "minute": 117,
+            "text": "Jamal Musiala (Germany) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 117,
+            "text": "Matías Galarza (Paraguay) is shown the yellow card for a bad foul.",
+            "type": "Yellow Card"
+          },
+          {
+            "minute": 118,
+            "text": "Corner, Germany. Conceded by Mauricio.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 119,
+            "text": "Attempt saved. Waldemar Anton (Germany) header from very close range is saved in the top centre of the goal by Orlando Gill (Paraguay). Assisted by Nathaniel Brown with a cross.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 120,
+            "text": "Foul by Matías Galarza (Paraguay).",
+            "type": "Foul"
+          },
+          {
+            "minute": 120,
+            "text": "Kai Havertz (Germany) wins a free kick in the attacking half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 120,
+            "text": "Fourth official has announced 2 minutes of added time.",
+            "type": ""
+          },
+          {
+            "minute": 120,
+            "text": "Attempt missed. Nadiem Amiri (Germany) right footed shot from outside the box is close, but misses to the right from a direct free kick.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 120,
+            "text": "Substitution, Paraguay. Fabián Balbuena replaces Júnior Alonso.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 120,
+            "text": "Second Half Extra Time ends, Germany 1, Paraguay 1.",
+            "type": ""
+          },
+          {
+            "minute": 120,
+            "text": "Penalty Shootout begins Germany 1, Paraguay 1.",
+            "type": ""
+          },
+          {
+            "minute": 120,
+            "text": "Penalty saved. Kai Havertz (Germany) left footed shot saved in the top centre of the goal by Orlando Gill (Paraguay).",
+            "type": "Penalty - Saved"
+          },
+          {
+            "minute": 120,
+            "text": "Goal! Germany 1, Paraguay 1(1). Mauricio (Paraguay) converts the penalty with a left footed shot to the bottom right corner.",
+            "type": "Penalty - Scored"
+          },
+          {
+            "minute": 120,
+            "text": "Goal! Germany 1(1), Paraguay 1(1). Joshua Kimmich (Germany) converts the penalty with a right footed shot to the bottom left corner.",
+            "type": "Penalty - Scored"
+          },
+          {
+            "minute": 120,
+            "text": "Goal! Germany 1(1), Paraguay 1(2). Gustavo Gómez (Paraguay) converts the penalty with a right footed shot to the bottom right corner.",
+            "type": "Penalty - Scored"
+          },
+          {
+            "minute": 120,
+            "text": "Goal! Germany 1(2), Paraguay 1(2). Jamal Musiala (Germany) converts the penalty with a right footed shot to the bottom left corner.",
+            "type": "Penalty - Scored"
+          },
+          {
+            "minute": 120,
+            "text": "Goal! Germany 1(2), Paraguay 1(3). Matías Galarza (Paraguay) converts the penalty with a left footed shot to the bottom left corner.",
+            "type": "Penalty - Scored"
+          },
+          {
+            "minute": 120,
+            "text": "Penalty saved. Nick Woltemade (Germany) right footed shot saved in the bottom right corner by Orlando Gill (Paraguay).",
+            "type": "Penalty - Saved"
+          },
+          {
+            "minute": 120,
+            "text": "Penalty missed. Antonio Sanabria (Paraguay) right footed shot is close, but misses to the left.",
+            "type": "Penalty - Missed"
+          },
+          {
+            "minute": 120,
+            "text": "Goal! Germany 1(3), Paraguay 1(3). Nadiem Amiri (Germany) converts the penalty with a right footed shot to the bottom right corner.",
+            "type": "Penalty - Scored"
+          },
+          {
+            "minute": 120,
+            "text": "Penalty saved. Fabián Balbuena (Paraguay) right footed shot saved in the bottom right corner by Manuel Neuer (Germany).",
+            "type": "Penalty - Saved"
+          },
+          {
+            "minute": 120,
+            "text": "Penalty missed. Jonathan Tah (Germany) right footed shot is too high.",
+            "type": "Penalty - Missed"
+          },
+          {
+            "minute": 120,
+            "text": "Goal! Germany 1(3), Paraguay 1(4). José Canale (Paraguay) converts the penalty with a left footed shot to the top right corner.",
+            "type": "Penalty - Scored"
+          },
+          {
+            "minute": 120,
+            "text": "Penalty Shootout ends, Germany 1(3), Paraguay 1(4).",
+            "type": ""
+          },
+          {
+            "minute": 0,
+            "text": "Match ends, Germany 1(3), Paraguay 1(4).",
+            "type": ""
+          }
+        ],
+        "halftime": "0-1",
+        "motm": "—",
+        "note": "",
         "lineups": {
+          "home_formation": "4-4-2",
           "home_xi": [
-            "Manuel Neuer (G)",
-            "Antonio Rüdiger (D)",
-            "Nathaniel Brown (D)",
-            "Joshua Kimmich (D)",
-            "Jonathan Tah (D)",
-            "Aleksandar Pavlovic (M)",
-            "Deniz Undav (M)",
-            "Florian Wirtz (M)",
-            "Felix Nmecha (M)",
-            "Leroy Sané (M)",
-            "Kai Havertz (F)"
+            "Manuel Neuer",
+            "Antonio Rüdiger",
+            "Jonathan Tah",
+            "Nathaniel Brown",
+            "Joshua Kimmich",
+            "Aleksandar Pavlovic",
+            "Felix Nmecha",
+            "Florian Wirtz",
+            "Leroy Sané",
+            "Deniz Undav",
+            "Kai Havertz"
           ],
-          "away_xi": [
-            "Orlando Gil (G)",
-            "Juan Jose Cáceres (D)",
-            "José Canale (D)",
-            "Júnior Alonso (D)",
-            "Gustavo Gómez (D)",
-            "Matías Galarza (M)",
-            "Julio Enciso (M)",
-            "Miguel Almirón (M)",
-            "Andrés Cubas (M)",
-            "Damián Bobadilla (M)",
-            "Gabriel Ávalos (F)"
-          ],
-          "home_formation": "4-2-3-1",
-          "away_formation": "4-1-4-1",
-          "source_xi": "ESPN (compo officielle)",
           "home_bench": [
-            "David Raum (SUB)",
-            "Jamie Leweling (SUB)",
-            "Waldemar Anton (SUB)",
-            "Nadiem Amiri (SUB)",
-            "Alexander Nübel (SUB)",
-            "Angelo Stiller (SUB)",
-            "Jamal Musiala (SUB)",
-            "Malick Thiaw (SUB)",
-            "Nick Woltemade (SUB)",
-            "Pascal Gross (SUB)",
-            "Assan Ouédraogo (SUB)",
-            "Maximilian Beier (SUB)",
-            "Oliver Baumann (SUB)",
-            "Leon Goretzka (SUB)"
+            "David Raum",
+            "Jamie Leweling",
+            "Waldemar Anton",
+            "Nadiem Amiri",
+            "Alexander Nübel",
+            "Angelo Stiller",
+            "Jamal Musiala",
+            "Malick Thiaw",
+            "Nick Woltemade",
+            "Pascal Gross",
+            "Assan Ouédraogo",
+            "Maximilian Beier",
+            "Oliver Baumann",
+            "Leon Goretzka"
+          ],
+          "away_formation": "4-4-2",
+          "away_xi": [
+            "Orlando Gill",
+            "José Canale",
+            "Gustavo Gómez",
+            "Júnior Alonso",
+            "Juan Jose Cáceres",
+            "Andrés Cubas",
+            "Damián Bobadilla",
+            "Matías Galarza",
+            "Miguel Almirón",
+            "Julio Enciso",
+            "Gabriel Ávalos"
           ],
           "away_bench": [
-            "Gatito Fernández (SUB)",
-            "Alex Arce (SUB)",
-            "Ramón Sosa (SUB)",
-            "Gastón Olveira (SUB)",
-            "Antonio Sanabria (SUB)",
-            "Alexandro Maidana (SUB)",
-            "Isidro Pitta (SUB)",
-            "Gustavo Velázquez (SUB)",
-            "Omar Alderete (SUB)",
-            "Braian Ojeda (SUB)",
-            "Fabián Balbuena (SUB)",
-            "Alejandro Romero Gamarra (SUB)",
-            "Gustavo Caballero (SUB)",
-            "Maurício (SUB)"
-          ]
+            "Gatito Fernández",
+            "Alex Arce",
+            "Ramón Sosa",
+            "Gastón Olveira",
+            "Antonio Sanabria",
+            "Alexandro Maidana",
+            "Isidro Pitta",
+            "Gustavo Velázquez",
+            "Omar Alderete",
+            "Braian Ojeda",
+            "Fabián Balbuena",
+            "Alejandro Romero Gamarra",
+            "Gustavo Caballero",
+            "Maurício"
+          ],
+          "source": "ESPN (compos réelles)"
         }
       },
       "summary": "Le modèle donnait <b>Germany</b> favori (87%). ❌ Surprise : match nul, non anticipé. Score le plus probable prévu : 2-0 → réel 1-1. Total buts 2 (Under 2.5), BTTS oui."
@@ -104790,77 +105723,13 @@
         }
       },
       "shots": {
-        "expShots": 26.5,
-        "expShotsOn": 9.5,
-        "home": 15.9,
-        "away": 10.6,
-        "homeOn": 5.9,
-        "awayOn": 3.6,
-        "homeAcc": 37,
-        "awayAcc": 34,
-        "line": 26.5,
-        "lineOn": 9.5,
-        "lines": {
-          "22.5": {
-            "over": 0.7794,
-            "under": 0.2206
-          },
-          "24.5": {
-            "over": 0.643,
-            "under": 0.357
-          },
-          "26.5": {
-            "over": 0.4894,
-            "under": 0.5106
-          },
-          "28.5": {
-            "over": 0.341,
-            "under": 0.659
-          },
-          "30.5": {
-            "over": 0.2165,
-            "under": 0.7835
-          }
-        },
-        "linesOn": {
-          "7.5": {
-            "over": 0.7297,
-            "under": 0.2703
-          },
-          "8.5": {
-            "over": 0.6062,
-            "under": 0.3938
-          },
-          "9.5": {
-            "over": 0.4761,
-            "under": 0.5239
-          },
-          "10.5": {
-            "over": 0.3527,
-            "under": 0.6473
-          },
-          "11.5": {
-            "over": 0.2463,
-            "under": 0.7537
-          }
-        },
-        "real": false,
-        "basis": {
-          "dominance": [
-            1.22,
-            0.82
-          ],
-          "possession": [
-            53,
-            47
-          ],
-          "accuracy": [
-            37,
-            34
-          ]
-        },
-        "shotsAvgHome": 14.4,
-        "shotsAvgAway": 11.0
+        "home": 21,
+        "away": 7,
+        "homeOn": 6,
+        "awayOn": 3,
+        "homeAcc": 29,
+        "awayAcc": 43,
+        "real": true
       },
       "referee": {
         "name": "Jalal Jayed",
@@ -105395,12 +106264,874 @@
     "id": 75,
     "league": "CDM 2026 · Round of 32",
     "date": "2026-06-29 19:00 UTC-6",
-    "status": "LIVE",
-    "liveScore": "0-0",
-    "liveClock": "38'",
-    "realScore": null,
-    "htScore": null,
-    "analysis": null,
+    "status": "FINISHED",
+    "liveScore": null,
+    "liveClock": null,
+    "realScore": "1-1",
+    "htScore": "0-0",
+    "analysis": {
+      "realScore": "1-1",
+      "outcome": "X",
+      "winner": null,
+      "predictedOutcome": "X",
+      "predictionCorrect": true,
+      "exactScore": true,
+      "over25Real": false,
+      "bttsReal": true,
+      "totalGoals": 2,
+      "homeXgReal": 0.0,
+      "awayXgReal": 0.0,
+      "homeShots": 6,
+      "awayShots": 11,
+      "homeShotsOn": 2,
+      "awayShotsOn": 5,
+      "teamStats": {
+        "home_possession": 29.9,
+        "home_passes": 371,
+        "home_passes_ok": 292,
+        "home_pass_pct": 0.8,
+        "home_crosses": 10,
+        "home_crosses_ok": 3,
+        "home_long_balls": 47,
+        "home_tackles": 19,
+        "home_tackles_won": 10,
+        "home_interceptions": 11,
+        "home_clearances": 22,
+        "home_blocked_shots": 3,
+        "home_fouls": 18,
+        "home_offsides": 3,
+        "home_saves": 5,
+        "away_possession": 70.1,
+        "away_passes": 879,
+        "away_passes_ok": 801,
+        "away_pass_pct": 0.9,
+        "away_crosses": 18,
+        "away_crosses_ok": 4,
+        "away_long_balls": 48,
+        "away_tackles": 19,
+        "away_tackles_won": 14,
+        "away_interceptions": 11,
+        "away_clearances": 34,
+        "away_blocked_shots": 2,
+        "away_fouls": 15,
+        "away_offsides": 0,
+        "away_saves": 1
+      },
+      "homeCorners": 5,
+      "awayCorners": 8,
+      "homeCards": 0,
+      "awayCards": 1,
+      "events": {
+        "goals": [
+          {
+            "minute": 72,
+            "team": "Netherlands",
+            "player": "Cody Gakpo",
+            "assist": "Crysencio Summerville",
+            "note": null
+          }
+        ],
+        "cards": [
+          {
+            "minute": 47,
+            "team": "Morocco",
+            "player": "Issa Diop",
+            "type": "Yellow"
+          }
+        ],
+        "commentary": [
+          {
+            "minute": 0,
+            "text": "Lineups are announced and players are warming up.",
+            "type": ""
+          },
+          {
+            "minute": 0,
+            "text": "First Half begins.",
+            "type": "Kickoff"
+          },
+          {
+            "minute": 3,
+            "text": "Corner, Netherlands. Conceded by Chadi Riad.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 4,
+            "text": "Neil El Aynaoui (Morocco) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 4,
+            "text": "Foul by Frenkie de Jong (Netherlands).",
+            "type": "Foul"
+          },
+          {
+            "minute": 7,
+            "text": "Attempt blocked. Ryan Gravenberch (Netherlands) left footed shot from the right side of the box is blocked.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 7,
+            "text": "Bilal El Khannouss (Morocco) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 7,
+            "text": "Foul by Ryan Gravenberch (Netherlands).",
+            "type": "Foul"
+          },
+          {
+            "minute": 10,
+            "text": "Denzel Dumfries (Netherlands) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 10,
+            "text": "Foul by Ismael Saibari (Morocco).",
+            "type": "Foul"
+          },
+          {
+            "minute": 11,
+            "text": "Brian Brobbey (Netherlands) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 11,
+            "text": "Foul by Issa Diop (Morocco).",
+            "type": "Foul"
+          },
+          {
+            "minute": 14,
+            "text": "Foul by Brian Brobbey (Netherlands).",
+            "type": "Foul"
+          },
+          {
+            "minute": 14,
+            "text": "Chadi Riad (Morocco) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 16,
+            "text": "Offside, Netherlands. Crysencio Summerville is caught offside.",
+            "type": "Offside"
+          },
+          {
+            "minute": 19,
+            "text": "Corner, Morocco. Conceded by Micky van de Ven.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 20,
+            "text": "Attempt saved. Neil El Aynaoui (Morocco) header from the right side of the six yard box is saved in the top centre of the goal by Bart Verbruggen (Netherlands). Assisted by Achraf Hakimi with a cross.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 20,
+            "text": "Attempt missed. Ayyoub Bouaddi (Morocco) right footed shot from outside the box is too high. Assisted by Azzedine Ounahi following a corner.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 21,
+            "text": "Attempt saved. Achraf Hakimi (Morocco) right footed shot from the right side of the box is saved in the top right corner by Bart Verbruggen (Netherlands). Assisted by Ismael Saibari.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 21,
+            "text": "Corner, Morocco. Conceded by Bart Verbruggen.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 22,
+            "text": "Delay in match for a drinks break.",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 25,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 27,
+            "text": "Jan Paul van Hecke (Netherlands) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 27,
+            "text": "Foul by Azzedine Ounahi (Morocco).",
+            "type": "Foul"
+          },
+          {
+            "minute": 29,
+            "text": "Frenkie de Jong (Netherlands) wins a free kick on the left wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 29,
+            "text": "Foul by Ismael Saibari (Morocco).",
+            "type": "Foul"
+          },
+          {
+            "minute": 31,
+            "text": "Crysencio Summerville (Netherlands) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 31,
+            "text": "Foul by Ismael Saibari (Morocco).",
+            "type": "Foul"
+          },
+          {
+            "minute": 33,
+            "text": "Offside, Netherlands. Denzel Dumfries is caught offside.",
+            "type": "Offside"
+          },
+          {
+            "minute": 36,
+            "text": "Corner, Netherlands. Conceded by Noussair Mazraoui.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 37,
+            "text": "Attempt blocked. Denzel Dumfries (Netherlands) header from the centre of the box is blocked. Assisted by Crysencio Summerville with a cross.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 37,
+            "text": "Corner, Netherlands. Conceded by Noussair Mazraoui.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 38,
+            "text": "Delay in match because of an injury Jan Paul van Hecke (Netherlands).",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 40,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 41,
+            "text": "Ayyoub Bouaddi (Morocco) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 41,
+            "text": "Foul by Cody Gakpo (Netherlands).",
+            "type": "Foul"
+          },
+          {
+            "minute": 44,
+            "text": "Attempt missed. Micky van de Ven (Netherlands) left footed shot from outside the box is just a bit too high. Assisted by Crysencio Summerville.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 44,
+            "text": "Corner, Netherlands. Conceded by Yassine Bounou.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 45,
+            "text": "Foul by Brian Brobbey (Netherlands).",
+            "type": "Foul"
+          },
+          {
+            "minute": 45,
+            "text": "Yassine Bounou (Morocco) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 45,
+            "text": "Fourth official has announced 6 minutes of added time.",
+            "type": ""
+          },
+          {
+            "minute": 45,
+            "text": "Attempt missed. Azzedine Ounahi (Morocco) right footed shot from the right side of the box is just a bit too high. Assisted by Neil El Aynaoui following a fast break.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 45,
+            "text": "Foul by Micky van de Ven (Netherlands).",
+            "type": "Foul"
+          },
+          {
+            "minute": 45,
+            "text": "Achraf Hakimi (Morocco) wins a free kick on the right wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 45,
+            "text": "First Half ends, Netherlands 0, Morocco 0.",
+            "type": ""
+          },
+          {
+            "minute": 45,
+            "text": "Second Half begins Netherlands 0, Morocco 0.",
+            "type": ""
+          },
+          {
+            "minute": 47,
+            "text": "Brian Brobbey (Netherlands) wins a free kick in the attacking half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 47,
+            "text": "Foul by Issa Diop (Morocco).",
+            "type": "Foul"
+          },
+          {
+            "minute": 47,
+            "text": "Issa Diop (Morocco) is shown the yellow card for a bad foul.",
+            "type": "Yellow Card"
+          },
+          {
+            "minute": 48,
+            "text": "Attempt saved. Micky van de Ven (Netherlands) header from the centre of the box is saved in the centre of the goal by Yassine Bounou (Morocco). Assisted by Jan Paul van Hecke with a headed pass.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 48,
+            "text": "Attempt missed. Ayyoub Bouaddi (Morocco) left footed shot from outside the box is high and wide to the left. Assisted by Achraf Hakimi.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 52,
+            "text": "Achraf Hakimi (Morocco) hits the bar with a right footed shot from a difficult angle on the right. Assisted by Azzedine Ounahi with a through ball.",
+            "type": "Shot Hit Woodwork"
+          },
+          {
+            "minute": 53,
+            "text": "Foul by Micky van de Ven (Netherlands).",
+            "type": "Foul"
+          },
+          {
+            "minute": 53,
+            "text": "Ayyoub Bouaddi (Morocco) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 56,
+            "text": "Attempt blocked. Achraf Hakimi (Morocco) right footed shot from the centre of the box is blocked. Assisted by Azzedine Ounahi with a through ball.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 56,
+            "text": "Offside, Netherlands. Brian Brobbey is caught offside.",
+            "type": "Offside"
+          },
+          {
+            "minute": 58,
+            "text": "Attempt saved. Bilal El Khannouss (Morocco) right footed shot from outside the box is saved in the bottom right corner by Bart Verbruggen (Netherlands).",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 59,
+            "text": "Attempt blocked. Ryan Gravenberch (Netherlands) left footed shot from outside the box is blocked.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 59,
+            "text": "Foul by Jan Paul van Hecke (Netherlands).",
+            "type": "Foul"
+          },
+          {
+            "minute": 59,
+            "text": "Ismael Saibari (Morocco) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 61,
+            "text": "Corner, Morocco. Conceded by Virgil van Dijk.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 61,
+            "text": "Corner, Morocco. Conceded by Bart Verbruggen.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 62,
+            "text": "Corner, Morocco. Conceded by Denzel Dumfries.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 62,
+            "text": "Corner, Morocco. Conceded by Frenkie de Jong.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 65,
+            "text": "Ryan Gravenberch (Netherlands) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 65,
+            "text": "Foul by Neil El Aynaoui (Morocco).",
+            "type": "Foul"
+          },
+          {
+            "minute": 67,
+            "text": "Delay in match for a drinks break.",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 71,
+            "text": "Substitution, Netherlands. Teun Koopmeiners replaces Nathan Aké.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 71,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 71,
+            "text": "Substitution, Netherlands. Wout Weghorst replaces Brian Brobbey.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 72,
+            "text": "Goal! Netherlands 1, Morocco 0. Cody Gakpo (Netherlands) right footed shot from the centre of the box to the centre of the goal. Assisted by Crysencio Summerville.",
+            "type": "Goal"
+          },
+          {
+            "minute": 75,
+            "text": "Foul by Frenkie de Jong (Netherlands).",
+            "type": "Foul"
+          },
+          {
+            "minute": 75,
+            "text": "Azzedine Ounahi (Morocco) wins a free kick in the attacking half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 75,
+            "text": "Substitution, Morocco. Anass Salah-Eddine replaces Chadi Riad because of an injury.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 77,
+            "text": "Foul by Teun Koopmeiners (Netherlands).",
+            "type": "Foul"
+          },
+          {
+            "minute": 77,
+            "text": "Achraf Hakimi (Morocco) wins a free kick on the right wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 77,
+            "text": "Corner, Morocco. Conceded by Jan Paul van Hecke.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 78,
+            "text": "Attempt blocked. Anass Salah-Eddine (Morocco) left footed shot from outside the box is blocked.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 79,
+            "text": "Substitution, Morocco. Gessime Yassine replaces Brahim Díaz.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 79,
+            "text": "Substitution, Morocco. Samir El Mourabet replaces Ayyoub Bouaddi.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 80,
+            "text": "Delay in match because of an injury Ryan Gravenberch (Netherlands).",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 81,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 84,
+            "text": "Handball by Crysencio Summerville (Netherlands).",
+            "type": "Handball"
+          },
+          {
+            "minute": 85,
+            "text": "Virgil van Dijk (Netherlands) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 85,
+            "text": "Foul by Ismael Saibari (Morocco).",
+            "type": "Foul"
+          },
+          {
+            "minute": 86,
+            "text": "Substitution, Morocco. Soufiane Rahimi replaces Azzedine Ounahi.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 86,
+            "text": "Substitution, Netherlands. Jorrel Hato replaces Micky van de Ven.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 86,
+            "text": "Substitution, Netherlands. Quinten Timber replaces Ryan Gravenberch.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 87,
+            "text": "Substitution, Morocco. Chemsdine Talbi replaces Bilal El Khannouss.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 88,
+            "text": "Corner, Netherlands. Conceded by Issa Diop.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 90,
+            "text": "Fourth official has announced 6 minutes of added time.",
+            "type": ""
+          },
+          {
+            "minute": 90,
+            "text": "Goal! Netherlands 1, Morocco 1. Issa Diop (Morocco) header from the centre of the box to the top right corner. Assisted by Chemsdine Talbi with a cross.",
+            "type": "Goal - Header"
+          },
+          {
+            "minute": 90,
+            "text": "Quinten Timber (Netherlands) wins a free kick on the right wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Foul by Neil El Aynaoui (Morocco).",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Foul by Denzel Dumfries (Netherlands).",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Anass Salah-Eddine (Morocco) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Frenkie de Jong (Netherlands) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Foul by Ismael Saibari (Morocco).",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Second Half ends, Netherlands 1, Morocco 1.",
+            "type": "End Regular Time"
+          },
+          {
+            "minute": 90,
+            "text": "First Half Extra Time begins Netherlands 1, Morocco 1.",
+            "type": "Start Extra Time"
+          },
+          {
+            "minute": 92,
+            "text": "Wout Weghorst (Netherlands) wins a free kick on the right wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 92,
+            "text": "Foul by Neil El Aynaoui (Morocco).",
+            "type": "Foul"
+          },
+          {
+            "minute": 93,
+            "text": "Handball by Denzel Dumfries (Netherlands).",
+            "type": "Handball"
+          },
+          {
+            "minute": 95,
+            "text": "Foul by Frenkie de Jong (Netherlands).",
+            "type": "Foul"
+          },
+          {
+            "minute": 95,
+            "text": "Soufiane Rahimi (Morocco) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 97,
+            "text": "Attempt saved. Soufiane Rahimi (Morocco) right footed shot from the centre of the box is saved in the bottom left corner by Bart Verbruggen (Netherlands). Assisted by Ismael Saibari with a through ball.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 97,
+            "text": "Corner, Morocco. Conceded by Bart Verbruggen.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 97,
+            "text": "Frenkie de Jong (Netherlands) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 97,
+            "text": "Foul by Anass Salah-Eddine (Morocco).",
+            "type": "Foul"
+          },
+          {
+            "minute": 102,
+            "text": "Handball by Wout Weghorst (Netherlands).",
+            "type": "Handball"
+          },
+          {
+            "minute": 105,
+            "text": "Quinten Timber (Netherlands) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 105,
+            "text": "Foul by Neil El Aynaoui (Morocco).",
+            "type": "Foul"
+          },
+          {
+            "minute": 105,
+            "text": "Fourth official has announced 0 minutes of added time.",
+            "type": ""
+          },
+          {
+            "minute": 105,
+            "text": "First Half Extra Time ends, Netherlands 1, Morocco 1.",
+            "type": "Halftime Extra Time"
+          },
+          {
+            "minute": 105,
+            "text": "Second Half Extra Time begins Netherlands 1, Morocco 1.",
+            "type": "Start 2nd Half Extra Time"
+          },
+          {
+            "minute": 107,
+            "text": "Foul by Cody Gakpo (Netherlands).",
+            "type": "Foul"
+          },
+          {
+            "minute": 107,
+            "text": "Gessime Yassine (Morocco) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 110,
+            "text": "Wout Weghorst (Netherlands) wins a free kick on the right wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 110,
+            "text": "Foul by Anass Salah-Eddine (Morocco).",
+            "type": "Foul"
+          },
+          {
+            "minute": 110,
+            "text": "Substitution, Netherlands. Marten de Roon replaces Frenkie de Jong.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 112,
+            "text": "Cody Gakpo (Netherlands) wins a free kick in the attacking half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 112,
+            "text": "Foul by Neil El Aynaoui (Morocco).",
+            "type": "Foul"
+          },
+          {
+            "minute": 113,
+            "text": "Substitution, Netherlands. Justin Kluivert replaces Cody Gakpo.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 114,
+            "text": "Foul by Denzel Dumfries (Netherlands).",
+            "type": "Foul"
+          },
+          {
+            "minute": 114,
+            "text": "Soufiane Rahimi (Morocco) wins a free kick on the left wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 116,
+            "text": "Delay in match because of an injury Crysencio Summerville (Netherlands).",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 116,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 118,
+            "text": "Foul by Denzel Dumfries (Netherlands).",
+            "type": "Foul"
+          },
+          {
+            "minute": 118,
+            "text": "Chemsdine Talbi (Morocco) wins a free kick on the left wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 120,
+            "text": "Fourth official has announced 1 minutes of added time.",
+            "type": ""
+          },
+          {
+            "minute": 120,
+            "text": "Second Half Extra Time ends, Netherlands 1, Morocco 1.",
+            "type": "End Extra Time"
+          },
+          {
+            "minute": 120,
+            "text": "Penalty Shootout begins Netherlands 1, Morocco 1.",
+            "type": ""
+          },
+          {
+            "minute": 120,
+            "text": "Goal! Netherlands 1(1), Morocco 1. Teun Koopmeiners (Netherlands) converts the penalty with a left footed shot to the bottom right corner.",
+            "type": "Penalty - Scored"
+          },
+          {
+            "minute": 120,
+            "text": "Penalty missed! Still Netherlands 1(1), Morocco 1. Neil El Aynaoui (Morocco) hits the bar with a right footed shot.",
+            "type": "Penalty - Missed"
+          },
+          {
+            "minute": 120,
+            "text": "Penalty missed! Still Netherlands 1(1), Morocco 1. Justin Kluivert (Netherlands) hits the left post with a right footed shot.",
+            "type": "Penalty - Missed"
+          },
+          {
+            "minute": 120,
+            "text": "Goal! Netherlands 1(1), Morocco 1(1). Soufiane Rahimi (Morocco) converts the penalty with a right footed shot to the bottom left corner.",
+            "type": "Penalty - Scored"
+          },
+          {
+            "minute": 120,
+            "text": "Goal! Netherlands 1(2), Morocco 1(1). Wout Weghorst (Netherlands) converts the penalty with a right footed shot to the top left corner.",
+            "type": "Penalty - Scored"
+          },
+          {
+            "minute": 120,
+            "text": "Goal! Netherlands 1(2), Morocco 1(2). Chemsdine Talbi (Morocco) converts the penalty with a right footed shot to the top right corner.",
+            "type": "Penalty - Scored"
+          },
+          {
+            "minute": 120,
+            "text": "Penalty missed. Quinten Timber (Netherlands) right footed shot is close, but misses to the left.",
+            "type": "Penalty - Missed"
+          },
+          {
+            "minute": 120,
+            "text": "Penalty missed! Still Netherlands 1(2), Morocco 1(2). Achraf Hakimi (Morocco) hits the left post with a right footed shot.",
+            "type": "Penalty - Missed"
+          },
+          {
+            "minute": 120,
+            "text": "Penalty saved. Crysencio Summerville (Netherlands) right footed shot saved in the top left corner by Yassine Bounou (Morocco).",
+            "type": "Penalty - Saved"
+          },
+          {
+            "minute": 120,
+            "text": "Goal! Netherlands 1(2), Morocco 1(3). Ismael Saibari (Morocco) converts the penalty with a right footed shot to the bottom left corner.",
+            "type": "Penalty - Scored"
+          },
+          {
+            "minute": 120,
+            "text": "Penalty Shootout ends, Netherlands 1(2), Morocco 1(3).",
+            "type": "End Match"
+          },
+          {
+            "minute": 0,
+            "text": "Match ends, Netherlands 1(2), Morocco 1(3).",
+            "type": ""
+          }
+        ],
+        "halftime": "0-0",
+        "motm": "—",
+        "note": "",
+        "lineups": {
+          "home_formation": "3-4-2-1",
+          "home_xi": [
+            "Bart Verbruggen",
+            "Virgil van Dijk",
+            "Nathan Aké",
+            "Jan Paul van Hecke",
+            "Frenkie de Jong",
+            "Ryan Gravenberch",
+            "Micky van de Ven",
+            "Denzel Dumfries",
+            "Brian Brobbey",
+            "Cody Gakpo",
+            "Crysencio Summerville"
+          ],
+          "home_bench": [
+            "Marten de Roon",
+            "Jorrel Hato",
+            "Mats Wieffer",
+            "Donyell Malen",
+            "Memphis Depay",
+            "Justin Kluivert",
+            "Mark Flekken",
+            "Wout Weghorst",
+            "Guus Til",
+            "Quinten Timber",
+            "Lutsharel Geertruida",
+            "Noa Lang",
+            "Robin Roefs",
+            "Tijjani Reijnders",
+            "Teun Koopmeiners"
+          ],
+          "away_formation": "4-2-3-1",
+          "away_xi": [
+            "Yassine Bounou",
+            "Chadi Riad",
+            "Issa Diop",
+            "Noussair Mazraoui",
+            "Achraf Hakimi",
+            "Azzedine Ounahi",
+            "Neil El Aynaoui",
+            "Ayyoub Bouaddi",
+            "Ismael Saibari",
+            "Bilal El Khannouss",
+            "Brahim Díaz"
+          ],
+          "away_bench": [
+            "Anass Salah-Eddine",
+            "Amine Sbaï",
+            "Ahmed Reda Tagnaouti",
+            "Ayoube Amaimouni",
+            "Samir El Mourabet",
+            "Sofyan Amrabat",
+            "Gessime Yassine",
+            "Munir El Kajoui",
+            "Youssef Belammari",
+            "Chemsdine Talbi",
+            "Zakaria El Ouahdi",
+            "Soufiane Rahimi",
+            "Ayoub El Kaabi",
+            "Marwane Saadane",
+            "Redouane Halhal"
+          ],
+          "source": "ESPN (compos réelles)"
+        }
+      },
+      "summary": "Le modèle donnait <b>le nul</b> favori (35%). ✅ Issue correctement anticipée. Score le plus probable prévu : 1-1 → réel 1-1 (exact !) Total buts 2 (Under 2.5), BTTS oui."
+    },
     "nlpMomentum": null,
     "hotTrends": [
       "Netherlands : Plus de 2.5 buts dans 71% de ses 7 derniers matchs",
@@ -105704,77 +107435,13 @@
         "src": "FootyStats (réel)"
       },
       "shots": {
-        "expShots": 25.5,
-        "expShotsOn": 9.3,
-        "home": 11.8,
-        "away": 13.7,
-        "homeOn": 4.6,
-        "awayOn": 4.7,
-        "homeAcc": 39,
-        "awayAcc": 34,
-        "line": 25.5,
-        "lineOn": 9.5,
-        "lines": {
-          "21.5": {
-            "over": 0.7821,
-            "under": 0.2179
-          },
-          "23.5": {
-            "over": 0.6432,
-            "under": 0.3568
-          },
-          "25.5": {
-            "over": 0.4864,
-            "under": 0.5136
-          },
-          "27.5": {
-            "over": 0.3356,
-            "under": 0.6644
-          },
-          "29.5": {
-            "over": 0.2102,
-            "under": 0.7898
-          }
-        },
-        "linesOn": {
-          "7.5": {
-            "over": 0.7076,
-            "under": 0.2924
-          },
-          "8.5": {
-            "over": 0.5803,
-            "under": 0.4197
-          },
-          "9.5": {
-            "over": 0.4491,
-            "under": 0.5509
-          },
-          "10.5": {
-            "over": 0.3274,
-            "under": 0.6726
-          },
-          "11.5": {
-            "over": 0.2247,
-            "under": 0.7753
-          }
-        },
-        "real": false,
-        "basis": {
-          "dominance": [
-            0.9,
-            1.11
-          ],
-          "possession": [
-            50,
-            50
-          ],
-          "accuracy": [
-            39,
-            34
-          ]
-        },
-        "shotsAvgHome": 12.6,
-        "shotsAvgAway": 13.5
+        "home": 6,
+        "away": 11,
+        "homeOn": 2,
+        "awayOn": 5,
+        "homeAcc": 33,
+        "awayAcc": 45,
+        "real": true
       },
       "referee": null,
       "riskPlayers": {
@@ -106412,16 +108079,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.5035,
-      "pX": 0.2951,
-      "p2": 0.2014,
+      "p1": 0.5038,
+      "pX": 0.2949,
+      "p2": 0.2013,
       "ensemble": {
         "weights": {
-          "elo": 0.3617554007654029,
-          "grid": 0.37127665734352133,
-          "form": 0.26696794189107576
+          "elo": 0.36152877241701137,
+          "grid": 0.37074261287594124,
+          "form": 0.2677286147070474
         },
-        "T": 0.792,
+        "T": 0.791,
         "elo": [
           0.458,
           0.279,
@@ -106438,13 +108105,13 @@
           0.25
         ]
       },
-      "over25": 0.4839,
-      "btts": 0.6306,
+      "over25": 0.4816,
+      "btts": 0.636,
       "marketCalib": {
-        "bttsShift": 0.0627,
-        "overShift": -0.0552,
+        "bttsShift": 0.0681,
+        "overShift": -0.0575,
         "bttsRaw": 0.5679,
-        "n": 193
+        "n": 195
       },
       "lamHome": 1.69,
       "lamAway": 0.99,
@@ -106593,35 +108260,35 @@
         }
       },
       "corners": {
-        "exp_corners": 6.9,
-        "over": 0.5393,
-        "under": 0.4607,
-        "line": 6.5,
-        "home": 4.2,
+        "exp_corners": 7.1,
+        "over": 0.4118,
+        "under": 0.5882,
+        "line": 7.5,
+        "home": 4.3,
         "away": 2.7,
         "lines": {
-          "4.5": {
-            "over": 0.8202,
-            "under": 0.1798
-          },
           "5.5": {
-            "over": 0.6898,
-            "under": 0.3102
+            "over": 0.7082,
+            "under": 0.2918
           },
           "6.5": {
-            "over": 0.5393,
-            "under": 0.4607
+            "over": 0.5607,
+            "under": 0.4393
           },
           "7.5": {
-            "over": 0.3904,
-            "under": 0.6096
+            "over": 0.4118,
+            "under": 0.5882
           },
           "8.5": {
-            "over": 0.2614,
-            "under": 0.7386
+            "over": 0.2801,
+            "under": 0.7199
+          },
+          "9.5": {
+            "over": 0.1767,
+            "under": 0.8233
           }
         },
-        "src": "FootyStats ×0.53 (calibré 75 matchs)"
+        "src": "FootyStats ×0.54 (calibré 77 matchs)"
       },
       "cards": {
         "exp_cards": 3.0,
@@ -107101,12 +108768,12 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.3088,
+          "rawKelly": 0.3092,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
-          "kelly": 0.0063,
-          "rawKelly": 0.0074,
+          "kelly": 0.006,
+          "rawKelly": 0.0071,
           "note": "miser ~0.6% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
@@ -107128,7 +108795,7 @@
       "dixonColes": {
         "rho": -0.1176,
         "gamma": 0.092,
-        "calibratedOn": 193
+        "calibratedOn": 195
       },
       "knockout": {
         "qualifyHome": 0.6842,
@@ -107221,16 +108888,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.9353,
-      "pX": 0.0301,
+      "p1": 0.9355,
+      "pX": 0.03,
       "p2": 0.0346,
       "ensemble": {
         "weights": {
-          "elo": 0.3617554007654029,
-          "grid": 0.37127665734352133,
-          "form": 0.26696794189107576
+          "elo": 0.36152877241701137,
+          "grid": 0.37074261287594124,
+          "form": 0.2677286147070474
         },
-        "T": 0.792,
+        "T": 0.791,
         "elo": [
           0.809,
           0.097,
@@ -107247,13 +108914,13 @@
           0.105
         ]
       },
-      "over25": 0.8165,
-      "btts": 0.4475,
+      "over25": 0.8142,
+      "btts": 0.4529,
       "marketCalib": {
-        "bttsShift": 0.0627,
-        "overShift": -0.0552,
+        "bttsShift": 0.0681,
+        "overShift": -0.0575,
         "bttsRaw": 0.3848,
-        "n": 193
+        "n": 195
       },
       "lamHome": 4.51,
       "lamAway": 0.44,
@@ -107356,7 +109023,7 @@
       "totalXg": 4.95,
       "bttsConf": {
         "pick": "indécis",
-        "score": 0.48,
+        "score": 0.47,
         "label": "faible"
       },
       "halftime": {
@@ -107402,35 +109069,35 @@
         }
       },
       "corners": {
-        "exp_corners": 7.0,
-        "over": 0.4044,
-        "under": 0.5956,
+        "exp_corners": 7.2,
+        "over": 0.4261,
+        "under": 0.5739,
         "line": 7.5,
         "home": 4.1,
         "away": 3.0,
         "lines": {
           "5.5": {
-            "over": 0.702,
-            "under": 0.298
+            "over": 0.7201,
+            "under": 0.2799
           },
           "6.5": {
-            "over": 0.5534,
-            "under": 0.4466
+            "over": 0.5748,
+            "under": 0.4252
           },
           "7.5": {
-            "over": 0.4044,
-            "under": 0.5956
+            "over": 0.4261,
+            "under": 0.5739
           },
           "8.5": {
-            "over": 0.2736,
-            "under": 0.7264
+            "over": 0.2929,
+            "under": 0.7071
           },
           "9.5": {
-            "over": 0.1716,
-            "under": 0.8284
+            "over": 0.1868,
+            "under": 0.8132
           }
         },
-        "src": "FootyStats ×0.53 (calibré 75 matchs)"
+        "src": "FootyStats ×0.54 (calibré 77 matchs)"
       },
       "cards": {
         "exp_cards": 3.7,
@@ -108064,7 +109731,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.6957,
+          "rawKelly": 0.6966,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -108090,7 +109757,7 @@
       "dixonColes": {
         "rho": -0.1176,
         "gamma": 0.052,
-        "calibratedOn": 193
+        "calibratedOn": 195
       },
       "knockout": {
         "qualifyHome": 0.9874,
@@ -108178,16 +109845,16 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.6769,
-      "pX": 0.2017,
-      "p2": 0.1214,
+      "p1": 0.6774,
+      "pX": 0.2014,
+      "p2": 0.1212,
       "ensemble": {
         "weights": {
-          "elo": 0.3617554007654029,
-          "grid": 0.37127665734352133,
-          "form": 0.26696794189107576
+          "elo": 0.36152877241701137,
+          "grid": 0.37074261287594124,
+          "form": 0.2677286147070474
         },
-        "T": 0.792,
+        "T": 0.791,
         "elo": [
           0.529,
           0.25,
@@ -108204,13 +109871,13 @@
           0.158
         ]
       },
-      "over25": 0.4389,
+      "over25": 0.4366,
       "btts": 0.49,
       "marketCalib": {
-        "bttsShift": 0.0627,
-        "overShift": -0.0552,
+        "bttsShift": 0.0681,
+        "overShift": -0.0575,
         "bttsRaw": 0.4518,
-        "n": 193
+        "n": 195
       },
       "lamHome": 1.9,
       "lamAway": 0.66,
@@ -108342,13 +110009,13 @@
         "home": {
           "odd": 2.25,
           "implied": 0.444,
-          "edge": 0.232,
+          "edge": 0.233,
           "is_value": true
         },
         "draw": {
           "odd": 2.95,
           "implied": 0.339,
-          "edge": -0.137,
+          "edge": -0.138,
           "is_value": false
         },
         "away": {
@@ -108359,35 +110026,35 @@
         }
       },
       "corners": {
-        "exp_corners": 6.4,
-        "over": 0.4598,
-        "under": 0.5402,
+        "exp_corners": 6.5,
+        "over": 0.4808,
+        "under": 0.5192,
         "line": 6.5,
         "home": 3.8,
         "away": 2.7,
         "lines": {
           "4.5": {
-            "over": 0.7665,
-            "under": 0.2335
+            "over": 0.7815,
+            "under": 0.2185
           },
           "5.5": {
-            "over": 0.6182,
-            "under": 0.3818
+            "over": 0.6377,
+            "under": 0.3623
           },
           "6.5": {
-            "over": 0.4598,
-            "under": 0.5402
+            "over": 0.4808,
+            "under": 0.5192
           },
           "7.5": {
-            "over": 0.3146,
-            "under": 0.6854
+            "over": 0.334,
+            "under": 0.666
           },
           "8.5": {
-            "over": 0.1982,
-            "under": 0.8018
+            "over": 0.214,
+            "under": 0.786
           }
         },
-        "src": "FootyStats ×0.53 (calibré 75 matchs)"
+        "src": "FootyStats ×0.54 (calibré 77 matchs)"
       },
       "cards": {
         "exp_cards": 4.1,
@@ -108868,7 +110535,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.4184,
+          "rawKelly": 0.4193,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -108894,7 +110561,7 @@
       "dixonColes": {
         "rho": -0.1176,
         "gamma": 0.052,
-        "calibratedOn": 193
+        "calibratedOn": 195
       },
       "knockout": {
         "qualifyHome": 0.817,
@@ -108982,16 +110649,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.8872,
-      "pX": 0.0603,
-      "p2": 0.0525,
+      "p1": 0.8875,
+      "pX": 0.0601,
+      "p2": 0.0524,
       "ensemble": {
         "weights": {
-          "elo": 0.3617554007654029,
-          "grid": 0.37127665734352133,
-          "form": 0.26696794189107576
+          "elo": 0.36152877241701137,
+          "grid": 0.37074261287594124,
+          "form": 0.2677286147070474
         },
-        "T": 0.792,
+        "T": 0.791,
         "elo": [
           0.785,
           0.112,
@@ -109008,13 +110675,13 @@
           0.158
         ]
       },
-      "over25": 0.6439,
-      "btts": 0.4166,
+      "over25": 0.6416,
+      "btts": 0.422,
       "marketCalib": {
-        "bttsShift": 0.0627,
-        "overShift": -0.0552,
+        "bttsShift": 0.0681,
+        "overShift": -0.0575,
         "bttsRaw": 0.3539,
-        "n": 193
+        "n": 195
       },
       "lamHome": 3.14,
       "lamAway": 0.4,
@@ -109117,7 +110784,7 @@
       "totalXg": 3.54,
       "bttsConf": {
         "pick": "Non",
-        "score": 0.51,
+        "score": 0.5,
         "label": "moyenne"
       },
       "halftime": {
@@ -109163,35 +110830,35 @@
         }
       },
       "corners": {
-        "exp_corners": 7.2,
-        "over": 0.4337,
-        "under": 0.5663,
+        "exp_corners": 7.4,
+        "over": 0.4559,
+        "under": 0.5441,
         "line": 7.5,
-        "home": 4.4,
+        "home": 4.5,
         "away": 2.9,
         "lines": {
           "5.5": {
-            "over": 0.7262,
-            "under": 0.2738
+            "over": 0.7437,
+            "under": 0.2563
           },
           "6.5": {
-            "over": 0.5822,
-            "under": 0.4178
+            "over": 0.6035,
+            "under": 0.3965
           },
           "7.5": {
-            "over": 0.4337,
-            "under": 0.5663
+            "over": 0.4559,
+            "under": 0.5441
           },
           "8.5": {
-            "over": 0.2997,
-            "under": 0.7003
+            "over": 0.3199,
+            "under": 0.6801
           },
           "9.5": {
-            "over": 0.1922,
-            "under": 0.8078
+            "over": 0.2086,
+            "under": 0.7914
           }
         },
-        "src": "FootyStats ×0.53 (calibré 75 matchs)"
+        "src": "FootyStats ×0.54 (calibré 77 matchs)"
       },
       "cards": {
         "exp_cards": 2.8,
@@ -109698,7 +111365,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.4928,
+          "rawKelly": 0.4941,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -109724,7 +111391,7 @@
       "dixonColes": {
         "rho": -0.1176,
         "gamma": 0.052,
-        "calibratedOn": 193
+        "calibratedOn": 195
       },
       "knockout": {
         "qualifyHome": 0.9623,
@@ -109812,16 +111479,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.7535,
-      "pX": 0.1512,
-      "p2": 0.0954,
+      "p1": 0.754,
+      "pX": 0.1508,
+      "p2": 0.0952,
       "ensemble": {
         "weights": {
-          "elo": 0.3617554007654029,
-          "grid": 0.37127665734352133,
-          "form": 0.26696794189107576
+          "elo": 0.36152877241701137,
+          "grid": 0.37074261287594124,
+          "form": 0.2677286147070474
         },
-        "T": 0.792,
+        "T": 0.791,
         "elo": [
           0.562,
           0.234,
@@ -109838,13 +111505,13 @@
           0.105
         ]
       },
-      "over25": 0.5715,
+      "over25": 0.5692,
       "btts": 0.49,
       "marketCalib": {
-        "bttsShift": 0.0627,
-        "overShift": -0.0552,
+        "bttsShift": 0.0681,
+        "overShift": -0.0575,
         "bttsRaw": 0.5221,
-        "n": 193
+        "n": 195
       },
       "lamHome": 2.38,
       "lamAway": 0.77,
@@ -109993,35 +111660,35 @@
         }
       },
       "corners": {
-        "exp_corners": 7.8,
-        "over": 0.5226,
-        "under": 0.4774,
+        "exp_corners": 8.0,
+        "over": 0.5455,
+        "under": 0.4545,
         "line": 7.5,
-        "home": 4.8,
-        "away": 3.0,
+        "home": 4.9,
+        "away": 3.1,
         "lines": {
           "5.5": {
-            "over": 0.7924,
-            "under": 0.2076
+            "over": 0.8078,
+            "under": 0.1922
           },
           "6.5": {
-            "over": 0.665,
-            "under": 0.335
+            "over": 0.6853,
+            "under": 0.3147
           },
           "7.5": {
-            "over": 0.5226,
-            "under": 0.4774
+            "over": 0.5455,
+            "under": 0.4545
           },
           "8.5": {
-            "over": 0.3833,
-            "under": 0.6167
+            "over": 0.4059,
+            "under": 0.5941
           },
           "9.5": {
-            "over": 0.2621,
-            "under": 0.7379
+            "over": 0.282,
+            "under": 0.718
           }
         },
-        "src": "FootyStats ×0.53 (calibré 75 matchs)"
+        "src": "FootyStats ×0.54 (calibré 77 matchs)"
       },
       "cards": {
         "exp_cards": 3.8,
@@ -110585,7 +112252,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.5481,
+          "rawKelly": 0.549,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -110611,7 +112278,7 @@
       "dixonColes": {
         "rho": -0.1176,
         "gamma": 0.052,
-        "calibratedOn": 193
+        "calibratedOn": 195
       },
       "knockout": {
         "qualifyHome": 0.855,
@@ -110701,16 +112368,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.7012,
-      "pX": 0.1806,
-      "p2": 0.1182,
+      "p1": 0.7016,
+      "pX": 0.1804,
+      "p2": 0.118,
       "ensemble": {
         "weights": {
-          "elo": 0.3617554007654029,
-          "grid": 0.37127665734352133,
-          "form": 0.26696794189107576
+          "elo": 0.36152877241701137,
+          "grid": 0.37074261287594124,
+          "form": 0.2677286147070474
         },
-        "T": 0.792,
+        "T": 0.791,
         "elo": [
           0.611,
           0.209,
@@ -110727,13 +112394,13 @@
           0.219
         ]
       },
-      "over25": 0.5315,
+      "over25": 0.5292,
       "btts": 0.49,
       "marketCalib": {
-        "bttsShift": 0.0627,
-        "overShift": -0.0552,
+        "bttsShift": 0.0681,
+        "overShift": -0.0575,
         "bttsRaw": 0.4917,
-        "n": 193
+        "n": 195
       },
       "lamHome": 2.25,
       "lamAway": 0.71,
@@ -110871,7 +112538,7 @@
         "draw": {
           "odd": 4.9,
           "implied": 0.204,
-          "edge": -0.023,
+          "edge": -0.024,
           "is_value": false
         },
         "away": {
@@ -110882,32 +112549,32 @@
         }
       },
       "corners": {
-        "exp_corners": 6.2,
-        "over": 0.4316,
-        "under": 0.5684,
+        "exp_corners": 6.4,
+        "over": 0.4523,
+        "under": 0.5477,
         "line": 6.5,
-        "home": 3.2,
-        "away": 3.0,
+        "home": 3.3,
+        "away": 3.1,
         "lines": {
           "4.5": {
-            "over": 0.7454,
-            "under": 0.2546
+            "over": 0.761,
+            "under": 0.239
           },
           "5.5": {
-            "over": 0.5915,
-            "under": 0.4085
+            "over": 0.6112,
+            "under": 0.3888
           },
           "6.5": {
-            "over": 0.4316,
-            "under": 0.5684
+            "over": 0.4523,
+            "under": 0.5477
           },
           "7.5": {
-            "over": 0.2892,
-            "under": 0.7108
+            "over": 0.3078,
+            "under": 0.6922
           },
           "8.5": {
-            "over": 0.1781,
-            "under": 0.8219
+            "over": 0.1928,
+            "under": 0.8072
           }
         },
         "src": "prior générique"
@@ -111172,8 +112839,8 @@
           "note": "pas de value (EV ≤ 0)"
         },
         "away": {
-          "kelly": 0.0068,
-          "rawKelly": 0.008,
+          "kelly": 0.0066,
+          "rawKelly": 0.0077,
           "note": "miser ~0.7% de la bankroll (Kelly×confiance, plafonné 5%)"
         }
       },
@@ -111191,7 +112858,7 @@
       "dixonColes": {
         "rho": -0.1176,
         "gamma": 0.052,
-        "calibratedOn": 193
+        "calibratedOn": 195
       },
       "knockout": {
         "qualifyHome": 0.8531,
@@ -111277,16 +112944,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.7619,
-      "pX": 0.1367,
+      "p1": 0.762,
+      "pX": 0.1366,
       "p2": 0.1014,
       "ensemble": {
         "weights": {
-          "elo": 0.3617554007654029,
-          "grid": 0.37127665734352133,
-          "form": 0.26696794189107576
+          "elo": 0.36152877241701137,
+          "grid": 0.37074261287594124,
+          "form": 0.2677286147070474
         },
-        "T": 0.792,
+        "T": 0.791,
         "elo": [
           0.714,
           0.152,
@@ -111303,13 +112970,13 @@
           0.284
         ]
       },
-      "over25": 0.6008,
+      "over25": 0.5985,
       "btts": 0.49,
       "marketCalib": {
-        "bttsShift": 0.0627,
-        "overShift": -0.0552,
+        "bttsShift": 0.0681,
+        "overShift": -0.0575,
         "bttsRaw": 0.4278,
-        "n": 193
+        "n": 195
       },
       "lamHome": 2.76,
       "lamAway": 0.54,
@@ -111458,35 +113125,35 @@
         }
       },
       "corners": {
-        "exp_corners": 6.9,
-        "over": 0.5368,
-        "under": 0.4632,
-        "line": 6.5,
-        "home": 4.3,
-        "away": 2.6,
+        "exp_corners": 7.1,
+        "over": 0.4092,
+        "under": 0.5908,
+        "line": 7.5,
+        "home": 4.4,
+        "away": 2.7,
         "lines": {
-          "4.5": {
-            "over": 0.8186,
-            "under": 0.1814
-          },
           "5.5": {
-            "over": 0.6876,
-            "under": 0.3124
+            "over": 0.7061,
+            "under": 0.2939
           },
           "6.5": {
-            "over": 0.5368,
-            "under": 0.4632
+            "over": 0.5582,
+            "under": 0.4418
           },
           "7.5": {
-            "over": 0.3879,
-            "under": 0.6121
+            "over": 0.4092,
+            "under": 0.5908
           },
           "8.5": {
-            "over": 0.2592,
-            "under": 0.7408
+            "over": 0.2779,
+            "under": 0.7221
+          },
+          "9.5": {
+            "over": 0.175,
+            "under": 0.825
           }
         },
-        "src": "FootyStats ×0.53 (calibré 75 matchs)"
+        "src": "FootyStats ×0.54 (calibré 77 matchs)"
       },
       "cards": {
         "exp_cards": 3.5,
@@ -112021,7 +113688,7 @@
       "dixonColes": {
         "rho": -0.1176,
         "gamma": 0.052,
-        "calibratedOn": 193
+        "calibratedOn": 195
       },
       "knockout": {
         "qualifyHome": 0.9273,
@@ -112110,16 +113777,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.5718,
-      "pX": 0.2672,
-      "p2": 0.1611,
+      "p1": 0.5721,
+      "pX": 0.2669,
+      "p2": 0.161,
       "ensemble": {
         "weights": {
-          "elo": 0.3617554007654029,
-          "grid": 0.37127665734352133,
-          "form": 0.26696794189107576
+          "elo": 0.36152877241701137,
+          "grid": 0.37074261287594124,
+          "form": 0.2677286147070474
         },
-        "T": 0.792,
+        "T": 0.791,
         "elo": [
           0.509,
           0.259,
@@ -112136,13 +113803,13 @@
           0.25
         ]
       },
-      "over25": 0.4678,
+      "over25": 0.4655,
       "btts": 0.49,
       "marketCalib": {
-        "bttsShift": 0.0627,
-        "overShift": -0.0552,
+        "bttsShift": 0.0681,
+        "overShift": -0.0575,
         "bttsRaw": 0.4994,
-        "n": 193
+        "n": 195
       },
       "lamHome": 1.9,
       "lamAway": 0.78,
@@ -112274,7 +113941,7 @@
         "home": {
           "odd": 1.8,
           "implied": 0.556,
-          "edge": 0.016,
+          "edge": 0.017,
           "is_value": false
         },
         "draw": {
@@ -112291,35 +113958,35 @@
         }
       },
       "corners": {
-        "exp_corners": 7.1,
-        "over": 0.4218,
-        "under": 0.5782,
+        "exp_corners": 7.3,
+        "over": 0.4438,
+        "under": 0.5562,
         "line": 7.5,
-        "home": 4.0,
-        "away": 3.1,
+        "home": 4.1,
+        "away": 3.2,
         "lines": {
           "5.5": {
-            "over": 0.7165,
-            "under": 0.2835
+            "over": 0.7343,
+            "under": 0.2657
           },
           "6.5": {
-            "over": 0.5706,
-            "under": 0.4294
+            "over": 0.592,
+            "under": 0.408
           },
           "7.5": {
-            "over": 0.4218,
-            "under": 0.5782
+            "over": 0.4438,
+            "under": 0.5562
           },
           "8.5": {
-            "over": 0.289,
-            "under": 0.711
+            "over": 0.3089,
+            "under": 0.6911
           },
           "9.5": {
-            "over": 0.1838,
-            "under": 0.8162
+            "over": 0.1996,
+            "under": 0.8004
           }
         },
-        "src": "FootyStats ×0.53 (calibré 75 matchs)"
+        "src": "FootyStats ×0.54 (calibré 77 matchs)"
       },
       "cards": {
         "exp_cards": 3.6,
@@ -112838,9 +114505,9 @@
       },
       "kelly": {
         "home": {
-          "kelly": 0.0311,
-          "rawKelly": 0.0365,
-          "note": "miser ~3.1% de la bankroll (Kelly×confiance, plafonné 5%)"
+          "kelly": 0.0316,
+          "rawKelly": 0.0372,
+          "note": "miser ~3.2% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
           "kelly": 0.0,
@@ -112865,7 +114532,7 @@
       "dixonColes": {
         "rho": -0.1176,
         "gamma": 0.052,
-        "calibratedOn": 193
+        "calibratedOn": 195
       },
       "knockout": {
         "qualifyHome": 0.7831,
@@ -112954,16 +114621,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.4771,
-      "pX": 0.3084,
+      "p1": 0.4773,
+      "pX": 0.3083,
       "p2": 0.2144,
       "ensemble": {
         "weights": {
-          "elo": 0.3617554007654029,
-          "grid": 0.37127665734352133,
-          "form": 0.26696794189107576
+          "elo": 0.36152877241701137,
+          "grid": 0.37074261287594124,
+          "form": 0.2677286147070474
         },
-        "T": 0.792,
+        "T": 0.791,
         "elo": [
           0.48,
           0.27,
@@ -112980,13 +114647,13 @@
           0.284
         ]
       },
-      "over25": 0.5156,
-      "btts": 0.661,
+      "over25": 0.5133,
+      "btts": 0.6664,
       "marketCalib": {
-        "bttsShift": 0.0627,
-        "overShift": -0.0552,
+        "bttsShift": 0.0681,
+        "overShift": -0.0575,
         "bttsRaw": 0.5983,
-        "n": 193
+        "n": 195
       },
       "lamHome": 1.73,
       "lamAway": 1.09,
@@ -113135,35 +114802,35 @@
         }
       },
       "corners": {
-        "exp_corners": 6.9,
-        "over": 0.5369,
-        "under": 0.4631,
-        "line": 6.5,
+        "exp_corners": 7.1,
+        "over": 0.4094,
+        "under": 0.5906,
+        "line": 7.5,
         "home": 4.1,
         "away": 2.9,
         "lines": {
-          "4.5": {
-            "over": 0.8187,
-            "under": 0.1813
-          },
           "5.5": {
-            "over": 0.6878,
-            "under": 0.3122
+            "over": 0.7062,
+            "under": 0.2938
           },
           "6.5": {
-            "over": 0.5369,
-            "under": 0.4631
+            "over": 0.5584,
+            "under": 0.4416
           },
           "7.5": {
-            "over": 0.388,
-            "under": 0.612
+            "over": 0.4094,
+            "under": 0.5906
           },
           "8.5": {
-            "over": 0.2594,
-            "under": 0.7406
+            "over": 0.278,
+            "under": 0.722
+          },
+          "9.5": {
+            "over": 0.1751,
+            "under": 0.8249
           }
         },
-        "src": "FootyStats ×0.53 (calibré 75 matchs)"
+        "src": "FootyStats ×0.54 (calibré 77 matchs)"
       },
       "cards": {
         "exp_cards": 3.5,
@@ -113674,8 +115341,8 @@
           "note": "pas de value (EV ≤ 0)"
         },
         "draw": {
-          "kelly": 0.012,
-          "rawKelly": 0.0141,
+          "kelly": 0.0119,
+          "rawKelly": 0.014,
           "note": "miser ~1.2% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
@@ -113697,7 +115364,7 @@
       "dixonColes": {
         "rho": -0.1176,
         "gamma": 0.092,
-        "calibratedOn": 193
+        "calibratedOn": 195
       },
       "knockout": {
         "qualifyHome": 0.6671,
@@ -113785,16 +115452,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.3138,
+      "p1": 0.3137,
       "pX": 0.3582,
-      "p2": 0.328,
+      "p2": 0.3281,
       "ensemble": {
         "weights": {
-          "elo": 0.3617554007654029,
-          "grid": 0.37127665734352133,
-          "form": 0.26696794189107576
+          "elo": 0.36152877241701137,
+          "grid": 0.37074261287594124,
+          "form": 0.2677286147070474
         },
-        "T": 0.792,
+        "T": 0.791,
         "elo": [
           0.423,
           0.289,
@@ -113811,13 +115478,13 @@
           0.484
         ]
       },
-      "over25": 0.3466,
-      "btts": 0.5544,
+      "over25": 0.3443,
+      "btts": 0.5598,
       "marketCalib": {
-        "bttsShift": 0.0627,
-        "overShift": -0.0552,
+        "bttsShift": 0.0681,
+        "overShift": -0.0575,
         "bttsRaw": 0.4917,
-        "n": 193
+        "n": 195
       },
       "lamHome": 1.11,
       "lamAway": 1.01,
@@ -113966,35 +115633,35 @@
         }
       },
       "corners": {
-        "exp_corners": 6.3,
-        "over": 0.434,
-        "under": 0.566,
+        "exp_corners": 6.4,
+        "over": 0.4547,
+        "under": 0.5453,
         "line": 6.5,
         "home": 3.1,
-        "away": 3.2,
+        "away": 3.3,
         "lines": {
           "4.5": {
-            "over": 0.7472,
-            "under": 0.2528
+            "over": 0.7627,
+            "under": 0.2373
           },
           "5.5": {
-            "over": 0.5938,
-            "under": 0.4062
+            "over": 0.6134,
+            "under": 0.3866
           },
           "6.5": {
-            "over": 0.434,
-            "under": 0.566
+            "over": 0.4547,
+            "under": 0.5453
           },
           "7.5": {
-            "over": 0.2913,
-            "under": 0.7087
+            "over": 0.3099,
+            "under": 0.6901
           },
           "8.5": {
-            "over": 0.1798,
-            "under": 0.8202
+            "over": 0.1945,
+            "under": 0.8055
           }
         },
-        "src": "FootyStats ×0.53 (calibré 75 matchs)"
+        "src": "FootyStats ×0.54 (calibré 77 matchs)"
       },
       "cards": {
         "exp_cards": 3.6,
@@ -114462,8 +116129,8 @@
       },
       "kelly": {
         "home": {
-          "kelly": 0.0131,
-          "rawKelly": 0.0155,
+          "kelly": 0.013,
+          "rawKelly": 0.0153,
           "note": "miser ~1.3% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -114490,7 +116157,7 @@
       "dixonColes": {
         "rho": -0.1176,
         "gamma": 0.092,
-        "calibratedOn": 193
+        "calibratedOn": 195
       },
       "knockout": {
         "qualifyHome": 0.5283,
@@ -114579,16 +116246,16 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.9762,
-      "pX": 0.0073,
-      "p2": 0.0165,
+      "p1": 0.9763,
+      "pX": 0.0072,
+      "p2": 0.0164,
       "ensemble": {
         "weights": {
-          "elo": 0.3617554007654029,
-          "grid": 0.37127665734352133,
-          "form": 0.26696794189107576
+          "elo": 0.36152877241701137,
+          "grid": 0.37074261287594124,
+          "form": 0.2677286147070474
         },
-        "T": 0.792,
+        "T": 0.791,
         "elo": [
           0.933,
           0.027,
@@ -114605,13 +116272,13 @@
           0.084
         ]
       },
-      "over25": 0.8438,
-      "btts": 0.2972,
+      "over25": 0.8415,
+      "btts": 0.3026,
       "marketCalib": {
-        "bttsShift": 0.0627,
-        "overShift": -0.0552,
+        "bttsShift": 0.0681,
+        "overShift": -0.0575,
         "bttsRaw": 0.2345,
-        "n": 193
+        "n": 195
       },
       "lamHome": 5.14,
       "lamAway": 0.22,
@@ -114743,7 +116410,7 @@
         "home": {
           "odd": 1.174,
           "implied": 0.852,
-          "edge": 0.124,
+          "edge": 0.125,
           "is_value": true
         },
         "draw": {
@@ -114760,35 +116427,35 @@
         }
       },
       "corners": {
-        "exp_corners": 6.6,
-        "over": 0.4928,
-        "under": 0.5072,
+        "exp_corners": 6.8,
+        "over": 0.514,
+        "under": 0.486,
         "line": 6.5,
-        "home": 3.8,
-        "away": 2.8,
+        "home": 3.9,
+        "away": 2.9,
         "lines": {
           "4.5": {
-            "over": 0.7898,
-            "under": 0.2102
+            "over": 0.804,
+            "under": 0.196
           },
           "5.5": {
-            "over": 0.6486,
-            "under": 0.3514
+            "over": 0.6677,
+            "under": 0.3323
           },
           "6.5": {
-            "over": 0.4928,
-            "under": 0.5072
+            "over": 0.514,
+            "under": 0.486
           },
           "7.5": {
-            "over": 0.3453,
-            "under": 0.6547
+            "over": 0.3656,
+            "under": 0.6344
           },
           "8.5": {
-            "over": 0.2232,
-            "under": 0.7768
+            "over": 0.2403,
+            "under": 0.7597
           }
         },
-        "src": "FootyStats ×0.53 (calibré 75 matchs)"
+        "src": "FootyStats ×0.54 (calibré 77 matchs)"
       },
       "cards": {
         "exp_cards": 3.7,
@@ -115266,7 +116933,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.8394,
+          "rawKelly": 0.8401,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -115292,7 +116959,7 @@
       "dixonColes": {
         "rho": -0.1176,
         "gamma": 0.052,
-        "calibratedOn": 193
+        "calibratedOn": 195
       },
       "knockout": {
         "qualifyHome": 0.997,
@@ -115378,16 +117045,16 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.907,
-      "pX": 0.0527,
-      "p2": 0.0403,
+      "p1": 0.9074,
+      "pX": 0.0525,
+      "p2": 0.0401,
       "ensemble": {
         "weights": {
-          "elo": 0.3617554007654029,
-          "grid": 0.37127665734352133,
-          "form": 0.26696794189107576
+          "elo": 0.36152877241701137,
+          "grid": 0.37074261287594124,
+          "form": 0.2677286147070474
         },
-        "T": 0.792,
+        "T": 0.791,
         "elo": [
           0.75,
           0.132,
@@ -115404,13 +117071,13 @@
           0.084
         ]
       },
-      "over25": 0.628,
-      "btts": 0.3847,
+      "over25": 0.6257,
+      "btts": 0.3901,
       "marketCalib": {
-        "bttsShift": 0.0627,
-        "overShift": -0.0552,
+        "bttsShift": 0.0681,
+        "overShift": -0.0575,
         "bttsRaw": 0.322,
-        "n": 193
+        "n": 195
       },
       "lamHome": 3.1,
       "lamAway": 0.35,
@@ -115513,7 +117180,7 @@
       "totalXg": 3.45,
       "bttsConf": {
         "pick": "Non",
-        "score": 0.54,
+        "score": 0.53,
         "label": "moyenne"
       },
       "halftime": {
@@ -115559,35 +117226,35 @@
         }
       },
       "corners": {
-        "exp_corners": 6.6,
-        "over": 0.4821,
-        "under": 0.5179,
+        "exp_corners": 6.7,
+        "over": 0.5033,
+        "under": 0.4967,
         "line": 6.5,
-        "home": 3.8,
+        "home": 3.9,
         "away": 2.8,
         "lines": {
           "4.5": {
-            "over": 0.7824,
-            "under": 0.2176
+            "over": 0.7969,
+            "under": 0.2031
           },
           "5.5": {
-            "over": 0.6389,
-            "under": 0.3611
+            "over": 0.6581,
+            "under": 0.3419
           },
           "6.5": {
-            "over": 0.4821,
-            "under": 0.5179
+            "over": 0.5033,
+            "under": 0.4967
           },
           "7.5": {
-            "over": 0.3353,
-            "under": 0.6647
+            "over": 0.3554,
+            "under": 0.6446
           },
           "8.5": {
-            "over": 0.215,
-            "under": 0.785
+            "over": 0.2316,
+            "under": 0.7684
           }
         },
-        "src": "FootyStats ×0.53 (calibré 75 matchs)"
+        "src": "FootyStats ×0.54 (calibré 77 matchs)"
       },
       "cards": {
         "exp_cards": 3.4,
@@ -116077,7 +117744,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.7302,
+          "rawKelly": 0.7314,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -116103,7 +117770,7 @@
       "dixonColes": {
         "rho": -0.1176,
         "gamma": 0.052,
-        "calibratedOn": 193
+        "calibratedOn": 195
       },
       "knockout": {
         "qualifyHome": 0.9661,
@@ -116179,16 +117846,16 @@
     ],
     "confidence": 0.6,
     "prediction": {
-      "p1": 0.6249,
-      "pX": 0.2297,
-      "p2": 0.1453,
+      "p1": 0.625,
+      "pX": 0.2296,
+      "p2": 0.1454,
       "ensemble": {
         "weights": {
-          "elo": 0.3617554007654029,
-          "grid": 0.37127665734352133,
-          "form": 0.26696794189107576
+          "elo": 0.36152877241701137,
+          "grid": 0.37074261287594124,
+          "form": 0.2677286147070474
         },
-        "T": 0.792,
+        "T": 0.791,
         "elo": [
           0.556,
           0.237,
@@ -116205,13 +117872,13 @@
           0.301
         ]
       },
-      "over25": 0.4795,
+      "over25": 0.4772,
       "btts": 0.49,
       "marketCalib": {
-        "bttsShift": 0.0627,
-        "overShift": -0.0552,
+        "bttsShift": 0.0681,
+        "overShift": -0.0575,
         "bttsRaw": 0.4333,
-        "n": 193
+        "n": 195
       },
       "lamHome": 2.14,
       "lamAway": 0.59,
@@ -116345,32 +118012,32 @@
         "away": null
       },
       "corners": {
-        "exp_corners": 6.5,
-        "over": 0.4675,
-        "under": 0.5325,
+        "exp_corners": 6.6,
+        "over": 0.4886,
+        "under": 0.5114,
         "line": 6.5,
-        "home": 4.3,
+        "home": 4.4,
         "away": 2.2,
         "lines": {
           "4.5": {
-            "over": 0.7721,
-            "under": 0.2279
+            "over": 0.7869,
+            "under": 0.2131
           },
           "5.5": {
-            "over": 0.6254,
-            "under": 0.3746
+            "over": 0.6448,
+            "under": 0.3552
           },
           "6.5": {
-            "over": 0.4675,
-            "under": 0.5325
+            "over": 0.4886,
+            "under": 0.5114
           },
           "7.5": {
-            "over": 0.3217,
-            "under": 0.6783
+            "over": 0.3414,
+            "under": 0.6586
           },
           "8.5": {
-            "over": 0.2039,
-            "under": 0.7961
+            "over": 0.22,
+            "under": 0.78
           }
         },
         "src": "prior générique"
@@ -116682,7 +118349,7 @@
         ]
       },
       "upsetIndex": {
-        "index": 45,
+        "index": 44,
         "label": "modéré",
         "dampener": 1.0,
         "favOverperf": true,
@@ -116754,7 +118421,7 @@
       "dixonColes": {
         "rho": -0.1176,
         "gamma": 0.052,
-        "calibratedOn": 193
+        "calibratedOn": 195
       },
       "knockout": {
         "qualifyHome": 0.8634,
