@@ -41,10 +41,10 @@ deploy/*
 !deploy/start-public.sh
 !deploy/pronofoot-*.service
 
-# Built HTML dashboards — régénérés par `python3 -m collector.embed`
-# (données embarquées via embed.py, appelé par refresh). Ne pas committer.
-index.html
-scouting.html
+# Static dashboard shells. They contain embedded fallback data, and GitHub Pages
+# needs them present in a clean checkout before `collector.embed` can refresh.
+!index.html
+!scouting.html
 
 # Logs serveur locaux
 .server-*.log
