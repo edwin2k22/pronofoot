@@ -4,5 +4,5 @@
 # math, urllib...). Aucune dépendance tierce n'est requise pour faire tourner le
 # pipeline, l'ingestion et le moteur de pronostic.
 #
-# Les dépendances externes (requests, pandas...) utilisées par quelques scripts
-# d'ingestion optionnels sont listées au cas par cas dans ces scripts.
+# Les scripts d'ingestion web actifs utilisent requests.
+requests>=2.32.0
