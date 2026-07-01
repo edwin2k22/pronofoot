@@ -20,7 +20,6 @@ import json, os, sys
 from collector.db import database as db
 from collector.sources import espn_stats as espn
 from collector.sources import referees_2026 as refs
-from collector.sources import referee_form as refform
 
 DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 STATS_FILE = os.path.join(DATA, "match_stats_real.json")

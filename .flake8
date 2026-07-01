@@ -16,4 +16,7 @@ exclude =
     __pycache__,
     .pytest_cache,
     collector/cache,
+    collector/data,
+    collector/replay_chronological.py,
+    collector/restore_from_git.py,
     deploy

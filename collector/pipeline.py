@@ -15,7 +15,7 @@ Usage :
     python3 -m collector.pipeline run      # ingest + update + predict
 """
 from __future__ import annotations
-import sys, os, json, argparse
+import sys, os, json, argparse, re
 if sys.stdout and hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding='utf-8')
 
@@ -808,8 +808,7 @@ def predict():
         def _extract_pos(players_list, fallback_form=None):
             out = []
             for p in (players_list or []):
-                import re as _re
-                mm = _re.search(r"\(([A-Z]+)\)", str(p or ""))
+                mm = re.search(r"\(([A-Z]+)\)", str(p or ""))
                 if mm:
                     out.append(mm.group(1))
             if out:
@@ -900,8 +899,7 @@ def predict():
                     _comments = _tl.get("commentary", [])
                     # Extraire la minute courante depuis live_clock (ex: '67\'' -> 67)
                     _min_raw = mt["live_clock"] or "0"
-                    import re as _re
-                    _min_match = _re.search(r"(\d+)", str(_min_raw))
+                    _min_match = re.search(r"(\d+)", str(_min_raw))
                     _cur_min = int(_min_match.group(1)) if _min_match else 0
                     _sig = nlpm.analyse_commentary(
                         _comments, mt["home"], mt["away"],
