@@ -591,8 +591,11 @@ def _learn_ensemble(rows):
         pm = prev_by.get(key)
         e = (pm or {}).get("prediction", {}).get("ensemble") if pm else None
         if e and all(k in e for k in ("elo", "grid", "form")):
-            samples.append({"elo": e["elo"], "grid": e["grid"], "form": e["form"],
-                            "outcome": outcome})
+            sample = {"elo": e["elo"], "grid": e["grid"], "form": e["form"],
+                      "outcome": outcome}
+            if e.get("market"):
+                sample["market"] = e["market"]
+            samples.append(sample)
 
     if not samples:
         w, d = ens.load_weights()
@@ -604,7 +607,8 @@ def _learn_ensemble(rows):
     # pour chaque échantillon, puis on cherche la T qui calibre le mieux.
     temp_samples = []
     for s in samples:
-        c = ens.combine(s["elo"], s["grid"], s["form"], weights=weights)
+        c = ens.combine(s["elo"], s["grid"], s["form"],
+                        market_p=s.get("market"), weights=weights)
         temp_samples.append({"p1": c["p1"], "pX": c["pX"], "p2": c["p2"], "outcome": s["outcome"]})
     T, tmeta = ens.learn_temperature(temp_samples)
     meta["T"] = T
@@ -780,6 +784,11 @@ def predict():
             out.append(old_p)
             continue
 
+        # Cotes 1N2 disponibles avant le calcul principal : elles servent aussi
+        # de quatrième voix de calibration dans l'ensemble, avec poids plafonné.
+        od = odds_store.get(f"{mt['home']}|{mt['away']}") or {}
+        odd1, oddX, odd2 = od.get("odd1"), od.get("oddX"), od.get("odd2")
+
         lam_h = _expected_goals(h, a)
         lam_a = _expected_goals(a, h)
 
@@ -949,14 +958,15 @@ def predict():
 
         res = markets.result_model(h["elo"], a["elo"], lam_h, lam_a, grid=grid)
 
-        # ===== MODÈLE D'ENSEMBLE 1N2 (Elo + grille + forme) avec poids appris =====
-        # 3 sous-modèles indépendants votent ; poids = perf réelle mesurée (auto-apprentissage).
+        # ===== MODÈLE D'ENSEMBLE 1N2 (Elo + grille + forme + marché) =====
+        # 4 sous-modèles indépendants votent ; poids = perf réelle mesurée (auto-apprentissage).
         _go = sg.outcomes(grid)
         grid_p = (_go["p1"], _go["pX"], _go["p2"])
         elo_p = ens.elo_probs(h["elo"], a["elo"])
         form_p = ens.form_probs(fh["form_index"] if fh else 0.5,
                                 fa["form_index"] if fa else 0.5)
-        _ensr = ens.combine(elo_p, grid_p, form_p, weights=ENS_WEIGHTS,
+        market_p = ens.market_probs(odd1, oddX, odd2)
+        _ensr = ens.combine(elo_p, grid_p, form_p, market_p=market_p, weights=ENS_WEIGHTS,
                             elo_d=h["elo"] - a["elo"])
         # calibration par température (corrige la sur-confiance mesurée)
         _c1, _cx, _c2 = ens.apply_temperature(_ensr["p1"], _ensr["pX"], _ensr["p2"], ENS_TEMP)
@@ -966,6 +976,8 @@ def predict():
                            "elo": [round(x, 3) for x in elo_p],
                            "grid": [round(x, 3) for x in grid_p],
                            "form": [round(x, 3) for x in form_p]}
+        if market_p:
+            res["ensemble"]["market"] = [round(x, 3) for x in market_p]
 
         goals = markets.goals_model(lam_h, lam_a, grid=grid)
         # marchés dérivés (Double Chance, Draw No Bet, top-3 scores) + scénarios narratifs
@@ -1138,8 +1150,6 @@ def predict():
         ui["dogLowBlock"] = dog_low_block
 
         # ----- COTES réelles -> value, Kelly, line movement -----
-        od = odds_store.get(f"{mt['home']}|{mt['away']}") or {}
-        odd1, oddX, odd2 = od.get("odd1"), od.get("oddX"), od.get("odd2")
         
         def _value(p, o, market="1N2"):
             if not p or not o or o <= 1: return None
@@ -1230,7 +1240,7 @@ def predict():
                 "homeBench": projected_lu.get("home_bench") or [],
                 "awayBench": projected_lu.get("away_bench") or [],
             }
-        source_tags = ["free-mode", "openfootball", "SQLite", "Elo", "shrinkage", "FIFA-ratings"] + (["ESPN-free-odds"] if odd1 else []) + (["Smarkets-free-odds"] if oddBTTS_Yes else [])
+        source_tags = ["free-mode", "openfootball", "SQLite", "Elo", "shrinkage", "FIFA-ratings"] + (["ESPN-free-odds", "market-implied-model"] if odd1 else []) + (["Smarkets-free-odds"] if oddBTTS_Yes else [])
         if projected_lineups:
             source_tags.append("FotMob-projected-XI")
         out.append({

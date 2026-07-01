@@ -176,10 +176,18 @@ def main():
     try:
         ens_ok = all("ensemble" in m["prediction"] and m["prediction"]["ensemble"]
                      and "weights" in m["prediction"]["ensemble"] for m in d)
-        check("bloc ensemble (Elo/Buts/Forme) présent sur tous les matchs", ens_ok)
+        check("bloc ensemble (Elo/Buts/Forme/Marché) présent sur tous les matchs", ens_ok)
         w = d[0]["prediction"]["ensemble"]["weights"]
         wsum = sum(w.values())
         check(f"poids d'ensemble normalisés (somme={round(wsum,3)})", abs(wsum-1) < 0.02)
+        odds_matches = [m for m in d
+                        if m.get("status") not in ("FINISHED", "LIVE", "HT")
+                        and m.get("odd1") and m.get("oddX") and m.get("odd2")]
+        market_matches = [m for m in odds_matches
+                          if (m.get("prediction", {}).get("ensemble", {}) or {}).get("market")]
+        if odds_matches:
+            check(f"voix marché activée sur les matchs à venir cotés ({len(market_matches)}/{len(odds_matches)})",
+                  len(market_matches) == len(odds_matches))
         wf = os.path.join(os.path.dirname(__file__), "data", "ensemble_weights.json")
         if os.path.exists(wf):
             meta = json.load(open(wf, encoding="utf-8")).get("meta", {})

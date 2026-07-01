@@ -22,3 +22,36 @@ def test_temperature_learning_detects_draw_underestimate():
 
     assert meta["drawBias"] > 0
     assert meta["drawBiasRaw"] > 0
+
+
+def test_market_probs_removes_overround():
+    p1, px, p2 = ens.market_probs(2.0, 3.5, 4.0)
+
+    assert p1 + px + p2 == pytest.approx(1.0, abs=1e-9)
+    assert p1 > px > p2
+
+
+def test_combine_accepts_market_model_and_caps_weight():
+    combined = ens.combine(
+        (0.45, 0.30, 0.25),
+        (0.44, 0.28, 0.28),
+        (0.40, 0.30, 0.30),
+        market_p=(0.70, 0.20, 0.10),
+        weights={"elo": 0.1, "grid": 0.1, "form": 0.1, "market": 0.7},
+    )
+
+    assert combined["p1"] + combined["pX"] + combined["p2"] == pytest.approx(1.0, abs=2e-4)
+    assert combined["weights"]["market"] <= ens.MAX_MARKET_WEIGHT + 1e-9
+    assert combined["p1"] < 0.70
+
+
+def test_combine_still_supports_legacy_three_model_weights():
+    combined = ens.combine(
+        (0.50, 0.25, 0.25),
+        (0.45, 0.30, 0.25),
+        (0.40, 0.30, 0.30),
+        weights={"elo": 0.4, "grid": 0.4, "form": 0.2},
+    )
+
+    assert combined["p1"] + combined["pX"] + combined["p2"] == pytest.approx(1.0, abs=2e-4)
+    assert "market" not in combined["weights"]

@@ -10,6 +10,7 @@ Sous-modèles (tous dérivés de données réelles) :
   • elo      : probabilités issues du seul écart Elo (force globale)
   • grid     : probabilités issues de la grille Dixon-Coles (buts/xG attendus)
   • form     : probabilités issues de la forme récente réelle (pts sur 10 derniers)
+  • market   : probabilités implicites des cotes 1N2, déviguées et plafonnées
 
 Apprentissage : ensemble_weights.json garde les poids + la perf (log-loss) de chaque
 sous-modèle. À chaque recalcul, on ré-pondère vers le sous-modèle le plus fiable.
@@ -23,7 +24,8 @@ import os, json, math
 WFILE = os.path.join(os.path.dirname(__file__), "..", "data", "ensemble_weights.json")
 
 # poids de départ (prior) avant apprentissage
-DEFAULT_WEIGHTS = {"elo": 0.40, "grid": 0.40, "form": 0.20}
+DEFAULT_WEIGHTS = {"elo": 0.32, "grid": 0.33, "form": 0.20, "market": 0.15}
+MAX_MARKET_WEIGHT = 0.24
 DRAW_BIAS_GRID = [-0.04, -0.02, 0.0, 0.02, 0.04, 0.06, 0.08, 0.10, 0.12]
 # remontée structurelle du nul : les modèles à base de buts sous-estiment l'égalité.
 # borne calibrée empiriquement (CDM ≈ 30-42 % de nuls selon les phases).
@@ -36,6 +38,27 @@ def _norm3(p1, px, p2):
     if s <= 0:
         return 1/3, 1/3, 1/3
     return p1/s, px/s, p2/s
+
+
+def _normalize_weights(weights, active=None):
+    """Merge legacy weights, optionally remove inactive models, and cap market impact."""
+    active = set(active or DEFAULT_WEIGHTS)
+    merged = {k: float((weights or {}).get(k, DEFAULT_WEIGHTS[k]))
+              for k in DEFAULT_WEIGHTS if k in active}
+    if not merged:
+        merged = dict(DEFAULT_WEIGHTS)
+
+    if "market" in merged and merged["market"] > MAX_MARKET_WEIGHT:
+        surplus = merged["market"] - MAX_MARKET_WEIGHT
+        merged["market"] = MAX_MARKET_WEIGHT
+        others = [k for k in merged if k != "market"]
+        base = sum(merged[k] for k in others)
+        if others and base > 0:
+            for k in others:
+                merged[k] += surplus * merged[k] / base
+
+    s = sum(max(0.0, v) for v in merged.values()) or 1.0
+    return {k: max(0.0, v) / s for k, v in merged.items()}
 
 
 def elo_probs(elo_h, elo_a, home_adv=55.0):
@@ -61,27 +84,50 @@ def form_probs(form_h, form_a, home_adv=0.06):
     return _norm3(p1, p_draw, p2)
 
 
+def market_probs(odd1, oddX, odd2, max_overround=0.18):
+    """
+    1N2 from bookmaker odds after removing the overround.
+
+    This is a calibration voice, not a blind copy of the market. Very high-margin or
+    incomplete odds are ignored so the ensemble stays driven by football signals.
+    """
+    odds = (odd1, oddX, odd2)
+    try:
+        if any(o is None or float(o) <= 1.01 for o in odds):
+            return None
+        implied = [1.0 / float(o) for o in odds]
+    except (TypeError, ValueError, ZeroDivisionError):
+        return None
+
+    book = sum(implied)
+    if book <= 0 or book > 1.0 + max_overround:
+        return None
+    return _norm3(implied[0], implied[1], implied[2])
+
+
 def load_weights():
     try:
         with open(WFILE, encoding="utf-8") as f:
             d = json.load(f)
         w = d.get("weights", DEFAULT_WEIGHTS)
-        # sécurité : normalise
-        s = sum(w.values()) or 1.0
-        return {k: v/s for k, v in w.items()}, d
+        return _normalize_weights(w), d
     except (OSError, ValueError):
         return dict(DEFAULT_WEIGHTS), {}
 
 
-def combine(elo_p, grid_p, form_p, weights=None, elo_d=0.0):
+def combine(elo_p, grid_p, form_p, market_p=None, weights=None, elo_d=0.0):
     """
-    Mélange pondéré des 3 sous-modèles + correction du nul.
-    elo_p/grid_p/form_p : tuples (p1,pX,p2). elo_d : écart Elo (pour le bonus nul serré).
+    Mélange pondéré des sous-modèles + correction du nul.
+    elo_p/grid_p/form_p/market_p : tuples (p1,pX,p2).
+    elo_d : écart Elo (pour le bonus nul serré).
     """
-    w = weights or dict(DEFAULT_WEIGHTS)
-    p1 = w["elo"]*elo_p[0] + w["grid"]*grid_p[0] + w["form"]*form_p[0]
-    px = w["elo"]*elo_p[1] + w["grid"]*grid_p[1] + w["form"]*form_p[1]
-    p2 = w["elo"]*elo_p[2] + w["grid"]*grid_p[2] + w["form"]*form_p[2]
+    models = {"elo": elo_p, "grid": grid_p, "form": form_p}
+    if market_p:
+        models["market"] = market_p
+    w = _normalize_weights(weights or DEFAULT_WEIGHTS, active=models.keys())
+    p1 = sum(w[k] * models[k][0] for k in models)
+    px = sum(w[k] * models[k][1] for k in models)
+    p2 = sum(w[k] * models[k][2] for k in models)
     p1, px, p2 = _norm3(p1, px, p2)
 
     # --- correction structurelle du nul ---
@@ -166,35 +212,47 @@ def learn(all_matches, base_predict_fn):
     base_predict_fn(m) -> dict {elo:(...), grid:(...), form:(...), outcome:'1'|'X'|'2'}
     """
     fin = [m for m in all_matches if m.get("status") == "FINISHED" and m.get("analysis")]
-    sub = {"elo": [], "grid": [], "form": []}
+    sub = {k: [] for k in DEFAULT_WEIGHTS}
     for m in fin:
         row = base_predict_fn(m)
         if not row:
             continue
-        for k in sub:
+        for k in DEFAULT_WEIGHTS:
+            if not row.get(k):
+                continue
             sub[k].append(_logloss({"p1": row[k][0], "pX": row[k][1], "p2": row[k][2]},
                                    row["outcome"]))
     n = len(fin)
     if n == 0:
         return dict(DEFAULT_WEIGHTS), {"n": 0, "logloss": {}}
 
-    avg = {k: (sum(v)/len(v) if v else 1.0) for k, v in sub.items()}
-    # poids ∝ inverse du log-loss (meilleur = plus faible log-loss)
-    inv = {k: 1.0/max(0.01, avg[k]) for k in avg}
-    s = sum(inv.values()) or 1.0
-    learned = {k: inv[k]/s for k in inv}
+    avg = {k: (sum(v)/len(v) if v else None) for k, v in sub.items()}
+    available = [k for k, v in sub.items() if v]
+    target = dict(DEFAULT_WEIGHTS)
+    if available:
+        # poids ∝ inverse du log-loss (meilleur = plus faible log-loss)
+        inv = {k: 1.0/max(0.01, avg[k]) for k in available}
+        s = sum(inv.values()) or 1.0
+        learned_available = {k: inv[k]/s for k in available}
+        prior_mass = sum(DEFAULT_WEIGHTS[k] for k in available)
+        for k in available:
+            target[k] = learned_available[k] * prior_mass
+    target = _normalize_weights(target)
     # shrinkage vers le prior : k_eff = n/(n+K)
     K = 12.0
     a = n/(n+K)
-    blended = {k: a*learned[k] + (1-a)*DEFAULT_WEIGHTS[k] for k in DEFAULT_WEIGHTS}
-    s = sum(blended.values()) or 1.0
-    blended = {k: blended[k]/s for k in blended}
-    meta = {"n": n, "logloss": {k: round(avg[k], 4) for k in avg},
-            "learnedRaw": {k: round(learned[k], 3) for k in learned}}
+    blended = {k: a*target[k] + (1-a)*DEFAULT_WEIGHTS[k] for k in DEFAULT_WEIGHTS}
+    blended = _normalize_weights(blended)
+    meta = {"n": n,
+            "logloss": {k: round(v, 4) for k, v in avg.items() if v is not None},
+            "samples": {k: len(v) for k, v in sub.items()},
+            "learnedRaw": {k: round(target[k], 3) for k in target},
+            "marketWeightCap": MAX_MARKET_WEIGHT}
     return blended, meta
 
 
 def save_weights(weights, meta):
     os.makedirs(os.path.dirname(WFILE), exist_ok=True)
     with open(WFILE, "w", encoding="utf-8") as f:
-        json.dump({"weights": weights, "meta": meta}, f, ensure_ascii=False, indent=2)
+        json.dump({"weights": _normalize_weights(weights), "meta": meta},
+                  f, ensure_ascii=False, indent=2)

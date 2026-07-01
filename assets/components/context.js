@@ -139,8 +139,9 @@ function _contextInner(m,p){
   if(p.ensemble && p.ensemble.weights){
     const w=p.ensemble.weights;
     const pc=v=>Math.round(v*100);
+    const market = w.market!=null ? ` · Marché ${pc(w.market)}%` : "";
     html += `<div class="note" style="margin-top:8px">🧠 Modèle d'ensemble (poids appris sur les résultats) :
-      Elo ${pc(w.elo)}% · Buts/xG ${pc(w.grid)}% · Forme ${pc(w.form)}%${p.ensemble.T&&Math.abs(p.ensemble.T-1)>0.02?` · calibration T=${p.ensemble.T}`:""}</div>`;
+      Elo ${pc(w.elo)}% · Buts/xG ${pc(w.grid)}% · Forme ${pc(w.form)}%${market}${p.ensemble.T&&Math.abs(p.ensemble.T-1)>0.02?` · calibration T=${p.ensemble.T}`:""}</div>`;
   }
   if(p.dixonColes){
     html += `<div class="note" style="margin-top:8px">📐 Modèle : Dixon-Coles (ρ=${p.dixonColes.rho})${p.dixonColes.gamma>0?` + effet de choc (γ=${p.dixonColes.gamma})`:""}</div>`;
