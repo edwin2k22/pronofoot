@@ -1,67 +1,66 @@
 {
-  "sampleWithOdds": 61,
+  "sampleWithOdds": 63,
   "favorite": {
-    "bets": 61,
-    "wins": 39,
-    "winRate": 64,
-    "pnl": 2.56,
-    "yield": 4.2
+    "bets": 63,
+    "wins": 40,
+    "winRate": 63,
+    "pnl": 1.83,
+    "yield": 2.9
   },
   "value": {
-    "bets": 132,
-    "wins": 48,
-    "winRate": 36,
-    "pnl": -23.34,
-    "yield": -17.7
+    "bets": 13,
+    "wins": 7,
+    "winRate": 54,
+    "pnl": 1.58,
+    "yield": 12.2
   },
   "valueStrict": {
-    "bets": 76,
-    "wins": 28,
-    "winRate": 37,
-    "pnl": -23.13,
-    "yield": -30.4
+    "bets": 6,
+    "wins": 4,
+    "winRate": 67,
+    "pnl": 1.87,
+    "yield": 31.2
   },
   "topValue": [
     {
-      "home": "France",
-      "away": "Sweden",
-      "date": "2026-06-30 17:00 UTC-4",
-      "label": "Plus de 3.5 buts",
-      "prob": 0.7278,
-      "odd": 2.15,
-      "implied": 0.4651,
-      "edge": 0.2627,
-      "ev": 0.565,
+      "home": "Belgium",
+      "away": "Senegal",
+      "date": "2026-07-01 13:00 UTC-7",
+      "label": "Victoire Belgium",
+      "prob": 0.7467,
+      "odd": 2.2,
+      "implied": 0.4545,
+      "edge": 0.2922,
+      "ev": 0.643,
+      "provider": "DraftKings",
+      "market": "1N2",
+      "lineMovement": 0.0
+    },
+    {
+      "home": "England",
+      "away": "DR Congo",
+      "date": "2026-07-01 12:00 UTC-4",
+      "label": "Plus de 2.5 buts",
+      "prob": 0.6991,
+      "odd": 1.909,
+      "implied": 0.5238,
+      "edge": 0.1753,
+      "ev": 0.335,
       "provider": "DraftKings",
       "market": "O/U"
     },
     {
-      "home": "Mexico",
-      "away": "Ecuador",
-      "date": "2026-06-30 19:00 UTC-6",
-      "label": "Victoire Mexico",
-      "prob": 0.6774,
-      "odd": 2.25,
-      "implied": 0.4444,
-      "edge": 0.233,
-      "ev": 0.524,
+      "home": "Belgium",
+      "away": "Senegal",
+      "date": "2026-07-01 13:00 UTC-7",
+      "label": "Plus de 2.5 buts",
+      "prob": 0.6267,
+      "odd": 2.1,
+      "implied": 0.4762,
+      "edge": 0.1505,
+      "ev": 0.316,
       "provider": "DraftKings",
-      "market": "1N2",
-      "lineMovement": 0.0
-    },
-    {
-      "home": "Ivory Coast",
-      "away": "Norway",
-      "date": "2026-06-30 12:00 UTC-5",
-      "label": "Victoire Ivory Coast",
-      "prob": 0.5038,
-      "odd": 3.55,
-      "implied": 0.2817,
-      "edge": 0.2221,
-      "ev": 0.788,
-      "provider": "DraftKings",
-      "market": "1N2",
-      "lineMovement": 0.0
+      "market": "O/U"
     }
   ]
 }

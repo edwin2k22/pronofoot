@@ -52,6 +52,7 @@ os.makedirs(DATA_DIR, exist_ok=True)
 # priors neutres de Coupe du Monde (moyennes historiques connues, sans dataset 2018/2022)
 PRIOR = {"gf": 1.35, "ga": 1.35, "xg": 1.35, "corners": 5.0, "cards": 2.0,
          "shots": 13.6, "shots_on": 4.4, "possession": 50.0, "accuracy": 0.34}
+VALUE_EDGE_MIN = {"1N2": 0.20, "OU": 0.15, "BTTS": 0.12, "CORNERS": 0.15}
 # tirs/cadrés par équipe + possession + précision (cadrés/tirs) — moyennes réelles CDM 2026
 
 
@@ -541,6 +542,7 @@ def _learn_ensemble(rows):
         temp_samples.append({"p1": c["p1"], "pX": c["pX"], "p2": c["p2"], "outcome": s["outcome"]})
     T, tmeta = ens.learn_temperature(temp_samples)
     meta["T"] = T
+    meta["drawBias"] = tmeta.get("drawBias", 0.0)
     meta["tempMeta"] = tmeta
     ens.save_weights(weights, meta)
     return weights, meta
@@ -648,6 +650,7 @@ def predict():
 
     # poids du modèle d'ensemble appris sur les matchs déjà joués (auto-apprentissage)
     ENS_WEIGHTS, ens_meta = _learn_ensemble(rows)
+    ENS_DRAW_BIAS = ens_meta.get("drawBias", 0.0)
     ENS_TEMP = ens_meta.get("T", 1.0)   # température de calibration apprise
 
     # ρ/γ calibrés sur les vrais résultats (maximum de vraisemblance) ; prior sinon
@@ -891,8 +894,9 @@ def predict():
                             elo_d=h["elo"] - a["elo"])
         # calibration par température (corrige la sur-confiance mesurée)
         _c1, _cx, _c2 = ens.apply_temperature(_ensr["p1"], _ensr["pX"], _ensr["p2"], ENS_TEMP)
+        _c1, _cx, _c2 = ens.apply_draw_bias(_c1, _cx, _c2, ENS_DRAW_BIAS)
         res["p1"], res["pX"], res["p2"] = round(_c1, 4), round(_cx, 4), round(_c2, 4)
-        res["ensemble"] = {"weights": ENS_WEIGHTS, "T": ENS_TEMP,
+        res["ensemble"] = {"weights": ENS_WEIGHTS, "T": ENS_TEMP, "drawBias": ENS_DRAW_BIAS,
                            "elo": [round(x, 3) for x in elo_p],
                            "grid": [round(x, 3) for x in grid_p],
                            "form": [round(x, 3) for x in form_p]}
@@ -1067,15 +1071,16 @@ def predict():
         od = odds_store.get(f"{mt['home']}|{mt['away']}") or {}
         odd1, oddX, odd2 = od.get("odd1"), od.get("oddX"), od.get("odd2")
         
-        def _value(p, o):
+        def _value(p, o, market="1N2"):
             if not p or not o or o <= 1: return None
             implied = 1 / o
             edge = p - implied
+            min_edge = VALUE_EDGE_MIN.get(market, 0.15)
             return {"odd": o, "implied": round(implied, 3), "edge": round(edge, 3),
-                    "is_value": edge > 0.02}
+                    "minEdge": min_edge, "is_value": edge >= min_edge}
 
-        value = {"home": _value(res["p1"], odd1), "draw": _value(res["pX"], oddX),
-                 "away": _value(res["p2"], odd2)}
+        value = {"home": _value(res["p1"], odd1, "1N2"), "draw": _value(res["pX"], oddX, "1N2"),
+                 "away": _value(res["p2"], odd2, "1N2")}
                  
         ou_line = od.get("ou_line")
         odd_over = od.get("over")
@@ -1083,16 +1088,16 @@ def predict():
         if ou_line is not None and odd_over and odd_under:
             ou_str = str(ou_line)
             if "ou_lines" in res and ou_str in res["ou_lines"]:
-                value["over"] = _value(res["ou_lines"][ou_str]["over"], odd_over)
-                value["under"] = _value(res["ou_lines"][ou_str]["under"], odd_under)
+                value["over"] = _value(res["ou_lines"][ou_str]["over"], odd_over, "OU")
+                value["under"] = _value(res["ou_lines"][ou_str]["under"], odd_under, "OU")
                 
         # Smarkets odds extraction
         oddBTTS_Yes = od.get("oddBTTS_Yes")
         oddBTTS_No = od.get("oddBTTS_No")
-        if oddBTTS_Yes and res.get("btts"):
-            value["btts_yes"] = _value(res["btts"], oddBTTS_Yes)
-        if oddBTTS_No and res.get("btts"):
-            value["btts_no"] = _value(1 - res["btts"], oddBTTS_No)
+        if oddBTTS_Yes and goals.get("btts"):
+            value["btts_yes"] = _value(goals["btts"], oddBTTS_Yes, "BTTS")
+        if oddBTTS_No and goals.get("btts"):
+            value["btts_no"] = _value(1 - goals["btts"], oddBTTS_No, "BTTS")
             
         oddCorners_line = od.get("oddCorners_line")
         oddCorners_Over = od.get("oddCorners_Over")
@@ -1105,9 +1110,9 @@ def predict():
             
             p_under = poisson_cdf(res["corners"]["total_mean"], math.floor(oddCorners_line))
             p_over = 1 - p_under
-            value["corners_over"] = _value(p_over, oddCorners_Over)
+            value["corners_over"] = _value(p_over, oddCorners_Over, "CORNERS")
             if oddCorners_Under:
-                value["corners_under"] = _value(p_under, oddCorners_Under)
+                value["corners_under"] = _value(p_under, oddCorners_Under, "CORNERS")
 
         kelly = {"home": ctx.kelly_fraction(res["p1"], odd1, conf),
                  "draw": ctx.kelly_fraction(res["pX"], oddX, conf),
@@ -1118,7 +1123,7 @@ def predict():
         if op and odd1 and op.get("odd1"):
             line_move = {"home": round(odd1 - op["odd1"], 3),
                          "draw": round((oddX or 0) - (op.get("oddX") or 0), 3),
-                         "away": round((odd2 or 0) - (op.get("oddX") or 0), 3),
+                         "away": round((odd2 or 0) - (op.get("odd2") or 0), 3),
                          "opening": op, "provider": od.get("provider")}
 
         live_score = (f"{mt['home_goals']}-{mt['away_goals']}"
@@ -1176,7 +1181,7 @@ def predict():
                 "ensemble": res.get("ensemble"),
                 # Cohérence : si le score modal est un clean sheet, le BTTS ne doit pas être "Oui" (>0.5)
                 "over25": goals["over"], 
-                "btts": min(goals["btts"], 0.49) if (goals["top_score"][0] == 0 or goals["top_score"][1] == 0) else goals["btts"],
+                "btts": goals["btts"],
                 "marketCalib": {"bttsShift": btts_shift, "overShift": over_shift,
                                 "bttsRaw": round(btts_raw, 4), "n": bias_n},
                 "lamHome": lam_h, "lamAway": lam_a,
@@ -1189,7 +1194,7 @@ def predict():
                 # buts : Over/Under multi-lignes, total xG projeté, BTTS+confiance, score mi-temps
                 "overUnder": ou_lines,
                 "totalXg": round(lam_h + lam_a, 2),
-                "bttsConf": _btts_confidence(min(goals["btts"], 0.49) if (goals["top_score"][0] == 0 or goals["top_score"][1] == 0) else goals["btts"], conf),
+                "bttsConf": _btts_confidence(goals["btts"], conf),
                 "halftime": ht,
                 "value": value,
                 "corners": corn, "cards": cards, "shots": shots,

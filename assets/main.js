@@ -229,7 +229,7 @@ function valueCandidates(m){
     {key:"home", label:m.home, data:v.home},
     {key:"draw", label:"Nul", data:v.draw},
     {key:"away", label:m.away, data:v.away},
-  ].filter(x=>x.data && (x.data.is_value || x.data.edge > 0));
+  ].filter(x=>x.data && x.data.is_value);
 }
 
 function bestValue(m){

@@ -108008,12 +108008,623 @@
     "id": 78,
     "league": "CDM 2026 · Round of 32",
     "date": "2026-06-30 12:00 UTC-5",
-    "status": "SCHEDULED",
+    "status": "FINISHED",
     "liveScore": null,
     "liveClock": null,
-    "realScore": null,
-    "htScore": null,
-    "analysis": null,
+    "realScore": "1-2",
+    "htScore": "0-1",
+    "analysis": {
+      "realScore": "1-2",
+      "outcome": "2",
+      "winner": "Norway",
+      "predictedOutcome": "1",
+      "predictionCorrect": false,
+      "exactScore": false,
+      "over25Real": true,
+      "bttsReal": true,
+      "totalGoals": 3,
+      "homeXgReal": 0.0,
+      "awayXgReal": 0.0,
+      "homeShots": 14,
+      "awayShots": 9,
+      "homeShotsOn": 5,
+      "awayShotsOn": 4,
+      "teamStats": {
+        "home_possession": 47.1,
+        "home_passes": 401,
+        "home_passes_ok": 339,
+        "home_pass_pct": 0.8,
+        "home_crosses": 29,
+        "home_crosses_ok": 7,
+        "home_long_balls": 38,
+        "home_tackles": 24,
+        "home_tackles_won": 18,
+        "home_interceptions": 4,
+        "home_clearances": 11,
+        "home_blocked_shots": 1,
+        "home_fouls": 6,
+        "home_offsides": 2,
+        "home_saves": 1,
+        "away_possession": 52.9,
+        "away_passes": 473,
+        "away_passes_ok": 415,
+        "away_pass_pct": 0.9,
+        "away_crosses": 10,
+        "away_crosses_ok": 5,
+        "away_long_balls": 32,
+        "away_tackles": 19,
+        "away_tackles_won": 11,
+        "away_interceptions": 6,
+        "away_clearances": 37,
+        "away_blocked_shots": 3,
+        "away_fouls": 7,
+        "away_offsides": 2,
+        "away_saves": 4
+      },
+      "homeCorners": 14,
+      "awayCorners": 3,
+      "homeCards": 0,
+      "awayCards": 1,
+      "events": {
+        "goals": [
+          {
+            "minute": 39,
+            "team": "Norway",
+            "player": "Antonio Nusa",
+            "assist": "Martin Ødegaard",
+            "note": null
+          },
+          {
+            "minute": 74,
+            "team": "Ivory Coast",
+            "player": "Amad Diallo",
+            "assist": "Nicolas Pépé",
+            "note": null
+          },
+          {
+            "minute": 86,
+            "team": "Norway",
+            "player": "Erling Haaland",
+            "assist": "Patrick Berg",
+            "note": null
+          }
+        ],
+        "cards": [
+          {
+            "minute": 45,
+            "team": "Norway",
+            "player": "Antonio Nusa",
+            "type": "Yellow"
+          }
+        ],
+        "commentary": [
+          {
+            "minute": 0,
+            "text": "Lineups are announced and players are warming up.",
+            "type": ""
+          },
+          {
+            "minute": 0,
+            "text": "First Half begins.",
+            "type": "Kickoff"
+          },
+          {
+            "minute": 3,
+            "text": "Attempt blocked. Erling Haaland (Norway) header from the centre of the box is blocked. Assisted by Marcus Pedersen with a cross.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 3,
+            "text": "Offside, Norway. Alexander Sørloth is caught offside.",
+            "type": "Offside"
+          },
+          {
+            "minute": 5,
+            "text": "Foul by Guéla Doué (Côte d'Ivoire).",
+            "type": "Foul"
+          },
+          {
+            "minute": 5,
+            "text": "Antonio Nusa (Norway) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 8,
+            "text": "Attempt missed. Yan Diomande (Côte d'Ivoire) header from the centre of the box misses to the left. Assisted by Guéla Doué with a cross.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 8,
+            "text": "Corner, Côte d'Ivoire. Conceded by Torbjørn Heggem.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 11,
+            "text": "Nicolas Pépé (Côte d'Ivoire) wins a free kick in the defensive half.",
+            "type": "Pass"
+          },
+          {
+            "minute": 11,
+            "text": "Foul by David Møller Wolfe (Norway).",
+            "type": "Foul"
+          },
+          {
+            "minute": 15,
+            "text": "Corner, Côte d'Ivoire. Conceded by Kristoffer Ajer.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 21,
+            "text": "Attempt missed. Ghislain Konan (Côte d'Ivoire) right footed shot from the left side of the box is close, but misses to the left. Assisted by Christ Inao Oulaï.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 23,
+            "text": "Corner, Norway. Conceded by Guéla Doué.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 23,
+            "text": "Yan Diomande (Côte d'Ivoire) wins a free kick in the defensive half.",
+            "type": "Ball touch"
+          },
+          {
+            "minute": 23,
+            "text": "Foul by David Møller Wolfe (Norway).",
+            "type": "Foul"
+          },
+          {
+            "minute": 24,
+            "text": "Delay in match for a drinks break.",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 27,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 28,
+            "text": "Attempt missed. Nicolas Pépé (Côte d'Ivoire) right footed shot from the right side of the six yard box misses to the left. Assisted by Yan Diomande with a cross.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 28,
+            "text": "Corner, Côte d'Ivoire. Conceded by Kristoffer Ajer.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 30,
+            "text": "Corner, Côte d'Ivoire. Conceded by Marcus Pedersen.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 31,
+            "text": "Corner, Côte d'Ivoire. Conceded by Erling Haaland.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 33,
+            "text": "Corner, Côte d'Ivoire. Conceded by Torbjørn Heggem.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 34,
+            "text": "Corner, Côte d'Ivoire. Conceded by Patrick Berg.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 35,
+            "text": "Attempt saved. Emmanuel Agbadou (Côte d'Ivoire) right footed shot from outside the box is saved in the top centre of the goal by Ørjan Nyland (Norway).",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 37,
+            "text": "Attempt saved. Erling Haaland (Norway) header from the centre of the box is saved in the bottom left corner by Yahia Fofana (Côte d'Ivoire). Assisted by Alexander Sørloth with a cross.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 37,
+            "text": "Yan Diomande (Côte d'Ivoire) wins a free kick in the defensive half.",
+            "type": "Ball touch"
+          },
+          {
+            "minute": 37,
+            "text": "Foul by Alexander Sørloth (Norway).",
+            "type": "Foul"
+          },
+          {
+            "minute": 38,
+            "text": "Attempt blocked. Martin Ødegaard (Norway) left footed shot from outside the box is blocked. Assisted by Antonio Nusa.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 39,
+            "text": "Goal! Côte d'Ivoire 0, Norway 1. Antonio Nusa (Norway) right footed shot from the left side of the box to the top right corner. Assisted by Martin Ødegaard.",
+            "type": "Goal"
+          },
+          {
+            "minute": 42,
+            "text": "Attempt blocked. Erling Haaland (Norway) left footed shot from very close range is blocked.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 42,
+            "text": "Corner, Norway. Conceded by Ibrahim Sangaré.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 42,
+            "text": "Attempt missed. Alexander Sørloth (Norway) header from very close range is close, but misses to the right. Assisted by Patrick Berg with a cross following a corner.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 44,
+            "text": "Corner, Côte d'Ivoire. Conceded by Marcus Pedersen.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 45,
+            "text": "Corner, Côte d'Ivoire. Conceded by Erling Haaland.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 45,
+            "text": "Fourth official has announced 4 minutes of added time.",
+            "type": ""
+          },
+          {
+            "minute": 45,
+            "text": "Guéla Doué (Côte d'Ivoire) wins a free kick on the right wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 45,
+            "text": "Foul by Antonio Nusa (Norway).",
+            "type": "Foul"
+          },
+          {
+            "minute": 45,
+            "text": "Antonio Nusa (Norway) is shown the yellow card for a bad foul.",
+            "type": "Yellow Card"
+          },
+          {
+            "minute": 45,
+            "text": "Attempt missed. Emmanuel Agbadou (Côte d'Ivoire) header from the centre of the box is close, but misses to the left. Assisted by Nicolas Pépé with a cross following a set piece situation.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 45,
+            "text": "First Half ends, Côte d'Ivoire 0, Norway 1.",
+            "type": ""
+          },
+          {
+            "minute": 45,
+            "text": "Second Half begins Côte d'Ivoire 0, Norway 1.",
+            "type": "Start 2nd Half"
+          },
+          {
+            "minute": 46,
+            "text": "Offside, Côte d'Ivoire. Ange-Yoan Bonny is caught offside.",
+            "type": "Offside"
+          },
+          {
+            "minute": 47,
+            "text": "Yan Diomande (Côte d'Ivoire) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 47,
+            "text": "Foul by Marcus Pedersen (Norway).",
+            "type": "Foul"
+          },
+          {
+            "minute": 49,
+            "text": "Corner, Côte d'Ivoire. Conceded by Patrick Berg.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 51,
+            "text": "Handball by Franck Kessie (Côte d'Ivoire).",
+            "type": "Handball"
+          },
+          {
+            "minute": 52,
+            "text": "Attempt missed. Ibrahim Sangaré (Côte d'Ivoire) right footed shot from outside the box is high and wide to the right.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 55,
+            "text": "Attempt saved. Nicolas Pépé (Côte d'Ivoire) left footed shot from the centre of the box is saved in the bottom right corner by Ørjan Nyland (Norway).",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 57,
+            "text": "Attempt saved. Franck Kessie (Côte d'Ivoire) right footed shot from the centre of the box is saved in the bottom right corner by Ørjan Nyland (Norway). Assisted by Nicolas Pépé.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 57,
+            "text": "Foul by Ibrahim Sangaré (Côte d'Ivoire).",
+            "type": "Foul"
+          },
+          {
+            "minute": 57,
+            "text": "Martin Ødegaard (Norway) wins a free kick in the attacking half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 59,
+            "text": "Corner, Côte d'Ivoire. Conceded by Patrick Berg.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 59,
+            "text": "Attempt missed. Emmanuel Agbadou (Côte d'Ivoire) right footed shot from outside the box is too high. Assisted by Christ Inao Oulaï following a corner.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 60,
+            "text": "Substitution, Côte d'Ivoire. Amad Diallo replaces Christ Inao Oulaï.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 60,
+            "text": "Substitution, Côte d'Ivoire. Elye Wahi replaces Ange-Yoan Bonny.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 61,
+            "text": "Ghislain Konan (Côte d'Ivoire) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 61,
+            "text": "Foul by Martin Ødegaard (Norway).",
+            "type": "Foul"
+          },
+          {
+            "minute": 63,
+            "text": "Corner, Côte d'Ivoire. Conceded by Torbjørn Heggem.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 64,
+            "text": "Attempt missed. Guéla Doué (Côte d'Ivoire) left footed shot from the centre of the box misses to the left following a corner.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 65,
+            "text": "Corner, Norway. Conceded by Emmanuel Agbadou.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 66,
+            "text": "Attempt blocked. Torbjørn Heggem (Norway) right footed shot from very close range is blocked. Assisted by Alexander Sørloth.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 68,
+            "text": "Offside, Norway. Antonio Nusa is caught offside.",
+            "type": "Offside"
+          },
+          {
+            "minute": 68,
+            "text": "Delay in match for a drinks break.",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 71,
+            "text": "Substitution, Norway. Andreas Schjelderup replaces Antonio Nusa.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 71,
+            "text": "Substitution, Norway. Oscar Bobb replaces Alexander Sørloth.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 71,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 72,
+            "text": "Attempt missed. Ghislain Konan (Côte d'Ivoire) right footed shot from the left side of the box misses to the right. Assisted by Ibrahim Sangaré.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 74,
+            "text": "Goal! Côte d'Ivoire 1, Norway 1. Amad Diallo (Côte d'Ivoire) left footed shot from the right side of the six yard box to the bottom left corner. Assisted by Nicolas Pépé.",
+            "type": "Goal"
+          },
+          {
+            "minute": 79,
+            "text": "Offside, Côte d'Ivoire. Amad Diallo is caught offside.",
+            "type": "Offside"
+          },
+          {
+            "minute": 81,
+            "text": "Delay in match because of an injury Amad Diallo (Côte d'Ivoire).",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 82,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 83,
+            "text": "Substitution, Norway. Fredrik Aursnes replaces Marcus Pedersen.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 84,
+            "text": "Handball by Franck Kessie (Côte d'Ivoire).",
+            "type": "Handball"
+          },
+          {
+            "minute": 86,
+            "text": "Goal! Côte d'Ivoire 1, Norway 2. Erling Haaland (Norway) left footed shot from the centre of the box to the centre of the goal. Assisted by Patrick Berg.",
+            "type": "Goal"
+          },
+          {
+            "minute": 87,
+            "text": "Substitution, Côte d'Ivoire. Oumar Diakité replaces Nicolas Pépé.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 88,
+            "text": "Foul by Guéla Doué (Côte d'Ivoire).",
+            "type": "Foul"
+          },
+          {
+            "minute": 88,
+            "text": "Andreas Schjelderup (Norway) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Attempt missed. Andreas Schjelderup (Norway) right footed shot from the left side of the box misses to the right. Assisted by Erling Haaland.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 90,
+            "text": "Fourth official has announced 7 minutes of added time.",
+            "type": ""
+          },
+          {
+            "minute": 90,
+            "text": "Foul by Yan Diomande (Côte d'Ivoire).",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Fredrik Aursnes (Norway) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Substitution, Côte d'Ivoire. Evann Guessand replaces Yan Diomande.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 90,
+            "text": "Substitution, Côte d'Ivoire. Bazoumana Touré replaces Ghislain Konan.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 90,
+            "text": "Ibrahim Sangaré (Côte d'Ivoire) wins a free kick in the attacking half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Foul by Martin Ødegaard (Norway).",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Attempt saved. Amad Diallo (Côte d'Ivoire) left footed shot from outside the box is saved in the top left corner by Ørjan Nyland (Norway).",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 90,
+            "text": "Corner, Côte d'Ivoire. Conceded by Ørjan Nyland.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 90,
+            "text": "Corner, Côte d'Ivoire. Conceded by Kristoffer Ajer.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 90,
+            "text": "Attempt missed. Evann Guessand (Côte d'Ivoire) header from very close range misses to the right. Assisted by Amad Diallo with a cross following a corner.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 90,
+            "text": "Second Half ends, Côte d'Ivoire 1, Norway 2.",
+            "type": "End Regular Time"
+          },
+          {
+            "minute": 0,
+            "text": "Match ends, Côte d'Ivoire 1, Norway 2.",
+            "type": ""
+          }
+        ],
+        "halftime": "0-1",
+        "motm": "—",
+        "note": "",
+        "lineups": {
+          "home_formation": "4-1-4-1",
+          "home_xi": [
+            "Yahia Fofana",
+            "Emmanuel Agbadou",
+            "Odilon Kossounou",
+            "Ibrahim Sangaré",
+            "Ghislain Konan",
+            "Guela Doué",
+            "Christ Inao Oulaï",
+            "Franck Kessié",
+            "Yan Diomande",
+            "Nicolas Pépé",
+            "Ange-Yoan Bonny"
+          ],
+          "home_bench": [
+            "Jean Michaël Seri",
+            "Alban Lafont",
+            "Seko Fofana",
+            "Mohamed Koné",
+            "Evann Guessand",
+            "Christopher Operi",
+            "Evan Ndicka",
+            "Bazoumana Touré",
+            "Ousmane Diomande",
+            "Elye Wahi",
+            "Oumar Diakité",
+            "Wilfried Singo",
+            "Parfait Guiagon",
+            "Simon Adingra",
+            "Amad Diallo"
+          ],
+          "away_formation": "4-3-3",
+          "away_xi": [
+            "Ørjan Nyland",
+            "Torbjørn Heggem",
+            "Kristoffer Ajer",
+            "David Møller Wolfe",
+            "Marcus Holmgren Pedersen",
+            "Sander Berge",
+            "Patrick Berg",
+            "Martin Ødegaard",
+            "Erling Haaland",
+            "Antonio Nusa",
+            "Alexander Sørloth"
+          ],
+          "away_bench": [
+            "Sondre Langas",
+            "Sander Tangvik",
+            "Jens Petter Hauge",
+            "Oscar Bobb",
+            "Fredrik Aursnes",
+            "Leo Østigard",
+            "Egil Selvik",
+            "Fredrik André Bjørkan",
+            "Morten Thorsby",
+            "Andreas Schjelderup",
+            "Jørgen Strand Larsen",
+            "Julian Ryerson",
+            "Thelo Aasgaard",
+            "Henrik Falchener",
+            "Kristian Thorstvedt"
+          ],
+          "source": "ESPN (compos réelles)"
+        }
+      },
+      "summary": "Le modèle donnait <b>Ivory Coast</b> favori (46%). ❌ Surprise : c'est <b>Norway</b> qui l'emporte Score le plus probable prévu : 1-1 → réel 1-2. Total buts 3 (Over 2.5), BTTS oui."
+    },
     "nlpMomentum": null,
     "hotTrends": [
       "Ivory Coast : A marqué au moins 1 but dans 100% de ses matchs",
@@ -108026,8 +108637,8 @@
     "awayGF": 1.86,
     "homeGA": 0.5,
     "awayGA": 1.57,
-    "homeXG": 1.69,
-    "awayXG": 0.99,
+    "homeXG": 1.31,
+    "awayXG": 0.97,
     "homeForm": 8,
     "awayForm": 8,
     "homeElo": 1778.6,
@@ -108079,9 +108690,9 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.5038,
-      "pX": 0.2949,
-      "p2": 0.2013,
+      "p1": 0.4586,
+      "pX": 0.3173,
+      "p2": 0.2242,
       "ensemble": {
         "weights": {
           "elo": 0.36152877241701137,
@@ -108095,9 +108706,9 @@
           0.263
         ],
         "grid": [
-          0.525,
-          0.266,
-          0.208
+          0.429,
+          0.308,
+          0.262
         ],
         "form": [
           0.542,
@@ -108105,56 +108716,56 @@
           0.25
         ]
       },
-      "over25": 0.4816,
-      "btts": 0.636,
+      "over25": 0.415,
+      "btts": 0.584,
       "marketCalib": {
         "bttsShift": 0.0681,
         "overShift": -0.0575,
-        "bttsRaw": 0.5679,
+        "bttsRaw": 0.5159,
         "n": 195
       },
-      "lamHome": 1.69,
-      "lamAway": 0.99,
+      "lamHome": 1.31,
+      "lamAway": 0.97,
       "topScore": [
         1,
         1
       ],
       "doubleChance": {
-        "1X": 0.7916,
-        "12": 0.7337,
-        "X2": 0.4747
+        "1X": 0.7379,
+        "12": 0.6915,
+        "X2": 0.5704
       },
       "drawNoBet": {
-        "home": 0.716,
-        "away": 0.284
+        "home": 0.6211,
+        "away": 0.3789
       },
       "topScores": [
         {
           "score": "1-1",
-          "p": 0.1233
-        },
-        {
-          "score": "2-1",
-          "p": 0.0981
+          "p": 0.1419
         },
         {
           "score": "1-0",
-          "p": 0.0933
-        },
-        {
-          "score": "2-0",
-          "p": 0.0893
+          "p": 0.1082
         },
         {
           "score": "0-0",
-          "p": 0.0748
+          "p": 0.1071
+        },
+        {
+          "score": "2-1",
+          "p": 0.0888
+        },
+        {
+          "score": "2-0",
+          "p": 0.08
         }
       ],
       "scenarios": [
         {
           "id": "closed",
           "title": "Match fermé",
-          "p": 0.2177,
+          "p": 0.2918,
           "scores": [
             "1-0",
             "0-0"
@@ -108164,7 +108775,7 @@
         {
           "id": "tight",
           "title": "Match serré",
-          "p": 0.2432,
+          "p": 0.2658,
           "scores": [
             "1-1",
             "2-0"
@@ -108174,17 +108785,17 @@
         {
           "id": "open",
           "title": "Match ouvert / spectacle",
-          "p": 0.5391,
+          "p": 0.4425,
           "scores": [
             "2-1",
-            "3-1"
+            "1-2"
           ],
           "note": "Over 2.5 favorisé · les deux blocs prennent des risques"
         },
         {
           "id": "blowout",
           "title": "Large écart",
-          "p": 0.2518,
+          "p": 0.1797,
           "scores": [
             "3-1",
             "3-0"
@@ -108195,45 +108806,45 @@
       ],
       "overUnder": {
         "0.5": {
-          "over": 0.9252,
-          "under": 0.0748
+          "over": 0.8929,
+          "under": 0.1071
         },
         "1.5": {
-          "over": 0.7823,
-          "under": 0.2177
+          "over": 0.7082,
+          "under": 0.2918
         },
         "2.5": {
-          "over": 0.5391,
-          "under": 0.4609
+          "over": 0.4425,
+          "under": 0.5575
         },
         "3.5": {
-          "over": 0.3232,
-          "under": 0.6768
+          "over": 0.2388,
+          "under": 0.7612
         }
       },
-      "totalXg": 2.68,
+      "totalXg": 2.28,
       "bttsConf": {
         "pick": "Oui",
-        "score": 0.56,
+        "score": 0.51,
         "label": "moyenne"
       },
       "halftime": {
-        "lamHome": 0.77,
+        "lamHome": 0.6,
         "lamAway": 0.46,
         "topScore": [
           0,
           0
         ],
-        "p1": 0.3809,
-        "pX": 0.4287,
-        "p2": 0.1904,
+        "p1": 0.3103,
+        "pX": 0.4729,
+        "p2": 0.2168,
         "ou05": {
-          "over": 0.7242,
-          "under": 0.2758
+          "over": 0.6724,
+          "under": 0.3276
         },
         "ou15": {
-          "over": 0.4198,
-          "under": 0.5802
+          "over": 0.3587,
+          "under": 0.6413
         },
         "shareHome": 0.456,
         "shareAway": 0.469,
@@ -108243,49 +108854,49 @@
         "home": {
           "odd": 3.55,
           "implied": 0.282,
-          "edge": 0.222,
+          "edge": 0.177,
           "is_value": true
         },
         "draw": {
           "odd": 3.45,
           "implied": 0.29,
-          "edge": 0.005,
-          "is_value": false
+          "edge": 0.027,
+          "is_value": true
         },
         "away": {
           "odd": 2.1,
           "implied": 0.476,
-          "edge": -0.275,
+          "edge": -0.252,
           "is_value": false
         }
       },
       "corners": {
-        "exp_corners": 7.1,
-        "over": 0.4118,
-        "under": 0.5882,
+        "exp_corners": 7.0,
+        "over": 0.4056,
+        "under": 0.5944,
         "line": 7.5,
-        "home": 4.3,
-        "away": 2.7,
+        "home": 4.1,
+        "away": 2.9,
         "lines": {
           "5.5": {
-            "over": 0.7082,
-            "under": 0.2918
+            "over": 0.703,
+            "under": 0.297
           },
           "6.5": {
-            "over": 0.5607,
-            "under": 0.4393
+            "over": 0.5546,
+            "under": 0.4454
           },
           "7.5": {
-            "over": 0.4118,
-            "under": 0.5882
+            "over": 0.4056,
+            "under": 0.5944
           },
           "8.5": {
-            "over": 0.2801,
-            "under": 0.7199
+            "over": 0.2747,
+            "under": 0.7253
           },
           "9.5": {
-            "over": 0.1767,
-            "under": 0.8233
+            "over": 0.1725,
+            "under": 0.8275
           }
         },
         "src": "FootyStats ×0.54 (calibré 77 matchs)"
@@ -108317,77 +108928,13 @@
         "src": "FootyStats (réel)"
       },
       "shots": {
-        "expShots": 25.6,
-        "expShotsOn": 9.0,
-        "home": 14.1,
-        "away": 11.6,
-        "homeOn": 4.6,
-        "awayOn": 4.3,
-        "homeAcc": 33,
-        "awayAcc": 38,
-        "line": 25.5,
-        "lineOn": 8.5,
-        "lines": {
-          "21.5": {
-            "over": 0.789,
-            "under": 0.211
-          },
-          "23.5": {
-            "over": 0.652,
-            "under": 0.348
-          },
-          "25.5": {
-            "over": 0.496,
-            "under": 0.504
-          },
-          "27.5": {
-            "over": 0.3445,
-            "under": 0.6555
-          },
-          "29.5": {
-            "over": 0.2174,
-            "under": 0.7826
-          }
-        },
-        "linesOn": {
-          "6.5": {
-            "over": 0.7902,
-            "under": 0.2098
-          },
-          "7.5": {
-            "over": 0.6723,
-            "under": 0.3277
-          },
-          "8.5": {
-            "over": 0.54,
-            "under": 0.46
-          },
-          "9.5": {
-            "over": 0.4083,
-            "under": 0.5917
-          },
-          "10.5": {
-            "over": 0.2901,
-            "under": 0.7099
-          }
-        },
-        "real": false,
-        "basis": {
-          "dominance": [
-            1.2,
-            0.82
-          ],
-          "possession": [
-            50,
-            50
-          ],
-          "accuracy": [
-            33,
-            38
-          ]
-        },
-        "shotsAvgHome": 11.2,
-        "shotsAvgAway": 11.9
+        "home": 14,
+        "away": 9,
+        "homeOn": 5,
+        "awayOn": 4,
+        "homeAcc": 36,
+        "awayAcc": 44,
+        "real": true
       },
       "referee": null,
       "riskPlayers": {
@@ -108459,35 +109006,35 @@
             {
               "name": "Nicolas Pépé",
               "poste": "FW",
-              "p": 0.2932,
+              "p": 0.224,
               "real_goals": 2.0,
               "why": "déjà 2 but(s) dans le tournoi · volume de tirs élevé (4)"
             },
             {
               "name": "Amad Diallo",
               "poste": "FW",
-              "p": 0.267,
+              "p": 0.2031,
               "real_goals": 1.0,
               "why": "déjà 1 but(s) dans le tournoi · volume de tirs élevé (6)"
             },
             {
               "name": "Yan Diomande",
               "poste": "FW",
-              "p": 0.1733,
+              "p": 0.1298,
               "real_goals": 0.0,
               "why": "volume de tirs élevé (3)"
             },
             {
               "name": "Ange-Yoan Bonny",
               "poste": "FW",
-              "p": 0.145,
+              "p": 0.1082,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Franck Kessié",
               "poste": "MF",
-              "p": 0.0933,
+              "p": 0.0691,
               "real_goals": 1.0,
               "why": "déjà 1 but(s) dans le tournoi · volume de tirs élevé (3)"
             }
@@ -108496,28 +109043,28 @@
             {
               "name": "Ibrahim Sangaré",
               "poste": "MF",
-              "p": 0.1485,
+              "p": 0.1053,
               "real_assists": 1.0,
               "why": "déjà 1 passe(s) déc."
             },
             {
               "name": "Yan Diomande",
               "poste": "FW",
-              "p": 0.1287,
+              "p": 0.091,
               "real_assists": 1.0,
               "why": "déjà 1 passe(s) déc."
             },
             {
-              "name": "Franck Kessié",
+              "name": "Seko Fofana",
               "poste": "MF",
-              "p": 0.0956,
+              "p": 0.0672,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
-              "name": "Ange-Yoan Bonny",
-              "poste": "FW",
-              "p": 0.0825,
+              "name": "Franck Kessié",
+              "poste": "MF",
+              "p": 0.0672,
               "real_assists": 0.0,
               "why": "création selon le poste"
             }
@@ -108525,15 +109072,15 @@
           "creator": {
             "name": "Ibrahim Sangaré",
             "poste": "MF",
-            "p": 0.1485,
+            "p": 0.1053,
             "real_assists": 1.0,
             "why": "déjà 1 passe(s) déc."
           },
           "keeper": {
             "name": "Yahia Fofana",
-            "expSotFaced": 3.1,
+            "expSotFaced": 3.0,
             "fromLineup": false,
-            "why": "Subit une pression offensive adverse de ~0.99 xG → environ 3.1 tirs cadrés à gérer."
+            "why": "Subit une pression offensive adverse de ~0.97 xG → environ 3.0 tirs cadrés à gérer."
           },
           "benchImpact": [
             {
@@ -108549,16 +109096,9 @@
         "away": {
           "scorers": [
             {
-              "name": "Jørgen Strand Larsen",
-              "poste": "FW",
-              "p": 0.141,
-              "real_goals": 0.0,
-              "why": "présence offensive selon le poste"
-            },
-            {
               "name": "Erling Haaland",
               "poste": "FW",
-              "p": 0.1288,
+              "p": 0.1881,
               "real_goals": 4.0,
               "why": "déjà 4 but(s) dans le tournoi · volume de tirs élevé (10)",
               "bio": {
@@ -108577,69 +109117,102 @@
               }
             },
             {
-              "name": "Thelo Aasgaard",
-              "poste": "MF",
-              "p": 0.0772,
-              "real_goals": 1.0,
-              "why": "déjà 1 but(s) dans le tournoi"
-            },
-            {
               "name": "Alexander Sørloth",
               "poste": "FW",
-              "p": 0.0661,
+              "p": 0.0982,
+              "real_goals": 0.0,
+              "why": "présence offensive selon le poste"
+            },
+            {
+              "name": "Jørgen Strand Larsen",
+              "poste": "FW",
+              "p": 0.0982,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Antonio Nusa",
               "poste": "FW",
-              "p": 0.0661,
+              "p": 0.0982,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
+            },
+            {
+              "name": "Thelo Aasgaard",
+              "poste": "MF",
+              "p": 0.0532,
+              "real_goals": 1.0,
+              "why": "déjà 1 but(s) dans le tournoi"
             }
           ],
           "assisters": [
             {
+              "name": "Martin Ødegaard",
+              "poste": "MF",
+              "p": 0.0838,
+              "real_assists": 2.0,
+              "why": "déjà 2 passe(s) déc.",
+              "bio": {
+                "club": "Arsenal",
+                "role": "Milieu offensif (capitaine)",
+                "bio": "Capitaine d'Arsenal et de la Norvège, créateur principal.",
+                "forces": [
+                  "Vision et dernière passe",
+                  "Qualité technique en zone serrée"
+                ],
+                "faiblesses": [
+                  "Présence physique limitée"
+                ],
+                "source": "profils 2025-26"
+              }
+            },
+            {
               "name": "Patrick Berg",
               "poste": "MF",
-              "p": 0.0808,
+              "p": 0.0617,
               "real_assists": 1.0,
               "why": "déjà 1 passe(s) déc."
             },
             {
               "name": "Andreas Schjelderup",
               "poste": "MF",
-              "p": 0.0808,
+              "p": 0.0617,
               "real_assists": 1.0,
               "why": "déjà 1 passe(s) déc."
             },
             {
-              "name": "Fredrik Aursnes",
+              "name": "Sander Berge",
               "poste": "MF",
-              "p": 0.0513,
-              "real_assists": 0.0,
-              "why": "création selon le poste"
-            },
-            {
-              "name": "Kristian Thorstvedt",
-              "poste": "MF",
-              "p": 0.0513,
+              "p": 0.039,
               "real_assists": 0.0,
               "why": "création selon le poste"
             }
           ],
           "creator": {
-            "name": "Patrick Berg",
+            "name": "Martin Ødegaard",
             "poste": "MF",
-            "p": 0.0808,
-            "real_assists": 1.0,
-            "why": "déjà 1 passe(s) déc."
+            "p": 0.0838,
+            "real_assists": 2.0,
+            "why": "déjà 2 passe(s) déc.",
+            "bio": {
+              "club": "Arsenal",
+              "role": "Milieu offensif (capitaine)",
+              "bio": "Capitaine d'Arsenal et de la Norvège, créateur principal.",
+              "forces": [
+                "Vision et dernière passe",
+                "Qualité technique en zone serrée"
+              ],
+              "faiblesses": [
+                "Présence physique limitée"
+              ],
+              "source": "profils 2025-26"
+            }
           },
           "keeper": {
             "name": "Ørjan Nyland",
-            "expSotFaced": 5.3,
+            "expSotFaced": 4.1,
             "fromLineup": false,
-            "why": "Subit une pression offensive adverse de ~1.69 xG → environ 5.3 tirs cadrés à gérer."
+            "why": "Subit une pression offensive adverse de ~1.31 xG → environ 4.1 tirs cadrés à gérer."
           },
           "benchImpact": [
             {
@@ -108668,21 +109241,85 @@
         }
       },
       "lineupImpact": {
-        "rotationDeltaHome": 0.136,
-        "rotationDeltaAway": 0.2,
+        "rotationDeltaHome": 0.2,
+        "rotationDeltaAway": 0.16,
         "defensiveDeltaHome": 0.0,
-        "defensiveDeltaAway": 0.0,
+        "defensiveDeltaAway": 0.112,
         "missingKeyPlayers": [],
-        "tacticalMod": 1.04,
-        "benchHome": 0.0,
-        "benchAway": 0.0,
-        "benchBonusOver25": 0.0
+        "tacticalMod": 1.0,
+        "benchHome": 0.5,
+        "benchAway": 0.5,
+        "benchBonusOver25": 0.03
       },
       "formations": {
-        "home": "4-3-3",
-        "away": "4-4-2"
+        "home": "4-1-4-1",
+        "away": "4-3-3"
       },
-      "officialLineups": null,
+      "officialLineups": {
+        "source": "ESPN (compo officielle)",
+        "homeFormation": "4-1-4-1",
+        "awayFormation": "4-3-3",
+        "homeXi": [
+          "Yahia Fofana (G)",
+          "Emmanuel Agbadou (CD-L)",
+          "Odilon Kossounou (CD-R)",
+          "Ibrahim Sangaré (DM)",
+          "Ghislain Konan (LB)",
+          "Guela Doué (RB)",
+          "Christ Inao Oulaï (CM-L)",
+          "Franck Kessié (CM-R)",
+          "Yan Diomande (LM)",
+          "Nicolas Pépé (RM)",
+          "Ange-Yoan Bonny (F)"
+        ],
+        "awayXi": [
+          "Ørjan Nyland (G)",
+          "Torbjørn Heggem (CD-L)",
+          "Kristoffer Ajer (CD-R)",
+          "David Møller Wolfe (LB)",
+          "Marcus Holmgren Pedersen (RB)",
+          "Sander Berge (CM)",
+          "Patrick Berg (LM)",
+          "Martin Ødegaard (RM)",
+          "Erling Haaland (F)",
+          "Antonio Nusa (LF)",
+          "Alexander Sørloth (RF)"
+        ],
+        "homeBench": [
+          "Jean Michaël Seri (SUB)",
+          "Alban Lafont (SUB)",
+          "Seko Fofana (SUB)",
+          "Mohamed Koné (SUB)",
+          "Evann Guessand (SUB)",
+          "Christopher Operi (SUB)",
+          "Evan Ndicka (SUB)",
+          "Bazoumana Touré (SUB)",
+          "Ousmane Diomande (SUB)",
+          "Elye Wahi (SUB)",
+          "Oumar Diakité (SUB)",
+          "Wilfried Singo (SUB)",
+          "Parfait Guiagon (SUB)",
+          "Simon Adingra (SUB)",
+          "Amad Diallo (SUB)"
+        ],
+        "awayBench": [
+          "Sondre Langas (SUB)",
+          "Sander Tangvik (SUB)",
+          "Jens Petter Hauge (SUB)",
+          "Oscar Bobb (SUB)",
+          "Fredrik Aursnes (SUB)",
+          "Leo Østigard (SUB)",
+          "Egil Selvik (SUB)",
+          "Fredrik André Bjørkan (SUB)",
+          "Morten Thorsby (SUB)",
+          "Andreas Schjelderup (SUB)",
+          "Jørgen Strand Larsen (SUB)",
+          "Julian Ryerson (SUB)",
+          "Thelo Aasgaard (SUB)",
+          "Henrik Falchener (SUB)",
+          "Kristian Thorstvedt (SUB)"
+        ]
+      },
       "mwi": {
         "home": 0.2,
         "away": 0.2,
@@ -108699,9 +109336,9 @@
         ]
       },
       "upsetIndex": {
-        "index": 60,
+        "index": 64,
         "label": "élevé",
-        "dampener": 0.973,
+        "dampener": 0.965,
         "favOverperf": true,
         "dogLowBlock": false
       },
@@ -108755,26 +109392,48 @@
       },
       "availability": {
         "home": {
-          "factor": 1.0,
-          "missing": [],
-          "applied": false
+          "factor": 0.78,
+          "missing": [
+            {
+              "name": "Nicolas Pépé",
+              "weight": 0.48
+            },
+            {
+              "name": "Amad Diallo",
+              "weight": 0.361
+            },
+            {
+              "name": "Franck Kessié",
+              "weight": 0.158
+            }
+          ],
+          "applied": true
         },
         "away": {
-          "factor": 1.0,
-          "missing": [],
-          "applied": false
+          "factor": 0.8945,
+          "missing": [
+            {
+              "name": "Martin Ødegaard",
+              "weight": 0.221
+            },
+            {
+              "name": "Thelo Aasgaard",
+              "weight": 0.098
+            }
+          ],
+          "applied": true
         }
       },
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.3092,
+          "rawKelly": 0.2463,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
-          "kelly": 0.006,
-          "rawKelly": 0.0071,
-          "note": "miser ~0.6% de la bankroll (Kelly×confiance, plafonné 5%)"
+          "kelly": 0.0328,
+          "rawKelly": 0.0386,
+          "note": "miser ~3.3% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
           "kelly": 0.0,
@@ -108798,12 +109457,12 @@
         "calibratedOn": 195
       },
       "knockout": {
-        "qualifyHome": 0.6842,
-        "qualifyAway": 0.3158,
+        "qualifyHome": 0.6034,
+        "qualifyAway": 0.3966,
         "reg90": {
-          "p1": 0.5315,
-          "pX": 0.254,
-          "p2": 0.2145
+          "p1": 0.4366,
+          "pX": 0.2945,
+          "p2": 0.269
         },
         "shootoutHome": 0.5502,
         "note": "90' → prolongations (λ−70%) → tirs au but (Elo+forme)"
@@ -108814,12 +109473,735 @@
     "id": 77,
     "league": "CDM 2026 · Round of 32",
     "date": "2026-06-30 17:00 UTC-4",
-    "status": "SCHEDULED",
+    "status": "FINISHED",
     "liveScore": null,
     "liveClock": null,
-    "realScore": null,
-    "htScore": null,
-    "analysis": null,
+    "realScore": "3-0",
+    "htScore": "1-0",
+    "analysis": {
+      "realScore": "3-0",
+      "outcome": "1",
+      "winner": "France",
+      "predictedOutcome": "1",
+      "predictionCorrect": true,
+      "exactScore": false,
+      "over25Real": true,
+      "bttsReal": false,
+      "totalGoals": 3,
+      "homeXgReal": 1.79,
+      "awayXgReal": 0.51,
+      "homeShots": 25,
+      "awayShots": 8,
+      "homeShotsOn": 12,
+      "awayShotsOn": 3,
+      "teamStats": {
+        "home_possession": 61,
+        "home_passes": 551,
+        "home_passes_ok": 485,
+        "home_pass_pct": 0.9,
+        "home_crosses": 16,
+        "home_crosses_ok": 4,
+        "home_long_balls": 37,
+        "home_tackles": 13,
+        "home_tackles_won": 7,
+        "home_interceptions": 5,
+        "home_clearances": 23,
+        "home_blocked_shots": 4,
+        "home_fouls": 14,
+        "home_offsides": 3,
+        "home_saves": 3,
+        "away_possession": 39,
+        "away_passes": 351,
+        "away_passes_ok": 279,
+        "away_pass_pct": 0.8,
+        "away_crosses": 10,
+        "away_crosses_ok": 3,
+        "away_long_balls": 44,
+        "away_tackles": 14,
+        "away_tackles_won": 8,
+        "away_interceptions": 12,
+        "away_clearances": 26,
+        "away_blocked_shots": 1,
+        "away_fouls": 10,
+        "away_offsides": 1,
+        "away_saves": 9
+      },
+      "homeCorners": 9,
+      "awayCorners": 1,
+      "homeCards": 0,
+      "awayCards": 0,
+      "events": {
+        "goals": [
+          {
+            "minute": 45,
+            "team": "France",
+            "player": "Kylian Mbappé",
+            "assist": "Ousmane Dembélé",
+            "note": null
+          },
+          {
+            "minute": 53,
+            "team": "France",
+            "player": "Bradley Barcola",
+            "assist": "Michael Olise",
+            "note": null
+          },
+          {
+            "minute": 74,
+            "team": "France",
+            "player": "Kylian Mbappé",
+            "assist": "Michael Olise",
+            "note": null
+          }
+        ],
+        "cards": [],
+        "commentary": [
+          {
+            "minute": 0,
+            "text": "Lineups are announced and players are warming up.",
+            "type": ""
+          },
+          {
+            "minute": 0,
+            "text": "First Half begins.",
+            "type": "Kickoff"
+          },
+          {
+            "minute": 1,
+            "text": "Foul by Lucas Bergvall (Sweden).",
+            "type": "Foul"
+          },
+          {
+            "minute": 1,
+            "text": "Lucas Digne (France) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 2,
+            "text": "Viktor Gyökeres (Sweden) wins a free kick on the right wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 2,
+            "text": "Foul by William Saliba (France).",
+            "type": "Foul"
+          },
+          {
+            "minute": 3,
+            "text": "Attempt saved. Alexander Isak (Sweden) right footed shot from the centre of the box is saved in the centre of the goal by Mike Maignan (France). Assisted by Viktor Gyökeres.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 3,
+            "text": "Foul by Alexander Isak (Sweden).",
+            "type": "Foul"
+          },
+          {
+            "minute": 3,
+            "text": "Aurélien Tchouaméni (France) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 4,
+            "text": "Foul by Yasin Ayari (Sweden).",
+            "type": "Foul"
+          },
+          {
+            "minute": 4,
+            "text": "Ousmane Dembélé (France) wins a free kick on the right wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 6,
+            "text": "Viktor Gyökeres (Sweden) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 6,
+            "text": "Foul by Adrien Rabiot (France).",
+            "type": "Foul"
+          },
+          {
+            "minute": 7,
+            "text": "Foul by Yasin Ayari (Sweden).",
+            "type": "Foul"
+          },
+          {
+            "minute": 7,
+            "text": "Michael Olise (France) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 14,
+            "text": "Foul by Lucas Bergvall (Sweden).",
+            "type": "Foul"
+          },
+          {
+            "minute": 14,
+            "text": "Adrien Rabiot (France) wins a free kick on the left wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 15,
+            "text": "Corner, France. Conceded by Gabriel Gudmundsson.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 15,
+            "text": "Attempt saved. Lucas Digne (France) left footed shot from outside the box is saved in the bottom right corner by Jacob Widell Zetterström (Sweden).",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 17,
+            "text": "Attempt saved. Kylian Mbappé (France) right footed shot from outside the box is saved in the bottom left corner by Jacob Widell Zetterström (Sweden). Assisted by Bradley Barcola.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 18,
+            "text": "Viktor Gyökeres (Sweden) wins a free kick on the left wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 18,
+            "text": "Foul by William Saliba (France).",
+            "type": "Foul"
+          },
+          {
+            "minute": 19,
+            "text": "Attempt missed. Bradley Barcola (France) left footed shot from the left side of the box is too high. Assisted by Adrien Rabiot.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 20,
+            "text": "Offside, France. Kylian Mbappé is caught offside.",
+            "type": "Offside"
+          },
+          {
+            "minute": 22,
+            "text": "Yasin Ayari (Sweden) wins a free kick in the attacking half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 22,
+            "text": "Foul by Michael Olise (France).",
+            "type": "Foul"
+          },
+          {
+            "minute": 23,
+            "text": "Delay in match for a drinks break.",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 26,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 27,
+            "text": "Yasin Ayari (Sweden) wins a free kick in the attacking half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 27,
+            "text": "Foul by Adrien Rabiot (France).",
+            "type": "Foul"
+          },
+          {
+            "minute": 27,
+            "text": "Attempt missed. Alexander Isak (Sweden) right footed shot from the centre of the box is close, but misses to the right. Assisted by Yasin Ayari with a through ball following a set piece situation.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 28,
+            "text": "Attempt blocked. Ousmane Dembélé (France) right footed shot from outside the box is blocked. Assisted by Aurélien Tchouaméni.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 28,
+            "text": "Corner, France. Conceded by Elliot Stroud.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 30,
+            "text": "Attempt saved. Adrien Rabiot (France) left footed shot from the left side of the box is saved in the centre of the goal by Jacob Widell Zetterström (Sweden).",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 30,
+            "text": "Corner, France. Conceded by Victor Lindelöf.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 31,
+            "text": "Corner, France. Conceded by Gabriel Gudmundsson.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 32,
+            "text": "Kylian Mbappé (France) hits the left post with a right footed shot from the centre of the box. Assisted by Jules Koundé following a corner.",
+            "type": "Shot Hit Woodwork"
+          },
+          {
+            "minute": 33,
+            "text": "Attempt missed. Adrien Rabiot (France) left footed shot from outside the box is too high. Assisted by Ousmane Dembélé.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 35,
+            "text": "Viktor Gyökeres (Sweden) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 35,
+            "text": "Foul by Aurélien Tchouaméni (France).",
+            "type": "Foul"
+          },
+          {
+            "minute": 36,
+            "text": "Michael Olise (France) hits the right post with a left footed shot from the centre of the box.",
+            "type": "Shot Hit Woodwork"
+          },
+          {
+            "minute": 36,
+            "text": "Attempt missed. Ousmane Dembélé (France) left footed shot from the right side of the box is close, but misses to the left.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 38,
+            "text": "Foul by Lucas Bergvall (Sweden).",
+            "type": "Foul"
+          },
+          {
+            "minute": 38,
+            "text": "Kylian Mbappé (France) wins a free kick on the left wing.",
+            "type": "Dispossessed"
+          },
+          {
+            "minute": 39,
+            "text": "Attempt missed. Dayot Upamecano (France) header from the centre of the box misses to the right following a set piece situation.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 39,
+            "text": "Elliot Stroud (Sweden) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 39,
+            "text": "Foul by Dayot Upamecano (France).",
+            "type": "Foul"
+          },
+          {
+            "minute": 40,
+            "text": "Attempt saved. Kylian Mbappé (France) right footed shot from outside the box is saved in the centre of the goal by Jacob Widell Zetterström (Sweden). Assisted by Adrien Rabiot.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 41,
+            "text": "Lucas Bergvall (Sweden) wins a free kick on the right wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 41,
+            "text": "Foul by Adrien Rabiot (France).",
+            "type": "Foul"
+          },
+          {
+            "minute": 42,
+            "text": "Attempt missed. Michael Olise (France) left footed shot from outside the box is close, but misses to the left. Assisted by Aurélien Tchouaméni.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 43,
+            "text": "Corner, France. Conceded by Daniel Svensson.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 44,
+            "text": "Attempt blocked. Jules Koundé (France) left footed shot from the right side of the box is blocked. Assisted by Ousmane Dembélé.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 45,
+            "text": "Attempt saved. Michael Olise (France) left footed shot from outside the box is saved in the bottom left corner by Jacob Widell Zetterström (Sweden). Assisted by Kylian Mbappé.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 45,
+            "text": "Corner, France. Conceded by Jacob Widell Zetterström.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 45,
+            "text": "Goal! France 1, Sweden 0. Kylian Mbappé (France) right footed shot from the centre of the box to the top right corner. Assisted by Ousmane Dembélé following a corner.",
+            "type": "Goal"
+          },
+          {
+            "minute": 45,
+            "text": "Fourth official has announced 3 minutes of added time.",
+            "type": ""
+          },
+          {
+            "minute": 45,
+            "text": "Attempt missed. Elliot Stroud (Sweden) right footed shot from the centre of the box is high and wide to the right.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 45,
+            "text": "Offside, Sweden. Daniel Svensson is caught offside.",
+            "type": "Offside"
+          },
+          {
+            "minute": 45,
+            "text": "First Half ends, France 1, Sweden 0.",
+            "type": ""
+          },
+          {
+            "minute": 45,
+            "text": "Second Half begins France 1, Sweden 0.",
+            "type": "Start 2nd Half"
+          },
+          {
+            "minute": 47,
+            "text": "Foul by Alexander Isak (Sweden).",
+            "type": "Foul"
+          },
+          {
+            "minute": 47,
+            "text": "Jules Koundé (France) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 50,
+            "text": "Attempt missed. Aurélien Tchouaméni (France) right footed shot from outside the box is too high. Assisted by Kylian Mbappé.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 52,
+            "text": "Offside, France. Ousmane Dembélé is caught offside.",
+            "type": "Offside"
+          },
+          {
+            "minute": 53,
+            "text": "Goal! France 2, Sweden 0. Bradley Barcola (France) right footed shot from the centre of the box to the top left corner. Assisted by Michael Olise with a through ball following a fast break.",
+            "type": "Goal"
+          },
+          {
+            "minute": 54,
+            "text": "Handball by Kylian Mbappé (France).",
+            "type": "Handball"
+          },
+          {
+            "minute": 55,
+            "text": "Anthony Elanga (Sweden) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 55,
+            "text": "Foul by Lucas Digne (France).",
+            "type": "Foul"
+          },
+          {
+            "minute": 56,
+            "text": "Corner, Sweden. Conceded by Lucas Digne.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 57,
+            "text": "Attempt missed. Lucas Bergvall (Sweden) header from the centre of the box misses to the left. Assisted by Daniel Svensson with a cross following a corner.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 61,
+            "text": "Attempt saved. Michael Olise (France) left footed shot from outside the box is saved in the bottom left corner by Jacob Widell Zetterström (Sweden). Assisted by Ousmane Dembélé.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 61,
+            "text": "Corner, France. Conceded by Jacob Widell Zetterström.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 65,
+            "text": "Attempt blocked. Michael Olise (France) left footed shot from the left side of the box is blocked. Assisted by Kylian Mbappé.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 65,
+            "text": "Corner, France. Conceded by Gabriel Gudmundsson.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 66,
+            "text": "Substitution, Sweden. Taha Ali replaces Elliot Stroud.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 66,
+            "text": "Substitution, Sweden. Besfort Zeneli replaces Lucas Bergvall.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 66,
+            "text": "Attempt blocked. Dayot Upamecano (France) right footed shot from the centre of the box is blocked. Assisted by Adrien Rabiot.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 68,
+            "text": "Delay in match for a drinks break.",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 71,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 71,
+            "text": "Attempt saved. Michael Olise (France) left footed shot from the centre of the box is saved in the centre of the goal by Jacob Widell Zetterström (Sweden). Assisted by Kylian Mbappé.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 73,
+            "text": "Handball by Alexander Isak (Sweden).",
+            "type": "Handball"
+          },
+          {
+            "minute": 74,
+            "text": "Goal! France 3, Sweden 0. Kylian Mbappé (France) right footed shot from the left side of the box to the bottom right corner. Assisted by Michael Olise with a through ball.",
+            "type": "Goal"
+          },
+          {
+            "minute": 75,
+            "text": "Substitution, France. Malo Gusto replaces Jules Koundé.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 75,
+            "text": "Substitution, France. Désiré Doué replaces Ousmane Dembélé.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 78,
+            "text": "Foul by Besfort Zeneli (Sweden).",
+            "type": "Foul"
+          },
+          {
+            "minute": 78,
+            "text": "Aurélien Tchouaméni (France) wins a free kick in the attacking half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 78,
+            "text": "Substitution, France. Théo Hernández replaces Lucas Digne.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 79,
+            "text": "Foul by Gabriel Gudmundsson (Sweden).",
+            "type": "Foul"
+          },
+          {
+            "minute": 79,
+            "text": "Désiré Doué (France) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 81,
+            "text": "Attempt saved. Désiré Doué (France) right footed shot from the right side of the box is saved in the bottom right corner by Jacob Widell Zetterström (Sweden). Assisted by Malo Gusto.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 82,
+            "text": "Attempt saved. Bradley Barcola (France) left footed shot from the left side of the six yard box is saved in the centre of the goal by Jacob Widell Zetterström (Sweden). Assisted by Théo Hernández.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 82,
+            "text": "Corner, France. Conceded by Jacob Widell Zetterström.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 82,
+            "text": "Substitution, Sweden. Mattias Svanberg replaces Daniel Svensson.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 82,
+            "text": "Substitution, Sweden. Benjamin Nygren replaces Yasin Ayari.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 85,
+            "text": "Substitution, France. Jean-Philippe Mateta replaces Kylian Mbappé.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 85,
+            "text": "Substitution, France. Rayan Cherki replaces Michael Olise.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 85,
+            "text": "Mattias Svanberg (Sweden) wins a free kick in the attacking half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 85,
+            "text": "Foul by Adrien Rabiot (France).",
+            "type": "Foul"
+          },
+          {
+            "minute": 86,
+            "text": "Attempt missed. Mattias Svanberg (Sweden) right footed shot from outside the box misses to the left.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 87,
+            "text": "Offside, France. Bradley Barcola is caught offside.",
+            "type": "Offside"
+          },
+          {
+            "minute": 89,
+            "text": "Attempt saved. Viktor Gyökeres (Sweden) right footed shot from the centre of the box is saved in the bottom right corner by Mike Maignan (France).",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 89,
+            "text": "Substitution, Sweden. Gustaf Nilsson replaces Alexander Isak.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 90,
+            "text": "Gustaf Lagerbielke (Sweden) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Foul by Jean-Philippe Mateta (France).",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Fourth official has announced 4 minutes of added time.",
+            "type": ""
+          },
+          {
+            "minute": 90,
+            "text": "Taha Ali (Sweden) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Foul by Malo Gusto (France).",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Attempt missed. Jean-Philippe Mateta (France) left footed shot from the centre of the box is too high. Assisted by Désiré Doué with a cross.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 90,
+            "text": "Taha Ali (Sweden) wins a free kick on the left wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Foul by Rayan Cherki (France).",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Attempt blocked. Gustaf Nilsson (Sweden) header from the centre of the box is blocked. Assisted by Benjamin Nygren with a cross.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 90,
+            "text": "Attempt saved. Mattias Svanberg (Sweden) right footed shot from the right side of the box is saved in the bottom right corner by Mike Maignan (France). Assisted by Anthony Elanga.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 90,
+            "text": "Second Half ends, France 3, Sweden 0.",
+            "type": "End Regular Time"
+          },
+          {
+            "minute": 0,
+            "text": "Match ends, France 3, Sweden 0.",
+            "type": ""
+          }
+        ],
+        "halftime": "1-0",
+        "motm": "—",
+        "note": "",
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "home_xi": [
+            "Mike Maignan",
+            "William Saliba",
+            "Dayot Upamecano",
+            "Lucas Digne",
+            "Jules Koundé",
+            "Michael Olise",
+            "Adrien Rabiot",
+            "Aurélien Tchouaméni",
+            "Kylian Mbappé",
+            "Bradley Barcola",
+            "Ousmane Dembélé"
+          ],
+          "home_bench": [
+            "Warren Zaïre-Emery",
+            "Robin Risser",
+            "Jean-Philippe Mateta",
+            "Malo Gusto",
+            "Rayan Cherki",
+            "Ibrahima Konaté",
+            "Désiré Doué",
+            "Maghnes Akliouche",
+            "Maxence Lacroix",
+            "Theo Hernández",
+            "Manu Koné",
+            "Marcus Thuram",
+            "Brice Samba",
+            "Lucas Hernández",
+            "N'Golo Kanté"
+          ],
+          "away_formation": "4-4-2",
+          "away_xi": [
+            "Jacob Widell Zetterström",
+            "Victor Lindelöf",
+            "Gustaf Lagerbielke",
+            "Gabriel Gudmundsson",
+            "Daniel Svensson",
+            "Yasin Ayari",
+            "Lucas Bergvall",
+            "Elliot Stroud",
+            "Anthony Elanga",
+            "Alexander Isak",
+            "Viktor Gyökeres"
+          ],
+          "away_bench": [
+            "Kristoffer Nordfeldt",
+            "Besfort Zeneli",
+            "Taha Ali",
+            "Eric Smith",
+            "Carl Starfelt",
+            "Jesper Karlström",
+            "Alexander Bernhardsson",
+            "Viktor Johansson",
+            "Ken Sema",
+            "Hjalmar Ekdal",
+            "Benjamin Nygren",
+            "Herman Johansson",
+            "Gustaf Nilsson",
+            "Mattias Svanberg"
+          ],
+          "source": "ESPN (compos réelles)"
+        }
+      },
+      "summary": "Le modèle donnait <b>France</b> favori (93%). ✅ Issue correctement anticipée. Score le plus probable prévu : 4-0 → réel 3-0. Total buts 3 (Over 2.5), BTTS non."
+    },
     "nlpMomentum": null,
     "hotTrends": [
       "France : Plus de 2.5 buts dans 100% de ses 7 derniers matchs",
@@ -108835,12 +110217,12 @@
     "awayGF": 2.0,
     "homeGA": 1.0,
     "awayGA": 2.4,
-    "homeXG": 4.51,
-    "awayXG": 0.44,
+    "homeXG": 4.38,
+    "awayXG": 0.4,
     "homeForm": 8,
     "awayForm": 8,
-    "homeElo": 2080.8,
-    "awayElo": 1760.5,
+    "homeElo": 2078.2,
+    "awayElo": 1760.8,
     "homeForm5": "WWWWL",
     "awayForm5": "DLWDL",
     "homeFormDetail": {
@@ -108888,25 +110270,25 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.9355,
-      "pX": 0.03,
-      "p2": 0.0346,
+      "p1": 0.9345,
+      "pX": 0.0307,
+      "p2": 0.0348,
       "ensemble": {
         "weights": {
-          "elo": 0.36152877241701137,
-          "grid": 0.37074261287594124,
-          "form": 0.2677286147070474
+          "elo": 0.36122407719946337,
+          "grid": 0.3702476160533212,
+          "form": 0.26852830674721545
         },
         "T": 0.791,
         "elo": [
-          0.809,
-          0.097,
-          0.093
+          0.807,
+          0.099,
+          0.095
         ],
         "grid": [
-          0.958,
-          0.035,
-          0.008
+          0.957,
+          0.036,
+          0.007
         ],
         "form": [
           0.865,
@@ -108914,56 +110296,56 @@
           0.105
         ]
       },
-      "over25": 0.8142,
-      "btts": 0.4529,
+      "over25": 0.8451,
+      "btts": 0.4754,
       "marketCalib": {
-        "bttsShift": 0.0681,
-        "overShift": -0.0575,
-        "bttsRaw": 0.3848,
+        "bttsShift": 0.0811,
+        "overShift": -0.0192,
+        "bttsRaw": 0.3943,
         "n": 195
       },
-      "lamHome": 4.51,
-      "lamAway": 0.44,
+      "lamHome": 4.38,
+      "lamAway": 0.4,
       "topScore": [
         4,
         0
       ],
       "doubleChance": {
-        "1X": 0.9923,
-        "12": 0.9654,
-        "X2": 0.0421
+        "1X": 0.9927,
+        "12": 0.9644,
+        "X2": 0.0429
       },
       "drawNoBet": {
-        "home": 0.9921,
-        "away": 0.0079
+        "home": 0.9924,
+        "away": 0.0076
       },
       "topScores": [
         {
           "score": "4-0",
-          "p": 0.1211
-        },
-        {
-          "score": "5-0",
-          "p": 0.1093
+          "p": 0.1201
         },
         {
           "score": "3-0",
-          "p": 0.1074
+          "p": 0.1097
+        },
+        {
+          "score": "5-0",
+          "p": 0.1052
         },
         {
           "score": "6-0",
-          "p": 0.0821
+          "p": 0.0768
         },
         {
           "score": "2-0",
-          "p": 0.0715
+          "p": 0.0751
         }
       ],
       "scenarios": [
         {
           "id": "closed",
           "title": "Match fermé",
-          "p": 0.0402,
+          "p": 0.0437,
           "scores": [
             "1-0",
             "0-0"
@@ -108973,7 +110355,7 @@
         {
           "id": "tight",
           "title": "Match serré",
-          "p": 0.0881,
+          "p": 0.0921,
           "scores": [
             "2-0",
             "1-1"
@@ -108983,20 +110365,20 @@
         {
           "id": "open",
           "title": "Match ouvert / spectacle",
-          "p": 0.8717,
+          "p": 0.8643,
           "scores": [
             "4-0",
-            "5-0"
+            "3-0"
           ],
           "note": "Over 2.5 favorisé · les deux blocs prennent des risques"
         },
         {
           "id": "blowout",
           "title": "Large écart",
-          "p": 0.8094,
+          "p": 0.8011,
           "scores": [
             "4-0",
-            "5-0"
+            "3-0"
           ],
           "note": "Domination nette d'une équipe (écart ≥ 2 buts) · ANGLE, inclus dans « spectacle »",
           "angle": true
@@ -109004,61 +110386,61 @@
       ],
       "overUnder": {
         "0.5": {
-          "over": 0.9913,
-          "under": 0.0087
+          "over": 0.9906,
+          "under": 0.0094
         },
         "1.5": {
-          "over": 0.9598,
-          "under": 0.0402
+          "over": 0.9563,
+          "under": 0.0437
         },
         "2.5": {
-          "over": 0.8717,
-          "under": 0.1283
+          "over": 0.8643,
+          "under": 0.1357
         },
         "3.5": {
-          "over": 0.7278,
-          "under": 0.2722
+          "over": 0.7176,
+          "under": 0.2824
         }
       },
-      "totalXg": 4.95,
+      "totalXg": 4.78,
       "bttsConf": {
         "pick": "indécis",
-        "score": 0.47,
+        "score": 0.45,
         "label": "faible"
       },
       "halftime": {
-        "lamHome": 1.83,
-        "lamAway": 0.15,
+        "lamHome": 2.22,
+        "lamAway": 0.11,
         "topScore": [
-          1,
+          2,
           0
         ],
-        "p1": 0.7916,
-        "pX": 0.1872,
-        "p2": 0.0212,
+        "p1": 0.8626,
+        "pX": 0.1277,
+        "p2": 0.0097,
         "ou05": {
-          "over": 0.8654,
-          "under": 0.1346
+          "over": 0.9102,
+          "under": 0.0898
         },
         "ou15": {
-          "over": 0.615,
-          "under": 0.385
+          "over": 0.7115,
+          "under": 0.2885
         },
-        "shareHome": 0.407,
-        "shareAway": 0.342,
-        "note": "1ère MT estimée via les ratios de buts en 1ère MT propres à chaque équipe (priorisé à ~42% via Bayesian Shrinkage). Domicile: 41%, Extérieur: 34%."
+        "shareHome": 0.507,
+        "shareAway": 0.263,
+        "note": "1ère MT estimée via les ratios de buts en 1ère MT propres à chaque équipe (priorisé à ~42% via Bayesian Shrinkage). Domicile: 51%, Extérieur: 26%."
       },
       "value": {
         "home": {
           "odd": 1.27,
           "implied": 0.787,
-          "edge": 0.148,
+          "edge": 0.147,
           "is_value": true
         },
         "draw": {
           "odd": 6.0,
           "implied": 0.167,
-          "edge": -0.137,
+          "edge": -0.136,
           "is_value": false
         },
         "away": {
@@ -109121,82 +110503,18 @@
           }
         },
         "redProb": 0.184,
-        "foulsHome": 9.1,
-        "foulsAway": 10.6,
+        "foulsHome": 10.0,
+        "foulsAway": 6.0,
         "src": "FootyStats (réel)"
       },
       "shots": {
-        "expShots": 25.0,
-        "expShotsOn": 9.7,
-        "home": 14.0,
-        "away": 11.0,
-        "homeOn": 5.3,
-        "awayOn": 4.4,
-        "homeAcc": 38,
-        "awayAcc": 40,
-        "line": 24.5,
-        "lineOn": 9.5,
-        "lines": {
-          "20.5": {
-            "over": 0.8121,
-            "under": 0.1879
-          },
-          "22.5": {
-            "over": 0.6792,
-            "under": 0.3208
-          },
-          "24.5": {
-            "over": 0.5229,
-            "under": 0.4771
-          },
-          "26.5": {
-            "over": 0.367,
-            "under": 0.633
-          },
-          "28.5": {
-            "over": 0.2337,
-            "under": 0.7663
-          }
-        },
-        "linesOn": {
-          "7.5": {
-            "over": 0.7504,
-            "under": 0.2496
-          },
-          "8.5": {
-            "over": 0.631,
-            "under": 0.369
-          },
-          "9.5": {
-            "over": 0.5025,
-            "under": 0.4975
-          },
-          "10.5": {
-            "over": 0.378,
-            "under": 0.622
-          },
-          "11.5": {
-            "over": 0.2684,
-            "under": 0.7316
-          }
-        },
-        "real": false,
-        "basis": {
-          "dominance": [
-            1.22,
-            0.82
-          ],
-          "possession": [
-            51,
-            49
-          ],
-          "accuracy": [
-            38,
-            40
-          ]
-        },
-        "shotsAvgHome": 13.7,
-        "shotsAvgAway": 12.8
+        "home": 25,
+        "away": 8,
+        "homeOn": 12,
+        "awayOn": 3,
+        "homeAcc": 48,
+        "awayAcc": 38,
+        "real": true
       },
       "referee": null,
       "riskPlayers": {
@@ -109273,7 +110591,7 @@
             {
               "name": "Ousmane Dembélé",
               "poste": "FW",
-              "p": 0.5746,
+              "p": 0.564,
               "real_goals": 4.0,
               "why": "déjà 4 but(s) dans le tournoi · volume de tirs élevé (8)",
               "bio": {
@@ -109294,7 +110612,7 @@
             {
               "name": "Kylian Mbappé",
               "poste": "FW",
-              "p": 0.5746,
+              "p": 0.564,
               "real_goals": 4.0,
               "why": "déjà 4 but(s) dans le tournoi · volume de tirs élevé (16)",
               "bio": {
@@ -109315,14 +110633,14 @@
             {
               "name": "Désiré Doué",
               "poste": "FW",
-              "p": 0.5319,
+              "p": 0.5215,
               "real_goals": 1.0,
               "why": "déjà 1 but(s) dans le tournoi · volume de tirs élevé (6)"
             },
             {
               "name": "Michael Olise",
               "poste": "FW",
-              "p": 0.4884,
+              "p": 0.4784,
               "real_goals": 0.0,
               "why": "volume de tirs élevé (8)",
               "bio": {
@@ -109342,7 +110660,7 @@
             {
               "name": "Bradley Barcola",
               "poste": "FW",
-              "p": 0.2349,
+              "p": 0.229,
               "real_goals": 1.0,
               "why": "déjà 1 but(s) dans le tournoi"
             }
@@ -109351,7 +110669,7 @@
             {
               "name": "Kylian Mbappé",
               "poste": "FW",
-              "p": 0.3477,
+              "p": 0.3396,
               "real_assists": 2.0,
               "why": "déjà 2 passe(s) déc.",
               "bio": {
@@ -109372,7 +110690,7 @@
             {
               "name": "Michael Olise",
               "poste": "FW",
-              "p": 0.3477,
+              "p": 0.3396,
               "real_assists": 3.0,
               "why": "déjà 3 passe(s) déc.",
               "bio": {
@@ -109392,14 +110710,14 @@
             {
               "name": "Aurélien Tchouaméni",
               "poste": "MF",
-              "p": 0.3041,
+              "p": 0.2968,
               "real_assists": 1.0,
               "why": "déjà 1 passe(s) déc."
             },
             {
               "name": "Ousmane Dembélé",
               "poste": "FW",
-              "p": 0.2671,
+              "p": 0.2605,
               "real_assists": 1.0,
               "why": "déjà 1 passe(s) déc.",
               "bio": {
@@ -109421,7 +110739,7 @@
           "creator": {
             "name": "Kylian Mbappé",
             "poste": "FW",
-            "p": 0.3477,
+            "p": 0.3396,
             "real_assists": 2.0,
             "why": "déjà 2 passe(s) déc.",
             "bio": {
@@ -109441,9 +110759,9 @@
           },
           "keeper": {
             "name": "Brice Samba",
-            "expSotFaced": 1.4,
+            "expSotFaced": 1.2,
             "fromLineup": false,
-            "why": "Subit une pression offensive adverse de ~0.44 xG → environ 1.4 tirs cadrés à gérer."
+            "why": "Subit une pression offensive adverse de ~0.4 xG → environ 1.2 tirs cadrés à gérer."
           },
           "benchImpact": [
             {
@@ -109468,7 +110786,7 @@
             {
               "name": "Viktor Gyökeres",
               "poste": "FW",
-              "p": 0.0935,
+              "p": 0.0854,
               "real_goals": 1.0,
               "why": "déjà 1 but(s) dans le tournoi · volume de tirs élevé (11)",
               "bio": {
@@ -109488,14 +110806,14 @@
             {
               "name": "Anthony Elanga",
               "poste": "FW",
-              "p": 0.0885,
+              "p": 0.0808,
               "real_goals": 2.0,
               "why": "déjà 2 but(s) dans le tournoi · volume de tirs élevé (3)"
             },
             {
               "name": "Alexander Isak",
               "poste": "FW",
-              "p": 0.0835,
+              "p": 0.0762,
               "real_goals": 1.0,
               "why": "déjà 1 but(s) dans le tournoi · volume de tirs élevé (6)",
               "bio": {
@@ -109516,14 +110834,14 @@
             {
               "name": "Yasin Ayari",
               "poste": "MF",
-              "p": 0.0363,
+              "p": 0.033,
               "real_goals": 2.0,
               "why": "déjà 2 but(s) dans le tournoi · volume de tirs élevé (7)"
             },
             {
               "name": "Gustaf Nilsson",
               "poste": "FW",
-              "p": 0.0175,
+              "p": 0.0159,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             }
@@ -109532,7 +110850,7 @@
             {
               "name": "Alexander Isak",
               "poste": "FW",
-              "p": 0.0481,
+              "p": 0.0438,
               "real_assists": 3.0,
               "why": "déjà 3 passe(s) déc.",
               "bio": {
@@ -109553,7 +110871,7 @@
             {
               "name": "Viktor Gyökeres",
               "poste": "FW",
-              "p": 0.0481,
+              "p": 0.0438,
               "real_assists": 2.0,
               "why": "déjà 2 passe(s) déc.",
               "bio": {
@@ -109573,14 +110891,14 @@
             {
               "name": "Yasin Ayari",
               "poste": "MF",
-              "p": 0.0258,
+              "p": 0.0235,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Anthony Elanga",
               "poste": "FW",
-              "p": 0.0222,
+              "p": 0.0202,
               "real_assists": 0.0,
               "why": "création selon le poste"
             }
@@ -109588,7 +110906,7 @@
           "creator": {
             "name": "Alexander Isak",
             "poste": "FW",
-            "p": 0.0481,
+            "p": 0.0438,
             "real_assists": 3.0,
             "why": "déjà 3 passe(s) déc.",
             "bio": {
@@ -109608,9 +110926,9 @@
           },
           "keeper": {
             "name": "Jacob Widell Zetterström",
-            "expSotFaced": 14.1,
+            "expSotFaced": 13.7,
             "fromLineup": false,
-            "why": "Subit une pression offensive adverse de ~4.51 xG → environ 14.1 tirs cadrés à gérer."
+            "why": "Subit une pression offensive adverse de ~4.38 xG → environ 13.7 tirs cadrés à gérer."
           },
           "benchImpact": [
             {
@@ -109663,7 +110981,7 @@
         ]
       },
       "upsetIndex": {
-        "index": 21,
+        "index": 22,
         "label": "faible",
         "dampener": 1.0,
         "favOverperf": true,
@@ -109731,7 +111049,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.6966,
+          "rawKelly": 0.6919,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -109756,16 +111074,16 @@
       },
       "dixonColes": {
         "rho": -0.1176,
-        "gamma": 0.052,
+        "gamma": 0.11,
         "calibratedOn": 195
       },
       "knockout": {
-        "qualifyHome": 0.9874,
-        "qualifyAway": 0.0126,
+        "qualifyHome": 0.9875,
+        "qualifyAway": 0.0125,
         "reg90": {
-          "p1": 0.9587,
-          "pX": 0.0329,
-          "p2": 0.0084
+          "p1": 0.9579,
+          "pX": 0.0339,
+          "p2": 0.0081
         },
         "shootoutHome": 0.65,
         "note": "90' → prolongations (λ−70%) → tirs au but (Elo+forme)"
@@ -109776,9 +111094,9 @@
     "id": 79,
     "league": "CDM 2026 · Round of 32",
     "date": "2026-06-30 19:00 UTC-6",
-    "status": "SCHEDULED",
-    "liveScore": null,
-    "liveClock": null,
+    "status": "LIVE",
+    "liveScore": "1-0",
+    "liveClock": "29'",
     "realScore": null,
     "htScore": null,
     "analysis": null,
@@ -109792,8 +111110,8 @@
     "awayGF": 1.29,
     "homeGA": 0.25,
     "awayGA": 0.71,
-    "homeXG": 1.9,
-    "awayXG": 0.66,
+    "homeXG": 1.44,
+    "awayXG": 0.57,
     "homeForm": 8,
     "awayForm": 8,
     "homeElo": 1911.6,
@@ -109845,25 +111163,26 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.6774,
-      "pX": 0.2014,
-      "p2": 0.1212,
+      "p1": 0.6337,
+      "pX": 0.2702,
+      "p2": 0.0961,
       "ensemble": {
         "weights": {
-          "elo": 0.36152877241701137,
-          "grid": 0.37074261287594124,
-          "form": 0.2677286147070474
+          "elo": 0.3607611558260026,
+          "grid": 0.37055566838558596,
+          "form": 0.2686831757884115
         },
-        "T": 0.791,
+        "T": 0.665,
+        "drawBias": 0.0867,
         "elo": [
           0.529,
           0.25,
           0.221
         ],
         "grid": [
-          0.658,
-          0.231,
-          0.111
+          0.572,
+          0.294,
+          0.134
         ],
         "form": [
           0.761,
@@ -109871,56 +111190,56 @@
           0.158
         ]
       },
-      "over25": 0.4366,
-      "btts": 0.49,
+      "over25": 0.33,
+      "btts": 0.4469,
       "marketCalib": {
-        "bttsShift": 0.0681,
-        "overShift": -0.0575,
-        "bttsRaw": 0.4518,
-        "n": 195
+        "bttsShift": 0.0687,
+        "overShift": -0.0533,
+        "bttsRaw": 0.3782,
+        "n": 197
       },
-      "lamHome": 1.9,
-      "lamAway": 0.66,
+      "lamHome": 1.44,
+      "lamAway": 0.57,
       "topScore": [
-        2,
+        1,
         0
       ],
       "doubleChance": {
-        "1X": 0.8895,
-        "12": 0.7688,
-        "X2": 0.3419
+        "1X": 0.8658,
+        "12": 0.7061,
+        "X2": 0.4279
       },
       "drawNoBet": {
-        "home": 0.8561,
-        "away": 0.1439
+        "home": 0.8101,
+        "away": 0.1899
       },
       "topScores": [
         {
-          "score": "2-0",
-          "p": 0.1324
-        },
-        {
           "score": "1-0",
-          "p": 0.1286
-        },
-        {
-          "score": "1-1",
-          "p": 0.1071
-        },
-        {
-          "score": "2-1",
-          "p": 0.0947
+          "p": 0.1708
         },
         {
           "score": "0-0",
-          "p": 0.0842
+          "p": 0.1394
+        },
+        {
+          "score": "2-0",
+          "p": 0.1318
+        },
+        {
+          "score": "1-1",
+          "p": 0.124
+        },
+        {
+          "score": "2-1",
+          "p": 0.0846
         }
       ],
       "scenarios": [
         {
           "id": "closed",
           "title": "Match fermé",
-          "p": 0.2504,
+          "p": 0.3703,
           "scores": [
             "1-0",
             "0-0"
@@ -109930,7 +111249,7 @@
         {
           "id": "tight",
           "title": "Match serré",
-          "p": 0.2555,
+          "p": 0.2764,
           "scores": [
             "2-0",
             "1-1"
@@ -109940,7 +111259,7 @@
         {
           "id": "open",
           "title": "Match ouvert / spectacle",
-          "p": 0.4941,
+          "p": 0.3533,
           "scores": [
             "2-1",
             "3-0"
@@ -109950,7 +111269,7 @@
         {
           "id": "blowout",
           "title": "Large écart",
-          "p": 0.2913,
+          "p": 0.1825,
           "scores": [
             "3-0",
             "3-1"
@@ -109961,45 +111280,45 @@
       ],
       "overUnder": {
         "0.5": {
-          "over": 0.9158,
-          "under": 0.0842
+          "over": 0.8606,
+          "under": 0.1394
         },
         "1.5": {
-          "over": 0.7496,
-          "under": 0.2504
+          "over": 0.6297,
+          "under": 0.3703
         },
         "2.5": {
-          "over": 0.4941,
-          "under": 0.5059
+          "over": 0.3533,
+          "under": 0.6467
         },
         "3.5": {
-          "over": 0.2792,
-          "under": 0.7208
+          "over": 0.168,
+          "under": 0.832
         }
       },
-      "totalXg": 2.56,
+      "totalXg": 2.01,
       "bttsConf": {
         "pick": "indécis",
-        "score": 0.51,
+        "score": 0.55,
         "label": "faible"
       },
       "halftime": {
-        "lamHome": 0.54,
-        "lamAway": 0.29,
+        "lamHome": 0.41,
+        "lamAway": 0.25,
         "topScore": [
           0,
           0
         ],
-        "p1": 0.3237,
-        "pX": 0.5246,
-        "p2": 0.1517,
+        "p1": 0.265,
+        "pX": 0.5853,
+        "p2": 0.1497,
         "ou05": {
-          "over": 0.5785,
-          "under": 0.4215
+          "over": 0.504,
+          "under": 0.496
         },
         "ou15": {
-          "over": 0.2512,
-          "under": 0.7488
+          "over": 0.1933,
+          "under": 0.8067
         },
         "shareHome": 0.282,
         "shareAway": 0.443,
@@ -110009,52 +111328,55 @@
         "home": {
           "odd": 2.25,
           "implied": 0.444,
-          "edge": 0.233,
-          "is_value": true
+          "edge": 0.189,
+          "minEdge": 0.2,
+          "is_value": false
         },
         "draw": {
           "odd": 2.95,
           "implied": 0.339,
-          "edge": -0.138,
+          "edge": -0.069,
+          "minEdge": 0.2,
           "is_value": false
         },
         "away": {
           "odd": 3.9,
           "implied": 0.256,
-          "edge": -0.135,
+          "edge": -0.16,
+          "minEdge": 0.2,
           "is_value": false
         }
       },
       "corners": {
-        "exp_corners": 6.5,
-        "over": 0.4808,
-        "under": 0.5192,
+        "exp_corners": 6.6,
+        "over": 0.4921,
+        "under": 0.5079,
         "line": 6.5,
-        "home": 3.8,
+        "home": 3.9,
         "away": 2.7,
         "lines": {
           "4.5": {
-            "over": 0.7815,
-            "under": 0.2185
+            "over": 0.7893,
+            "under": 0.2107
           },
           "5.5": {
-            "over": 0.6377,
-            "under": 0.3623
+            "over": 0.648,
+            "under": 0.352
           },
           "6.5": {
-            "over": 0.4808,
-            "under": 0.5192
+            "over": 0.4921,
+            "under": 0.5079
           },
           "7.5": {
-            "over": 0.334,
-            "under": 0.666
+            "over": 0.3447,
+            "under": 0.6553
           },
           "8.5": {
-            "over": 0.214,
-            "under": 0.786
+            "over": 0.2227,
+            "under": 0.7773
           }
         },
-        "src": "FootyStats ×0.54 (calibré 77 matchs)"
+        "src": "FootyStats ×0.55 (calibré 79 matchs)"
       },
       "cards": {
         "exp_cards": 4.1,
@@ -110240,35 +111562,35 @@
             {
               "name": "Julián Quiñones",
               "poste": "FW",
-              "p": 0.3725,
+              "p": 0.2634,
               "real_goals": 2.0,
               "why": "déjà 2 but(s) dans le tournoi · volume de tirs élevé (10)"
             },
             {
+              "name": "Raúl Jiménez",
+              "poste": "FW",
+              "p": 0.2378,
+              "real_goals": 1.0,
+              "why": "déjà 1 but(s) dans le tournoi · volume de tirs élevé (6)"
+            },
+            {
               "name": "Roberto Alvarado",
               "poste": "FW",
-              "p": 0.2064,
+              "p": 0.1407,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Guillermo Martínez",
               "poste": "FW",
-              "p": 0.1701,
+              "p": 0.1151,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
-              "name": "Raúl Jiménez",
-              "poste": "FW",
-              "p": 0.1699,
-              "real_goals": 1.0,
-              "why": "déjà 1 but(s) dans le tournoi · volume de tirs élevé (6)"
-            },
-            {
               "name": "Luis Romo",
               "poste": "MF",
-              "p": 0.1075,
+              "p": 0.0719,
               "real_goals": 1.0,
               "why": "déjà 1 but(s) dans le tournoi"
             }
@@ -110277,28 +111599,28 @@
             {
               "name": "Roberto Alvarado",
               "poste": "FW",
-              "p": 0.1802,
+              "p": 0.1245,
               "real_assists": 2.0,
               "why": "déjà 2 passe(s) déc."
             },
             {
+              "name": "Érik Lira",
+              "poste": "MF",
+              "p": 0.1067,
+              "real_assists": 1.0,
+              "why": "déjà 1 passe(s) déc."
+            },
+            {
               "name": "Luis Romo",
               "poste": "MF",
-              "p": 0.1551,
+              "p": 0.1067,
               "real_assists": 1.0,
               "why": "déjà 1 passe(s) déc."
             },
             {
               "name": "Gilberto Mora",
               "poste": "MF",
-              "p": 0.1,
-              "real_assists": 0.0,
-              "why": "création selon le poste"
-            },
-            {
-              "name": "Julián Quiñones",
-              "poste": "FW",
-              "p": 0.0863,
+              "p": 0.0681,
               "real_assists": 0.0,
               "why": "création selon le poste"
             }
@@ -110306,15 +111628,15 @@
           "creator": {
             "name": "Roberto Alvarado",
             "poste": "FW",
-            "p": 0.1802,
+            "p": 0.1245,
             "real_assists": 2.0,
             "why": "déjà 2 passe(s) déc."
           },
           "keeper": {
             "name": "Raúl Rangel",
-            "expSotFaced": 2.1,
+            "expSotFaced": 1.8,
             "fromLineup": false,
-            "why": "Subit une pression offensive adverse de ~0.66 xG → environ 2.1 tirs cadrés à gérer."
+            "why": "Subit une pression offensive adverse de ~0.57 xG → environ 1.8 tirs cadrés à gérer."
           },
           "benchImpact": [
             {
@@ -110346,65 +111668,65 @@
             {
               "name": "Gonzalo Plata",
               "poste": "FW",
-              "p": 0.1196,
+              "p": 0.0986,
               "real_goals": 1.0,
               "why": "déjà 1 but(s) dans le tournoi · volume de tirs élevé (8)"
             },
             {
               "name": "Enner Valencia",
               "poste": "FW",
-              "p": 0.1076,
+              "p": 0.0887,
               "real_goals": 0.0,
               "why": "volume de tirs élevé (10)"
             },
             {
               "name": "Nilson Angulo",
               "poste": "FW",
-              "p": 0.0861,
+              "p": 0.0708,
               "real_goals": 1.0,
               "why": "déjà 1 but(s) dans le tournoi"
             },
             {
               "name": "John Yeboah",
               "poste": "FW",
-              "p": 0.0852,
+              "p": 0.07,
               "real_goals": 0.0,
               "why": "volume de tirs élevé (6)"
             },
             {
-              "name": "Kevin Rodríguez",
+              "name": "Jordy Caicedo",
               "poste": "FW",
-              "p": 0.0366,
+              "p": 0.0413,
               "real_goals": 0.0,
-              "why": "volume de tirs élevé (5)"
+              "why": "présence offensive selon le poste"
             }
           ],
           "assisters": [
             {
               "name": "Pedro Vite",
               "poste": "MF",
-              "p": 0.0587,
+              "p": 0.0471,
               "real_assists": 1.0,
               "why": "déjà 1 passe(s) déc."
             },
             {
+              "name": "Anthony Valencia",
+              "poste": "MF",
+              "p": 0.0297,
+              "real_assists": 0.0,
+              "why": "création selon le poste"
+            },
+            {
               "name": "Alan Franco",
               "poste": "MF",
-              "p": 0.0371,
+              "p": 0.0297,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Moisés Caicedo",
               "poste": "MF",
-              "p": 0.0371,
-              "real_assists": 0.0,
-              "why": "création selon le poste"
-            },
-            {
-              "name": "John Yeboah",
-              "poste": "FW",
-              "p": 0.0319,
+              "p": 0.0297,
               "real_assists": 0.0,
               "why": "création selon le poste"
             }
@@ -110412,15 +111734,15 @@
           "creator": {
             "name": "Pedro Vite",
             "poste": "MF",
-            "p": 0.0587,
+            "p": 0.0471,
             "real_assists": 1.0,
             "why": "déjà 1 passe(s) déc."
           },
           "keeper": {
             "name": "Hernán Galíndez",
-            "expSotFaced": 5.9,
+            "expSotFaced": 4.5,
             "fromLineup": false,
-            "why": "Subit une pression offensive adverse de ~1.9 xG → environ 5.9 tirs cadrés à gérer."
+            "why": "Subit une pression offensive adverse de ~1.44 xG → environ 4.5 tirs cadrés à gérer."
           },
           "benchImpact": [
             {
@@ -110435,21 +111757,85 @@
         }
       },
       "lineupImpact": {
-        "rotationDeltaHome": 0.136,
+        "rotationDeltaHome": 0.16,
         "rotationDeltaAway": 0.2,
-        "defensiveDeltaHome": 0.0,
+        "defensiveDeltaHome": 0.112,
         "defensiveDeltaAway": 0.0,
         "missingKeyPlayers": [],
         "tacticalMod": 1.04,
-        "benchHome": 0.0,
-        "benchAway": 0.0,
-        "benchBonusOver25": 0.0
+        "benchHome": 0.5,
+        "benchAway": 0.5,
+        "benchBonusOver25": 0.03
       },
       "formations": {
         "home": "4-3-3",
         "away": "4-4-2"
       },
-      "officialLineups": null,
+      "officialLineups": {
+        "source": "ESPN (compo officielle)",
+        "homeFormation": "4-3-3",
+        "awayFormation": "4-4-2",
+        "homeXi": [
+          "Raúl Rangel (G)",
+          "Johan Vásquez (CD-L)",
+          "César Montes (CD-R)",
+          "Jesús Gallardo (LB)",
+          "Jorge Sánchez (RB)",
+          "Érik Lira (CM)",
+          "Luis Romo (LM)",
+          "Gilberto Mora (RM)",
+          "Raúl Jiménez (F)",
+          "Julián Quiñones (LF)",
+          "Roberto Alvarado (RF)"
+        ],
+        "awayXi": [
+          "Hernán Galíndez (G)",
+          "Willian Pacho (CD-L)",
+          "Joel Ordóñez (CD-R)",
+          "Piero Hincapié (LB)",
+          "Alan Franco (RB)",
+          "Pedro Vite (CM-L)",
+          "Moisés Caicedo (CM-R)",
+          "Nilson Angulo (LM)",
+          "John Yeboah (RM)",
+          "Enner Valencia (CF-L)",
+          "Gonzalo Plata (CF-R)"
+        ],
+        "homeBench": [
+          "Guillermo Ochoa (SUB)",
+          "Israel Reyes (SUB)",
+          "Alexis Vega (SUB)",
+          "Guillermo Martínez (SUB)",
+          "Luis Chávez (SUB)",
+          "Álvaro Fidalgo (SUB)",
+          "Santiago Gimenez (SUB)",
+          "Edson Álvarez (SUB)",
+          "Mateo Chávez (SUB)",
+          "Carlos Acevedo (SUB)",
+          "Brian Gutiérrez (SUB)",
+          "Orbelín Pineda (SUB)",
+          "Armando González (SUB)",
+          "Obed Vargas (SUB)",
+          "César Huerta (SUB)"
+        ],
+        "awayBench": [
+          "Gonzalo Valle (SUB)",
+          "Yaimar Medina (SUB)",
+          "Anthony Valencia (SUB)",
+          "Jordy Alcívar (SUB)",
+          "Moisés Ramírez (SUB)",
+          "Ángelo Preciado (SUB)",
+          "Kendry Páez (SUB)",
+          "Denil Castillo (SUB)",
+          "Pervis Estupiñán (SUB)",
+          "Jeremy Arévalo (SUB)",
+          "Kevin Rodríguez (SUB)",
+          "Félix Torres (SUB)",
+          "Jordy Caicedo (SUB)",
+          "Jackson Porozo (SUB)",
+          "Alan Minda (SUB)"
+        ]
+      },
       "mwi": {
         "home": 0.2,
         "away": 0.2,
@@ -110466,9 +111852,9 @@
         ]
       },
       "upsetIndex": {
-        "index": 47,
+        "index": 51,
         "label": "modéré",
-        "dampener": 0.996,
+        "dampener": 0.989,
         "favOverperf": true,
         "dogLowBlock": true
       },
@@ -110485,7 +111871,7 @@
           ]
         },
         "away": {
-          "stars": 16.5,
+          "stars": 17.5,
           "boost": 1.18,
           "names": [
             "John Yeboah",
@@ -110509,33 +111895,63 @@
           ]
         },
         "away": {
-          "stars": 19.5,
+          "stars": 17.5,
           "shield": 0.85,
           "names": [
             "Hernán Galíndez",
             "Piero Hincapié",
             "Joel Ordóñez",
             "Willian Pacho",
-            "Pervis Estupiñán"
+            "Jackson Porozo"
           ]
         }
       },
       "availability": {
         "home": {
-          "factor": 1.0,
-          "missing": [],
-          "applied": false
+          "factor": 0.78,
+          "missing": [
+            {
+              "name": "Julián Quiñones",
+              "weight": 0.346
+            },
+            {
+              "name": "Roberto Alvarado",
+              "weight": 0.213
+            },
+            {
+              "name": "Luis Romo",
+              "weight": 0.117
+            },
+            {
+              "name": "Álvaro Fidalgo",
+              "weight": 0.087
+            },
+            {
+              "name": "Mateo Chávez",
+              "weight": 0.017
+            }
+          ],
+          "applied": true
         },
         "away": {
-          "factor": 1.0,
-          "missing": [],
-          "applied": false
+          "factor": 0.78,
+          "missing": [
+            {
+              "name": "Gonzalo Plata",
+              "weight": 0.564
+            },
+            {
+              "name": "Nilson Angulo",
+              "weight": 0.436
+            }
+          ],
+          "applied": true
         }
       },
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.4193,
+          "rawKelly": 0.3407,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -110550,7 +111966,7 @@
       "lineMovement": {
         "home": 0.0,
         "draw": 0.0,
-        "away": 0.95,
+        "away": 0.0,
         "opening": {
           "odd1": 2.25,
           "oddX": 2.95,
@@ -110559,17 +111975,17 @@
         "provider": "DraftKings"
       },
       "dixonColes": {
-        "rho": -0.1176,
+        "rho": -0.1177,
         "gamma": 0.052,
-        "calibratedOn": 195
+        "calibratedOn": 197
       },
       "knockout": {
-        "qualifyHome": 0.817,
-        "qualifyAway": 0.183,
+        "qualifyHome": 0.7669,
+        "qualifyAway": 0.2331,
         "reg90": {
-          "p1": 0.6636,
-          "pX": 0.2205,
-          "p2": 0.1159
+          "p1": 0.5783,
+          "pX": 0.2815,
+          "p2": 0.1402
         },
         "shootoutHome": 0.618,
         "note": "90' → prolongations (λ−70%) → tirs au but (Elo+forme)"
@@ -110649,16 +112065,17 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.8875,
-      "pX": 0.0601,
-      "p2": 0.0524,
+      "p1": 0.8558,
+      "pX": 0.1146,
+      "p2": 0.0296,
       "ensemble": {
         "weights": {
-          "elo": 0.36152877241701137,
-          "grid": 0.37074261287594124,
-          "form": 0.2677286147070474
+          "elo": 0.3607611558260026,
+          "grid": 0.37055566838558596,
+          "form": 0.2686831757884115
         },
-        "T": 0.791,
+        "T": 0.665,
+        "drawBias": 0.0867,
         "elo": [
           0.785,
           0.112,
@@ -110675,13 +112092,13 @@
           0.158
         ]
       },
-      "over25": 0.6416,
-      "btts": 0.422,
+      "over25": 0.6458,
+      "btts": 0.4226,
       "marketCalib": {
-        "bttsShift": 0.0681,
-        "overShift": -0.0575,
+        "bttsShift": 0.0687,
+        "overShift": -0.0533,
         "bttsRaw": 0.3539,
-        "n": 195
+        "n": 197
       },
       "lamHome": 3.14,
       "lamAway": 0.4,
@@ -110795,11 +112212,11 @@
           0
         ],
         "p1": 0.619,
-        "pX": 0.33,
+        "pX": 0.3301,
         "p2": 0.051,
         "ou05": {
-          "over": 0.7488,
-          "under": 0.2512
+          "over": 0.7487,
+          "under": 0.2513
         },
         "ou15": {
           "over": 0.4295,
@@ -110813,52 +112230,55 @@
         "home": {
           "odd": 1.286,
           "implied": 0.778,
-          "edge": 0.11,
-          "is_value": true
+          "edge": 0.078,
+          "minEdge": 0.2,
+          "is_value": false
         },
         "draw": {
           "odd": 5.5,
           "implied": 0.182,
-          "edge": -0.122,
+          "edge": -0.067,
+          "minEdge": 0.2,
           "is_value": false
         },
         "away": {
           "odd": 12.0,
           "implied": 0.083,
-          "edge": -0.031,
+          "edge": -0.054,
+          "minEdge": 0.2,
           "is_value": false
         }
       },
       "corners": {
         "exp_corners": 7.4,
-        "over": 0.4559,
-        "under": 0.5441,
+        "over": 0.4679,
+        "under": 0.5321,
         "line": 7.5,
         "home": 4.5,
         "away": 2.9,
         "lines": {
           "5.5": {
-            "over": 0.7437,
-            "under": 0.2563
+            "over": 0.7529,
+            "under": 0.2471
           },
           "6.5": {
-            "over": 0.6035,
-            "under": 0.3965
+            "over": 0.6148,
+            "under": 0.3852
           },
           "7.5": {
-            "over": 0.4559,
-            "under": 0.5441
+            "over": 0.4679,
+            "under": 0.5321
           },
           "8.5": {
-            "over": 0.3199,
-            "under": 0.6801
+            "over": 0.331,
+            "under": 0.669
           },
           "9.5": {
-            "over": 0.2086,
-            "under": 0.7914
+            "over": 0.2178,
+            "under": 0.7822
           }
         },
-        "src": "FootyStats ×0.54 (calibré 77 matchs)"
+        "src": "FootyStats ×0.55 (calibré 79 matchs)"
       },
       "cards": {
         "exp_cards": 2.8,
@@ -111296,7 +112716,7 @@
         ]
       },
       "upsetIndex": {
-        "index": 26,
+        "index": 29,
         "label": "faible",
         "dampener": 1.0,
         "favOverperf": true,
@@ -111365,7 +112785,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.4941,
+          "rawKelly": 0.3516,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -111380,7 +112800,7 @@
       "lineMovement": {
         "home": 0.0,
         "draw": 0.0,
-        "away": 6.5,
+        "away": 0.0,
         "opening": {
           "odd1": 1.286,
           "oddX": 5.5,
@@ -111389,9 +112809,9 @@
         "provider": "DraftKings"
       },
       "dixonColes": {
-        "rho": -0.1176,
+        "rho": -0.1177,
         "gamma": 0.052,
-        "calibratedOn": 195
+        "calibratedOn": 197
       },
       "knockout": {
         "qualifyHome": 0.9623,
@@ -111479,16 +112899,17 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.754,
-      "pX": 0.1508,
-      "p2": 0.0952,
+      "p1": 0.7467,
+      "pX": 0.1897,
+      "p2": 0.0636,
       "ensemble": {
         "weights": {
-          "elo": 0.36152877241701137,
-          "grid": 0.37074261287594124,
-          "form": 0.2677286147070474
+          "elo": 0.3607611558260026,
+          "grid": 0.37055566838558596,
+          "form": 0.2686831757884115
         },
-        "T": 0.791,
+        "T": 0.665,
+        "drawBias": 0.0867,
         "elo": [
           0.562,
           0.234,
@@ -111505,13 +112926,13 @@
           0.105
         ]
       },
-      "over25": 0.5692,
-      "btts": 0.49,
+      "over25": 0.5734,
+      "btts": 0.5908,
       "marketCalib": {
-        "bttsShift": 0.0681,
-        "overShift": -0.0575,
+        "bttsShift": 0.0687,
+        "overShift": -0.0533,
         "bttsRaw": 0.5221,
-        "n": 195
+        "n": 197
       },
       "lamHome": 2.38,
       "lamAway": 0.77,
@@ -111547,7 +112968,7 @@
         },
         {
           "score": "1-1",
-          "p": 0.0857
+          "p": 0.0858
         }
       ],
       "scenarios": [
@@ -111613,9 +113034,9 @@
       },
       "totalXg": 3.15,
       "bttsConf": {
-        "pick": "indécis",
-        "score": 0.43,
-        "label": "faible"
+        "pick": "Oui",
+        "score": 0.52,
+        "label": "moyenne"
       },
       "halftime": {
         "lamHome": 0.67,
@@ -111643,52 +113064,55 @@
         "home": {
           "odd": 2.2,
           "implied": 0.455,
-          "edge": 0.299,
+          "edge": 0.292,
+          "minEdge": 0.2,
           "is_value": true
         },
         "draw": {
           "odd": 3.3,
           "implied": 0.303,
-          "edge": -0.152,
+          "edge": -0.113,
+          "minEdge": 0.2,
           "is_value": false
         },
         "away": {
           "odd": 3.55,
           "implied": 0.282,
-          "edge": -0.186,
+          "edge": -0.218,
+          "minEdge": 0.2,
           "is_value": false
         }
       },
       "corners": {
-        "exp_corners": 8.0,
-        "over": 0.5455,
-        "under": 0.4545,
-        "line": 7.5,
-        "home": 4.9,
+        "exp_corners": 8.1,
+        "over": 0.4183,
+        "under": 0.5817,
+        "line": 8.5,
+        "home": 5.0,
         "away": 3.1,
         "lines": {
-          "5.5": {
-            "over": 0.8078,
-            "under": 0.1922
-          },
           "6.5": {
-            "over": 0.6853,
-            "under": 0.3147
+            "over": 0.696,
+            "under": 0.304
           },
           "7.5": {
-            "over": 0.5455,
-            "under": 0.4545
+            "over": 0.5578,
+            "under": 0.4422
           },
           "8.5": {
-            "over": 0.4059,
-            "under": 0.5941
+            "over": 0.4183,
+            "under": 0.5817
           },
           "9.5": {
-            "over": 0.282,
-            "under": 0.718
+            "over": 0.2931,
+            "under": 0.7069
+          },
+          "10.5": {
+            "over": 0.1919,
+            "under": 0.8081
           }
         },
-        "src": "FootyStats ×0.54 (calibré 77 matchs)"
+        "src": "FootyStats ×0.55 (calibré 79 matchs)"
       },
       "cards": {
         "exp_cards": 3.8,
@@ -112252,7 +113676,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.549,
+          "rawKelly": 0.5356,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -112267,7 +113691,7 @@
       "lineMovement": {
         "home": 0.0,
         "draw": 0.0,
-        "away": 0.25,
+        "away": 0.0,
         "opening": {
           "odd1": 2.2,
           "oddX": 3.3,
@@ -112276,9 +113700,9 @@
         "provider": "DraftKings"
       },
       "dixonColes": {
-        "rho": -0.1176,
+        "rho": -0.1177,
         "gamma": 0.052,
-        "calibratedOn": 195
+        "calibratedOn": 197
       },
       "knockout": {
         "qualifyHome": 0.855,
@@ -112368,16 +113792,17 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.7016,
-      "pX": 0.1804,
-      "p2": 0.118,
+      "p1": 0.6963,
+      "pX": 0.22,
+      "p2": 0.0837,
       "ensemble": {
         "weights": {
-          "elo": 0.36152877241701137,
-          "grid": 0.37074261287594124,
-          "form": 0.2677286147070474
+          "elo": 0.3607611558260026,
+          "grid": 0.37055566838558596,
+          "form": 0.2686831757884115
         },
-        "T": 0.791,
+        "T": 0.665,
+        "drawBias": 0.0867,
         "elo": [
           0.611,
           0.209,
@@ -112394,13 +113819,13 @@
           0.219
         ]
       },
-      "over25": 0.5292,
-      "btts": 0.49,
+      "over25": 0.5334,
+      "btts": 0.5604,
       "marketCalib": {
-        "bttsShift": 0.0681,
-        "overShift": -0.0575,
+        "bttsShift": 0.0687,
+        "overShift": -0.0533,
         "bttsRaw": 0.4917,
-        "n": 195
+        "n": 197
       },
       "lamHome": 2.25,
       "lamAway": 0.71,
@@ -112502,9 +113927,9 @@
       },
       "totalXg": 2.96,
       "bttsConf": {
-        "pick": "indécis",
-        "score": 0.43,
-        "label": "faible"
+        "pick": "Oui",
+        "score": 0.49,
+        "label": "moyenne"
       },
       "halftime": {
         "lamHome": 0.54,
@@ -112532,49 +113957,52 @@
         "home": {
           "odd": 1.377,
           "implied": 0.726,
-          "edge": -0.025,
+          "edge": -0.03,
+          "minEdge": 0.2,
           "is_value": false
         },
         "draw": {
           "odd": 4.9,
           "implied": 0.204,
-          "edge": -0.024,
+          "edge": 0.016,
+          "minEdge": 0.2,
           "is_value": false
         },
         "away": {
           "odd": 9.0,
           "implied": 0.111,
-          "edge": 0.007,
+          "edge": -0.027,
+          "minEdge": 0.2,
           "is_value": false
         }
       },
       "corners": {
         "exp_corners": 6.4,
-        "over": 0.4523,
-        "under": 0.5477,
+        "over": 0.4635,
+        "under": 0.5365,
         "line": 6.5,
         "home": 3.3,
         "away": 3.1,
         "lines": {
           "4.5": {
-            "over": 0.761,
-            "under": 0.239
+            "over": 0.7692,
+            "under": 0.2308
           },
           "5.5": {
-            "over": 0.6112,
-            "under": 0.3888
+            "over": 0.6217,
+            "under": 0.3783
           },
           "6.5": {
-            "over": 0.4523,
-            "under": 0.5477
+            "over": 0.4635,
+            "under": 0.5365
           },
           "7.5": {
-            "over": 0.3078,
-            "under": 0.6922
+            "over": 0.318,
+            "under": 0.682
           },
           "8.5": {
-            "over": 0.1928,
-            "under": 0.8072
+            "over": 0.201,
+            "under": 0.799
           }
         },
         "src": "prior générique"
@@ -112787,9 +114215,9 @@
         ]
       },
       "upsetIndex": {
-        "index": 49,
+        "index": 50,
         "label": "modéré",
-        "dampener": 0.993,
+        "dampener": 0.991,
         "favOverperf": true,
         "dogLowBlock": true
       },
@@ -112835,19 +114263,19 @@
           "note": "pas de value (EV ≤ 0)"
         },
         "draw": {
-          "kelly": 0.0,
-          "note": "pas de value (EV ≤ 0)"
+          "kelly": 0.017,
+          "rawKelly": 0.02,
+          "note": "miser ~1.7% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
-          "kelly": 0.0066,
-          "rawKelly": 0.0077,
-          "note": "miser ~0.7% de la bankroll (Kelly×confiance, plafonné 5%)"
+          "kelly": 0.0,
+          "note": "pas de value (EV ≤ 0)"
         }
       },
       "lineMovement": {
         "home": 0.0,
         "draw": 0.0,
-        "away": 4.1,
+        "away": 0.0,
         "opening": {
           "odd1": 1.377,
           "oddX": 4.9,
@@ -112856,9 +114284,9 @@
         "provider": "DraftKings"
       },
       "dixonColes": {
-        "rho": -0.1176,
+        "rho": -0.1177,
         "gamma": 0.052,
-        "calibratedOn": 195
+        "calibratedOn": 197
       },
       "knockout": {
         "qualifyHome": 0.8531,
@@ -112944,16 +114372,17 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.762,
-      "pX": 0.1366,
-      "p2": 0.1014,
+      "p1": 0.7539,
+      "pX": 0.1775,
+      "p2": 0.0687,
       "ensemble": {
         "weights": {
-          "elo": 0.36152877241701137,
-          "grid": 0.37074261287594124,
-          "form": 0.2677286147070474
+          "elo": 0.3607611558260026,
+          "grid": 0.37055566838558596,
+          "form": 0.2686831757884115
         },
-        "T": 0.791,
+        "T": 0.665,
+        "drawBias": 0.0867,
         "elo": [
           0.714,
           0.152,
@@ -112970,13 +114399,13 @@
           0.284
         ]
       },
-      "over25": 0.5985,
-      "btts": 0.49,
+      "over25": 0.6027,
+      "btts": 0.4965,
       "marketCalib": {
-        "bttsShift": 0.0681,
-        "overShift": -0.0575,
+        "bttsShift": 0.0687,
+        "overShift": -0.0533,
         "bttsRaw": 0.4278,
-        "n": 195
+        "n": 197
       },
       "lamHome": 2.76,
       "lamAway": 0.54,
@@ -112985,9 +114414,9 @@
         0
       ],
       "doubleChance": {
-        "1X": 0.9569,
+        "1X": 0.957,
         "12": 0.8712,
-        "X2": 0.1719
+        "X2": 0.172
       },
       "drawNoBet": {
         "home": 0.9505,
@@ -113060,8 +114489,8 @@
       ],
       "overUnder": {
         "0.5": {
-          "over": 0.9588,
-          "under": 0.0412
+          "over": 0.9587,
+          "under": 0.0413
         },
         "1.5": {
           "over": 0.8552,
@@ -113108,52 +114537,55 @@
         "home": {
           "odd": 1.312,
           "implied": 0.762,
-          "edge": -0.0,
+          "edge": -0.008,
+          "minEdge": 0.2,
           "is_value": false
         },
         "draw": {
           "odd": 5.25,
           "implied": 0.19,
-          "edge": -0.054,
+          "edge": -0.013,
+          "minEdge": 0.2,
           "is_value": false
         },
         "away": {
           "odd": 10.5,
           "implied": 0.095,
-          "edge": 0.006,
+          "edge": -0.027,
+          "minEdge": 0.2,
           "is_value": false
         }
       },
       "corners": {
         "exp_corners": 7.1,
-        "over": 0.4092,
-        "under": 0.5908,
+        "over": 0.4209,
+        "under": 0.5791,
         "line": 7.5,
         "home": 4.4,
         "away": 2.7,
         "lines": {
           "5.5": {
-            "over": 0.7061,
-            "under": 0.2939
+            "over": 0.7158,
+            "under": 0.2842
           },
           "6.5": {
-            "over": 0.5582,
-            "under": 0.4418
+            "over": 0.5697,
+            "under": 0.4303
           },
           "7.5": {
-            "over": 0.4092,
-            "under": 0.5908
+            "over": 0.4209,
+            "under": 0.5791
           },
           "8.5": {
-            "over": 0.2779,
-            "under": 0.7221
+            "over": 0.2882,
+            "under": 0.7118
           },
           "9.5": {
-            "over": 0.175,
-            "under": 0.825
+            "over": 0.1831,
+            "under": 0.8169
           }
         },
-        "src": "FootyStats ×0.54 (calibré 77 matchs)"
+        "src": "FootyStats ×0.55 (calibré 79 matchs)"
       },
       "cards": {
         "exp_cards": 3.5,
@@ -113594,7 +115026,7 @@
         ]
       },
       "upsetIndex": {
-        "index": 44,
+        "index": 45,
         "label": "modéré",
         "dampener": 1.0,
         "favOverperf": true,
@@ -113625,7 +115057,7 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 25.5,
+          "stars": 24.0,
           "shield": 0.85,
           "names": [
             "Marc Pubill",
@@ -113636,14 +115068,14 @@
           ]
         },
         "away": {
-          "stars": 18.5,
+          "stars": 20.5,
           "shield": 0.85,
           "names": [
+            "David Affengruber",
             "Kevin Danso",
             "Stefan Posch",
             "David Alaba",
-            "Philipp Lienhart",
-            "Phillipp Mwene"
+            "Philipp Lienhart"
           ]
         }
       },
@@ -113669,15 +115101,14 @@
           "note": "pas de value (EV ≤ 0)"
         },
         "away": {
-          "kelly": 0.0058,
-          "rawKelly": 0.0068,
-          "note": "miser ~0.6% de la bankroll (Kelly×confiance, plafonné 5%)"
+          "kelly": 0.0,
+          "note": "pas de value (EV ≤ 0)"
         }
       },
       "lineMovement": {
         "home": 0.0,
         "draw": 0.0,
-        "away": 5.25,
+        "away": 0.0,
         "opening": {
           "odd1": 1.312,
           "oddX": 5.25,
@@ -113686,9 +115117,9 @@
         "provider": "DraftKings"
       },
       "dixonColes": {
-        "rho": -0.1176,
+        "rho": -0.1177,
         "gamma": 0.052,
-        "calibratedOn": 195
+        "calibratedOn": 197
       },
       "knockout": {
         "qualifyHome": 0.9273,
@@ -113777,16 +115208,17 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.5721,
-      "pX": 0.2669,
-      "p2": 0.161,
+      "p1": 0.5665,
+      "pX": 0.3086,
+      "p2": 0.1249,
       "ensemble": {
         "weights": {
-          "elo": 0.36152877241701137,
-          "grid": 0.37074261287594124,
-          "form": 0.2677286147070474
+          "elo": 0.3607611558260026,
+          "grid": 0.37055566838558596,
+          "form": 0.2686831757884115
         },
-        "T": 0.791,
+        "T": 0.665,
+        "drawBias": 0.0867,
         "elo": [
           0.509,
           0.259,
@@ -113803,13 +115235,13 @@
           0.25
         ]
       },
-      "over25": 0.4655,
-      "btts": 0.49,
+      "over25": 0.4697,
+      "btts": 0.5681,
       "marketCalib": {
-        "bttsShift": 0.0681,
-        "overShift": -0.0575,
+        "bttsShift": 0.0687,
+        "overShift": -0.0533,
         "bttsRaw": 0.4994,
-        "n": 195
+        "n": 197
       },
       "lamHome": 1.9,
       "lamAway": 0.78,
@@ -113911,9 +115343,9 @@
       },
       "totalXg": 2.68,
       "bttsConf": {
-        "pick": "indécis",
-        "score": 0.43,
-        "label": "faible"
+        "pick": "Oui",
+        "score": 0.49,
+        "label": "moyenne"
       },
       "halftime": {
         "lamHome": 1.05,
@@ -113941,52 +115373,55 @@
         "home": {
           "odd": 1.8,
           "implied": 0.556,
-          "edge": 0.017,
+          "edge": 0.011,
+          "minEdge": 0.2,
           "is_value": false
         },
         "draw": {
           "odd": 3.65,
           "implied": 0.274,
-          "edge": -0.007,
+          "edge": 0.035,
+          "minEdge": 0.2,
           "is_value": false
         },
         "away": {
           "odd": 4.7,
           "implied": 0.213,
-          "edge": -0.052,
+          "edge": -0.088,
+          "minEdge": 0.2,
           "is_value": false
         }
       },
       "corners": {
-        "exp_corners": 7.3,
-        "over": 0.4438,
-        "under": 0.5562,
+        "exp_corners": 7.4,
+        "over": 0.4558,
+        "under": 0.5442,
         "line": 7.5,
-        "home": 4.1,
+        "home": 4.2,
         "away": 3.2,
         "lines": {
           "5.5": {
-            "over": 0.7343,
-            "under": 0.2657
+            "over": 0.7437,
+            "under": 0.2563
           },
           "6.5": {
-            "over": 0.592,
-            "under": 0.408
+            "over": 0.6034,
+            "under": 0.3966
           },
           "7.5": {
-            "over": 0.4438,
-            "under": 0.5562
+            "over": 0.4558,
+            "under": 0.5442
           },
           "8.5": {
-            "over": 0.3089,
-            "under": 0.6911
+            "over": 0.3198,
+            "under": 0.6802
           },
           "9.5": {
-            "over": 0.1996,
-            "under": 0.8004
+            "over": 0.2086,
+            "under": 0.7914
           }
         },
-        "src": "FootyStats ×0.54 (calibré 77 matchs)"
+        "src": "FootyStats ×0.55 (calibré 79 matchs)"
       },
       "cards": {
         "exp_cards": 3.6,
@@ -114437,9 +115872,9 @@
         ]
       },
       "upsetIndex": {
-        "index": 61,
+        "index": 62,
         "label": "élevé",
-        "dampener": 0.971,
+        "dampener": 0.969,
         "favOverperf": true,
         "dogLowBlock": true
       },
@@ -114469,12 +115904,12 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 18.5,
+          "stars": 19.5,
           "shield": 0.85,
           "names": [
+            "Diogo Costa",
             "Nélson Semedo",
             "Rúben Dias",
-            "Tomás Araújo",
             "Diogo Dalot",
             "Renato Veiga"
           ]
@@ -114505,13 +115940,14 @@
       },
       "kelly": {
         "home": {
-          "kelly": 0.0316,
-          "rawKelly": 0.0372,
-          "note": "miser ~3.2% de la bankroll (Kelly×confiance, plafonné 5%)"
+          "kelly": 0.0209,
+          "rawKelly": 0.0246,
+          "note": "miser ~2.1% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
-          "kelly": 0.0,
-          "note": "pas de value (EV ≤ 0)"
+          "kelly": 0.0405,
+          "rawKelly": 0.0477,
+          "note": "miser ~4.1% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
           "kelly": 0.0,
@@ -114521,7 +115957,7 @@
       "lineMovement": {
         "home": 0.0,
         "draw": 0.0,
-        "away": 1.05,
+        "away": 0.0,
         "opening": {
           "odd1": 1.8,
           "oddX": 3.65,
@@ -114530,9 +115966,9 @@
         "provider": "DraftKings"
       },
       "dixonColes": {
-        "rho": -0.1176,
+        "rho": -0.1177,
         "gamma": 0.052,
-        "calibratedOn": 195
+        "calibratedOn": 197
       },
       "knockout": {
         "qualifyHome": 0.7831,
@@ -114621,16 +116057,17 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.4773,
-      "pX": 0.3083,
-      "p2": 0.2144,
+      "p1": 0.4665,
+      "pX": 0.3546,
+      "p2": 0.1789,
       "ensemble": {
         "weights": {
-          "elo": 0.36152877241701137,
-          "grid": 0.37074261287594124,
-          "form": 0.2677286147070474
+          "elo": 0.3607611558260026,
+          "grid": 0.37055566838558596,
+          "form": 0.2686831757884115
         },
-        "T": 0.791,
+        "T": 0.665,
+        "drawBias": 0.0867,
         "elo": [
           0.48,
           0.27,
@@ -114647,13 +116084,13 @@
           0.284
         ]
       },
-      "over25": 0.5133,
-      "btts": 0.6664,
+      "over25": 0.5175,
+      "btts": 0.667,
       "marketCalib": {
-        "bttsShift": 0.0681,
-        "overShift": -0.0575,
+        "bttsShift": 0.0687,
+        "overShift": -0.0533,
         "bttsRaw": 0.5983,
-        "n": 195
+        "n": 197
       },
       "lamHome": 1.73,
       "lamAway": 1.09,
@@ -114785,52 +116222,55 @@
         "home": {
           "odd": 2.05,
           "implied": 0.488,
-          "edge": -0.011,
+          "edge": -0.021,
+          "minEdge": 0.2,
           "is_value": false
         },
         "draw": {
           "odd": 3.35,
           "implied": 0.299,
-          "edge": 0.01,
+          "edge": 0.056,
+          "minEdge": 0.2,
           "is_value": false
         },
         "away": {
           "odd": 4.0,
           "implied": 0.25,
-          "edge": -0.036,
+          "edge": -0.071,
+          "minEdge": 0.2,
           "is_value": false
         }
       },
       "corners": {
         "exp_corners": 7.1,
-        "over": 0.4094,
-        "under": 0.5906,
+        "over": 0.421,
+        "under": 0.579,
         "line": 7.5,
-        "home": 4.1,
-        "away": 2.9,
+        "home": 4.2,
+        "away": 3.0,
         "lines": {
           "5.5": {
-            "over": 0.7062,
-            "under": 0.2938
+            "over": 0.7159,
+            "under": 0.2841
           },
           "6.5": {
-            "over": 0.5584,
-            "under": 0.4416
+            "over": 0.5699,
+            "under": 0.4301
           },
           "7.5": {
-            "over": 0.4094,
-            "under": 0.5906
+            "over": 0.421,
+            "under": 0.579
           },
           "8.5": {
-            "over": 0.278,
-            "under": 0.722
+            "over": 0.2884,
+            "under": 0.7116
           },
           "9.5": {
-            "over": 0.1751,
-            "under": 0.8249
+            "over": 0.1832,
+            "under": 0.8168
           }
         },
-        "src": "FootyStats ×0.54 (calibré 77 matchs)"
+        "src": "FootyStats ×0.55 (calibré 79 matchs)"
       },
       "cards": {
         "exp_cards": 3.5,
@@ -115269,9 +116709,9 @@
         ]
       },
       "upsetIndex": {
-        "index": 70,
+        "index": 71,
         "label": "élevé",
-        "dampener": 0.955,
+        "dampener": 0.953,
         "favOverperf": true,
         "dogLowBlock": true
       },
@@ -115301,18 +116741,18 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 11.0,
+          "stars": 13.0,
           "shield": 0.85,
           "names": [
             "Miro Muheim",
             "Silvan Widmer",
             "Nico Elvedi",
             "Ricardo Rodriguez",
-            "Luca Jaquez"
+            "Aurèle Amenda"
           ]
         },
         "away": {
-          "stars": 18.0,
+          "stars": 21.0,
           "shield": 0.85,
           "names": [
             "Aïssa Mandi",
@@ -115341,9 +116781,9 @@
           "note": "pas de value (EV ≤ 0)"
         },
         "draw": {
-          "kelly": 0.0119,
-          "rawKelly": 0.014,
-          "note": "miser ~1.2% de la bankroll (Kelly×confiance, plafonné 5%)"
+          "kelly": 0.05,
+          "rawKelly": 0.08,
+          "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
           "kelly": 0.0,
@@ -115353,7 +116793,7 @@
       "lineMovement": {
         "home": 0.0,
         "draw": 0.0,
-        "away": 0.65,
+        "away": 0.0,
         "opening": {
           "odd1": 2.05,
           "oddX": 3.35,
@@ -115362,9 +116802,9 @@
         "provider": "DraftKings"
       },
       "dixonColes": {
-        "rho": -0.1176,
+        "rho": -0.1177,
         "gamma": 0.092,
-        "calibratedOn": 195
+        "calibratedOn": 197
       },
       "knockout": {
         "qualifyHome": 0.6671,
@@ -115452,16 +116892,17 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.3137,
-      "pX": 0.3582,
-      "p2": 0.3281,
+      "p1": 0.2888,
+      "pX": 0.41,
+      "p2": 0.3013,
       "ensemble": {
         "weights": {
-          "elo": 0.36152877241701137,
-          "grid": 0.37074261287594124,
-          "form": 0.2677286147070474
+          "elo": 0.3607611558260026,
+          "grid": 0.37055566838558596,
+          "form": 0.2686831757884115
         },
-        "T": 0.791,
+        "T": 0.665,
+        "drawBias": 0.0867,
         "elo": [
           0.423,
           0.289,
@@ -115478,13 +116919,13 @@
           0.484
         ]
       },
-      "over25": 0.3443,
-      "btts": 0.5598,
+      "over25": 0.3485,
+      "btts": 0.5604,
       "marketCalib": {
-        "bttsShift": 0.0681,
-        "overShift": -0.0575,
+        "bttsShift": 0.0687,
+        "overShift": -0.0533,
         "bttsRaw": 0.4917,
-        "n": 195
+        "n": 197
       },
       "lamHome": 1.11,
       "lamAway": 1.01,
@@ -115493,9 +116934,9 @@
         1
       ],
       "doubleChance": {
-        "1X": 0.689,
+        "1X": 0.6891,
         "12": 0.673,
-        "X2": 0.638
+        "X2": 0.6381
       },
       "drawNoBet": {
         "home": 0.5379,
@@ -115586,9 +117027,9 @@
       },
       "totalXg": 2.12,
       "bttsConf": {
-        "pick": "indécis",
-        "score": 0.48,
-        "label": "faible"
+        "pick": "Oui",
+        "score": 0.49,
+        "label": "moyenne"
       },
       "halftime": {
         "lamHome": 0.81,
@@ -115616,52 +117057,55 @@
         "home": {
           "odd": 3.3,
           "implied": 0.303,
-          "edge": 0.011,
+          "edge": -0.014,
+          "minEdge": 0.2,
           "is_value": false
         },
         "draw": {
           "odd": 2.9,
           "implied": 0.345,
-          "edge": 0.013,
+          "edge": 0.065,
+          "minEdge": 0.2,
           "is_value": false
         },
         "away": {
           "odd": 2.5,
           "implied": 0.4,
-          "edge": -0.072,
+          "edge": -0.099,
+          "minEdge": 0.2,
           "is_value": false
         }
       },
       "corners": {
-        "exp_corners": 6.4,
-        "over": 0.4547,
-        "under": 0.5453,
+        "exp_corners": 6.5,
+        "over": 0.4659,
+        "under": 0.5341,
         "line": 6.5,
-        "home": 3.1,
+        "home": 3.2,
         "away": 3.3,
         "lines": {
           "4.5": {
-            "over": 0.7627,
-            "under": 0.2373
+            "over": 0.7709,
+            "under": 0.2291
           },
           "5.5": {
-            "over": 0.6134,
-            "under": 0.3866
+            "over": 0.6239,
+            "under": 0.3761
           },
           "6.5": {
-            "over": 0.4547,
-            "under": 0.5453
+            "over": 0.4659,
+            "under": 0.5341
           },
           "7.5": {
-            "over": 0.3099,
-            "under": 0.6901
+            "over": 0.3202,
+            "under": 0.6798
           },
           "8.5": {
-            "over": 0.1945,
-            "under": 0.8055
+            "over": 0.2027,
+            "under": 0.7973
           }
         },
-        "src": "FootyStats ×0.54 (calibré 77 matchs)"
+        "src": "FootyStats ×0.55 (calibré 79 matchs)"
       },
       "cards": {
         "exp_cards": 3.6,
@@ -116061,9 +117505,9 @@
         ]
       },
       "upsetIndex": {
-        "index": 92,
+        "index": 94,
         "label": "élevé",
-        "dampener": 0.915,
+        "dampener": 0.911,
         "favOverperf": true,
         "dogLowBlock": true
       },
@@ -116093,14 +117537,14 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 19.5,
+          "stars": 20.5,
           "shield": 0.85,
           "names": [
             "Miloš Degenek",
             "Alessandro Circati",
             "Jacob Italiano",
             "Jordan Bos",
-            "Kai Trewin"
+            "Aziz Behich"
           ]
         },
         "away": {
@@ -116129,14 +117573,13 @@
       },
       "kelly": {
         "home": {
-          "kelly": 0.013,
-          "rawKelly": 0.0153,
-          "note": "miser ~1.3% de la bankroll (Kelly×confiance, plafonné 5%)"
+          "kelly": 0.0,
+          "note": "pas de value (EV ≤ 0)"
         },
         "draw": {
-          "kelly": 0.0173,
-          "rawKelly": 0.0204,
-          "note": "miser ~1.7% de la bankroll (Kelly×confiance, plafonné 5%)"
+          "kelly": 0.05,
+          "rawKelly": 0.0995,
+          "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
           "kelly": 0.0,
@@ -116146,7 +117589,7 @@
       "lineMovement": {
         "home": 0.0,
         "draw": 0.0,
-        "away": -0.4,
+        "away": 0.0,
         "opening": {
           "odd1": 3.3,
           "oddX": 2.9,
@@ -116155,9 +117598,9 @@
         "provider": "DraftKings"
       },
       "dixonColes": {
-        "rho": -0.1176,
+        "rho": -0.1177,
         "gamma": 0.092,
-        "calibratedOn": 195
+        "calibratedOn": 197
       },
       "knockout": {
         "qualifyHome": 0.5283,
@@ -116246,16 +117689,17 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.9763,
-      "pX": 0.0072,
-      "p2": 0.0164,
+      "p1": 0.9104,
+      "pX": 0.0825,
+      "p2": 0.0071,
       "ensemble": {
         "weights": {
-          "elo": 0.36152877241701137,
-          "grid": 0.37074261287594124,
-          "form": 0.2677286147070474
+          "elo": 0.3607611558260026,
+          "grid": 0.37055566838558596,
+          "form": 0.2686831757884115
         },
-        "T": 0.791,
+        "T": 0.665,
+        "drawBias": 0.0867,
         "elo": [
           0.933,
           0.027,
@@ -116272,13 +117716,13 @@
           0.084
         ]
       },
-      "over25": 0.8415,
-      "btts": 0.3026,
+      "over25": 0.8457,
+      "btts": 0.3032,
       "marketCalib": {
-        "bttsShift": 0.0681,
-        "overShift": -0.0575,
+        "bttsShift": 0.0687,
+        "overShift": -0.0533,
         "bttsRaw": 0.2345,
-        "n": 195
+        "n": 197
       },
       "lamHome": 5.14,
       "lamAway": 0.22,
@@ -116410,52 +117854,55 @@
         "home": {
           "odd": 1.174,
           "implied": 0.852,
-          "edge": 0.125,
-          "is_value": true
+          "edge": 0.059,
+          "minEdge": 0.2,
+          "is_value": false
         },
         "draw": {
           "odd": 7.5,
           "implied": 0.133,
-          "edge": -0.126,
+          "edge": -0.051,
+          "minEdge": 0.2,
           "is_value": false
         },
         "away": {
           "odd": 17.0,
           "implied": 0.059,
-          "edge": -0.042,
+          "edge": -0.052,
+          "minEdge": 0.2,
           "is_value": false
         }
       },
       "corners": {
         "exp_corners": 6.8,
-        "over": 0.514,
-        "under": 0.486,
+        "over": 0.5255,
+        "under": 0.4745,
         "line": 6.5,
         "home": 3.9,
         "away": 2.9,
         "lines": {
           "4.5": {
-            "over": 0.804,
-            "under": 0.196
+            "over": 0.8115,
+            "under": 0.1885
           },
           "5.5": {
-            "over": 0.6677,
-            "under": 0.3323
+            "over": 0.6778,
+            "under": 0.3222
           },
           "6.5": {
-            "over": 0.514,
-            "under": 0.486
+            "over": 0.5255,
+            "under": 0.4745
           },
           "7.5": {
-            "over": 0.3656,
-            "under": 0.6344
+            "over": 0.3768,
+            "under": 0.6232
           },
           "8.5": {
-            "over": 0.2403,
-            "under": 0.7597
+            "over": 0.2497,
+            "under": 0.7503
           }
         },
-        "src": "FootyStats ×0.54 (calibré 77 matchs)"
+        "src": "FootyStats ×0.55 (calibré 79 matchs)"
       },
       "cards": {
         "exp_cards": 3.7,
@@ -116866,7 +118313,7 @@
         ]
       },
       "upsetIndex": {
-        "index": 14,
+        "index": 21,
         "label": "faible",
         "dampener": 1.0,
         "favOverperf": true,
@@ -116907,13 +118354,13 @@
           ]
         },
         "away": {
-          "stars": 22.0,
+          "stars": 22.5,
           "shield": 0.85,
           "names": [
-            "Vozinha",
             "Stopira",
             "Diney",
             "Roberto Lopes",
+            "Logan Costa",
             "Sidny Lopes Cabral"
           ]
         }
@@ -116933,7 +118380,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.8401,
+          "rawKelly": 0.3955,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -116948,7 +118395,7 @@
       "lineMovement": {
         "home": 0.0,
         "draw": 0.0,
-        "away": 9.5,
+        "away": 0.0,
         "opening": {
           "odd1": 1.174,
           "oddX": 7.5,
@@ -116957,9 +118404,9 @@
         "provider": "DraftKings"
       },
       "dixonColes": {
-        "rho": -0.1176,
+        "rho": -0.1177,
         "gamma": 0.052,
-        "calibratedOn": 195
+        "calibratedOn": 197
       },
       "knockout": {
         "qualifyHome": 0.997,
@@ -117045,16 +118492,17 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.9074,
-      "pX": 0.0525,
-      "p2": 0.0401,
+      "p1": 0.8697,
+      "pX": 0.109,
+      "p2": 0.0213,
       "ensemble": {
         "weights": {
-          "elo": 0.36152877241701137,
-          "grid": 0.37074261287594124,
-          "form": 0.2677286147070474
+          "elo": 0.3607611558260026,
+          "grid": 0.37055566838558596,
+          "form": 0.2686831757884115
         },
-        "T": 0.791,
+        "T": 0.665,
+        "drawBias": 0.0867,
         "elo": [
           0.75,
           0.132,
@@ -117071,13 +118519,13 @@
           0.084
         ]
       },
-      "over25": 0.6257,
-      "btts": 0.3901,
+      "over25": 0.6299,
+      "btts": 0.3907,
       "marketCalib": {
-        "bttsShift": 0.0681,
-        "overShift": -0.0575,
+        "bttsShift": 0.0687,
+        "overShift": -0.0533,
         "bttsRaw": 0.322,
-        "n": 195
+        "n": 197
       },
       "lamHome": 3.1,
       "lamAway": 0.35,
@@ -117209,52 +118657,55 @@
         "home": {
           "odd": 1.526,
           "implied": 0.655,
-          "edge": 0.252,
+          "edge": 0.214,
+          "minEdge": 0.2,
           "is_value": true
         },
         "draw": {
           "odd": 4.1,
           "implied": 0.244,
-          "edge": -0.191,
+          "edge": -0.135,
+          "minEdge": 0.2,
           "is_value": false
         },
         "away": {
           "odd": 7.0,
           "implied": 0.143,
-          "edge": -0.103,
+          "edge": -0.122,
+          "minEdge": 0.2,
           "is_value": false
         }
       },
       "corners": {
-        "exp_corners": 6.7,
-        "over": 0.5033,
-        "under": 0.4967,
+        "exp_corners": 6.8,
+        "over": 0.5148,
+        "under": 0.4852,
         "line": 6.5,
         "home": 3.9,
         "away": 2.8,
         "lines": {
           "4.5": {
-            "over": 0.7969,
-            "under": 0.2031
+            "over": 0.8045,
+            "under": 0.1955
           },
           "5.5": {
-            "over": 0.6581,
-            "under": 0.3419
+            "over": 0.6683,
+            "under": 0.3317
           },
           "6.5": {
-            "over": 0.5033,
-            "under": 0.4967
+            "over": 0.5148,
+            "under": 0.4852
           },
           "7.5": {
-            "over": 0.3554,
-            "under": 0.6446
+            "over": 0.3664,
+            "under": 0.6336
           },
           "8.5": {
-            "over": 0.2316,
-            "under": 0.7684
+            "over": 0.2409,
+            "under": 0.7591
           }
         },
-        "src": "FootyStats ×0.54 (calibré 77 matchs)"
+        "src": "FootyStats ×0.55 (calibré 79 matchs)"
       },
       "cards": {
         "exp_cards": 3.4,
@@ -117675,7 +119126,7 @@
         ]
       },
       "upsetIndex": {
-        "index": 24,
+        "index": 28,
         "label": "faible",
         "dampener": 1.0,
         "favOverperf": true,
@@ -117707,7 +119158,7 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 23.5,
+          "stars": 20.5,
           "shield": 0.85,
           "names": [
             "Daniel Muñoz",
@@ -117744,7 +119195,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.7314,
+          "rawKelly": 0.622,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -117759,7 +119210,7 @@
       "lineMovement": {
         "home": 0.0,
         "draw": 0.0,
-        "away": 2.9,
+        "away": 0.0,
         "opening": {
           "odd1": 1.526,
           "oddX": 4.1,
@@ -117768,9 +119219,9 @@
         "provider": "DraftKings"
       },
       "dixonColes": {
-        "rho": -0.1176,
+        "rho": -0.1177,
         "gamma": 0.052,
-        "calibratedOn": 195
+        "calibratedOn": 197
       },
       "knockout": {
         "qualifyHome": 0.9661,
@@ -117846,16 +119297,17 @@
     ],
     "confidence": 0.6,
     "prediction": {
-      "p1": 0.625,
-      "pX": 0.2296,
-      "p2": 0.1454,
+      "p1": 0.6215,
+      "pX": 0.2688,
+      "p2": 0.1098,
       "ensemble": {
         "weights": {
-          "elo": 0.36152877241701137,
-          "grid": 0.37074261287594124,
-          "form": 0.2677286147070474
+          "elo": 0.3607611558260026,
+          "grid": 0.37055566838558596,
+          "form": 0.2686831757884115
         },
-        "T": 0.791,
+        "T": 0.665,
+        "drawBias": 0.0867,
         "elo": [
           0.556,
           0.237,
@@ -117872,13 +119324,13 @@
           0.301
         ]
       },
-      "over25": 0.4772,
-      "btts": 0.49,
+      "over25": 0.4814,
+      "btts": 0.502,
       "marketCalib": {
-        "bttsShift": 0.0681,
-        "overShift": -0.0575,
+        "bttsShift": 0.0687,
+        "overShift": -0.0533,
         "bttsRaw": 0.4333,
-        "n": 195
+        "n": 197
       },
       "lamHome": 2.14,
       "lamAway": 0.59,
@@ -117981,7 +119433,7 @@
       "totalXg": 2.73,
       "bttsConf": {
         "pick": "indécis",
-        "score": 0.31,
+        "score": 0.3,
         "label": "faible"
       },
       "halftime": {
@@ -118012,32 +119464,32 @@
         "away": null
       },
       "corners": {
-        "exp_corners": 6.6,
-        "over": 0.4886,
-        "under": 0.5114,
+        "exp_corners": 6.7,
+        "over": 0.5,
+        "under": 0.5,
         "line": 6.5,
         "home": 4.4,
         "away": 2.2,
         "lines": {
           "4.5": {
-            "over": 0.7869,
-            "under": 0.2131
+            "over": 0.7947,
+            "under": 0.2053
           },
           "5.5": {
-            "over": 0.6448,
-            "under": 0.3552
+            "over": 0.6551,
+            "under": 0.3449
           },
           "6.5": {
-            "over": 0.4886,
-            "under": 0.5114
+            "over": 0.5,
+            "under": 0.5
           },
           "7.5": {
-            "over": 0.3414,
-            "under": 0.6586
+            "over": 0.3522,
+            "under": 0.6478
           },
           "8.5": {
-            "over": 0.22,
-            "under": 0.78
+            "over": 0.2289,
+            "under": 0.7711
           }
         },
         "src": "prior générique"
@@ -118349,7 +119801,7 @@
         ]
       },
       "upsetIndex": {
-        "index": 44,
+        "index": 45,
         "label": "modéré",
         "dampener": 1.0,
         "favOverperf": true,
@@ -118357,7 +119809,7 @@
       },
       "attackQuality": {
         "home": {
-          "stars": 12.5,
+          "stars": 13.5,
           "boost": 1.18,
           "names": [
             "Cyle Larin",
@@ -118419,9 +119871,9 @@
       },
       "lineMovement": null,
       "dixonColes": {
-        "rho": -0.1176,
+        "rho": -0.1177,
         "gamma": 0.052,
-        "calibratedOn": 195
+        "calibratedOn": 197
       },
       "knockout": {
         "qualifyHome": 0.8634,

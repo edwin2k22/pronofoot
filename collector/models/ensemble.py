@@ -24,6 +24,7 @@ WFILE = os.path.join(os.path.dirname(__file__), "..", "data", "ensemble_weights.
 
 # poids de départ (prior) avant apprentissage
 DEFAULT_WEIGHTS = {"elo": 0.40, "grid": 0.40, "form": 0.20}
+DRAW_BIAS_GRID = [-0.04, -0.02, 0.0, 0.02, 0.04, 0.06, 0.08, 0.10, 0.12]
 # remontée structurelle du nul : les modèles à base de buts sous-estiment l'égalité.
 # borne calibrée empiriquement (CDM ≈ 30-42 % de nuls selon les phases).
 DRAW_FLOOR = 0.24            # un match n'a quasi jamais < 24 % de chance de nul
@@ -106,33 +107,49 @@ def apply_temperature(p1, px, p2, T):
     return _norm3(q1, qx, q2)
 
 
+def apply_draw_bias(p1, px, p2, bias):
+    """Apply the empirical draw correction learned from finished matches."""
+    if bias is None or abs(bias) < 1e-9:
+        return _norm3(p1, px, p2)
+    px = max(0.02, min(0.65, px + bias))
+    return _norm3(p1, px, p2)
+
+
 def learn_temperature(samples):
     """
     Trouve la température qui minimise le log-loss sur les matchs joués.
     samples : liste de {p1,pX,p2,outcome}. Shrinkage vers T=1 (petit échantillon).
     """
     if not samples:
-        return 1.0, {"n": 0}
-    def ll(T):
+        return 1.0, {"n": 0, "drawBias": 0.0}
+    def ll(T, draw_bias):
         tot = 0.0
         for s in samples:
             p1, px, p2 = apply_temperature(s["p1"], s["pX"], s["p2"], T)
+            p1, px, p2 = apply_draw_bias(p1, px, p2, draw_bias)
             key = {"1": p1, "X": px, "2": p2}[s["outcome"]]
             tot += -math.log(max(1e-9, key))
         return tot/len(samples)
-    best_T, best = 1.0, ll(1.0)
+    best_T, best_bias, best = 1.0, 0.0, ll(1.0, 0.0)
     T = 0.6
     while T <= 2.0001:
-        v = ll(T)
-        if v < best:
-            best, best_T = v, T
+        for draw_bias in DRAW_BIAS_GRID:
+            v = ll(T, draw_bias)
+            if v < best:
+                best, best_T, best_bias = v, T, draw_bias
         T += 0.05
     # shrinkage vers 1.0 selon la taille d'échantillon
     n = len(samples)
-    K = 15.0
-    a = n/(n+K)
-    T_shrunk = round(a*best_T + (1-a)*1.0, 3)
-    return T_shrunk, {"n": n, "bestRaw": round(best_T, 2), "logloss": round(best, 4)}
+    temp_k = 15.0
+    draw_k = 30.0
+    temp_a = n/(n+temp_k)
+    draw_a = n/(n+draw_k)
+    T_shrunk = round(temp_a*best_T + (1-temp_a)*1.0, 3)
+    draw_shrunk = round(draw_a*best_bias, 4)
+    return T_shrunk, {"n": n, "bestRaw": round(best_T, 2),
+                      "drawBias": draw_shrunk,
+                      "drawBiasRaw": round(best_bias, 3),
+                      "logloss": round(best, 4)}
 
 
 def _logloss(probs, outcome):

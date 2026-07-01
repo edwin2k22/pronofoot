@@ -16,6 +16,12 @@ de cote inventée). Yield = PnL / total_misé × 100.
 """
 from __future__ import annotations
 
+VALUE_EDGE_MIN = {"1N2": 0.20, "O/U": 0.15, "BTTS": 0.12, "CORNERS": 0.15, "TIRS": 0.15}
+
+
+def _edge_threshold(market, extra=0.0):
+    return VALUE_EDGE_MIN.get(market, 0.15) + extra
+
 
 def _outcome(a):
     hg, ag = map(int, a["realScore"].split("-"))
@@ -41,7 +47,7 @@ def value_pnl(matches, edge_min=0.0):
             o = _outcome(m["analysis"])
             for k, odd in (("1", m["odd1"]), ("X", m["oddX"]), ("2", m["odd2"])):
                 pm = {"1": p["p1"], "X": p["pX"], "2": p["p2"]}[k]
-                if pm - 1.0 / odd > edge_min:
+                if pm - 1.0 / odd >= _edge_threshold("1N2", edge_min):
                     n += 1; staked += 1
                     if k == o:
                         pnl += odd - 1; wins += 1
@@ -58,7 +64,7 @@ def value_pnl(matches, edge_min=0.0):
                 
                 for k, odd in (("over", m["oddOver"]), ("under", m["oddUnder"])):
                     pm = ou_probs[k]
-                    if pm - 1.0 / odd > edge_min:
+                    if pm - 1.0 / odd >= _edge_threshold("O/U", edge_min):
                         n += 1; staked += 1
                         if k == o_ou:
                             pnl += odd - 1; wins += 1
@@ -70,7 +76,7 @@ def value_pnl(matches, edge_min=0.0):
             real_btts = "yes" if m["analysis"]["homeGF"] > 0 and m["analysis"]["awayGF"] > 0 else "no"
             for k, odd in (("yes", m["oddBTTS_Yes"]), ("no", m["oddBTTS_No"])):
                 pm = p.get("btts") if k == "yes" else (1 - p.get("btts", 0))
-                if pm - 1.0 / odd > edge_min:
+                if pm - 1.0 / odd >= _edge_threshold("BTTS", edge_min):
                     n += 1; staked += 1
                     if k == real_btts:
                         pnl += odd - 1; wins += 1
@@ -108,7 +114,7 @@ def favorite_pnl(matches):
             "yield": round(100 * pnl / staked, 1) if staked else None}
 
 
-def top_value_bets(matches, top=3, edge_min=0.03):
+def top_value_bets(matches, top=3, edge_min=0.0):
     """
     Les meilleures VALUE BETS du moment (matchs à venir) : plus gros écart
     proba_modèle vs cote implicite. Renvoie une liste triée par edge décroissant.
@@ -171,7 +177,7 @@ def top_value_bets(matches, top=3, edge_min=0.03):
                 pm = {"1": p["p1"], "X": p["pX"], "2": p["p2"]}[k]
                 implied = 1.0 / odd
                 edge = pm - implied
-                if edge >= edge_min:
+                if edge >= _edge_threshold("1N2", edge_min):
                     bets.append({
                         "home": home, "away": away, "date": m.get("date"),
                         "label": label, "prob": round(pm, 4), "odd": odd,
@@ -192,7 +198,7 @@ def top_value_bets(matches, top=3, edge_min=0.03):
                     pm = ou_probs[k]
                     implied = 1.0 / odd
                     edge = pm - implied
-                    if edge >= edge_min:
+                    if edge >= _edge_threshold("O/U", edge_min):
                         bets.append({
                             "home": home, "away": away, "date": m.get("date") or m.get("utcDate"),
                             "label": label, "prob": round(pm, 4), "odd": odd,
@@ -209,7 +215,7 @@ def top_value_bets(matches, top=3, edge_min=0.03):
                 pm = p["btts"] if k == "yes" else (1 - p["btts"])
                 implied = 1.0 / odd
                 edge = pm - implied
-                if edge >= edge_min:
+                if edge >= _edge_threshold("BTTS", edge_min):
                     bets.append({
                         "home": home, "away": away, "date": m.get("date") or m.get("utcDate"),
                         "label": label, "prob": round(pm, 4), "odd": odd,
@@ -231,7 +237,7 @@ def top_value_bets(matches, top=3, edge_min=0.03):
                 pm = (1 - p_under) if k == "over" else p_under
                 implied = 1.0 / odd
                 edge = pm - implied
-                if edge >= edge_min:
+                if edge >= _edge_threshold("CORNERS", edge_min):
                     bets.append({
                         "home": home, "away": away, "date": m.get("date") or m.get("utcDate"),
                         "label": label, "prob": round(pm, 4), "odd": odd,
@@ -249,7 +255,7 @@ def top_value_bets(matches, top=3, edge_min=0.03):
                     pm = p["shots"]["lines"][line][k]
                     implied = 1.0 / odd
                     edge = pm - implied
-                    if edge >= edge_min:
+                    if edge >= _edge_threshold("TIRS", edge_min):
                         bets.append({
                             "home": home, "away": away, "date": date_str,
                             "label": label, "prob": round(pm, 4), "odd": odd,
@@ -273,5 +279,5 @@ def build_pnl(matches):
         "favorite": fav,        # parier le favori (référence)
         "value": val,           # stratégie value (edge>0)
         "valueStrict": val5,    # value plus sélective (edge>5%)
-        "topValue": top_value_bets(matches, top=3, edge_min=0.03),
+        "topValue": top_value_bets(matches, top=3, edge_min=0.0),
     }
