@@ -46,12 +46,21 @@ jobs:
           PYTHONIOENCODING: "utf-8"
         run: python -m collector.refresh
 
+      - name: Encrypt protected pages
+        env:
+          SITE_PASSWORD: ${{ vars.SITE_PASSWORD }}
+        run: |
+          if [ -z "$SITE_PASSWORD" ]; then
+            echo "SITE_PASSWORD repository variable is required for protected deploy." >&2
+            exit 1
+          fi
+          node scripts/encrypt_static_site.mjs "$SITE_PASSWORD" index.html scouting.html
+
       - name: Prepare GitHub Pages artifact
         run: |
-          mkdir -p _site/collector
+          mkdir -p _site
           cp index.html scouting.html _site/
           cp -R assets _site/assets
-          cp -R collector/data _site/collector/data
           touch _site/.nojekyll
 
       - name: Configure Pages
