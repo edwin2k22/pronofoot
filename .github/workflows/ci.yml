@@ -34,3 +34,6 @@ jobs:
 
       - name: Test (pytest)
         run: pytest tests/ --tb=short
+
+      - name: Free-source audit
+        run: python -m collector.sources.free_sources --audit

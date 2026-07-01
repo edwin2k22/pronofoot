@@ -18,6 +18,16 @@ Modèle Bayésien évolutif : prior de force → mise à jour après chaque matc
 
 Tout est en JSON domaine public, **sans clé API**.
 
+Mode gratuit verifiable :
+
+```bash
+python3 -m collector.sources.free_sources --audit
+```
+
+Pour partager l'app sans `runlocal`, utilise le workflow GitHub Actions
+`Free Static Refresh` : il rafraichit les donnees statiques toutes les 30 minutes
+et republie `index.html` / `scouting.html` sans serveur payant.
+
 ## 🧠 Système Bayésien évolutif (les 6 points)
 
 | # | Besoin | Implémentation |

@@ -1,11 +1,11 @@
 {
-  "sampleWithOdds": 63,
+  "sampleWithOdds": 64,
   "favorite": {
-    "bets": 63,
-    "wins": 40,
-    "winRate": 63,
-    "pnl": 1.83,
-    "yield": 2.9
+    "bets": 64,
+    "wins": 41,
+    "winRate": 64,
+    "pnl": 3.08,
+    "yield": 4.8
   },
   "value": {
     "bets": 13,
@@ -27,27 +27,14 @@
       "away": "Senegal",
       "date": "2026-07-01 13:00 UTC-7",
       "label": "Victoire Belgium",
-      "prob": 0.7467,
+      "prob": 0.7472,
       "odd": 2.2,
       "implied": 0.4545,
-      "edge": 0.2922,
-      "ev": 0.643,
+      "edge": 0.2927,
+      "ev": 0.644,
       "provider": "DraftKings",
       "market": "1N2",
       "lineMovement": 0.0
-    },
-    {
-      "home": "England",
-      "away": "DR Congo",
-      "date": "2026-07-01 12:00 UTC-4",
-      "label": "Plus de 2.5 buts",
-      "prob": 0.6991,
-      "odd": 1.909,
-      "implied": 0.5238,
-      "edge": 0.1753,
-      "ev": 0.335,
-      "provider": "DraftKings",
-      "market": "O/U"
     },
     {
       "home": "Belgium",

@@ -1,0 +1,98 @@
+{
+  "England|DR Congo": {
+    "source": "FotMob predicted lineup",
+    "url": "https://www.fotmob.com/matches/england-vs-3ehijk/ibb2vwh7",
+    "home_formation": "4-2-3-1",
+    "away_formation": "5-3-2",
+    "home_xi": [
+      "Jordan Pickford (GK)",
+      "Djed Spence (DF)",
+      "Ezri Konsa (DF)",
+      "Marc Guehi (DF)",
+      "Nico O'Reilly (DF)",
+      "Elliot Anderson (MF)",
+      "Declan Rice (MF)",
+      "Bukayo Saka (FW)",
+      "Jude Bellingham (MF)",
+      "Marcus Rashford (FW)",
+      "Harry Kane (FW)"
+    ],
+    "away_xi": [
+      "Lionel Mpasi-Nzau (GK)",
+      "Arthur Masuaku (DF)",
+      "Aaron Wan-Bissaka (DF)",
+      "Steve Kapuadi (DF)",
+      "Axel Tuanzebe (DF)",
+      "Chancel Mbemba (DF)",
+      "Edo Kayembe (MF)",
+      "Samuel Moutoussamy (MF)",
+      "Noah Sadiki (MF)",
+      "Yoane Wissa (FW)",
+      "Cedric Bakambu (FW)"
+    ]
+  },
+  "Belgium|Senegal": {
+    "source": "FotMob predicted lineup",
+    "url": "https://www.fotmob.com/matches/senegal-vs-belgium/1rywdm",
+    "home_formation": "4-2-3-1",
+    "away_formation": "4-3-3",
+    "home_xi": [
+      "Thibaut Courtois (GK)",
+      "Timothy Castagne (DF)",
+      "Brandon Mechele (DF)",
+      "Arthur Theate (DF)",
+      "Maxim De Cuyper (DF)",
+      "Youri Tielemans (MF)",
+      "Amadou Onana (MF)",
+      "Jeremy Doku (FW)",
+      "Kevin De Bruyne (MF)",
+      "Leandro Trossard (FW)",
+      "Romelu Lukaku (FW)"
+    ],
+    "away_xi": [
+      "Seny Diaw (GK)",
+      "Ismail Jakobs (DF)",
+      "Moussa Niakhate (DF)",
+      "Abdoulaye Seck (DF)",
+      "Krepin Diatta (DF)",
+      "Pape Gueye (MF)",
+      "Idrissa Gueye (MF)",
+      "Lamine Camara (MF)",
+      "Sadio Mane (FW)",
+      "Ismaila Sarr (FW)",
+      "Iliman Ndiaye (FW)"
+    ]
+  },
+  "USA|Bosnia & Herzegovina": {
+    "source": "FotMob predicted lineup",
+    "url": "https://www.fotmob.com/matches/usa-vs-bosnia-and-herzegovina/1w5c9h#4819746",
+    "home_formation": "3-4-2-1",
+    "away_formation": "4-4-2",
+    "home_xi": [
+      "Matt Freese (GK)",
+      "Alex Freeman (DF)",
+      "Chris Richards (DF)",
+      "Tim Ream (DF)",
+      "Sergino Dest (DF)",
+      "Tyler Adams (MF)",
+      "Malik Tillman (MF)",
+      "Antonee Robinson (DF)",
+      "Weston McKennie (MF)",
+      "Christian Pulisic (FW)",
+      "Folarin Balogun (FW)"
+    ],
+    "away_xi": [
+      "Nikola Vasilj (GK)",
+      "Amar Dedic (DF)",
+      "Nikola Katic (DF)",
+      "Tarik Muharemovic (DF)",
+      "Sead Kolasinac (DF)",
+      "Esmir Bajraktarevic (MF)",
+      "Benjamin Tahirovic (MF)",
+      "Ivan Basic (MF)",
+      "Kerim Alajbegovic (MF)",
+      "Ermedin Demirovic (FW)",
+      "Edin Dzeko (FW)"
+    ]
+  }
+}

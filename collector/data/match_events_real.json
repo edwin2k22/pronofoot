@@ -43708,13 +43708,13 @@
     "type": "Foul"
    },
    {
-    "minute": 36,
+    "minute": 35,
     "text": "Michael Olise (France) hits the right post with a left footed shot from the centre of the box.",
     "type": "Shot Hit Woodwork"
    },
    {
     "minute": 36,
-    "text": "Attempt missed. Ousmane Demb\u00e9l\u00e9 (France) left footed shot from the right side of the box is close, but misses to the left.",
+    "text": "Attempt missed. Ousmane Demb\u00e9l\u00e9 (France) left footed shot from the centre of the box is close, but misses to the left.",
     "type": "Shot Off Target"
    },
    {
@@ -43748,12 +43748,12 @@
     "type": "Shot On Target"
    },
    {
-    "minute": 41,
+    "minute": 40,
     "text": "Lucas Bergvall (Sweden) wins a free kick on the right wing.",
     "type": "Foul"
    },
    {
-    "minute": 41,
+    "minute": 40,
     "text": "Foul by Adrien Rabiot (France).",
     "type": "Foul"
    },
@@ -43794,7 +43794,7 @@
    },
    {
     "minute": 45,
-    "text": "Attempt missed. Elliot Stroud (Sweden) right footed shot from the centre of the box is high and wide to the right.",
+    "text": "Attempt missed. Elliot Stroud (Sweden) right footed shot from the centre of the box is close, but misses the top right corner.",
     "type": "Shot Off Target"
    },
    {
@@ -43924,12 +43924,12 @@
    },
    {
     "minute": 75,
-    "text": "Substitution, France. Malo Gusto replaces Jules Kound\u00e9.",
+    "text": "Substitution, France. D\u00e9sir\u00e9 Dou\u00e9 replaces Ousmane Demb\u00e9l\u00e9.",
     "type": "Substitution"
    },
    {
     "minute": 75,
-    "text": "Substitution, France. D\u00e9sir\u00e9 Dou\u00e9 replaces Ousmane Demb\u00e9l\u00e9.",
+    "text": "Substitution, France. Malo Gusto replaces Jules Kound\u00e9.",
     "type": "Substitution"
    },
    {
@@ -46311,6 +46311,24 @@
     "team": "Ecuador",
     "player": "Alan Franco",
     "type": "Yellow"
+   },
+   {
+    "minute": 90,
+    "team": "Ecuador",
+    "player": "Kendry P\u00e1ez",
+    "type": "Yellow"
+   },
+   {
+    "minute": 90,
+    "team": "Ecuador",
+    "player": "Piero Hincapi\u00e9",
+    "type": "Red"
+   },
+   {
+    "minute": 90,
+    "team": "Ecuador",
+    "player": "Mois\u00e9s Caicedo",
+    "type": "Yellow"
    }
   ],
   "commentary": [
@@ -46528,9 +46546,396 @@
     "minute": 45,
     "text": "Foul by Jes\u00fas Gallardo (Mexico).",
     "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Corner, Ecuador. Conceded by Jorge S\u00e1nchez.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 45,
+    "text": "First Half ends, Mexico 2, Ecuador 0.",
+    "type": ""
+   },
+   {
+    "minute": 45,
+    "text": "Substitution, Ecuador. \u00c1ngelo Preciado replaces Joel Ord\u00f3\u00f1ez.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 45,
+    "text": "Substitution, Ecuador. Yaimar Medina replaces Alan Franco.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 45,
+    "text": "Second Half begins Mexico 2, Ecuador 0.",
+    "type": "Start 2nd Half"
+   },
+   {
+    "minute": 46,
+    "text": "Attempt missed. Roberto Alvarado (Mexico) left footed shot from the right side of the box is high and wide to the left. Assisted by Juli\u00e1n Qui\u00f1ones.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 48,
+    "text": "Foul by Yaimar Medina (Ecuador).",
+    "type": "Foul"
+   },
+   {
+    "minute": 48,
+    "text": "Gilberto Mora (Mexico) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 49,
+    "text": "John Yeboah (Ecuador) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 49,
+    "text": "Foul by Jes\u00fas Gallardo (Mexico).",
+    "type": "Foul"
+   },
+   {
+    "minute": 51,
+    "text": "Attempt missed. Pedro Vite (Ecuador) left footed shot from outside the box is too high. Assisted by Gonzalo Plata.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 52,
+    "text": "Attempt blocked. Gilberto Mora (Mexico) right footed shot from the right side of the box is blocked. Assisted by \u00c9rik Lira.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 53,
+    "text": "Offside, Ecuador. Enner Valencia is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 58,
+    "text": "Gilberto Mora (Mexico) wins a free kick on the right wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 58,
+    "text": "Foul by Piero Hincapi\u00e9 (Ecuador).",
+    "type": "Foul"
+   },
+   {
+    "minute": 58,
+    "text": "Substitution, Mexico. Brian Guti\u00e9rrez replaces Gilberto Mora.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 59,
+    "text": "Substitution, Ecuador. Kevin Rodr\u00edguez replaces Enner Valencia.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 59,
+    "text": "Foul by Brian Guti\u00e9rrez (Mexico).",
+    "type": "Foul"
+   },
+   {
+    "minute": 59,
+    "text": "Piero Hincapi\u00e9 (Ecuador) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 61,
+    "text": "Foul by Ra\u00fal Jim\u00e9nez (Mexico).",
+    "type": "Foul"
+   },
+   {
+    "minute": 61,
+    "text": "Willian Pacho (Ecuador) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 63,
+    "text": "Corner, Ecuador. Conceded by Juli\u00e1n Qui\u00f1ones.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 66,
+    "text": "Corner, Mexico. Conceded by Willian Pacho.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 67,
+    "text": "Attempt saved. C\u00e9sar Montes (Mexico) header from the centre of the box is saved in the top centre of the goal by Hern\u00e1n Gal\u00edndez (Ecuador). Assisted by Roberto Alvarado with a cross.",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 67,
+    "text": "Corner, Mexico. Conceded by Hern\u00e1n Gal\u00edndez.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 67,
+    "text": "Attempt missed. Johan V\u00e1squez (Mexico) header from the centre of the box is close, but misses to the right. Assisted by Roberto Alvarado with a cross following a corner.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 68,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 71,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 72,
+    "text": "Corner, Ecuador. Conceded by Roberto Alvarado.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 73,
+    "text": "Substitution, Mexico. Obed Vargas replaces Luis Romo.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 74,
+    "text": "Substitution, Mexico. Santiago Gim\u00e9nez replaces Ra\u00fal Jim\u00e9nez.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 74,
+    "text": "Attempt missed. Kevin Rodr\u00edguez (Ecuador) right footed shot from the centre of the box is close, but misses to the left. Assisted by Mois\u00e9s Caicedo with a through ball.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 75,
+    "text": "Delay in match because of an injury Ra\u00fal Rangel (Mexico).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 76,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 77,
+    "text": "Johan V\u00e1squez (Mexico) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 77,
+    "text": "Foul by Kevin Rodr\u00edguez (Ecuador).",
+    "type": "Foul"
+   },
+   {
+    "minute": 78,
+    "text": "Santiago Gim\u00e9nez (Mexico) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 78,
+    "text": "Foul by Piero Hincapi\u00e9 (Ecuador).",
+    "type": "Foul"
+   },
+   {
+    "minute": 79,
+    "text": "Substitution, Ecuador. Jordy Caicedo replaces John Yeboah.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 79,
+    "text": "Substitution, Ecuador. Kendry P\u00e1ez replaces Nilson Angulo.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 80,
+    "text": "Substitution, Mexico. Orbel\u00edn Pineda replaces Juli\u00e1n Qui\u00f1ones.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 80,
+    "text": "Substitution, Mexico. Israel Reyes replaces Roberto Alvarado.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 81,
+    "text": "Foul by Jorge S\u00e1nchez (Mexico).",
+    "type": "Foul"
+   },
+   {
+    "minute": 81,
+    "text": "Gonzalo Plata (Ecuador) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 82,
+    "text": "Corner, Ecuador. Conceded by Jorge S\u00e1nchez.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 83,
+    "text": "Foul by Jordy Caicedo (Ecuador).",
+    "type": "Foul"
+   },
+   {
+    "minute": 83,
+    "text": "Johan V\u00e1squez (Mexico) wins a free kick in the defensive half.",
+    "type": ""
+   },
+   {
+    "minute": 84,
+    "text": "Santiago Gim\u00e9nez (Mexico) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 84,
+    "text": "Foul by Pedro Vite (Ecuador).",
+    "type": "Foul"
+   },
+   {
+    "minute": 85,
+    "text": "Attempt missed. Mois\u00e9s Caicedo (Ecuador) right footed shot from outside the box misses to the left.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 88,
+    "text": "Attempt missed. Yaimar Medina (Ecuador) header from the centre of the box misses to the left. Assisted by Kendry P\u00e1ez.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 89,
+    "text": "Attempt blocked. Jordy Caicedo (Ecuador) left footed shot from the centre of the box is blocked. Assisted by Kevin Rodr\u00edguez.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 90,
+    "text": "Fourth official has announced 7 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 90,
+    "text": "Attempt missed. Orbel\u00edn Pineda (Mexico) right footed shot from the left side of the box is close, but misses the top right corner. Assisted by \u00c9rik Lira.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 90,
+    "text": "Orbel\u00edn Pineda (Mexico) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Kendry P\u00e1ez (Ecuador).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Kendry P\u00e1ez (Ecuador) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 90,
+    "text": "VAR Decision: Card upgraded Piero Hincapi\u00e9 (Ecuador).",
+    "type": "VAR - Referee decision confirmed"
+   },
+   {
+    "minute": 90,
+    "text": "Piero Hincapi\u00e9 (Ecuador) is shown the red card.",
+    "type": "Red Card"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Santiago Gim\u00e9nez (Mexico).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Pedro Vite (Ecuador) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "C\u00e9sar Montes (Mexico) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Jordy Caicedo (Ecuador).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Orbel\u00edn Pineda (Mexico) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Mois\u00e9s Caicedo (Ecuador).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Mois\u00e9s Caicedo (Ecuador) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 90,
+    "text": "Second Half ends, Mexico 2, Ecuador 0.",
+    "type": ""
+   },
+   {
+    "minute": 0,
+    "text": "Match ends, Mexico 2, Ecuador 0.",
+    "type": ""
    }
   ],
   "halftime": "2-0",
+  "motm": "\u2014",
+  "note": ""
+ },
+ "England|DR Congo": {
+  "goals": [
+   {
+    "minute": 7,
+    "team": "Congo DR",
+    "player": "Brian Cipenga",
+    "assist": "Chancel Mbemba",
+    "note": null
+   }
+  ],
+  "cards": [],
+  "commentary": [
+   {
+    "minute": 0,
+    "text": "Lineups are announced and players are warming up.",
+    "type": ""
+   },
+   {
+    "minute": 0,
+    "text": "First Half begins.",
+    "type": ""
+   },
+   {
+    "minute": 2,
+    "text": "Offside, Congo DR. Yoane Wissa is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 3,
+    "text": "Foul by Marcus Rashford (England).",
+    "type": "Foul"
+   },
+   {
+    "minute": 3,
+    "text": "Ngal'ayel Mukau (Congo DR) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 7,
+    "text": "Goal! England 0, Congo DR 1. Brian Cipenga (Congo DR) right footed shot from the left side of the box to the bottom left corner. Assisted by Chancel Mbemba.",
+    "type": "Goal"
+   }
+  ],
+  "halftime": "0-1",
   "motm": "\u2014",
   "note": ""
  }

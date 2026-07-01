@@ -661,5 +661,33 @@
   },
   "home": "Mexico",
   "away": "Ecuador"
+ },
+ "USA|Bosnia & Herzegovina": {
+  "refTeam": "United States",
+  "games": [
+   {
+    "date": "2021-12-19",
+    "score": "1-0",
+    "competition": "2021 International Friendly"
+   },
+   {
+    "date": "2018-01-29",
+    "score": "0-0",
+    "competition": "2018 International Friendly"
+   },
+   {
+    "date": "2013-08-14",
+    "score": "4-3",
+    "competition": "International Friendly"
+   }
+  ],
+  "summary": {
+   "win": 2,
+   "draw": 1,
+   "loss": 0,
+   "total": 3
+  },
+  "home": "USA",
+  "away": "Bosnia & Herzegovina"
  }
 }

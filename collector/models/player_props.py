@@ -96,14 +96,17 @@ def compute(team, roster, lam_team, lam_opp, stats_team=None, lineup_xi=None):
         statut = rp.get("statut") or pl.get("statut")
         # un joueur est "probable titulaire" s'il est dans le XI réel connu,
         # ou s'il a déjà été titulaire (donnée réelle) ; sinon rotation/banc.
-        starter = (_last(name) in xi_set) or (statut == "Titulaire")
+        starter = (_last(name) in xi_set) if len(xi_set) >= 8 else (statut == "Titulaire")
         played = bool(rp) or (_last(name) in xi_set)
         players.append({"name": name, "poste": poste, "real": rp,
                         "statut": statut, "starter": starter, "played": played})
 
     # si on connaît le XI réel ou des titulaires réels, on se restreint aux joueurs
     # pertinents (titulaires + remplaçants ayant joué) pour ne pas diluer sur 26 noms
-    relevant = [p for p in players if p["starter"] or p["played"]]
+    if len(xi_set) >= 8:
+        relevant = [p for p in players if p["starter"]]
+    else:
+        relevant = [p for p in players if p["starter"] or p["played"]]
     if len(relevant) >= 8:
         players = relevant
 

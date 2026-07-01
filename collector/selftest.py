@@ -29,12 +29,25 @@ def main():
             "collector.player_ingest", "collector.schedule_clock",
             "collector.models.context", "collector.models.standings",
             "collector.models.lineup_impact", "collector.models.elo",
-            "collector.sources.recent_form", "collector.sources.openfootball_wc"]
+            "collector.sources.recent_form", "collector.sources.openfootball_wc",
+            "collector.sources.free_sources"]
     for m in mods:
         try:
             importlib.import_module(m); check(m, True)
         except Exception as e:
             check(f"{m} ({e})", False)
+
+    # 1bis) contrat "100% gratuit" : aucune dependance a cle payante dans le code actif
+    print("\nMode gratuit :")
+    try:
+        from collector.sources import free_sources
+        hits = free_sources.scan_for_paid_dependencies()
+        check("aucune API payante obligatoire detectee", len(hits) == 0)
+        manifest = free_sources.manifest()
+        check(f"sources gratuites referencees ({len(manifest['sources'])})",
+              len(manifest["sources"]) >= 5)
+    except Exception as e:
+        check(f"audit sources gratuites ({e})", False)
 
     # 2) données présentes et valides
     print("\nDonnées :")

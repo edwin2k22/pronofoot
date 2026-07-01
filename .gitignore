@@ -29,6 +29,7 @@ htmlcov/
 # Project
 collector/cache/*.json
 collector/data/*.json
+!collector/data/projected_lineups.json
 collector/data/*.db
 collector/data/*.sqlite3
 *.db

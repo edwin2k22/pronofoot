@@ -407,6 +407,72 @@ def _load_squads():
     return _SQUADS_CACHE
 
 
+_PROJECTED_LINEUPS_CACHE = None
+
+
+def _load_projected_lineups():
+    """Compos probables sourcées (ex: FotMob) utilisées avant le XI officiel."""
+    global _PROJECTED_LINEUPS_CACHE
+    if _PROJECTED_LINEUPS_CACHE is None:
+        try:
+            with open(os.path.join(DATA_DIR, "projected_lineups.json"), encoding="utf-8") as f:
+                _PROJECTED_LINEUPS_CACHE = json.load(f)
+        except (OSError, ValueError):
+            _PROJECTED_LINEUPS_CACHE = {}
+    return _PROJECTED_LINEUPS_CACHE
+
+
+def _projected_lineup(home, away):
+    data = _load_projected_lineups()
+    key = f"{home}|{away}"
+    if key in data:
+        return data[key]
+    rev = f"{away}|{home}"
+    src = data.get(rev)
+    if not src:
+        return None
+    return {
+        **src,
+        "home_formation": src.get("away_formation"),
+        "away_formation": src.get("home_formation"),
+        "home_xi": src.get("away_xi") or [],
+        "away_xi": src.get("home_xi") or [],
+        "home_bench": src.get("away_bench") or [],
+        "away_bench": src.get("home_bench") or [],
+    }
+
+
+def _normalize_source_tags(match):
+    aliases = {
+        "ESPN-odds": "ESPN-free-odds",
+        "Smarkets": "Smarkets-free-odds",
+    }
+    tags = []
+    for raw in match.get("sources") or []:
+        tag = aliases.get(raw, raw)
+        if tag and tag not in tags:
+            tags.append(tag)
+    if "free-mode" not in tags:
+        tags.insert(0, "free-mode")
+    match["sources"] = tags
+    return match
+
+
+TEAM_DATA_ALIASES = {
+    "USA": "United States",
+    "Bosnia & Herzegovina": "Bosnia and Herzegovina",
+}
+
+
+def _team_data_key(team, data):
+    if team in data:
+        return team
+    alias = TEAM_DATA_ALIASES.get(team)
+    if alias in data:
+        return alias
+    return team
+
+
 _PLAYER_STATS_CACHE = None
 
 
@@ -734,8 +800,10 @@ def predict():
                 lu = (json.loads(mt["events_json"]) or {}).get("lineups")
         except (KeyError, TypeError, ValueError):
             lu = None
-        hform = (lu or {}).get("home_formation", "4-3-3")
-        aform = (lu or {}).get("away_formation", "4-4-2")
+        projected_lu = None if lu else _projected_lineup(mt["home"], mt["away"])
+        lineup_src = lu or projected_lu or {}
+        hform = lineup_src.get("home_formation", "4-3-3")
+        aform = lineup_src.get("away_formation", "4-4-2")
         
         def _extract_pos(players_list, fallback_form=None):
             out = []
@@ -750,18 +818,18 @@ def predict():
                 return li.formation_positions(fallback_form)
             return out
 
-        if lu and lu.get("home_xi"):
-            hpos = _extract_pos(lu.get("home_xi"), hform)
+        if lineup_src.get("home_xi"):
+            hpos = _extract_pos(lineup_src.get("home_xi"), hform)
         else:
             hpos = li.formation_positions(hform)
 
-        if lu and lu.get("away_xi"):
-            apos = _extract_pos(lu.get("away_xi"), aform)
+        if lineup_src.get("away_xi"):
+            apos = _extract_pos(lineup_src.get("away_xi"), aform)
         else:
             apos = li.formation_positions(aform)
 
-        hbench = _extract_pos((lu or {}).get("home_bench"))
-        abench = _extract_pos((lu or {}).get("away_bench"))
+        hbench = _extract_pos(lineup_src.get("home_bench"))
+        abench = _extract_pos(lineup_src.get("away_bench"))
         lam_h, lam_a, lineup_info = li.apply_lineup(
             lam_h, lam_a, hpos, apos, hform, aform,
             home_bench=hbench, away_bench=abench,
@@ -969,13 +1037,17 @@ def predict():
         # pronos JOUEURS (6 rôles) en probabilités — effectif réel + production réelle
         squads = _load_squads()
         pstats = _load_player_stats()
-        home_xi = (lu or {}).get("home_xi")
-        away_xi = (lu or {}).get("away_xi")
+        home_xi = lineup_src.get("home_xi")
+        away_xi = lineup_src.get("away_xi")
+        squad_home_key = _team_data_key(mt["home"], squads)
+        squad_away_key = _team_data_key(mt["away"], squads)
+        stats_home_key = _team_data_key(mt["home"], pstats)
+        stats_away_key = _team_data_key(mt["away"], pstats)
         player_props = {
-            "home": pprops.compute(mt["home"], squads.get(mt["home"]), lam_h, lam_a,
-                                   stats_team=pstats.get(mt["home"]), lineup_xi=home_xi),
-            "away": pprops.compute(mt["away"], squads.get(mt["away"]), lam_a, lam_h,
-                                   stats_team=pstats.get(mt["away"]), lineup_xi=away_xi),
+            "home": pprops.compute(mt["home"], squads.get(squad_home_key), lam_h, lam_a,
+                                   stats_team=pstats.get(stats_home_key), lineup_xi=home_xi),
+            "away": pprops.compute(mt["away"], squads.get(squad_away_key), lam_a, lam_h,
+                                   stats_team=pstats.get(stats_away_key), lineup_xi=away_xi),
         }
         # attache la bio RÉELLE (forces/faiblesses) aux joueurs clés cités
         for side in ("home", "away"):
@@ -1148,6 +1220,21 @@ def predict():
                 "homeBench": lu.get("home_bench") or [],
                 "awayBench": lu.get("away_bench") or [],
             }
+        projected_lineups = None
+        if (not official_lineups) and projected_lu and ((projected_lu.get("home_xi") or []) or (projected_lu.get("away_xi") or [])):
+            projected_lineups = {
+                "source": projected_lu.get("source") or "Projected lineup",
+                "url": projected_lu.get("url"),
+                "homeFormation": projected_lu.get("home_formation"),
+                "awayFormation": projected_lu.get("away_formation"),
+                "homeXi": projected_lu.get("home_xi") or [],
+                "awayXi": projected_lu.get("away_xi") or [],
+                "homeBench": projected_lu.get("home_bench") or [],
+                "awayBench": projected_lu.get("away_bench") or [],
+            }
+        source_tags = ["free-mode", "openfootball", "SQLite", "Elo", "shrinkage", "FIFA-ratings"] + (["ESPN-free-odds"] if odd1 else []) + (["Smarkets-free-odds"] if oddBTTS_Yes else [])
+        if projected_lineups:
+            source_tags.append("FotMob-projected-XI")
         out.append({
             "id": mt["id"],
             "league": f"CDM 2026 · {mt['stage']}",
@@ -1174,7 +1261,7 @@ def predict():
             "oddCorners_line": oddCorners_line, "oddCorners_Over": oddCorners_Over, "oddCorners_Under": oddCorners_Under,
             "oddCards_line": od.get("oddCards_line"), "oddCards_Over": od.get("oddCards_Over"), "oddCards_Under": od.get("oddCards_Under"),
             "oddsProvider": od.get("provider"),
-            "sources": ["openfootball", "SQLite", "Elo", "shrinkage", "FIFA-ratings"] + (["ESPN-odds"] if odd1 else []) + (["Smarkets"] if oddBTTS_Yes else []),
+            "sources": source_tags,
             "confidence": round(conf, 2),
             "prediction": {
                 "p1": res["p1"], "pX": res["pX"], "p2": res["p2"],
@@ -1203,6 +1290,7 @@ def predict():
                 "lineupImpact": lineup_info,
                 "formations": {"home": hform, "away": aform},
                 "officialLineups": official_lineups,
+                "projectedLineups": projected_lineups,
                 # intelligence contextuelle (3 angles)
                 "mwi": mwi,
                 "meta": meta,
@@ -1220,6 +1308,7 @@ def predict():
                              if not str(mt["stage"]).startswith("Group") else None),
             },
         })
+    out = [_normalize_source_tags(m) for m in out]
     conn.close()
     path = os.path.join(DATA_DIR, "predictions.json")
     import time

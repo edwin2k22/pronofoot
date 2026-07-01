@@ -1,5 +1,29 @@
 [
   {
+    "t": "13:07",
+    "match": "England–DR Congo",
+    "type": "score",
+    "text": "⚽ England–DR Congo : score 0-1"
+  },
+  {
+    "t": "13:01",
+    "match": "England–DR Congo",
+    "type": "score",
+    "text": "⚽ England–DR Congo : score 0-0"
+  },
+  {
+    "t": "13:01",
+    "match": "England–DR Congo",
+    "type": "status",
+    "text": "England–DR Congo : 🟢 coup d'envoi"
+  },
+  {
+    "t": "12:38",
+    "match": "England–DR Congo",
+    "type": "lineup",
+    "text": "🩹 England–DR Congo : absent(s) → Bukayo Saka"
+  },
+  {
     "t": "23:32",
     "match": "Mexico–Ecuador",
     "type": "score",
@@ -334,29 +358,5 @@
     "match": "Belgium–Senegal",
     "type": "proba",
     "text": "📊 Belgium–Senegal : Belgium 75%↘72%"
-  },
-  {
-    "t": "14:01",
-    "match": "Ivory Coast–Norway",
-    "type": "score",
-    "text": "⚽ Ivory Coast–Norway : score 0-0"
-  },
-  {
-    "t": "14:01",
-    "match": "Ivory Coast–Norway",
-    "type": "status",
-    "text": "Ivory Coast–Norway : 🟢 coup d'envoi"
-  },
-  {
-    "t": "13:59",
-    "match": "Ivory Coast–Norway",
-    "type": "proba",
-    "text": "📊 Ivory Coast–Norway : Ivory Coast 50%↘46%"
-  },
-  {
-    "t": "13:59",
-    "match": "Ivory Coast–Norway",
-    "type": "lineup",
-    "text": "🩹 Ivory Coast–Norway : absent(s) → Amad Diallo, Franck Kessié, Martin Ødegaard, Nicolas Pépé, Thelo Aasgaard"
   }
 ]

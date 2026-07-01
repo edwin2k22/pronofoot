@@ -2,14 +2,14 @@
   "reliability": {
     "byTier": {
       "lock": {
-        "won": 171,
-        "total": 198,
-        "pct": 86
+        "won": 174,
+        "total": 201,
+        "pct": 87
       },
       "strong": {
-        "won": 65,
-        "total": 79,
-        "pct": 82
+        "won": 67,
+        "total": 81,
+        "pct": 83
       },
       "value": {
         "won": 43,
@@ -19,47 +19,47 @@
     },
     "byMarket": {
       "DC": {
-        "won": 70,
-        "total": 78,
+        "won": 71,
+        "total": 79,
         "pct": 90
       },
       "DNB": {
-        "won": 49,
-        "total": 56,
+        "won": 50,
+        "total": 57,
         "pct": 88
       },
       "1N2": {
-        "won": 48,
-        "total": 78,
+        "won": 49,
+        "total": 79,
         "pct": 62
       },
       "OU": {
-        "won": 46,
-        "total": 78,
+        "won": 47,
+        "total": 79,
         "pct": 59
       },
       "BTTS": {
-        "won": 38,
-        "total": 78,
+        "won": 39,
+        "total": 79,
         "pct": 49
       },
       "CORNERS": {
-        "won": 56,
-        "total": 78,
+        "won": 57,
+        "total": 79,
         "pct": 72
       },
       "CARTONS": {
-        "won": 67,
-        "total": 78,
+        "won": 68,
+        "total": 79,
         "pct": 86
       }
     },
     "overall": {
-      "won": 279,
-      "total": 343,
-      "pct": 81
+      "won": 284,
+      "total": 348,
+      "pct": 82
     },
-    "sampleMatches": 78
+    "sampleMatches": 79
   },
   "tiers": {
     "lock": 0.85,
@@ -68,40 +68,16 @@
   },
   "picks": [
     {
-      "home": "Mexico",
-      "away": "Ecuador",
-      "date": "2026-06-30 19:00 UTC-6",
-      "id": 79,
-      "market": "DC",
-      "label": "Double chance : Mexico ou nul",
-      "prob": 0.8658,
-      "why": "exclut l'issue la moins probable",
-      "tier": "lock",
-      "tierReliability": 86
-    },
-    {
-      "home": "Mexico",
-      "away": "Ecuador",
-      "date": "2026-06-30 19:00 UTC-6",
-      "id": 79,
-      "market": "DNB",
-      "label": "Sans match nul : Mexico",
-      "prob": 0.8101,
-      "why": "remboursé si nul",
-      "tier": "lock",
-      "tierReliability": 86
-    },
-    {
       "home": "England",
       "away": "DR Congo",
       "date": "2026-07-01 12:00 UTC-4",
       "id": 80,
       "market": "DC",
       "label": "Double chance : England ou nul",
-      "prob": 0.9794,
+      "prob": 0.9607,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 86
+      "tierReliability": 87
     },
     {
       "home": "England",
@@ -110,10 +86,10 @@
       "id": 80,
       "market": "DNB",
       "label": "Sans match nul : England",
-      "prob": 0.9774,
+      "prob": 0.9545,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 86
+      "tierReliability": 87
     },
     {
       "home": "Belgium",
@@ -125,7 +101,7 @@
       "prob": 0.9061,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 86
+      "tierReliability": 87
     },
     {
       "home": "Belgium",
@@ -137,7 +113,7 @@
       "prob": 0.885,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 86
+      "tierReliability": 87
     },
     {
       "home": "USA",
@@ -149,7 +125,7 @@
       "prob": 0.9071,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 86
+      "tierReliability": 87
     },
     {
       "home": "USA",
@@ -161,7 +137,7 @@
       "prob": 0.8849,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 86
+      "tierReliability": 87
     },
     {
       "home": "Spain",
@@ -173,7 +149,7 @@
       "prob": 0.957,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 86
+      "tierReliability": 87
     },
     {
       "home": "Spain",
@@ -185,7 +161,7 @@
       "prob": 0.9505,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 86
+      "tierReliability": 87
     },
     {
       "home": "Portugal",
@@ -197,7 +173,7 @@
       "prob": 0.8645,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 86
+      "tierReliability": 87
     },
     {
       "home": "Portugal",
@@ -209,7 +185,7 @@
       "prob": 0.8222,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 86
+      "tierReliability": 87
     },
     {
       "home": "Switzerland",
@@ -218,10 +194,10 @@
       "id": 85,
       "market": "CORNERS",
       "label": "Moins de 9.5 corners",
-      "prob": 0.8168,
+      "prob": 0.814,
       "why": "",
       "tier": "lock",
-      "tierReliability": 86
+      "tierReliability": 87
     },
     {
       "home": "Switzerland",
@@ -233,7 +209,7 @@
       "prob": 0.8102,
       "why": "",
       "tier": "lock",
-      "tierReliability": 86
+      "tierReliability": 87
     },
     {
       "home": "Australia",
@@ -245,7 +221,7 @@
       "prob": 0.8033,
       "why": "",
       "tier": "lock",
-      "tierReliability": 86
+      "tierReliability": 87
     },
     {
       "home": "Australia",
@@ -257,7 +233,7 @@
       "prob": 0.7134,
       "why": "",
       "tier": "lock",
-      "tierReliability": 86
+      "tierReliability": 87
     },
     {
       "home": "Argentina",
@@ -269,7 +245,7 @@
       "prob": 0.9986,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 86
+      "tierReliability": 87
     },
     {
       "home": "Argentina",
@@ -281,7 +257,7 @@
       "prob": 0.9986,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 86
+      "tierReliability": 87
     },
     {
       "home": "Colombia",
@@ -293,7 +269,7 @@
       "prob": 0.9823,
       "why": "exclut l'issue la moins probable",
       "tier": "lock",
-      "tierReliability": 86
+      "tierReliability": 87
     },
     {
       "home": "Colombia",
@@ -305,8 +281,32 @@
       "prob": 0.9808,
       "why": "remboursé si nul",
       "tier": "lock",
-      "tierReliability": 86
+      "tierReliability": 87
+    },
+    {
+      "home": "Canada",
+      "away": "Morocco",
+      "date": "2026-07-04 12:00 UTC-5",
+      "id": 90,
+      "market": "DC",
+      "label": "Double chance : nul ou Morocco",
+      "prob": 0.9063,
+      "why": "exclut l'issue la moins probable",
+      "tier": "lock",
+      "tierReliability": 87
+    },
+    {
+      "home": "Canada",
+      "away": "Morocco",
+      "date": "2026-07-04 12:00 UTC-5",
+      "id": 90,
+      "market": "DNB",
+      "label": "Sans match nul : Morocco",
+      "prob": 0.8825,
+      "why": "remboursé si nul",
+      "tier": "lock",
+      "tierReliability": 87
     }
   ],
-  "lockCount": 43
+  "lockCount": 50
 }

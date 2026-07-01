@@ -4983,5 +4983,70 @@
    "Alan Minda"
   ],
   "source": "ESPN (compos r\u00e9elles)"
+ },
+ "England|DR Congo": {
+  "home_formation": "4-2-3-1",
+  "home_xi": [
+   "Jordan Pickford",
+   "Marc Gu\u00e9hi",
+   "Ezri Konsa",
+   "Nico O'Reilly",
+   "Djed Spence",
+   "Jude Bellingham",
+   "Declan Rice",
+   "Elliot Anderson",
+   "Harry Kane",
+   "Marcus Rashford",
+   "Noni Madueke"
+  ],
+  "home_bench": [
+   "Trevoh Chalobah",
+   "Dan Burn",
+   "Kobbie Mainoo",
+   "Bukayo Saka",
+   "Morgan Rogers",
+   "Dean Henderson",
+   "Ollie Watkins",
+   "Ivan Toney",
+   "John Stones",
+   "Jordan Henderson",
+   "Anthony Gordon",
+   "James Trafford",
+   "Reece James",
+   "Eberechi Eze",
+   "Jarell Quansah"
+  ],
+  "away_formation": "4-3-3",
+  "away_xi": [
+   "Lionel Mpasi",
+   "Axel Tuanzebe",
+   "Chancel Mbemba",
+   "Arthur Masuaku",
+   "Aaron Wan-Bissaka",
+   "Samuel Moutoussamy",
+   "Noah Sadiki",
+   "Ngal'ayel Mukau",
+   "Yoane Wissa",
+   "Brian Cipenga",
+   "Nathana\u00ebl Mbuku"
+  ],
+  "away_bench": [
+   "C\u00e9dric Bakambu",
+   "Matthieu Epolo",
+   "Timothy Fayulu",
+   "Fiston Mayele",
+   "Charles Pickel",
+   "Th\u00e9o Bongonda",
+   "G\u00e9d\u00e9on Kalulu",
+   "Edo Kayembe",
+   "Dylan Batubinsika",
+   "Ga\u00ebl Kakuta",
+   "Meschack Elia",
+   "Simon Banza",
+   "Aaron Tshibola",
+   "Steve Kapuadi",
+   "Joris Kayembe"
+  ],
+  "source": "ESPN (compos r\u00e9elles)"
  }
 }

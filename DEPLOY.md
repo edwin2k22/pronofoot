@@ -3,6 +3,32 @@
 Objectif : obtenir une URL publique que tes amis peuvent ouvrir, sans dependre de
 `localhost` ni d'un run local Codex.
 
+## Option recommandee : 100% gratuit, statique
+
+Cette option ne demande aucune cle API payante et aucun serveur qui tourne chez toi.
+
+1. Mets le projet dans un repo GitHub.
+2. Active GitHub Pages, Cloudflare Pages ou Vercel sur la branche `main`.
+3. Dans GitHub, ouvre `Actions` puis lance manuellement le workflow
+   `Free Static Refresh` une premiere fois.
+4. Le workflow relance ensuite `python -m collector.refresh` toutes les 30 minutes,
+   regenere `index.html` / `scouting.html`, puis commit les fichiers statiques.
+5. Partage l'URL publique fournie par l'hebergeur statique.
+
+Controle anti-payant :
+
+```bash
+python -m collector.sources.free_sources --audit
+```
+
+Le workflow execute aussi cet audit. Si une future modif ajoute une dependance a
+cle payante type API-Football, Sportmonks, RapidAPI ou The Odds API, le refresh
+echoue au lieu de publier une app qui ne respecte plus le mode gratuit.
+
+Limite honnete : GitHub Actions planifie le refresh, mais ne garantit pas la
+seconde exacte. Pour un live ultra-fin, un fournisseur payant ou un serveur dedie
+reste meilleur; pour une app partageable gratuitement, c'est le meilleur compromis.
+
 ## Ce qui est pret
 
 - `Dockerfile` : construit l'app dans une image Python portable.
@@ -37,7 +63,7 @@ http://localhost:8077/index.html
 | `LIVE_POLL` | `30` | Frequence de poll pendant un match live. |
 | `PRONOFOOT_REFRESH_ON_START` | `0` | Lance un refresh complet au demarrage. Laisse `0` pour demarrer vite. |
 
-## Option simple : Render ou Railway
+## Option serveur : Render ou Railway
 
 1. Mets le projet dans un repo GitHub.
 2. Cree un nouveau Web Service depuis ce repo.

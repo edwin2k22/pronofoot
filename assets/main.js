@@ -76,6 +76,44 @@ const MARKET_LABELS = {
   bttsNo: "BTTS Non",
 };
 
+function sourceCoverage(data){
+  const matches = Array.isArray(data) ? data : [];
+  const tags = new Set(matches.flatMap(m=>m.sources||[]));
+  const count = fn => matches.filter(fn).length;
+  return {
+    matches: matches.length,
+    tags,
+    odds: count(m=>m.odd1 || m.oddOver || m.oddBTTS_Yes),
+    refs: count(m=>(predictionOf(m).referee||{}).name),
+    officialXi: count(m=>!!predictionOf(m).officialLineups),
+    projectedXi: count(m=>!!predictionOf(m).projectedLineups),
+    espn: count(m=>(m.sources||[]).some(s=>String(s).startsWith("ESPN"))),
+  };
+}
+
+function renderFreeSourceStrip(data){
+  const el = $("freeSourceStrip");
+  if(!el) return;
+  const c = sourceCoverage(data);
+  const fragile = c.projectedXi ? `${c.projectedXi} XI projetes` : "XI projetes en attente";
+  el.innerHTML = `
+    <div class="source-strip-main">
+      <div>
+        <div class="source-strip-title">Mode 100% gratuit</div>
+        <div class="source-strip-sub">openfootball + ESPN public + cache local + modele Elo/Poisson. Aucune cle API payante obligatoire.</div>
+      </div>
+      <span class="source-pill-ok">free-only</span>
+    </div>
+    <div class="source-strip-grid">
+      <span><b>${c.matches}</b> matchs</span>
+      <span><b>${c.odds}</b> avec cotes</span>
+      <span><b>${c.refs}</b> arbitres</span>
+      <span><b>${c.officialXi}</b> XI officiels</span>
+      <span><b>${fragile}</b></span>
+      <span><b>${c.espn}</b> enrichis ESPN</span>
+    </div>`;
+}
+
 /* ===== FAVORIS & NOTIFICATIONS ===== */
 
 try { setFavTeams(JSON.parse(localStorage.getItem("prono_favs")) || []); } catch(e){}
@@ -160,8 +198,9 @@ function applyData(data, srcLabel){
   const nLive = data.filter(m=>{const s=effectiveStatus(m);return s==="LIVE"||s==="HT";}).length;
   const nFin = data.filter(m=>effectiveStatus(m)==="FINISHED").length;
   const liveCount = $("liveCount");
-  if(liveCount) liveCount.textContent = "Dashboard intelligent · données réelles ESPN/Opta · modèle Elo + Poisson";
+  if(liveCount) liveCount.textContent = "Mode 100% gratuit - ESPN public/openfootball - modele Elo + Poisson";
   ensureModernDashboard();
+  renderFreeSourceStrip(data);
   updateCounts(); buildGroupFilter(); renderDecisionRadar(); render();
   return true;
 }
@@ -511,7 +550,7 @@ function scannerMatches(cfg){
       if(cfg.maxHours && x.ko && x.ko-now > cfg.maxHours*3600000) return false;
       if(cfg.maxHours && x.ko && x.ko < now-3*3600000 && !live) return false;
       const p=predictionOf(x.m);
-      if(cfg.onlyLineups && !p.officialLineups) return false;
+      if(cfg.onlyLineups && !(p.officialLineups || p.projectedLineups)) return false;
       if(cfg.onlyReferee && !(p.referee && p.referee.name)) return false;
       return true;
     })
@@ -542,6 +581,12 @@ function ensureModernDashboard(){
     const hero = document.querySelector(".hero");
     if(hero){
       hero.insertAdjacentHTML("afterend", `<section class="decision-radar" id="decisionRadar" aria-label="Radar decisionnel"></section>`);
+    }
+  }
+  if(!$("freeSourceStrip")){
+    const radar = $("decisionRadar");
+    if(radar){
+      radar.insertAdjacentHTML("afterend", `<section class="source-strip" id="freeSourceStrip" aria-label="Sources gratuites"></section>`);
     }
   }
   if(!$("smartControls")){
@@ -1026,7 +1071,7 @@ function renderScanner(){
     const odd=cand.odd ? cand.odd.toFixed(2) : "N/D";
     const p=predictionOf(m);
     const badges=[
-      p.officialLineups ? "XI" : "",
+      p.officialLineups ? "XI off." : (p.projectedLineups ? "XI proj." : ""),
       p.referee && p.referee.name ? "Arbitre" : "",
       bestValue(m) ? "Value" : "",
     ].filter(Boolean).map(x=>`<span class="lab-pill">${x}</span>`).join("");
@@ -1059,7 +1104,7 @@ function renderScanner(){
         <label>Cote min<input id="scannerMinOdd" class="scan-control" type="number" min="1" max="100" step="0.01" value="${cfg.minOdd}"></label>
         <label>Cote max<input id="scannerMaxOdd" class="scan-control" type="number" min="0" max="100" step="0.01" value="${cfg.maxOdd}"></label>
         <label>Horizon h<input id="scannerMaxHours" class="scan-control" type="number" min="1" max="240" step="1" value="${cfg.maxHours}"></label>
-        <label class="lab-check"><input id="scannerLineups" class="scan-control" type="checkbox"${cfg.onlyLineups?" checked":""}> XI officiel</label>
+        <label class="lab-check"><input id="scannerLineups" class="scan-control" type="checkbox"${cfg.onlyLineups?" checked":""}> XI dispo</label>
         <label class="lab-check"><input id="scannerReferee" class="scan-control" type="checkbox"${cfg.onlyReferee?" checked":""}> Arbitre connu</label>
         <div class="lab-actions">
           <button type="button" class="abtn primary" id="scannerSave">Enregistrer</button>
@@ -1069,7 +1114,7 @@ function renderScanner(){
       <div class="lab-metrics">
         ${metricCard("Signaux", hits.length)}
         ${metricCard("Value", hits.filter(x=>Number.isFinite(x.cand.edge) && x.cand.edge>0).length)}
-        ${metricCard("Avec XI", hits.filter(x=>predictionOf(x.m).officialLineups).length)}
+        ${metricCard("Avec XI", hits.filter(x=>predictionOf(x.m).officialLineups || predictionOf(x.m).projectedLineups).length)}
         ${metricCard("Avec arbitre", hits.filter(x=>predictionOf(x.m).referee && predictionOf(x.m).referee.name).length)}
       </div>
       <div class="scan-list">${rows || `<div class="empty">Aucun match ne correspond a ce scanner.</div>`}</div>
@@ -1504,8 +1549,6 @@ function renderFinished(m){
     ${vsTable(m)}
     <div class="verdict done anim-block anim-4"><b>${a.predictionCorrect?"✅":"❌"} Verdict du modèle :</b> ${a.summary}</div>
     ${formRow(m)}
-    <div id="live-timeline-container">${timeline(m, a)}</div>
-    ${lineupsBlock(m, a)}
     <div class="grid2" style="margin-top:16px">
       <div>
         <h3>📊 Statistiques du match</h3>
@@ -1529,6 +1572,8 @@ function renderFinished(m){
       </div>
     </div>
     ${teamStatsBlock(m)}
+    ${lineupsBlock(m, a)}
+    <div id="live-timeline-container">${timeline(m, a)}</div>
     ${scorersVsBlock(m)}
     ${srcTags(m)}
   </div>`;
@@ -1720,14 +1765,18 @@ function missingKeyPlayersBlock(m) {
 
 function projectedLineupsBlock(m,p){
   const official=p.officialLineups||{};
+  const projected=p.projectedLineups||{};
   const hasOfficial=(official.homeXi&&official.homeXi.length>=11)||(official.awayXi&&official.awayXi.length>=11);
+  const activeLineup=hasOfficial ? official : projected;
+  const hasProjected=!hasOfficial && ((projected.homeXi&&projected.homeXi.length>=11)||(projected.awayXi&&projected.awayXi.length>=11));
+  const hasLineup=hasOfficial || hasProjected;
   const forms=p.formations||{};
   const li=p.lineupImpact||m.lineupImpact||{};
   const pp=p.playerProps||{};
-  if(!hasOfficial && !forms.home && !forms.away && !li.tacticalMod && !pp.home && !pp.away) return "";
+  if(!hasLineup && !forms.home && !forms.away && !li.tacticalMod && !pp.home && !pp.away) return "";
   const namesFor=(side)=>{
-    if(hasOfficial){
-      const xi=official[side==="home"?"homeXi":"awayXi"]||[];
+    if(hasLineup){
+      const xi=activeLineup[side==="home"?"homeXi":"awayXi"]||[];
       return xi.map((name,i)=>({role:i===0?"Gardien":"Titulaire", name}));
     }
     const team=pp[side]||{};
@@ -1748,9 +1797,11 @@ function projectedLineupsBlock(m,p){
     : "";
   const status = hasOfficial
     ? `XI officiel reçu (${official.source||"source officielle"}) — le modèle l'utilise dans ses probabilités.`
+    : hasProjected
+    ? `XI projeté reçu (${projected.source||"source projetée"}) — utilisé par le modèle jusqu'au XI officiel.${projected.url?` <a href="${projected.url}" target="_blank" rel="noopener">Source</a>`:""}`
     : "XI officiel non reçu dans le flux. Projection modèle ci-dessous.";
-  const homeForm = hasOfficial ? (official.homeFormation || forms.home) : forms.home;
-  const awayForm = hasOfficial ? (official.awayFormation || forms.away) : forms.away;
+  const homeForm = hasLineup ? (activeLineup.homeFormation || forms.home) : forms.home;
+  const awayForm = hasLineup ? (activeLineup.awayFormation || forms.away) : forms.away;
   return `<div class="module lineup-proj">
     <h3>👥 Compos & disponibilité</h3>
     <div class="lineup-status">${status}</div>
@@ -2063,7 +2114,7 @@ function setAdminStatus(txt){ const e=$("adminStatus"); if(e) e.textContent=txt;
 async function adminAction(act){
   if(SERVER_READONLY){
     setAdminStatus("Mode public lecture seule : actions administrateur desactivees.");
-    $("adminHint").innerHTML = "Le site peut etre partage sans risque. Les refresh, sync et scores restent reserves au serveur prive.";
+    $("adminHint").innerHTML = "Le site peut etre partage sans risque. Le refresh public passe par GitHub Actions, sans serveur local ni cle payante.";
     return;
   }
   if(!SERVER_OK){
@@ -2075,7 +2126,7 @@ async function adminAction(act){
       sync:`${py} -m collector.live --sync && ${py} -m collector.refresh`};
     const c=cmds[act]||`${py} -m collector.refresh`;
     setAdminStatus("⚠️ Serveur non détecté — lance l'app via le serveur de contrôle.");
-    $("adminHint").innerHTML = `Pour activer les boutons, lance : <code>${py} -m collector.server</code> puis ouvre <code>http://localhost:8077/index.html</code>.<br>Ou exécute directement : <code>${c}</code>`;
+    $("adminHint").innerHTML = `En local : lance <code>${py} -m collector.server</code> ou execute <code>${c}</code>.<br>En public gratuit : declenche le workflow <code>Free Static Refresh</code> sur GitHub Actions.`;
     return;
   }
   const btns=document.querySelectorAll(".abtn"); btns.forEach(b=>b.disabled=true);
@@ -2106,13 +2157,13 @@ $("toggleAdmin").onclick=async ()=>{
     const st=await checkServer();
     if(st && st.readonly){
       setAdminStatus(`Mode public lecture seule · ${st.finished} termines / ${st.live} en cours / ${st.scheduled} a venir`);
-      $("adminHint").innerHTML = "Actions administrateur desactivees sur l'URL publique.";
+      $("adminHint").innerHTML = "Actions administrateur desactivees sur l'URL publique. Les donnees se rafraichissent via GitHub Actions.";
       return;
     }
     if(st) setAdminStatus(`🎛️ Serveur connecté · ${st.finished} terminés / ${st.live} en cours / ${st.scheduled} à venir`);
     else { setAdminStatus("⚠️ Serveur non détecté (boutons en mode lecture seule).");
       const py2 = navigator.platform.startsWith("Win") ? "python" : "python3";
-      $("adminHint").innerHTML = `Lance <code>${py2} -m collector.server</code> puis ouvre <code>http://localhost:8077/index.html</code> pour activer les boutons.`; }
+      $("adminHint").innerHTML = `Local : lance <code>${py2} -m collector.server</code>. Public gratuit : utilise le workflow <code>Free Static Refresh</code>.`; }
   }
 };
 document.querySelectorAll(".abtn").forEach(b=> b.onclick=()=>adminAction(b.dataset.act));
