@@ -25,6 +25,9 @@ window.adminAction = adminAction;
 let COMBO_HISTORY = null;
 function setComboHistory(d) { COMBO_HISTORY = d; }
 
+const IS_LOCAL_SURFACE = ["localhost", "127.0.0.1", ""].includes(location.hostname) || location.protocol === "file:";
+const IS_PUBLIC_SURFACE = !IS_LOCAL_SURFACE;
+
 const DASHBOARD_VIEW = {
   sort: localStorage.getItem("pf-sort") || "time",
   valueOnly: localStorage.getItem("pf-filter-value") === "1",
@@ -96,6 +99,24 @@ function renderFreeSourceStrip(data){
   if(!el) return;
   const c = sourceCoverage(data);
   const fragile = c.projectedXi ? `${c.projectedXi} XI projetes` : "XI projetes en attente";
+  if(IS_PUBLIC_SURFACE){
+    el.innerHTML = `
+      <div class="source-strip-main">
+        <div>
+          <div class="source-strip-title">Donnees mises a jour</div>
+          <div class="source-strip-sub">Scores, cotes, arbitres et compositions quand elles sont disponibles. Mode lecture seule.</div>
+        </div>
+        <span class="source-pill-ok">public</span>
+      </div>
+      <div class="source-strip-grid">
+        <span><b>${c.matches}</b> matchs</span>
+        <span><b>${c.odds}</b> avec cotes</span>
+        <span><b>${c.refs}</b> arbitres</span>
+        <span><b>${c.officialXi}</b> XI officiels</span>
+        <span><b>${fragile}</b></span>
+      </div>`;
+    return;
+  }
   el.innerHTML = `
     <div class="source-strip-main">
       <div>
@@ -2110,6 +2131,22 @@ function fillAdminMatches(){
 }
 function setAdminStatus(txt){ const e=$("adminStatus"); if(e) e.textContent=txt; }
 
+function applyPublicSurface(){
+  if(!IS_PUBLIC_SURFACE) return;
+  document.documentElement.dataset.surface = "public";
+  const adminToggle = $("toggleAdmin");
+  if(adminToggle) adminToggle.remove();
+  const adminPanel = $("adminPanel");
+  if(adminPanel) adminPanel.remove();
+  const roleSelect = $("roleSelect");
+  if(roleSelect){
+    roleSelect.querySelector('option[value="admin"]')?.remove();
+    roleSelect.value = "analyst";
+    roleSelect.classList.add("u-hidden");
+    roleSelect.setAttribute("aria-hidden", "true");
+  }
+}
+
 
 async function adminAction(act){
   if(SERVER_READONLY){
@@ -2148,8 +2185,10 @@ async function adminAction(act){
   finally{ btns.forEach(b=>b.disabled=false); }
 }
 
-$("toggleAdmin").onclick=async ()=>{
+const adminToggle = $("toggleAdmin");
+if(adminToggle) adminToggle.onclick=async ()=>{
   const p=$("adminPanel");
+  if(!p) return;
   const show = p.classList.contains("u-hidden");
   if(show) p.classList.remove("u-hidden"); else p.classList.add("u-hidden");
   if(show){
@@ -2168,4 +2207,5 @@ $("toggleAdmin").onclick=async ()=>{
 };
 document.querySelectorAll(".abtn").forEach(b=> b.onclick=()=>adminAction(b.dataset.act));
 
+applyPublicSurface();
 load();
