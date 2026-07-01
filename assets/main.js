@@ -32,6 +32,50 @@ const DASHBOARD_VIEW = {
   withOdds: localStorage.getItem("pf-filter-odds") === "1",
 };
 
+const STRATEGY_STORE = "pf-strategy-saved";
+const STRATEGY_CURRENT = "pf-strategy-current";
+const SCANNER_STORE = "pf-scanner-saved";
+const SCANNER_CURRENT = "pf-scanner-current";
+
+const DEFAULT_STRATEGY = {
+  name: "Value stricte",
+  market: "value",
+  minProb: 0.58,
+  minEdge: 0.15,
+  minOdd: 1.4,
+  maxOdd: 8,
+  minConf: 0,
+  requireOdds: true,
+};
+
+const DEFAULT_SCANNER = {
+  name: "Prematch value",
+  status: "prematch",
+  market: "value",
+  minProb: 0.58,
+  minEdge: 0.15,
+  minOdd: 1.4,
+  maxOdd: 8,
+  maxHours: 72,
+  onlyLineups: false,
+  onlyReferee: false,
+  requireOdds: true,
+};
+
+const MARKET_LABELS = {
+  value: "Meilleure value",
+  fav1n2: "Favori 1N2",
+  home: "Victoire domicile",
+  draw: "Match nul",
+  away: "Victoire extérieur",
+  over25: "Over 2.5",
+  under25: "Under 2.5",
+  overBook: "Over ligne book",
+  underBook: "Under ligne book",
+  bttsYes: "BTTS Oui",
+  bttsNo: "BTTS Non",
+};
+
 /* ===== FAVORIS & NOTIFICATIONS ===== */
 
 try { setFavTeams(JSON.parse(localStorage.getItem("prono_favs")) || []); } catch(e){}
@@ -257,6 +301,225 @@ function sortRankDate(m){
   return t == null ? Number.MAX_SAFE_INTEGER : t;
 }
 
+function esc(v){
+  return String(v ?? "").replace(/[&<>"']/g, c => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+  }[c]));
+}
+
+function readStore(key, fallback){
+  try{ return JSON.parse(localStorage.getItem(key)) ?? fallback; }catch(_){ return fallback; }
+}
+
+function writeStore(key, value){
+  localStorage.setItem(key, JSON.stringify(value));
+}
+
+function nval(id, fallback=0){
+  const el=$(id);
+  const n=Number(el && el.value);
+  return Number.isFinite(n) ? n : fallback;
+}
+
+function checked(id){
+  const el=$(id);
+  return !!(el && el.checked);
+}
+
+function marketOptions(selected){
+  return Object.entries(MARKET_LABELS).map(([v,l])=>
+    `<option value="${v}"${v===selected?" selected":""}>${l}</option>`).join("");
+}
+
+function oneXtwoCandidates(m){
+  const p=predictionOf(m);
+  return [
+    {market:"1N2", selection:"1", label:`Victoire ${m.home}`, prob:+p.p1 || 0, odd:m.odd1},
+    {market:"1N2", selection:"X", label:"Match nul", prob:+p.pX || 0, odd:m.oddX},
+    {market:"1N2", selection:"2", label:`Victoire ${m.away}`, prob:+p.p2 || 0, odd:m.odd2},
+  ].map(withEdge);
+}
+
+function withEdge(c){
+  const odd=Number(c.odd);
+  const prob=Number(c.prob);
+  return {...c, prob, odd:Number.isFinite(odd) && odd>1 ? odd : null,
+    edge:Number.isFinite(odd) && odd>1 ? prob - (1/odd) : null};
+}
+
+function ouCandidate(m, side, fixedLine){
+  const p=predictionOf(m);
+  const bookLine = Number(m.oddOU_line);
+  const line = Number.isFinite(fixedLine) ? fixedLine : (Number.isFinite(bookLine) ? bookLine : 2.5);
+  const key = String(line);
+  const row = (p.overUnder || {})[key];
+  let over = row ? +row.over : (line===2.5 ? +p.over25 : null);
+  if(!Number.isFinite(over)) return null;
+  const prob = side==="over" ? over : 1-over;
+  const odd = Number.isFinite(bookLine) && Math.abs(bookLine-line)<0.01
+    ? (side==="over" ? m.oddOver : m.oddUnder)
+    : null;
+  return withEdge({market:"OU", selection:side, line, label:`${side==="over"?"Plus":"Moins"} de ${line} buts`, prob, odd});
+}
+
+function bttsCandidate(m, side){
+  const p=predictionOf(m);
+  const b=Number(p.btts);
+  if(!Number.isFinite(b)) return null;
+  return withEdge({
+    market:"BTTS",
+    selection:side,
+    label:`Les deux marquent : ${side==="yes"?"Oui":"Non"}`,
+    prob:side==="yes" ? b : 1-b,
+    odd:side==="yes" ? m.oddBTTS_Yes : m.oddBTTS_No,
+  });
+}
+
+function allBetCandidates(m){
+  return [
+    ...oneXtwoCandidates(m),
+    ouCandidate(m, "over", 2.5),
+    ouCandidate(m, "under", 2.5),
+    ouCandidate(m, "over", null),
+    ouCandidate(m, "under", null),
+    bttsCandidate(m, "yes"),
+    bttsCandidate(m, "no"),
+  ].filter(Boolean);
+}
+
+function pickCandidate(m, market){
+  const fixed = {
+    home: () => oneXtwoCandidates(m)[0],
+    draw: () => oneXtwoCandidates(m)[1],
+    away: () => oneXtwoCandidates(m)[2],
+    over25: () => ouCandidate(m, "over", 2.5),
+    under25: () => ouCandidate(m, "under", 2.5),
+    overBook: () => ouCandidate(m, "over", null),
+    underBook: () => ouCandidate(m, "under", null),
+    bttsYes: () => bttsCandidate(m, "yes"),
+    bttsNo: () => bttsCandidate(m, "no"),
+  };
+  if(market==="fav1n2") return oneXtwoCandidates(m).sort((a,b)=>b.prob-a.prob)[0];
+  if(market==="value") return allBetCandidates(m)
+    .filter(c=>c.odd && Number.isFinite(c.edge))
+    .sort((a,b)=>(b.edge-a.edge) || (b.prob-a.prob))[0] || null;
+  return fixed[market] ? fixed[market]() : null;
+}
+
+function candidateWon(m, c){
+  const a=m.analysis;
+  if(!a || !c) return null;
+  if(c.market==="1N2") return c.selection === a.outcome;
+  if(c.market==="OU"){
+    const total=Number(a.totalGoals);
+    if(!Number.isFinite(total)) return null;
+    return c.selection==="over" ? total > c.line : total < c.line;
+  }
+  if(c.market==="BTTS") return (c.selection==="yes") === !!a.bttsReal;
+  return null;
+}
+
+function passesBetFilters(m, c, cfg){
+  if(!c) return false;
+  if(c.prob < Number(cfg.minProb || 0)) return false;
+  if(Number(cfg.minConf || 0) > 0 && modelConfidence(m) < Number(cfg.minConf)) return false;
+  if(cfg.requireOdds && !c.odd) return false;
+  if(c.odd){
+    if(c.odd < Number(cfg.minOdd || 1)) return false;
+    if(Number(cfg.maxOdd || 0) > 0 && c.odd > Number(cfg.maxOdd)) return false;
+  } else if(Number(cfg.minOdd || 0) > 1 || Number(cfg.maxOdd || 0) > 0) return false;
+  if(Number(cfg.minEdge || 0) > 0 && (!Number.isFinite(c.edge) || c.edge < Number(cfg.minEdge))) return false;
+  return true;
+}
+
+function resultScore(m){
+  return (m.analysis && m.analysis.realScore) || m.realScore || "";
+}
+
+function currentStrategyConfig(){
+  return {
+    name: ($("strategyName")?.value || DEFAULT_STRATEGY.name).trim() || DEFAULT_STRATEGY.name,
+    market: $("strategyMarket")?.value || DEFAULT_STRATEGY.market,
+    minProb: nval("strategyMinProb", DEFAULT_STRATEGY.minProb),
+    minEdge: nval("strategyMinEdge", DEFAULT_STRATEGY.minEdge),
+    minOdd: nval("strategyMinOdd", DEFAULT_STRATEGY.minOdd),
+    maxOdd: nval("strategyMaxOdd", DEFAULT_STRATEGY.maxOdd),
+    minConf: nval("strategyMinConf", DEFAULT_STRATEGY.minConf),
+    requireOdds: checked("strategyRequireOdds"),
+  };
+}
+
+function currentScannerConfig(){
+  return {
+    name: ($("scannerName")?.value || DEFAULT_SCANNER.name).trim() || DEFAULT_SCANNER.name,
+    status: $("scannerStatus")?.value || DEFAULT_SCANNER.status,
+    market: $("scannerMarket")?.value || DEFAULT_SCANNER.market,
+    minProb: nval("scannerMinProb", DEFAULT_SCANNER.minProb),
+    minEdge: nval("scannerMinEdge", DEFAULT_SCANNER.minEdge),
+    minOdd: nval("scannerMinOdd", DEFAULT_SCANNER.minOdd),
+    maxOdd: nval("scannerMaxOdd", DEFAULT_SCANNER.maxOdd),
+    maxHours: nval("scannerMaxHours", DEFAULT_SCANNER.maxHours),
+    onlyLineups: checked("scannerLineups"),
+    onlyReferee: checked("scannerReferee"),
+    requireOdds: true,
+    minConf: 0,
+  };
+}
+
+function backtestStrategy(cfg){
+  const rows=[];
+  MATCHES.filter(m=>effectiveStatus(m)==="FINISHED" && m.analysis).forEach(m=>{
+    const cand=pickCandidate(m, cfg.market);
+    if(!passesBetFilters(m, cand, cfg)) return;
+    const won=candidateWon(m, cand);
+    if(won==null) return;
+    const profit=cand.odd ? (won ? cand.odd-1 : -1) : null;
+    rows.push({m, cand, won, profit});
+  });
+  rows.sort((a,b)=>sortRankDate(a.m)-sortRankDate(b.m));
+  const bets=rows.length;
+  const wins=rows.filter(r=>r.won).length;
+  const oddsRows=rows.filter(r=>r.profit!=null);
+  const pnl=oddsRows.reduce((s,r)=>s+r.profit,0);
+  const staked=oddsRows.length;
+  let equity=0, peak=0, maxDd=0;
+  oddsRows.forEach(r=>{
+    equity += r.profit;
+    peak = Math.max(peak, equity);
+    maxDd = Math.min(maxDd, equity - peak);
+  });
+  return {
+    rows, bets, wins,
+    winRate:bets ? wins/bets : 0,
+    pnl, staked,
+    yield:staked ? pnl/staked : 0,
+    avgOdd:oddsRows.length ? oddsRows.reduce((s,r)=>s+r.cand.odd,0)/oddsRows.length : null,
+    avgProb:bets ? rows.reduce((s,r)=>s+r.cand.prob,0)/bets : null,
+    maxDd,
+  };
+}
+
+function scannerMatches(cfg){
+  const now=Date.now();
+  return MATCHES.map(m=>({m, st:effectiveStatus(m), ko:parseKickoff(m.date)}))
+    .filter(x=>{
+      const live = x.st==="LIVE" || x.st==="HT" || x.st==="KICKOFF";
+      const prematch = x.st==="SCHEDULED";
+      if(cfg.status==="live" && !live) return false;
+      if(cfg.status==="prematch" && !prematch) return false;
+      if(cfg.status==="both" && !(live || prematch)) return false;
+      if(cfg.maxHours && x.ko && x.ko-now > cfg.maxHours*3600000) return false;
+      if(cfg.maxHours && x.ko && x.ko < now-3*3600000 && !live) return false;
+      const p=predictionOf(x.m);
+      if(cfg.onlyLineups && !p.officialLineups) return false;
+      if(cfg.onlyReferee && !(p.referee && p.referee.name)) return false;
+      return true;
+    })
+    .map(x=>({m:x.m, st:x.st, cand:pickCandidate(x.m, cfg.market)}))
+    .filter(x=>passesBetFilters(x.m, x.cand, cfg))
+    .sort((a,b)=>(b.cand.edge ?? -9)-(a.cand.edge ?? -9) || sortRankDate(a.m)-sortRankDate(b.m));
+}
+
 function applySmartFilters(list){
   let out = [...list];
   if(DASHBOARD_VIEW.valueOnly) out = out.filter(m=>!!bestValue(m));
@@ -332,11 +595,11 @@ function ensureModernDashboard(){
 function updateSmartControls(shown, total){
   const panel = $("smartControls");
   if(panel){
-    const hidden = TAB==="BEST" || TAB==="GROUPS" || TAB==="BRACKET";
+    const hidden = TAB==="BEST" || TAB==="GROUPS" || TAB==="BRACKET" || TAB==="SCANNER" || TAB==="STRATEGY";
     panel.classList.toggle("u-hidden", hidden);
   }
   const radar = $("decisionRadar");
-  if(radar) radar.classList.toggle("u-hidden", TAB==="BRACKET");
+  if(radar) radar.classList.toggle("u-hidden", TAB==="BRACKET" || TAB==="SCANNER" || TAB==="STRATEGY");
   const sort = $("matchSort");
   if(sort) sort.value = DASHBOARD_VIEW.sort;
   document.querySelectorAll(".chip-toggle[data-filter]").forEach(btn=>{
@@ -651,8 +914,197 @@ function renderTopValue(){
 
 
 
+function metricCard(label, value, sub=""){
+  return `<div class="lab-metric"><span>${label}</span><b>${value}</b>${sub?`<small>${sub}</small>`:""}</div>`;
+}
+
+function savedList(key){
+  const d=readStore(key, []);
+  return Array.isArray(d) ? d : [];
+}
+
+function savedSelectHtml(items, activeName){
+  return `<option value="">Charger un profil</option>` + items.map((x,i)=>
+    `<option value="${i}"${x.name===activeName?" selected":""}>${esc(x.name)}</option>`).join("");
+}
+
+function renderStrategyLab(){
+  const box=$("matchList"); if(!box) return;
+  box.classList.add("lab-mode");
+  const cfg={...DEFAULT_STRATEGY, ...readStore(STRATEGY_CURRENT, {})};
+  const saved=savedList(STRATEGY_STORE);
+  const bt=backtestStrategy(cfg);
+  const sampleNote=bt.bets<25 ? "echantillon faible" : "echantillon exploitable";
+  const rows=bt.rows.slice().reverse().slice(0,80).map(r=>{
+    const odd=r.cand.odd ? r.cand.odd.toFixed(2) : "N/D";
+    const edge=Number.isFinite(r.cand.edge) ? `${Math.round(r.cand.edge*100)} pts` : "N/D";
+    const profit=r.profit==null ? "N/D" : `${r.profit>=0?"+":""}${r.profit.toFixed(2)}u`;
+    return `<tr>
+      <td>${esc((r.m.date||"").slice(0,16))}</td>
+      <td><button class="lab-link" data-open="${esc(r.m.home)}|${esc(r.m.away)}">${esc(r.m.home)} - ${esc(r.m.away)}</button></td>
+      <td>${esc(r.cand.label)}</td>
+      <td>${pct(r.cand.prob)}</td>
+      <td>${odd}</td>
+      <td>${edge}</td>
+      <td>${esc(resultScore(r.m))}</td>
+      <td><span class="lab-pill ${r.won?"ok":"ko"}">${r.won?"win":"loss"}</span></td>
+      <td>${profit}</td>
+    </tr>`;
+  }).join("");
+  box.innerHTML=`
+    <section class="lab-shell">
+      <div class="lab-head">
+        <div><span>Strategy Lab</span><h2>Backtest de strategie</h2></div>
+        <p>Teste une regle sur les matchs termines, avec ROI, edge, drawdown et details bet par bet.</p>
+      </div>
+      <div class="lab-grid controls">
+        <label>Nom<input id="strategyName" class="lab-control" value="${esc(cfg.name)}"></label>
+        <label>Profil sauvegarde<select id="strategySaved">${savedSelectHtml(saved, cfg.name)}</select></label>
+        <label>Marche<select id="strategyMarket" class="lab-control">${marketOptions(cfg.market)}</select></label>
+        <label>Proba min<input id="strategyMinProb" class="lab-control" type="number" min="0" max="1" step="0.01" value="${cfg.minProb}"></label>
+        <label>Edge min<input id="strategyMinEdge" class="lab-control" type="number" min="-1" max="1" step="0.01" value="${cfg.minEdge}"></label>
+        <label>Cote min<input id="strategyMinOdd" class="lab-control" type="number" min="1" max="100" step="0.01" value="${cfg.minOdd}"></label>
+        <label>Cote max<input id="strategyMaxOdd" class="lab-control" type="number" min="0" max="100" step="0.01" value="${cfg.maxOdd}"></label>
+        <label>Confiance min<input id="strategyMinConf" class="lab-control" type="number" min="0" max="1" step="0.01" value="${cfg.minConf}"></label>
+        <label class="lab-check"><input id="strategyRequireOdds" class="lab-control" type="checkbox"${cfg.requireOdds?" checked":""}> Cotes requises</label>
+        <div class="lab-actions">
+          <button type="button" class="abtn primary" id="strategySave">Enregistrer</button>
+          <button type="button" class="abtn" id="strategyDelete">Supprimer</button>
+        </div>
+      </div>
+      <div class="lab-metrics">
+        ${metricCard("Bets", bt.bets, sampleNote)}
+        ${metricCard("Winrate", bt.bets ? pct(bt.winRate) : "0%")}
+        ${metricCard("PnL", `${bt.pnl>=0?"+":""}${bt.pnl.toFixed(2)}u`, `${bt.staked} bets avec cotes`)}
+        ${metricCard("Yield", bt.staked ? `${(bt.yield*100).toFixed(1)}%` : "N/D")}
+        ${metricCard("Cote moy.", bt.avgOdd ? bt.avgOdd.toFixed(2) : "N/D")}
+        ${metricCard("Max DD", `${bt.maxDd.toFixed(2)}u`)}
+      </div>
+      <div class="lab-table-wrap">
+        <table class="lab-table">
+          <thead><tr><th>Date</th><th>Match</th><th>Pick</th><th>Proba</th><th>Cote</th><th>Edge</th><th>Score</th><th>Resultat</th><th>PnL</th></tr></thead>
+          <tbody>${rows || `<tr><td colspan="9">Aucun bet historique ne correspond a cette strategie.</td></tr>`}</tbody>
+        </table>
+      </div>
+    </section>`;
+  wireStrategyLab();
+}
+
+function wireStrategyLab(){
+  document.querySelectorAll(".lab-control").forEach(el=>{
+    el.addEventListener("change", ()=>{ writeStore(STRATEGY_CURRENT, currentStrategyConfig()); setTimeout(renderStrategyLab, 0); });
+  });
+  const saved=$("strategySaved");
+  if(saved) saved.onchange=()=>{
+    const cfg=savedList(STRATEGY_STORE)[Number(saved.value)];
+    if(cfg){ writeStore(STRATEGY_CURRENT, cfg); renderStrategyLab(); }
+  };
+  const save=$("strategySave");
+  if(save) save.onclick=()=>{
+    const cfg=currentStrategyConfig();
+    const items=savedList(STRATEGY_STORE).filter(x=>x.name!==cfg.name);
+    items.push(cfg); writeStore(STRATEGY_STORE, items); writeStore(STRATEGY_CURRENT, cfg); renderStrategyLab();
+  };
+  const del=$("strategyDelete");
+  if(del) del.onclick=()=>{
+    const cfg=currentStrategyConfig();
+    writeStore(STRATEGY_STORE, savedList(STRATEGY_STORE).filter(x=>x.name!==cfg.name)); renderStrategyLab();
+  };
+  document.querySelectorAll("[data-open]").forEach(btn=>{
+    btn.onclick=()=>{ const [h,a]=btn.dataset.open.split("|"); openMatchByTeams(h,a); };
+  });
+}
+
+function renderScanner(){
+  const box=$("matchList"); if(!box) return;
+  box.classList.add("lab-mode");
+  const cfg={...DEFAULT_SCANNER, ...readStore(SCANNER_CURRENT, {})};
+  const saved=savedList(SCANNER_STORE);
+  const hits=scannerMatches(cfg);
+  const rows=hits.map(({m,st,cand})=>{
+    const val=Number.isFinite(cand.edge) ? `${Math.round(cand.edge*100)} pts` : "N/D";
+    const odd=cand.odd ? cand.odd.toFixed(2) : "N/D";
+    const p=predictionOf(m);
+    const badges=[
+      p.officialLineups ? "XI" : "",
+      p.referee && p.referee.name ? "Arbitre" : "",
+      bestValue(m) ? "Value" : "",
+    ].filter(Boolean).map(x=>`<span class="lab-pill">${x}</span>`).join("");
+    return `<div class="scan-row" data-open="${esc(m.home)}|${esc(m.away)}">
+      <div class="scan-main">
+        <div class="scan-top"><span>${esc(st)}</span><span>${esc((m.date||"").slice(0,16))}</span>${badges}</div>
+        <b>${esc(m.home)} - ${esc(m.away)}</b>
+        <div class="scan-pick">${esc(cand.label)} · ${pct(cand.prob)} · cote ${odd} · edge ${val}</div>
+      </div>
+      <div class="scan-side"><span>${countdown(m) || "maintenant"}</span><button type="button" class="abtn">Ouvrir</button></div>
+    </div>`;
+  }).join("");
+  box.innerHTML=`
+    <section class="lab-shell">
+      <div class="lab-head">
+        <div><span>Scanner</span><h2>Prematch / live</h2></div>
+        <p>Filtre les prochains matchs et les lives selon proba, edge, cote, compos officielles et arbitres.</p>
+      </div>
+      <div class="lab-grid controls">
+        <label>Nom<input id="scannerName" class="scan-control" value="${esc(cfg.name)}"></label>
+        <label>Profil sauvegarde<select id="scannerSaved">${savedSelectHtml(saved, cfg.name)}</select></label>
+        <label>Fenetre<select id="scannerStatus" class="scan-control">
+          <option value="prematch"${cfg.status==="prematch"?" selected":""}>Prematch</option>
+          <option value="live"${cfg.status==="live"?" selected":""}>Live</option>
+          <option value="both"${cfg.status==="both"?" selected":""}>Prematch + live</option>
+        </select></label>
+        <label>Marche<select id="scannerMarket" class="scan-control">${marketOptions(cfg.market)}</select></label>
+        <label>Proba min<input id="scannerMinProb" class="scan-control" type="number" min="0" max="1" step="0.01" value="${cfg.minProb}"></label>
+        <label>Edge min<input id="scannerMinEdge" class="scan-control" type="number" min="-1" max="1" step="0.01" value="${cfg.minEdge}"></label>
+        <label>Cote min<input id="scannerMinOdd" class="scan-control" type="number" min="1" max="100" step="0.01" value="${cfg.minOdd}"></label>
+        <label>Cote max<input id="scannerMaxOdd" class="scan-control" type="number" min="0" max="100" step="0.01" value="${cfg.maxOdd}"></label>
+        <label>Horizon h<input id="scannerMaxHours" class="scan-control" type="number" min="1" max="240" step="1" value="${cfg.maxHours}"></label>
+        <label class="lab-check"><input id="scannerLineups" class="scan-control" type="checkbox"${cfg.onlyLineups?" checked":""}> XI officiel</label>
+        <label class="lab-check"><input id="scannerReferee" class="scan-control" type="checkbox"${cfg.onlyReferee?" checked":""}> Arbitre connu</label>
+        <div class="lab-actions">
+          <button type="button" class="abtn primary" id="scannerSave">Enregistrer</button>
+          <button type="button" class="abtn" id="scannerDelete">Supprimer</button>
+        </div>
+      </div>
+      <div class="lab-metrics">
+        ${metricCard("Signaux", hits.length)}
+        ${metricCard("Value", hits.filter(x=>Number.isFinite(x.cand.edge) && x.cand.edge>0).length)}
+        ${metricCard("Avec XI", hits.filter(x=>predictionOf(x.m).officialLineups).length)}
+        ${metricCard("Avec arbitre", hits.filter(x=>predictionOf(x.m).referee && predictionOf(x.m).referee.name).length)}
+      </div>
+      <div class="scan-list">${rows || `<div class="empty">Aucun match ne correspond a ce scanner.</div>`}</div>
+    </section>`;
+  wireScanner();
+}
+
+function wireScanner(){
+  document.querySelectorAll(".scan-control").forEach(el=>{
+    el.addEventListener("change", ()=>{ writeStore(SCANNER_CURRENT, currentScannerConfig()); setTimeout(renderScanner, 0); });
+  });
+  const saved=$("scannerSaved");
+  if(saved) saved.onchange=()=>{
+    const cfg=savedList(SCANNER_STORE)[Number(saved.value)];
+    if(cfg){ writeStore(SCANNER_CURRENT, cfg); renderScanner(); }
+  };
+  const save=$("scannerSave");
+  if(save) save.onclick=()=>{
+    const cfg=currentScannerConfig();
+    const items=savedList(SCANNER_STORE).filter(x=>x.name!==cfg.name);
+    items.push(cfg); writeStore(SCANNER_STORE, items); writeStore(SCANNER_CURRENT, cfg); renderScanner();
+  };
+  const del=$("scannerDelete");
+  if(del) del.onclick=()=>{
+    const cfg=currentScannerConfig();
+    writeStore(SCANNER_STORE, savedList(SCANNER_STORE).filter(x=>x.name!==cfg.name)); renderScanner();
+  };
+  document.querySelectorAll(".scan-row").forEach(row=>{
+    row.onclick=()=>{ const [h,a]=row.dataset.open.split("|"); openMatchByTeams(h,a); };
+  });
+}
+
 function render(){
   ensureModernDashboard();
+  document.body.classList.toggle("tool-view", TAB==="SCANNER" || TAB==="STRATEGY");
   renderDecisionRadar();
   if(TAB==="BRACKET"){
     const ml = $("matchList"); if(ml) ml.classList.add("u-hidden");
@@ -663,9 +1115,12 @@ function render(){
   }
   const box=$("bracketView"); if(box) box.classList.add("u-hidden");
   const ml = $("matchList"); if(ml) ml.classList.remove("u-hidden");
+  if(ml) ml.classList.remove("lab-mode");
   const hero = document.querySelector(".hero"); if(hero) hero.classList.remove("u-hidden");
   if(TAB==="BEST"){ updateSmartControls(); renderBestPicks(); return; }
   if(TAB==="GROUPS"){ updateSmartControls(); renderStandings(); return; }
+  if(TAB==="SCANNER"){ updateSmartControls(); renderScanner(); return; }
+  if(TAB==="STRATEGY"){ updateSmartControls(); renderStrategyLab(); return; }
   const q = $("search").value.toLowerCase();
   let list = MATCHES.filter(matchInTab);
   if(GROUP!=="Tous") list = list.filter(m=>m.league===GROUP);
@@ -1527,7 +1982,7 @@ $("tabs").querySelectorAll(".tab").forEach(tab=>{
     tab.classList.add("active");
     setTab(tab.dataset.t); setGroup("Tous"); closeDetail();
     // le filtre par groupe n'a pas de sens dans ces vues agrégées.
-    const gf=$("groupFilter"); if(gf) gf.style.display = (TAB==="BEST"||TAB==="GROUPS"||TAB==="BRACKET")?"none":"";
+    const gf=$("groupFilter"); if(gf) gf.style.display = (TAB==="BEST"||TAB==="GROUPS"||TAB==="BRACKET"||TAB==="SCANNER"||TAB==="STRATEGY")?"none":"";
     buildGroupFilter(); render();
     closeSidebar();   // referme la sidebar sur mobile après sélection
   };

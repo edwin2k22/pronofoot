@@ -1233,6 +1233,319 @@ body.theme-light .ts-bar{
   text-align:center;
 }
 
+.matchlist.lab-mode{
+  display:block;
+}
+
+body.tool-view #topValue,
+body.tool-view .hero,
+body.tool-view #liveFeed,
+body.tool-view #decisionRadar,
+body.tool-view #smartControls,
+body.tool-view #navHistory{
+  display:none!important;
+}
+
+.lab-shell{
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+  width:100%;
+}
+
+.lab-head{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:18px;
+  padding:8px 0 2px;
+}
+
+.lab-head span{
+  color:var(--acc);
+  font-size:11px;
+  font-weight:800;
+  text-transform:uppercase;
+}
+
+.lab-head h2{
+  margin:2px 0 0;
+  font-size:28px;
+  line-height:1.05;
+}
+
+.lab-head p{
+  max-width:520px;
+  margin:0;
+  color:var(--muted);
+  font-size:13px;
+  line-height:1.5;
+  text-align:right;
+}
+
+.lab-grid.controls{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
+  gap:10px;
+  padding:12px;
+  border:1px solid var(--glass-brd);
+  border-radius:8px;
+  background:linear-gradient(180deg,rgba(255,255,255,.055),rgba(255,255,255,.03));
+}
+
+.lab-grid label{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+  min-width:0;
+  color:var(--muted);
+  font-size:11px;
+  font-weight:800;
+  text-transform:uppercase;
+}
+
+.lab-grid input,
+.lab-grid select{
+  width:100%;
+  min-height:38px;
+  border:1px solid var(--glass-brd);
+  border-radius:8px;
+  background:var(--card2);
+  color:var(--txt);
+  padding:8px 10px;
+  font-size:13px;
+  font-weight:700;
+}
+
+.lab-grid input:focus,
+.lab-grid select:focus{
+  outline:none;
+  border-color:var(--acc);
+  box-shadow:0 0 0 3px rgba(110,231,183,.16);
+}
+
+.lab-check{
+  justify-content:center;
+  min-height:62px;
+  border:1px solid var(--glass-brd);
+  border-radius:8px;
+  padding:8px 10px;
+  background:rgba(255,255,255,.035);
+  text-transform:none!important;
+  color:var(--txt)!important;
+}
+
+.lab-check input{
+  width:18px;
+  min-height:18px;
+  padding:0;
+}
+
+.lab-actions{
+  display:flex;
+  align-items:end;
+  gap:8px;
+  flex-wrap:wrap;
+}
+
+.lab-actions .abtn{
+  min-height:38px;
+}
+
+.lab-metrics{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(145px,1fr));
+  gap:10px;
+}
+
+.lab-metric{
+  min-height:92px;
+  border:1px solid var(--glass-brd);
+  border-radius:8px;
+  padding:13px;
+  background:linear-gradient(180deg,var(--card),var(--card2));
+  box-shadow:0 10px 24px rgba(0,0,0,.14);
+}
+
+.lab-metric span{
+  display:block;
+  color:var(--muted);
+  font-size:11px;
+  font-weight:800;
+  text-transform:uppercase;
+}
+
+.lab-metric b{
+  display:block;
+  margin-top:8px;
+  color:var(--txt);
+  font-size:24px;
+  line-height:1;
+  font-variant-numeric:tabular-nums;
+}
+
+.lab-metric small{
+  display:block;
+  margin-top:8px;
+  color:var(--muted);
+  font-size:11px;
+}
+
+.lab-table-wrap{
+  overflow:auto;
+  border:1px solid var(--glass-brd);
+  border-radius:8px;
+  background:rgba(255,255,255,.03);
+}
+
+.lab-table{
+  width:100%;
+  min-width:930px;
+  border-collapse:collapse;
+  font-size:12px;
+}
+
+.lab-table th,
+.lab-table td{
+  padding:10px 12px;
+  border-bottom:1px solid var(--glass-brd);
+  text-align:left;
+  white-space:nowrap;
+}
+
+.lab-table th{
+  position:sticky;
+  top:0;
+  z-index:1;
+  background:var(--card2);
+  color:var(--muted);
+  font-size:10px;
+  font-weight:900;
+  text-transform:uppercase;
+}
+
+.lab-table tr:last-child td{
+  border-bottom:none;
+}
+
+.lab-link{
+  border:0;
+  background:transparent;
+  color:var(--txt);
+  font:inherit;
+  font-weight:800;
+  cursor:pointer;
+  padding:0;
+}
+
+.lab-link:hover{
+  color:var(--acc);
+}
+
+.lab-pill{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:22px;
+  padding:2px 8px;
+  border:1px solid var(--glass-brd);
+  border-radius:999px;
+  background:rgba(255,255,255,.06);
+  color:var(--muted);
+  font-size:10px;
+  font-weight:900;
+  text-transform:uppercase;
+}
+
+.lab-pill.ok{
+  color:var(--acc);
+  border-color:rgba(110,231,183,.35);
+  background:rgba(110,231,183,.12);
+}
+
+.lab-pill.ko{
+  color:var(--danger);
+  border-color:rgba(255,107,95,.35);
+  background:rgba(255,107,95,.12);
+}
+
+.scan-list{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.scan-row{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  gap:12px;
+  align-items:center;
+  padding:13px 14px;
+  border:1px solid var(--glass-brd);
+  border-radius:8px;
+  background:linear-gradient(180deg,var(--card),var(--card2));
+  box-shadow:0 10px 24px rgba(0,0,0,.13);
+  cursor:pointer;
+  transition:border-color .15s,transform .12s,box-shadow .15s;
+}
+
+.scan-row:hover{
+  border-color:var(--acc);
+  transform:translateY(-1px);
+  box-shadow:0 16px 30px rgba(0,0,0,.2);
+}
+
+.scan-main{
+  min-width:0;
+}
+
+.scan-main b{
+  display:block;
+  margin-top:6px;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  font-size:15px;
+}
+
+.scan-top{
+  display:flex;
+  align-items:center;
+  gap:6px;
+  flex-wrap:wrap;
+  color:var(--muted);
+  font-size:11px;
+  font-weight:800;
+  text-transform:uppercase;
+}
+
+.scan-pick{
+  margin-top:6px;
+  color:var(--muted);
+  font-size:12px;
+  line-height:1.4;
+}
+
+.scan-side{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  color:var(--acc2);
+  font-size:12px;
+  font-weight:800;
+  white-space:nowrap;
+}
+
+body.theme-light .lab-grid.controls,
+body.theme-light .lab-table-wrap{
+  background:#f8fbf8;
+}
+
+body.theme-light .lab-metric,
+body.theme-light .scan-row{
+  background:linear-gradient(180deg,#fff,#f8fbf8);
+}
+
 @media(max-width:1120px){
   .radar-grid{grid-template-columns:repeat(3,minmax(160px,1fr))}
 }
@@ -1243,6 +1556,10 @@ body.theme-light .ts-bar{
   .radar-meta{text-align:left}
   .radar-grid{grid-template-columns:1fr}
   .matchlist{grid-template-columns:1fr}
+  .lab-head{align-items:flex-start;flex-direction:column}
+  .lab-head p{text-align:left}
+  .scan-row{grid-template-columns:1fr}
+  .scan-side{justify-content:space-between}
   .smart-count{margin-left:0;width:100%}
 }
 
