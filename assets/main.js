@@ -1168,6 +1168,27 @@ function wireScanner(){
   });
 }
 
+const TEAM_SEARCH_ALIASES = {
+  "Belgium": "belgique",
+  "Brazil": "bresil brasil",
+  "USA": "etats unis united states etats-unis",
+  "South Korea": "coree du sud",
+  "Czech Republic": "tchequie republique tcheque",
+  "DR Congo": "rd congo republique democratique du congo",
+  "Cape Verde": "cap vert",
+  "Bosnia & Herzegovina": "bosnie herzegovine bosnie-herzegovine",
+  "Ivory Coast": "cote ivoire cote d ivoire",
+};
+
+function foldText(value){
+  return String(value || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+}
+
+function matchSearchText(m){
+  const aliases = [TEAM_SEARCH_ALIASES[m.home], TEAM_SEARCH_ALIASES[m.away]].filter(Boolean).join(" ");
+  return foldText(`${m.home} ${m.away} ${m.league || ""} ${m.realScore || ""} ${aliases}`);
+}
+
 function render(){
   ensureModernDashboard();
   document.body.classList.toggle("tool-view", TAB==="SCANNER" || TAB==="STRATEGY");
@@ -1187,17 +1208,21 @@ function render(){
   if(TAB==="GROUPS"){ updateSmartControls(); renderStandings(); return; }
   if(TAB==="SCANNER"){ updateSmartControls(); renderScanner(); return; }
   if(TAB==="STRATEGY"){ updateSmartControls(); renderStrategyLab(); return; }
-  const q = $("search").value.toLowerCase();
-  let list = MATCHES.filter(matchInTab);
+  const q = foldText($("search").value.trim());
+  const searchActive = q.length > 0;
+  let list = searchActive
+    ? MATCHES.filter(m=>matchSearchText(m).includes(q))
+    : MATCHES.filter(matchInTab);
   if(GROUP!=="Tous") list = list.filter(m=>m.league===GROUP);
-  if(q) list = list.filter(m=>(m.home+" "+m.away).toLowerCase().includes(q));
   const beforeSmartFilters = list.length;
-  list = applySmartFilters(list);
+  if(!searchActive) list = applySmartFilters(list);
   updateSmartControls(list.length, beforeSmartFilters);
 
   if(!list.length){
     const msg = beforeSmartFilters && !list.length
       ? "Aucun match ne correspond aux filtres actifs."
+      : searchActive
+      ? "Aucun match trouve pour cette recherche."
       : TAB==="LIVE"
       ? "🔴 Aucun match en cours actuellement. Reviens à l'heure d'un coup d'envoi !"
       : TAB==="FINISHED"
