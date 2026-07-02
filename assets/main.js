@@ -361,6 +361,11 @@ function sortRankDate(m){
   return t == null ? Number.MAX_SAFE_INTEGER : t;
 }
 
+function sortDisplayMatches(list){
+  const direction = TAB === "FINISHED" ? -1 : 1;
+  return [...list].sort((a,b)=>direction * (sortRankDate(a)-sortRankDate(b)));
+}
+
 function esc(v){
   return String(v ?? "").replace(/[&<>"']/g, c => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
@@ -1216,6 +1221,7 @@ function render(){
   if(GROUP!=="Tous") list = list.filter(m=>m.league===GROUP);
   const beforeSmartFilters = list.length;
   if(!searchActive) list = applySmartFilters(list);
+  list = sortDisplayMatches(list);
   updateSmartControls(list.length, beforeSmartFilters);
 
   if(!list.length){
