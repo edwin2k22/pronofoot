@@ -1,5 +1,353 @@
 [
   {
+    "t": "21:46",
+    "match": "USA–Bosnia & Herzegovina",
+    "type": "score",
+    "text": "⚽ USA–Bosnia & Herzegovina : score 1-0"
+  },
+  {
+    "t": "20:38",
+    "match": "Belgium–Senegal",
+    "type": "status",
+    "text": "Belgium–Senegal : 🏁 match terminé"
+  },
+  {
+    "t": "17:26",
+    "match": "Belgium–Senegal",
+    "type": "score",
+    "text": "⚽ Belgium–Senegal : score 0-1"
+  },
+  {
+    "t": "17:22",
+    "match": "Belgium–Senegal",
+    "type": "score",
+    "text": "⚽ Belgium–Senegal : score 0-0"
+  },
+  {
+    "t": "17:22",
+    "match": "Belgium–Senegal",
+    "type": "status",
+    "text": "Belgium–Senegal : 🟢 coup d'envoi"
+  },
+  {
+    "t": "16:35",
+    "match": "Belgium–Senegal",
+    "type": "proba",
+    "text": "📊 Belgium–Senegal : Belgium 70%↗73%"
+  },
+  {
+    "t": "16:11",
+    "match": "Belgium–Senegal",
+    "type": "lineup",
+    "text": "🩹 Belgium–Senegal : absent(s) → Alexis Saelemaekers, Habib Diarra, Ibrahim Mbaye, Iliman Ndiaye, Kalidou Koulibaly, Leandro Trossard, Nicolas Jackson, Romelu Lukaku, Sadio Mané"
+  },
+  {
+    "t": "15:01",
+    "match": "England–DR Congo",
+    "type": "status",
+    "text": "England–DR Congo : 🏁 match terminé"
+  },
+  {
+    "t": "14:49",
+    "match": "England–DR Congo",
+    "type": "score",
+    "text": "⚽ England–DR Congo : score 2-1"
+  },
+  {
+    "t": "14:49",
+    "match": "Mexico–W80",
+    "type": "proba",
+    "text": "📊 Mexico–W80 : nul 3%↗10%"
+  },
+  {
+    "t": "14:49",
+    "match": "Mexico–W80",
+    "type": "proba",
+    "text": "📊 Mexico–W80 : Mexico 93%↘88%"
+  },
+  {
+    "t": "14:49",
+    "match": "Brazil–Norway",
+    "type": "proba",
+    "text": "📊 Brazil–Norway : Norway 8%↘5%"
+  },
+  {
+    "t": "14:49",
+    "match": "Brazil–Norway",
+    "type": "proba",
+    "text": "📊 Brazil–Norway : nul 11%↗15%"
+  },
+  {
+    "t": "14:49",
+    "match": "Paraguay–France",
+    "type": "proba",
+    "text": "📊 Paraguay–France : France 89%↘86%"
+  },
+  {
+    "t": "14:49",
+    "match": "Paraguay–France",
+    "type": "proba",
+    "text": "📊 Paraguay–France : nul 5%↗11%"
+  },
+  {
+    "t": "14:49",
+    "match": "Canada–Morocco",
+    "type": "proba",
+    "text": "📊 Canada–Morocco : nul 24%↗28%"
+  },
+  {
+    "t": "14:49",
+    "match": "Canada–Morocco",
+    "type": "proba",
+    "text": "📊 Canada–Morocco : Canada 17%↘14%"
+  },
+  {
+    "t": "14:49",
+    "match": "Colombia–Ghana",
+    "type": "proba",
+    "text": "📊 Colombia–Ghana : nul 5%↗11%"
+  },
+  {
+    "t": "14:49",
+    "match": "Colombia–Ghana",
+    "type": "proba",
+    "text": "📊 Colombia–Ghana : Colombia 91%↘87%"
+  },
+  {
+    "t": "14:49",
+    "match": "Argentina–Cape Verde",
+    "type": "proba",
+    "text": "📊 Argentina–Cape Verde : nul 1%↗8%"
+  },
+  {
+    "t": "14:49",
+    "match": "Argentina–Cape Verde",
+    "type": "proba",
+    "text": "📊 Argentina–Cape Verde : Argentina 98%↘91%"
+  },
+  {
+    "t": "14:49",
+    "match": "Australia–Egypt",
+    "type": "proba",
+    "text": "📊 Australia–Egypt : nul 36%↗41%"
+  },
+  {
+    "t": "14:49",
+    "match": "Switzerland–Algeria",
+    "type": "proba",
+    "text": "📊 Switzerland–Algeria : Algeria 21%↘18%"
+  },
+  {
+    "t": "14:49",
+    "match": "Switzerland–Algeria",
+    "type": "proba",
+    "text": "📊 Switzerland–Algeria : nul 31%↗35%"
+  },
+  {
+    "t": "14:49",
+    "match": "Portugal–Croatia",
+    "type": "proba",
+    "text": "📊 Portugal–Croatia : Croatia 16%↘12%"
+  },
+  {
+    "t": "14:49",
+    "match": "Portugal–Croatia",
+    "type": "proba",
+    "text": "📊 Portugal–Croatia : nul 27%↗31%"
+  },
+  {
+    "t": "14:49",
+    "match": "Spain–Austria",
+    "type": "proba",
+    "text": "📊 Spain–Austria : Austria 10%↘7%"
+  },
+  {
+    "t": "14:49",
+    "match": "Spain–Austria",
+    "type": "proba",
+    "text": "📊 Spain–Austria : nul 14%↗18%"
+  },
+  {
+    "t": "14:49",
+    "match": "USA–Bosnia & Herzegovina",
+    "type": "proba",
+    "text": "📊 USA–Bosnia & Herzegovina : Bosnia & Herzegovina 12%↘8%"
+  },
+  {
+    "t": "14:49",
+    "match": "USA–Bosnia & Herzegovina",
+    "type": "proba",
+    "text": "📊 USA–Bosnia & Herzegovina : nul 18%↗22%"
+  },
+  {
+    "t": "14:49",
+    "match": "Belgium–Senegal",
+    "type": "proba",
+    "text": "📊 Belgium–Senegal : Senegal 10%↘6%"
+  },
+  {
+    "t": "14:49",
+    "match": "Belgium–Senegal",
+    "type": "proba",
+    "text": "📊 Belgium–Senegal : nul 15%↗19%"
+  },
+  {
+    "t": "14:47",
+    "match": "Mexico–W80",
+    "type": "proba",
+    "text": "📊 Mexico–W80 : nul 3%↗10%"
+  },
+  {
+    "t": "14:47",
+    "match": "Mexico–W80",
+    "type": "proba",
+    "text": "📊 Mexico–W80 : Mexico 93%↘88%"
+  },
+  {
+    "t": "14:47",
+    "match": "Brazil–Norway",
+    "type": "proba",
+    "text": "📊 Brazil–Norway : Norway 8%↘5%"
+  },
+  {
+    "t": "14:47",
+    "match": "Brazil–Norway",
+    "type": "proba",
+    "text": "📊 Brazil–Norway : nul 11%↗15%"
+  },
+  {
+    "t": "14:47",
+    "match": "Paraguay–France",
+    "type": "proba",
+    "text": "📊 Paraguay–France : France 89%↘86%"
+  },
+  {
+    "t": "14:47",
+    "match": "Paraguay–France",
+    "type": "proba",
+    "text": "📊 Paraguay–France : nul 5%↗11%"
+  },
+  {
+    "t": "14:47",
+    "match": "Canada–Morocco",
+    "type": "proba",
+    "text": "📊 Canada–Morocco : nul 24%↗28%"
+  },
+  {
+    "t": "14:47",
+    "match": "Canada–Morocco",
+    "type": "proba",
+    "text": "📊 Canada–Morocco : Canada 17%↘14%"
+  },
+  {
+    "t": "14:47",
+    "match": "Colombia–Ghana",
+    "type": "proba",
+    "text": "📊 Colombia–Ghana : nul 5%↗11%"
+  },
+  {
+    "t": "14:47",
+    "match": "Colombia–Ghana",
+    "type": "proba",
+    "text": "📊 Colombia–Ghana : Colombia 91%↘87%"
+  },
+  {
+    "t": "14:47",
+    "match": "Argentina–Cape Verde",
+    "type": "proba",
+    "text": "📊 Argentina–Cape Verde : nul 1%↗8%"
+  },
+  {
+    "t": "14:47",
+    "match": "Argentina–Cape Verde",
+    "type": "proba",
+    "text": "📊 Argentina–Cape Verde : Argentina 98%↘91%"
+  },
+  {
+    "t": "14:47",
+    "match": "Australia–Egypt",
+    "type": "proba",
+    "text": "📊 Australia–Egypt : nul 36%↗41%"
+  },
+  {
+    "t": "14:47",
+    "match": "Switzerland–Algeria",
+    "type": "proba",
+    "text": "📊 Switzerland–Algeria : Algeria 21%↘18%"
+  },
+  {
+    "t": "14:47",
+    "match": "Switzerland–Algeria",
+    "type": "proba",
+    "text": "📊 Switzerland–Algeria : nul 31%↗35%"
+  },
+  {
+    "t": "14:47",
+    "match": "Portugal–Croatia",
+    "type": "proba",
+    "text": "📊 Portugal–Croatia : Croatia 16%↘12%"
+  },
+  {
+    "t": "14:47",
+    "match": "Portugal–Croatia",
+    "type": "proba",
+    "text": "📊 Portugal–Croatia : nul 27%↗31%"
+  },
+  {
+    "t": "14:47",
+    "match": "Spain–Austria",
+    "type": "proba",
+    "text": "📊 Spain–Austria : Austria 10%↘7%"
+  },
+  {
+    "t": "14:47",
+    "match": "Spain–Austria",
+    "type": "proba",
+    "text": "📊 Spain–Austria : nul 14%↗18%"
+  },
+  {
+    "t": "14:47",
+    "match": "USA–Bosnia & Herzegovina",
+    "type": "proba",
+    "text": "📊 USA–Bosnia & Herzegovina : Bosnia & Herzegovina 12%↘8%"
+  },
+  {
+    "t": "14:47",
+    "match": "USA–Bosnia & Herzegovina",
+    "type": "proba",
+    "text": "📊 USA–Bosnia & Herzegovina : nul 18%↗22%"
+  },
+  {
+    "t": "14:47",
+    "match": "Belgium–Senegal",
+    "type": "proba",
+    "text": "📊 Belgium–Senegal : Senegal 10%↘6%"
+  },
+  {
+    "t": "14:47",
+    "match": "Belgium–Senegal",
+    "type": "proba",
+    "text": "📊 Belgium–Senegal : nul 15%↗19%"
+  },
+  {
+    "t": "14:47",
+    "match": "Belgium–Senegal",
+    "type": "proba",
+    "text": "📊 Belgium–Senegal : Belgium 71%↗75%"
+  },
+  {
+    "t": "14:44",
+    "match": "Belgium–Senegal",
+    "type": "proba",
+    "text": "📊 Belgium–Senegal : Belgium 75%↘71%"
+  },
+  {
+    "t": "14:44",
+    "match": "England–DR Congo",
+    "type": "score",
+    "text": "⚽ England–DR Congo : score 1-1"
+  },
+  {
     "t": "13:07",
     "match": "England–DR Congo",
     "type": "score",
@@ -10,353 +358,5 @@
     "match": "England–DR Congo",
     "type": "score",
     "text": "⚽ England–DR Congo : score 0-0"
-  },
-  {
-    "t": "13:01",
-    "match": "England–DR Congo",
-    "type": "status",
-    "text": "England–DR Congo : 🟢 coup d'envoi"
-  },
-  {
-    "t": "12:38",
-    "match": "England–DR Congo",
-    "type": "lineup",
-    "text": "🩹 England–DR Congo : absent(s) → Bukayo Saka"
-  },
-  {
-    "t": "23:32",
-    "match": "Mexico–Ecuador",
-    "type": "score",
-    "text": "⚽ Mexico–Ecuador : score 2-0"
-  },
-  {
-    "t": "23:28",
-    "match": "Mexico–Ecuador",
-    "type": "score",
-    "text": "⚽ Mexico–Ecuador : score 1-0"
-  },
-  {
-    "t": "23:02",
-    "match": "Mexico–Ecuador",
-    "type": "score",
-    "text": "⚽ Mexico–Ecuador : score 0-0"
-  },
-  {
-    "t": "23:02",
-    "match": "Mexico–Ecuador",
-    "type": "status",
-    "text": "Mexico–Ecuador : 🟢 coup d'envoi"
-  },
-  {
-    "t": "21:56",
-    "match": "Mexico–Ecuador",
-    "type": "proba",
-    "text": "📊 Mexico–Ecuador : Mexico 67%↘63%"
-  },
-  {
-    "t": "21:56",
-    "match": "Mexico–Ecuador",
-    "type": "lineup",
-    "text": "🩹 Mexico–Ecuador : absent(s) → Gonzalo Plata, Julián Quiñones, Luis Romo, Nilson Angulo, Roberto Alvarado"
-  },
-  {
-    "t": "21:49",
-    "match": "Canada–W75",
-    "type": "proba",
-    "text": "📊 Canada–W75 : W75 15%↘11%"
-  },
-  {
-    "t": "21:49",
-    "match": "Canada–W75",
-    "type": "proba",
-    "text": "📊 Canada–W75 : nul 23%↗27%"
-  },
-  {
-    "t": "21:49",
-    "match": "Colombia–Ghana",
-    "type": "proba",
-    "text": "📊 Colombia–Ghana : nul 5%↗11%"
-  },
-  {
-    "t": "21:49",
-    "match": "Colombia–Ghana",
-    "type": "proba",
-    "text": "📊 Colombia–Ghana : Colombia 91%↘87%"
-  },
-  {
-    "t": "21:49",
-    "match": "Argentina–Cape Verde",
-    "type": "proba",
-    "text": "📊 Argentina–Cape Verde : nul 1%↗8%"
-  },
-  {
-    "t": "21:49",
-    "match": "Argentina–Cape Verde",
-    "type": "proba",
-    "text": "📊 Argentina–Cape Verde : Argentina 98%↘91%"
-  },
-  {
-    "t": "21:49",
-    "match": "Australia–Egypt",
-    "type": "proba",
-    "text": "📊 Australia–Egypt : nul 36%↗41%"
-  },
-  {
-    "t": "21:49",
-    "match": "Switzerland–Algeria",
-    "type": "proba",
-    "text": "📊 Switzerland–Algeria : Algeria 21%↘18%"
-  },
-  {
-    "t": "21:49",
-    "match": "Switzerland–Algeria",
-    "type": "proba",
-    "text": "📊 Switzerland–Algeria : nul 31%↗35%"
-  },
-  {
-    "t": "21:49",
-    "match": "Portugal–Croatia",
-    "type": "proba",
-    "text": "📊 Portugal–Croatia : Croatia 16%↘12%"
-  },
-  {
-    "t": "21:49",
-    "match": "Portugal–Croatia",
-    "type": "proba",
-    "text": "📊 Portugal–Croatia : nul 27%↗31%"
-  },
-  {
-    "t": "21:49",
-    "match": "Spain–Austria",
-    "type": "proba",
-    "text": "📊 Spain–Austria : Austria 10%↘7%"
-  },
-  {
-    "t": "21:49",
-    "match": "Spain–Austria",
-    "type": "proba",
-    "text": "📊 Spain–Austria : nul 14%↗18%"
-  },
-  {
-    "t": "21:49",
-    "match": "USA–Bosnia & Herzegovina",
-    "type": "proba",
-    "text": "📊 USA–Bosnia & Herzegovina : Bosnia & Herzegovina 12%↘8%"
-  },
-  {
-    "t": "21:49",
-    "match": "USA–Bosnia & Herzegovina",
-    "type": "proba",
-    "text": "📊 USA–Bosnia & Herzegovina : nul 18%↗22%"
-  },
-  {
-    "t": "21:49",
-    "match": "Belgium–Senegal",
-    "type": "proba",
-    "text": "📊 Belgium–Senegal : Senegal 9%↘6%"
-  },
-  {
-    "t": "21:49",
-    "match": "Belgium–Senegal",
-    "type": "proba",
-    "text": "📊 Belgium–Senegal : nul 15%↗19%"
-  },
-  {
-    "t": "21:49",
-    "match": "England–DR Congo",
-    "type": "proba",
-    "text": "📊 England–DR Congo : nul 6%↗11%"
-  },
-  {
-    "t": "21:49",
-    "match": "England–DR Congo",
-    "type": "proba",
-    "text": "📊 England–DR Congo : England 89%↘86%"
-  },
-  {
-    "t": "21:49",
-    "match": "Mexico–Ecuador",
-    "type": "proba",
-    "text": "📊 Mexico–Ecuador : Ecuador 12%↘9%"
-  },
-  {
-    "t": "21:49",
-    "match": "Mexico–Ecuador",
-    "type": "proba",
-    "text": "📊 Mexico–Ecuador : nul 21%↗24%"
-  },
-  {
-    "t": "21:47",
-    "match": "Canada–W75",
-    "type": "proba",
-    "text": "📊 Canada–W75 : W75 11%↗15%"
-  },
-  {
-    "t": "21:47",
-    "match": "Canada–W75",
-    "type": "proba",
-    "text": "📊 Canada–W75 : nul 27%↘23%"
-  },
-  {
-    "t": "21:47",
-    "match": "Colombia–Ghana",
-    "type": "proba",
-    "text": "📊 Colombia–Ghana : nul 11%↘5%"
-  },
-  {
-    "t": "21:47",
-    "match": "Colombia–Ghana",
-    "type": "proba",
-    "text": "📊 Colombia–Ghana : Colombia 87%↗91%"
-  },
-  {
-    "t": "21:47",
-    "match": "Argentina–Cape Verde",
-    "type": "proba",
-    "text": "📊 Argentina–Cape Verde : nul 8%↘1%"
-  },
-  {
-    "t": "21:47",
-    "match": "Argentina–Cape Verde",
-    "type": "proba",
-    "text": "📊 Argentina–Cape Verde : Argentina 91%↗98%"
-  },
-  {
-    "t": "21:47",
-    "match": "Australia–Egypt",
-    "type": "proba",
-    "text": "📊 Australia–Egypt : nul 41%↘36%"
-  },
-  {
-    "t": "21:47",
-    "match": "Switzerland–Algeria",
-    "type": "proba",
-    "text": "📊 Switzerland–Algeria : Algeria 18%↗21%"
-  },
-  {
-    "t": "21:47",
-    "match": "Switzerland–Algeria",
-    "type": "proba",
-    "text": "📊 Switzerland–Algeria : nul 35%↘31%"
-  },
-  {
-    "t": "21:47",
-    "match": "Portugal–Croatia",
-    "type": "proba",
-    "text": "📊 Portugal–Croatia : Croatia 12%↗16%"
-  },
-  {
-    "t": "21:47",
-    "match": "Portugal–Croatia",
-    "type": "proba",
-    "text": "📊 Portugal–Croatia : nul 31%↘27%"
-  },
-  {
-    "t": "21:47",
-    "match": "Spain–Austria",
-    "type": "proba",
-    "text": "📊 Spain–Austria : Austria 7%↗10%"
-  },
-  {
-    "t": "21:47",
-    "match": "Spain–Austria",
-    "type": "proba",
-    "text": "📊 Spain–Austria : nul 18%↘14%"
-  },
-  {
-    "t": "21:47",
-    "match": "USA–Bosnia & Herzegovina",
-    "type": "proba",
-    "text": "📊 USA–Bosnia & Herzegovina : Bosnia & Herzegovina 8%↗12%"
-  },
-  {
-    "t": "21:47",
-    "match": "USA–Bosnia & Herzegovina",
-    "type": "proba",
-    "text": "📊 USA–Bosnia & Herzegovina : nul 22%↘18%"
-  },
-  {
-    "t": "21:47",
-    "match": "Belgium–Senegal",
-    "type": "proba",
-    "text": "📊 Belgium–Senegal : Senegal 6%↗9%"
-  },
-  {
-    "t": "21:47",
-    "match": "Belgium–Senegal",
-    "type": "proba",
-    "text": "📊 Belgium–Senegal : nul 19%↘15%"
-  },
-  {
-    "t": "21:47",
-    "match": "England–DR Congo",
-    "type": "proba",
-    "text": "📊 England–DR Congo : nul 11%↘6%"
-  },
-  {
-    "t": "21:47",
-    "match": "England–DR Congo",
-    "type": "proba",
-    "text": "📊 England–DR Congo : England 86%↗89%"
-  },
-  {
-    "t": "21:47",
-    "match": "Mexico–Ecuador",
-    "type": "proba",
-    "text": "📊 Mexico–Ecuador : Ecuador 9%↗12%"
-  },
-  {
-    "t": "21:47",
-    "match": "Mexico–Ecuador",
-    "type": "proba",
-    "text": "📊 Mexico–Ecuador : nul 24%↘21%"
-  },
-  {
-    "t": "21:21",
-    "match": "Mexico–Ecuador",
-    "type": "lineup",
-    "text": "🩹 Mexico–Ecuador : absent(s) → Mateo Chávez, Álvaro Fidalgo"
-  },
-  {
-    "t": "18:46",
-    "match": "France–Sweden",
-    "type": "score",
-    "text": "⚽ France–Sweden : score 1-0"
-  },
-  {
-    "t": "18:25",
-    "match": "France–Sweden",
-    "type": "score",
-    "text": "⚽ France–Sweden : score 0-0"
-  },
-  {
-    "t": "18:25",
-    "match": "France–Sweden",
-    "type": "status",
-    "text": "France–Sweden : 🟢 coup d'envoi"
-  },
-  {
-    "t": "16:14",
-    "match": "Ivory Coast–Norway",
-    "type": "status",
-    "text": "Ivory Coast–Norway : 🏁 match terminé"
-  },
-  {
-    "t": "15:34",
-    "match": "Ivory Coast–Norway",
-    "type": "score",
-    "text": "⚽ Ivory Coast–Norway : score 1-1"
-  },
-  {
-    "t": "15:33",
-    "match": "Ivory Coast–Norway",
-    "type": "score",
-    "text": "⚽ Ivory Coast–Norway : score 0-1"
-  },
-  {
-    "t": "14:17",
-    "match": "Belgium–Senegal",
-    "type": "proba",
-    "text": "📊 Belgium–Senegal : Belgium 75%↘72%"
   }
 ]

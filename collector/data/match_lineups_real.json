@@ -5048,5 +5048,102 @@
    "Joris Kayembe"
   ],
   "source": "ESPN (compos r\u00e9elles)"
+ },
+ "Belgium|Senegal": {
+  "home_formation": "4-2-3-1",
+  "home_xi": [
+   "Thibaut Courtois",
+   "Arthur Theate",
+   "Brandon Mechele",
+   "Maxim De Cuyper",
+   "Timothy Castagne",
+   "Kevin De Bruyne",
+   "Hans Vanaken",
+   "Youri Tielemans",
+   "Charles De Ketelaere",
+   "J\u00e9r\u00e9my Doku",
+   "Leandro Trossard"
+  ],
+  "home_bench": [
+   "Joaquin Seys",
+   "Koni De Winter",
+   "Senne Lammens",
+   "Dodi Luk\u00e9bakio",
+   "Thomas Meunier",
+   "Romelu Lukaku",
+   "Matias Fernandez-Pardo",
+   "Amadou Onana",
+   "Diego Moreira",
+   "Alexis Saelemaekers",
+   "Axel Witsel",
+   "Nicolas Raskin",
+   "Mike Penders",
+   "Nathan Ngoy"
+  ],
+  "away_formation": "4-3-3",
+  "away_xi": [
+   "Mory Diaw",
+   "Moussa Niakhat\u00e9",
+   "Path\u00e9 Ciss",
+   "Ismail Jakobs",
+   "Kr\u00e9pin Diatta",
+   "Idrissa Gueye",
+   "Pape Gueye",
+   "Habib Diarra",
+   "Isma\u00efla Sarr",
+   "Sadio Man\u00e9",
+   "Iliman Ndiaye"
+  ],
+  "away_bench": [
+   "Mamadou Sarr",
+   "Assane Diao",
+   "Bamba Dieng",
+   "Pape Matar Sarr",
+   "Abdoulaye Seck",
+   "El Hadji Malick Diouf",
+   "Nicolas Jackson",
+   "Ibrahim Mbaye",
+   "Lamine Camara",
+   "Cherif Ndiaye",
+   "Kalidou Koulibaly",
+   "Bara Sapoko Ndiaye",
+   "Antoine Mendy",
+   "Yehvann Diouf"
+  ],
+  "source": "ESPN (compos r\u00e9elles)"
+ },
+ "USA|Bosnia & Herzegovina": {
+  "away_formation": "5-3-2",
+  "away_xi": [
+   "Nikola Vasilj",
+   "Tarik Muharemovic",
+   "Stjepan Radeljic",
+   "Nikola Katic",
+   "Sead Kolasinac",
+   "Amar Dedic",
+   "Ivan Sunjic",
+   "Kerim Alajbegovic",
+   "Armin Gigovic",
+   "Ermedin Demirovic",
+   "Edin Dzeko"
+  ],
+  "away_bench": [
+   "Haris Tabakovic",
+   "Esmir Bajraktarevic",
+   "Samed Bazdar",
+   "Benjamin Tahirovic",
+   "Dzenis Burnic",
+   "Arjan Malic",
+   "Jovo Lukic",
+   "Dennis Hadzikadunic",
+   "Amir Hadziahmetovic",
+   "Mladen Jurkas",
+   "Amar Memic",
+   "Martin Zlomislic",
+   "Ermin Mahmic",
+   "Ivan Basic",
+   "Nihad Mujakic"
+  ],
+  "source": "ESPN (compos r\u00e9elles)"
  }
 }

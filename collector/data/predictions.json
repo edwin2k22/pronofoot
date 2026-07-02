@@ -108106,7 +108106,7 @@
       "homeShotsOn": 5,
       "awayShotsOn": 4,
       "teamStats": {
-        "home_possession": 47.1,
+        "home_possession": 47,
         "home_passes": 401,
         "home_passes_ok": 339,
         "home_pass_pct": 0.8,
@@ -108121,8 +108121,8 @@
         "home_fouls": 6,
         "home_offsides": 2,
         "home_saves": 1,
-        "away_possession": 52.9,
-        "away_passes": 473,
+        "away_possession": 53,
+        "away_passes": 474,
         "away_passes_ok": 415,
         "away_pass_pct": 0.9,
         "away_crosses": 10,
@@ -108130,7 +108130,7 @@
         "away_long_balls": 32,
         "away_tackles": 19,
         "away_tackles_won": 11,
-        "away_interceptions": 6,
+        "away_interceptions": 5,
         "away_clearances": 37,
         "away_blocked_shots": 3,
         "away_fouls": 7,
@@ -108617,7 +108617,7 @@
           {
             "minute": 90,
             "text": "Attempt missed. Evann Guessand (Côte d'Ivoire) header from very close range misses to the right. Assisted by Amad Diallo with a cross following a corner.",
-            "type": "Shot Blocked"
+            "type": "Shot Off Target"
           },
           {
             "minute": 90,
@@ -109855,7 +109855,7 @@
           },
           {
             "minute": 39,
-            "text": "Attempt missed. Dayot Upamecano (France) header from the centre of the box misses to the right following a set piece situation.",
+            "text": "Attempt missed. Dayot Upamecano (France) header from the centre of the box misses to the right. Assisted by Michael Olise with a cross following a set piece situation.",
             "type": "Shot Off Target"
           },
           {
@@ -112733,12 +112733,687 @@
     "id": 80,
     "league": "CDM 2026 · Round of 32",
     "date": "2026-07-01 12:00 UTC-4",
-    "status": "LIVE",
-    "liveScore": "0-1",
-    "liveClock": "8'",
-    "realScore": null,
-    "htScore": null,
-    "analysis": null,
+    "status": "FINISHED",
+    "liveScore": null,
+    "liveClock": null,
+    "realScore": "2-1",
+    "htScore": "0-1",
+    "analysis": {
+      "realScore": "2-1",
+      "outcome": "1",
+      "winner": "England",
+      "predictedOutcome": "1",
+      "predictionCorrect": true,
+      "exactScore": false,
+      "over25Real": true,
+      "bttsReal": true,
+      "totalGoals": 3,
+      "homeXgReal": 0.0,
+      "awayXgReal": 0.0,
+      "homeShots": 16,
+      "awayShots": 7,
+      "homeShotsOn": 7,
+      "awayShotsOn": 2,
+      "teamStats": {
+        "home_possession": 59.7,
+        "home_passes": 517,
+        "home_passes_ok": 468,
+        "home_pass_pct": 0.9,
+        "home_crosses": 43,
+        "home_crosses_ok": 9,
+        "home_long_balls": 33,
+        "home_tackles": 11,
+        "home_tackles_won": 6,
+        "home_interceptions": 7,
+        "home_clearances": 23,
+        "home_blocked_shots": 3,
+        "home_fouls": 10,
+        "home_offsides": 0,
+        "home_saves": 1,
+        "away_possession": 40.3,
+        "away_passes": 365,
+        "away_passes_ok": 299,
+        "away_pass_pct": 0.8,
+        "away_crosses": 13,
+        "away_crosses_ok": 1,
+        "away_long_balls": 46,
+        "away_tackles": 20,
+        "away_tackles_won": 8,
+        "away_interceptions": 3,
+        "away_clearances": 36,
+        "away_blocked_shots": 2,
+        "away_fouls": 12,
+        "away_offsides": 4,
+        "away_saves": 5
+      },
+      "homeCorners": 5,
+      "awayCorners": 3,
+      "homeCards": 1,
+      "awayCards": 1,
+      "events": {
+        "goals": [
+          {
+            "minute": 7,
+            "team": "Congo DR",
+            "player": "Brian Cipenga",
+            "assist": "Chancel Mbemba",
+            "note": null
+          },
+          {
+            "minute": 86,
+            "team": "England",
+            "player": "Harry Kane",
+            "assist": "Anthony Gordon",
+            "note": null
+          }
+        ],
+        "cards": [
+          {
+            "minute": 19,
+            "team": "England",
+            "player": "Jude Bellingham",
+            "type": "Yellow"
+          },
+          {
+            "minute": 28,
+            "team": "Congo DR",
+            "player": "Noah Sadiki",
+            "type": "Yellow"
+          }
+        ],
+        "commentary": [
+          {
+            "minute": 0,
+            "text": "Lineups are announced and players are warming up.",
+            "type": ""
+          },
+          {
+            "minute": 0,
+            "text": "First Half begins.",
+            "type": ""
+          },
+          {
+            "minute": 2,
+            "text": "Offside, Congo DR. Yoane Wissa is caught offside.",
+            "type": "Offside"
+          },
+          {
+            "minute": 3,
+            "text": "Foul by Marcus Rashford (England).",
+            "type": "Foul"
+          },
+          {
+            "minute": 3,
+            "text": "Ngal'ayel Mukau (Congo DR) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 7,
+            "text": "Goal! England 0, Congo DR 1. Brian Cipenga (Congo DR) right footed shot from the left side of the box to the bottom left corner. Assisted by Chancel Mbemba.",
+            "type": "Goal"
+          },
+          {
+            "minute": 9,
+            "text": "Delay in match because of an injury Lionel Mpasi (Congo DR).",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 10,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 10,
+            "text": "Foul by Nico O'Reilly (England).",
+            "type": "Foul"
+          },
+          {
+            "minute": 10,
+            "text": "Nathanaël Mbuku (Congo DR) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 11,
+            "text": "Noni Madueke (England) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 11,
+            "text": "Foul by Brian Cipenga (Congo DR).",
+            "type": "Foul"
+          },
+          {
+            "minute": 14,
+            "text": "Corner, England. Conceded by Samuel Moutoussamy.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 17,
+            "text": "Brian Cipenga (Congo DR) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 17,
+            "text": "Foul by Noni Madueke (England).",
+            "type": "Foul"
+          },
+          {
+            "minute": 19,
+            "text": "Nathanaël Mbuku (Congo DR) wins a free kick in the attacking half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 19,
+            "text": "Foul by Jude Bellingham (England).",
+            "type": "Foul"
+          },
+          {
+            "minute": 19,
+            "text": "Jude Bellingham (England) is shown the yellow card for a bad foul.",
+            "type": "Yellow Card"
+          },
+          {
+            "minute": 21,
+            "text": "Aaron Wan-Bissaka (Congo DR) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 21,
+            "text": "Foul by Marcus Rashford (England).",
+            "type": "Foul"
+          },
+          {
+            "minute": 23,
+            "text": "Delay in match for a drinks break.",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 26,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 27,
+            "text": "Foul by Noah Sadiki (Congo DR).",
+            "type": "Foul"
+          },
+          {
+            "minute": 27,
+            "text": "Djed Spence (England) wins a free kick on the right wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 28,
+            "text": "Noah Sadiki (Congo DR) is shown the yellow card for a bad foul.",
+            "type": "Yellow Card"
+          },
+          {
+            "minute": 30,
+            "text": "Attempt saved. Jude Bellingham (England) header from the centre of the box is saved in the top centre of the goal by Lionel Mpasi (Congo DR). Assisted by Declan Rice with a cross.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 32,
+            "text": "Attempt missed. Brian Cipenga (Congo DR) right footed shot from outside the box is high and wide to the right. Assisted by Arthur Masuaku.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 34,
+            "text": "Nathanaël Mbuku (Congo DR) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 34,
+            "text": "Foul by Nico O'Reilly (England).",
+            "type": "Foul"
+          },
+          {
+            "minute": 35,
+            "text": "Attempt blocked. Harry Kane (England) right footed shot from the centre of the box is blocked.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 35,
+            "text": "Attempt missed. Nico O'Reilly (England) left footed shot from very close range misses to the left. Assisted by Noni Madueke.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 35,
+            "text": "Attempt blocked. Marcus Rashford (England) right footed shot from the centre of the box is blocked. Assisted by Nico O'Reilly.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 36,
+            "text": "Attempt blocked. Noni Madueke (England) left footed shot from outside the box is blocked.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 37,
+            "text": "Ngal'ayel Mukau (Congo DR) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 37,
+            "text": "Foul by Nico O'Reilly (England).",
+            "type": "Foul"
+          },
+          {
+            "minute": 38,
+            "text": "Offside, Congo DR. Aaron Wan-Bissaka is caught offside.",
+            "type": "Offside"
+          },
+          {
+            "minute": 38,
+            "text": "Foul by Ngal'ayel Mukau (Congo DR).",
+            "type": "Foul"
+          },
+          {
+            "minute": 38,
+            "text": "Marcus Rashford (England) wins a free kick on the left wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 39,
+            "text": "Attempt blocked. Noni Madueke (England) left footed shot from the right side of the box is blocked. Assisted by Jude Bellingham.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 40,
+            "text": "Corner, Congo DR. Conceded by Nico O'Reilly.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 41,
+            "text": "Foul by Ngal'ayel Mukau (Congo DR).",
+            "type": "Foul"
+          },
+          {
+            "minute": 41,
+            "text": "Jude Bellingham (England) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 42,
+            "text": "Yoane Wissa (Congo DR) hits the right post with a right footed shot from very close range.",
+            "type": "Shot Hit Woodwork"
+          },
+          {
+            "minute": 45,
+            "text": "Fourth official has announced 6 minutes of added time.",
+            "type": ""
+          },
+          {
+            "minute": 45,
+            "text": "Attempt saved. Jude Bellingham (England) header from the centre of the box is saved in the bottom left corner by Lionel Mpasi (Congo DR). Assisted by Noni Madueke with a cross.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 45,
+            "text": "Foul by Ngal'ayel Mukau (Congo DR).",
+            "type": "Foul"
+          },
+          {
+            "minute": 45,
+            "text": "Djed Spence (England) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 45,
+            "text": "Offside, Congo DR. Brian Cipenga is caught offside.",
+            "type": "Offside"
+          },
+          {
+            "minute": 45,
+            "text": "Foul by Samuel Moutoussamy (Congo DR).",
+            "type": "Foul"
+          },
+          {
+            "minute": 45,
+            "text": "Elliot Anderson (England) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 45,
+            "text": "Corner, England. Conceded by Nathanaël Mbuku.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 45,
+            "text": "Attempt saved. Harry Kane (England) right footed shot from the right side of the six yard box is saved in the bottom right corner by Lionel Mpasi (Congo DR). Assisted by Declan Rice with a cross.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 45,
+            "text": "First Half ends, England 0, Congo DR 1.",
+            "type": "Halftime"
+          },
+          {
+            "minute": 45,
+            "text": "Second Half begins England 0, Congo DR 1.",
+            "type": "Start 2nd Half"
+          },
+          {
+            "minute": 46,
+            "text": "Foul by Samuel Moutoussamy (Congo DR).",
+            "type": "Foul"
+          },
+          {
+            "minute": 46,
+            "text": "Harry Kane (England) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 49,
+            "text": "Corner, England. Conceded by Ngal'ayel Mukau.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 50,
+            "text": "Corner, England. Conceded by Arthur Masuaku.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 51,
+            "text": "Attempt missed. Marcus Rashford (England) left footed shot from the left side of the box is close, but misses to the left. Assisted by Jude Bellingham following a fast break.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 54,
+            "text": "Attempt missed. Marcus Rashford (England) header from the centre of the box is high and wide to the left. Assisted by Noni Madueke with a cross.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 55,
+            "text": "Offside, Congo DR. Ngal'ayel Mukau is caught offside.",
+            "type": "Offside"
+          },
+          {
+            "minute": 61,
+            "text": "Substitution, England. Bukayo Saka replaces Noni Madueke.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 61,
+            "text": "Substitution, England. Anthony Gordon replaces Marcus Rashford.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 62,
+            "text": "Attempt blocked. Brian Cipenga (Congo DR) right footed shot from outside the box is blocked. Assisted by Noah Sadiki.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 62,
+            "text": "Corner, Congo DR. Conceded by Nico O'Reilly.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 63,
+            "text": "Attempt blocked. Nathanaël Mbuku (Congo DR) left footed shot from outside the box is blocked. Assisted by Brian Cipenga.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 63,
+            "text": "Corner, Congo DR. Conceded by Elliot Anderson.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 64,
+            "text": "Substitution, Congo DR. Meschack Elia replaces Nathanaël Mbuku.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 65,
+            "text": "Foul by Meschack Elia (Congo DR).",
+            "type": "Foul"
+          },
+          {
+            "minute": 65,
+            "text": "Nico O'Reilly (England) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 66,
+            "text": "Yoane Wissa (Congo DR) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 66,
+            "text": "Foul by Ezri Konsa (England).",
+            "type": "Foul"
+          },
+          {
+            "minute": 68,
+            "text": "Delay in match for a drinks break.",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 70,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 70,
+            "text": "Substitution, England. Eberechi Eze replaces Djed Spence.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 72,
+            "text": "Corner, England. Conceded by Aaron Wan-Bissaka.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 73,
+            "text": "Foul by Brian Cipenga (Congo DR).",
+            "type": "Foul"
+          },
+          {
+            "minute": 73,
+            "text": "Eberechi Eze (England) wins a free kick on the right wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 75,
+            "text": "Goal! England 1, Congo DR 1. Harry Kane (England) header from the centre of the box to the bottom left corner. Assisted by Anthony Gordon with a cross.",
+            "type": "Goal - Header"
+          },
+          {
+            "minute": 76,
+            "text": "Substitution, Congo DR. Théo Bongonda replaces Brian Cipenga.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 76,
+            "text": "Substitution, Congo DR. Edo Kayembe replaces Ngal'ayel Mukau.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 79,
+            "text": "Attempt missed. Elliot Anderson (England) right footed shot from outside the box is too high. Assisted by Harry Kane.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 81,
+            "text": "Foul by Meschack Elia (Congo DR).",
+            "type": "Foul"
+          },
+          {
+            "minute": 81,
+            "text": "Ezri Konsa (England) wins a free kick in the attacking half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 85,
+            "text": "Attempt missed. Anthony Gordon (England) header from the centre of the box misses to the right. Assisted by Elliot Anderson with a cross.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 85,
+            "text": "Attempt saved. Meschack Elia (Congo DR) right footed shot from outside the box is saved in the bottom left corner by Jordan Pickford (England).",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 86,
+            "text": "Attempt saved. Jude Bellingham (England) left footed shot from a difficult angle on the left is saved in the bottom left corner by Lionel Mpasi (Congo DR). Assisted by Elliot Anderson with a through ball.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 86,
+            "text": "Goal! England 2, Congo DR 1. Harry Kane (England) right footed shot from the right side of the box to the top right corner. Assisted by Anthony Gordon.",
+            "type": "Goal"
+          },
+          {
+            "minute": 89,
+            "text": "Substitution, Congo DR. Joris Kayembe replaces Arthur Masuaku.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 89,
+            "text": "Substitution, Congo DR. Fiston Mayele replaces Samuel Moutoussamy.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 90,
+            "text": "Attempt missed. Harry Kane (England) right footed shot from outside the box is high and wide to the right. Assisted by Elliot Anderson.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 90,
+            "text": "Fourth official has announced 6 minutes of added time.",
+            "type": ""
+          },
+          {
+            "minute": 90,
+            "text": "Théo Bongonda (Congo DR) wins a free kick on the right wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Foul by Anthony Gordon (England).",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Substitution, England. John Stones replaces Declan Rice.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 90,
+            "text": "Foul by Fiston Mayele (Congo DR).",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Marc Guéhi (England) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Foul by Axel Tuanzebe (Congo DR).",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Harry Kane (England) wins a free kick in the attacking half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Yoane Wissa (Congo DR) wins a free kick in the attacking half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Foul by Jude Bellingham (England).",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Attempt missed. Yoane Wissa (Congo DR) right footed shot from outside the box is too high from a direct free kick.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 90,
+            "text": "Second Half ends, England 2, Congo DR 1.",
+            "type": "End Regular Time"
+          },
+          {
+            "minute": 0,
+            "text": "Match ends, England 2, Congo DR 1.",
+            "type": ""
+          }
+        ],
+        "halftime": "0-1",
+        "motm": "—",
+        "note": "",
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "home_xi": [
+            "Jordan Pickford",
+            "Marc Guéhi",
+            "Ezri Konsa",
+            "Nico O'Reilly",
+            "Djed Spence",
+            "Jude Bellingham",
+            "Declan Rice",
+            "Elliot Anderson",
+            "Harry Kane",
+            "Marcus Rashford",
+            "Noni Madueke"
+          ],
+          "home_bench": [
+            "Trevoh Chalobah",
+            "Dan Burn",
+            "Kobbie Mainoo",
+            "Bukayo Saka",
+            "Morgan Rogers",
+            "Dean Henderson",
+            "Ollie Watkins",
+            "Ivan Toney",
+            "John Stones",
+            "Jordan Henderson",
+            "Anthony Gordon",
+            "James Trafford",
+            "Reece James",
+            "Eberechi Eze",
+            "Jarell Quansah"
+          ],
+          "away_formation": "4-3-3",
+          "away_xi": [
+            "Lionel Mpasi",
+            "Axel Tuanzebe",
+            "Chancel Mbemba",
+            "Arthur Masuaku",
+            "Aaron Wan-Bissaka",
+            "Samuel Moutoussamy",
+            "Noah Sadiki",
+            "Ngal'ayel Mukau",
+            "Yoane Wissa",
+            "Brian Cipenga",
+            "Nathanaël Mbuku"
+          ],
+          "away_bench": [
+            "Cédric Bakambu",
+            "Matthieu Epolo",
+            "Timothy Fayulu",
+            "Fiston Mayele",
+            "Charles Pickel",
+            "Théo Bongonda",
+            "Gédéon Kalulu",
+            "Edo Kayembe",
+            "Dylan Batubinsika",
+            "Gaël Kakuta",
+            "Meschack Elia",
+            "Simon Banza",
+            "Aaron Tshibola",
+            "Steve Kapuadi",
+            "Joris Kayembe"
+          ],
+          "source": "ESPN (compos réelles)"
+        }
+      },
+      "summary": "Le modèle donnait <b>England</b> favori (84%). ✅ Issue correctement anticipée. Score le plus probable prévu : 2-0 → réel 2-1. Total buts 3 (Over 2.5), BTTS oui."
+    },
     "nlpMomentum": null,
     "hotTrends": [
       "England : Moins de 2.5 buts dans 71% de ses 7 derniers matchs"
@@ -113051,77 +113726,13 @@
         }
       },
       "shots": {
-        "expShots": 26.1,
-        "expShotsOn": 8.5,
-        "home": 16.4,
-        "away": 9.7,
-        "homeOn": 5.6,
-        "awayOn": 2.8,
-        "homeAcc": 34,
+        "home": 16,
+        "away": 7,
+        "homeOn": 7,
+        "awayOn": 2,
+        "homeAcc": 44,
         "awayAcc": 29,
-        "line": 26.5,
-        "lineOn": 8.5,
-        "lines": {
-          "22.5": {
-            "over": 0.7548,
-            "under": 0.2452
-          },
-          "24.5": {
-            "over": 0.6121,
-            "under": 0.3879
-          },
-          "26.5": {
-            "over": 0.4565,
-            "under": 0.5435
-          },
-          "28.5": {
-            "over": 0.3108,
-            "under": 0.6892
-          },
-          "30.5": {
-            "over": 0.1924,
-            "under": 0.8076
-          }
-        },
-        "linesOn": {
-          "6.5": {
-            "over": 0.7395,
-            "under": 0.2605
-          },
-          "7.5": {
-            "over": 0.6092,
-            "under": 0.3908
-          },
-          "8.5": {
-            "over": 0.4714,
-            "under": 0.5286
-          },
-          "9.5": {
-            "over": 0.3418,
-            "under": 0.6582
-          },
-          "10.5": {
-            "over": 0.2322,
-            "under": 0.7678
-          }
-        },
-        "real": false,
-        "basis": {
-          "dominance": [
-            1.22,
-            0.82
-          ],
-          "possession": [
-            56,
-            44
-          ],
-          "accuracy": [
-            34,
-            29
-          ]
-        },
-        "shotsAvgHome": 15.1,
-        "shotsAvgAway": 6.0
+        "real": true
       },
       "referee": {
         "name": "Adham Makhadmeh",
@@ -113627,12 +114238,927 @@
     "id": 82,
     "league": "CDM 2026 · Round of 32",
     "date": "2026-07-01 13:00 UTC-7",
-    "status": "SCHEDULED",
+    "status": "FINISHED",
     "liveScore": null,
     "liveClock": null,
-    "realScore": null,
-    "htScore": null,
-    "analysis": null,
+    "realScore": "2-2",
+    "htScore": "0-1",
+    "analysis": {
+      "realScore": "2-2",
+      "outcome": "X",
+      "winner": null,
+      "predictedOutcome": "1",
+      "predictionCorrect": false,
+      "exactScore": false,
+      "over25Real": true,
+      "bttsReal": true,
+      "totalGoals": 4,
+      "homeXgReal": 0.18,
+      "awayXgReal": 0.18,
+      "homeShots": 19,
+      "awayShots": 19,
+      "homeShotsOn": 5,
+      "awayShotsOn": 5,
+      "teamStats": {
+        "home_possession": 52.2,
+        "home_passes": 699,
+        "home_passes_ok": 602,
+        "home_pass_pct": 0.9,
+        "home_crosses": 26,
+        "home_crosses_ok": 7,
+        "home_long_balls": 49,
+        "home_tackles": 12,
+        "home_tackles_won": 4,
+        "home_interceptions": 8,
+        "home_clearances": 28,
+        "home_blocked_shots": 5,
+        "home_fouls": 22,
+        "home_offsides": 2,
+        "home_saves": 3,
+        "away_possession": 47.8,
+        "away_passes": 639,
+        "away_passes_ok": 536,
+        "away_pass_pct": 0.8,
+        "away_crosses": 22,
+        "away_crosses_ok": 5,
+        "away_long_balls": 83,
+        "away_tackles": 12,
+        "away_tackles_won": 4,
+        "away_interceptions": 11,
+        "away_clearances": 31,
+        "away_blocked_shots": 3,
+        "away_fouls": 12,
+        "away_offsides": 2,
+        "away_saves": 3
+      },
+      "homeCorners": 4,
+      "awayCorners": 2,
+      "homeCards": 1,
+      "awayCards": 1,
+      "events": {
+        "goals": [
+          {
+            "minute": 25,
+            "team": "Senegal",
+            "player": "Habib Diarra",
+            "assist": null,
+            "note": null
+          },
+          {
+            "minute": 51,
+            "team": "Senegal",
+            "player": "Ismaïla Sarr",
+            "assist": "Moussa Niakhaté",
+            "note": null
+          },
+          {
+            "minute": 86,
+            "team": "Belgium",
+            "player": "Romelu Lukaku",
+            "assist": "Thomas Meunier",
+            "note": null
+          }
+        ],
+        "cards": [
+          {
+            "minute": 64,
+            "team": "Belgium",
+            "player": "Brandon Mechele",
+            "type": "Yellow"
+          },
+          {
+            "minute": 67,
+            "team": "Senegal",
+            "player": "Lamine Camara",
+            "type": "Yellow"
+          }
+        ],
+        "commentary": [
+          {
+            "minute": 0,
+            "text": "Lineups are announced and players are warming up.",
+            "type": ""
+          },
+          {
+            "minute": 0,
+            "text": "First Half begins.",
+            "type": ""
+          },
+          {
+            "minute": 7,
+            "text": "Foul by Youri Tielemans (Belgium).",
+            "type": "Foul"
+          },
+          {
+            "minute": 7,
+            "text": "Sadio Mané (Senegal) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 9,
+            "text": "Attempt saved. Leandro Trossard (Belgium) right footed shot from the right side of the box is saved in the bottom right corner by Mory Diaw (Senegal). Assisted by Timothy Castagne.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 10,
+            "text": "Foul by Arthur Theate (Belgium).",
+            "type": "Foul"
+          },
+          {
+            "minute": 10,
+            "text": "Ismaïla Sarr (Senegal) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 13,
+            "text": "Ismaïla Sarr (Senegal) hits the right post with a right footed shot from very close range.",
+            "type": "Shot Hit Woodwork"
+          },
+          {
+            "minute": 13,
+            "text": "Attempt missed. Ismaïla Sarr (Senegal) right footed shot from the right side of the six yard box is close, but misses to the right.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 14,
+            "text": "Sadio Mané (Senegal) wins a free kick on the left wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 14,
+            "text": "Foul by Timothy Castagne (Belgium).",
+            "type": "Foul"
+          },
+          {
+            "minute": 17,
+            "text": "Attempt saved. Idrissa Gueye (Senegal) right footed shot from outside the box is saved in the bottom left corner by Thibaut Courtois (Belgium).",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 18,
+            "text": "Attempt missed. Kevin De Bruyne (Belgium) right footed shot from outside the box is too high. Assisted by Youri Tielemans.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 19,
+            "text": "Corner, Senegal. Conceded by Maxim De Cuyper.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 20,
+            "text": "Offside, Senegal. Sadio Mané is caught offside.",
+            "type": "Offside"
+          },
+          {
+            "minute": 21,
+            "text": "Habib Diarra (Senegal) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 21,
+            "text": "Foul by Youri Tielemans (Belgium).",
+            "type": "Foul"
+          },
+          {
+            "minute": 25,
+            "text": "Ismaïla Sarr (Senegal) hits the right post with a header from the centre of the box. Assisted by Sadio Mané with a cross.",
+            "type": "Shot Hit Woodwork"
+          },
+          {
+            "minute": 25,
+            "text": "Goal! Belgium 0, Senegal 1. Habib Diarra (Senegal) right footed shot from very close range to the centre of the goal.",
+            "type": "Goal"
+          },
+          {
+            "minute": 27,
+            "text": "Delay in match for a drinks break.",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 30,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 31,
+            "text": "Delay in match (Belgium).",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 32,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 37,
+            "text": "Attempt saved. Sadio Mané (Senegal) right footed shot from the left side of the box is saved in the bottom left corner by Thibaut Courtois (Belgium). Assisted by Habib Diarra.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 38,
+            "text": "Pape Gueye (Senegal) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 38,
+            "text": "Foul by Leandro Trossard (Belgium).",
+            "type": "Foul"
+          },
+          {
+            "minute": 41,
+            "text": "Krépin Diatta (Senegal) wins a free kick in the defensive half.",
+            "type": "Aerial"
+          },
+          {
+            "minute": 41,
+            "text": "Foul by Maxim De Cuyper (Belgium).",
+            "type": "Foul"
+          },
+          {
+            "minute": 43,
+            "text": "Foul by Ismaïla Sarr (Senegal).",
+            "type": "Foul"
+          },
+          {
+            "minute": 43,
+            "text": "Youri Tielemans (Belgium) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 44,
+            "text": "Foul by Pape Gueye (Senegal).",
+            "type": "Foul"
+          },
+          {
+            "minute": 44,
+            "text": "Hans Vanaken (Belgium) wins a free kick in the attacking half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 44,
+            "text": "Corner, Belgium. Conceded by Pathé Ciss.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 45,
+            "text": "Attempt saved. Maxim De Cuyper (Belgium) right footed shot from outside the box is saved in the top right corner by Mory Diaw (Senegal). Assisted by Kevin De Bruyne.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 45,
+            "text": "Corner, Belgium. Conceded by Mory Diaw.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 45,
+            "text": "Fourth official has announced 5 minutes of added time.",
+            "type": ""
+          },
+          {
+            "minute": 45,
+            "text": "Attempt missed. Pape Gueye (Senegal) left footed shot from outside the box misses to the left. Assisted by Iliman Ndiaye.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 45,
+            "text": "Foul by Pape Gueye (Senegal).",
+            "type": "Foul"
+          },
+          {
+            "minute": 45,
+            "text": "Jérémy Doku (Belgium) wins a free kick on the right wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 45,
+            "text": "Foul by Sadio Mané (Senegal).",
+            "type": "Foul"
+          },
+          {
+            "minute": 45,
+            "text": "Jérémy Doku (Belgium) wins a free kick in the attacking half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 45,
+            "text": "Attempt blocked. Maxim De Cuyper (Belgium) left footed shot from outside the box is blocked.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 45,
+            "text": "Attempt missed. Kevin De Bruyne (Belgium) right footed shot from outside the box misses to the left.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 45,
+            "text": "First Half ends, Belgium 0, Senegal 1.",
+            "type": ""
+          },
+          {
+            "minute": 45,
+            "text": "Substitution, Belgium. Romelu Lukaku replaces Charles De Ketelaere.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 45,
+            "text": "Second Half begins Belgium 0, Senegal 1.",
+            "type": "Start 2nd Half"
+          },
+          {
+            "minute": 46,
+            "text": "Attempt blocked. Pape Gueye (Senegal) right footed shot from outside the box is blocked. Assisted by Sadio Mané.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 46,
+            "text": "Attempt missed. Iliman Ndiaye (Senegal) left footed shot from the centre of the box is close, but misses to the left.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 48,
+            "text": "Jérémy Doku (Belgium) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 48,
+            "text": "Foul by Sadio Mané (Senegal).",
+            "type": "Foul"
+          },
+          {
+            "minute": 48,
+            "text": "Leandro Trossard (Belgium) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 48,
+            "text": "Foul by Krépin Diatta (Senegal).",
+            "type": "Foul"
+          },
+          {
+            "minute": 50,
+            "text": "Iliman Ndiaye (Senegal) wins a free kick on the right wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 50,
+            "text": "Foul by Maxim De Cuyper (Belgium).",
+            "type": "Foul"
+          },
+          {
+            "minute": 51,
+            "text": "Attempt missed. Habib Diarra (Senegal) left footed shot from the centre of the box misses to the left. Assisted by Sadio Mané.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 51,
+            "text": "Goal! Belgium 0, Senegal 2. Ismaïla Sarr (Senegal) right footed shot from the centre of the box to the bottom right corner. Assisted by Moussa Niakhaté with a through ball.",
+            "type": "Goal"
+          },
+          {
+            "minute": 53,
+            "text": "Foul by Youri Tielemans (Belgium).",
+            "type": "Foul"
+          },
+          {
+            "minute": 53,
+            "text": "Ismaïla Sarr (Senegal) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 54,
+            "text": "Jérémy Doku (Belgium) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 54,
+            "text": "Foul by Ismail Jakobs (Senegal).",
+            "type": "Foul"
+          },
+          {
+            "minute": 55,
+            "text": "Hans Vanaken (Belgium) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 55,
+            "text": "Foul by Iliman Ndiaye (Senegal).",
+            "type": "Foul"
+          },
+          {
+            "minute": 56,
+            "text": "Substitution, Belgium. Dodi Lukébakio replaces Jérémy Doku.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 56,
+            "text": "Substitution, Belgium. Nicolas Raskin replaces Kevin De Bruyne.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 56,
+            "text": "Attempt missed. Brandon Mechele (Belgium) header from the right side of the six yard box is too high. Assisted by Timothy Castagne.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 58,
+            "text": "Foul by Nicolas Raskin (Belgium).",
+            "type": "Foul"
+          },
+          {
+            "minute": 58,
+            "text": "Krépin Diatta (Senegal) wins a free kick on the right wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 60,
+            "text": "Attempt blocked. Dodi Lukébakio (Belgium) left footed shot from the centre of the box is blocked. Assisted by Leandro Trossard.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 60,
+            "text": "Attempt blocked. Youri Tielemans (Belgium) right footed shot from a difficult angle on the right is blocked. Assisted by Romelu Lukaku.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 60,
+            "text": "Corner, Belgium. Conceded by Moussa Niakhaté.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 62,
+            "text": "Attempt missed. Dodi Lukébakio (Belgium) left footed shot from the centre of the box misses to the right. Assisted by Romelu Lukaku.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 62,
+            "text": "Foul by Krépin Diatta (Senegal).",
+            "type": "Foul"
+          },
+          {
+            "minute": 62,
+            "text": "Leandro Trossard (Belgium) wins a free kick on the left wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 63,
+            "text": "Substitution, Belgium. Diego Moreira replaces Hans Vanaken.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 64,
+            "text": "Ismaïla Sarr (Senegal) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 64,
+            "text": "Foul by Brandon Mechele (Belgium).",
+            "type": "Foul"
+          },
+          {
+            "minute": 64,
+            "text": "Brandon Mechele (Belgium) is shown the yellow card for a bad foul.",
+            "type": "Yellow Card"
+          },
+          {
+            "minute": 65,
+            "text": "Offside, Belgium. Romelu Lukaku is caught offside.",
+            "type": "Offside"
+          },
+          {
+            "minute": 66,
+            "text": "Substitution, Senegal. Lamine Camara replaces Pape Gueye.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 67,
+            "text": "Foul by Lamine Camara (Senegal).",
+            "type": "Foul"
+          },
+          {
+            "minute": 67,
+            "text": "Leandro Trossard (Belgium) wins a free kick in the attacking half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 67,
+            "text": "Lamine Camara (Senegal) is shown the yellow card for a bad foul.",
+            "type": "Yellow Card"
+          },
+          {
+            "minute": 70,
+            "text": "Delay in match for a drinks break.",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 72,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 73,
+            "text": "Substitution, Senegal. Ibrahim Mbaye replaces Iliman Ndiaye.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 73,
+            "text": "Substitution, Senegal. Pape Matar Sarr replaces Habib Diarra.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 76,
+            "text": "Sadio Mané (Senegal) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 76,
+            "text": "Foul by Youri Tielemans (Belgium).",
+            "type": "Foul"
+          },
+          {
+            "minute": 77,
+            "text": "Attempt blocked. Arthur Theate (Belgium) left footed shot from outside the box is blocked. Assisted by Brandon Mechele.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 78,
+            "text": "Attempt missed. Dodi Lukébakio (Belgium) left footed shot from the right side of the box is close, but misses to the left. Assisted by Brandon Mechele.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 78,
+            "text": "Substitution, Belgium. Thomas Meunier replaces Maxim De Cuyper.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 79,
+            "text": "Sadio Mané (Senegal) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 79,
+            "text": "Foul by Thomas Meunier (Belgium).",
+            "type": "Foul"
+          },
+          {
+            "minute": 80,
+            "text": "Ismaïla Sarr (Senegal) wins a free kick on the right wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 80,
+            "text": "Foul by Timothy Castagne (Belgium).",
+            "type": "Foul"
+          },
+          {
+            "minute": 83,
+            "text": "Attempt missed. Timothy Castagne (Belgium) header from the centre of the box is close, but misses to the right. Assisted by Dodi Lukébakio with a cross.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 84,
+            "text": "Attempt missed. Youri Tielemans (Belgium) left footed shot from outside the box is too high. Assisted by Leandro Trossard.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 84,
+            "text": "Offside, Senegal. Sadio Mané is caught offside.",
+            "type": "Offside"
+          },
+          {
+            "minute": 86,
+            "text": "Goal! Belgium 1, Senegal 2. Romelu Lukaku (Belgium) right footed shot from the right side of the six yard box to the high centre of the goal. Assisted by Thomas Meunier with a cross.",
+            "type": "Goal"
+          },
+          {
+            "minute": 88,
+            "text": "Attempt missed. Ibrahim Mbaye (Senegal) right footed shot from the right side of the box is high and wide to the right. Assisted by Ismaïla Sarr.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 89,
+            "text": "Goal! Belgium 2, Senegal 2. Youri Tielemans (Belgium) header from the centre of the box to the bottom left corner. Assisted by Leandro Trossard.",
+            "type": "Goal - Header"
+          },
+          {
+            "minute": 90,
+            "text": "Fourth official has announced 7 minutes of added time.",
+            "type": ""
+          },
+          {
+            "minute": 90,
+            "text": "Corner, Belgium. Conceded by Lamine Camara.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 90,
+            "text": "Attempt missed. Thomas Meunier (Belgium) right footed shot from outside the box is close, but misses to the right following a corner.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 90,
+            "text": "Mory Diaw (Senegal) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Foul by Brandon Mechele (Belgium).",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Offside, Belgium. Diego Moreira is caught offside.",
+            "type": "Offside"
+          },
+          {
+            "minute": 90,
+            "text": "Attempt missed. Idrissa Gueye (Senegal) right footed shot from outside the box misses to the left. Assisted by Ibrahim Mbaye.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 90,
+            "text": "Second Half ends, Belgium 2, Senegal 2.",
+            "type": ""
+          },
+          {
+            "minute": 90,
+            "text": "First Half Extra Time begins Belgium 2, Senegal 2.",
+            "type": ""
+          },
+          {
+            "minute": 93,
+            "text": "Krépin Diatta (Senegal) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 93,
+            "text": "Foul by Timothy Castagne (Belgium).",
+            "type": "Foul"
+          },
+          {
+            "minute": 93,
+            "text": "Substitution, Senegal. Nicolas Jackson replaces Sadio Mané.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 93,
+            "text": "Substitution, Senegal. El Hadji Malick Diouf replaces Ismail Jakobs.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 95,
+            "text": "Ibrahim Mbaye (Senegal) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 95,
+            "text": "Foul by Timothy Castagne (Belgium).",
+            "type": "Foul"
+          },
+          {
+            "minute": 96,
+            "text": "Substitution, Senegal. Bara Sapoko Ndiaye replaces Idrissa Gueye.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 97,
+            "text": "Handball by Thomas Meunier (Belgium).",
+            "type": "Handball"
+          },
+          {
+            "minute": 99,
+            "text": "Bara Sapoko Ndiaye (Senegal) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 99,
+            "text": "Foul by Diego Moreira (Belgium).",
+            "type": "Foul"
+          },
+          {
+            "minute": 101,
+            "text": "Ismaïla Sarr (Senegal) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 101,
+            "text": "Foul by Thomas Meunier (Belgium).",
+            "type": "Foul"
+          },
+          {
+            "minute": 104,
+            "text": "Attempt blocked. Leandro Trossard (Belgium) right footed shot from outside the box is blocked. Assisted by Arthur Theate.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 105,
+            "text": "Fourth official has announced 0 minutes of added time.",
+            "type": ""
+          },
+          {
+            "minute": 105,
+            "text": "First Half Extra Time ends, Belgium 2, Senegal 2.",
+            "type": "Halftime Extra Time"
+          },
+          {
+            "minute": 105,
+            "text": "Second Half Extra Time begins Belgium 2, Senegal 2.",
+            "type": "Start 2nd Half Extra Time"
+          },
+          {
+            "minute": 107,
+            "text": "Attempt missed. Nicolas Raskin (Belgium) header from the centre of the box misses to the left. Assisted by Thomas Meunier with a cross.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 107,
+            "text": "Bara Sapoko Ndiaye (Senegal) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 107,
+            "text": "Foul by Nicolas Raskin (Belgium).",
+            "type": "Foul"
+          },
+          {
+            "minute": 109,
+            "text": "Attempt missed. Ibrahim Mbaye (Senegal) left footed shot from the centre of the box is close, but misses to the left. Assisted by Bara Sapoko Ndiaye.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 109,
+            "text": "Substitution, Belgium. Amadou Onana replaces Leandro Trossard.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 110,
+            "text": "Foul by Krépin Diatta (Senegal).",
+            "type": "Foul"
+          },
+          {
+            "minute": 110,
+            "text": "Diego Moreira (Belgium) wins a free kick in the attacking half.",
+            "type": "Aerial"
+          },
+          {
+            "minute": 110,
+            "text": "Delay in match because of an injury Diego Moreira (Belgium).",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 111,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 113,
+            "text": "Attempt saved. Bara Sapoko Ndiaye (Senegal) left footed shot from outside the box is saved in the bottom left corner by Thibaut Courtois (Belgium). Assisted by Ismaïla Sarr.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 114,
+            "text": "Corner, Senegal. Conceded by Arthur Theate.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 117,
+            "text": "Penalty conceded by Lamine Camara (Senegal) after a foul in the penalty area.",
+            "type": "Foul"
+          },
+          {
+            "minute": 117,
+            "text": "Penalty Belgium. Youri Tielemans draws a foul in the penalty area.",
+            "type": "Foul"
+          },
+          {
+            "minute": 120,
+            "text": "VAR Decision: Penalty Belgium.",
+            "type": "VAR - Referee decision cancelled"
+          },
+          {
+            "minute": 120,
+            "text": "Fourth official has announced 4 minutes of added time.",
+            "type": ""
+          },
+          {
+            "minute": 120,
+            "text": "Goal! Belgium 3, Senegal 2. Youri Tielemans (Belgium) converts the penalty with a right footed shot to the top right corner.",
+            "type": "Penalty - Scored"
+          },
+          {
+            "minute": 120,
+            "text": "Attempt missed. Pape Matar Sarr (Senegal) left footed shot from outside the box is high and wide to the left. Assisted by Moussa Niakhaté.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 120,
+            "text": "Krépin Diatta (Senegal) wins a free kick in the attacking half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 120,
+            "text": "Foul by Diego Moreira (Belgium).",
+            "type": "Foul"
+          },
+          {
+            "minute": 120,
+            "text": "Attempt blocked. Pathé Ciss (Senegal) right footed shot from outside the box is blocked. Assisted by Ibrahim Mbaye.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 120,
+            "text": "Attempt blocked. Ismaïla Sarr (Senegal) right footed shot from outside the box is blocked. Assisted by Pathé Ciss.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 120,
+            "text": "Handball by Nicolas Raskin (Belgium).",
+            "type": "Handball"
+          },
+          {
+            "minute": 120,
+            "text": "Attempt missed. Pape Matar Sarr (Senegal) right footed shot from outside the box is high and wide to the right from a direct free kick.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 120,
+            "text": "Second Half Extra Time ends, Belgium 3, Senegal 2.",
+            "type": "End Extra Time"
+          },
+          {
+            "minute": 0,
+            "text": "Match ends, Belgium 3, Senegal 2.",
+            "type": ""
+          }
+        ],
+        "halftime": "0-1",
+        "motm": "—",
+        "note": "",
+        "lineups": {
+          "home_formation": "4-2-3-1",
+          "home_xi": [
+            "Thibaut Courtois",
+            "Arthur Theate",
+            "Brandon Mechele",
+            "Maxim De Cuyper",
+            "Timothy Castagne",
+            "Kevin De Bruyne",
+            "Hans Vanaken",
+            "Youri Tielemans",
+            "Charles De Ketelaere",
+            "Jérémy Doku",
+            "Leandro Trossard"
+          ],
+          "home_bench": [
+            "Joaquin Seys",
+            "Koni De Winter",
+            "Senne Lammens",
+            "Dodi Lukébakio",
+            "Thomas Meunier",
+            "Romelu Lukaku",
+            "Matias Fernandez-Pardo",
+            "Amadou Onana",
+            "Diego Moreira",
+            "Alexis Saelemaekers",
+            "Axel Witsel",
+            "Nicolas Raskin",
+            "Mike Penders",
+            "Nathan Ngoy"
+          ],
+          "away_formation": "4-3-3",
+          "away_xi": [
+            "Mory Diaw",
+            "Moussa Niakhaté",
+            "Pathé Ciss",
+            "Ismail Jakobs",
+            "Krépin Diatta",
+            "Idrissa Gueye",
+            "Pape Gueye",
+            "Habib Diarra",
+            "Ismaïla Sarr",
+            "Sadio Mané",
+            "Iliman Ndiaye"
+          ],
+          "away_bench": [
+            "Mamadou Sarr",
+            "Assane Diao",
+            "Bamba Dieng",
+            "Pape Matar Sarr",
+            "Abdoulaye Seck",
+            "El Hadji Malick Diouf",
+            "Nicolas Jackson",
+            "Ibrahim Mbaye",
+            "Lamine Camara",
+            "Cherif Ndiaye",
+            "Kalidou Koulibaly",
+            "Bara Sapoko Ndiaye",
+            "Antoine Mendy",
+            "Yehvann Diouf"
+          ],
+          "source": "ESPN (compos réelles)"
+        }
+      },
+      "summary": "Le modèle donnait <b>Belgium</b> favori (73%). ❌ Surprise : match nul, non anticipé. Score le plus probable prévu : 2-0 → réel 2-2. Total buts 4 (Over 2.5), BTTS oui."
+    },
     "nlpMomentum": null,
     "hotTrends": [
       "Senegal : Plus de 2.5 buts dans 71% de ses 7 derniers matchs"
@@ -113643,12 +115169,12 @@
     "awayGF": 2.14,
     "homeGA": 0.71,
     "awayGA": 1.43,
-    "homeXG": 2.38,
-    "awayXG": 0.77,
+    "homeXG": 2.05,
+    "awayXG": 0.67,
     "homeForm": 8,
     "awayForm": 8,
     "homeElo": 1980.8,
-    "awayElo": 1859.4,
+    "awayElo": 1859.8,
     "homeForm5": "WDDWW",
     "awayForm5": "WLLDL",
     "homeFormDetail": {
@@ -113687,35 +115213,36 @@
     "oddCards_Under": null,
     "oddsProvider": "DraftKings",
     "sources": [
+      "free-mode",
       "openfootball",
       "SQLite",
       "Elo",
       "shrinkage",
       "FIFA-ratings",
-      "ESPN-odds"
+      "ESPN-free-odds"
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.7472,
-      "pX": 0.1895,
-      "p2": 0.0633,
+      "p1": 0.7341,
+      "pX": 0.2003,
+      "p2": 0.0656,
       "ensemble": {
         "weights": {
-          "elo": 0.3600829114552261,
-          "grid": 0.370145765574636,
-          "form": 0.2697713229701379
+          "elo": 0.35991737826413295,
+          "grid": 0.37018275069681844,
+          "form": 0.2698998710390486
         },
-        "T": 0.664,
-        "drawBias": 0.087,
+        "T": 0.663,
+        "drawBias": 0.0873,
         "elo": [
           0.562,
           0.234,
           0.204
         ],
         "grid": [
-          0.723,
-          0.183,
-          0.094
+          0.686,
+          0.213,
+          0.1
         ],
         "form": [
           0.864,
@@ -113723,56 +115250,56 @@
           0.105
         ]
       },
-      "over25": 0.5727,
-      "btts": 0.5895,
+      "over25": 0.5083,
+      "btts": 0.5322,
       "marketCalib": {
         "bttsShift": 0.0674,
-        "overShift": -0.054,
-        "bttsRaw": 0.5221,
+        "overShift": -0.0541,
+        "bttsRaw": 0.4648,
         "n": 198
       },
-      "lamHome": 2.38,
-      "lamAway": 0.77,
+      "lamHome": 2.05,
+      "lamAway": 0.67,
       "topScore": [
         2,
         0
       ],
       "doubleChance": {
-        "1X": 0.9061,
-        "12": 0.8165,
-        "X2": 0.2774
+        "1X": 0.8996,
+        "12": 0.7868,
+        "X2": 0.3136
       },
       "drawNoBet": {
-        "home": 0.885,
-        "away": 0.115
+        "home": 0.8724,
+        "away": 0.1276
       },
       "topScores": [
         {
           "score": "2-0",
-          "p": 0.1153
-        },
-        {
-          "score": "2-1",
-          "p": 0.0938
-        },
-        {
-          "score": "3-0",
-          "p": 0.0915
+          "p": 0.1314
         },
         {
           "score": "1-0",
-          "p": 0.0881
+          "p": 0.1181
         },
         {
           "score": "1-1",
-          "p": 0.0858
+          "p": 0.0996
+        },
+        {
+          "score": "2-1",
+          "p": 0.0947
+        },
+        {
+          "score": "3-0",
+          "p": 0.0898
         }
       ],
       "scenarios": [
         {
           "id": "closed",
           "title": "Match fermé",
-          "p": 0.1602,
+          "p": 0.2225,
           "scores": [
             "1-0",
             "0-0"
@@ -113782,7 +115309,7 @@
         {
           "id": "tight",
           "title": "Match serré",
-          "p": 0.2131,
+          "p": 0.2451,
           "scores": [
             "2-0",
             "1-1"
@@ -113792,7 +115319,7 @@
         {
           "id": "open",
           "title": "Match ouvert / spectacle",
-          "p": 0.6267,
+          "p": 0.5324,
           "scores": [
             "2-1",
             "3-0"
@@ -113802,7 +115329,7 @@
         {
           "id": "blowout",
           "title": "Large écart",
-          "p": 0.4037,
+          "p": 0.3278,
           "scores": [
             "3-0",
             "3-1"
@@ -113813,69 +115340,69 @@
       ],
       "overUnder": {
         "0.5": {
-          "over": 0.9505,
-          "under": 0.0495
+          "over": 0.9274,
+          "under": 0.0726
         },
         "1.5": {
-          "over": 0.8398,
-          "under": 0.1602
+          "over": 0.7775,
+          "under": 0.2225
         },
         "2.5": {
-          "over": 0.6267,
-          "under": 0.3733
+          "over": 0.5324,
+          "under": 0.4676
         },
         "3.5": {
-          "over": 0.408,
-          "under": 0.592
+          "over": 0.3138,
+          "under": 0.6862
         }
       },
-      "totalXg": 3.15,
+      "totalXg": 2.72,
       "bttsConf": {
-        "pick": "Oui",
-        "score": 0.51,
-        "label": "moyenne"
+        "pick": "indécis",
+        "score": 0.46,
+        "label": "faible"
       },
       "halftime": {
-        "lamHome": 0.67,
-        "lamAway": 0.18,
+        "lamHome": 0.86,
+        "lamAway": 0.28,
         "topScore": [
           0,
           0
         ],
-        "p1": 0.4225,
-        "pX": 0.4926,
-        "p2": 0.0849,
+        "p1": 0.4732,
+        "pX": 0.4195,
+        "p2": 0.1073,
         "ou05": {
-          "over": 0.5912,
-          "under": 0.4088
+          "over": 0.6891,
+          "under": 0.3109
         },
         "ou15": {
-          "over": 0.2585,
-          "under": 0.7415
+          "over": 0.3609,
+          "under": 0.6391
         },
-        "shareHome": 0.282,
-        "shareAway": 0.238,
-        "note": "1ère MT estimée via les ratios de buts en 1ère MT propres à chaque équipe (priorisé à ~42% via Bayesian Shrinkage). Domicile: 28%, Extérieur: 24%."
+        "shareHome": 0.42,
+        "shareAway": 0.42,
+        "note": "1ère MT estimée via les ratios de buts en 1ère MT propres à chaque équipe (priorisé à ~42% via Bayesian Shrinkage). Domicile: 42%, Extérieur: 42%."
       },
       "value": {
         "home": {
           "odd": 2.2,
           "implied": 0.455,
-          "edge": 0.293,
+          "edge": 0.28,
           "minEdge": 0.2,
           "is_value": true
         },
         "draw": {
           "odd": 3.3,
           "implied": 0.303,
-          "edge": -0.114,
+          "edge": -0.103,
           "minEdge": 0.2,
           "is_value": false
         },
         "away": {
           "odd": 3.55,
           "implied": 0.282,
-          "edge": -0.218,
+          "edge": -0.216,
           "minEdge": 0.2,
           "is_value": false
         }
@@ -113938,77 +115465,13 @@
         "src": "FootyStats (réel)"
       },
       "shots": {
-        "expShots": 27.2,
-        "expShotsOn": 9.0,
-        "home": 15.5,
-        "away": 11.6,
-        "homeOn": 4.9,
-        "awayOn": 4.1,
-        "homeAcc": 32,
-        "awayAcc": 35,
-        "line": 27.5,
-        "lineOn": 9.5,
-        "lines": {
-          "23.5": {
-            "over": 0.7553,
-            "under": 0.2447
-          },
-          "25.5": {
-            "over": 0.6158,
-            "under": 0.3842
-          },
-          "27.5": {
-            "over": 0.4633,
-            "under": 0.5367
-          },
-          "29.5": {
-            "over": 0.3195,
-            "under": 0.6805
-          },
-          "31.5": {
-            "over": 0.201,
-            "under": 0.799
-          }
-        },
-        "linesOn": {
-          "7.5": {
-            "over": 0.6762,
-            "under": 0.3238
-          },
-          "8.5": {
-            "over": 0.5444,
-            "under": 0.4556
-          },
-          "9.5": {
-            "over": 0.4127,
-            "under": 0.5873
-          },
-          "10.5": {
-            "over": 0.2941,
-            "under": 0.7059
-          },
-          "11.5": {
-            "over": 0.197,
-            "under": 0.803
-          }
-        },
-        "real": false,
-        "basis": {
-          "dominance": [
-            1.22,
-            0.82
-          ],
-          "possession": [
-            50,
-            50
-          ],
-          "accuracy": [
-            32,
-            35
-          ]
-        },
-        "shotsAvgHome": 17.3,
-        "shotsAvgAway": 14.0
+        "home": 19,
+        "away": 19,
+        "homeOn": 5,
+        "awayOn": 5,
+        "homeAcc": 26,
+        "awayAcc": 26,
+        "real": true
       },
       "referee": null,
       "riskPlayers": {
@@ -114085,35 +115548,35 @@
             {
               "name": "Leandro Trossard",
               "poste": "FW",
-              "p": 0.4124,
+              "p": 0.3675,
               "real_goals": 2.0,
               "why": "déjà 2 but(s) dans le tournoi · volume de tirs élevé (11)"
             },
             {
               "name": "Jérémy Doku",
               "poste": "FW",
-              "p": 0.2512,
+              "p": 0.2206,
               "real_goals": 0.0,
               "why": "volume de tirs élevé (3)"
             },
             {
               "name": "Charles De Ketelaere",
               "poste": "FW",
-              "p": 0.212,
+              "p": 0.1855,
               "real_goals": 0.0,
               "why": "présence offensive selon le poste"
             },
             {
               "name": "Kevin De Bruyne",
               "poste": "MF",
-              "p": 0.1814,
+              "p": 0.1584,
               "real_goals": 1.0,
               "why": "déjà 1 but(s) dans le tournoi · volume de tirs élevé (16)"
             },
             {
               "name": "Romelu Lukaku",
               "poste": "FW",
-              "p": 0.1726,
+              "p": 0.1506,
               "real_goals": 1.0,
               "why": "déjà 1 but(s) dans le tournoi · volume de tirs élevé (4)"
             }
@@ -114122,28 +115585,28 @@
             {
               "name": "Hans Vanaken",
               "poste": "MF",
-              "p": 0.2,
+              "p": 0.1748,
               "real_assists": 1.0,
               "why": "déjà 1 passe(s) déc."
             },
             {
               "name": "Kevin De Bruyne",
               "poste": "MF",
-              "p": 0.1301,
+              "p": 0.1132,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Youri Tielemans",
               "poste": "MF",
-              "p": 0.1301,
+              "p": 0.1132,
               "real_assists": 0.0,
               "why": "création selon le poste"
             },
             {
               "name": "Leandro Trossard",
               "poste": "FW",
-              "p": 0.1126,
+              "p": 0.0978,
               "real_assists": 0.0,
               "why": "création selon le poste"
             }
@@ -114151,15 +115614,15 @@
           "creator": {
             "name": "Hans Vanaken",
             "poste": "MF",
-            "p": 0.2,
+            "p": 0.1748,
             "real_assists": 1.0,
             "why": "déjà 1 passe(s) déc."
           },
           "keeper": {
             "name": "Thibaut Courtois",
-            "expSotFaced": 2.4,
+            "expSotFaced": 2.1,
             "fromLineup": false,
-            "why": "Subit une pression offensive adverse de ~0.77 xG → environ 2.4 tirs cadrés à gérer."
+            "why": "Subit une pression offensive adverse de ~0.67 xG → environ 2.1 tirs cadrés à gérer."
           },
           "benchImpact": [
             {
@@ -114191,7 +115654,7 @@
             {
               "name": "Ismaïla Sarr",
               "poste": "FW",
-              "p": 0.1457,
+              "p": 0.1056,
               "real_goals": 3.0,
               "why": "déjà 3 but(s) dans le tournoi · volume de tirs élevé (12)",
               "bio": {
@@ -114209,16 +115672,35 @@
               }
             },
             {
+              "name": "Iliman Ndiaye",
+              "poste": "FW",
+              "p": 0.0747,
+              "real_goals": 1.0,
+              "why": "déjà 1 but(s) dans le tournoi",
+              "bio": {
+                "club": "Everton",
+                "role": "Attaquant / meneur",
+                "bio": "Créateur technique du Sénégal, polyvalent offensivement.",
+                "forces": [
+                  "Conduite de balle, créativité"
+                ],
+                "faiblesses": [
+                  "Encore en affirmation au haut niveau"
+                ],
+                "source": "profils 2025-26"
+              }
+            },
+            {
               "name": "Ibrahim Mbaye",
               "poste": "FW",
-              "p": 0.1038,
+              "p": 0.0747,
               "real_goals": 1.0,
               "why": "déjà 1 but(s) dans le tournoi"
             },
             {
               "name": "Sadio Mané",
               "poste": "FW",
-              "p": 0.0959,
+              "p": 0.0689,
               "real_goals": 0.0,
               "why": "volume de tirs élevé (5)",
               "bio": {
@@ -114237,31 +115719,20 @@
               }
             },
             {
-              "name": "Nicolas Jackson",
+              "name": "Cherif Ndiaye",
               "poste": "FW",
-              "p": 0.0508,
+              "p": 0.0437,
               "real_goals": 0.0,
-              "why": "volume de tirs élevé (7)",
-              "bio": {
-                "club": "Bayern Munich",
-                "role": "Avant-centre",
-                "bio": "Buteur sénégalais au Bayern, pointe rapide et mobile.",
-                "forces": [
-                  "Appels en profondeur",
-                  "Puissance et vitesse"
-                ],
-                "faiblesses": [
-                  "Irrégularité dans la finition"
-                ],
-                "source": "Total Football Analysis (2026)"
-              }
-            },
+              "why": "présence offensive selon le poste"
+            }
+          ],
+          "assisters": [
             {
               "name": "Iliman Ndiaye",
               "poste": "FW",
-              "p": 0.0481,
-              "real_goals": 1.0,
-              "why": "déjà 1 but(s) dans le tournoi",
+              "p": 0.048,
+              "real_assists": 2.0,
+              "why": "déjà 2 passe(s) déc.",
               "bio": {
                 "club": "Everton",
                 "role": "Attaquant / meneur",
@@ -114274,20 +115745,25 @@
                 ],
                 "source": "profils 2025-26"
               }
-            }
-          ],
-          "assisters": [
+            },
             {
               "name": "Lamine Camara",
               "poste": "MF",
-              "p": 0.0606,
+              "p": 0.0409,
+              "real_assists": 1.0,
+              "why": "déjà 1 passe(s) déc."
+            },
+            {
+              "name": "Pape Gueye",
+              "poste": "MF",
+              "p": 0.0409,
               "real_assists": 1.0,
               "why": "déjà 1 passe(s) déc."
             },
             {
               "name": "Sadio Mané",
               "poste": "FW",
-              "p": 0.0522,
+              "p": 0.0351,
               "real_assists": 1.0,
               "why": "déjà 1 passe(s) déc.",
               "bio": {
@@ -114304,47 +115780,32 @@
                 ],
                 "source": "profils 2025-26 / Sportskeeda"
               }
-            },
-            {
-              "name": "Ismaïla Sarr",
-              "poste": "FW",
-              "p": 0.0522,
-              "real_assists": 1.0,
-              "why": "déjà 1 passe(s) déc.",
-              "bio": {
-                "club": "Crystal Palace",
-                "role": "Ailier",
-                "bio": "Ailier rapide du Sénégal, danger sur les transitions.",
-                "forces": [
-                  "Vitesse, dribble",
-                  "Menace sur le côté droit"
-                ],
-                "faiblesses": [
-                  "Constance"
-                ],
-                "source": "profils 2025-26"
-              }
-            },
-            {
-              "name": "Idrissa Gueye",
-              "poste": "MF",
-              "p": 0.0383,
-              "real_assists": 0.0,
-              "why": "création selon le poste"
             }
           ],
           "creator": {
-            "name": "Lamine Camara",
-            "poste": "MF",
-            "p": 0.0606,
-            "real_assists": 1.0,
-            "why": "déjà 1 passe(s) déc."
+            "name": "Iliman Ndiaye",
+            "poste": "FW",
+            "p": 0.048,
+            "real_assists": 2.0,
+            "why": "déjà 2 passe(s) déc.",
+            "bio": {
+              "club": "Everton",
+              "role": "Attaquant / meneur",
+              "bio": "Créateur technique du Sénégal, polyvalent offensivement.",
+              "forces": [
+                "Conduite de balle, créativité"
+              ],
+              "faiblesses": [
+                "Encore en affirmation au haut niveau"
+              ],
+              "source": "profils 2025-26"
+            }
           },
           "keeper": {
             "name": "Yehvann Diouf",
-            "expSotFaced": 7.4,
+            "expSotFaced": 6.4,
             "fromLineup": false,
-            "why": "Subit une pression offensive adverse de ~2.38 xG → environ 7.4 tirs cadrés à gérer."
+            "why": "Subit une pression offensive adverse de ~2.05 xG → environ 6.4 tirs cadrés à gérer."
           },
           "benchImpact": [
             {
@@ -114373,21 +115834,83 @@
         }
       },
       "lineupImpact": {
-        "rotationDeltaHome": 0.136,
-        "rotationDeltaAway": 0.2,
+        "rotationDeltaHome": 0.102,
+        "rotationDeltaAway": 0.16,
         "defensiveDeltaHome": 0.0,
-        "defensiveDeltaAway": 0.0,
+        "defensiveDeltaAway": 0.112,
         "missingKeyPlayers": [],
-        "tacticalMod": 1.04,
-        "benchHome": 0.0,
-        "benchAway": 0.0,
-        "benchBonusOver25": 0.0
+        "tacticalMod": 1.0,
+        "benchHome": 0.5,
+        "benchAway": 0.5,
+        "benchBonusOver25": 0.03
       },
       "formations": {
-        "home": "4-3-3",
-        "away": "4-4-2"
+        "home": "4-2-3-1",
+        "away": "4-3-3"
       },
-      "officialLineups": null,
+      "officialLineups": {
+        "source": "ESPN (compo officielle)",
+        "homeFormation": "4-2-3-1",
+        "awayFormation": "4-3-3",
+        "homeXi": [
+          "Thibaut Courtois (G)",
+          "Arthur Theate (CD-L)",
+          "Brandon Mechele (CD-R)",
+          "Maxim De Cuyper (LB)",
+          "Timothy Castagne (RB)",
+          "Kevin De Bruyne (AM)",
+          "Hans Vanaken (LM)",
+          "Youri Tielemans (RM)",
+          "Charles De Ketelaere (F)",
+          "Jérémy Doku (AM-L)",
+          "Leandro Trossard (AM-R)"
+        ],
+        "awayXi": [
+          "Mory Diaw (G)",
+          "Moussa Niakhaté (CD-L)",
+          "Pathé Ciss (CD-R)",
+          "Ismail Jakobs (LB)",
+          "Krépin Diatta (RB)",
+          "Idrissa Gueye (CM)",
+          "Pape Gueye (LM)",
+          "Habib Diarra (RM)",
+          "Ismaïla Sarr (F)",
+          "Sadio Mané (LF)",
+          "Iliman Ndiaye (RF)"
+        ],
+        "homeBench": [
+          "Joaquin Seys (SUB)",
+          "Koni De Winter (SUB)",
+          "Senne Lammens (SUB)",
+          "Dodi Lukébakio (SUB)",
+          "Thomas Meunier (SUB)",
+          "Romelu Lukaku (SUB)",
+          "Matias Fernandez-Pardo (SUB)",
+          "Amadou Onana (SUB)",
+          "Diego Moreira (SUB)",
+          "Alexis Saelemaekers (SUB)",
+          "Axel Witsel (SUB)",
+          "Nicolas Raskin (SUB)",
+          "Mike Penders (SUB)",
+          "Nathan Ngoy (SUB)"
+        ],
+        "awayBench": [
+          "Mamadou Sarr (SUB)",
+          "Assane Diao (SUB)",
+          "Bamba Dieng (SUB)",
+          "Pape Matar Sarr (SUB)",
+          "Abdoulaye Seck (SUB)",
+          "El Hadji Malick Diouf (SUB)",
+          "Nicolas Jackson (SUB)",
+          "Ibrahim Mbaye (SUB)",
+          "Lamine Camara (SUB)",
+          "Cherif Ndiaye (SUB)",
+          "Kalidou Koulibaly (SUB)",
+          "Bara Sapoko Ndiaye (SUB)",
+          "Antoine Mendy (SUB)",
+          "Yehvann Diouf (SUB)"
+        ]
+      },
       "mwi": {
         "home": 0.2,
         "away": 0.2,
@@ -114404,7 +115927,7 @@
         ]
       },
       "upsetIndex": {
-        "index": 40,
+        "index": 42,
         "label": "modéré",
         "dampener": 1.0,
         "favOverperf": true,
@@ -114460,20 +115983,58 @@
       },
       "availability": {
         "home": {
-          "factor": 1.0,
-          "missing": [],
-          "applied": false
+          "factor": 0.78,
+          "missing": [
+            {
+              "name": "Leandro Trossard",
+              "weight": 0.407
+            },
+            {
+              "name": "Romelu Lukaku",
+              "weight": 0.3
+            },
+            {
+              "name": "Alexis Saelemaekers",
+              "weight": 0.116
+            }
+          ],
+          "applied": true
         },
         "away": {
-          "factor": 1.0,
-          "missing": [],
-          "applied": false
+          "factor": 0.7931,
+          "missing": [
+            {
+              "name": "Iliman Ndiaye",
+              "weight": 0.186
+            },
+            {
+              "name": "Nicolas Jackson",
+              "weight": 0.136
+            },
+            {
+              "name": "Sadio Mané",
+              "weight": 0.128
+            },
+            {
+              "name": "Ibrahim Mbaye",
+              "weight": 0.087
+            },
+            {
+              "name": "Kalidou Koulibaly",
+              "weight": 0.046
+            },
+            {
+              "name": "Habib Diarra",
+              "weight": 0.043
+            }
+          ],
+          "applied": true
         }
       },
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.5365,
+          "rawKelly": 0.5125,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -114502,12 +116063,12 @@
         "calibratedOn": 198
       },
       "knockout": {
-        "qualifyHome": 0.855,
-        "qualifyAway": 0.145,
+        "qualifyHome": 0.8381,
+        "qualifyAway": 0.1619,
         "reg90": {
-          "p1": 0.727,
-          "pX": 0.1748,
-          "p2": 0.0982
+          "p1": 0.6915,
+          "pX": 0.2031,
+          "p2": 0.1054
         },
         "shootoutHome": 0.65,
         "note": "90' → prolongations (λ−70%) → tirs au but (Elo+forme)"
@@ -114518,9 +116079,9 @@
     "id": 81,
     "league": "CDM 2026 · Round of 32",
     "date": "2026-07-01 17:00 UTC-7",
-    "status": "SCHEDULED",
-    "liveScore": null,
-    "liveClock": null,
+    "status": "LIVE",
+    "liveScore": "1-0",
+    "liveClock": "45'+2'",
     "realScore": null,
     "htScore": null,
     "analysis": null,
@@ -114536,7 +116097,7 @@
     "awayGF": 1.2,
     "homeGA": 2.14,
     "awayGA": 1.4,
-    "homeXG": 2.25,
+    "homeXG": 2.07,
     "awayXG": 0.71,
     "homeForm": 8,
     "awayForm": 8,
@@ -114580,92 +116141,101 @@
     "oddCards_Under": null,
     "oddsProvider": "DraftKings",
     "sources": [
+      "free-mode",
       "openfootball",
       "SQLite",
       "Elo",
       "shrinkage",
       "FIFA-ratings",
-      "ESPN-odds"
+      "ESPN-free-odds",
+      "market-implied-model",
+      "FotMob-projected-XI"
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.6965,
-      "pX": 0.22,
-      "p2": 0.0835,
+      "p1": 0.6925,
+      "pX": 0.227,
+      "p2": 0.0805,
       "ensemble": {
         "weights": {
-          "elo": 0.3600829114552261,
-          "grid": 0.370145765574636,
-          "form": 0.2697713229701379
+          "elo": 0.304792370042958,
+          "grid": 0.3143250723836684,
+          "form": 0.23088255757337364,
+          "market": 0.15
         },
-        "T": 0.664,
-        "drawBias": 0.087,
+        "T": 0.662,
+        "drawBias": 0.0876,
         "elo": [
           0.611,
           0.209,
           0.18
         ],
         "grid": [
-          0.714,
-          0.193,
-          0.093
+          0.68,
+          0.213,
+          0.106
         ],
         "form": [
           0.618,
           0.163,
           0.219
+        ],
+        "market": [
+          0.697,
+          0.196,
+          0.107
         ]
       },
-      "over25": 0.5327,
-      "btts": 0.5591,
+      "over25": 0.4972,
+      "btts": 0.5554,
       "marketCalib": {
-        "bttsShift": 0.0674,
-        "overShift": -0.054,
-        "bttsRaw": 0.4917,
-        "n": 198
+        "bttsShift": 0.0727,
+        "overShift": -0.0492,
+        "bttsRaw": 0.4827,
+        "n": 200
       },
-      "lamHome": 2.25,
+      "lamHome": 2.07,
       "lamAway": 0.71,
       "topScore": [
         2,
         0
       ],
       "doubleChance": {
-        "1X": 0.9071,
-        "12": 0.807,
-        "X2": 0.2859
+        "1X": 0.8937,
+        "12": 0.7865,
+        "X2": 0.3198
       },
       "drawNoBet": {
-        "home": 0.8849,
-        "away": 0.1151
+        "home": 0.8648,
+        "away": 0.1352
       },
       "topScores": [
         {
           "score": "2-0",
-          "p": 0.1246
+          "p": 0.1262
         },
         {
           "score": "1-0",
-          "p": 0.1015
-        },
-        {
-          "score": "2-1",
-          "p": 0.0942
-        },
-        {
-          "score": "3-0",
-          "p": 0.0934
+          "p": 0.1117
         },
         {
           "score": "1-1",
-          "p": 0.0907
+          "p": 0.1002
+        },
+        {
+          "score": "2-1",
+          "p": 0.0959
+        },
+        {
+          "score": "3-0",
+          "p": 0.0871
         }
       ],
       "scenarios": [
         {
           "id": "closed",
           "title": "Match fermé",
-          "p": 0.1856,
+          "p": 0.2124,
           "scores": [
             "1-0",
             "0-0"
@@ -114675,7 +116245,7 @@
         {
           "id": "tight",
           "title": "Match serré",
-          "p": 0.2277,
+          "p": 0.2412,
           "scores": [
             "2-0",
             "1-1"
@@ -114685,7 +116255,7 @@
         {
           "id": "open",
           "title": "Match ouvert / spectacle",
-          "p": 0.5867,
+          "p": 0.5464,
           "scores": [
             "2-1",
             "3-0"
@@ -114695,7 +116265,7 @@
         {
           "id": "blowout",
           "title": "Large écart",
-          "p": 0.3752,
+          "p": 0.3315,
           "scores": [
             "3-0",
             "3-1"
@@ -114706,45 +116276,45 @@
       ],
       "overUnder": {
         "0.5": {
-          "over": 0.9415,
-          "under": 0.0585
+          "over": 0.9309,
+          "under": 0.0691
         },
         "1.5": {
-          "over": 0.8144,
-          "under": 0.1856
+          "over": 0.7876,
+          "under": 0.2124
         },
         "2.5": {
-          "over": 0.5867,
-          "under": 0.4133
+          "over": 0.5464,
+          "under": 0.4536
         },
         "3.5": {
-          "over": 0.3664,
-          "under": 0.6336
+          "over": 0.327,
+          "under": 0.673
         }
       },
-      "totalXg": 2.96,
+      "totalXg": 2.78,
       "bttsConf": {
         "pick": "indécis",
         "score": 0.48,
         "label": "faible"
       },
       "halftime": {
-        "lamHome": 0.54,
+        "lamHome": 0.49,
         "lamAway": 0.36,
         "topScore": [
           0,
           0
         ],
-        "p1": 0.3059,
-        "pX": 0.509,
-        "p2": 0.1851,
+        "p1": 0.2849,
+        "pX": 0.5226,
+        "p2": 0.1925,
         "ou05": {
-          "over": 0.6056,
-          "under": 0.3944
+          "over": 0.5891,
+          "under": 0.4109
         },
         "ou15": {
-          "over": 0.2767,
-          "under": 0.7233
+          "over": 0.2616,
+          "under": 0.7384
         },
         "shareHome": 0.238,
         "shareAway": 0.51,
@@ -114754,81 +116324,88 @@
         "home": {
           "odd": 1.377,
           "implied": 0.726,
-          "edge": -0.03,
+          "edge": -0.034,
           "minEdge": 0.2,
           "is_value": false
         },
         "draw": {
           "odd": 4.9,
           "implied": 0.204,
-          "edge": 0.016,
+          "edge": 0.023,
           "minEdge": 0.2,
           "is_value": false
         },
         "away": {
           "odd": 9.0,
           "implied": 0.111,
-          "edge": -0.028,
+          "edge": -0.031,
           "minEdge": 0.2,
           "is_value": false
         }
       },
       "corners": {
-        "exp_corners": 6.5,
-        "over": 0.4672,
-        "under": 0.5328,
+        "exp_corners": 6.4,
+        "over": 0.4579,
+        "under": 0.5421,
         "line": 6.5,
         "home": 3.3,
         "away": 3.1,
         "lines": {
           "4.5": {
-            "over": 0.7718,
-            "under": 0.2282
+            "over": 0.7651,
+            "under": 0.2349
           },
           "5.5": {
-            "over": 0.6251,
-            "under": 0.3749
+            "over": 0.6165,
+            "under": 0.3835
           },
           "6.5": {
-            "over": 0.4672,
-            "under": 0.5328
+            "over": 0.4579,
+            "under": 0.5421
           },
           "7.5": {
-            "over": 0.3214,
-            "under": 0.6786
+            "over": 0.3129,
+            "under": 0.6871
           },
           "8.5": {
-            "over": 0.2037,
-            "under": 0.7963
+            "over": 0.1968,
+            "under": 0.8032
           }
         },
         "src": "prior générique"
       },
       "cards": {
-        "exp_cards": 4.3,
-        "over": 0.6168,
-        "under": 0.3832,
+        "exp_cards": 3.9,
+        "over": 0.5374,
+        "under": 0.4626,
         "line": 3.5,
-        "home": 2.0,
-        "away": 2.3,
+        "home": 1.8,
+        "away": 2.0,
         "lines": {
           "2.5": {
-            "over": 0.7984,
-            "under": 0.2016
+            "over": 0.7396,
+            "under": 0.2604
           },
           "3.5": {
-            "over": 0.6168,
-            "under": 0.3832
+            "over": 0.5374,
+            "under": 0.4626
           },
           "4.5": {
-            "over": 0.4231,
-            "under": 0.5769
+            "over": 0.3425,
+            "under": 0.6575
           }
         },
-        "redProb": 0.213,
+        "redProb": 0.193,
         "foulsHome": 12.3,
         "foulsAway": 13.4,
-        "src": "prior générique"
+        "src": "FootyStats + arbitre",
+        "refSeverity": {
+          "avg": 3.44,
+          "n": 1,
+          "prior": 3.8,
+          "obsMean": 2.0,
+          "source": "prior + 1 match(s) CDM 2026"
+        }
       },
       "shots": {
         "expShots": 24.8,
@@ -114903,7 +116480,15 @@
         "shotsAvgHome": 11.4,
         "shotsAvgAway": 10.2
       },
-      "referee": null,
+      "referee": {
+        "name": "Raphael Claus",
+        "nation": null,
+        "cardsAvg": null,
+        "source": "ESPN (réel)",
+        "severity": 3.44,
+        "severityN": 1,
+        "severitySrc": "prior + 1 match(s) CDM 2026"
+      },
       "riskPlayers": {
         "home": {
           "real": [],
@@ -114977,25 +116562,247 @@
         }
       },
       "playerProps": {
-        "home": null,
-        "away": null
+        "home": {
+          "scorers": [
+            {
+              "name": "Folarin Balogun",
+              "poste": "FW",
+              "p": 0.5607,
+              "real_goals": 2.0,
+              "why": "déjà 2 but(s) dans le tournoi · volume de tirs élevé (7)"
+            },
+            {
+              "name": "Christian Pulisic",
+              "poste": "FW",
+              "p": 0.3608,
+              "real_goals": 0.0,
+              "why": "volume de tirs élevé (3)"
+            },
+            {
+              "name": "Weston McKennie",
+              "poste": "MF",
+              "p": 0.1798,
+              "real_goals": 0.0,
+              "why": "volume de tirs élevé (5)"
+            },
+            {
+              "name": "Malik Tillman",
+              "poste": "MF",
+              "p": 0.1798,
+              "real_goals": 0.0,
+              "why": "volume de tirs élevé (5)"
+            },
+            {
+              "name": "Tyler Adams",
+              "poste": "MF",
+              "p": 0.1165,
+              "real_goals": 0.0,
+              "why": "présence offensive selon le poste"
+            }
+          ],
+          "assisters": [
+            {
+              "name": "Malik Tillman",
+              "poste": "MF",
+              "p": 0.2588,
+              "real_assists": 1.0,
+              "why": "déjà 1 passe(s) déc."
+            },
+            {
+              "name": "Christian Pulisic",
+              "poste": "FW",
+              "p": 0.2264,
+              "real_assists": 1.0,
+              "why": "déjà 1 passe(s) déc."
+            },
+            {
+              "name": "Tyler Adams",
+              "poste": "MF",
+              "p": 0.1707,
+              "real_assists": 0.0,
+              "why": "création selon le poste"
+            },
+            {
+              "name": "Weston McKennie",
+              "poste": "MF",
+              "p": 0.1707,
+              "real_assists": 0.0,
+              "why": "création selon le poste"
+            }
+          ],
+          "creator": {
+            "name": "Malik Tillman",
+            "poste": "MF",
+            "p": 0.2588,
+            "real_assists": 1.0,
+            "why": "déjà 1 passe(s) déc."
+          },
+          "keeper": {
+            "name": "Matt Freese",
+            "expSotFaced": 2.2,
+            "fromLineup": false,
+            "why": "Subit une pression offensive adverse de ~0.71 xG → environ 2.2 tirs cadrés à gérer."
+          },
+          "benchImpact": [
+            {
+              "name": "Folarin Balogun",
+              "poste": "FW",
+              "goals": 2.0,
+              "assists": 0,
+              "why": "Entré en jeu et décisif : 2 but(s)."
+            },
+            {
+              "name": "Alex Freeman",
+              "poste": "DF",
+              "goals": 1.0,
+              "assists": 1.0,
+              "why": "Entré en jeu et décisif : 1 but(s), 1 passe(s) déc.."
+            },
+            {
+              "name": "Christian Pulisic",
+              "poste": "FW",
+              "goals": 0,
+              "assists": 1.0,
+              "why": "Entré en jeu et décisif : 1 passe(s) déc.."
+            }
+          ],
+          "note": "Probabilités MODÈLE (poste réel + production réelle des matchs joués), pas des certitudes. Se précisent à mesure que les équipes jouent."
+        },
+        "away": {
+          "scorers": [
+            {
+              "name": "Samed Baždar",
+              "poste": "FW",
+              "p": 0.0628,
+              "real_goals": null,
+              "why": "présence offensive selon le poste"
+            },
+            {
+              "name": "Ermedin Demirović",
+              "poste": "FW",
+              "p": 0.0628,
+              "real_goals": null,
+              "why": "présence offensive selon le poste"
+            },
+            {
+              "name": "Edin Džeko",
+              "poste": "FW",
+              "p": 0.0628,
+              "real_goals": null,
+              "why": "présence offensive selon le poste"
+            },
+            {
+              "name": "Kerim Alajbegović",
+              "poste": "FW",
+              "p": 0.0628,
+              "real_goals": null,
+              "why": "présence offensive selon le poste"
+            },
+            {
+              "name": "Esmir Bajraktarević",
+              "poste": "FW",
+              "p": 0.0628,
+              "real_goals": null,
+              "why": "présence offensive selon le poste"
+            }
+          ],
+          "assisters": [
+            {
+              "name": "Benjamin Tahirović",
+              "poste": "MF",
+              "p": 0.0298,
+              "real_assists": null,
+              "why": "création selon le poste"
+            },
+            {
+              "name": "Armin Gigović",
+              "poste": "MF",
+              "p": 0.0298,
+              "real_assists": null,
+              "why": "création selon le poste"
+            },
+            {
+              "name": "Ivan Bašić",
+              "poste": "MF",
+              "p": 0.0298,
+              "real_assists": null,
+              "why": "création selon le poste"
+            },
+            {
+              "name": "Ivan Šunjić",
+              "poste": "MF",
+              "p": 0.0298,
+              "real_assists": null,
+              "why": "création selon le poste"
+            }
+          ],
+          "creator": {
+            "name": "Benjamin Tahirović",
+            "poste": "MF",
+            "p": 0.0298,
+            "real_assists": null,
+            "why": "création selon le poste"
+          },
+          "keeper": {
+            "name": "Nikola Vasilj",
+            "expSotFaced": 6.5,
+            "fromLineup": false,
+            "why": "Subit une pression offensive adverse de ~2.07 xG → environ 6.5 tirs cadrés à gérer."
+          },
+          "benchImpact": [],
+          "note": "Probabilités MODÈLE (poste réel + production réelle des matchs joués), pas des certitudes. Se précisent à mesure que les équipes jouent."
+        }
       },
       "lineupImpact": {
-        "rotationDeltaHome": 0.136,
+        "rotationDeltaHome": 0.2,
         "rotationDeltaAway": 0.2,
         "defensiveDeltaHome": 0.0,
         "defensiveDeltaAway": 0.0,
         "missingKeyPlayers": [],
-        "tacticalMod": 1.04,
+        "tacticalMod": 1.03,
         "benchHome": 0.0,
         "benchAway": 0.0,
         "benchBonusOver25": 0.0
       },
       "formations": {
-        "home": "4-3-3",
+        "home": "3-4-2-1",
         "away": "4-4-2"
       },
       "officialLineups": null,
+      "projectedLineups": {
+        "source": "FotMob predicted lineup",
+        "url": "https://www.fotmob.com/matches/usa-vs-bosnia-and-herzegovina/1w5c9h#4819746",
+        "homeFormation": "3-4-2-1",
+        "awayFormation": "4-4-2",
+        "homeXi": [
+          "Matt Freese (GK)",
+          "Alex Freeman (DF)",
+          "Chris Richards (DF)",
+          "Tim Ream (DF)",
+          "Sergino Dest (DF)",
+          "Tyler Adams (MF)",
+          "Malik Tillman (MF)",
+          "Antonee Robinson (DF)",
+          "Weston McKennie (MF)",
+          "Christian Pulisic (FW)",
+          "Folarin Balogun (FW)"
+        ],
+        "awayXi": [
+          "Nikola Vasilj (GK)",
+          "Amar Dedic (DF)",
+          "Nikola Katic (DF)",
+          "Tarik Muharemovic (DF)",
+          "Sead Kolasinac (DF)",
+          "Esmir Bajraktarevic (MF)",
+          "Benjamin Tahirovic (MF)",
+          "Ivan Basic (MF)",
+          "Kerim Alajbegovic (MF)",
+          "Ermedin Demirovic (FW)",
+          "Edin Dzeko (FW)"
+        ],
+        "homeBench": [],
+        "awayBench": []
+      },
       "mwi": {
         "home": 0.2,
         "away": 0.2,
@@ -115060,9 +116867,9 @@
           "note": "pas de value (EV ≤ 0)"
         },
         "draw": {
-          "kelly": 0.017,
-          "rawKelly": 0.02,
-          "note": "miser ~1.7% de la bankroll (Kelly×confiance, plafonné 5%)"
+          "kelly": 0.0245,
+          "rawKelly": 0.0288,
+          "note": "miser ~2.4% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
           "kelly": 0.0,
@@ -115083,15 +116890,15 @@
       "dixonColes": {
         "rho": -0.1177,
         "gamma": 0.052,
-        "calibratedOn": 198
+        "calibratedOn": 200
       },
       "knockout": {
-        "qualifyHome": 0.8531,
-        "qualifyAway": 0.1469,
+        "qualifyHome": 0.8313,
+        "qualifyAway": 0.1687,
         "reg90": {
-          "p1": 0.7187,
-          "pX": 0.1838,
-          "p2": 0.0974
+          "p1": 0.6853,
+          "pX": 0.2033,
+          "p2": 0.1114
         },
         "shootoutHome": 0.65,
         "note": "90' → prolongations (λ−70%) → tirs au but (Elo+forme)"
@@ -115160,26 +116967,29 @@
     "oddCards_Under": null,
     "oddsProvider": "DraftKings",
     "sources": [
+      "free-mode",
       "openfootball",
       "SQLite",
       "Elo",
       "shrinkage",
       "FIFA-ratings",
-      "ESPN-odds"
+      "ESPN-free-odds",
+      "market-implied-model"
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.7538,
-      "pX": 0.1776,
-      "p2": 0.0686,
+      "p1": 0.7586,
+      "pX": 0.1788,
+      "p2": 0.0626,
       "ensemble": {
         "weights": {
-          "elo": 0.3600829114552261,
-          "grid": 0.370145765574636,
-          "form": 0.2697713229701379
+          "elo": 0.304792370042958,
+          "grid": 0.3143250723836684,
+          "form": 0.23088255757337364,
+          "market": 0.15
         },
-        "T": 0.664,
-        "drawBias": 0.087,
+        "T": 0.662,
+        "drawBias": 0.0876,
         "elo": [
           0.714,
           0.152,
@@ -115194,15 +117004,20 @@
           0.47,
           0.247,
           0.284
+        ],
+        "market": [
+          0.727,
+          0.182,
+          0.091
         ]
       },
-      "over25": 0.602,
-      "btts": 0.4952,
+      "over25": 0.6068,
+      "btts": 0.5005,
       "marketCalib": {
-        "bttsShift": 0.0674,
-        "overShift": -0.054,
+        "bttsShift": 0.0727,
+        "overShift": -0.0492,
         "bttsRaw": 0.4278,
-        "n": 198
+        "n": 200
       },
       "lamHome": 2.76,
       "lamAway": 0.54,
@@ -115334,55 +117149,55 @@
         "home": {
           "odd": 1.312,
           "implied": 0.762,
-          "edge": -0.008,
+          "edge": -0.004,
           "minEdge": 0.2,
           "is_value": false
         },
         "draw": {
           "odd": 5.25,
           "implied": 0.19,
-          "edge": -0.013,
+          "edge": -0.012,
           "minEdge": 0.2,
           "is_value": false
         },
         "away": {
           "odd": 10.5,
           "implied": 0.095,
-          "edge": -0.027,
+          "edge": -0.033,
           "minEdge": 0.2,
           "is_value": false
         }
       },
       "corners": {
-        "exp_corners": 7.2,
-        "over": 0.4248,
-        "under": 0.5752,
+        "exp_corners": 7.1,
+        "over": 0.4151,
+        "under": 0.5849,
         "line": 7.5,
         "home": 4.4,
         "away": 2.7,
         "lines": {
           "5.5": {
-            "over": 0.719,
-            "under": 0.281
+            "over": 0.7109,
+            "under": 0.2891
           },
           "6.5": {
-            "over": 0.5735,
-            "under": 0.4265
+            "over": 0.564,
+            "under": 0.436
           },
           "7.5": {
-            "over": 0.4248,
-            "under": 0.5752
+            "over": 0.4151,
+            "under": 0.5849
           },
           "8.5": {
-            "over": 0.2917,
-            "under": 0.7083
+            "over": 0.283,
+            "under": 0.717
           },
           "9.5": {
-            "over": 0.1858,
-            "under": 0.8142
+            "over": 0.179,
+            "under": 0.821
           }
         },
-        "src": "FootyStats ×0.55 (calibré 80 matchs)"
+        "src": "FootyStats ×0.54 (calibré 82 matchs)"
       },
       "cards": {
         "exp_cards": 3.5,
@@ -115807,6 +117622,7 @@
         "away": "4-4-2"
       },
       "officialLineups": null,
+      "projectedLineups": null,
       "mwi": {
         "home": 0.2,
         "away": 0.2,
@@ -115823,7 +117639,7 @@
         ]
       },
       "upsetIndex": {
-        "index": 45,
+        "index": 44,
         "label": "modéré",
         "dampener": 1.0,
         "favOverperf": true,
@@ -115854,7 +117670,7 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 24.0,
+          "stars": 19.5,
           "shield": 0.85,
           "names": [
             "Marc Pubill",
@@ -115865,14 +117681,14 @@
           ]
         },
         "away": {
-          "stars": 20.5,
+          "stars": 17.0,
           "shield": 0.85,
           "names": [
-            "David Affengruber",
             "Kevin Danso",
             "Stefan Posch",
             "David Alaba",
-            "Philipp Lienhart"
+            "Philipp Lienhart",
+            "Phillipp Mwene"
           ]
         }
       },
@@ -115916,7 +117732,7 @@
       "dixonColes": {
         "rho": -0.1177,
         "gamma": 0.052,
-        "calibratedOn": 198
+        "calibratedOn": 200
       },
       "knockout": {
         "qualifyHome": 0.9273,
@@ -115996,26 +117812,29 @@
     "oddCards_Under": null,
     "oddsProvider": "DraftKings",
     "sources": [
+      "free-mode",
       "openfootball",
       "SQLite",
       "Elo",
       "shrinkage",
       "FIFA-ratings",
-      "ESPN-odds"
+      "ESPN-free-odds",
+      "market-implied-model"
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.5667,
-      "pX": 0.3085,
-      "p2": 0.1248,
+      "p1": 0.5618,
+      "pX": 0.3132,
+      "p2": 0.125,
       "ensemble": {
         "weights": {
-          "elo": 0.3600829114552261,
-          "grid": 0.370145765574636,
-          "form": 0.2697713229701379
+          "elo": 0.304792370042958,
+          "grid": 0.3143250723836684,
+          "form": 0.23088255757337364,
+          "market": 0.15
         },
-        "T": 0.664,
-        "drawBias": 0.087,
+        "T": 0.662,
+        "drawBias": 0.0876,
         "elo": [
           0.509,
           0.259,
@@ -116030,15 +117849,20 @@
           0.542,
           0.208,
           0.25
+        ],
+        "market": [
+          0.533,
+          0.263,
+          0.204
         ]
       },
-      "over25": 0.469,
-      "btts": 0.5668,
+      "over25": 0.4738,
+      "btts": 0.5721,
       "marketCalib": {
-        "bttsShift": 0.0674,
-        "overShift": -0.054,
+        "bttsShift": 0.0727,
+        "overShift": -0.0492,
         "bttsRaw": 0.4994,
-        "n": 198
+        "n": 200
       },
       "lamHome": 1.9,
       "lamAway": 0.78,
@@ -116141,7 +117965,7 @@
       "totalXg": 2.68,
       "bttsConf": {
         "pick": "Oui",
-        "score": 0.49,
+        "score": 0.5,
         "label": "moyenne"
       },
       "halftime": {
@@ -116170,14 +117994,14 @@
         "home": {
           "odd": 1.8,
           "implied": 0.556,
-          "edge": 0.011,
+          "edge": 0.006,
           "minEdge": 0.2,
           "is_value": false
         },
         "draw": {
           "odd": 3.65,
           "implied": 0.274,
-          "edge": 0.035,
+          "edge": 0.039,
           "minEdge": 0.2,
           "is_value": false
         },
@@ -116190,35 +118014,35 @@
         }
       },
       "corners": {
-        "exp_corners": 7.4,
-        "over": 0.4597,
-        "under": 0.5403,
+        "exp_corners": 7.3,
+        "over": 0.4498,
+        "under": 0.5502,
         "line": 7.5,
-        "home": 4.2,
+        "home": 4.1,
         "away": 3.2,
         "lines": {
           "5.5": {
-            "over": 0.7467,
-            "under": 0.2533
+            "over": 0.739,
+            "under": 0.261
           },
           "6.5": {
-            "over": 0.6072,
-            "under": 0.3928
+            "over": 0.5977,
+            "under": 0.4023
           },
           "7.5": {
-            "over": 0.4597,
-            "under": 0.5403
+            "over": 0.4498,
+            "under": 0.5502
           },
           "8.5": {
-            "over": 0.3235,
-            "under": 0.6765
+            "over": 0.3143,
+            "under": 0.6857
           },
           "9.5": {
-            "over": 0.2116,
-            "under": 0.7884
+            "over": 0.2041,
+            "under": 0.7959
           }
         },
-        "src": "FootyStats ×0.55 (calibré 80 matchs)"
+        "src": "FootyStats ×0.54 (calibré 82 matchs)"
       },
       "cards": {
         "exp_cards": 3.6,
@@ -116653,6 +118477,7 @@
         "away": "4-4-2"
       },
       "officialLineups": null,
+      "projectedLineups": null,
       "mwi": {
         "home": 0.2,
         "away": 0.2,
@@ -116701,12 +118526,12 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 19.5,
+          "stars": 18.5,
           "shield": 0.85,
           "names": [
-            "Diogo Costa",
             "Nélson Semedo",
             "Rúben Dias",
+            "Tomás Araújo",
             "Diogo Dalot",
             "Renato Veiga"
           ]
@@ -116737,14 +118562,14 @@
       },
       "kelly": {
         "home": {
-          "kelly": 0.0213,
-          "rawKelly": 0.0251,
-          "note": "miser ~2.1% de la bankroll (Kelly×confiance, plafonné 5%)"
+          "kelly": 0.0119,
+          "rawKelly": 0.014,
+          "note": "miser ~1.2% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
-          "kelly": 0.0404,
-          "rawKelly": 0.0476,
-          "note": "miser ~4.0% de la bankroll (Kelly×confiance, plafonné 5%)"
+          "kelly": 0.0459,
+          "rawKelly": 0.054,
+          "note": "miser ~4.6% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
           "kelly": 0.0,
@@ -116765,7 +118590,7 @@
       "dixonColes": {
         "rho": -0.1177,
         "gamma": 0.052,
-        "calibratedOn": 198
+        "calibratedOn": 200
       },
       "knockout": {
         "qualifyHome": 0.7831,
@@ -116845,26 +118670,29 @@
     "oddCards_Under": null,
     "oddsProvider": "DraftKings",
     "sources": [
+      "free-mode",
       "openfootball",
       "SQLite",
       "Elo",
       "shrinkage",
       "FIFA-ratings",
-      "ESPN-odds"
+      "ESPN-free-odds",
+      "market-implied-model"
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.4667,
-      "pX": 0.3547,
-      "p2": 0.1786,
+      "p1": 0.4633,
+      "pX": 0.3598,
+      "p2": 0.177,
       "ensemble": {
         "weights": {
-          "elo": 0.3600829114552261,
-          "grid": 0.370145765574636,
-          "form": 0.2697713229701379
+          "elo": 0.304792370042958,
+          "grid": 0.3143250723836684,
+          "form": 0.23088255757337364,
+          "market": 0.15
         },
-        "T": 0.664,
-        "drawBias": 0.087,
+        "T": 0.662,
+        "drawBias": 0.0876,
         "elo": [
           0.48,
           0.27,
@@ -116879,15 +118707,20 @@
           0.47,
           0.247,
           0.284
+        ],
+        "market": [
+          0.471,
+          0.288,
+          0.241
         ]
       },
-      "over25": 0.5168,
-      "btts": 0.6657,
+      "over25": 0.5216,
+      "btts": 0.671,
       "marketCalib": {
-        "bttsShift": 0.0674,
-        "overShift": -0.054,
+        "bttsShift": 0.0727,
+        "overShift": -0.0492,
         "bttsRaw": 0.5983,
-        "n": 198
+        "n": 200
       },
       "lamHome": 1.73,
       "lamAway": 1.09,
@@ -116990,7 +118823,7 @@
       "totalXg": 2.82,
       "bttsConf": {
         "pick": "Oui",
-        "score": 0.59,
+        "score": 0.6,
         "label": "moyenne"
       },
       "halftime": {
@@ -117019,55 +118852,55 @@
         "home": {
           "odd": 2.05,
           "implied": 0.488,
-          "edge": -0.021,
+          "edge": -0.025,
           "minEdge": 0.2,
           "is_value": false
         },
         "draw": {
           "odd": 3.35,
           "implied": 0.299,
-          "edge": 0.056,
+          "edge": 0.061,
           "minEdge": 0.2,
           "is_value": false
         },
         "away": {
           "odd": 4.0,
           "implied": 0.25,
-          "edge": -0.071,
+          "edge": -0.073,
           "minEdge": 0.2,
           "is_value": false
         }
       },
       "corners": {
-        "exp_corners": 7.2,
-        "over": 0.4249,
-        "under": 0.5751,
+        "exp_corners": 7.1,
+        "over": 0.4152,
+        "under": 0.5848,
         "line": 7.5,
         "home": 4.2,
-        "away": 3.0,
+        "away": 2.9,
         "lines": {
           "5.5": {
-            "over": 0.7191,
-            "under": 0.2809
+            "over": 0.7111,
+            "under": 0.2889
           },
           "6.5": {
-            "over": 0.5737,
-            "under": 0.4263
+            "over": 0.5641,
+            "under": 0.4359
           },
           "7.5": {
-            "over": 0.4249,
-            "under": 0.5751
+            "over": 0.4152,
+            "under": 0.5848
           },
           "8.5": {
-            "over": 0.2918,
-            "under": 0.7082
+            "over": 0.2832,
+            "under": 0.7168
           },
           "9.5": {
-            "over": 0.186,
-            "under": 0.814
+            "over": 0.1791,
+            "under": 0.8209
           }
         },
-        "src": "FootyStats ×0.55 (calibré 80 matchs)"
+        "src": "FootyStats ×0.54 (calibré 82 matchs)"
       },
       "cards": {
         "exp_cards": 3.5,
@@ -117490,6 +119323,7 @@
         "away": "4-4-2"
       },
       "officialLineups": null,
+      "projectedLineups": null,
       "mwi": {
         "home": 0.2,
         "away": 0.2,
@@ -117538,18 +119372,18 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 13.0,
+          "stars": 11.0,
           "shield": 0.85,
           "names": [
             "Miro Muheim",
             "Silvan Widmer",
             "Nico Elvedi",
             "Ricardo Rodriguez",
-            "Aurèle Amenda"
+            "Luca Jaquez"
           ]
         },
         "away": {
-          "stars": 21.0,
+          "stars": 19.5,
           "shield": 0.85,
           "names": [
             "Aïssa Mandi",
@@ -117579,7 +119413,7 @@
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.0801,
+          "rawKelly": 0.0874,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
@@ -117601,7 +119435,7 @@
       "dixonColes": {
         "rho": -0.1177,
         "gamma": 0.092,
-        "calibratedOn": 198
+        "calibratedOn": 200
       },
       "knockout": {
         "qualifyHome": 0.6671,
@@ -117680,26 +119514,29 @@
     "oddCards_Under": null,
     "oddsProvider": "DraftKings",
     "sources": [
+      "free-mode",
       "openfootball",
       "SQLite",
       "Elo",
       "shrinkage",
       "FIFA-ratings",
-      "ESPN-odds"
+      "ESPN-free-odds",
+      "market-implied-model"
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.2885,
-      "pX": 0.4101,
-      "p2": 0.3014,
+      "p1": 0.3021,
+      "pX": 0.4132,
+      "p2": 0.2847,
       "ensemble": {
         "weights": {
-          "elo": 0.3600829114552261,
-          "grid": 0.370145765574636,
-          "form": 0.2697713229701379
+          "elo": 0.304792370042958,
+          "grid": 0.3143250723836684,
+          "form": 0.23088255757337364,
+          "market": 0.15
         },
-        "T": 0.664,
-        "drawBias": 0.087,
+        "T": 0.662,
+        "drawBias": 0.0876,
         "elo": [
           0.423,
           0.289,
@@ -117714,15 +119551,20 @@
           0.277,
           0.239,
           0.484
+        ],
+        "market": [
+          0.289,
+          0.329,
+          0.382
         ]
       },
-      "over25": 0.3478,
-      "btts": 0.5591,
+      "over25": 0.3526,
+      "btts": 0.5644,
       "marketCalib": {
-        "bttsShift": 0.0674,
-        "overShift": -0.054,
+        "bttsShift": 0.0727,
+        "overShift": -0.0492,
         "bttsRaw": 0.4917,
-        "n": 198
+        "n": 200
       },
       "lamHome": 1.11,
       "lamAway": 1.01,
@@ -117824,9 +119666,9 @@
       },
       "totalXg": 2.12,
       "bttsConf": {
-        "pick": "indécis",
-        "score": 0.48,
-        "label": "faible"
+        "pick": "Oui",
+        "score": 0.49,
+        "label": "moyenne"
       },
       "halftime": {
         "lamHome": 0.81,
@@ -117854,55 +119696,55 @@
         "home": {
           "odd": 3.3,
           "implied": 0.303,
-          "edge": -0.015,
+          "edge": -0.001,
           "minEdge": 0.2,
           "is_value": false
         },
         "draw": {
           "odd": 2.9,
           "implied": 0.345,
-          "edge": 0.065,
+          "edge": 0.068,
           "minEdge": 0.2,
           "is_value": false
         },
         "away": {
           "odd": 2.5,
           "implied": 0.4,
-          "edge": -0.099,
+          "edge": -0.115,
           "minEdge": 0.2,
           "is_value": false
         }
       },
       "corners": {
-        "exp_corners": 6.5,
-        "over": 0.4696,
-        "under": 0.5304,
+        "exp_corners": 6.4,
+        "over": 0.4603,
+        "under": 0.5397,
         "line": 6.5,
-        "home": 3.2,
+        "home": 3.1,
         "away": 3.3,
         "lines": {
           "4.5": {
-            "over": 0.7736,
-            "under": 0.2264
+            "over": 0.7668,
+            "under": 0.2332
           },
           "5.5": {
-            "over": 0.6274,
-            "under": 0.3726
+            "over": 0.6187,
+            "under": 0.3813
           },
           "6.5": {
-            "over": 0.4696,
-            "under": 0.5304
+            "over": 0.4603,
+            "under": 0.5397
           },
           "7.5": {
-            "over": 0.3237,
-            "under": 0.6763
+            "over": 0.3151,
+            "under": 0.6849
           },
           "8.5": {
-            "over": 0.2055,
-            "under": 0.7945
+            "over": 0.1986,
+            "under": 0.8014
           }
         },
-        "src": "FootyStats ×0.55 (calibré 80 matchs)"
+        "src": "FootyStats ×0.54 (calibré 82 matchs)"
       },
       "cards": {
         "exp_cards": 3.6,
@@ -118286,6 +120128,7 @@
         "away": "4-4-2"
       },
       "officialLineups": null,
+      "projectedLineups": null,
       "mwi": {
         "home": 0.2,
         "away": 0.2,
@@ -118302,11 +120145,11 @@
         ]
       },
       "upsetIndex": {
-        "index": 94,
+        "index": 87,
         "label": "élevé",
-        "dampener": 0.911,
+        "dampener": 0.924,
         "favOverperf": true,
-        "dogLowBlock": true
+        "dogLowBlock": false
       },
       "attackQuality": {
         "home": {
@@ -118334,14 +120177,14 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 20.5,
+          "stars": 22.0,
           "shield": 0.85,
           "names": [
             "Miloš Degenek",
             "Alessandro Circati",
             "Jacob Italiano",
             "Jordan Bos",
-            "Aziz Behich"
+            "Kai Trewin"
           ]
         },
         "away": {
@@ -118375,7 +120218,7 @@
         },
         "draw": {
           "kelly": 0.05,
-          "rawKelly": 0.0996,
+          "rawKelly": 0.1044,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
@@ -118397,7 +120240,7 @@
       "dixonColes": {
         "rho": -0.1177,
         "gamma": 0.092,
-        "calibratedOn": 198
+        "calibratedOn": 200
       },
       "knockout": {
         "qualifyHome": 0.5283,
@@ -118477,26 +120320,29 @@
     "oddCards_Under": null,
     "oddsProvider": "DraftKings",
     "sources": [
+      "free-mode",
       "openfootball",
       "SQLite",
       "Elo",
       "shrinkage",
       "FIFA-ratings",
-      "ESPN-odds"
+      "ESPN-free-odds",
+      "market-implied-model"
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.9103,
-      "pX": 0.0827,
-      "p2": 0.0071,
+      "p1": 0.9048,
+      "pX": 0.0872,
+      "p2": 0.008,
       "ensemble": {
         "weights": {
-          "elo": 0.3600829114552261,
-          "grid": 0.370145765574636,
-          "form": 0.2697713229701379
+          "elo": 0.304792370042958,
+          "grid": 0.3143250723836684,
+          "form": 0.23088255757337364,
+          "market": 0.15
         },
-        "T": 0.664,
-        "drawBias": 0.087,
+        "T": 0.662,
+        "drawBias": 0.0876,
         "elo": [
           0.933,
           0.027,
@@ -118511,15 +120357,20 @@
           0.899,
           0.017,
           0.084
+        ],
+        "market": [
+          0.816,
+          0.128,
+          0.056
         ]
       },
-      "over25": 0.845,
-      "btts": 0.3019,
+      "over25": 0.8498,
+      "btts": 0.3072,
       "marketCalib": {
-        "bttsShift": 0.0674,
-        "overShift": -0.054,
+        "bttsShift": 0.0727,
+        "overShift": -0.0492,
         "bttsRaw": 0.2345,
-        "n": 198
+        "n": 200
       },
       "lamHome": 5.14,
       "lamAway": 0.22,
@@ -118622,7 +120473,7 @@
       "totalXg": 5.36,
       "bttsConf": {
         "pick": "Non",
-        "score": 0.7,
+        "score": 0.69,
         "label": "élevée"
       },
       "halftime": {
@@ -118651,55 +120502,55 @@
         "home": {
           "odd": 1.174,
           "implied": 0.852,
-          "edge": 0.059,
+          "edge": 0.053,
           "minEdge": 0.2,
           "is_value": false
         },
         "draw": {
           "odd": 7.5,
           "implied": 0.133,
-          "edge": -0.051,
+          "edge": -0.046,
           "minEdge": 0.2,
           "is_value": false
         },
         "away": {
           "odd": 17.0,
           "implied": 0.059,
-          "edge": -0.052,
+          "edge": -0.051,
           "minEdge": 0.2,
           "is_value": false
         }
       },
       "corners": {
-        "exp_corners": 6.9,
-        "over": 0.5293,
-        "under": 0.4707,
+        "exp_corners": 6.8,
+        "over": 0.5198,
+        "under": 0.4802,
         "line": 6.5,
         "home": 3.9,
-        "away": 3.0,
+        "away": 2.9,
         "lines": {
           "4.5": {
-            "over": 0.8139,
-            "under": 0.1861
+            "over": 0.8078,
+            "under": 0.1922
           },
           "5.5": {
-            "over": 0.6811,
-            "under": 0.3189
+            "over": 0.6727,
+            "under": 0.3273
           },
           "6.5": {
-            "over": 0.5293,
-            "under": 0.4707
+            "over": 0.5198,
+            "under": 0.4802
           },
           "7.5": {
-            "over": 0.3805,
-            "under": 0.6195
+            "over": 0.3712,
+            "under": 0.6288
           },
           "8.5": {
-            "over": 0.2529,
-            "under": 0.7471
+            "over": 0.245,
+            "under": 0.755
           }
         },
-        "src": "FootyStats ×0.55 (calibré 80 matchs)"
+        "src": "FootyStats ×0.54 (calibré 82 matchs)"
       },
       "cards": {
         "exp_cards": 3.7,
@@ -119094,6 +120945,7 @@
         "away": "4-4-2"
       },
       "officialLineups": null,
+      "projectedLineups": null,
       "mwi": {
         "home": 0.2,
         "away": 0.2,
@@ -119110,7 +120962,7 @@
         ]
       },
       "upsetIndex": {
-        "index": 21,
+        "index": 22,
         "label": "faible",
         "dampener": 1.0,
         "favOverperf": true,
@@ -119140,7 +120992,7 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 22.5,
+          "stars": 21.0,
           "shield": 0.85,
           "names": [
             "Nicolás Tagliafico",
@@ -119154,11 +121006,11 @@
           "stars": 22.5,
           "shield": 0.85,
           "names": [
+            "Vozinha",
             "Stopira",
             "Diney",
             "Roberto Lopes",
-            "Logan Costa",
-            "Sidny Lopes Cabral"
+            "Logan Costa"
           ]
         }
       },
@@ -119177,7 +121029,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.3948,
+          "rawKelly": 0.3577,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -119203,7 +121055,7 @@
       "dixonColes": {
         "rho": -0.1177,
         "gamma": 0.052,
-        "calibratedOn": 198
+        "calibratedOn": 200
       },
       "knockout": {
         "qualifyHome": 0.997,
@@ -119280,26 +121132,29 @@
     "oddCards_Under": null,
     "oddsProvider": "DraftKings",
     "sources": [
+      "free-mode",
       "openfootball",
       "SQLite",
       "Elo",
       "shrinkage",
       "FIFA-ratings",
-      "ESPN-odds"
+      "ESPN-free-odds",
+      "market-implied-model"
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.8697,
-      "pX": 0.1091,
-      "p2": 0.0212,
+      "p1": 0.8511,
+      "pX": 0.1225,
+      "p2": 0.0263,
       "ensemble": {
         "weights": {
-          "elo": 0.3600829114552261,
-          "grid": 0.370145765574636,
-          "form": 0.2697713229701379
+          "elo": 0.304792370042958,
+          "grid": 0.3143250723836684,
+          "form": 0.23088255757337364,
+          "market": 0.15
         },
-        "T": 0.664,
-        "drawBias": 0.087,
+        "T": 0.662,
+        "drawBias": 0.0876,
         "elo": [
           0.75,
           0.132,
@@ -119314,15 +121169,20 @@
           0.9,
           0.017,
           0.084
+        ],
+        "market": [
+          0.629,
+          0.234,
+          0.137
         ]
       },
-      "over25": 0.6292,
-      "btts": 0.3894,
+      "over25": 0.634,
+      "btts": 0.3947,
       "marketCalib": {
-        "bttsShift": 0.0674,
-        "overShift": -0.054,
+        "bttsShift": 0.0727,
+        "overShift": -0.0492,
         "bttsRaw": 0.322,
-        "n": 198
+        "n": 200
       },
       "lamHome": 3.1,
       "lamAway": 0.35,
@@ -119425,7 +121285,7 @@
       "totalXg": 3.45,
       "bttsConf": {
         "pick": "Non",
-        "score": 0.54,
+        "score": 0.53,
         "label": "moyenne"
       },
       "halftime": {
@@ -119454,55 +121314,55 @@
         "home": {
           "odd": 1.526,
           "implied": 0.655,
-          "edge": 0.214,
+          "edge": 0.196,
           "minEdge": 0.2,
-          "is_value": true
+          "is_value": false
         },
         "draw": {
           "odd": 4.1,
           "implied": 0.244,
-          "edge": -0.135,
+          "edge": -0.121,
           "minEdge": 0.2,
           "is_value": false
         },
         "away": {
           "odd": 7.0,
           "implied": 0.143,
-          "edge": -0.122,
+          "edge": -0.117,
           "minEdge": 0.2,
           "is_value": false
         }
       },
       "corners": {
-        "exp_corners": 6.8,
-        "over": 0.5186,
-        "under": 0.4814,
+        "exp_corners": 6.7,
+        "over": 0.5091,
+        "under": 0.4909,
         "line": 6.5,
         "home": 3.9,
-        "away": 2.9,
+        "away": 2.8,
         "lines": {
           "4.5": {
-            "over": 0.807,
-            "under": 0.193
+            "over": 0.8007,
+            "under": 0.1993
           },
           "5.5": {
-            "over": 0.6717,
-            "under": 0.3283
+            "over": 0.6632,
+            "under": 0.3368
           },
           "6.5": {
-            "over": 0.5186,
-            "under": 0.4814
+            "over": 0.5091,
+            "under": 0.4909
           },
           "7.5": {
-            "over": 0.37,
-            "under": 0.63
+            "over": 0.3609,
+            "under": 0.6391
           },
           "8.5": {
-            "over": 0.244,
-            "under": 0.756
+            "over": 0.2362,
+            "under": 0.7638
           }
         },
-        "src": "FootyStats ×0.55 (calibré 80 matchs)"
+        "src": "FootyStats ×0.54 (calibré 82 matchs)"
       },
       "cards": {
         "exp_cards": 3.4,
@@ -119907,6 +121767,7 @@
         "away": "4-4-2"
       },
       "officialLineups": null,
+      "projectedLineups": null,
       "mwi": {
         "home": 0.2,
         "away": 0.2,
@@ -119923,7 +121784,7 @@
         ]
       },
       "upsetIndex": {
-        "index": 28,
+        "index": 30,
         "label": "faible",
         "dampener": 1.0,
         "favOverperf": true,
@@ -119931,7 +121792,7 @@
       },
       "attackQuality": {
         "home": {
-          "stars": 13.5,
+          "stars": 14.5,
           "boost": 1.18,
           "names": [
             "Luis Díaz",
@@ -119955,12 +121816,12 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 20.5,
+          "stars": 23.5,
           "shield": 0.85,
           "names": [
             "Daniel Muñoz",
             "Jhon Lucumí",
-            "Santiago Arias",
+            "Camilo Vargas",
             "Yerry Mina",
             "Gustavo Puerta"
           ]
@@ -119992,7 +121853,7 @@
       "kelly": {
         "home": {
           "kelly": 0.05,
-          "rawKelly": 0.622,
+          "rawKelly": 0.568,
           "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
@@ -120018,7 +121879,7 @@
       "dixonColes": {
         "rho": -0.1177,
         "gamma": 0.052,
-        "calibratedOn": 198
+        "calibratedOn": 200
       },
       "knockout": {
         "qualifyHome": 0.9661,
@@ -120097,6 +121958,7 @@
     "oddCards_Under": null,
     "oddsProvider": null,
     "sources": [
+      "free-mode",
       "openfootball",
       "SQLite",
       "Elo",
@@ -120105,17 +121967,18 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.1372,
+      "p1": 0.1371,
       "pX": 0.2779,
-      "p2": 0.5849,
+      "p2": 0.585,
       "ensemble": {
         "weights": {
-          "elo": 0.3600829114552261,
-          "grid": 0.370145765574636,
-          "form": 0.2697713229701379
+          "elo": 0.304792370042958,
+          "grid": 0.3143250723836684,
+          "form": 0.23088255757337364,
+          "market": 0.15
         },
-        "T": 0.664,
-        "drawBias": 0.087,
+        "T": 0.662,
+        "drawBias": 0.0876,
         "elo": [
           0.215,
           0.244,
@@ -120132,13 +121995,13 @@
           0.365
         ]
       },
-      "over25": 0.4992,
-      "btts": 0.5369,
+      "over25": 0.504,
+      "btts": 0.5422,
       "marketCalib": {
-        "bttsShift": 0.0674,
-        "overShift": -0.054,
+        "bttsShift": 0.0727,
+        "overShift": -0.0492,
         "bttsRaw": 0.4695,
-        "n": 198
+        "n": 200
       },
       "lamHome": 0.67,
       "lamAway": 2.14,
@@ -120241,7 +122104,7 @@
       "totalXg": 2.81,
       "bttsConf": {
         "pick": "indécis",
-        "score": 0.46,
+        "score": 0.47,
         "label": "faible"
       },
       "halftime": {
@@ -120272,35 +122135,35 @@
         "away": null
       },
       "corners": {
-        "exp_corners": 7.1,
-        "over": 0.418,
-        "under": 0.582,
+        "exp_corners": 7.0,
+        "over": 0.4083,
+        "under": 0.5917,
         "line": 7.5,
         "home": 3.0,
         "away": 4.1,
         "lines": {
           "5.5": {
-            "over": 0.7134,
-            "under": 0.2866
+            "over": 0.7053,
+            "under": 0.2947
           },
           "6.5": {
-            "over": 0.5668,
-            "under": 0.4332
+            "over": 0.5573,
+            "under": 0.4427
           },
           "7.5": {
-            "over": 0.418,
-            "under": 0.582
+            "over": 0.4083,
+            "under": 0.5917
           },
           "8.5": {
-            "over": 0.2856,
-            "under": 0.7144
+            "over": 0.2771,
+            "under": 0.7229
           },
           "9.5": {
-            "over": 0.181,
-            "under": 0.819
+            "over": 0.1743,
+            "under": 0.8257
           }
         },
-        "src": "FootyStats ×0.55 (calibré 80 matchs)"
+        "src": "FootyStats ×0.54 (calibré 82 matchs)"
       },
       "cards": {
         "exp_cards": 4.1,
@@ -120758,6 +122621,7 @@
         "away": "4-4-2"
       },
       "officialLineups": null,
+      "projectedLineups": null,
       "mwi": {
         "home": 0.2,
         "away": 0.2,
@@ -120806,7 +122670,7 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 23.0,
+          "stars": 24.5,
           "shield": 0.85,
           "names": [
             "Alistair Johnston",
@@ -120817,7 +122681,7 @@
           ]
         },
         "away": {
-          "stars": 16.5,
+          "stars": 18.0,
           "shield": 0.85,
           "names": [
             "Noussair Mazraoui",
@@ -120858,7 +122722,7 @@
       "dixonColes": {
         "rho": -0.1177,
         "gamma": 0.052,
-        "calibratedOn": 198
+        "calibratedOn": 200
       },
       "knockout": {
         "qualifyHome": 0.1508,
@@ -120939,6 +122803,7 @@
     "oddCards_Under": null,
     "oddsProvider": null,
     "sources": [
+      "free-mode",
       "openfootball",
       "SQLite",
       "Elo",
@@ -120947,17 +122812,18 @@
     ],
     "confidence": 1.0,
     "prediction": {
-      "p1": 0.0311,
-      "pX": 0.1108,
-      "p2": 0.8581,
+      "p1": 0.0308,
+      "pX": 0.111,
+      "p2": 0.8582,
       "ensemble": {
         "weights": {
-          "elo": 0.3600829114552261,
-          "grid": 0.370145765574636,
-          "form": 0.2697713229701379
+          "elo": 0.304792370042958,
+          "grid": 0.3143250723836684,
+          "form": 0.23088255757337364,
+          "market": 0.15
         },
-        "T": 0.664,
-        "drawBias": 0.087,
+        "T": 0.662,
+        "drawBias": 0.0876,
         "elo": [
           0.127,
           0.144,
@@ -120974,13 +122840,13 @@
           0.774
         ]
       },
-      "over25": 0.7666,
-      "btts": 0.4327,
+      "over25": 0.7714,
+      "btts": 0.438,
       "marketCalib": {
-        "bttsShift": 0.0674,
-        "overShift": -0.054,
+        "bttsShift": 0.0727,
+        "overShift": -0.0492,
         "bttsRaw": 0.3653,
-        "n": 198
+        "n": 200
       },
       "lamHome": 0.41,
       "lamAway": 4.0,
@@ -121083,7 +122949,7 @@
       "totalXg": 4.41,
       "bttsConf": {
         "pick": "Non",
-        "score": 0.57,
+        "score": 0.56,
         "label": "moyenne"
       },
       "halftime": {
@@ -121114,35 +122980,35 @@
         "away": null
       },
       "corners": {
-        "exp_corners": 6.9,
-        "over": 0.5286,
-        "under": 0.4714,
+        "exp_corners": 6.8,
+        "over": 0.5191,
+        "under": 0.4809,
         "line": 6.5,
         "home": 2.7,
         "away": 4.1,
         "lines": {
           "4.5": {
-            "over": 0.8135,
-            "under": 0.1865
+            "over": 0.8073,
+            "under": 0.1927
           },
           "5.5": {
-            "over": 0.6805,
-            "under": 0.3195
+            "over": 0.6721,
+            "under": 0.3279
           },
           "6.5": {
-            "over": 0.5286,
-            "under": 0.4714
+            "over": 0.5191,
+            "under": 0.4809
           },
           "7.5": {
-            "over": 0.3798,
-            "under": 0.6202
+            "over": 0.3705,
+            "under": 0.6295
           },
           "8.5": {
-            "over": 0.2523,
-            "under": 0.7477
+            "over": 0.2444,
+            "under": 0.7556
           }
         },
-        "src": "FootyStats ×0.55 (calibré 80 matchs)"
+        "src": "FootyStats ×0.54 (calibré 82 matchs)"
       },
       "cards": {
         "exp_cards": 4.0,
@@ -121620,6 +123486,7 @@
         "away": "4-4-2"
       },
       "officialLineups": null,
+      "projectedLineups": null,
       "mwi": {
         "home": 0.2,
         "away": 0.2,
@@ -121668,7 +123535,7 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 21.5,
+          "stars": 18.5,
           "shield": 0.85,
           "names": [
             "Gustavo Velázquez",
@@ -121720,7 +123587,7 @@
       "dixonColes": {
         "rho": -0.1177,
         "gamma": 0.052,
-        "calibratedOn": 198
+        "calibratedOn": 200
       },
       "knockout": {
         "qualifyHome": 0.0179,
@@ -121803,6 +123670,7 @@
     "oddCards_Under": null,
     "oddsProvider": null,
     "sources": [
+      "free-mode",
       "openfootball",
       "SQLite",
       "Elo",
@@ -121811,17 +123679,18 @@
     ],
     "confidence": 0.85,
     "prediction": {
-      "p1": 0.7957,
-      "pX": 0.1514,
-      "p2": 0.0529,
+      "p1": 0.7959,
+      "pX": 0.1515,
+      "p2": 0.0526,
       "ensemble": {
         "weights": {
-          "elo": 0.3600829114552261,
-          "grid": 0.370145765574636,
-          "form": 0.2697713229701379
+          "elo": 0.304792370042958,
+          "grid": 0.3143250723836684,
+          "form": 0.23088255757337364,
+          "market": 0.15
         },
-        "T": 0.664,
-        "drawBias": 0.087,
+        "T": 0.662,
+        "drawBias": 0.0876,
         "elo": [
           0.701,
           0.16,
@@ -121838,13 +123707,13 @@
           0.219
         ]
       },
-      "over25": 0.6894,
-      "btts": 0.5335,
+      "over25": 0.6942,
+      "btts": 0.5388,
       "marketCalib": {
-        "bttsShift": 0.0674,
-        "overShift": -0.054,
+        "bttsShift": 0.0727,
+        "overShift": -0.0492,
         "bttsRaw": 0.4661,
-        "n": 198
+        "n": 200
       },
       "lamHome": 3.21,
       "lamAway": 0.6,
@@ -121978,35 +123847,35 @@
         "away": null
       },
       "corners": {
-        "exp_corners": 6.6,
-        "over": 0.4881,
-        "under": 0.5119,
+        "exp_corners": 6.5,
+        "over": 0.4787,
+        "under": 0.5213,
         "line": 6.5,
-        "home": 3.9,
+        "home": 3.8,
         "away": 2.7,
         "lines": {
           "4.5": {
-            "over": 0.7866,
-            "under": 0.2134
+            "over": 0.78,
+            "under": 0.22
           },
           "5.5": {
-            "over": 0.6444,
-            "under": 0.3556
+            "over": 0.6358,
+            "under": 0.3642
           },
           "6.5": {
-            "over": 0.4881,
-            "under": 0.5119
+            "over": 0.4787,
+            "under": 0.5213
           },
           "7.5": {
-            "over": 0.341,
-            "under": 0.659
+            "over": 0.3321,
+            "under": 0.6679
           },
           "8.5": {
-            "over": 0.2197,
-            "under": 0.7803
+            "over": 0.2124,
+            "under": 0.7876
           }
         },
-        "src": "FootyStats ×0.55 (calibré 80 matchs)"
+        "src": "FootyStats ×0.54 (calibré 82 matchs)"
       },
       "cards": {
         "exp_cards": 3.3,
@@ -122472,6 +124341,7 @@
         "away": "4-4-2"
       },
       "officialLineups": null,
+      "projectedLineups": null,
       "mwi": {
         "home": 0.2,
         "away": 0.2,
@@ -122520,7 +124390,7 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 19.5,
+          "stars": 16.5,
           "shield": 0.85,
           "names": [
             "Gabriel Magalhães",
@@ -122572,7 +124442,7 @@
       "dixonColes": {
         "rho": -0.1177,
         "gamma": 0.052,
-        "calibratedOn": 198
+        "calibratedOn": 200
       },
       "knockout": {
         "qualifyHome": 0.9435,
@@ -122581,6 +124451,642 @@
           "p1": 0.8667,
           "pX": 0.0958,
           "p2": 0.0374
+        },
+        "shootoutHome": 0.65,
+        "note": "90' → prolongations (λ−70%) → tirs au but (Elo+forme)"
+      }
+    }
+  },
+  {
+    "id": 92,
+    "league": "CDM 2026 · Round of 16",
+    "date": "2026-07-05 18:00 UTC-6",
+    "status": "SCHEDULED",
+    "liveScore": null,
+    "liveClock": null,
+    "realScore": null,
+    "htScore": null,
+    "analysis": null,
+    "nlpMomentum": null,
+    "hotTrends": [
+      "Mexico : Moins de 2.5 buts dans 77% de ses 9 derniers matchs"
+    ],
+    "home": "Mexico",
+    "away": "W80",
+    "homeGF": 1.89,
+    "awayGF": 1.35,
+    "homeGA": 0.22,
+    "awayGA": 1.35,
+    "homeXG": 3.95,
+    "awayXG": 0.32,
+    "homeForm": 8,
+    "awayForm": 8,
+    "homeElo": 1917.9,
+    "awayElo": 1620.0,
+    "homeForm5": "WWWWW",
+    "awayForm5": null,
+    "homeFormDetail": {
+      "pts5": 15,
+      "played": 5,
+      "gf_avg": 2.6,
+      "ga_avg": 0.2,
+      "last5": "WWWWW",
+      "form_index": 1.0,
+      "cdmGames": 9,
+      "source": "réelle (5 derniers · 9 de la CDM 2026)"
+    },
+    "awayFormDetail": null,
+    "odd1": null,
+    "oddX": null,
+    "odd2": null,
+    "oddOU_line": null,
+    "oddOver": null,
+    "oddUnder": null,
+    "oddBTTS_Yes": null,
+    "oddBTTS_No": null,
+    "oddCorners_line": null,
+    "oddCorners_Over": null,
+    "oddCorners_Under": null,
+    "oddCards_line": null,
+    "oddCards_Over": null,
+    "oddCards_Under": null,
+    "oddsProvider": null,
+    "sources": [
+      "free-mode",
+      "openfootball",
+      "SQLite",
+      "Elo",
+      "shrinkage",
+      "FIFA-ratings"
+    ],
+    "confidence": 0.75,
+    "prediction": {
+      "p1": 0.8846,
+      "pX": 0.0979,
+      "p2": 0.0176,
+      "ensemble": {
+        "weights": {
+          "elo": 0.304792370042958,
+          "grid": 0.3143250723836684,
+          "form": 0.23088255757337364,
+          "market": 0.15
+        },
+        "T": 0.662,
+        "drawBias": 0.0876,
+        "elo": [
+          0.786,
+          0.111,
+          0.103
+        ],
+        "grid": [
+          0.95,
+          0.043,
+          0.007
+        ],
+        "form": [
+          0.883,
+          0.023,
+          0.094
+        ]
+      },
+      "over25": 0.7549,
+      "btts": 0.3792,
+      "marketCalib": {
+        "bttsShift": 0.0727,
+        "overShift": -0.0492,
+        "bttsRaw": 0.3065,
+        "n": 200
+      },
+      "lamHome": 3.95,
+      "lamAway": 0.32,
+      "topScore": [
+        3,
+        0
+      ],
+      "doubleChance": {
+        "1X": 0.9926,
+        "12": 0.9569,
+        "X2": 0.0503
+      },
+      "drawNoBet": {
+        "home": 0.9924,
+        "away": 0.0076
+      },
+      "topScores": [
+        {
+          "score": "3-0",
+          "p": 0.1393
+        },
+        {
+          "score": "4-0",
+          "p": 0.1376
+        },
+        {
+          "score": "5-0",
+          "p": 0.1087
+        },
+        {
+          "score": "2-0",
+          "p": 0.1058
+        },
+        {
+          "score": "6-0",
+          "p": 0.0715
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "closed",
+          "title": "Match fermé",
+          "p": 0.0695,
+          "scores": [
+            "1-0",
+            "0-0"
+          ],
+          "note": "Peu d'occasions concrétisées · Under 1.5 favorisé"
+        },
+        {
+          "id": "tight",
+          "title": "Match serré",
+          "p": 0.1265,
+          "scores": [
+            "2-0",
+            "1-1"
+          ],
+          "note": "Décidé par un détail · Under 2.5 proche du pile ou face"
+        },
+        {
+          "id": "open",
+          "title": "Match ouvert / spectacle",
+          "p": 0.8041,
+          "scores": [
+            "3-0",
+            "4-0"
+          ],
+          "note": "Over 2.5 favorisé · les deux blocs prennent des risques"
+        },
+        {
+          "id": "blowout",
+          "title": "Large écart",
+          "p": 0.7459,
+          "scores": [
+            "3-0",
+            "4-0"
+          ],
+          "note": "Domination nette d'une équipe (écart ≥ 2 buts) · ANGLE, inclus dans « spectacle »",
+          "angle": true
+        }
+      ],
+      "overUnder": {
+        "0.5": {
+          "over": 0.9844,
+          "under": 0.0156
+        },
+        "1.5": {
+          "over": 0.9305,
+          "under": 0.0695
+        },
+        "2.5": {
+          "over": 0.8041,
+          "under": 0.1959
+        },
+        "3.5": {
+          "over": 0.6251,
+          "under": 0.3749
+        }
+      },
+      "totalXg": 4.27,
+      "bttsConf": {
+        "pick": "Non",
+        "score": 0.5,
+        "label": "moyenne"
+      },
+      "halftime": {
+        "lamHome": 1.55,
+        "lamAway": 0.13,
+        "topScore": [
+          1,
+          0
+        ],
+        "p1": 0.739,
+        "pX": 0.2358,
+        "p2": 0.0252,
+        "ou05": {
+          "over": 0.8196,
+          "under": 0.1804
+        },
+        "ou15": {
+          "over": 0.5318,
+          "under": 0.4682
+        },
+        "shareHome": 0.392,
+        "shareAway": 0.42,
+        "note": "1ère MT estimée via les ratios de buts en 1ère MT propres à chaque équipe (priorisé à ~42% via Bayesian Shrinkage). Domicile: 39%, Extérieur: 42%."
+      },
+      "value": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "corners": {
+        "exp_corners": 6.0,
+        "over": 0.3999,
+        "under": 0.6001,
+        "line": 6.5,
+        "home": 3.8,
+        "away": 2.2,
+        "lines": {
+          "4.5": {
+            "over": 0.7201,
+            "under": 0.2799
+          },
+          "5.5": {
+            "over": 0.5605,
+            "under": 0.4395
+          },
+          "6.5": {
+            "over": 0.3999,
+            "under": 0.6001
+          },
+          "7.5": {
+            "over": 0.2614,
+            "under": 0.7386
+          },
+          "8.5": {
+            "over": 0.1568,
+            "under": 0.8432
+          }
+        },
+        "src": "prior générique"
+      },
+      "cards": {
+        "exp_cards": 4.0,
+        "over": 0.5725,
+        "under": 0.4275,
+        "line": 3.5,
+        "home": 2.0,
+        "away": 2.0,
+        "lines": {
+          "2.5": {
+            "over": 0.7664,
+            "under": 0.2336
+          },
+          "3.5": {
+            "over": 0.5725,
+            "under": 0.4275
+          },
+          "4.5": {
+            "over": 0.3772,
+            "under": 0.6228
+          }
+        },
+        "redProb": 0.202,
+        "foulsHome": 10.4,
+        "foulsAway": 10.0,
+        "src": "prior générique"
+      },
+      "shots": {
+        "expShots": 25.9,
+        "expShotsOn": 8.8,
+        "home": 14.6,
+        "away": 11.3,
+        "homeOn": 4.9,
+        "awayOn": 3.9,
+        "homeAcc": 34,
+        "awayAcc": 34,
+        "line": 25.5,
+        "lineOn": 8.5,
+        "lines": {
+          "21.5": {
+            "over": 0.8031,
+            "under": 0.1969
+          },
+          "23.5": {
+            "over": 0.6705,
+            "under": 0.3295
+          },
+          "25.5": {
+            "over": 0.5165,
+            "under": 0.4835
+          },
+          "27.5": {
+            "over": 0.3638,
+            "under": 0.6362
+          },
+          "29.5": {
+            "over": 0.2332,
+            "under": 0.7668
+          }
+        },
+        "linesOn": {
+          "6.5": {
+            "over": 0.7707,
+            "under": 0.2293
+          },
+          "7.5": {
+            "over": 0.6475,
+            "under": 0.3525
+          },
+          "8.5": {
+            "over": 0.5126,
+            "under": 0.4874
+          },
+          "9.5": {
+            "over": 0.3812,
+            "under": 0.6188
+          },
+          "10.5": {
+            "over": 0.2662,
+            "under": 0.7338
+          }
+        },
+        "real": false,
+        "basis": {
+          "dominance": [
+            1.22,
+            0.82
+          ],
+          "possession": [
+            50,
+            50
+          ],
+          "accuracy": [
+            34,
+            34
+          ]
+        },
+        "shotsAvgHome": 12.2,
+        "shotsAvgAway": 12.0
+      },
+      "referee": null,
+      "riskPlayers": {
+        "home": {
+          "real": [
+            {
+              "name": "César Montes",
+              "pos": "CD-R",
+              "card": "🟥 rouge"
+            },
+            {
+              "name": "Brian Gutiérrez",
+              "pos": "SUB",
+              "card": "🟨 jaune"
+            },
+            {
+              "name": "Edson Álvarez",
+              "pos": "SUB",
+              "card": "🟨 jaune"
+            }
+          ],
+          "profiles": [
+            {
+              "role": "Défenseur central",
+              "why": "exposé aux transitions rapides adverses"
+            },
+            {
+              "role": "Latéral",
+              "why": "face à un ailier dribbleur, multiplie les duels"
+            },
+            {
+              "role": "Milieu défensif",
+              "why": "chargé de couper les contres → fautes tactiques"
+            }
+          ]
+        },
+        "away": {
+          "real": [],
+          "profiles": [
+            {
+              "role": "Défenseur central",
+              "why": "exposé aux transitions rapides adverses"
+            },
+            {
+              "role": "Latéral",
+              "why": "face à un ailier dribbleur, multiplie les duels"
+            },
+            {
+              "role": "Milieu défensif",
+              "why": "chargé de couper les contres → fautes tactiques"
+            }
+          ]
+        }
+      },
+      "playerProps": {
+        "home": {
+          "scorers": [
+            {
+              "name": "Raúl Jiménez",
+              "poste": "FW",
+              "p": 0.5656,
+              "real_goals": 2.0,
+              "why": "déjà 2 but(s) dans le tournoi · volume de tirs élevé (10)"
+            },
+            {
+              "name": "Julián Quiñones",
+              "poste": "FW",
+              "p": 0.5656,
+              "real_goals": 3.0,
+              "why": "déjà 3 but(s) dans le tournoi · volume de tirs élevé (11)"
+            },
+            {
+              "name": "Roberto Alvarado",
+              "poste": "FW",
+              "p": 0.4135,
+              "real_goals": 0.0,
+              "why": "volume de tirs élevé (5)"
+            },
+            {
+              "name": "Luis Romo",
+              "poste": "MF",
+              "p": 0.1963,
+              "real_goals": 1.0,
+              "why": "déjà 1 but(s) dans le tournoi"
+            },
+            {
+              "name": "Gilberto Mora",
+              "poste": "MF",
+              "p": 0.1696,
+              "real_goals": 0.0,
+              "why": "volume de tirs élevé (4)"
+            }
+          ],
+          "assisters": [
+            {
+              "name": "Roberto Alvarado",
+              "poste": "FW",
+              "p": 0.3135,
+              "real_assists": 3.0,
+              "why": "déjà 3 passe(s) déc."
+            },
+            {
+              "name": "Érik Lira",
+              "poste": "MF",
+              "p": 0.2732,
+              "real_assists": 1.0,
+              "why": "déjà 1 passe(s) déc."
+            },
+            {
+              "name": "Luis Romo",
+              "poste": "MF",
+              "p": 0.2732,
+              "real_assists": 1.0,
+              "why": "déjà 1 passe(s) déc."
+            },
+            {
+              "name": "Julián Quiñones",
+              "poste": "FW",
+              "p": 0.2393,
+              "real_assists": 1.0,
+              "why": "déjà 1 passe(s) déc."
+            }
+          ],
+          "creator": {
+            "name": "Roberto Alvarado",
+            "poste": "FW",
+            "p": 0.3135,
+            "real_assists": 3.0,
+            "why": "déjà 3 passe(s) déc."
+          },
+          "keeper": {
+            "name": "Raúl Rangel",
+            "expSotFaced": 1.0,
+            "fromLineup": false,
+            "why": "Subit une pression offensive adverse de ~0.32 xG → environ 1.0 tirs cadrés à gérer."
+          },
+          "benchImpact": [
+            {
+              "name": "Álvaro Fidalgo",
+              "poste": "MF",
+              "goals": 1.0,
+              "assists": 0,
+              "why": "Entré en jeu et décisif : 1 but(s)."
+            },
+            {
+              "name": "Mateo Chávez",
+              "poste": "DF",
+              "goals": 1.0,
+              "assists": 0,
+              "why": "Entré en jeu et décisif : 1 but(s)."
+            }
+          ],
+          "note": "Probabilités MODÈLE (poste réel + production réelle des matchs joués), pas des certitudes. Se précisent à mesure que les équipes jouent."
+        },
+        "away": null
+      },
+      "lineupImpact": {
+        "rotationDeltaHome": 0.136,
+        "rotationDeltaAway": 0.2,
+        "defensiveDeltaHome": 0.0,
+        "defensiveDeltaAway": 0.0,
+        "missingKeyPlayers": [],
+        "tacticalMod": 1.04,
+        "benchHome": 0.0,
+        "benchAway": 0.0,
+        "benchBonusOver25": 0.0
+      },
+      "formations": {
+        "home": "4-3-3",
+        "away": "4-4-2"
+      },
+      "officialLineups": null,
+      "projectedLineups": null,
+      "mwi": {
+        "home": 0.2,
+        "away": 1.0,
+        "stageStake": 1.0,
+        "groupMatchday": null,
+        "statusHome": "qualified",
+        "statusAway": null
+      },
+      "meta": {
+        "confidence": 0.75,
+        "label": "moyenne",
+        "reasons": [
+          "forme estimée (non réelle)"
+        ]
+      },
+      "upsetIndex": {
+        "index": 19,
+        "label": "faible",
+        "dampener": 1.0,
+        "favOverperf": true,
+        "dogLowBlock": false
+      },
+      "attackQuality": {
+        "home": {
+          "stars": 16.0,
+          "boost": 1.18,
+          "names": [
+            "Raúl Jiménez",
+            "Alexis Vega",
+            "Santiago Giménez",
+            "Armando González",
+            "Julián Quiñones"
+          ]
+        },
+        "away": {
+          "stars": 0,
+          "boost": 1.0,
+          "names": []
+        }
+      },
+      "defenseQuality": {
+        "home": {
+          "stars": 20.5,
+          "shield": 0.85,
+          "names": [
+            "Jorge Sánchez",
+            "César Montes",
+            "Edson Álvarez",
+            "Johan Vásquez",
+            "Israel Reyes"
+          ]
+        },
+        "away": {
+          "stars": 0,
+          "shield": 1.0,
+          "names": []
+        }
+      },
+      "availability": {
+        "home": {
+          "factor": 1.0,
+          "missing": [],
+          "applied": false
+        },
+        "away": {
+          "factor": 1.0,
+          "missing": [],
+          "applied": false
+        }
+      },
+      "kelly": {
+        "home": {
+          "kelly": 0.0,
+          "note": "cote absente"
+        },
+        "draw": {
+          "kelly": 0.0,
+          "note": "cote absente"
+        },
+        "away": {
+          "kelly": 0.0,
+          "note": "cote absente"
+        }
+      },
+      "lineMovement": null,
+      "dixonColes": {
+        "rho": -0.1177,
+        "gamma": 0.052,
+        "calibratedOn": 200
+      },
+      "knockout": {
+        "qualifyHome": 0.986,
+        "qualifyAway": 0.014,
+        "reg90": {
+          "p1": 0.9507,
+          "pX": 0.041,
+          "p2": 0.0083
         },
         "shootoutHome": 0.65,
         "note": "90' → prolongations (λ−70%) → tirs au but (Elo+forme)"
