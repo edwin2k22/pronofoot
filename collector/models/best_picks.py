@@ -152,6 +152,25 @@ def tier_of(prob, tiers=TIERS, market=None):
     return None
 
 
+def market_guard(m, market):
+    """Return a market-intelligence warning when a pick should be avoided."""
+    intel = (m.get("prediction") or {}).get("marketIntelligence") or {}
+    checks = intel.get("checks") or []
+    aliases = {
+        "DNB": {"DNB", "1N2"},
+        "1N2": {"1N2"},
+        "OU": {"OU"},
+        "BTTS": {"BTTS"},
+        "CORNERS": {"CORNERS"},
+        "CARTONS": {"CARTONS"},
+    }
+    targets = aliases.get(market, {market})
+    for check in checks:
+        if check.get("market") in targets and check.get("verdict") == "avoid":
+            return check
+    return None
+
+
 def select_for_match(m, tiers=TIERS):
     """Renvoie les meilleurs picks d'un match (triés), avec leur niveau."""
     if m["status"] == "FINISHED":
@@ -159,6 +178,8 @@ def select_for_match(m, tiers=TIERS):
     picks = candidate_picks(m)
     enriched = []
     for pk in picks:
+        if market_guard(m, pk["market"]):
+            continue
         t = tier_of(pk["prob"], tiers, pk["market"])
         if t:
             pk["tier"] = t

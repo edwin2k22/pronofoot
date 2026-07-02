@@ -699,6 +699,261 @@ def _calculate_trends(conn, h_name, a_name):
     
     return trends
 
+
+def _safe_rate(num, den):
+    return round(num / den, 4) if den else None
+
+
+def _pct_int(value):
+    return int(round(value * 100)) if value is not None else None
+
+
+def _team_market_profile(conn, team, limit=8):
+    """Recent real team profile used to sanity-check market picks."""
+    rows = conn.execute("""
+        SELECT home, away, home_goals, away_goals, home_corners, away_corners,
+               home_cards, away_cards
+        FROM matches
+        WHERE (home=? OR away=?) AND status='FINISHED' AND home_goals IS NOT NULL
+        ORDER BY utc_date DESC
+        LIMIT ?
+    """, (team, team, limit)).fetchall()
+    profile = {
+        "team": team, "n": len(rows), "gfAvg": None, "gaAvg": None,
+        "over25Rate": None, "bttsRate": None, "scoredRate": None,
+        "concededRate": None, "cleanRate": None, "cornersAvg": None,
+        "cornersOver85Rate": None, "cardsAvg": None, "cardsOver35Rate": None,
+    }
+    if not rows:
+        return profile
+    gf = ga = over25 = btts = scored = conceded = clean = 0
+    corners_total = corners_over = corners_n = 0
+    cards_total = cards_over = cards_n = 0
+    for r in rows:
+        is_home = r["home"] == team
+        goals_for = r["home_goals"] if is_home else r["away_goals"]
+        goals_against = r["away_goals"] if is_home else r["home_goals"]
+        goals_for = goals_for or 0
+        goals_against = goals_against or 0
+        total_goals = (r["home_goals"] or 0) + (r["away_goals"] or 0)
+        gf += goals_for
+        ga += goals_against
+        over25 += int(total_goals > 2)
+        btts += int((r["home_goals"] or 0) > 0 and (r["away_goals"] or 0) > 0)
+        scored += int(goals_for > 0)
+        conceded += int(goals_against > 0)
+        clean += int(goals_against == 0)
+        if r["home_corners"] is not None and r["away_corners"] is not None:
+            ct = (r["home_corners"] or 0) + (r["away_corners"] or 0)
+            corners_total += ct
+            corners_over += int(ct > 8.5)
+            corners_n += 1
+        if r["home_cards"] is not None and r["away_cards"] is not None:
+            cd = (r["home_cards"] or 0) + (r["away_cards"] or 0)
+            cards_total += cd
+            cards_over += int(cd > 3.5)
+            cards_n += 1
+    n = len(rows)
+    profile.update({
+        "gfAvg": round(gf / n, 2),
+        "gaAvg": round(ga / n, 2),
+        "over25Rate": _safe_rate(over25, n),
+        "bttsRate": _safe_rate(btts, n),
+        "scoredRate": _safe_rate(scored, n),
+        "concededRate": _safe_rate(conceded, n),
+        "cleanRate": _safe_rate(clean, n),
+        "cornersAvg": round(corners_total / corners_n, 2) if corners_n else None,
+        "cornersOver85Rate": _safe_rate(corners_over, corners_n),
+        "cardsAvg": round(cards_total / cards_n, 2) if cards_n else None,
+        "cardsOver35Rate": _safe_rate(cards_over, cards_n),
+    })
+    return profile
+
+
+def _avg_known(*values):
+    nums = [v for v in values if isinstance(v, (int, float))]
+    return sum(nums) / len(nums) if nums else None
+
+
+def _market_check(market, pick, prob, verdict, impact, reason):
+    return {
+        "market": market,
+        "pick": pick,
+        "prob": round(float(prob), 4) if prob is not None else None,
+        "verdict": verdict,
+        "impact": impact,
+        "reason": reason,
+    }
+
+
+def _verdict_from_impact(impact):
+    if impact <= -2:
+        return "avoid"
+    if impact < 0:
+        return "watch"
+    if impact > 0:
+        return "support"
+    return "neutral"
+
+
+def _build_market_intelligence(conn, mt, res, goals, corn, cards, confidence):
+    """Explains whether team history supports or contradicts each market."""
+    home, away = mt["home"], mt["away"]
+    hp = _team_market_profile(conn, home)
+    ap = _team_market_profile(conn, away)
+    checks = []
+
+    # 1N2 sanity check: favorite vs recent attack/defense shape.
+    fav_key, fav_name, fav_prob = max(
+        [("1", home, res.get("p1", 0)), ("X", "Nul", res.get("pX", 0)), ("2", away, res.get("p2", 0))],
+        key=lambda x: x[2],
+    )
+    if fav_key != "X" and max(hp["n"], ap["n"]) >= 3:
+        fav_profile = hp if fav_key == "1" else ap
+        dog_profile = ap if fav_key == "1" else hp
+        impact = 0
+        bits = []
+        if fav_profile["gfAvg"] is not None and dog_profile["gaAvg"] is not None:
+            if fav_profile["gfAvg"] >= 1.8 and dog_profile["gaAvg"] >= 1.4:
+                impact += 1
+                bits.append(f"{fav_name} marque {fav_profile['gfAvg']} buts/m, adversaire encaisse {dog_profile['gaAvg']}")
+            if fav_profile["gfAvg"] <= 1.0 and dog_profile["cleanRate"] is not None and dog_profile["cleanRate"] >= 0.45:
+                impact -= 2
+                bits.append(f"{fav_name} attaque peu ({fav_profile['gfAvg']} buts/m) face a une defense souvent clean")
+        if bits:
+            checks.append(_market_check("1N2", fav_name, fav_prob, _verdict_from_impact(impact), impact, "; ".join(bits)))
+
+    # Over/Under 2.5: compare model side with both teams' recent totals.
+    over_prob = goals.get("over")
+    if over_prob is not None and max(hp["n"], ap["n"]) >= 3:
+        pick_over = over_prob >= 0.5
+        trend = _avg_known(hp["over25Rate"], ap["over25Rate"])
+        impact = 0
+        bits = []
+        if trend is not None:
+            if pick_over and trend >= 0.65:
+                impact += 1; bits.append(f"historique recent Over2.5 moyen {_pct_int(trend)}%")
+            elif pick_over and trend <= 0.40:
+                impact -= 2; bits.append(f"historique recent plutot Under ({_pct_int(1-trend)}% Under2.5)")
+            elif (not pick_over) and trend <= 0.40:
+                impact += 1; bits.append(f"historique recent Under2.5 {_pct_int(1-trend)}%")
+            elif (not pick_over) and trend >= 0.65:
+                impact -= 2; bits.append(f"historique recent trop ouvert ({_pct_int(trend)}% Over2.5)")
+        if pick_over and hp["gaAvg"] is not None and ap["gaAvg"] is not None and hp["gaAvg"] <= 0.8 and ap["gaAvg"] <= 0.8:
+            impact -= 1; bits.append("deux defenses recentes solides")
+        if (not pick_over) and hp["gaAvg"] is not None and ap["gaAvg"] is not None and (hp["gaAvg"] >= 1.8 or ap["gaAvg"] >= 1.8):
+            impact -= 1; bits.append("au moins une defense recente fragile")
+        if bits:
+            checks.append(_market_check("OU", "Over 2.5" if pick_over else "Under 2.5",
+                                        over_prob if pick_over else 1 - over_prob,
+                                        _verdict_from_impact(impact), impact, "; ".join(bits)))
+
+    # BTTS: compare model side with scoring/conceding rates.
+    btts_prob = goals.get("btts")
+    if btts_prob is not None and max(hp["n"], ap["n"]) >= 3:
+        pick_yes = btts_prob >= 0.5
+        trend = _avg_known(hp["bttsRate"], ap["bttsRate"])
+        scored_min = min(v for v in (hp["scoredRate"], ap["scoredRate"]) if v is not None) if hp["scoredRate"] is not None and ap["scoredRate"] is not None else None
+        clean_max = max(v for v in (hp["cleanRate"], ap["cleanRate"]) if v is not None) if hp["cleanRate"] is not None and ap["cleanRate"] is not None else None
+        impact = 0
+        bits = []
+        if trend is not None:
+            if pick_yes and trend >= 0.65:
+                impact += 1; bits.append(f"BTTS recent moyen {_pct_int(trend)}%")
+            elif pick_yes and trend <= 0.45:
+                impact -= 2; bits.append(f"BTTS recent faible ({_pct_int(trend)}%)")
+            elif (not pick_yes) and trend <= 0.40:
+                impact += 1; bits.append(f"BTTS recent faible ({_pct_int(trend)}%)")
+            elif (not pick_yes) and trend >= 0.65:
+                impact -= 2; bits.append(f"BTTS recent eleve ({_pct_int(trend)}%)")
+        if pick_yes and scored_min is not None and scored_min <= 0.45:
+            impact -= 1; bits.append("une equipe marque rarement")
+        if (not pick_yes) and clean_max is not None and clean_max >= 0.55:
+            impact += 1; bits.append("clean sheets frequents d'un cote")
+        if bits:
+            checks.append(_market_check("BTTS", "BTTS Oui" if pick_yes else "BTTS Non",
+                                        btts_prob if pick_yes else 1 - btts_prob,
+                                        _verdict_from_impact(impact), impact, "; ".join(bits)))
+
+    # Corners: compare model line with recent total corners.
+    if corn and corn.get("line") is not None and max(hp["n"], ap["n"]) >= 3:
+        line = float(corn["line"])
+        pick_over = corn.get("over", 0) >= 0.5
+        avg_corners = _avg_known(hp.get("cornersAvg"), ap.get("cornersAvg"))
+        over85 = _avg_known(hp.get("cornersOver85Rate"), ap.get("cornersOver85Rate"))
+        impact = 0
+        bits = []
+        if avg_corners is not None:
+            if pick_over and avg_corners >= line + 1.0:
+                impact += 1; bits.append(f"moyenne corners recente {avg_corners} > ligne {line}")
+            elif pick_over and avg_corners <= line - 1.0:
+                impact -= 2; bits.append(f"moyenne corners recente {avg_corners} sous la ligne {line}")
+            elif (not pick_over) and avg_corners <= line - 0.7:
+                impact += 1; bits.append(f"moyenne corners recente {avg_corners} sous la ligne {line}")
+            elif (not pick_over) and avg_corners >= line + 1.0:
+                impact -= 2; bits.append(f"moyenne corners recente {avg_corners} au-dessus de la ligne {line}")
+        if over85 is not None and over85 >= 0.70 and not pick_over:
+            impact -= 1; bits.append(f"signal historique >8.5 corners {_pct_int(over85)}%")
+        if bits:
+            checks.append(_market_check("CORNERS", f"Corners {'Over' if pick_over else 'Under'} {line}",
+                                        corn.get("over") if pick_over else corn.get("under"),
+                                        _verdict_from_impact(impact), impact, "; ".join(bits)))
+
+    # Cards: compare model line with recent total cards.
+    if cards and cards.get("line") is not None and max(hp["n"], ap["n"]) >= 3:
+        line = float(cards["line"])
+        pick_over = cards.get("over", 0) >= 0.5
+        avg_cards = _avg_known(hp.get("cardsAvg"), ap.get("cardsAvg"))
+        over35 = _avg_known(hp.get("cardsOver35Rate"), ap.get("cardsOver35Rate"))
+        impact = 0
+        bits = []
+        if avg_cards is not None:
+            if pick_over and avg_cards >= line + 0.6:
+                impact += 1; bits.append(f"moyenne cartons recente {avg_cards} > ligne {line}")
+            elif pick_over and avg_cards <= line - 0.6:
+                impact -= 2; bits.append(f"moyenne cartons recente {avg_cards} sous la ligne {line}")
+            elif (not pick_over) and avg_cards <= line - 0.5:
+                impact += 1; bits.append(f"moyenne cartons recente {avg_cards} sous la ligne {line}")
+            elif (not pick_over) and avg_cards >= line + 0.6:
+                impact -= 2; bits.append(f"moyenne cartons recente {avg_cards} au-dessus de la ligne {line}")
+        if over35 is not None and over35 >= 0.70 and not pick_over:
+            impact -= 1; bits.append(f"historique >3.5 cartons {_pct_int(over35)}%")
+        if bits:
+            checks.append(_market_check("CARTONS", f"Cartons {'Over' if pick_over else 'Under'} {line}",
+                                        cards.get("over") if pick_over else cards.get("under"),
+                                        _verdict_from_impact(impact), impact, "; ".join(bits)))
+
+    impact_total = sum(c.get("impact", 0) for c in checks)
+    avoid = [c["market"] for c in checks if c["verdict"] == "avoid"]
+    major_avoid = [m for m in avoid if m in ("1N2", "OU", "BTTS")]
+    if major_avoid or impact_total <= -3:
+        verdict = "no_bet"
+        summary = "Prudence forte: un marche principal est contredit par le bilan recent des equipes."
+    elif avoid or impact_total < 0:
+        verdict = "watch"
+        summary = "Prudence: certains marches secondaires ou signaux terrain contredisent le modele."
+    elif impact_total > 0:
+        verdict = "aligned"
+        summary = "Bilan equipes plutot aligne avec les marches principaux."
+    else:
+        verdict = "neutral"
+        summary = "Bilan equipes neutre ou echantillon encore limite."
+    adj = max(-0.18, min(0.12, impact_total * 0.04))
+    if major_avoid:
+        adj = min(adj, -0.08)
+    elif avoid:
+        adj = min(adj, -0.03)
+    return {
+        "verdict": verdict,
+        "summary": summary,
+        "impact": impact_total,
+        "confidenceAdj": round(adj, 3),
+        "adjustedConfidence": round(max(0.05, min(0.98, confidence + adj)), 3),
+        "noBetMarkets": sorted(set(avoid)),
+        "checks": checks,
+        "profiles": {"home": hp, "away": ap},
+    }
+
 def predict():
     conn = db.init_db()
     rows = conn.execute(
@@ -1120,7 +1375,11 @@ def predict():
         meta = ctx.model_confidence(
             fh, fa, h["matches_played"], a["matches_played"],
             form_real_home=bool(fh), form_real_away=bool(fa))
-        conf = meta["confidence"]
+        base_conf = meta["confidence"]
+        market_intel = _build_market_intelligence(conn, mt, res, goals, corn, cards, base_conf)
+        conf = market_intel["adjustedConfidence"]
+        meta["baseConfidence"] = round(base_conf, 3)
+        meta["marketAdjustedConfidence"] = conf
 
         # ----- INDICE DE SURPRISE (au-delà des maths) -----
         # qui est favori ? signaux : bloc bas de l'outsider, favori en surperformance, rouge, serrement
@@ -1293,6 +1552,7 @@ def predict():
                 "halftime": ht,
                 "value": value,
                 "corners": corn, "cards": cards, "shots": shots,
+                "marketIntelligence": market_intel,
                 "referee": referee, "riskPlayers": risk,
                 "playerProps": player_props,
                 "lineupImpact": lineup_info,

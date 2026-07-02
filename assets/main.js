@@ -333,7 +333,7 @@ function valueCandidates(m){
     {key:"home", label:m.home, data:v.home},
     {key:"draw", label:"Nul", data:v.draw},
     {key:"away", label:m.away, data:v.away},
-  ].filter(x=>x.data && x.data.is_value);
+  ].filter(x=>x.data && x.data.is_value && !marketGuard(m, {market:"1N2"}));
 }
 
 function bestValue(m){
@@ -452,6 +452,21 @@ function allBetCandidates(m){
   ].filter(Boolean);
 }
 
+function marketGuard(m, c){
+  const intel = (predictionOf(m).marketIntelligence || {});
+  const checks = intel.checks || [];
+  const aliases = {
+    DNB: ["DNB", "1N2"],
+    "1N2": ["1N2"],
+    OU: ["OU"],
+    BTTS: ["BTTS"],
+    CORNERS: ["CORNERS"],
+    CARTONS: ["CARTONS"],
+  };
+  const markets = aliases[c?.market] || [c?.market];
+  return checks.find(x=>markets.includes(x.market) && x.verdict==="avoid") || null;
+}
+
 function pickCandidate(m, market){
   const fixed = {
     home: () => oneXtwoCandidates(m)[0],
@@ -466,7 +481,7 @@ function pickCandidate(m, market){
   };
   if(market==="fav1n2") return oneXtwoCandidates(m).sort((a,b)=>b.prob-a.prob)[0];
   if(market==="value") return allBetCandidates(m)
-    .filter(c=>c.odd && Number.isFinite(c.edge))
+    .filter(c=>c.odd && Number.isFinite(c.edge) && !marketGuard(m, c))
     .sort((a,b)=>(b.edge-a.edge) || (b.prob-a.prob))[0] || null;
   return fixed[market] ? fixed[market]() : null;
 }
@@ -486,6 +501,7 @@ function candidateWon(m, c){
 
 function passesBetFilters(m, c, cfg){
   if(!c) return false;
+  if(marketGuard(m, c)) return false;
   if(c.prob < Number(cfg.minProb || 0)) return false;
   if(Number(cfg.minConf || 0) > 0 && modelConfidence(m) < Number(cfg.minConf)) return false;
   if(cfg.requireOdds && !c.odd) return false;
@@ -1892,6 +1908,7 @@ function renderUpcoming(m, mode){
     ${exactScoresStrip(p)}
     ${scoreUncertaintyBlock(p)}
     ${coherenceHint(m,p)}
+    ${marketIntelligenceBlock(m,p)}
     ${missingKeyPlayersBlock(m)}
     ${projectedLineupsBlock(m,p)}
     ${h2hBlock(m)}
@@ -1939,6 +1956,44 @@ function formRow(m){
 
 
 
+
+function marketIntelligenceBlock(m,p){
+  const intel = p.marketIntelligence;
+  if(!intel) return "";
+  const tone = intel.verdict==="no_bet" ? "#ff6b7d"
+    : intel.verdict==="watch" ? "#ffd34e"
+    : intel.verdict==="aligned" ? "#33e0a0"
+    : "var(--muted)";
+  const label = {
+    no_bet: "No bet / prudence forte",
+    watch: "Prudence",
+    aligned: "Aligne",
+    neutral: "Neutre",
+  }[intel.verdict] || intel.verdict;
+  const checks = (intel.checks || []).map(c=>{
+    const cTone = c.verdict==="avoid" ? "#ff6b7d" : c.verdict==="watch" ? "#ffd34e" : c.verdict==="support" ? "#33e0a0" : "var(--muted)";
+    const icon = c.verdict==="avoid" ? "STOP" : c.verdict==="watch" ? "!" : c.verdict==="support" ? "OK" : "--";
+    return `<div class="vs-row">
+      <span class="vs-mk">${esc(c.market)}</span>
+      <span class="vs-prono">${esc(c.pick)} ${c.prob!=null?`(${pct(c.prob)})`:""}</span>
+      <span class="vs-arrow">${icon}</span>
+      <span class="vs-reel">${esc(c.reason || "")}</span>
+      <span class="vs-ok" style="color:${cTone}">${c.impact>0?"+":""}${c.impact}</span>
+    </div>`;
+  }).join("");
+  const prof = intel.profiles || {};
+  const line = (side, name)=> {
+    const x = prof[side] || {};
+    if(!x.n) return `<div class="stat"><span>${esc(name)}</span><span>historique limite</span></div>`;
+    return `<div class="stat"><span>${esc(name)}</span><span>${x.n}m · ${x.gfAvg} BP/${x.gaAvg} BC · O2.5 ${pct(x.over25Rate)} · BTTS ${pct(x.bttsRate)}${x.cornersAvg!=null?` · corners ${x.cornersAvg}`:""}</span></div>`;
+  };
+  return `<div class="coh-note" style="border-color:${tone}; margin-top:12px;">
+    <b>Bilan marches : ${label}</b>
+    <div style="margin-top:4px">${esc(intel.summary || "")} Confiance ajustee : <b>${pct(intel.adjustedConfidence)}</b>${intel.confidenceAdj?` (${intel.confidenceAdj>0?"+":""}${Math.round(intel.confidenceAdj*100)} pts)`:""}.</div>
+    <div style="margin-top:8px">${line("home", m.home)}${line("away", m.away)}</div>
+    ${checks?`<div style="margin-top:8px">${checks}</div>`:""}
+  </div>`;
+}
 
 function probBlock(m,p){
   const accordion = (title, content, delay, icon, open=false) => {
