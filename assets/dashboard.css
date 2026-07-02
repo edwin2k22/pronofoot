@@ -327,6 +327,20 @@
   .coh-note{font-size:11.5px;color:var(--muted);line-height:1.5;background:rgba(255,211,78,.07);
     border:1px solid rgba(255,211,78,.28);border-radius:10px;padding:9px 11px;margin:6px 0 12px}
   .coh-note b{color:#ffd34e}
+  .market-summary{margin-top:4px}
+  .market-profiles{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:9px}
+  .market-profile{display:flex;flex-wrap:wrap;gap:5px 7px;align-items:center;border-top:1px dashed var(--line);padding-top:7px}
+  .market-profile b{width:100%;color:var(--txt)}
+  .market-profile span{font-size:10.5px;color:var(--muted);background:rgba(255,255,255,.04);
+    border:1px solid var(--line);border-radius:6px;padding:2px 6px}
+  .market-checks{display:flex;flex-direction:column;gap:8px;margin-top:9px}
+  .market-check{border-top:1px solid var(--line);padding-top:8px}
+  .market-check-top{display:grid;grid-template-columns:minmax(98px,.9fr) minmax(130px,1.2fr) auto;gap:8px;align-items:center}
+  .market-name{color:var(--muted);font-weight:700}
+  .market-pick{color:#9ec1ff;font-weight:800}
+  .market-signal{justify-self:end;border:1px solid currentColor;border-radius:999px;padding:2px 8px;font-size:10px;font-weight:900;white-space:nowrap}
+  .market-reason{margin-top:5px;color:#e7eeff;font-weight:650}
+  .market-impact{font-size:10.5px;font-weight:800;margin-top:2px}
   .lineup-proj{border-left:4px solid var(--acc2)}
   .lineup-status{font-size:12px;color:var(--muted);margin-bottom:9px}
   .lineup-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
@@ -375,7 +389,10 @@
   .pp-note{font-size:11.5px;color:var(--muted);background:var(--card);border:1px dashed var(--line);
     border-radius:9px;padding:8px 10px;margin-bottom:10px;line-height:1.5}
   .pp-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-  @media(max-width:600px){.pp-grid,.lineup-grid{grid-template-columns:1fr}}
+  @media(max-width:600px){
+    .pp-grid,.lineup-grid,.market-profiles,.market-check-top{grid-template-columns:1fr}
+    .market-signal{justify-self:start}
+  }
   .pp-team{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:10px 11px}
   .pp-team-h{font-weight:700;font-size:13.5px;color:#cfe0ff;margin-bottom:7px;border-bottom:1px solid var(--line);padding-bottom:5px}
   .pp-sub{font-size:11px;color:#c9a8ff;font-weight:700;margin:4px 0 5px}

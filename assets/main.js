@@ -1957,6 +1957,99 @@ function formRow(m){
 
 
 
+function marketNameLabel(market){
+  return {
+    "1N2": "Résultat du match",
+    OU: "Total buts",
+    BTTS: "Les deux équipes marquent",
+    CORNERS: "Corners",
+    CARTONS: "Cartons",
+  }[market] || market;
+}
+
+function humanPickLabel(pick){
+  if(!pick) return "";
+  return String(pick)
+    .replace(/^Over ([0-9.]+)$/i, "Plus de $1 buts")
+    .replace(/^Under ([0-9.]+)$/i, "Moins de $1 buts")
+    .replace(/^BTTS Oui$/i, "Oui, les deux équipes marquent")
+    .replace(/^BTTS Non$/i, "Non, les deux équipes ne marquent pas toutes les deux")
+    .replace(/^Corners Over ([0-9.]+)$/i, "Plus de $1 corners")
+    .replace(/^Corners Under ([0-9.]+)$/i, "Moins de $1 corners")
+    .replace(/^Cartons Over ([0-9.]+)$/i, "Plus de $1 cartons")
+    .replace(/^Cartons Under ([0-9.]+)$/i, "Moins de $1 cartons");
+}
+
+function humanMarketReason(reason){
+  const text = String(reason || "").trim();
+  if(!text) return "Pas assez de signal récent pour expliquer ce marché.";
+  const parts = text.split(/\s*;\s*/).map(x=>x.trim()).filter(Boolean);
+  const mapped = parts.map(part=>{
+    let m = part.match(/^moyenne cartons recente ([0-9.]+) sous la ligne ([0-9.]+)/i);
+    if(m) return `Les derniers matchs donnent en moyenne ${m[1]} cartons, donc sous la ligne ${m[2]}.`;
+    m = part.match(/^moyenne cartons recente ([0-9.]+) au-dessus de la ligne ([0-9.]+)/i);
+    if(m) return `Les derniers matchs donnent en moyenne ${m[1]} cartons, donc au-dessus de la ligne ${m[2]}.`;
+    m = part.match(/^moyenne corners recente ([0-9.]+) sous la ligne ([0-9.]+)/i);
+    if(m) return `Les derniers matchs donnent en moyenne ${m[1]} corners, donc sous la ligne ${m[2]}.`;
+    m = part.match(/^moyenne corners recente ([0-9.]+) > ligne ([0-9.]+)/i);
+    if(m) return `Les derniers matchs donnent en moyenne ${m[1]} corners, donc au-dessus de la ligne ${m[2]}.`;
+    m = part.match(/^moyenne corners recente ([0-9.]+) au-dessus de la ligne ([0-9.]+)/i);
+    if(m) return `Les derniers matchs donnent en moyenne ${m[1]} corners, donc au-dessus de la ligne ${m[2]}.`;
+    m = part.match(/^BTTS recent faible \(([0-9]+)%\)/i);
+    if(m) return `Le pari "les deux équipes marquent" sort seulement à ${m[1]}% récemment.`;
+    m = part.match(/^BTTS recent eleve \(([0-9]+)%\)/i);
+    if(m) return `Le pari "les deux équipes marquent" sort souvent récemment (${m[1]}%).`;
+    m = part.match(/^BTTS recent moyen ([0-9]+)%/i);
+    if(m) return `Le pari "les deux équipes marquent" est fréquent récemment (${m[1]}%).`;
+    m = part.match(/^historique recent Over2\.5 moyen ([0-9]+)%/i);
+    if(m) return `Les matchs récents dépassent 2.5 buts dans ${m[1]}% des cas.`;
+    m = part.match(/^historique recent plutot Under \(([0-9]+)% Under2\.5\)/i);
+    if(m) return `Les matchs récents restent sous 2.5 buts dans ${m[1]}% des cas.`;
+    m = part.match(/^historique recent Under2\.5 ([0-9]+)%/i);
+    if(m) return `Les matchs récents restent sous 2.5 buts dans ${m[1]}% des cas.`;
+    m = part.match(/^historique recent trop ouvert \(([0-9]+)% Over2\.5\)/i);
+    if(m) return `Les matchs récents sont très ouverts: plus de 2.5 buts dans ${m[1]}% des cas.`;
+    m = part.match(/^signal historique >8\.5 corners ([0-9]+)%/i);
+    if(m) return `Le seuil de 8.5 corners est souvent dépassé récemment (${m[1]}%).`;
+    m = part.match(/^historique >3\.5 cartons ([0-9]+)%/i);
+    if(m) return `Le seuil de 3.5 cartons est souvent dépassé récemment (${m[1]}%).`;
+    if(part === "deux defenses recentes solides") return "Les deux défenses encaissent peu récemment.";
+    if(part === "au moins une defense recente fragile") return "Au moins une défense encaisse beaucoup récemment.";
+    if(part === "une equipe marque rarement") return "Une des deux équipes marque rarement récemment.";
+    if(part === "clean sheets frequents d'un cote") return "Une des deux équipes garde souvent sa cage inviolée.";
+    return part
+      .replaceAll("recent", "récent")
+      .replaceAll("defense", "défense")
+      .replaceAll("equipe", "équipe")
+      .replaceAll("eleve", "élevé")
+      .replaceAll("plutot", "plutôt");
+  });
+  return mapped.join(" ");
+}
+
+function humanIntelSummary(summary){
+  return String(summary || "")
+    .replace("Prudence forte: un marche principal est contredit par le bilan recent des equipes.", "Prudence forte: un marché principal est contredit par le bilan récent des équipes.")
+    .replace("Prudence: certains marches secondaires ou signaux terrain contredisent le modele.", "Prudence: certains marchés secondaires ou signaux terrain contredisent le modèle.")
+    .replace("Bilan equipes plutot aligne avec les marches principaux.", "Bilan équipes plutôt aligné avec les marchés principaux.")
+    .replace("Bilan equipes neutre ou echantillon encore limite.", "Bilan équipes neutre ou échantillon encore limité.");
+}
+
+function marketSignalLabel(verdict, impact){
+  if(verdict==="avoid") return "À éviter";
+  if(verdict==="watch") return "Prudence";
+  if(verdict==="support") return impact >= 2 ? "Très cohérent" : "Cohérent";
+  return "Neutre";
+}
+
+function impactText(impact){
+  if(impact >= 2) return "Signal positif fort";
+  if(impact === 1) return "Petit signal positif";
+  if(impact === 0) return "Signal neutre";
+  if(impact === -1) return "Petit signal de prudence";
+  return "Contradiction forte";
+}
+
 function marketIntelligenceBlock(m,p){
   const intel = p.marketIntelligence;
   if(!intel) return "";
@@ -1967,31 +2060,40 @@ function marketIntelligenceBlock(m,p){
   const label = {
     no_bet: "No bet / prudence forte",
     watch: "Prudence",
-    aligned: "Aligne",
+    aligned: "Aligné",
     neutral: "Neutre",
   }[intel.verdict] || intel.verdict;
   const checks = (intel.checks || []).map(c=>{
     const cTone = c.verdict==="avoid" ? "#ff6b7d" : c.verdict==="watch" ? "#ffd34e" : c.verdict==="support" ? "#33e0a0" : "var(--muted)";
-    const icon = c.verdict==="avoid" ? "STOP" : c.verdict==="watch" ? "!" : c.verdict==="support" ? "OK" : "--";
-    return `<div class="vs-row">
-      <span class="vs-mk">${esc(c.market)}</span>
-      <span class="vs-prono">${esc(c.pick)} ${c.prob!=null?`(${pct(c.prob)})`:""}</span>
-      <span class="vs-arrow">${icon}</span>
-      <span class="vs-reel">${esc(c.reason || "")}</span>
-      <span class="vs-ok" style="color:${cTone}">${c.impact>0?"+":""}${c.impact}</span>
+    return `<div class="market-check">
+      <div class="market-check-top">
+        <span class="market-name">${esc(marketNameLabel(c.market))}</span>
+        <span class="market-pick">${esc(humanPickLabel(c.pick))}${c.prob!=null?` · ${pct(c.prob)}`:""}</span>
+        <span class="market-signal" style="color:${cTone};border-color:${cTone}">${esc(marketSignalLabel(c.verdict, c.impact))}</span>
+      </div>
+      <div class="market-reason">${esc(humanMarketReason(c.reason))}</div>
+      <div class="market-impact" style="color:${cTone}">${esc(impactText(c.impact))}</div>
     </div>`;
   }).join("");
   const prof = intel.profiles || {};
   const line = (side, name)=> {
     const x = prof[side] || {};
-    if(!x.n) return `<div class="stat"><span>${esc(name)}</span><span>historique limite</span></div>`;
-    return `<div class="stat"><span>${esc(name)}</span><span>${x.n}m · ${x.gfAvg} BP/${x.gaAvg} BC · O2.5 ${pct(x.over25Rate)} · BTTS ${pct(x.bttsRate)}${x.cornersAvg!=null?` · corners ${x.cornersAvg}`:""}</span></div>`;
+    if(!x.n) return `<div class="market-profile"><b>${esc(name)}</b><span>Historique récent limité</span></div>`;
+    return `<div class="market-profile">
+      <b>${esc(name)}</b>
+      <span>${x.n} matchs récents</span>
+      <span>Marque ${x.gfAvg} but/match</span>
+      <span>Encaisse ${x.gaAvg} but/match</span>
+      <span>+2.5 buts: ${pct(x.over25Rate)}</span>
+      <span>Les deux marquent: ${pct(x.bttsRate)}</span>
+      ${x.cornersAvg!=null?`<span>Corners: ${x.cornersAvg}/match</span>`:""}
+    </div>`;
   };
   return `<div class="coh-note" style="border-color:${tone}; margin-top:12px;">
-    <b>Bilan marches : ${label}</b>
-    <div style="margin-top:4px">${esc(intel.summary || "")} Confiance ajustee : <b>${pct(intel.adjustedConfidence)}</b>${intel.confidenceAdj?` (${intel.confidenceAdj>0?"+":""}${Math.round(intel.confidenceAdj*100)} pts)`:""}.</div>
-    <div style="margin-top:8px">${line("home", m.home)}${line("away", m.away)}</div>
-    ${checks?`<div style="margin-top:8px">${checks}</div>`:""}
+    <b>Bilan des marchés : ${label}</b>
+    <div class="market-summary">${esc(humanIntelSummary(intel.summary))} Confiance du modèle : <b>${pct(intel.adjustedConfidence)}</b>${intel.confidenceAdj?` (${intel.confidenceAdj>0?"+":""}${Math.round(intel.confidenceAdj*100)} pts après contrôle des marchés)`:""}.</div>
+    <div class="market-profiles">${line("home", m.home)}${line("away", m.away)}</div>
+    ${checks?`<div class="market-checks">${checks}</div>`:""}
   </div>`;
 }
 
