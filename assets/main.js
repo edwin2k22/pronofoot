@@ -1766,6 +1766,8 @@ function renderLive(m){
       <div class="sc live-c">${(m.liveScore||"–").replace("-"," – ")}<small>${realMin?realMin+" ("+src+")":"en direct"}</small></div>
       <div class="tn">${m.away}</div>
     </div>
+    ${exactScoresStrip(p)}
+    ${scoreUncertaintyBlock(p)}
     ${probBlock(m,p)}
     ${nlpMomentumBlock(m)}
     <div class="verdict anim-block anim-5">Pronostic d'avant-match (repère). Élo ${m.homeElo} vs ${m.awayElo}.</div>

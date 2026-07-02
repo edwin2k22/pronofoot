@@ -1,5 +1,17 @@
 [
   {
+    "t": "23:06",
+    "match": "USA–Bosnia & Herzegovina",
+    "type": "status",
+    "text": "USA–Bosnia & Herzegovina : 🏁 match terminé"
+  },
+  {
+    "t": "22:48",
+    "match": "USA–Bosnia & Herzegovina",
+    "type": "score",
+    "text": "⚽ USA–Bosnia & Herzegovina : score 2-0"
+  },
+  {
     "t": "21:46",
     "match": "USA–Bosnia & Herzegovina",
     "type": "score",
@@ -346,17 +358,5 @@
     "match": "England–DR Congo",
     "type": "score",
     "text": "⚽ England–DR Congo : score 1-1"
-  },
-  {
-    "t": "13:07",
-    "match": "England–DR Congo",
-    "type": "score",
-    "text": "⚽ England–DR Congo : score 0-1"
-  },
-  {
-    "t": "13:01",
-    "match": "England–DR Congo",
-    "type": "score",
-    "text": "⚽ England–DR Congo : score 0-0"
   }
 ]

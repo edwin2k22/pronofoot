@@ -39,6 +39,9 @@ last_stats_pull = 0
 def do_live_cycle():
     """Un cycle live : score+minute ESPN temps réel, met à jour Elo si match fini, predict."""
     global last_stats_pull
+    import datetime
+    from collector import realtime
+    before = realtime._snapshot()
     try:
         from collector import espn_live
         espn_live.poll_once(verbose=False)   # SOURCE PRINCIPALE : ESPN (score + minute live)
@@ -51,6 +54,12 @@ def do_live_cycle():
     pipeline.ingest(); pipeline.update()
     pipeline.predict()
     player_ingest.export_for_web()
+    after = realtime._snapshot()
+    feed = realtime._load_feed()
+    ts = datetime.datetime.now().strftime("%H:%M")
+    n = realtime._diff_and_log(before, after, feed, ts)
+    if n:
+        realtime._save_feed(feed)
     
     # Auto-pull detailed stats every 10 min if a finished match is missing them
     if time.time() - last_stats_pull > 600:

@@ -1,38 +1,39 @@
 {
   "weights": {
-    "elo": 0.304792370042958,
-    "grid": 0.3143250723836684,
-    "form": 0.23088255757337364,
-    "market": 0.15
+    "elo": 0.27660510825109247,
+    "grid": 0.28557357390823157,
+    "form": 0.20931067954280363,
+    "market": 0.22851063829787235
   },
   "meta": {
-    "n": 81,
+    "n": 82,
     "logloss": {
-      "elo": 0.8927,
-      "grid": 0.8656,
-      "form": 1.147
+      "elo": 0.8878,
+      "grid": 0.8598,
+      "form": 1.1389,
+      "market": 0.361
     },
     "samples": {
-      "elo": 81,
-      "grid": 81,
-      "form": 81,
-      "market": 0
+      "elo": 82,
+      "grid": 82,
+      "form": 82,
+      "market": 1
     },
     "learnedRaw": {
-      "elo": 0.303,
-      "grid": 0.312,
-      "form": 0.235,
-      "market": 0.15
+      "elo": 0.27,
+      "grid": 0.279,
+      "form": 0.211,
+      "market": 0.24
     },
     "marketWeightCap": 0.24,
     "T": 0.662,
-    "drawBias": 0.0876,
+    "drawBias": 0.0879,
     "tempMeta": {
-      "n": 81,
+      "n": 82,
       "bestRaw": 0.6,
-      "drawBias": 0.0876,
+      "drawBias": 0.0879,
       "drawBiasRaw": 0.12,
-      "logloss": 0.8244
+      "logloss": 0.8189
     }
   }
 }

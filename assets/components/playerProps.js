@@ -66,6 +66,7 @@ export function scorersVsBlock(m){
 
 export function playerPropsBlock(m,p){
   const pp=p.playerProps; if(!pp) return "";
+  if (!pp.home && !pp.away && (!pp.scorers || pp.scorers.length === 0)) return "";
   return `<div class="module mod-players"><h3>👤 Pronos joueurs <span class="mod-hint">probabilités, pas des certitudes</span></h3>
     <div class="pp-note">Probabilités <b>modèle</b> : effectif réel (poste) + production réelle des matchs joués.
     Se précisent à mesure que les équipes jouent. Aucun chiffre inventé.</div>

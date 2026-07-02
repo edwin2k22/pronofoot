@@ -1,11 +1,11 @@
 {
-  "sampleWithOdds": 66,
+  "sampleWithOdds": 67,
   "favorite": {
-    "bets": 66,
-    "wins": 42,
+    "bets": 67,
+    "wins": 43,
     "winRate": 64,
-    "pnl": 2.37,
-    "yield": 3.6
+    "pnl": 2.74,
+    "yield": 4.1
   },
   "value": {
     "bets": 14,

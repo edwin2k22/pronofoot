@@ -48258,7 +48258,20 @@
     "note": null
    }
   ],
-  "cards": [],
+  "cards": [
+   {
+    "minute": 64,
+    "team": "United States",
+    "player": "Folarin Balogun",
+    "type": "Red"
+   },
+   {
+    "minute": 80,
+    "team": "Bosnia & Herzegovina",
+    "player": "Stjepan Radeljic",
+    "type": "Yellow"
+   }
+  ],
   "commentary": [
    {
     "minute": 0,
@@ -48477,7 +48490,7 @@
    },
    {
     "minute": 45,
-    "text": "Delay in match (USA).",
+    "text": "Delay in match because of an injury Kerim Alajbegovic (Bosnia and Herzegovina).",
     "type": "Start Delay"
    },
    {
@@ -48489,6 +48502,291 @@
     "minute": 45,
     "text": "First Half ends, USA 1, Bosnia and Herzegovina 0.",
     "type": ""
+   },
+   {
+    "minute": 45,
+    "text": "Second Half begins USA 1, Bosnia and Herzegovina 0.",
+    "type": ""
+   },
+   {
+    "minute": 47,
+    "text": "Foul by Nikola Katic (Bosnia and Herzegovina).",
+    "type": "Foul"
+   },
+   {
+    "minute": 47,
+    "text": "Christian Pulisic (USA) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 48,
+    "text": "Corner, USA. Conceded by Sead Kolasinac.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 51,
+    "text": "Substitution, Bosnia and Herzegovina. Esmir Bajraktarevic replaces Armin Gigovic.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 51,
+    "text": "Substitution, Bosnia and Herzegovina. Benjamin Tahirovic replaces Ivan Sunjic.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 51,
+    "text": "Substitution, Bosnia and Herzegovina. Ermin Mahmic replaces Edin Dzeko because of an injury.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 56,
+    "text": "Attempt missed. Nikola Katic (Bosnia and Herzegovina) right footed shot from outside the box misses to the right. Assisted by Esmir Bajraktarevic.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 61,
+    "text": "Tarik Muharemovic (Bosnia and Herzegovina) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 61,
+    "text": "Foul by Folarin Balogun (USA).",
+    "type": "Foul"
+   },
+   {
+    "minute": 61,
+    "text": "Delay in match because of an injury Tarik Muharemovic (Bosnia and Herzegovina).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 61,
+    "text": "Delay in match because of an injury Folarin Balogun (USA).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 63,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 63,
+    "text": "VAR Decision: Card upgraded Folarin Balogun (USA).",
+    "type": "VAR - Referee decision cancelled"
+   },
+   {
+    "minute": 64,
+    "text": "Folarin Balogun (USA) is shown the red card.",
+    "type": "Red Card"
+   },
+   {
+    "minute": 66,
+    "text": "Attempt saved. Ermedin Demirovic (Bosnia and Herzegovina) right footed shot from the centre of the box is saved in the centre of the goal by Matt Freese (USA).",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 68,
+    "text": "Attempt saved. Esmir Bajraktarevic (Bosnia and Herzegovina) left footed shot from the left side of the box is saved in the centre of the goal by Matt Freese (USA).",
+    "type": "Shot On Target"
+   },
+   {
+    "minute": 69,
+    "text": "Foul by Amar Dedic (Bosnia and Herzegovina).",
+    "type": "Foul"
+   },
+   {
+    "minute": 69,
+    "text": "Antonee Robinson (USA) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 69,
+    "text": "Delay in match for a drinks break.",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 72,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 73,
+    "text": "Corner, Bosnia and Herzegovina. Conceded by Antonee Robinson.",
+    "type": "Corner Awarded"
+   },
+   {
+    "minute": 74,
+    "text": "Attempt blocked. Amar Dedic (Bosnia and Herzegovina) left footed shot from outside the box is blocked. Assisted by Esmir Bajraktarevic.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 75,
+    "text": "Substitution, Bosnia and Herzegovina. Haris Tabakovic replaces Sead Kolasinac.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 75,
+    "text": "Substitution, Bosnia and Herzegovina. Amar Memic replaces Nikola Katic.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 77,
+    "text": "Attempt blocked. Kerim Alajbegovic (Bosnia and Herzegovina) left footed shot from outside the box is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 77,
+    "text": "Foul by Ermin Mahmic (Bosnia and Herzegovina).",
+    "type": "Foul"
+   },
+   {
+    "minute": 77,
+    "text": "Christian Pulisic (USA) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 79,
+    "text": "Attempt blocked. Malik Tillman (USA) left footed shot from the centre of the box is blocked. Assisted by Weston McKennie.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 79,
+    "text": "Offside, USA. Christian Pulisic is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 80,
+    "text": "Foul by Stjepan Radeljic (Bosnia and Herzegovina).",
+    "type": "Foul"
+   },
+   {
+    "minute": 80,
+    "text": "Sergi\u00f1o Dest (USA) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 80,
+    "text": "Stjepan Radeljic (Bosnia and Herzegovina) is shown the yellow card for a bad foul.",
+    "type": "Yellow Card"
+   },
+   {
+    "minute": 82,
+    "text": "Goal! USA 2, Bosnia and Herzegovina 0. Malik Tillman (USA) from a free kick with a right footed shot to the top left corner.",
+    "type": "Goal - Free-kick"
+   },
+   {
+    "minute": 87,
+    "text": "Foul by Ermedin Demirovic (Bosnia and Herzegovina).",
+    "type": "Foul"
+   },
+   {
+    "minute": 87,
+    "text": "Matt Freese (USA) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 87,
+    "text": "Delay in match because of an injury Matt Freese (USA).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 87,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 87,
+    "text": "Substitution, USA. Sebastian Berhalter replaces Sergi\u00f1o Dest.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 88,
+    "text": "Substitution, USA. Ricardo Pepi replaces Christian Pulisic.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt blocked. Amar Memic (Bosnia and Herzegovina) right footed shot from a difficult angle on the right is blocked.",
+    "type": "Shot Blocked"
+   },
+   {
+    "minute": 90,
+    "text": "Stjepan Radeljic (Bosnia and Herzegovina) wins a free kick in the attacking half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Ricardo Pepi (USA).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Fourth official has announced 10 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 90,
+    "text": "Attempt missed. Kerim Alajbegovic (Bosnia and Herzegovina) right footed shot from the left side of the box misses to the right. Assisted by Stjepan Radeljic.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Weston McKennie (USA).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Stjepan Radeljic (Bosnia and Herzegovina) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Malik Tillman (USA) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Amar Memic (Bosnia and Herzegovina).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Substitution, USA. Giovanni Reyna replaces Weston McKennie.",
+    "type": "Substitution"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt missed. Alex Freeman (USA) right footed shot from the right side of the box is high and wide to the right.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt missed. Ermin Mahmic (Bosnia and Herzegovina) right footed shot from outside the box is close, but misses to the right. Assisted by Amar Dedic.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 90,
+    "text": "Attempt missed. Ermin Mahmic (Bosnia and Herzegovina) right footed shot from outside the box is close, but misses to the left. Assisted by Benjamin Tahirovic following a fast break.",
+    "type": "Shot Off Target"
+   },
+   {
+    "minute": 90,
+    "text": "Tim Ream (USA) wins a free kick in the defensive half.",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Foul by Ermedin Demirovic (Bosnia and Herzegovina).",
+    "type": "Foul"
+   },
+   {
+    "minute": 90,
+    "text": "Offside, USA. Ricardo Pepi is caught offside.",
+    "type": "Offside"
+   },
+   {
+    "minute": 90,
+    "text": "Second Half ends, USA 2, Bosnia and Herzegovina 0.",
+    "type": "End Regular Time"
    }
   ],
   "halftime": "0-1",

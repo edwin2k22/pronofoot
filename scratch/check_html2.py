@@ -8,9 +8,6 @@ if m:
     data = json.loads(m.group(1))
     usa = [x for x in data if x['home']=='USA']
     if usa:
-        print('Status in HTML:', usa[-1].get('status'))
-        print('LiveScore:', usa[-1].get('liveScore'))
-    else:
-        print('USA not found in HTML')
-else:
-    print('script tag not found')
+        print('Has prediction:', 'prediction' in usa[-1])
+        if 'prediction' in usa[-1]:
+            print('Keys:', usa[-1]['prediction'].keys())
