@@ -126,6 +126,12 @@ class TestOutcomes:
         assert len(top_scores) == 5
         assert probs == sorted(probs, reverse=True)
 
+    def test_score_factors_keep_grid_normalized_and_shift_modal(self):
+        grid = sg.score_grid(1.8, 1.2, rho=0.0, gamma=0.0)
+        adjusted = sg.apply_score_factors(grid, {"2-1": 4.0})
+        assert cell_sum(adjusted) == pytest.approx(1.0, abs=1e-6)
+        assert adjusted[2][1] > grid[2][1]
+
 
 # ---------- shock_gamma ----------
 class TestShockGamma:

@@ -73,6 +73,35 @@ def score_grid(lam: float, mu: float, rho: float = DEFAULT_RHO,
     return grid
 
 
+def apply_score_factors(grid, factors=None) -> list[list[float]]:
+    """
+    Recalibre la matrice de scores avec des facteurs appris sur l'historique.
+
+    Le facteur est par case exacte ("2-1", "0-0", etc.). On renormalise ensuite
+    toute la grille pour garder une vraie distribution de probabilité.
+    """
+    factors = factors or {}
+    if not factors:
+        return [row[:] for row in grid]
+    out = []
+    total = 0.0
+    for i, row in enumerate(grid):
+        out_row = []
+        for j, p in enumerate(row):
+            f = factors.get(f"{i}-{j}", 1.0)
+            try:
+                f = float(f)
+            except (TypeError, ValueError):
+                f = 1.0
+            v = max(0.0, p * f)
+            out_row.append(v)
+            total += v
+        out.append(out_row)
+    if total <= 0:
+        return [row[:] for row in grid]
+    return [[v / total for v in row] for row in out]
+
+
 def shock_gamma(elo_diff: float, stage_stake: float, high_risk: bool = False) -> float:
     """
     Estime l'effet de choc γ selon le contexte :

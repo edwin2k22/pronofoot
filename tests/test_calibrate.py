@@ -84,6 +84,31 @@ class TestScaleFactor:
         assert r["factor"] == pytest.approx(1.0, abs=0.05)
 
 
+class TestScoreCalibration:
+    def test_no_prediction_history_is_neutral(self):
+        r = cal.score_factors_from_predictions([])
+        assert r["n"] == 0
+        assert r["factors"] == {}
+
+    def test_score_factors_learn_observed_score_with_bounds(self):
+        rows = []
+        for _ in range(8):
+            rows.append({
+                "status": "FINISHED",
+                "analysis": {"realScore": "2-1"},
+                "prediction": {
+                    "lamHome": 1.4,
+                    "lamAway": 1.0,
+                    "dixonColes": {"rho": 0.0, "gamma": 0.0},
+                },
+            })
+        r = cal.score_factors_from_predictions(rows, prior_weight=4.0)
+        assert r["n"] == 8
+        assert r["factors"]["2-1"] > 1.0
+        assert r["factors"]["2-1"] <= r["factorBounds"][1]
+        assert r["eval"]["logLossAfter"] < r["eval"]["logLossBefore"]
+
+
 # ---------- shrinkage ----------
 class TestShrinkage:
     def test_no_obs_returns_prior(self):

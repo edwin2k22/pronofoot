@@ -144,6 +144,9 @@ function _contextInner(m,p){
       Elo ${pc(w.elo)}% · Buts/xG ${pc(w.grid)}% · Forme ${pc(w.form)}%${market}${p.ensemble.T&&Math.abs(p.ensemble.T-1)>0.02?` · calibration T=${p.ensemble.T}`:""}</div>`;
   }
   if(p.dixonColes){
+    if(p.dixonColes.scoreCalibratedOn){
+      html += `<div class="note" style="margin-top:6px">Scores exacts recalibrés sur ${p.dixonColes.scoreCalibratedOn} anciens pronos. Le score affiché reste le plus probable de la grille, pas une certitude.</div>`;
+    }
     html += `<div class="note" style="margin-top:8px">📐 Modèle : Dixon-Coles (ρ=${p.dixonColes.rho})${p.dixonColes.gamma>0?` + effet de choc (γ=${p.dixonColes.gamma})`:""}</div>`;
   }
   return html;

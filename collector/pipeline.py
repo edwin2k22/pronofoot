@@ -361,10 +361,20 @@ def calibrate_dc():
         over_pred.append(o["over25"]); over_obs.append(1 if (gh + ga) > 2 else 0)
     result["bttsBias"] = calib.bias_adjust(btts_pred, btts_obs)
     result["overBias"] = calib.bias_adjust(over_pred, over_obs)
+    try:
+        with open(os.path.join(DATA_DIR, "predictions.json"), encoding="utf-8") as f:
+            prev_predictions = json.load(f)
+    except (OSError, ValueError):
+        prev_predictions = []
+    result["scoreCalib"] = calib.score_factors_from_predictions(prev_predictions)
     calib.save(result)
     print(f"   ↳ biais BTTS {result['bttsBias']['shift']:+.3f} "
           f"(prévu {result['bttsBias'].get('avg_pred','?')} vs réel {result['bttsBias'].get('avg_obs','?')}) ; "
           f"Over {result['overBias']['shift']:+.3f}")
+    sc_eval = result["scoreCalib"].get("eval") or {}
+    if sc_eval:
+        print(f"   ↳ score exact logloss {sc_eval.get('logLossBefore')} -> {sc_eval.get('logLossAfter')} "
+              f"; top5 {sc_eval.get('top5Before')} -> {sc_eval.get('top5After')}")
     print(f"✅ calibrate : ρ={result['rho']} γ={result['gamma']} "
           f"({result['n_matches']} matchs, {result.get('note','')})")
     return result
@@ -984,6 +994,8 @@ def predict():
     gamma_base = cal.get("gamma", 0.05)
     btts_shift = (cal.get("bttsBias") or {}).get("shift", 0.0)   # correctif empirique BTTS
     over_shift = (cal.get("overBias") or {}).get("shift", 0.0)   # correctif empirique Over 2.5
+    score_calib = cal.get("scoreCalib") or {}
+    score_factors = score_calib.get("factors") or {}
     bias_n = (cal.get("bttsBias") or {}).get("n", 0)
     corn_factor = (cal.get("cornersFactor") or {}).get("factor", 1.0)  # correctif corners (source biaisée)
     corn_n = (cal.get("cornersFactor") or {}).get("n", 0)
@@ -1209,7 +1221,8 @@ def predict():
         gamma_bonus = max(0.0, min(0.10, (openness - 1.2) * 0.15))
         
         gamma = round(min(0.25, gamma_base + gamma_bonus + sg.shock_gamma(h["elo"] - a["elo"], mwi["stageStake"])), 3)
-        grid = sg.score_grid(lam_h, lam_a, rho=dyn_rho, gamma=gamma)
+        raw_grid = sg.score_grid(lam_h, lam_a, rho=dyn_rho, gamma=gamma)
+        grid = sg.apply_score_factors(raw_grid, score_factors)
 
         res = markets.result_model(h["elo"], a["elo"], lam_h, lam_a, grid=grid)
 
@@ -1569,7 +1582,8 @@ def predict():
                 "kelly": kelly,         # calculé avec les vraies cotes ESPN
                 "lineMovement": line_move,
                 "dixonColes": {"rho": rho_cal, "gamma": gamma,
-                               "calibratedOn": cal.get("n_matches", 0)},
+                               "calibratedOn": cal.get("n_matches", 0),
+                               "scoreCalibratedOn": score_calib.get("n", 0)},
                 # marché "qui se qualifie ?" (uniquement en phase à élimination directe)
                 "knockout": (ko.qualification(lam_h, lam_a, h["elo"], a["elo"],
                                               gamma=gamma, form_h=fh, form_a=fa)
