@@ -116083,7 +116083,7 @@
     "liveScore": null,
     "liveClock": null,
     "realScore": "2-0",
-    "htScore": null,
+    "htScore": "0-1",
     "analysis": {
       "realScore": "2-0",
       "outcome": "1",
@@ -116094,18 +116094,627 @@
       "over25Real": false,
       "bttsReal": false,
       "totalGoals": 2,
-      "homeXgReal": null,
-      "awayXgReal": null,
-      "homeShots": null,
-      "awayShots": null,
-      "homeShotsOn": null,
-      "awayShotsOn": null,
-      "teamStats": null,
-      "homeCorners": null,
-      "awayCorners": null,
-      "homeCards": null,
-      "awayCards": null,
-      "events": null,
+      "homeXgReal": 0.44,
+      "awayXgReal": 0.29,
+      "homeShots": 10,
+      "awayShots": 8,
+      "homeShotsOn": 3,
+      "awayShotsOn": 2,
+      "teamStats": {
+        "home_possession": 51.5,
+        "home_passes": 444,
+        "home_passes_ok": 363,
+        "home_pass_pct": 0.8,
+        "home_crosses": 13,
+        "home_crosses_ok": 0,
+        "home_long_balls": 50,
+        "home_tackles": 16,
+        "home_tackles_won": 13,
+        "home_interceptions": 8,
+        "home_clearances": 28,
+        "home_blocked_shots": 3,
+        "home_fouls": 12,
+        "home_offsides": 0,
+        "home_saves": 0,
+        "away_possession": 48.5,
+        "away_passes": 415,
+        "away_passes_ok": 347,
+        "away_pass_pct": 0.8,
+        "away_crosses": 14,
+        "away_crosses_ok": 3,
+        "away_long_balls": 46,
+        "away_tackles": 12,
+        "away_tackles_won": 8,
+        "away_interceptions": 9,
+        "away_clearances": 27,
+        "away_blocked_shots": 2,
+        "away_fouls": 7,
+        "away_offsides": 2,
+        "away_saves": 3
+      },
+      "homeCorners": 3,
+      "awayCorners": 4,
+      "homeCards": 1,
+      "awayCards": 1,
+      "events": {
+        "goals": [
+          {
+            "minute": 45,
+            "team": "United States",
+            "player": "Folarin Balogun",
+            "assist": null,
+            "note": null
+          }
+        ],
+        "cards": [
+          {
+            "minute": 64,
+            "team": "United States",
+            "player": "Folarin Balogun",
+            "type": "Red"
+          },
+          {
+            "minute": 80,
+            "team": "Bosnia & Herzegovina",
+            "player": "Stjepan Radeljic",
+            "type": "Yellow"
+          }
+        ],
+        "commentary": [
+          {
+            "minute": 0,
+            "text": "Lineups are announced and players are warming up.",
+            "type": ""
+          },
+          {
+            "minute": 0,
+            "text": "First Half begins.",
+            "type": ""
+          },
+          {
+            "minute": 1,
+            "text": "Corner, Bosnia and Herzegovina. Conceded by Chris Richards.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 4,
+            "text": "Attempt blocked. Christian Pulisic (USA) right footed shot from outside the box is blocked. Assisted by Tim Ream.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 4,
+            "text": "Corner, USA. Conceded by Stjepan Radeljic.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 5,
+            "text": "Corner, USA. Conceded by Tarik Muharemovic.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 6,
+            "text": "Delay in match because of an injury Armin Gigovic (Bosnia and Herzegovina).",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 6,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 7,
+            "text": "Foul by Ermedin Demirovic (Bosnia and Herzegovina).",
+            "type": "Foul"
+          },
+          {
+            "minute": 7,
+            "text": "Chris Richards (USA) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 8,
+            "text": "Foul by Ivan Sunjic (Bosnia and Herzegovina).",
+            "type": "Foul"
+          },
+          {
+            "minute": 8,
+            "text": "Malik Tillman (USA) wins a free kick in the attacking half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 10,
+            "text": "Attempt saved. Ermedin Demirovic (Bosnia and Herzegovina) right footed shot from the right side of the box is saved in the top centre of the goal by Matt Freese (USA). Assisted by Edin Dzeko.",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 10,
+            "text": "Corner, Bosnia and Herzegovina. Conceded by Alex Freeman.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 14,
+            "text": "Foul by Sead Kolasinac (Bosnia and Herzegovina).",
+            "type": "Foul"
+          },
+          {
+            "minute": 14,
+            "text": "Sergiño Dest (USA) wins a free kick on the right wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 15,
+            "text": "Attempt missed. Folarin Balogun (USA) right footed shot from the centre of the box misses to the right. Assisted by Antonee Robinson following a set piece situation.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 18,
+            "text": "Delay in match because of an injury Nikola Vasilj (Bosnia and Herzegovina).",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 20,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 20,
+            "text": "Foul by Ivan Sunjic (Bosnia and Herzegovina).",
+            "type": "Foul"
+          },
+          {
+            "minute": 20,
+            "text": "Christian Pulisic (USA) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 21,
+            "text": "Corner, USA. Conceded by Tarik Muharemovic.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 23,
+            "text": "Delay in match for a drinks break.",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 26,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 27,
+            "text": "Armin Gigovic (Bosnia and Herzegovina) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 27,
+            "text": "Foul by Antonee Robinson (USA).",
+            "type": "Foul"
+          },
+          {
+            "minute": 31,
+            "text": "Stjepan Radeljic (Bosnia and Herzegovina) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 31,
+            "text": "Foul by Sergiño Dest (USA).",
+            "type": "Foul"
+          },
+          {
+            "minute": 31,
+            "text": "Offside, USA. Folarin Balogun is caught offside.",
+            "type": "Offside"
+          },
+          {
+            "minute": 33,
+            "text": "Ermedin Demirovic (Bosnia and Herzegovina) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 33,
+            "text": "Foul by Chris Richards (USA).",
+            "type": "Foul"
+          },
+          {
+            "minute": 38,
+            "text": "Kerim Alajbegovic (Bosnia and Herzegovina) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 38,
+            "text": "Foul by Tyler Adams (USA).",
+            "type": "Foul"
+          },
+          {
+            "minute": 41,
+            "text": "Foul by Tarik Muharemovic (Bosnia and Herzegovina).",
+            "type": "Foul"
+          },
+          {
+            "minute": 41,
+            "text": "Folarin Balogun (USA) wins a free kick on the right wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 42,
+            "text": "Attempt missed. Folarin Balogun (USA) right footed shot from the right side of the six yard box misses to the right. Assisted by Malik Tillman with a cross following a set piece situation.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 45,
+            "text": "Goal! USA 1, Bosnia and Herzegovina 0. Folarin Balogun (USA) left footed shot from the centre of the box to the centre of the goal.",
+            "type": "Goal"
+          },
+          {
+            "minute": 45,
+            "text": "Fourth official has announced 5 minutes of added time.",
+            "type": ""
+          },
+          {
+            "minute": 45,
+            "text": "Delay in match because of an injury Tyler Adams (USA).",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 45,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 45,
+            "text": "Foul by Amar Dedic (Bosnia and Herzegovina).",
+            "type": "Foul"
+          },
+          {
+            "minute": 45,
+            "text": "Christian Pulisic (USA) wins a free kick on the left wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 45,
+            "text": "Folarin Balogun (USA) hits the bar with a right footed shot from very close range. Assisted by Sergiño Dest with a headed pass.",
+            "type": "Shot Hit Woodwork"
+          },
+          {
+            "minute": 45,
+            "text": "Delay in match because of an injury Kerim Alajbegovic (Bosnia and Herzegovina).",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 45,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 45,
+            "text": "First Half ends, USA 1, Bosnia and Herzegovina 0.",
+            "type": ""
+          },
+          {
+            "minute": 45,
+            "text": "Second Half begins USA 1, Bosnia and Herzegovina 0.",
+            "type": ""
+          },
+          {
+            "minute": 47,
+            "text": "Foul by Nikola Katic (Bosnia and Herzegovina).",
+            "type": "Foul"
+          },
+          {
+            "minute": 47,
+            "text": "Christian Pulisic (USA) wins a free kick in the attacking half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 48,
+            "text": "Corner, USA. Conceded by Sead Kolasinac.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 51,
+            "text": "Substitution, Bosnia and Herzegovina. Esmir Bajraktarevic replaces Armin Gigovic.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 51,
+            "text": "Substitution, Bosnia and Herzegovina. Benjamin Tahirovic replaces Ivan Sunjic.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 51,
+            "text": "Substitution, Bosnia and Herzegovina. Ermin Mahmic replaces Edin Dzeko because of an injury.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 56,
+            "text": "Attempt missed. Nikola Katic (Bosnia and Herzegovina) right footed shot from outside the box misses to the right. Assisted by Esmir Bajraktarevic.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 61,
+            "text": "Tarik Muharemovic (Bosnia and Herzegovina) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 61,
+            "text": "Foul by Folarin Balogun (USA).",
+            "type": "Foul"
+          },
+          {
+            "minute": 61,
+            "text": "Delay in match because of an injury Tarik Muharemovic (Bosnia and Herzegovina).",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 61,
+            "text": "Delay in match because of an injury Folarin Balogun (USA).",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 63,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 63,
+            "text": "VAR Decision: Card upgraded Folarin Balogun (USA).",
+            "type": "VAR - Referee decision cancelled"
+          },
+          {
+            "minute": 64,
+            "text": "Folarin Balogun (USA) is shown the red card.",
+            "type": "Red Card"
+          },
+          {
+            "minute": 66,
+            "text": "Attempt saved. Ermedin Demirovic (Bosnia and Herzegovina) right footed shot from the centre of the box is saved in the centre of the goal by Matt Freese (USA).",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 68,
+            "text": "Attempt saved. Esmir Bajraktarevic (Bosnia and Herzegovina) left footed shot from the left side of the box is saved in the centre of the goal by Matt Freese (USA).",
+            "type": "Shot On Target"
+          },
+          {
+            "minute": 69,
+            "text": "Foul by Amar Dedic (Bosnia and Herzegovina).",
+            "type": "Foul"
+          },
+          {
+            "minute": 69,
+            "text": "Antonee Robinson (USA) wins a free kick in the attacking half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 69,
+            "text": "Delay in match for a drinks break.",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 72,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 73,
+            "text": "Corner, Bosnia and Herzegovina. Conceded by Antonee Robinson.",
+            "type": "Corner Awarded"
+          },
+          {
+            "minute": 74,
+            "text": "Attempt blocked. Amar Dedic (Bosnia and Herzegovina) left footed shot from outside the box is blocked. Assisted by Esmir Bajraktarevic.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 75,
+            "text": "Substitution, Bosnia and Herzegovina. Haris Tabakovic replaces Sead Kolasinac.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 75,
+            "text": "Substitution, Bosnia and Herzegovina. Amar Memic replaces Nikola Katic.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 77,
+            "text": "Attempt blocked. Kerim Alajbegovic (Bosnia and Herzegovina) left footed shot from outside the box is blocked.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 77,
+            "text": "Foul by Ermin Mahmic (Bosnia and Herzegovina).",
+            "type": "Foul"
+          },
+          {
+            "minute": 77,
+            "text": "Christian Pulisic (USA) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 79,
+            "text": "Attempt blocked. Malik Tillman (USA) left footed shot from the centre of the box is blocked. Assisted by Weston McKennie.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 79,
+            "text": "Offside, USA. Christian Pulisic is caught offside.",
+            "type": "Offside"
+          },
+          {
+            "minute": 80,
+            "text": "Foul by Stjepan Radeljic (Bosnia and Herzegovina).",
+            "type": "Foul"
+          },
+          {
+            "minute": 80,
+            "text": "Sergiño Dest (USA) wins a free kick in the attacking half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 80,
+            "text": "Stjepan Radeljic (Bosnia and Herzegovina) is shown the yellow card for a bad foul.",
+            "type": "Yellow Card"
+          },
+          {
+            "minute": 82,
+            "text": "Goal! USA 2, Bosnia and Herzegovina 0. Malik Tillman (USA) from a free kick with a right footed shot to the top left corner.",
+            "type": "Goal - Free-kick"
+          },
+          {
+            "minute": 87,
+            "text": "Foul by Ermedin Demirovic (Bosnia and Herzegovina).",
+            "type": "Foul"
+          },
+          {
+            "minute": 87,
+            "text": "Matt Freese (USA) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 87,
+            "text": "Delay in match because of an injury Matt Freese (USA).",
+            "type": "Start Delay"
+          },
+          {
+            "minute": 87,
+            "text": "Delay over. They are ready to continue.",
+            "type": "End Delay"
+          },
+          {
+            "minute": 87,
+            "text": "Substitution, USA. Sebastian Berhalter replaces Sergiño Dest.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 88,
+            "text": "Substitution, USA. Ricardo Pepi replaces Christian Pulisic.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 90,
+            "text": "Attempt blocked. Amar Memic (Bosnia and Herzegovina) right footed shot from a difficult angle on the right is blocked.",
+            "type": "Shot Blocked"
+          },
+          {
+            "minute": 90,
+            "text": "Stjepan Radeljic (Bosnia and Herzegovina) wins a free kick in the attacking half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Foul by Ricardo Pepi (USA).",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Fourth official has announced 10 minutes of added time.",
+            "type": ""
+          },
+          {
+            "minute": 90,
+            "text": "Attempt missed. Kerim Alajbegovic (Bosnia and Herzegovina) right footed shot from the left side of the box misses to the right. Assisted by Stjepan Radeljic.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 90,
+            "text": "Foul by Weston McKennie (USA).",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Stjepan Radeljic (Bosnia and Herzegovina) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Malik Tillman (USA) wins a free kick on the left wing.",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Foul by Amar Memic (Bosnia and Herzegovina).",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Substitution, USA. Giovanni Reyna replaces Weston McKennie.",
+            "type": "Substitution"
+          },
+          {
+            "minute": 90,
+            "text": "Attempt missed. Alex Freeman (USA) right footed shot from the right side of the box is high and wide to the right.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 90,
+            "text": "Attempt missed. Ermin Mahmic (Bosnia and Herzegovina) right footed shot from outside the box is close, but misses to the right. Assisted by Amar Dedic.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 90,
+            "text": "Attempt missed. Ermin Mahmic (Bosnia and Herzegovina) right footed shot from outside the box is close, but misses to the left. Assisted by Benjamin Tahirovic following a fast break.",
+            "type": "Shot Off Target"
+          },
+          {
+            "minute": 90,
+            "text": "Tim Ream (USA) wins a free kick in the defensive half.",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Foul by Ermedin Demirovic (Bosnia and Herzegovina).",
+            "type": "Foul"
+          },
+          {
+            "minute": 90,
+            "text": "Offside, USA. Ricardo Pepi is caught offside.",
+            "type": "Offside"
+          },
+          {
+            "minute": 90,
+            "text": "Second Half ends, USA 2, Bosnia and Herzegovina 0.",
+            "type": "End Regular Time"
+          }
+        ],
+        "halftime": "0-1",
+        "motm": "—",
+        "note": "",
+        "lineups": {
+          "away_formation": "5-3-2",
+          "away_xi": [
+            "Nikola Vasilj",
+            "Tarik Muharemovic",
+            "Stjepan Radeljic",
+            "Nikola Katic",
+            "Sead Kolasinac",
+            "Amar Dedic",
+            "Ivan Sunjic",
+            "Kerim Alajbegovic",
+            "Armin Gigovic",
+            "Ermedin Demirovic",
+            "Edin Dzeko"
+          ],
+          "away_bench": [
+            "Haris Tabakovic",
+            "Esmir Bajraktarevic",
+            "Samed Bazdar",
+            "Benjamin Tahirovic",
+            "Dzenis Burnic",
+            "Arjan Malic",
+            "Jovo Lukic",
+            "Dennis Hadzikadunic",
+            "Amir Hadziahmetovic",
+            "Mladen Jurkas",
+            "Amar Memic",
+            "Martin Zlomislic",
+            "Ermin Mahmic",
+            "Ivan Basic",
+            "Nihad Mujakic"
+          ],
+          "source": "ESPN (compos réelles)"
+        }
+      },
       "summary": "Le modèle donnait <b>USA</b> favori (69%). ✅ Issue correctement anticipée. Score le plus probable prévu : 2-0 → réel 2-0 (exact !) Total buts 2 (Under 2.5), BTTS non."
     },
     "nlpMomentum": null,
@@ -116431,77 +117040,13 @@
         }
       },
       "shots": {
-        "expShots": 24.8,
-        "expShotsOn": 8.6,
-        "home": 13.8,
-        "away": 11.0,
-        "homeOn": 4.6,
-        "awayOn": 4.0,
-        "homeAcc": 34,
-        "awayAcc": 36,
-        "line": 24.5,
-        "lineOn": 8.5,
-        "lines": {
-          "20.5": {
-            "over": 0.8031,
-            "under": 0.1969
-          },
-          "22.5": {
-            "over": 0.6672,
-            "under": 0.3328
-          },
-          "24.5": {
-            "over": 0.5095,
-            "under": 0.4905
-          },
-          "26.5": {
-            "over": 0.3543,
-            "under": 0.6457
-          },
-          "28.5": {
-            "over": 0.2232,
-            "under": 0.7768
-          }
-        },
-        "linesOn": {
-          "6.5": {
-            "over": 0.7575,
-            "under": 0.2425
-          },
-          "7.5": {
-            "over": 0.6312,
-            "under": 0.3688
-          },
-          "8.5": {
-            "over": 0.4948,
-            "under": 0.5052
-          },
-          "9.5": {
-            "over": 0.3641,
-            "under": 0.6359
-          },
-          "10.5": {
-            "over": 0.2513,
-            "under": 0.7487
-          }
-        },
-        "real": false,
-        "basis": {
-          "dominance": [
-            1.22,
-            0.82
-          ],
-          "possession": [
-            50,
-            50
-          ],
-          "accuracy": [
-            34,
-            36
-          ]
-        },
-        "shotsAvgHome": 11.4,
-        "shotsAvgAway": 10.2
+        "home": 10,
+        "away": 8,
+        "homeOn": 3,
+        "awayOn": 2,
+        "homeAcc": 30,
+        "awayAcc": 25,
+        "real": true
       },
       "referee": {
         "name": "Raphael Claus",
@@ -116999,7 +117544,7 @@
       "ESPN-free-odds",
       "market-implied-model"
     ],
-    "confidence": 0.85,
+    "confidence": 0.77,
     "prediction": {
       "p1": 0.761,
       "pX": 0.1794,
@@ -117143,7 +117688,7 @@
       "totalXg": 3.3,
       "bttsConf": {
         "pick": "indécis",
-        "score": 0.43,
+        "score": 0.39,
         "label": "faible"
       },
       "halftime": {
@@ -117320,6 +117865,74 @@
         },
         "shotsAvgHome": 14.7,
         "shotsAvgAway": 10.5
+      },
+      "marketIntelligence": {
+        "verdict": "no_bet",
+        "summary": "Prudence forte: un marche principal est contredit par le bilan recent des equipes.",
+        "impact": 0,
+        "confidenceAdj": -0.08,
+        "adjustedConfidence": 0.77,
+        "noBetMarkets": [
+          "BTTS"
+        ],
+        "checks": [
+          {
+            "market": "BTTS",
+            "pick": "BTTS Oui",
+            "prob": 0.5005,
+            "verdict": "avoid",
+            "impact": -2,
+            "reason": "BTTS recent faible (39%)"
+          },
+          {
+            "market": "CORNERS",
+            "pick": "Corners Under 7.5",
+            "prob": 0.5849,
+            "verdict": "support",
+            "impact": 1,
+            "reason": "moyenne corners recente 6.67 sous la ligne 7.5"
+          },
+          {
+            "market": "CARTONS",
+            "pick": "Cartons Under 3.5",
+            "prob": 0.5386,
+            "verdict": "support",
+            "impact": 1,
+            "reason": "moyenne cartons recente 2.5 sous la ligne 3.5"
+          }
+        ],
+        "profiles": {
+          "home": {
+            "team": "Spain",
+            "n": 7,
+            "gfAvg": 1.71,
+            "gaAvg": 0.29,
+            "over25Rate": 0.4286,
+            "bttsRate": 0.2857,
+            "scoredRate": 0.7143,
+            "concededRate": 0.2857,
+            "cleanRate": 0.7143,
+            "cornersAvg": 8.67,
+            "cornersOver85Rate": 0.3333,
+            "cardsAvg": 3.0,
+            "cardsOver35Rate": 0.3333
+          },
+          "away": {
+            "team": "Austria",
+            "n": 6,
+            "gfAvg": 2.17,
+            "gaAvg": 1.17,
+            "over25Rate": 0.5,
+            "bttsRate": 0.5,
+            "scoredRate": 0.8333,
+            "concededRate": 0.6667,
+            "cleanRate": 0.3333,
+            "cornersAvg": 4.67,
+            "cornersOver85Rate": 0.0,
+            "cardsAvg": 2.0,
+            "cardsOver35Rate": 0.3333
+          }
+        }
       },
       "referee": null,
       "riskPlayers": {
@@ -117659,7 +118272,9 @@
         "label": "élevée",
         "reasons": [
           "forme volatile (résultats en dents de scie)"
-        ]
+        ],
+        "baseConfidence": 0.85,
+        "marketAdjustedConfidence": 0.77
       },
       "upsetIndex": {
         "index": 44,
@@ -117670,7 +118285,7 @@
       },
       "attackQuality": {
         "home": {
-          "stars": 15.5,
+          "stars": 16.5,
           "boost": 1.18,
           "names": [
             "Ferran Torres",
@@ -117693,7 +118308,7 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 19.5,
+          "stars": 21.0,
           "shield": 0.85,
           "names": [
             "Marc Pubill",
@@ -117704,14 +118319,14 @@
           ]
         },
         "away": {
-          "stars": 17.0,
+          "stars": 22.0,
           "shield": 0.85,
           "names": [
+            "Alexander Schlager",
+            "David Affengruber",
             "Kevin Danso",
             "Stefan Posch",
-            "David Alaba",
-            "Philipp Lienhart",
-            "Phillipp Mwene"
+            "David Alaba"
           ]
         }
       },
@@ -117844,7 +118459,7 @@
       "ESPN-free-odds",
       "market-implied-model"
     ],
-    "confidence": 0.85,
+    "confidence": 0.89,
     "prediction": {
       "p1": 0.559,
       "pX": 0.3158,
@@ -117988,7 +118603,7 @@
       "totalXg": 2.68,
       "bttsConf": {
         "pick": "Oui",
-        "score": 0.5,
+        "score": 0.52,
         "label": "moyenne"
       },
       "halftime": {
@@ -118165,6 +118780,56 @@
         },
         "shotsAvgHome": 12.1,
         "shotsAvgAway": 10.3
+      },
+      "marketIntelligence": {
+        "verdict": "aligned",
+        "summary": "Bilan equipes plutot aligne avec les marches principaux.",
+        "impact": 1,
+        "confidenceAdj": 0.04,
+        "adjustedConfidence": 0.89,
+        "noBetMarkets": [],
+        "checks": [
+          {
+            "market": "CARTONS",
+            "pick": "Cartons Under 3.5",
+            "prob": 0.5152,
+            "verdict": "support",
+            "impact": 1,
+            "reason": "moyenne cartons recente 1.83 sous la ligne 3.5"
+          }
+        ],
+        "profiles": {
+          "home": {
+            "team": "Portugal",
+            "n": 7,
+            "gfAvg": 1.71,
+            "gaAvg": 0.43,
+            "over25Rate": 0.4286,
+            "bttsRate": 0.4286,
+            "scoredRate": 0.7143,
+            "concededRate": 0.4286,
+            "cleanRate": 0.5714,
+            "cornersAvg": 7.0,
+            "cornersOver85Rate": 0.3333,
+            "cardsAvg": 2.33,
+            "cardsOver35Rate": 0.3333
+          },
+          "away": {
+            "team": "Croatia",
+            "n": 7,
+            "gfAvg": 1.43,
+            "gaAvg": 1.71,
+            "over25Rate": 0.7143,
+            "bttsRate": 0.7143,
+            "scoredRate": 0.8571,
+            "concededRate": 0.8571,
+            "cleanRate": 0.1429,
+            "cornersAvg": 8.0,
+            "cornersOver85Rate": 0.6667,
+            "cardsAvg": 1.33,
+            "cardsOver35Rate": 0.0
+          }
+        }
       },
       "referee": null,
       "riskPlayers": {
@@ -118514,7 +119179,9 @@
         "label": "élevée",
         "reasons": [
           "forme volatile (résultats en dents de scie)"
-        ]
+        ],
+        "baseConfidence": 0.85,
+        "marketAdjustedConfidence": 0.89
       },
       "upsetIndex": {
         "index": 62,
@@ -118549,14 +119216,14 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 18.5,
+          "stars": 18.0,
           "shield": 0.85,
           "names": [
             "Nélson Semedo",
             "Rúben Dias",
-            "Tomás Araújo",
             "Diogo Dalot",
-            "Renato Veiga"
+            "Renato Veiga",
+            "Gonçalo Inácio"
           ]
         },
         "away": {
@@ -118585,14 +119252,14 @@
       },
       "kelly": {
         "home": {
-          "kelly": 0.0066,
+          "kelly": 0.0069,
           "rawKelly": 0.0078,
           "note": "miser ~0.7% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "draw": {
-          "kelly": 0.049,
+          "kelly": 0.05,
           "rawKelly": 0.0576,
-          "note": "miser ~4.9% de la bankroll (Kelly×confiance, plafonné 5%)"
+          "note": "miser ~5.0% de la bankroll (Kelly×confiance, plafonné 5%)"
         },
         "away": {
           "kelly": 0.0,
@@ -118702,7 +119369,7 @@
       "ESPN-free-odds",
       "market-implied-model"
     ],
-    "confidence": 0.85,
+    "confidence": 0.89,
     "prediction": {
       "p1": 0.4603,
       "pX": 0.3634,
@@ -118846,8 +119513,8 @@
       "totalXg": 2.82,
       "bttsConf": {
         "pick": "Oui",
-        "score": 0.6,
-        "label": "moyenne"
+        "score": 0.62,
+        "label": "élevée"
       },
       "halftime": {
         "lamHome": 0.45,
@@ -119023,6 +119690,56 @@
         },
         "shotsAvgHome": 13.3,
         "shotsAvgAway": 12.0
+      },
+      "marketIntelligence": {
+        "verdict": "aligned",
+        "summary": "Bilan equipes plutot aligne avec les marches principaux.",
+        "impact": 1,
+        "confidenceAdj": 0.04,
+        "adjustedConfidence": 0.89,
+        "noBetMarkets": [],
+        "checks": [
+          {
+            "market": "CARTONS",
+            "pick": "Cartons Under 3.5",
+            "prob": 0.5465,
+            "verdict": "support",
+            "impact": 1,
+            "reason": "moyenne cartons recente 2.165 sous la ligne 3.5"
+          }
+        ],
+        "profiles": {
+          "home": {
+            "team": "Switzerland",
+            "n": 7,
+            "gfAvg": 2.14,
+            "gaAvg": 1.29,
+            "over25Rate": 0.5714,
+            "bttsRate": 0.8571,
+            "scoredRate": 0.8571,
+            "concededRate": 0.8571,
+            "cleanRate": 0.1429,
+            "cornersAvg": 10.67,
+            "cornersOver85Rate": 1.0,
+            "cardsAvg": 3.33,
+            "cardsOver35Rate": 0.3333
+          },
+          "away": {
+            "team": "Algeria",
+            "n": 7,
+            "gfAvg": 2.43,
+            "gaAvg": 1.0,
+            "over25Rate": 0.7143,
+            "bttsRate": 0.2857,
+            "scoredRate": 0.7143,
+            "concededRate": 0.4286,
+            "cleanRate": 0.5714,
+            "cornersAvg": 6.0,
+            "cornersOver85Rate": 0.3333,
+            "cardsAvg": 1.0,
+            "cardsOver35Rate": 0.0
+          }
+        }
       },
       "referee": null,
       "riskPlayers": {
@@ -119360,7 +120077,9 @@
         "label": "élevée",
         "reasons": [
           "forme volatile (résultats en dents de scie)"
-        ]
+        ],
+        "baseConfidence": 0.85,
+        "marketAdjustedConfidence": 0.89
       },
       "upsetIndex": {
         "index": 72,
@@ -119395,14 +120114,14 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 11.0,
+          "stars": 14.5,
           "shield": 0.85,
           "names": [
             "Miro Muheim",
             "Silvan Widmer",
             "Nico Elvedi",
             "Ricardo Rodriguez",
-            "Luca Jaquez"
+            "Eray Cömert"
           ]
         },
         "away": {
@@ -119546,7 +120265,7 @@
       "ESPN-free-odds",
       "market-implied-model"
     ],
-    "confidence": 0.85,
+    "confidence": 0.73,
     "prediction": {
       "p1": 0.2947,
       "pX": 0.4178,
@@ -119690,7 +120409,7 @@
       "totalXg": 2.12,
       "bttsConf": {
         "pick": "Oui",
-        "score": 0.49,
+        "score": 0.43,
         "label": "moyenne"
       },
       "halftime": {
@@ -119867,6 +120586,75 @@
         },
         "shotsAvgHome": 11.3,
         "shotsAvgAway": 13.7
+      },
+      "marketIntelligence": {
+        "verdict": "no_bet",
+        "summary": "Prudence forte: un marche principal est contredit par le bilan recent des equipes.",
+        "impact": -3,
+        "confidenceAdj": -0.12,
+        "adjustedConfidence": 0.73,
+        "noBetMarkets": [
+          "BTTS",
+          "CORNERS"
+        ],
+        "checks": [
+          {
+            "market": "OU",
+            "pick": "Under 2.5",
+            "prob": 0.6474,
+            "verdict": "support",
+            "impact": 1,
+            "reason": "historique recent Under2.5 71%"
+          },
+          {
+            "market": "BTTS",
+            "pick": "BTTS Oui",
+            "prob": 0.5644,
+            "verdict": "avoid",
+            "impact": -2,
+            "reason": "BTTS recent faible (43%)"
+          },
+          {
+            "market": "CORNERS",
+            "pick": "Corners Under 6.5",
+            "prob": 0.5397,
+            "verdict": "avoid",
+            "impact": -2,
+            "reason": "moyenne corners recente 9.165 au-dessus de la ligne 6.5"
+          }
+        ],
+        "profiles": {
+          "home": {
+            "team": "Australia",
+            "n": 7,
+            "gfAvg": 1.29,
+            "gaAvg": 0.71,
+            "over25Rate": 0.1429,
+            "bttsRate": 0.2857,
+            "scoredRate": 0.5714,
+            "concededRate": 0.5714,
+            "cleanRate": 0.4286,
+            "cornersAvg": 9.33,
+            "cornersOver85Rate": 0.6667,
+            "cardsAvg": 3.33,
+            "cardsOver35Rate": 0.3333
+          },
+          "away": {
+            "team": "Egypt",
+            "n": 7,
+            "gfAvg": 1.57,
+            "gaAvg": 0.71,
+            "over25Rate": 0.4286,
+            "bttsRate": 0.5714,
+            "scoredRate": 0.8571,
+            "concededRate": 0.5714,
+            "cleanRate": 0.4286,
+            "cornersAvg": 9.0,
+            "cornersOver85Rate": 0.6667,
+            "cardsAvg": 4.67,
+            "cardsOver35Rate": 0.6667
+          }
+        }
       },
       "referee": null,
       "riskPlayers": {
@@ -120165,7 +120953,9 @@
         "label": "élevée",
         "reasons": [
           "forme volatile (résultats en dents de scie)"
-        ]
+        ],
+        "baseConfidence": 0.85,
+        "marketAdjustedConfidence": 0.73
       },
       "upsetIndex": {
         "index": 87,
@@ -120200,7 +120990,7 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 22.0,
+          "stars": 22.5,
           "shield": 0.85,
           "names": [
             "Miloš Degenek",
@@ -120352,7 +121142,7 @@
       "ESPN-free-odds",
       "market-implied-model"
     ],
-    "confidence": 1.0,
+    "confidence": 0.97,
     "prediction": {
       "p1": 0.9014,
       "pX": 0.0901,
@@ -120496,7 +121286,7 @@
       "totalXg": 5.36,
       "bttsConf": {
         "pick": "Non",
-        "score": 0.69,
+        "score": 0.68,
         "label": "élevée"
       },
       "halftime": {
@@ -120673,6 +121463,74 @@
         },
         "shotsAvgHome": 11.7,
         "shotsAvgAway": 11.5
+      },
+      "marketIntelligence": {
+        "verdict": "watch",
+        "summary": "Prudence: certains marches secondaires ou signaux terrain contredisent le modele.",
+        "impact": 1,
+        "confidenceAdj": -0.03,
+        "adjustedConfidence": 0.97,
+        "noBetMarkets": [
+          "CARTONS"
+        ],
+        "checks": [
+          {
+            "market": "BTTS",
+            "pick": "BTTS Non",
+            "prob": 0.6928,
+            "verdict": "support",
+            "impact": 2,
+            "reason": "BTTS recent faible (39%); clean sheets frequents d'un cote"
+          },
+          {
+            "market": "CORNERS",
+            "pick": "Corners Over 6.5",
+            "prob": 0.5198,
+            "verdict": "support",
+            "impact": 1,
+            "reason": "moyenne corners recente 8.165 > ligne 6.5"
+          },
+          {
+            "market": "CARTONS",
+            "pick": "Cartons Over 3.5",
+            "prob": 0.5115,
+            "verdict": "avoid",
+            "impact": -2,
+            "reason": "moyenne cartons recente 2.83 sous la ligne 3.5"
+          }
+        ],
+        "profiles": {
+          "home": {
+            "team": "Argentina",
+            "n": 7,
+            "gfAvg": 2.86,
+            "gaAvg": 0.29,
+            "over25Rate": 0.7143,
+            "bttsRate": 0.2857,
+            "scoredRate": 1.0,
+            "concededRate": 0.2857,
+            "cleanRate": 0.7143,
+            "cornersAvg": 5.33,
+            "cornersOver85Rate": 0.0,
+            "cardsAvg": 2.33,
+            "cardsOver35Rate": 0.3333
+          },
+          "away": {
+            "team": "Cape Verde",
+            "n": 6,
+            "gfAvg": 1.33,
+            "gaAvg": 1.17,
+            "over25Rate": 0.5,
+            "bttsRate": 0.5,
+            "scoredRate": 0.6667,
+            "concededRate": 0.5,
+            "cleanRate": 0.5,
+            "cornersAvg": 11.0,
+            "cornersOver85Rate": 0.6667,
+            "cardsAvg": 3.33,
+            "cardsOver35Rate": 0.6667
+          }
+        }
       },
       "referee": null,
       "riskPlayers": {
@@ -120982,7 +121840,9 @@
         "label": "élevée",
         "reasons": [
           "données récentes et cohérentes"
-        ]
+        ],
+        "baseConfidence": 1.0,
+        "marketAdjustedConfidence": 0.97
       },
       "upsetIndex": {
         "index": 22,
@@ -121015,7 +121875,7 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 21.0,
+          "stars": 24.0,
           "shield": 0.85,
           "names": [
             "Nicolás Tagliafico",
@@ -121164,7 +122024,7 @@
       "ESPN-free-odds",
       "market-implied-model"
     ],
-    "confidence": 0.85,
+    "confidence": 0.89,
     "prediction": {
       "p1": 0.8399,
       "pX": 0.1307,
@@ -121308,7 +122168,7 @@
       "totalXg": 3.45,
       "bttsConf": {
         "pick": "Non",
-        "score": 0.53,
+        "score": 0.55,
         "label": "moyenne"
       },
       "halftime": {
@@ -121485,6 +122345,56 @@
         },
         "shotsAvgHome": 15.3,
         "shotsAvgAway": 9.0
+      },
+      "marketIntelligence": {
+        "verdict": "aligned",
+        "summary": "Bilan equipes plutot aligne avec les marches principaux.",
+        "impact": 1,
+        "confidenceAdj": 0.04,
+        "adjustedConfidence": 0.89,
+        "noBetMarkets": [],
+        "checks": [
+          {
+            "market": "CARTONS",
+            "pick": "Cartons Under 3.5",
+            "prob": 0.5623,
+            "verdict": "support",
+            "impact": 1,
+            "reason": "moyenne cartons recente 2.165 sous la ligne 3.5"
+          }
+        ],
+        "profiles": {
+          "home": {
+            "team": "Colombia",
+            "n": 7,
+            "gfAvg": 1.57,
+            "gaAvg": 1.0,
+            "over25Rate": 0.5714,
+            "bttsRate": 0.5714,
+            "scoredRate": 0.8571,
+            "concededRate": 0.5714,
+            "cleanRate": 0.4286,
+            "cornersAvg": 7.67,
+            "cornersOver85Rate": 0.3333,
+            "cardsAvg": 2.0,
+            "cardsOver35Rate": 0.0
+          },
+          "away": {
+            "team": "Ghana",
+            "n": 7,
+            "gfAvg": 0.71,
+            "gaAvg": 1.71,
+            "over25Rate": 0.4286,
+            "bttsRate": 0.5714,
+            "scoredRate": 0.7143,
+            "concededRate": 0.7143,
+            "cleanRate": 0.2857,
+            "cornersAvg": 6.67,
+            "cornersOver85Rate": 0.3333,
+            "cardsAvg": 2.33,
+            "cardsOver35Rate": 0.0
+          }
+        }
       },
       "referee": null,
       "riskPlayers": {
@@ -121804,7 +122714,9 @@
         "label": "élevée",
         "reasons": [
           "forme volatile (résultats en dents de scie)"
-        ]
+        ],
+        "baseConfidence": 0.85,
+        "marketAdjustedConfidence": 0.89
       },
       "upsetIndex": {
         "index": 31,
@@ -121839,25 +122751,25 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 23.5,
+          "stars": 24.0,
           "shield": 0.85,
           "names": [
             "Daniel Muñoz",
             "Jhon Lucumí",
+            "Santiago Arias",
             "Camilo Vargas",
-            "Yerry Mina",
-            "Gustavo Puerta"
+            "Yerry Mina"
           ]
         },
         "away": {
-          "stars": 25.5,
+          "stars": 27.0,
           "shield": 0.85,
           "names": [
             "Alidu Seidu",
             "Jonas Adjetey",
             "Abdul Mumin",
             "Gideon Mensah",
-            "Abdul Rahman Baba"
+            "Benjamin Asare"
           ]
         }
       },
@@ -121988,7 +122900,7 @@
       "shrinkage",
       "FIFA-ratings"
     ],
-    "confidence": 0.85,
+    "confidence": 0.67,
     "prediction": {
       "p1": 0.1369,
       "pX": 0.2781,
@@ -122127,7 +123039,7 @@
       "totalXg": 2.81,
       "bttsConf": {
         "pick": "indécis",
-        "score": 0.47,
+        "score": 0.38,
         "label": "faible"
       },
       "halftime": {
@@ -122286,6 +123198,75 @@
         },
         "shotsAvgHome": 14.8,
         "shotsAvgAway": 13.2
+      },
+      "marketIntelligence": {
+        "verdict": "no_bet",
+        "summary": "Prudence forte: un marche principal est contredit par le bilan recent des equipes.",
+        "impact": -5,
+        "confidenceAdj": -0.18,
+        "adjustedConfidence": 0.67,
+        "noBetMarkets": [
+          "CARTONS",
+          "CORNERS"
+        ],
+        "checks": [
+          {
+            "market": "OU",
+            "pick": "Over 2.5",
+            "prob": 0.504,
+            "verdict": "watch",
+            "impact": -1,
+            "reason": "deux defenses recentes solides"
+          },
+          {
+            "market": "CORNERS",
+            "pick": "Corners Under 7.5",
+            "prob": 0.5917,
+            "verdict": "avoid",
+            "impact": -2,
+            "reason": "moyenne corners recente 10.625 au-dessus de la ligne 7.5"
+          },
+          {
+            "market": "CARTONS",
+            "pick": "Cartons Over 3.5",
+            "prob": 0.5892,
+            "verdict": "avoid",
+            "impact": -2,
+            "reason": "moyenne cartons recente 2.75 sous la ligne 3.5"
+          }
+        ],
+        "profiles": {
+          "home": {
+            "team": "Canada",
+            "n": 8,
+            "gfAvg": 1.75,
+            "gaAvg": 0.75,
+            "over25Rate": 0.375,
+            "bttsRate": 0.5,
+            "scoredRate": 0.875,
+            "concededRate": 0.5,
+            "cleanRate": 0.5,
+            "cornersAvg": 11.75,
+            "cornersOver85Rate": 0.75,
+            "cardsAvg": 3.5,
+            "cardsOver35Rate": 0.5
+          },
+          "away": {
+            "team": "Morocco",
+            "n": 8,
+            "gfAvg": 2.38,
+            "gaAvg": 0.75,
+            "over25Rate": 0.5,
+            "bttsRate": 0.625,
+            "scoredRate": 1.0,
+            "concededRate": 0.625,
+            "cleanRate": 0.375,
+            "cornersAvg": 9.5,
+            "cornersOver85Rate": 0.5,
+            "cardsAvg": 2.0,
+            "cardsOver35Rate": 0.0
+          }
+        }
       },
       "referee": null,
       "riskPlayers": {
@@ -122658,7 +123639,9 @@
         "label": "élevée",
         "reasons": [
           "forme volatile (résultats en dents de scie)"
-        ]
+        ],
+        "baseConfidence": 0.85,
+        "marketAdjustedConfidence": 0.67
       },
       "upsetIndex": {
         "index": 60,
@@ -122693,18 +123676,18 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 24.5,
+          "stars": 22.5,
           "shield": 0.85,
           "names": [
             "Alistair Johnston",
-            "Alfie Jones",
             "Luc de Fougerolles",
             "Joel Waterman",
-            "Derek Cornelius"
+            "Derek Cornelius",
+            "Moïse Bombito"
           ]
         },
         "away": {
-          "stars": 18.0,
+          "stars": 16.5,
           "shield": 0.85,
           "names": [
             "Noussair Mazraoui",
@@ -122833,7 +123816,7 @@
       "shrinkage",
       "FIFA-ratings"
     ],
-    "confidence": 1.0,
+    "confidence": 0.97,
     "prediction": {
       "p1": 0.0308,
       "pX": 0.1112,
@@ -122972,7 +123955,7 @@
       "totalXg": 4.41,
       "bttsConf": {
         "pick": "Non",
-        "score": 0.56,
+        "score": 0.55,
         "label": "moyenne"
       },
       "halftime": {
@@ -123131,6 +124114,82 @@
         },
         "shotsAvgHome": 10.4,
         "shotsAvgAway": 15.1
+      },
+      "marketIntelligence": {
+        "verdict": "watch",
+        "summary": "Prudence: certains marches secondaires ou signaux terrain contredisent le modele.",
+        "impact": 1,
+        "confidenceAdj": -0.03,
+        "adjustedConfidence": 0.97,
+        "noBetMarkets": [
+          "CARTONS"
+        ],
+        "checks": [
+          {
+            "market": "OU",
+            "pick": "Over 2.5",
+            "prob": 0.7714,
+            "verdict": "support",
+            "impact": 1,
+            "reason": "historique recent Over2.5 moyen 71%"
+          },
+          {
+            "market": "BTTS",
+            "pick": "BTTS Non",
+            "prob": 0.562,
+            "verdict": "support",
+            "impact": 1,
+            "reason": "clean sheets frequents d'un cote"
+          },
+          {
+            "market": "CORNERS",
+            "pick": "Corners Over 6.5",
+            "prob": 0.5191,
+            "verdict": "support",
+            "impact": 1,
+            "reason": "moyenne corners recente 9.625 > ligne 6.5"
+          },
+          {
+            "market": "CARTONS",
+            "pick": "Cartons Over 3.5",
+            "prob": 0.5689,
+            "verdict": "avoid",
+            "impact": -2,
+            "reason": "moyenne cartons recente 2.25 sous la ligne 3.5"
+          }
+        ],
+        "profiles": {
+          "home": {
+            "team": "Paraguay",
+            "n": 7,
+            "gfAvg": 1.29,
+            "gaAvg": 1.0,
+            "over25Rate": 0.4286,
+            "bttsRate": 0.4286,
+            "scoredRate": 0.8571,
+            "concededRate": 0.4286,
+            "cleanRate": 0.5714,
+            "cornersAvg": 10.5,
+            "cornersOver85Rate": 0.5,
+            "cardsAvg": 3.75,
+            "cardsOver35Rate": 0.5
+          },
+          "away": {
+            "team": "France",
+            "n": 8,
+            "gfAvg": 2.75,
+            "gaAvg": 0.88,
+            "over25Rate": 1.0,
+            "bttsRate": 0.75,
+            "scoredRate": 1.0,
+            "concededRate": 0.75,
+            "cleanRate": 0.25,
+            "cornersAvg": 8.75,
+            "cornersOver85Rate": 0.75,
+            "cardsAvg": 0.75,
+            "cardsOver35Rate": 0.0
+          }
+        }
       },
       "referee": null,
       "riskPlayers": {
@@ -123523,7 +124582,9 @@
         "label": "élevée",
         "reasons": [
           "données récentes et cohérentes"
-        ]
+        ],
+        "baseConfidence": 1.0,
+        "marketAdjustedConfidence": 0.97
       },
       "upsetIndex": {
         "index": 34,
@@ -123558,7 +124619,7 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 18.5,
+          "stars": 21.5,
           "shield": 0.85,
           "names": [
             "Gustavo Velázquez",
@@ -123700,7 +124761,7 @@
       "shrinkage",
       "FIFA-ratings"
     ],
-    "confidence": 0.85,
+    "confidence": 0.82,
     "prediction": {
       "p1": 0.7958,
       "pX": 0.1517,
@@ -123839,7 +124900,7 @@
       "totalXg": 3.81,
       "bttsConf": {
         "pick": "indécis",
-        "score": 0.46,
+        "score": 0.45,
         "label": "faible"
       },
       "halftime": {
@@ -123998,6 +125059,90 @@
         },
         "shotsAvgHome": 13.5,
         "shotsAvgAway": 11.5
+      },
+      "marketIntelligence": {
+        "verdict": "watch",
+        "summary": "Prudence: certains marches secondaires ou signaux terrain contredisent le modele.",
+        "impact": 2,
+        "confidenceAdj": -0.03,
+        "adjustedConfidence": 0.82,
+        "noBetMarkets": [
+          "CORNERS"
+        ],
+        "checks": [
+          {
+            "market": "1N2",
+            "pick": "Brazil",
+            "prob": 0.7958,
+            "verdict": "support",
+            "impact": 1,
+            "reason": "Brazil marque 2.62 buts/m, adversaire encaisse 1.5"
+          },
+          {
+            "market": "OU",
+            "pick": "Over 2.5",
+            "prob": 0.6942,
+            "verdict": "support",
+            "impact": 1,
+            "reason": "historique recent Over2.5 moyen 81%"
+          },
+          {
+            "market": "BTTS",
+            "pick": "BTTS Oui",
+            "prob": 0.5388,
+            "verdict": "support",
+            "impact": 1,
+            "reason": "BTTS recent moyen 81%"
+          },
+          {
+            "market": "CORNERS",
+            "pick": "Corners Under 6.5",
+            "prob": 0.5213,
+            "verdict": "avoid",
+            "impact": -2,
+            "reason": "moyenne corners recente 10.0 au-dessus de la ligne 6.5"
+          },
+          {
+            "market": "CARTONS",
+            "pick": "Cartons Under 3.5",
+            "prob": 0.5803,
+            "verdict": "support",
+            "impact": 1,
+            "reason": "moyenne cartons recente 2.25 sous la ligne 3.5"
+          }
+        ],
+        "profiles": {
+          "home": {
+            "team": "Brazil",
+            "n": 8,
+            "gfAvg": 2.62,
+            "gaAvg": 1.0,
+            "over25Rate": 0.875,
+            "bttsRate": 0.75,
+            "scoredRate": 1.0,
+            "concededRate": 0.75,
+            "cleanRate": 0.25,
+            "cornersAvg": 9.5,
+            "cornersOver85Rate": 0.25,
+            "cardsAvg": 3.5,
+            "cardsOver35Rate": 0.5
+          },
+          "away": {
+            "team": "Norway",
+            "n": 8,
+            "gfAvg": 1.88,
+            "gaAvg": 1.5,
+            "over25Rate": 0.75,
+            "bttsRate": 0.875,
+            "scoredRate": 0.875,
+            "concededRate": 0.875,
+            "cleanRate": 0.125,
+            "cornersAvg": 10.5,
+            "cornersOver85Rate": 0.75,
+            "cardsAvg": 1.0,
+            "cardsOver35Rate": 0.0
+          }
+        }
       },
       "referee": null,
       "riskPlayers": {
@@ -124378,7 +125523,9 @@
         "label": "élevée",
         "reasons": [
           "forme volatile (résultats en dents de scie)"
-        ]
+        ],
+        "baseConfidence": 0.85,
+        "marketAdjustedConfidence": 0.82
       },
       "upsetIndex": {
         "index": 40,
@@ -124424,14 +125571,14 @@
           ]
         },
         "away": {
-          "stars": 16.5,
+          "stars": 18.0,
           "shield": 0.85,
           "names": [
+            "Ørjan Nyland",
             "Kristoffer Ajer",
             "Leo Østigård",
             "David Møller Wolfe",
-            "Marcus Holmgren Pedersen",
-            "Torbjørn Heggem"
+            "Marcus Holmgren Pedersen"
           ]
         }
       },
@@ -124542,7 +125689,7 @@
       "shrinkage",
       "FIFA-ratings"
     ],
-    "confidence": 0.75,
+    "confidence": 0.67,
     "prediction": {
       "p1": 0.8843,
       "pX": 0.0981,
@@ -124681,7 +125828,7 @@
       "totalXg": 4.27,
       "bttsConf": {
         "pick": "Non",
-        "score": 0.5,
+        "score": 0.46,
         "label": "moyenne"
       },
       "halftime": {
@@ -124840,6 +125987,66 @@
         },
         "shotsAvgHome": 12.2,
         "shotsAvgAway": 12.0
+      },
+      "marketIntelligence": {
+        "verdict": "no_bet",
+        "summary": "Prudence forte: un marche principal est contredit par le bilan recent des equipes.",
+        "impact": -1,
+        "confidenceAdj": -0.08,
+        "adjustedConfidence": 0.67,
+        "noBetMarkets": [
+          "OU"
+        ],
+        "checks": [
+          {
+            "market": "OU",
+            "pick": "Over 2.5",
+            "prob": 0.7549,
+            "verdict": "avoid",
+            "impact": -2,
+            "reason": "historique recent plutot Under (75% Under2.5)"
+          },
+          {
+            "market": "BTTS",
+            "pick": "BTTS Non",
+            "prob": 0.6208,
+            "verdict": "support",
+            "impact": 1,
+            "reason": "BTTS recent faible (25%)"
+          }
+        ],
+        "profiles": {
+          "home": {
+            "team": "Mexico",
+            "n": 8,
+            "gfAvg": 2.12,
+            "gaAvg": 0.25,
+            "over25Rate": 0.25,
+            "bttsRate": 0.25,
+            "scoredRate": 1.0,
+            "concededRate": 0.25,
+            "cleanRate": 0.75,
+            "cornersAvg": 6.0,
+            "cornersOver85Rate": 0.25,
+            "cardsAvg": 3.25,
+            "cardsOver35Rate": 0.5
+          },
+          "away": {
+            "team": "W80",
+            "n": 0,
+            "gfAvg": null,
+            "gaAvg": null,
+            "over25Rate": null,
+            "bttsRate": null,
+            "scoredRate": null,
+            "concededRate": null,
+            "cleanRate": null,
+            "cornersAvg": null,
+            "cornersOver85Rate": null,
+            "cardsAvg": null,
+            "cardsOver35Rate": null
+          }
+        }
       },
       "referee": null,
       "riskPlayers": {
@@ -125026,7 +126233,9 @@
         "label": "moyenne",
         "reasons": [
           "forme estimée (non réelle)"
-        ]
+        ],
+        "baseConfidence": 0.75,
+        "marketAdjustedConfidence": 0.67
       },
       "upsetIndex": {
         "index": 19,
@@ -125055,14 +126264,14 @@
       },
       "defenseQuality": {
         "home": {
-          "stars": 20.5,
+          "stars": 22.0,
           "shield": 0.85,
           "names": [
+            "Raúl Rangel",
             "Jorge Sánchez",
             "César Montes",
             "Edson Álvarez",
-            "Johan Vásquez",
-            "Israel Reyes"
+            "Johan Vásquez"
           ]
         },
         "away": {
