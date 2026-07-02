@@ -2093,7 +2093,7 @@
   "Nikola Vasilj": {
    "poste": "G",
    "statut": "Titulaire",
-   "minutes": 3060,
+   "minutes": 5760,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -2101,31 +2101,31 @@
    "fautes_commises": 0,
    "saves": 6,
    "shots_faced": 0,
-   "goals_conceded": 7,
+   "goals_conceded": 37,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Tarik Muharemovic": {
    "poste": "CD",
    "statut": "Titulaire",
-   "minutes": 2970,
+   "minutes": 5670,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 1,
    "tirs_cadres": 0,
-   "fautes_commises": 6,
+   "fautes_commises": 36,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 3,
+   "goals_conceded": 33,
    "note": 0,
-   "matchs_2026": 33,
+   "matchs_2026": 63,
    "cartons": "Red"
   },
   "Nikola Katic": {
    "poste": "CD-R",
    "statut": "Titulaire",
-   "minutes": 3033,
+   "minutes": 5733,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 1,
@@ -2133,41 +2133,41 @@
    "fautes_commises": 3,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 7,
+   "goals_conceded": 37,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "Yellow"
   },
   "Sead Kolasinac": {
    "poste": "LB",
    "statut": "Titulaire",
-   "minutes": 3054,
+   "minutes": 5754,
    "buts": 0,
    "passes_dec": 1,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 27,
+   "fautes_commises": 57,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 7,
+   "goals_conceded": 37,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Amar Dedic": {
    "poste": "RB",
    "statut": "Titulaire",
-   "minutes": 2970,
+   "minutes": 5670,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 1,
    "tirs_cadres": 1,
-   "fautes_commises": 4,
+   "fautes_commises": 28,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 6,
+   "goals_conceded": 36,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "Yellow"
   },
   "Ivan Basic": {
@@ -2183,7 +2183,7 @@
    "shots_faced": 0,
    "goals_conceded": 5,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Benjamin Tahirovic": {
@@ -2199,7 +2199,7 @@
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Amar Memic": {
@@ -2215,7 +2215,7 @@
    "shots_faced": 0,
    "goals_conceded": 4,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Esmir Bajraktarevic": {
@@ -2231,7 +2231,7 @@
    "shots_faced": 0,
    "goals_conceded": 5,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Jovo Lukic": {
@@ -2247,29 +2247,29 @@
    "shots_faced": 0,
    "goals_conceded": 2,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "Yellow"
   },
   "Ermedin Demirovic": {
    "poste": "CF-L",
    "statut": "Titulaire",
-   "minutes": 3056,
+   "minutes": 5756,
    "buts": 0,
    "passes_dec": 0,
-   "tirs": 27,
-   "tirs_cadres": 27,
-   "fautes_commises": 38,
+   "tirs": 57,
+   "tirs_cadres": 57,
+   "fautes_commises": 68,
    "hors_jeu": 1,
    "shots_faced": 0,
-   "goals_conceded": 5,
+   "goals_conceded": 35,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "Yellow"
   },
   "Edin Dzeko": {
    "poste": "CF-R",
    "statut": "Titulaire",
-   "minutes": 2918,
+   "minutes": 5618,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 3,
@@ -2277,9 +2277,9 @@
    "fautes_commises": 1,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 2,
+   "goals_conceded": 32,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "Yellow"
   },
   "Martin Zlomislic": {
@@ -2295,7 +2295,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Mladen Jurkas": {
@@ -2311,7 +2311,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Samed Bazdar": {
@@ -2327,7 +2327,7 @@
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Amir Hadziahmetovic": {
@@ -2343,7 +2343,7 @@
    "shots_faced": 0,
    "goals_conceded": 2,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Ermin Mahmic": {
@@ -2359,13 +2359,13 @@
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "Yellow"
   },
   "Armin Gigovic": {
    "poste": "CM-R",
    "statut": "Titulaire",
-   "minutes": 2818,
+   "minutes": 5518,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -2373,15 +2373,15 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 2,
+   "goals_conceded": 32,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Stjepan Radeljic": {
    "poste": "CD-L",
    "statut": "Titulaire",
-   "minutes": 2880,
+   "minutes": 5580,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 1,
@@ -2389,9 +2389,9 @@
    "fautes_commises": 0,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 2,
+   "goals_conceded": 32,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Dzenis Burnic": {
@@ -2407,13 +2407,13 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Kerim Alajbegovic": {
    "poste": "CM-L",
    "statut": "Titulaire",
-   "minutes": 2978,
+   "minutes": 5678,
    "buts": 1,
    "passes_dec": 0,
    "tirs": 2,
@@ -2421,9 +2421,9 @@
    "fautes_commises": 4,
    "hors_jeu": 1,
    "shots_faced": 0,
-   "goals_conceded": 6,
+   "goals_conceded": 36,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Arjan Malic": {
@@ -2439,7 +2439,7 @@
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Dennis Hadzikadunic": {
@@ -2455,7 +2455,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Haris Tabakovic": {
@@ -2471,23 +2471,23 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Ivan Sunjic": {
    "poste": "CM",
    "statut": "Titulaire",
-   "minutes": 2937,
+   "minutes": 5637,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 1,
    "tirs_cadres": 1,
-   "fautes_commises": 47,
+   "fautes_commises": 107,
    "hors_jeu": 0,
    "shots_faced": 0,
-   "goals_conceded": 5,
+   "goals_conceded": 35,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Nihad Mujakic": {
@@ -2503,7 +2503,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   }
  },
@@ -5021,23 +5021,23 @@
   "Matt Freese": {
    "poste": "G",
    "statut": "Titulaire",
-   "minutes": 2970,
+   "minutes": 5670,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
    "fautes_commises": 0,
-   "saves": 27,
+   "saves": 57,
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Tim Ream": {
    "poste": "CD-L",
    "statut": "Titulaire",
-   "minutes": 2970,
+   "minutes": 5670,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
@@ -5047,45 +5047,45 @@
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Chris Richards": {
    "poste": "CD-R",
    "statut": "Titulaire",
-   "minutes": 2970,
+   "minutes": 5670,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 1,
    "tirs_cadres": 0,
-   "fautes_commises": 15,
+   "fautes_commises": 45,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "Yellow"
   },
   "Antonee Robinson": {
    "poste": "LB",
    "statut": "Titulaire",
-   "minutes": 2960,
+   "minutes": 5660,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 2,
    "tirs_cadres": 0,
-   "fautes_commises": 13,
+   "fautes_commises": 43,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "Yellow"
   },
   "Alex Freeman": {
    "poste": "RB",
    "statut": "Titulaire",
-   "minutes": 2983,
+   "minutes": 5683,
    "buts": 1,
    "passes_dec": 1,
    "tirs": 1,
@@ -5095,13 +5095,13 @@
    "shots_faced": 0,
    "goals_conceded": 2,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Weston McKennie": {
    "poste": "RM",
    "statut": "Titulaire",
-   "minutes": 3056,
+   "minutes": 5756,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 5,
@@ -5111,13 +5111,13 @@
    "shots_faced": 0,
    "goals_conceded": 3,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Malik Tillman": {
    "poste": "LM",
    "statut": "Titulaire",
-   "minutes": 2966,
+   "minutes": 5666,
    "buts": 0,
    "passes_dec": 1,
    "tirs": 5,
@@ -5127,71 +5127,71 @@
    "shots_faced": 0,
    "goals_conceded": 2,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Tyler Adams": {
    "poste": "CM",
    "statut": "Titulaire",
-   "minutes": 2970,
+   "minutes": 5670,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 0,
    "tirs_cadres": 0,
-   "fautes_commises": 7,
+   "fautes_commises": 38,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "Yellow"
   },
   "Folarin Balogun": {
    "poste": "F",
    "statut": "Titulaire",
-   "minutes": 2952,
-   "buts": 3,
+   "minutes": 5652,
+   "buts": 33,
    "passes_dec": 0,
-   "tirs": 30,
-   "tirs_cadres": 4,
+   "tirs": 142,
+   "tirs_cadres": 34,
    "fautes_commises": 2,
-   "hors_jeu": 12,
+   "hors_jeu": 42,
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "Yellow"
   },
   "Christian Pulisic": {
    "poste": "LF",
    "statut": "Titulaire",
-   "minutes": 2867,
+   "minutes": 5567,
    "buts": 0,
    "passes_dec": 1,
-   "tirs": 33,
+   "tirs": 63,
    "tirs_cadres": 2,
-   "fautes_commises": 1,
+   "fautes_commises": 5,
    "hors_jeu": 1,
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 33,
+   "matchs_2026": 63,
    "cartons": "\u2014"
   },
   "Sergi\u00f1o Dest": {
    "poste": "RF",
    "statut": "Titulaire",
-   "minutes": 2956,
+   "minutes": 5656,
    "buts": 0,
    "passes_dec": 0,
    "tirs": 3,
    "tirs_cadres": 1,
-   "fautes_commises": 10,
+   "fautes_commises": 40,
    "hors_jeu": 0,
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Alejandro Zendejas": {
@@ -5207,7 +5207,7 @@
    "shots_faced": 0,
    "goals_conceded": 1,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Sebastian Berhalter": {
@@ -5223,7 +5223,7 @@
    "shots_faced": 0,
    "goals_conceded": 4,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "Yellow"
   },
   "Ricardo Pepi": {
@@ -5239,7 +5239,7 @@
    "shots_faced": 0,
    "goals_conceded": 4,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Cristian Roldan": {
@@ -5287,7 +5287,7 @@
    "shots_faced": 0,
    "goals_conceded": 2,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Max Arfsten": {
@@ -5303,7 +5303,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Matt Turner": {
@@ -5319,7 +5319,7 @@
    "shots_faced": 0,
    "goals_conceded": 3,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Haji Wright": {
@@ -5335,7 +5335,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Chris Brady": {
@@ -5351,7 +5351,7 @@
    "shots_faced": 0,
    "goals_conceded": 0,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Brenden Aaronson": {
@@ -5367,7 +5367,7 @@
    "shots_faced": 0,
    "goals_conceded": 2,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Giovanni Reyna": {
@@ -5383,7 +5383,7 @@
    "shots_faced": 0,
    "goals_conceded": 2,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Timothy Weah": {
@@ -5399,7 +5399,7 @@
    "shots_faced": 0,
    "goals_conceded": 3,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Miles Robinson": {
@@ -5415,7 +5415,7 @@
    "shots_faced": 0,
    "goals_conceded": 3,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   },
   "Auston Trusty": {
@@ -5431,7 +5431,7 @@
    "shots_faced": 0,
    "goals_conceded": 3,
    "note": 0,
-   "matchs_2026": 34,
+   "matchs_2026": 64,
    "cartons": "\u2014"
   }
  },

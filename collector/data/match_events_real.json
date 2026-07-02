@@ -48444,6 +48444,51 @@
     "minute": 45,
     "text": "Goal! USA 1, Bosnia and Herzegovina 0. Folarin Balogun (USA) left footed shot from the centre of the box to the centre of the goal.",
     "type": "Goal"
+   },
+   {
+    "minute": 45,
+    "text": "Fourth official has announced 5 minutes of added time.",
+    "type": ""
+   },
+   {
+    "minute": 45,
+    "text": "Delay in match because of an injury Tyler Adams (USA).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 45,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 45,
+    "text": "Foul by Amar Dedic (Bosnia and Herzegovina).",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Christian Pulisic (USA) wins a free kick on the left wing.",
+    "type": "Foul"
+   },
+   {
+    "minute": 45,
+    "text": "Folarin Balogun (USA) hits the bar with a right footed shot from very close range. Assisted by Sergi\u00f1o Dest with a headed pass.",
+    "type": "Shot Hit Woodwork"
+   },
+   {
+    "minute": 45,
+    "text": "Delay in match (USA).",
+    "type": "Start Delay"
+   },
+   {
+    "minute": 45,
+    "text": "Delay over. They are ready to continue.",
+    "type": "End Delay"
+   },
+   {
+    "minute": 45,
+    "text": "First Half ends, USA 1, Bosnia and Herzegovina 0.",
+    "type": ""
    }
   ],
   "halftime": "0-1",
