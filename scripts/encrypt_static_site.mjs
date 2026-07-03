@@ -42,7 +42,7 @@ function renderLockedPage(payload, pageName) {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<title>PronoFoot - acces limite</title>
+<title>PronoFoot - acces prive</title>
 <style>
   :root{color-scheme:dark;--bg:#071019;--panel:#101c2b;--line:#26384f;--txt:#edf6ff;--muted:#8ba0b7;--acc:#34d399;--bad:#fb7185}
   *{box-sizing:border-box}
@@ -61,15 +61,15 @@ function renderLockedPage(payload, pageName) {
 </head>
 <body>
 <main>
-  <h1>PronoFoot</h1>
-  <p>Acces limite. Entre le code fourni par le proprietaire pour ouvrir ${pageName === "scouting.html" ? "le scouting" : "le dashboard"}.</p>
+  <h1>PronoFoot prive</h1>
+  <p>Cette version est protegee. Entre le code que le proprietaire t'a donne pour ouvrir ${pageName === "scouting.html" ? "le scouting" : "le dashboard"}.</p>
   <form id="gate">
     <label for="pass">Code d'acces</label>
-    <input id="pass" type="password" autocomplete="current-password" autofocus>
-    <button id="btn" type="submit">Ouvrir</button>
+    <input id="pass" name="pass" type="password" autocomplete="current-password" aria-label="Code d'acces" autofocus>
+    <button id="btn" type="submit">Deverrouiller</button>
     <div class="err" id="err" role="alert"></div>
   </form>
-  <div class="hint">Le site reste 100% gratuit, mais son contenu n'est pas publie en clair.</div>
+  <div class="hint">Le lien seul ne suffit pas : il faut aussi le code d'acces.</div>
 </main>
 <script id="payload" type="application/json">${payloadJson.replace(/</g, "\\u003c")}</script>
 <script>
@@ -109,7 +109,7 @@ form.addEventListener("submit", async (event)=>{
     document.write(text);
     document.close();
   }catch(e){
-    err.textContent = "Code incorrect.";
+    err.textContent = "Code incorrect. Verifie le code recu.";
     btn.disabled = false;
     input.select();
   }
