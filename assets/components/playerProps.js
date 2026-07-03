@@ -37,16 +37,26 @@ export function scorersVsBlock(m){
   const norm=s=>(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().trim();
   const last=s=>{const n=norm(s).split(" ");return n[n.length-1]||"";};
   const realScorers=goals.map(g=>g.player);
+  const realAssists=goals.filter(g=>g.assist).map(g=>({name:g.assist, team:g.team, minute:g.minute, scorer:g.player}));
   const realLast=new Set(realScorers.map(last));
+  const realAssistLast=new Set(realAssists.map(a=>last(a.name)));
   const picks=[];
+  const assistPicks=[];
   for(const side of ["home","away"]){
-    const t=pp[side]||{}; const sc=t.scorers||[];
+    const t=pp[side]||{}; const sc=t.scorers||[]; const ast=t.assisters||[];
     (Array.isArray(sc)?sc:[]).slice(0,3).forEach(x=>picks.push({team:m[side],name:x.name,prob:x.p}));
+    (Array.isArray(ast)?ast:[]).slice(0,3).forEach(x=>assistPicks.push({team:m[side],name:x.name,prob:x.p}));
   }
   const goalRows=goals.map(g=>{
     const pred=picks.some(x=>last(x.name)===last(g.player));
-    const ast = g.assist ? ` <small style="color:var(--muted)">(passe: ${g.assist})</small>` : '';
-    return `<div class="stat"><span>${g.minute}' <b>${g.player}</b>${ast} <small style="color:var(--muted)">(${g.team})</small></span>
+    const ast = g.assist ? `<br><small style="color:var(--muted)">Passe decisive : <b>${g.assist}</b></small>` : `<br><small style="color:var(--muted)">Passe decisive : N/D</small>`;
+    const note = g.note ? ` <small style="color:var(--muted)">- ${g.note}</small>` : "";
+    return `<div class="stat"><span>${g.minute}' <b>${g.player}</b>${note} <small style="color:var(--muted)">(${g.team})</small>${ast}</span>
+      <span>${pred?'<span class="vs-chip win">✅ prédit</span>':'<span class="vs-chip lose">—</span>'}</span></div>`;
+  }).join("");
+  const assistRows=realAssists.map(a=>{
+    const pred=assistPicks.some(x=>last(x.name)===last(a.name));
+    return `<div class="stat"><span>${a.minute}' <b>${a.name}</b> <small style="color:var(--muted)">pour ${a.scorer} (${a.team})</small></span>
       <span>${pred?'<span class="vs-chip win">✅ prédit</span>':'<span class="vs-chip lose">—</span>'}</span></div>`;
   }).join("");
   const pickRows=picks.map(x=>{
@@ -55,10 +65,22 @@ export function scorersVsBlock(m){
     return `<div class="stat"><span>${nm} <small style="color:var(--muted)">(${x.team})</small>${prob}</span>
       <span>${hit?'<span class="vs-chip win">✅ a marqué</span>':'<span class="vs-chip lose">❌</span>'}</span></div>`;
   }).join("");
-  return `<div class="module mod-players"><h3>🎯 Buteurs : prono vs réel</h3>
+  const assistPickRows=assistPicks.map(x=>{
+    const nm=x.name; const hit=realAssistLast.has(last(nm));
+    const prob=x.prob!=null?` <small>${Math.round(x.prob*100)}%</small>`:"";
+    return `<div class="stat"><span>${nm} <small style="color:var(--muted)">(${x.team})</small>${prob}</span>
+      <span>${hit?'<span class="vs-chip win">✅ passe déc.</span>':'<span class="vs-chip lose">❌</span>'}</span></div>`;
+  }).join("");
+  return `<div class="module mod-players"><h3>🎯 Buteurs & passeurs : prono vs réel</h3>
     <div class="grid2">
-      <div><h4 style="margin:4px 0;font-size:13px">⚽ Buts réels du match</h4>${goalRows||'<div class="note">Aucun but.</div>'}</div>
-      <div><h4 style="margin:4px 0;font-size:13px">🔮 Buteurs pronostiqués (top 3/équipe)</h4>${pickRows||'<div class="note">N/D</div>'}</div>
+      <div>
+        <h4 style="margin:4px 0;font-size:13px">⚽ Buts réels du match</h4>${goalRows||'<div class="note">Aucun but.</div>'}
+        <h4 style="margin:10px 0 4px;font-size:13px">Passes décisives réelles</h4>${assistRows||'<div class="note">Aucune passe décisive officielle/N.D.</div>'}
+      </div>
+      <div>
+        <h4 style="margin:4px 0;font-size:13px">🔮 Buteurs pronostiqués (top 3/équipe)</h4>${pickRows||'<div class="note">N/D</div>'}
+        <h4 style="margin:10px 0 4px;font-size:13px">Passeurs pronostiqués (top 3/équipe)</h4>${assistPickRows||'<div class="note">N/D</div>'}
+      </div>
     </div>
     <div class="note" style="margin-top:6px">Le modèle donne des <b>probabilités</b>, pas des certitudes : un buteur non prédit reste un résultat normal.</div>
   </div>`;

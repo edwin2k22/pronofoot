@@ -12,7 +12,7 @@ Noms d'équipe ESPN ≈ nomenclature de la base (Ivory Coast, United States, Cze
 Un mapping corrige les rares écarts.
 """
 from __future__ import annotations
-import json, urllib.request, datetime
+import json, urllib.request, datetime, re, unicodedata
 
 BASE = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world"
 UA = {"User-Agent": "Mozilla/5.0 (PronoFoot data collector)"}
@@ -25,6 +25,9 @@ TEAM_MAP = {
     "Korea Republic": "South Korea", "IR Iran": "Iran", "Cabo Verde": "Cape Verde",
     "Curacao": "Curaçao", "DR Congo": "DR Congo",
     "Bosnia-Herzegovina": "Bosnia & Herzegovina",
+    "Bosnia and Herzegovina": "Bosnia & Herzegovina",
+    "Côte d'Ivoire": "Ivory Coast", "Cote d'Ivoire": "Ivory Coast",
+    "Côte d’Ivoire": "Ivory Coast", "Cote d’Ivoire": "Ivory Coast",
 }
 
 
@@ -129,6 +132,111 @@ def _xg_estimate(shots, shots_on):
         return round(so * 0.11 + off_target * 0.036, 2)
     except (TypeError, ValueError):
         return None
+
+
+def _clean_name(value):
+    return re.sub(r"\s+", " ", (value or "").strip(" .")).strip()
+
+
+def _key_text(value):
+    text = unicodedata.normalize("NFD", _clean_name(value))
+    text = "".join(ch for ch in text if unicodedata.category(ch) != "Mn")
+    return re.sub(r"[^a-z0-9]+", " ", text.lower()).strip()
+
+
+def _team_key(value):
+    aliases = {
+        "bosnia and herzegovina": "bosnia herzegovina",
+        "bosnia herzegovina": "bosnia herzegovina",
+        "cote d ivoire": "ivory coast",
+    }
+    key = _key_text(_norm(value))
+    return aliases.get(key, key)
+
+
+def _goal_signature(goal):
+    return (
+        int(goal.get("minute") or 0),
+        _team_key(goal.get("team")),
+        _key_text(goal.get("player")),
+    )
+
+
+def _goal_loose_signature(goal):
+    player_key = _key_text(goal.get("player"))
+    last = player_key.split()[-1] if player_key else player_key
+    return (
+        int(goal.get("minute") or 0),
+        _team_key(goal.get("team")),
+        last,
+    )
+
+
+def _goal_from_commentary(comment):
+    text = comment.get("text") or ""
+    if not text.startswith("Goal!"):
+        return None
+
+    parts = text.split(".", 1)
+    if len(parts) < 2:
+        return None
+    detail = parts[1].strip()
+
+    match = re.match(r"(?P<player>.+?)\s+\((?P<team>[^)]+)\)\s+(?P<body>.*)", detail)
+    if not match:
+        match = re.match(r"Own Goal by\s+(?P<player>.+?),\s*(?P<team>[^.]+)\.", detail)
+    if not match:
+        return None
+
+    player = _clean_name(match.group("player"))
+    if player.lower().startswith("own goal by "):
+        player = _clean_name(player[12:])
+    team = _norm(_clean_name(match.group("team")))
+    lower_text = text.lower()
+    play_type = (comment.get("type") or "").lower()
+
+    assist = None
+    assist_match = re.search(r"\bAssisted by\s+(.+?)(?:\s+with\b|\s+following\b|\.|$)", text)
+    if assist_match:
+        assist = _clean_name(assist_match.group(1))
+
+    note = None
+    if "own goal" in lower_text:
+        note = "but contre son camp"
+    elif "penalty" in lower_text or "penalty" in play_type:
+        note = "penalty"
+
+    return {
+        "minute": int(comment.get("minute") or 0),
+        "team": team,
+        "player": player,
+        "assist": assist,
+        "note": note,
+    }
+
+
+def _merge_commentary_goals(goals, commentary):
+    merged = []
+    seen = set()
+    seen_loose = set()
+
+    def add_goal(goal):
+        if not goal:
+            return
+        sig = _goal_signature(goal)
+        loose_sig = _goal_loose_signature(goal)
+        if sig in seen or loose_sig in seen_loose:
+            return
+        merged.append(goal)
+        seen.add(sig)
+        seen_loose.add(loose_sig)
+
+    for goal in goals or []:
+        add_goal(goal)
+    for comment in commentary or []:
+        add_goal(_goal_from_commentary(comment))
+    merged.sort(key=lambda goal: (int(goal.get("minute") or 0), goal.get("team") or "", goal.get("player") or ""))
+    return merged
 
 
 def match_summary(event_id):
@@ -352,6 +460,7 @@ def match_summary(event_id):
             "type": play_type
         })
     out["events"]["commentary"] = commentary_list
+    out["events"]["goals"] = _merge_commentary_goals(out["events"].get("goals"), commentary_list)
     
     return out
 

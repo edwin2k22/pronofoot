@@ -33,17 +33,20 @@ def _load(path):
 
 def _save(path, data):
     import time
+    tmp_path = f"{path}.tmp"
     for _ in range(5):
         try:
-            with open(path, "w", encoding="utf-8") as f:
+            with open(tmp_path, "w", encoding="utf-8") as f:
                 json.dump(data, f, ensure_ascii=True, indent=1)
+            os.replace(tmp_path, path)
             return
         except OSError as e:
             time.sleep(0.5)
             last_err = e
     print(f"Failed to save {path}: {last_err}")
-    with open(path, "w", encoding="utf-8") as f:
+    with open(tmp_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=True, indent=1)
+    os.replace(tmp_path, path)
 
 
 def _match_date(date_str):
