@@ -830,6 +830,20 @@ def _build_market_intelligence(conn, mt, res, goals, corn, cards, confidence):
             if fav_profile["gfAvg"] <= 1.0 and dog_profile["cleanRate"] is not None and dog_profile["cleanRate"] >= 0.45:
                 impact -= 2
                 bits.append(f"{fav_name} attaque peu ({fav_profile['gfAvg']} buts/m) face a une defense souvent clean")
+            elif fav_profile["gfAvg"] <= 1.35 and dog_profile["cleanRate"] is not None and dog_profile["cleanRate"] >= 0.38:
+                impact -= 1
+                bits.append(f"favori pas assez tranchant ({fav_profile['gfAvg']} buts/m) face a une defense clean")
+        draw_prob = res.get("pX", 0) or 0
+        if fav_prob >= 0.62 and draw_prob >= 0.18:
+            impact -= 1
+            bits.append(f"nul encore dangereux ({_pct_int(draw_prob)}%) malgre le favori")
+        elif fav_prob >= 0.72 and draw_prob >= 0.14:
+            impact -= 1
+            bits.append(f"favori fort mais nul non negligeable ({_pct_int(draw_prob)}%)")
+        if (dog_profile["gaAvg"] is not None and dog_profile["gaAvg"] <= 0.9
+                and dog_profile["concededRate"] is not None and dog_profile["concededRate"] <= 0.55):
+            impact -= 1
+            bits.append("outsider encaisse peu recemment")
         if bits:
             checks.append(_market_check("1N2", fav_name, fav_prob, _verdict_from_impact(impact), impact, "; ".join(bits)))
 
@@ -853,6 +867,15 @@ def _build_market_intelligence(conn, mt, res, goals, corn, cards, confidence):
             impact -= 1; bits.append("deux defenses recentes solides")
         if (not pick_over) and hp["gaAvg"] is not None and ap["gaAvg"] is not None and (hp["gaAvg"] >= 1.8 or ap["gaAvg"] >= 1.8):
             impact -= 1; bits.append("au moins une defense recente fragile")
+        scored_min = min(v for v in (hp["scoredRate"], ap["scoredRate"]) if v is not None) if hp["scoredRate"] is not None and ap["scoredRate"] is not None else None
+        btts_signal = goals.get("btts")
+        fav_prob_main = max(res.get("p1", 0) or 0, res.get("p2", 0) or 0)
+        if pick_over and scored_min is not None and scored_min <= 0.55:
+            impact -= 1; bits.append("une equipe marque rarement recemment")
+        if pick_over and btts_signal is not None and btts_signal < 0.48 and trend is not None and trend <= 0.55:
+            impact -= 1; bits.append(f"Over porte par clean sheet, BTTS modele {_pct_int(btts_signal)}%")
+        if pick_over and fav_prob_main >= 0.70 and scored_min is not None and scored_min <= 0.60:
+            impact -= 1; bits.append("favori fort + outsider peu buteur")
         if bits:
             checks.append(_market_check("OU", "Over 2.5" if pick_over else "Under 2.5",
                                         over_prob if pick_over else 1 - over_prob,
@@ -864,9 +887,15 @@ def _build_market_intelligence(conn, mt, res, goals, corn, cards, confidence):
         pick_yes = btts_prob >= 0.5
         trend = _avg_known(hp["bttsRate"], ap["bttsRate"])
         scored_min = min(v for v in (hp["scoredRate"], ap["scoredRate"]) if v is not None) if hp["scoredRate"] is not None and ap["scoredRate"] is not None else None
+        conceded_min = min(v for v in (hp["concededRate"], ap["concededRate"]) if v is not None) if hp["concededRate"] is not None and ap["concededRate"] is not None else None
         clean_max = max(v for v in (hp["cleanRate"], ap["cleanRate"]) if v is not None) if hp["cleanRate"] is not None and ap["cleanRate"] is not None else None
         impact = 0
         bits = []
+        side_prob = btts_prob if pick_yes else 1 - btts_prob
+        if side_prob < 0.58:
+            impact -= 2; bits.append(f"BTTS trop proche du 50/50 ({_pct_int(side_prob)}%)")
+        elif side_prob < 0.63:
+            impact -= 1; bits.append(f"BTTS encore serre ({_pct_int(side_prob)}%)")
         if trend is not None:
             if pick_yes and trend >= 0.65:
                 impact += 1; bits.append(f"BTTS recent moyen {_pct_int(trend)}%")
@@ -878,8 +907,14 @@ def _build_market_intelligence(conn, mt, res, goals, corn, cards, confidence):
                 impact -= 2; bits.append(f"BTTS recent eleve ({_pct_int(trend)}%)")
         if pick_yes and scored_min is not None and scored_min <= 0.45:
             impact -= 1; bits.append("une equipe marque rarement")
+        if pick_yes and clean_max is not None and clean_max >= 0.45:
+            impact -= 1; bits.append("clean sheet frequent d'un cote")
+        if pick_yes and conceded_min is not None and conceded_min <= 0.55:
+            impact -= 1; bits.append("une equipe concede rarement")
         if (not pick_yes) and clean_max is not None and clean_max >= 0.55:
             impact += 1; bits.append("clean sheets frequents d'un cote")
+        if (not pick_yes) and scored_min is not None and scored_min >= 0.80 and trend is not None and trend >= 0.55:
+            impact -= 1; bits.append("deux equipes marquent souvent")
         if bits:
             checks.append(_market_check("BTTS", "BTTS Oui" if pick_yes else "BTTS Non",
                                         btts_prob if pick_yes else 1 - btts_prob,

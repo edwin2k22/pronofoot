@@ -458,13 +458,24 @@ function marketGuard(m, c){
   const aliases = {
     DNB: ["DNB", "1N2"],
     "1N2": ["1N2"],
+    "O/U": ["OU"],
     OU: ["OU"],
     BTTS: ["BTTS"],
     CORNERS: ["CORNERS"],
     CARTONS: ["CARTONS"],
   };
   const markets = aliases[c?.market] || [c?.market];
-  return checks.find(x=>markets.includes(x.market) && x.verdict==="avoid") || null;
+  const blocked = {
+    "1N2": ["avoid", "watch"],
+    "O/U": ["avoid", "watch"],
+    OU: ["avoid", "watch"],
+    BTTS: ["avoid", "watch"],
+    DNB: ["avoid"],
+    DC: ["avoid"],
+    CORNERS: ["avoid"],
+    CARTONS: ["avoid"],
+  }[c?.market] || ["avoid"];
+  return checks.find(x=>markets.includes(x.market) && blocked.includes(x.verdict)) || null;
 }
 
 function pickCandidate(m, market){

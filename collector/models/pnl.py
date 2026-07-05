@@ -23,6 +23,14 @@ def _edge_threshold(market, extra=0.0):
     return VALUE_EDGE_MIN.get(market, 0.15) + extra
 
 
+def _market_guard(m, market):
+    try:
+        from collector.models import best_picks
+        return best_picks.market_guard(m, market)
+    except Exception:
+        return None
+
+
 def _outcome(a):
     hg, ag = map(int, a["realScore"].split("-"))
     return "1" if hg > ag else ("2" if ag > hg else "X")
@@ -43,7 +51,7 @@ def value_pnl(matches, edge_min=0.0):
         p = m["prediction"]
         
         # 1N2
-        if has_1n2:
+        if has_1n2 and not _market_guard(m, "1N2"):
             o = _outcome(m["analysis"])
             for k, odd in (("1", m["odd1"]), ("X", m["oddX"]), ("2", m["odd2"])):
                 pm = {"1": p["p1"], "X": p["pX"], "2": p["p2"]}[k]
@@ -55,7 +63,7 @@ def value_pnl(matches, edge_min=0.0):
                         pnl -= 1
                         
         # Over/Under
-        if has_ou:
+        if has_ou and not _market_guard(m, "OU"):
             ou_line = str(m["oddOU_line"])
             if ou_line in p.get("overUnder", {}):
                 ou_probs = p["overUnder"][ou_line]
@@ -72,7 +80,7 @@ def value_pnl(matches, edge_min=0.0):
                             pnl -= 1
 
         # BTTS
-        if m.get("oddBTTS_Yes") and m.get("oddBTTS_No"):
+        if m.get("oddBTTS_Yes") and m.get("oddBTTS_No") and not _market_guard(m, "BTTS"):
             real_btts = "yes" if m["analysis"]["homeGF"] > 0 and m["analysis"]["awayGF"] > 0 else "no"
             for k, odd in (("yes", m["oddBTTS_Yes"]), ("no", m["oddBTTS_No"])):
                 pm = p.get("btts") if k == "yes" else (1 - p.get("btts", 0))
@@ -170,7 +178,7 @@ def top_value_bets(matches, top=3, edge_min=0.0):
         home, away = m["home"], m["away"]
         
         # 1N2
-        if has_1n2:
+        if has_1n2 and not _market_guard(m, "1N2"):
             for k, odd, label in (("1", m["odd1"], f"Victoire {home}"),
                                   ("X", m["oddX"], "Match nul"),
                                   ("2", m["odd2"], f"Victoire {away}")):
@@ -189,7 +197,7 @@ def top_value_bets(matches, top=3, edge_min=0.0):
                     })
                     
         # Over/Under
-        if has_ou:
+        if has_ou and not _market_guard(m, "OU"):
             ou_line = str(m["oddOU_line"])
             if ou_line in p.get("overUnder", {}):
                 ou_probs = p["overUnder"][ou_line]
@@ -209,7 +217,7 @@ def top_value_bets(matches, top=3, edge_min=0.0):
                         })
                         
         # BTTS
-        if has_btts and p.get("btts"):
+        if has_btts and p.get("btts") and not _market_guard(m, "BTTS"):
             for k, odd, label in (("yes", m["oddBTTS_Yes"], "Les deux marquent : Oui"),
                                   ("no", m["oddBTTS_No"], "Les deux marquent : Non")):
                 pm = p["btts"] if k == "yes" else (1 - p["btts"])

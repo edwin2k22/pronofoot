@@ -55,3 +55,45 @@ def test_market_intelligence_supports_over_when_both_profiles_are_open():
     ou = next(c for c in intel["checks"] if c["market"] == "OU")
     assert ou["verdict"] == "support"
     assert intel["adjustedConfidence"] > 0.70
+
+
+def test_market_intelligence_flags_favorite_draw_trap():
+    conn = db.init_db(":memory:")
+    for day in range(1, 5):
+        _finish(conn, "FavA", f"Rival{day}", 1, 0, day=day)
+        _finish(conn, "DogB", f"Other{day}", 0, 0, day=day)
+
+    intel = _build_market_intelligence(
+        conn,
+        {"home": "FavA", "away": "DogB"},
+        {"p1": 0.72, "pX": 0.18, "p2": 0.10},
+        {"over": 0.46, "btts": 0.34},
+        None,
+        None,
+        0.82,
+    )
+
+    one_x_two = next(c for c in intel["checks"] if c["market"] == "1N2")
+    assert one_x_two["verdict"] == "avoid"
+    assert "1N2" in intel["noBetMarkets"]
+
+
+def test_market_intelligence_blocks_close_btts_probability():
+    conn = db.init_db(":memory:")
+    for day in range(1, 5):
+        _finish(conn, "CoinA", f"Rival{day}", 1, 1 if day % 2 else 0, day=day)
+        _finish(conn, "CoinB", f"Other{day}", 1 if day % 2 else 0, 1, day=day)
+
+    intel = _build_market_intelligence(
+        conn,
+        {"home": "CoinA", "away": "CoinB"},
+        {"p1": 0.41, "pX": 0.29, "p2": 0.30},
+        {"over": 0.49, "btts": 0.57},
+        None,
+        None,
+        0.74,
+    )
+
+    btts = next(c for c in intel["checks"] if c["market"] == "BTTS")
+    assert btts["verdict"] == "avoid"
+    assert "BTTS" in intel["noBetMarkets"]

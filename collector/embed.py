@@ -39,7 +39,14 @@ def _inject(html_path, data_path, marker_id, label):
     html = rx.sub(lambda m: m.group(1) + payload + m.group(3), html)
     with open(html_path, "w", encoding="utf-8") as f:
         f.write(html)
-    cnt = len(data) if isinstance(data, list) else (len(data.get("picks", [])) if isinstance(data, dict) else 0)
+    if isinstance(data, list):
+        cnt = len(data)
+    elif isinstance(data, dict) and "picks" in data:
+        cnt = len(data.get("picks", []))
+    elif isinstance(data, dict) and label == "PnL/ROI":
+        cnt = (data.get("value") or {}).get("bets", len(data))
+    else:
+        cnt = len(data) if isinstance(data, dict) else 0
     print(f"✅ {cnt} {label} embarqués dans {os.path.basename(html_path)} ({len(payload)//1024} Ko).")
     return True
 

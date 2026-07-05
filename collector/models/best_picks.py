@@ -125,11 +125,25 @@ def _best_ou_line(lines, unit):
 # très haute ; les marchés sûrs (DNB, CARTONS) sont accessibles plus bas.
 LOCK_BY_MARKET = {
     "CARTONS": 0.62, "DNB": 0.66, "OU": 0.72, "TIRS": 0.80,
-    "BTTS": 0.80, "CORNERS": 0.80, "DC": 0.80, "1N2": 0.97,
+    "BTTS": 0.86, "CORNERS": 0.80, "DC": 0.80, "1N2": 0.97,
 }
 STRONG_BY_MARKET = {
     "CARTONS": 0.55, "DNB": 0.60, "OU": 0.66, "TIRS": 0.72,
-    "BTTS": 0.70, "CORNERS": 0.70, "DC": 0.72, "1N2": 0.85,
+    "BTTS": 0.75, "CORNERS": 0.70, "DC": 0.72, "1N2": 0.85,
+}
+VALUE_BY_MARKET = {
+    # 1N2 et BTTS ont produit trop de faux signaux faibles: on ne les expose plus
+    # en "value" si la proba n'est pas vraiment nette.
+    "BTTS": 0.72, "1N2": 0.78, "OU": 0.68,
+}
+GUARD_BLOCK_BY_MARKET = {
+    "1N2": {"avoid", "watch"},
+    "OU": {"avoid", "watch"},
+    "BTTS": {"avoid", "watch"},
+    "DNB": {"avoid"},
+    "DC": {"avoid"},
+    "CORNERS": {"avoid"},
+    "CARTONS": {"avoid"},
 }
 
 
@@ -140,7 +154,7 @@ def tier_of(prob, tiers=TIERS, market=None):
             return "lock"
         if prob >= STRONG_BY_MARKET[market]:
             return "strong"
-        if prob >= tiers["value"]:
+        if prob >= VALUE_BY_MARKET.get(market, tiers["value"]):
             return "value"
         return None
     if prob >= tiers["lock"]:
@@ -165,8 +179,9 @@ def market_guard(m, market):
         "CARTONS": {"CARTONS"},
     }
     targets = aliases.get(market, {market})
+    blocked = GUARD_BLOCK_BY_MARKET.get(market, {"avoid"})
     for check in checks:
-        if check.get("market") in targets and check.get("verdict") == "avoid":
+        if check.get("market") in targets and check.get("verdict") in blocked:
             return check
     return None
 
@@ -264,6 +279,8 @@ def measure_reliability(all_matches, tiers=TIERS):
     by_market = {}
     for m in finished:
         for pk in candidate_picks(m):
+            if market_guard(m, pk["market"]):
+                continue
             won = _pick_won(pk["market"], pk["label"], m)
             if won is None:
                 continue
