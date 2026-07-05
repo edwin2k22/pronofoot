@@ -4,6 +4,12 @@ import { pct, bioHtml } from '../core/utils.js';
 export function ppTeam(teamName, pp){
   if(!pp) return `<div class="risk-nd">Effectif indisponible — <b>N/D</b>.</div>`;
   const bar=(p)=>`<span class="pp-bar"><span class="pp-fill" style="width:${Math.round(p*100)}%"></span></span>`;
+  const compactRows=(items,label,unit)=> (items||[]).slice(0,3).map(x=>`<div class="pp-line">
+      <span class="pp-k">${label}</span>
+      <span><b>${x.name}</b> <span class="pp-pos">${x.poste||""}</span> · ${pct(x.p05)}
+      <small style="color:var(--muted)">~${x.expected} ${unit}</small>
+      <span class="pp-why-inline">${x.why||""}</span></span>
+    </div>`).join("");
   const scorers=(pp.scorers||[]).map((s,i)=>`<div class="pp-row">
       <span class="pp-rk">${i+1}</span>
       <span class="pp-nm">${s.name}<span class="pp-pos">${s.poste||""}</span>${s.bio?'<span class="pp-bio-tag">bio ✓</span>':''}</span>
@@ -16,6 +22,13 @@ export function ppTeam(teamName, pp){
     <span><b>${cr.name}</b> <span class="pp-pos">${cr.poste||""}</span> · ${pct(cr.p)} <span class="pp-why-inline">${cr.why||""}</span></span></div>`:"";
   const assisters=(pp.assisters||[]).slice(0,3).map(a=>`<div class="pp-line"><span class="pp-k">🅰️ Passeur</span>
     <span><b>${a.name}</b> <span class="pp-pos">${a.poste||""}</span> · ${pct(a.p)}</span></div>`).join("");
+  const mu=pp.matchup||{};
+  const matchup = mu.sample!=null ? `<div class="pp-line"><span class="pp-k">Matchup stats</span>
+    <span>${mu.shotLabel||"matchup neutre"} tirs (${mu.shotFactor||1}x) · ${mu.sotLabel||"neutre"} cadrés (${mu.sotFactor||1}x)</span></div>` : "";
+  const shotProps = compactRows(pp.shotProps,"Tir +0.5","tir(s)");
+  const shotOnProps = compactRows(pp.shotOnProps,"Cadré +0.5","cadré(s)");
+  const creatorProps = compactRows(pp.creatorProps,"Passe avant tir +0.5","création(s)");
+  const foulProps = compactRows(pp.foulProps,"Faute +0.5","faute(s)");
   const gk=pp.keeper;
   const keeper = gk?`<div class="pp-line"><span class="pp-k">🧤 Gardien sollicité</span>
     <span><b>${gk.name}</b>${gk.expSotFaced!=null?` · ~${gk.expSotFaced} tirs cadrés à gérer`:" · N/D"}
@@ -27,6 +40,7 @@ export function ppTeam(teamName, pp){
     : `<div class="pp-line"><span class="pp-k">🔄 Impact banc</span><span style="color:var(--muted)">N/D tant qu'aucun remplaçant n'a été décisif</span></div>`;
   return `<div class="pp-team"><div class="pp-team-h">${teamName}</div>
     <div class="pp-sub">⚽ Buteurs probables</div>${scorers||'<div class="risk-nd">N/D</div>'}
+    <div class="pp-sub">Stats joueur ajustées au matchup</div>${matchup}${shotProps}${shotOnProps}${creatorProps}${foulProps}
     ${creator}${assisters}${keeper}${benchHtml}</div>`;
 }
 

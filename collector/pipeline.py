@@ -36,6 +36,7 @@ from collector.models import availability as avail
 from collector.models import ensemble as ens
 from collector.models import calibrate as calib
 from collector.models import player_props as pprops
+from collector.models import commentary_profiles as cprof
 from collector.models import nlp_momentum as nlpm
 from collector.sources import player_bios as pbios
 from collector.sources import openfootball_wc as wc
@@ -574,6 +575,74 @@ def _attach_bios(pp):
             pp["keeper"]["bio"] = b
 
 
+def _needs_matchup_player_props(player_props):
+    if not isinstance(player_props, dict):
+        return True
+    for side in ("home", "away"):
+        side_props = player_props.get(side)
+        if not isinstance(side_props, dict) or not side_props.get("shotProps"):
+            return True
+    return False
+
+
+def _refresh_player_props_snapshot(match):
+    """Enriches preserved historical predictions without changing their market probabilities."""
+    pred = match.setdefault("prediction", {})
+    if not _needs_matchup_player_props(pred.get("playerProps")):
+        return
+
+    home, away = match.get("home"), match.get("away")
+    if not home or not away:
+        return
+
+    squads = _load_squads()
+    pstats = _load_player_stats()
+    shots = pred.get("shots") or {}
+    cards = pred.get("cards") or {}
+    lineups = pred.get("officialLineups") or pred.get("projectedLineups") or {}
+    old_props = pred.get("playerProps") if isinstance(pred.get("playerProps"), dict) else {}
+
+    def _num(value, default):
+        try:
+            return float(value)
+        except (TypeError, ValueError):
+            return default
+
+    def _xi(side):
+        camel = f"{side}Xi"
+        snake = f"{side}_xi"
+        return lineups.get(camel) or lineups.get(snake) or []
+
+    lam_h = _num(pred.get("lamHome"), _num(match.get("homeXG"), 1.0))
+    lam_a = _num(pred.get("lamAway"), _num(match.get("awayXG"), 1.0))
+    squad_home_key = _team_data_key(home, squads)
+    squad_away_key = _team_data_key(away, squads)
+    stats_home_key = _team_data_key(home, pstats)
+    stats_away_key = _team_data_key(away, pstats)
+
+    refreshed = {
+        "home": pprops.compute(
+            home, squads.get(squad_home_key), lam_h, lam_a,
+            stats_team=pstats.get(stats_home_key), lineup_xi=_xi("home"),
+            event_profile=cprof.matchup_profile(home, away),
+            exp_team_shots=shots.get("home"), exp_team_sot=shots.get("homeOn"),
+            exp_team_fouls=cards.get("foulsHome"),
+        ),
+        "away": pprops.compute(
+            away, squads.get(squad_away_key), lam_a, lam_h,
+            stats_team=pstats.get(stats_away_key), lineup_xi=_xi("away"),
+            event_profile=cprof.matchup_profile(away, home),
+            exp_team_shots=shots.get("away"), exp_team_sot=shots.get("awayOn"),
+            exp_team_fouls=cards.get("foulsAway"),
+        ),
+    }
+    for side in ("home", "away"):
+        if not refreshed.get(side):
+            refreshed[side] = old_props.get(side)
+        _attach_bios(refreshed.get(side))
+    pred["playerProps"] = refreshed
+
+
 def _learn_ensemble(rows):
     """
     Auto-apprentissage des poids d'ensemble.
@@ -1083,6 +1152,7 @@ def predict():
                 real_shots = _shots_from_analysis(old_p.get("analysis"))
                 if real_shots:
                     old_p.setdefault("prediction", {})["shots"] = real_shots
+            _refresh_player_props_snapshot(old_p)
             out.append(old_p)
             continue
 
@@ -1418,6 +1488,28 @@ def predict():
             if "shots_avg" in a.keys() and a["shots_avg"] is not None:
                 sm["shotsAvgAway"] = round(a["shots_avg"], 1)
             shots = sm
+
+        # Recalcule les pronos joueurs avec le volume de tirs/cadres du matchup.
+        event_home = cprof.matchup_profile(mt["home"], mt["away"])
+        event_away = cprof.matchup_profile(mt["away"], mt["home"])
+        player_props = {
+            "home": pprops.compute(
+                mt["home"], squads.get(squad_home_key), lam_h, lam_a,
+                stats_team=pstats.get(stats_home_key), lineup_xi=home_xi,
+                event_profile=event_home,
+                exp_team_shots=shots.get("home"), exp_team_sot=shots.get("homeOn"),
+                exp_team_fouls=cards.get("foulsHome"),
+            ),
+            "away": pprops.compute(
+                mt["away"], squads.get(squad_away_key), lam_a, lam_h,
+                stats_team=pstats.get(stats_away_key), lineup_xi=away_xi,
+                event_profile=event_away,
+                exp_team_shots=shots.get("away"), exp_team_sot=shots.get("awayOn"),
+                exp_team_fouls=cards.get("foulsAway"),
+            ),
+        }
+        for side in ("home", "away"):
+            _attach_bios(player_props.get(side))
 
         # ANGLE 2 — métacognition : le modèle s'auto-évalue (confiance + raisons)
         meta = ctx.model_confidence(
