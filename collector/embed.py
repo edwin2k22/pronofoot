@@ -51,9 +51,8 @@ def _inject(html_path, data_path, marker_id, label):
     return True
 
 
-def _stamp_build(html_path):
+def _stamp_build(html_path, build, asset_version):
     """Injecte l'horodatage de génération (anti-cache visuel) dans <body data-build=...>."""
-    build = datetime.datetime.now().strftime("%d/%m %H:%M")
     with open(html_path, encoding="utf-8") as f:
         html = f.read()
     # met à jour ou ajoute l'attribut data-build sur <body>
@@ -61,12 +60,38 @@ def _stamp_build(html_path):
         html = re.sub(r'(<body[^>]*\sdata-build=")[^"]*(")', rf'\g<1>{build}\g<2>', html, count=1)
     else:
         html = re.sub(r'<body(\s|>)', f'<body data-build="{build}"\\1', html, count=1)
+    if re.search(r'<body[^>]*\sdata-version="[^"]*"', html):
+        html = re.sub(r'(<body[^>]*\sdata-version=")[^"]*(")', rf'\g<1>{asset_version}\g<2>', html, count=1)
+    else:
+        html = re.sub(r'<body([^>]*)>', rf'<body\1 data-version="{asset_version}">', html, count=1)
     with open(html_path, "w", encoding="utf-8") as f:
         f.write(html)
-    return build
+
+
+def _stamp_assets(html_path, asset_version):
+    """Versionne les CSS/JS locaux pour casser le cache GitHub Pages."""
+    with open(html_path, encoding="utf-8") as f:
+        html = f.read()
+
+    def repl(m):
+        attr, path, frag = m.group(1), m.group(2), m.group(3) or ""
+        return f'{attr}="{path}?v={asset_version}{frag}"'
+
+    html = re.sub(
+        r'(href|src)="(assets/[^"#?]+\.(?:css|js))(?:\?v=[^"#]*)?(#[^"]*)?"',
+        repl,
+        html,
+    )
+    with open(html_path, "w", encoding="utf-8") as f:
+        f.write(html)
 
 
 def main():
+    now = datetime.datetime.now()
+    build = now.strftime("%d/%m %H:%M")
+    asset_version = now.strftime("%Y%m%d%H%M%S")
+    index_html = os.path.join(ROOT, "index.html")
+    scouting_html = os.path.join(ROOT, "scouting.html")
     _inject(os.path.join(ROOT, "index.html"),
             os.path.join(DATA, "predictions.json"), "embedded-data", "matchs")
     tp_path = os.path.join(DATA, "top_picks.json")
@@ -95,8 +120,11 @@ def main():
                 h2h_path, "embedded-h2h", "confrontations H2H")
     _inject(os.path.join(ROOT, "scouting.html"),
             os.path.join(DATA, "squads_2026.json"), "embedded-squads", "effectifs")
-    b = _stamp_build(os.path.join(ROOT, "index.html"))
-    _stamp_build(os.path.join(ROOT, "scouting.html"))
+    _stamp_build(index_html, build, asset_version)
+    _stamp_build(scouting_html, build, asset_version)
+    _stamp_assets(index_html, asset_version)
+    _stamp_assets(scouting_html, asset_version)
+    b = build
     print(f"🕒 build estampillé : {b}")
 
 

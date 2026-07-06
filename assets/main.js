@@ -27,6 +27,7 @@ function setComboHistory(d) { COMBO_HISTORY = d; }
 
 const IS_LOCAL_SURFACE = ["localhost", "127.0.0.1", ""].includes(location.hostname) || location.protocol === "file:";
 const IS_PUBLIC_SURFACE = !IS_LOCAL_SURFACE;
+const APP_VERSION = document.body?.getAttribute("data-version") || document.body?.getAttribute("data-build") || "dev";
 
 const DASHBOARD_VIEW = {
   sort: localStorage.getItem("pf-sort") || "time",
@@ -2307,13 +2308,17 @@ let _clockSig = "";
   // recharge plus vite quand un match est en cours OU vient de démarrer / attend son résultat
   const hasLive = MATCHES.some(m=>{const s=effectiveStatus(m);return s==="LIVE"||s==="HT"||s==="KICKOFF"||s==="AWAITING";});
   setTimeout(async ()=>{
+    if(IS_PUBLIC_SURFACE){
+      refreshPublicPage();
+      return;
+    }
     await load();
     if(SELECTED){
       const m=MATCHES.find(x=>x.home+"|"+x.away===SELECTED);
       if(m) showDetail(m);
     }
     smartReload();
-  }, hasLive?20000:300000);
+  }, IS_PUBLIC_SURFACE ? (hasLive ? 120000 : 300000) : (hasLive ? 20000 : 300000));
 })();
 
 /* ===== PANNEAU D'ACTIONS (boutons) ===== */
@@ -2332,9 +2337,27 @@ function fillAdminMatches(){
 }
 function setAdminStatus(txt){ const e=$("adminStatus"); if(e) e.textContent=txt; }
 
+function refreshPublicPage(){
+  const url = new URL(location.href);
+  url.searchParams.set("v", `${APP_VERSION}-${Date.now()}`);
+  location.replace(url.toString());
+}
+
 function applyPublicSurface(){
   if(!IS_PUBLIC_SURFACE) return;
   document.documentElement.dataset.surface = "public";
+  const controls = document.querySelector(".controls");
+  if(controls && !$("publicRefresh")){
+    const btn = document.createElement("button");
+    btn.id = "publicRefresh";
+    btn.type = "button";
+    btn.className = "icon-btn";
+    btn.title = "Rafraichir la version publique";
+    btn.setAttribute("aria-label", "Rafraichir la version publique");
+    btn.textContent = "↻";
+    btn.onclick = refreshPublicPage;
+    controls.appendChild(btn);
+  }
   const adminToggle = $("toggleAdmin");
   if(adminToggle) adminToggle.remove();
   const adminPanel = $("adminPanel");

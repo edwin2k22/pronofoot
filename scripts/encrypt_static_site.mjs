@@ -78,6 +78,7 @@ const input = document.getElementById("pass");
 const btn = document.getElementById("btn");
 const err = document.getElementById("err");
 const payload = JSON.parse(document.getElementById("payload").textContent);
+const SESSION_PASS_KEY = "pronofoot-session-pass";
 
 function fromB64(s){
   const bin = atob(s);
@@ -105,15 +106,23 @@ form.addEventListener("submit", async (event)=>{
     const key = await derive(input.value);
     const html = await crypto.subtle.decrypt({name:"AES-GCM", iv:fromB64(payload.iv)}, key, fromB64(payload.data));
     const text = new TextDecoder().decode(html);
+    sessionStorage.setItem(SESSION_PASS_KEY, input.value);
     document.open();
     document.write(text);
     document.close();
   }catch(e){
+    sessionStorage.removeItem(SESSION_PASS_KEY);
     err.textContent = "Code incorrect. Verifie le code recu.";
     btn.disabled = false;
     input.select();
   }
 });
+
+const savedPass = sessionStorage.getItem(SESSION_PASS_KEY);
+if(savedPass){
+  input.value = savedPass;
+  setTimeout(()=>form.requestSubmit(), 0);
+}
 </script>
 </body>
 </html>`;
