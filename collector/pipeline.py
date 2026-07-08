@@ -475,14 +475,57 @@ TEAM_DATA_ALIASES = {
 }
 
 
+def _referee_context_from_real(home, away):
+    real_ref = _real_referee(home, away)
+    if not real_ref:
+        return None
+    referee = {"name": real_ref, "nation": None, "cardsAvg": None,
+               "source": "ESPN (réel)"}
+    ref_sev = refform.severity(real_ref)
+    if ref_sev:
+        referee.update({
+            "severity": ref_sev["avg"],
+            "severityN": ref_sev["n"],
+            "severitySrc": ref_sev["source"],
+        })
+    return referee
+
+
+def _hydrate_preserved_referee(match, mt):
+    pred = match.get("prediction") if isinstance(match, dict) else None
+    if not isinstance(pred, dict):
+        return
+    current_ref = pred.get("referee")
+    if isinstance(current_ref, dict) and current_ref.get("name"):
+        return
+
+    referee = _referee_context_from_real(mt["home"], mt["away"])
+    if not referee:
+        return
+    pred["referee"] = referee
+
+    cards = pred.get("cards")
+    if isinstance(cards, dict) and referee.get("severity") is not None:
+        cards["refSeverity"] = {
+            "avg": referee["severity"],
+            "n": referee.get("severityN", 0),
+            "source": referee.get("severitySrc"),
+        }
+
+    sources = match.get("sources")
+    if isinstance(sources, list) and "ESPN (arbitre réel)" not in sources:
+        sources.append("ESPN (arbitre réel)")
+
+
 def _refresh_preserved_match_identity(match, mt):
-    """Keep old prediction odds, but refresh the visible fixture identity."""
+    """Keep old prediction odds, but refresh the visible fixture context."""
     if not match or not mt:
         return
     match["home"] = mt["home"]
     match["away"] = mt["away"]
     match["date"] = mt["utc_date"]
     match["league"] = f"CDM 2026 · {mt['stage']}"
+    _hydrate_preserved_referee(match, mt)
 
 
 def _team_data_key(team, data):
