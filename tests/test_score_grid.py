@@ -132,6 +132,14 @@ class TestOutcomes:
         assert cell_sum(adjusted) == pytest.approx(1.0, abs=1e-6)
         assert adjusted[2][1] > grid[2][1]
 
+    def test_knockout_guard_reduces_large_favorite_clean_sheet_bias(self):
+        grid = sg.score_grid(3.0, 0.65, rho=0.0, gamma=0.0)
+        adjusted = sg.apply_knockout_score_guard(grid, 3.0, 0.65, stage_stake=1.0)
+        assert cell_sum(adjusted) == pytest.approx(1.0, abs=1e-6)
+        assert adjusted[3][0] < grid[3][0]
+        assert adjusted[3][1] > grid[3][1]
+        assert sg.outcomes(adjusted)["btts"] > sg.outcomes(grid)["btts"]
+
 
 # ---------- shock_gamma ----------
 class TestShockGamma:

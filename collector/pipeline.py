@@ -396,7 +396,7 @@ def _btts_confidence(btts_p, model_conf):
     else:
         label = "faible"
     # zone d'indécision : trop proche de 50/50 pour trancher honnêtement
-    if abs(btts_p - 0.5) < 0.06:
+    if abs(btts_p - 0.5) < 0.10:
         pick, label = "indécis", "faible"
     else:
         pick = "Oui" if btts_p >= 0.5 else "Non"
@@ -473,6 +473,16 @@ TEAM_DATA_ALIASES = {
     "USA": "United States",
     "Bosnia & Herzegovina": "Bosnia and Herzegovina",
 }
+
+
+def _refresh_preserved_match_identity(match, mt):
+    """Keep old prediction odds, but refresh the visible fixture identity."""
+    if not match or not mt:
+        return
+    match["home"] = mt["home"]
+    match["away"] = mt["away"]
+    match["date"] = mt["utc_date"]
+    match["league"] = f"CDM 2026 · {mt['stage']}"
 
 
 def _team_data_key(team, data):
@@ -1131,6 +1141,7 @@ def predict():
         old_p = old_preds.get(mt["id"]) or old_preds.get(old_key)
         # PRESERVE HISTORICAL PREDICTION to avoid look-ahead bias (changing past predictions based on new results)
         if mt["status"] in ("FINISHED", "LIVE", "HT") and old_p:
+            _refresh_preserved_match_identity(old_p, mt)
             old_p["id"] = mt["id"]
             old_p["status"] = mt["status"]
             old_p["liveScore"] = (f"{mt['home_goals']}-{mt['away_goals']}"
@@ -1328,6 +1339,7 @@ def predict():
         gamma = round(min(0.25, gamma_base + gamma_bonus + sg.shock_gamma(h["elo"] - a["elo"], mwi["stageStake"])), 3)
         raw_grid = sg.score_grid(lam_h, lam_a, rho=dyn_rho, gamma=gamma)
         grid = sg.apply_score_factors(raw_grid, score_factors)
+        grid = sg.apply_knockout_score_guard(grid, lam_h, lam_a, mwi["stageStake"])
 
         res = markets.result_model(h["elo"], a["elo"], lam_h, lam_a, grid=grid)
 

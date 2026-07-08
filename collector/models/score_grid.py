@@ -102,6 +102,63 @@ def apply_score_factors(grid, factors=None) -> list[list[float]]:
     return [[v / total for v in row] for row in out]
 
 
+def apply_knockout_score_guard(grid, lam_h: float, lam_a: float,
+                               stage_stake: float = 0.0) -> list[list[float]]:
+    """
+    Repond au biais observe en elimination directe: le modele classait trop vite
+    des gros clean sheets du favori (3-0/4-0) alors que l'outsider avait souvent
+    assez de volume pour marquer au moins une fois.
+
+    Le garde ne change rien aux matchs de faible enjeu. En knockout, il deplace
+    prudemment une partie de la masse des clean sheets larges vers les scores ou
+    les deux equipes marquent, sans changer la structure 1N2 de facon brutale.
+    """
+    if stage_stake < 0.8:
+        return [row[:] for row in grid]
+
+    try:
+        lam_h = float(lam_h)
+        lam_a = float(lam_a)
+    except (TypeError, ValueError):
+        return [row[:] for row in grid]
+
+    fav_home = lam_h >= lam_a
+    fav_lam = max(lam_h, lam_a)
+    dog_lam = min(lam_h, lam_a)
+    if fav_lam < 1.55 or dog_lam < 0.30:
+        return [row[:] for row in grid]
+
+    dog_signal = max(0.0, min(1.0, (dog_lam - 0.30) / 0.70))
+    clean_penalty = max(0.58, 1.0 - 0.22 * stage_stake - 0.18 * dog_signal)
+    fav_btts_boost = min(1.42, 1.0 + 0.22 * stage_stake + 0.18 * dog_signal)
+    dog_upset_boost = min(1.18, 1.0 + 0.08 * stage_stake * dog_signal)
+
+    out = []
+    total = 0.0
+    for i, row in enumerate(grid):
+        out_row = []
+        for j, p in enumerate(row):
+            fav_goals = i if fav_home else j
+            dog_goals = j if fav_home else i
+            fav_wins = i > j if fav_home else j > i
+            dog_wins = j > i if fav_home else i > j
+            factor = 1.0
+            if fav_wins and fav_goals >= 2 and dog_goals == 0:
+                factor *= clean_penalty
+            if fav_wins and fav_goals >= 2 and dog_goals >= 1:
+                factor *= fav_btts_boost
+            if dog_wins and dog_goals >= 1:
+                factor *= dog_upset_boost
+            v = max(0.0, p * factor)
+            out_row.append(v)
+            total += v
+        out.append(out_row)
+
+    if total <= 0:
+        return [row[:] for row in grid]
+    return [[v / total for v in row] for row in out]
+
+
 def shock_gamma(elo_diff: float, stage_stake: float, high_risk: bool = False) -> float:
     """
     Estime l'effet de choc γ selon le contexte :
