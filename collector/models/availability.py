@@ -144,5 +144,5 @@ def _norm(s):
     import re, unicodedata
     s = unicodedata.normalize("NFD", str(s or ""))
     s = "".join(c for c in s if unicodedata.category(c) != "Mn")
-    s = re.sub(r"\s*\((G|D|M|F|GK|DF|CB|RB|LB|MF|DM|CM|AM|FW|CF|RW|LW|ST|SUB|C)\)\s*$", "", s, flags=re.I)
+    s = re.sub(r"\s*\(([A-Z]{1,3}(?:-[A-Z])?|SUB|C)\)\s*$", "", s, flags=re.I)
     return s.lower().strip()

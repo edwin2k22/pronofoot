@@ -421,6 +421,18 @@ def _load_squads():
 _PROJECTED_LINEUPS_CACHE = None
 
 
+def _flip_lineup_sides(src):
+    return {
+        **src,
+        "home_formation": src.get("away_formation"),
+        "away_formation": src.get("home_formation"),
+        "home_xi": src.get("away_xi") or [],
+        "away_xi": src.get("home_xi") or [],
+        "home_bench": src.get("away_bench") or [],
+        "away_bench": src.get("home_bench") or [],
+    }
+
+
 def _load_projected_lineups():
     """Compos probables sourcées (ex: FotMob) utilisées avant le XI officiel."""
     global _PROJECTED_LINEUPS_CACHE
@@ -442,15 +454,34 @@ def _projected_lineup(home, away):
     src = data.get(rev)
     if not src:
         return None
-    return {
-        **src,
-        "home_formation": src.get("away_formation"),
-        "away_formation": src.get("home_formation"),
-        "home_xi": src.get("away_xi") or [],
-        "away_xi": src.get("home_xi") or [],
-        "home_bench": src.get("away_bench") or [],
-        "away_bench": src.get("home_bench") or [],
-    }
+    return _flip_lineup_sides(src)
+
+
+_MANUAL_LINEUPS_CACHE = None
+
+
+def _load_manual_lineups():
+    """XI confirmés par une source média fiable quand ESPN n'a pas encore publié."""
+    global _MANUAL_LINEUPS_CACHE
+    if _MANUAL_LINEUPS_CACHE is None:
+        try:
+            with open(os.path.join(DATA_DIR, "manual_lineups.json"), encoding="utf-8") as f:
+                _MANUAL_LINEUPS_CACHE = json.load(f)
+        except (OSError, ValueError):
+            _MANUAL_LINEUPS_CACHE = {}
+    return _MANUAL_LINEUPS_CACHE
+
+
+def _manual_lineup(home, away):
+    data = _load_manual_lineups()
+    key = f"{home}|{away}"
+    if key in data:
+        return data[key]
+    rev = f"{away}|{home}"
+    src = data.get(rev)
+    if not src:
+        return None
+    return _flip_lineup_sides(src)
 
 
 def _normalize_source_tags(match):
@@ -1235,8 +1266,9 @@ def predict():
                 lu = (json.loads(mt["events_json"]) or {}).get("lineups")
         except (KeyError, TypeError, ValueError):
             lu = None
-        projected_lu = None if lu else _projected_lineup(mt["home"], mt["away"])
-        lineup_src = lu or projected_lu or {}
+        manual_lu = None if lu else _manual_lineup(mt["home"], mt["away"])
+        projected_lu = None if (lu or manual_lu) else _projected_lineup(mt["home"], mt["away"])
+        lineup_src = lu or manual_lu or projected_lu or {}
         hform = lineup_src.get("home_formation", "4-3-3")
         aform = lineup_src.get("away_formation", "4-4-2")
         
@@ -1315,8 +1347,8 @@ def predict():
             ava = {"factor": 1.0, "missing": [], "applied": False}
         else:
             _pstats_av = _load_player_stats()
-            _xi_h = (lu or {}).get("home_xi")
-            _xi_a = (lu or {}).get("away_xi")
+            _xi_h = (lu or manual_lu or {}).get("home_xi")
+            _xi_a = (lu or manual_lu or {}).get("away_xi")
             avh = avail.availability_factor(_sq.get(mt["home"]), _xi_h, _pstats_av.get(mt["home"]))
             ava = avail.availability_factor(_sq.get(mt["away"]), _xi_a, _pstats_av.get(mt["away"]))
             lam_h = round(max(0.2, lam_h * avh["factor"]), 2)
@@ -1672,15 +1704,17 @@ def predict():
         analysis = _analyze_finished(mt, h, a, res, goals) if mt["status"] == "FINISHED" else None
         trends = _calculate_trends(conn, h["name"], a["name"])
         official_lineups = None
-        if lu and ((lu.get("home_xi") or []) or (lu.get("away_xi") or [])):
+        confirmed_lu = lu or manual_lu
+        if confirmed_lu and ((confirmed_lu.get("home_xi") or []) or (confirmed_lu.get("away_xi") or [])):
             official_lineups = {
-                "source": lu.get("source_xi") or lu.get("source") or "ESPN",
-                "homeFormation": lu.get("home_formation"),
-                "awayFormation": lu.get("away_formation"),
-                "homeXi": lu.get("home_xi") or [],
-                "awayXi": lu.get("away_xi") or [],
-                "homeBench": lu.get("home_bench") or [],
-                "awayBench": lu.get("away_bench") or [],
+                "source": confirmed_lu.get("source_xi") or confirmed_lu.get("source") or "ESPN",
+                "url": confirmed_lu.get("url"),
+                "homeFormation": confirmed_lu.get("home_formation"),
+                "awayFormation": confirmed_lu.get("away_formation"),
+                "homeXi": confirmed_lu.get("home_xi") or [],
+                "awayXi": confirmed_lu.get("away_xi") or [],
+                "homeBench": confirmed_lu.get("home_bench") or [],
+                "awayBench": confirmed_lu.get("away_bench") or [],
             }
         projected_lineups = None
         if (not official_lineups) and projected_lu and ((projected_lu.get("home_xi") or []) or (projected_lu.get("away_xi") or [])):
@@ -1695,6 +1729,8 @@ def predict():
                 "awayBench": projected_lu.get("away_bench") or [],
             }
         source_tags = ["free-mode", "openfootball", "SQLite", "Elo", "shrinkage", "FIFA-ratings"] + (["ESPN-free-odds", "market-implied-model"] if odd1 else []) + (["Smarkets-free-odds"] if oddBTTS_Yes else [])
+        if manual_lu:
+            source_tags.append("media-confirmed-XI")
         if projected_lineups:
             source_tags.append("FotMob-projected-XI")
         out.append({

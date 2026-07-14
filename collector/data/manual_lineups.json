@@ -1,0 +1,68 @@
+{
+  "France|Spain": {
+    "source": "Barca Blaugranes match thread (XI confirme)",
+    "url": "https://www.barcablaugranes.com/world-cup-2026/126548/france-spain-live-stream-lineups-kickoff-time-tv-channel-how-to-watch-world-cup-2026-online",
+    "home_formation": "4-2-3-1",
+    "away_formation": "4-2-3-1",
+    "home_xi": [
+      "Mike Maignan",
+      "Jules Kounde",
+      "William Saliba",
+      "Dayot Upamecano",
+      "Lucas Digne",
+      "Aurelien Tchouameni",
+      "Adrien Rabiot",
+      "Ousmane Dembele",
+      "Michael Olise",
+      "Bradley Barcola",
+      "Kylian Mbappe"
+    ],
+    "away_xi": [
+      "Unai Simon",
+      "Pedro Porro",
+      "Pau Cubarsi",
+      "Aymeric Laporte",
+      "Marc Cucurella",
+      "Rodri",
+      "Fabian Ruiz",
+      "Lamine Yamal",
+      "Dani Olmo",
+      "Alex Baena",
+      "Mikel Oyarzabal"
+    ],
+    "home_bench": [
+      "Brice Samba",
+      "Robin Risser",
+      "Malo Gusto",
+      "Ibrahima Konate",
+      "Theo Hernandez",
+      "Lucas Hernandez",
+      "Maxence Lacroix",
+      "Manu Kone",
+      "N'Golo Kante",
+      "Warren Zaire-Emery",
+      "Rayan Cherki",
+      "Maghnes Akliouche",
+      "Marcus Thuram",
+      "Desire Doue",
+      "Jean-Philippe Mateta"
+    ],
+    "away_bench": [
+      "David Raya",
+      "Joan Garcia",
+      "Marc Pubill",
+      "Alejandro Grimaldo",
+      "Eric Garcia",
+      "Marcos Llorente",
+      "Mikel Merino",
+      "Gavi",
+      "Martin Zubimendi",
+      "Pedri",
+      "Ferran Torres",
+      "Yeremy Pino",
+      "Nico Williams",
+      "Victor Munoz",
+      "Borja Iglesias"
+    ]
+  }
+}
