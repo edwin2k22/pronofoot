@@ -70,6 +70,9 @@ ASSIGNMENTS = {
     ("Jordan", "Argentina"):               ("István Kovács", "Roumanie"),
     # --- Round of 32 (source: FIFA Match Centre / presse live) ---
     ("Germany", "Paraguay"):               ("Jalal Jayed", "Maroc"),
+    # --- Semi-finals (source: désignations publiques FIFA / presse match officials) ---
+    ("France", "Spain"):                   ("Iván Arcides Barton Cisneros", "Salvador"),
+    ("England", "Argentina"):              ("Ismail Elfath", "Etats-Unis"),
 }
 # Sévérité connue de quelques arbitres = cartons TOTAUX par match (jaunes + rouges)
 # sur leur saison/carrière récente. Sources : statshub, soccerbase, worldfootball (2025-26).
